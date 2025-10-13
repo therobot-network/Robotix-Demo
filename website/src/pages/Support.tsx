@@ -54,7 +54,7 @@ function Support() {
       variants={pageVariants}
     >
       {/* Hero Header - Enhanced */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-16 overflow-hidden">
         {/* Background Layer */}
         <div className="absolute inset-0 bg-black">
           {/* Subtle accent lines */}

@@ -27,7 +27,7 @@ function Company() {
       variants={pageVariants}
     >
       {/* Hero Section - Modern with Animated Background */}
-      <section className="relative min-h-[55vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[44vh] flex items-center overflow-hidden">
         {/* Animated Gradient Background */}
         <div className="absolute inset-0 bg-black">
           {/* Subtle accent lines */}
