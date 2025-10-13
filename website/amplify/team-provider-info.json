@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-robotix-dev-fe62c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::539349732722:role/amplify-robotix-dev-fe62c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::539349732722:role/amplify-robotix-dev-fe62c-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-robotix-dev-fe62c-deployment",
+      "UnauthRoleName": "amplify-robotix-dev-fe62c-unauthRole",
+      "StackName": "amplify-robotix-dev-fe62c",
+      "StackId": "arn:aws:cloudformation:us-east-1:539349732722:stack/amplify-robotix-dev-fe62c/ecfb7f70-a85f-11f0-a366-0affff4e1ab5",
+      "AmplifyAppId": "d1o1ix2ahunyme"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1o1ix2ahunyme",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
