@@ -11,6 +11,7 @@ interface LayoutProps {
 function Layout({ children }: LayoutProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [logoHovered, setLogoHovered] = useState(false);
   const location = useLocation();
 
   const navigation = [
@@ -65,17 +66,79 @@ function Layout({ children }: LayoutProps) {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center group">
-              <motion.span 
-                className="text-xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-300 via-primary-200 to-secondary-300 drop-shadow-lg relative"
-                whileHover={{ scale: 1.08 }}
-                whileTap={{ scale: 0.95 }}
+              <motion.div 
+                className="flex items-center px-5 py-2.5 rounded-[12px] border border-white/20 bg-white/5 backdrop-blur-xl relative overflow-hidden"
+                whileTap={{ scale: 0.97 }}
+                onMouseEnter={() => setLogoHovered(true)}
+                onMouseLeave={() => setLogoHovered(false)}
                 style={{
-                  letterSpacing: '0.02em',
-                  textShadow: '0 0 20px rgba(14, 116, 144, 0.4), 0 2px 4px rgba(0, 0, 0, 0.2)'
+                  boxShadow: '0 4px 16px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
                 }}
               >
-                Robotix
-              </motion.span>
+                {/* Subtle gradient overlay */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-400/10 via-transparent to-accent-400/5 pointer-events-none"></div>
+                
+                {/* Text - Animated expansion */}
+                <span 
+                  className="text-base font-display font-black relative flex items-center"
+                  style={{
+                    letterSpacing: '0.02em',
+                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%)',
+                    WebkitBackgroundClip: 'text',
+                    backgroundClip: 'text',
+                    color: 'transparent',
+                    textShadow: '0 1px 3px rgba(0, 0, 0, 0.3), 0 0 8px rgba(14, 116, 144, 0.15)',
+                    filter: 'drop-shadow(0 0 1px rgba(14, 116, 144, 0.2))'
+                  }}
+                >
+                  <span>R</span>
+                  <motion.span
+                    animate={{ 
+                      width: logoHovered ? 'auto' : 0, 
+                      opacity: logoHovered ? 1 : 0 
+                    }}
+                    className="inline-block overflow-hidden"
+                    transition={{ 
+                      duration: logoHovered ? 0.3 : 0.4, 
+                      ease: [0.16, 1, 0.3, 1] 
+                    }}
+                  >
+                    <span className="inline-block">O</span>
+                  </motion.span>
+                  <span>B</span>
+                  <motion.span
+                    animate={{ 
+                      width: logoHovered ? 'auto' : 0, 
+                      opacity: logoHovered ? 1 : 0 
+                    }}
+                    className="inline-block overflow-hidden"
+                    transition={{ 
+                      duration: logoHovered ? 0.3 : 0.4, 
+                      ease: [0.16, 1, 0.3, 1], 
+                      delay: logoHovered ? 0.05 : 0.03 
+                    }}
+                  >
+                    <span className="inline-block">O</span>
+                  </motion.span>
+                  <span>T</span>
+                  <motion.span
+                    animate={{ 
+                      width: logoHovered ? 'auto' : 0, 
+                      opacity: logoHovered ? 1 : 0 
+                    }}
+                    className="inline-block overflow-hidden"
+                    transition={{ 
+                      duration: logoHovered ? 0.3 : 0.4, 
+                      ease: [0.16, 1, 0.3, 1], 
+                      delay: logoHovered ? 0.1 : 0.06 
+                    }}
+                  >
+                    <span className="inline-block">I</span>
+                  </motion.span>
+                  <span>X</span>
+                </span>
+                
+              </motion.div>
             </Link>
 
             {/* Desktop Navigation */}
@@ -260,10 +323,16 @@ function Layout({ children }: LayoutProps) {
             {/* Company Info */}
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <span className="text-lg font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-300 via-primary-200 to-secondary-300"
+                <span className="text-lg font-display font-black"
                   style={{
                     letterSpacing: '0.02em',
-                    textShadow: '0 0 15px rgba(14, 116, 144, 0.3)'
+                    color: 'transparent',
+                    background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.20) 100%)',
+                    WebkitBackgroundClip: 'text',
+                    backgroundClip: 'text',
+                    textShadow: '0 0 12px rgba(255, 255, 255, 0.25), 0 2px 4px rgba(0, 0, 0, 0.6)',
+                    WebkitTextStroke: '1px rgba(255, 255, 255, 0.5)',
+                    filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.15))'
                   }}>
                   Robotix
                 </span>
