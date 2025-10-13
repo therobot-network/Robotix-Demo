@@ -114,15 +114,15 @@ function Products() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
-            className="inline-flex items-center gap-2.5 px-5 py-2 bg-gradient-to-r from-primary-600 to-secondary-600 text-background rounded-full text-xs font-black mb-6 shadow-lg shadow-primary-600/30"
+            className="inline-flex items-center gap-2 px-4 py-1.5 bg-gradient-to-r from-primary-600 to-secondary-600 text-background rounded-full text-[11px] font-black mb-5 shadow-lg shadow-primary-600/30"
             variants={fadeInUp}
           >
-            <Package className="w-4 h-4" strokeWidth={2.5} />
+            <Package className="w-3.5 h-3.5" strokeWidth={2.5} />
             <span className="tracking-wide">Product Catalog</span>
           </motion.div>
           
           <motion.h1 
-            className="text-4xl md:text-5xl lg:text-6xl font-display font-black mb-5 tracking-tight"
+            className="text-2xl md:text-3xl lg:text-4xl font-display font-black mb-4 tracking-tight"
             variants={fadeInUp}
           >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-300 via-text to-accent-300">
@@ -130,7 +130,7 @@ function Products() {
             </span>
           </motion.h1>
           <motion.p 
-            className="text-lg md:text-xl text-text-muted max-w-3xl leading-relaxed"
+            className="text-sm md:text-base text-text-muted max-w-3xl leading-relaxed"
             variants={fadeInUp}
             transition={{ delay: 0.1 }}
           >
@@ -153,13 +153,13 @@ function Products() {
               variants={fadeInScale}
               whileHover={{ scale: 1.005 }}
             >
-              <Search className="absolute left-5 top-1/2 transform -translate-y-1/2 w-5 h-5 text-text-subtle group-hover:text-primary-400 transition-colors duration-300" />
+              <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-4 h-4 text-text-subtle group-hover:text-primary-400 transition-colors duration-300" />
               <input
                 type="text"
                 placeholder="Search products by name, category, or description..."
                 value={searchTerm}
                 onChange={(e) => handleSearchChange(e.target.value)}
-                className="w-full pl-14 pr-6 py-4 border-2 border-border rounded-2xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/70 outline-none transition-all duration-300 bg-surface/80 backdrop-blur-sm hover:border-primary-500/50 hover:bg-surface text-text placeholder:text-text-subtle shadow-lg hover:shadow-xl"
+                className="w-full pl-11 pr-5 py-2.5 border-2 border-border rounded-2xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/70 outline-none transition-all duration-300 bg-surface/80 backdrop-blur-sm hover:border-primary-500/50 hover:bg-surface text-text text-sm placeholder:text-text-subtle shadow-lg hover:shadow-xl"
               />
             </motion.div>
             <motion.div
@@ -169,7 +169,7 @@ function Products() {
               <select
                 value={sortBy}
                 onChange={(e) => handleSortChange(e.target.value)}
-                className="w-full md:w-auto px-6 py-4 border-2 border-border rounded-2xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/70 outline-none bg-surface text-text font-semibold cursor-pointer hover:border-primary-500/50 hover:bg-surface-elevated transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="w-full md:w-auto px-5 py-2.5 border-2 border-border rounded-2xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/70 outline-none bg-surface text-text text-sm font-semibold cursor-pointer hover:border-primary-500/50 hover:bg-surface-elevated transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <option value="name">Sort by Name</option>
                 <option value="price-low">Price: Low to High</option>
@@ -181,22 +181,22 @@ function Products() {
 
           {/* Category Filters */}
           <motion.div 
-            className="flex items-center gap-3 flex-wrap bg-surface/60 backdrop-blur-sm p-5 rounded-2xl border border-border/60 shadow-lg"
+            className="flex items-center gap-2.5 flex-wrap bg-surface/60 backdrop-blur-sm p-4 rounded-2xl border border-border/60 shadow-lg"
             variants={staggerContainer}
             initial="initial"
             animate="animate"
           >
-            <div className="flex items-center gap-2.5 mr-3">
-              <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center shadow-md">
-                <Filter className="w-4.5 h-4.5 text-white" strokeWidth={2.5} />
+            <div className="flex items-center gap-2 mr-2">
+              <div className="w-7 h-7 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center shadow-md">
+                <Filter className="w-4 h-4 text-white" strokeWidth={2.5} />
               </div>
-              <span className="text-sm font-bold text-text">Filter by Category</span>
+              <span className="text-xs font-bold text-text">Filter by Category</span>
             </div>
             {categories.map((category) => (
               <motion.button
                 key={category}
                 onClick={() => handleCategoryChange(category)}
-                className={`px-5 py-2.5 rounded-xl font-bold transition-all duration-300 ${
+                className={`px-4 py-2 rounded-xl font-bold text-xs transition-all duration-300 ${
                   selectedCategory === category
                     ? 'bg-gradient-to-r from-primary-600 to-primary-700 text-background shadow-lg shadow-primary-500/40 border-2 border-primary-500'
                     : 'bg-surface-elevated text-text-muted hover:bg-surface hover:text-primary-300 hover:border-primary-600/40 border-2 border-border/40 hover:shadow-md'
@@ -213,22 +213,22 @@ function Products() {
 
           {/* Results Count */}
           <motion.div 
-            className="flex items-center gap-2.5 text-text-muted font-medium"
+            className="flex items-center gap-2 text-text-muted font-medium"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <span className="text-sm">Showing</span>
+            <span className="text-xs">Showing</span>
             <motion.span 
               key={filteredProducts.length}
-              className="px-4 py-1.5 bg-gradient-to-r from-primary-600/20 to-accent-600/20 text-primary-300 rounded-lg font-bold border border-primary-600/30 shadow-sm"
+              className="px-3 py-1 bg-gradient-to-r from-primary-600/20 to-accent-600/20 text-primary-300 rounded-lg font-bold text-xs border border-primary-600/30 shadow-sm"
               initial={{ scale: 1.15, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.3 }}
             >
               {filteredProducts.length}
             </motion.span>
-            <span className="text-sm">
+            <span className="text-xs">
               {filteredProducts.length === 1 ? 'product' : 'products'}
             </span>
           </motion.div>
@@ -258,29 +258,29 @@ function Products() {
                     className="block h-full"
                   >
                     <motion.div
-                      className="bg-surface/90 backdrop-blur-sm rounded-[20px] p-7 shadow-xl border border-border hover:shadow-2xl hover:shadow-primary-500/25 hover:border-primary-500/50 transition-all duration-500 h-full group relative overflow-hidden"
+                      className="bg-surface/90 backdrop-blur-sm rounded-[16px] p-5 shadow-xl border border-border hover:shadow-2xl hover:shadow-primary-500/25 hover:border-primary-500/50 transition-all duration-500 h-full group relative overflow-hidden"
                       whileHover={{ y: -8, scale: 1.015 }}
                       transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
                     >
                       {/* Hover gradient overlay */}
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary-900/5 to-accent-900/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[20px]"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary-900/5 to-accent-900/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-[16px]"></div>
                       
                       <div className="relative">
                         {/* Header with category badge and hover icon */}
-                        <div className="mb-5 flex items-start justify-between">
-                          <span className="inline-block px-4 py-1.5 bg-gradient-to-r from-primary-600/30 to-primary-700/30 text-primary-300 rounded-xl text-[11px] font-bold border border-primary-500/40 shadow-sm tracking-wide backdrop-blur-sm">
+                        <div className="mb-4 flex items-start justify-between">
+                          <span className="inline-block px-3 py-1 bg-gradient-to-r from-primary-600/30 to-primary-700/30 text-primary-300 rounded-xl text-[10px] font-bold border border-primary-500/40 shadow-sm tracking-wide backdrop-blur-sm">
                             {product.category}
                           </span>
-                          <div className="w-10 h-10 bg-gradient-to-br from-primary-500/20 to-accent-500/20 border border-primary-500/30 rounded-[14px] flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:scale-[1.05] transition-all duration-500 shadow-md">
-                            <ArrowRight className="w-5 h-5 text-primary-300" strokeWidth={2.5} />
+                          <div className="w-8 h-8 bg-gradient-to-br from-primary-500/20 to-accent-500/20 border border-primary-500/30 rounded-[12px] flex items-center justify-center opacity-0 group-hover:opacity-100 group-hover:scale-[1.05] transition-all duration-500 shadow-md">
+                            <ArrowRight className="w-4 h-4 text-primary-300" strokeWidth={2.5} />
                           </div>
                         </div>
                 
-                        <h3 className="text-xl font-display font-bold text-text mb-3 group-hover:text-primary-300 transition-colors tracking-tight leading-tight">
+                        <h3 className="text-base font-display font-bold text-text mb-2.5 group-hover:text-primary-300 transition-colors tracking-tight leading-tight">
                           {product.product_name}
                         </h3>
                         
-                        <p className="text-text-muted mb-6 line-clamp-3 text-sm leading-relaxed">
+                        <p className="text-text-muted mb-5 line-clamp-3 text-xs leading-relaxed">
                           {product.description}
                         </p>
 
@@ -306,7 +306,7 @@ function Products() {
                         <div className="flex justify-between items-center pt-5 border-t border-border/70">
                           <div>
                             <div className="text-[10px] text-text-muted font-bold mb-1 uppercase tracking-wider">Starting at</div>
-                            <div className="text-2xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-300 to-accent-300 tracking-tight">
+                            <div className="text-xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-primary-300 to-accent-300 tracking-tight">
                               ${product.msrp.toLocaleString()}
                             </div>
                             <div className={`text-[10px] font-bold mt-1.5 ${product.inventory_on_hand > 0 ? 'text-accent-400' : 'text-text-subtle'}`}>

@@ -148,29 +148,55 @@ function Home() {
               animate="animate"
             >
               <motion.div 
-                className="inline-flex items-center gap-2.5 px-5 py-2.5 bg-white/20 backdrop-blur-xl rounded-full border border-white/30 shadow-lg shadow-black/20 group hover:bg-white/30 hover:scale-[1.02] transition-all duration-500 cursor-default mb-8"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-xl rounded-full border border-white/30 shadow-lg shadow-black/20 group hover:bg-white/30 hover:scale-[1.02] transition-all duration-500 cursor-default mb-6"
                 variants={staggerItem}
                 whileHover={{ scale: 1.02 }}
               >
-                <Sparkles className="w-4 h-4 text-accent-300 animate-pulse-slow" />
-                <span className="text-xs font-bold text-white tracking-wide">Leading Innovation Since 2015</span>
+                <Sparkles className="w-3.5 h-3.5 text-accent-300 animate-pulse-slow" />
+                <span className="text-[11px] font-bold text-white tracking-wide">Leading Innovation Since 2015</span>
               </motion.div>
               
-              <div className="flex flex-col justify-between min-h-[445px]">
+              <div className="flex flex-col justify-between min-h-[445px]" style={{ paddingTop: '10px' }}>
                 <div className="space-y-6">
                   <motion.h1 
-                    className="text-[2.75rem] md:text-6xl lg:text-7xl font-display font-black leading-[1.05] tracking-tight text-white"
+                    className="relative text-3xl md:text-4xl lg:text-5xl font-display font-black leading-[1.05] tracking-tight"
                     variants={staggerItem}
+                    style={{
+                      color: 'transparent',
+                      background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.25) 100%)',
+                      WebkitBackgroundClip: 'text',
+                      backgroundClip: 'text',
+                      textShadow: '0 0 15px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.8)',
+                      WebkitTextStroke: '1.5px rgba(255, 255, 255, 0.6)',
+                      filter: 'drop-shadow(0 0 10px rgba(255, 255, 255, 0.2))'
+                    }}
                   >
                     Revolutionizing<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-200 via-white to-accent-100 drop-shadow-2xl">
+                    <span style={{
+                      background: 'linear-gradient(135deg, rgba(255, 200, 150, 0.2) 0%, rgba(255, 220, 180, 0.3) 50%, rgba(255, 200, 150, 0.2) 100%)',
+                      WebkitBackgroundClip: 'text',
+                      backgroundClip: 'text',
+                      color: 'transparent',
+                      textShadow: '0 0 20px rgba(255, 200, 150, 0.4), 0 4px 8px rgba(0, 0, 0, 0.8)',
+                      WebkitTextStroke: '1.5px rgba(255, 200, 150, 0.7)',
+                      filter: 'drop-shadow(0 0 12px rgba(255, 200, 150, 0.3))'
+                    }}>
                       Industrial Automation
                     </span>
                   </motion.h1>
                   
                   <motion.p 
-                    className="text-lg md:text-xl text-white/95 leading-relaxed max-w-xl"
+                    className="relative text-sm md:text-base leading-relaxed max-w-xl"
                     variants={staggerItem}
+                    style={{
+                      color: 'transparent',
+                      background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.18) 100%)',
+                      WebkitBackgroundClip: 'text',
+                      backgroundClip: 'text',
+                      textShadow: '0 0 10px rgba(255, 255, 255, 0.25), 0 1px 3px rgba(0, 0, 0, 0.6)',
+                      WebkitTextStroke: '0.8px rgba(255, 255, 255, 0.5)',
+                      filter: 'drop-shadow(0 0 8px rgba(255, 255, 255, 0.15))'
+                    }}
                   >
                     Transform production with AI-driven robotics and intelligent automation systems.
                   </motion.p>
@@ -181,24 +207,24 @@ function Home() {
                   variants={staggerItem}
                 >
                 <Link to="/products" 
-                  className="group relative px-10 py-6 bg-white text-primary-900 rounded-[14px] font-bold text-lg inline-flex items-center shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-accent-400/30 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 overflow-hidden border border-white/50"
+                  className="group relative px-5 py-2.5 bg-white text-primary-900 rounded-[12px] font-bold text-sm inline-flex items-center shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-accent-400/30 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 overflow-hidden border border-white/50"
                   style={{ 
                     letterSpacing: '0.02em',
                     boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.8), 0 10px 20px rgba(0, 0, 0, 0.2)'
                   }}>
                   <span className="relative z-10">Explore Products</span>
-                  <ArrowRight className="w-5 h-5 ml-2 relative z-10 group-hover:translate-x-1 transition-transform duration-300" strokeWidth={2.5} />
+                  <ArrowRight className="w-4 h-4 ml-1.5 relative z-10 group-hover:translate-x-1 transition-transform duration-300" strokeWidth={2.5} />
                   <div className="absolute inset-0 bg-gradient-to-r from-accent-400 to-accent-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <span className="absolute inset-0 bg-gradient-to-r from-accent-400/0 to-accent-400/0 group-hover:from-accent-400/20 group-hover:to-accent-500/20 transition-all duration-300"></span>
                 </Link>
                 <Link to="/customer-portal" 
-                  className="group relative px-10 py-6 border-2 border-white/80 text-white rounded-[14px] font-bold text-lg inline-flex items-center backdrop-blur-sm bg-white/10 hover:bg-white hover:text-primary-900 hover:border-white hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 shadow-xl shadow-black/20"
+                  className="group relative px-5 py-2.5 border-2 border-white/80 text-white rounded-[12px] font-bold text-sm inline-flex items-center backdrop-blur-sm bg-white/10 hover:bg-white hover:text-primary-900 hover:border-white hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 shadow-xl shadow-black/20"
                   style={{ 
                     letterSpacing: '0.02em',
                     boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.15), 0 10px 20px rgba(0, 0, 0, 0.2)'
                   }}>
                   <span>Get Started</span>
-                  <Rocket className="w-5 h-5 ml-2 group-hover:rotate-12 group-hover:scale-110 transition-transform duration-300" strokeWidth={2.5} />
+                  <Rocket className="w-4 h-4 ml-1.5 group-hover:rotate-12 group-hover:scale-110 transition-transform duration-300" strokeWidth={2.5} />
                 </Link>
               </motion.div>
               </div>
@@ -214,61 +240,145 @@ function Home() {
             >
               <div className="max-w-md ml-auto space-y-4">
                 {/* Header Card */}
-                <div className="bg-white/95 backdrop-blur-xl p-6 rounded-[20px] border-2 border-white/50 shadow-2xl">
-                  <div className="flex items-center gap-3 mb-1">
-                    <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-[12px] flex items-center justify-center">
-                      <Package className="w-6 h-6 text-white" strokeWidth={2} />
+                <div className="group relative bg-white/[0.08] backdrop-blur-3xl p-5 rounded-[16px] border border-white/30 shadow-2xl overflow-hidden"
+                     style={{
+                       boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.5), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), inset 2px 0 4px rgba(255, 255, 255, 0.1)',
+                       background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%)',
+                       backdropFilter: 'blur(40px) saturate(180%)'
+                     }}>
+                  {/* Light refraction gradient overlay with glitch */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-white/5 pointer-events-none mix-blend-overlay"
+                       style={{ animation: 'glassGlitch 15s ease-in-out infinite' }}></div>
+                  
+                  {/* Shimmer sweep effect - only on hover */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300"
+                       style={{
+                         background: 'linear-gradient(110deg, transparent 40%, rgba(255, 255, 255, 0.15) 50%, transparent 60%)',
+                         backgroundSize: '200% 100%',
+                         animation: 'glassShimmer 1.5s ease-in-out'
+                       }}></div>
+                  
+                  {/* Dynamic distortion light spots */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-white/20 rounded-full blur-3xl pointer-events-none"
+                       style={{ animation: 'lightCaustic 6s ease-in-out infinite', animationDelay: '1s' }}></div>
+                  
+                  <div className="relative flex items-center gap-2.5 mb-1">
+                    <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-primary-700 rounded-[10px] flex items-center justify-center shadow-lg">
+                      <Package className="w-5 h-5 text-white" strokeWidth={2} />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-primary-700 tracking-wide">Explore Categories</div>
-                      <div className="text-xs text-primary-600">{activeProductCount} active products</div>
+                      <div className="text-xs font-bold text-white tracking-wide drop-shadow-lg">Explore Categories</div>
+                      <div className="text-[11px] text-white/80 drop-shadow">{activeProductCount} active products</div>
                     </div>
                   </div>
                 </div>
 
                 {/* Category Cards - Only showing categories with products */}
-                <Link to="/products?category=Industrial+Robots" className="group block bg-white/95 backdrop-blur-xl p-5 rounded-[16px] border-2 border-white/40 hover:border-primary-400 hover:shadow-lg transition-all duration-300">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary-400 to-primary-600 rounded-[14px] flex items-center justify-center group-hover:scale-[1.03] transition-all duration-300 shadow-lg">
-                        <Factory className="w-7 h-7 text-white" strokeWidth={2} />
+                <Link to="/products?category=Industrial+Robots" className="group relative block bg-white/[0.08] backdrop-blur-3xl p-4 rounded-[14px] border border-white/30 hover:border-primary-300/60 hover:shadow-2xl transition-all duration-300 overflow-hidden"
+                      style={{
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), inset 2px 0 4px rgba(255, 255, 255, 0.1)',
+                        background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%)',
+                        backdropFilter: 'blur(40px) saturate(180%)'
+                      }}>
+                  {/* Light refraction gradient overlay with glitch */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-primary-400/10 pointer-events-none mix-blend-overlay"
+                       style={{ animation: 'glassGlitch 15s ease-in-out infinite' }}></div>
+                  
+                  {/* Shimmer sweep effect - only on hover */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300"
+                       style={{
+                         background: 'linear-gradient(110deg, transparent 40%, rgba(255, 255, 255, 0.15) 50%, transparent 60%)',
+                         backgroundSize: '200% 100%',
+                         animation: 'glassShimmer 1.5s ease-in-out'
+                       }}></div>
+                  
+                  {/* Dynamic distortion light spots */}
+                  <div className="absolute -top-8 -right-8 w-24 h-24 bg-white/20 rounded-full blur-2xl pointer-events-none group-hover:bg-primary-300/30 transition-all duration-500"
+                       style={{ animation: 'lightCaustic 6s ease-in-out infinite', animationDelay: '1s' }}></div>
+                  
+                  <div className="relative flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-[12px] flex items-center justify-center group-hover:scale-[1.03] transition-all duration-300 shadow-lg">
+                        <Factory className="w-5 h-5 text-white" strokeWidth={2} />
                       </div>
                       <div>
-                        <div className="text-base font-bold text-primary-900 group-hover:text-primary-600 transition-colors">Industrial Robots</div>
-                        <div className="text-xs text-primary-700 font-medium">{industrialRobotsCount} models</div>
+                        <div className="text-sm font-bold text-white drop-shadow-lg group-hover:text-primary-200 transition-colors">Industrial Robots</div>
+                        <div className="text-[11px] text-white/80 font-medium drop-shadow">{industrialRobotsCount} models</div>
                       </div>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-primary-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300" />
+                    <ArrowRight className="w-4 h-4 text-white/80 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300 drop-shadow" />
                   </div>
                 </Link>
 
-                <Link to="/products?category=Collaborative+Robots" className="group block bg-white/95 backdrop-blur-xl p-5 rounded-[16px] border-2 border-white/40 hover:border-accent-400 hover:shadow-lg transition-all duration-300">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-accent-400 to-accent-600 rounded-[14px] flex items-center justify-center group-hover:scale-[1.03] transition-all duration-300 shadow-lg">
-                        <Bot className="w-7 h-7 text-white" strokeWidth={2} />
+                <Link to="/products?category=Collaborative+Robots" className="group relative block bg-white/[0.08] backdrop-blur-3xl p-4 rounded-[14px] border border-white/30 hover:border-accent-300/60 hover:shadow-2xl transition-all duration-300 overflow-hidden"
+                      style={{
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), inset 2px 0 4px rgba(255, 255, 255, 0.1)',
+                        background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%)',
+                        backdropFilter: 'blur(40px) saturate(180%)'
+                      }}>
+                  {/* Light refraction gradient overlay with glitch */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-accent-400/10 pointer-events-none mix-blend-overlay"
+                       style={{ animation: 'glassGlitch 15s ease-in-out infinite', animationDelay: '2s' }}></div>
+                  
+                  {/* Shimmer sweep effect - only on hover */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300"
+                       style={{
+                         background: 'linear-gradient(110deg, transparent 40%, rgba(255, 255, 255, 0.15) 50%, transparent 60%)',
+                         backgroundSize: '200% 100%',
+                         animation: 'glassShimmer 1.5s ease-in-out'
+                       }}></div>
+                  
+                  {/* Dynamic distortion light spots */}
+                  <div className="absolute -top-8 -right-8 w-24 h-24 bg-white/20 rounded-full blur-2xl pointer-events-none group-hover:bg-accent-300/30 transition-all duration-500"
+                       style={{ animation: 'lightCaustic 6s ease-in-out infinite', animationDelay: '1.5s' }}></div>
+                  
+                  <div className="relative flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-accent-400 to-accent-600 rounded-[12px] flex items-center justify-center group-hover:scale-[1.03] transition-all duration-300 shadow-lg">
+                        <Bot className="w-5 h-5 text-white" strokeWidth={2} />
                       </div>
                       <div>
-                        <div className="text-base font-bold text-primary-900 group-hover:text-accent-600 transition-colors">Collaborative Robots</div>
-                        <div className="text-xs text-primary-700 font-medium">{collaborativeRobotsCount} models</div>
+                        <div className="text-sm font-bold text-white drop-shadow-lg group-hover:text-accent-200 transition-colors">Collaborative Robots</div>
+                        <div className="text-[11px] text-white/80 font-medium drop-shadow">{collaborativeRobotsCount} models</div>
                       </div>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-accent-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300" />
+                    <ArrowRight className="w-4 h-4 text-white/80 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300 drop-shadow" />
                   </div>
                 </Link>
 
-                <Link to="/products?category=Mobile+Robots" className="group block bg-white/95 backdrop-blur-xl p-5 rounded-[16px] border-2 border-white/40 hover:border-secondary-400 hover:shadow-lg transition-all duration-300">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-secondary-400 to-secondary-600 rounded-[14px] flex items-center justify-center group-hover:scale-105 transition-all duration-300 shadow-lg">
-                        <Cpu className="w-7 h-7 text-white" strokeWidth={2} />
+                <Link to="/products?category=Mobile+Robots" className="group relative block bg-white/[0.08] backdrop-blur-3xl p-4 rounded-[14px] border border-white/30 hover:border-secondary-300/60 hover:shadow-2xl transition-all duration-300 overflow-hidden"
+                      style={{
+                        boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 0 0 rgba(255, 255, 255, 0.4), inset 0 -1px 0 0 rgba(255, 255, 255, 0.1), inset 2px 0 4px rgba(255, 255, 255, 0.1)',
+                        background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%)',
+                        backdropFilter: 'blur(40px) saturate(180%)'
+                      }}>
+                  {/* Light refraction gradient overlay with glitch */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-secondary-400/10 pointer-events-none mix-blend-overlay"
+                       style={{ animation: 'glassGlitch 15s ease-in-out infinite', animationDelay: '4s' }}></div>
+                  
+                  {/* Shimmer sweep effect - only on hover */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-300"
+                       style={{
+                         background: 'linear-gradient(110deg, transparent 40%, rgba(255, 255, 255, 0.15) 50%, transparent 60%)',
+                         backgroundSize: '200% 100%',
+                         animation: 'glassShimmer 1.5s ease-in-out'
+                       }}></div>
+                  
+                  {/* Dynamic distortion light spots */}
+                  <div className="absolute -top-8 -right-8 w-24 h-24 bg-white/20 rounded-full blur-2xl pointer-events-none group-hover:bg-secondary-300/30 transition-all duration-500"
+                       style={{ animation: 'lightCaustic 6s ease-in-out infinite', animationDelay: '2s' }}></div>
+                  
+                  <div className="relative flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-gradient-to-br from-secondary-400 to-secondary-600 rounded-[12px] flex items-center justify-center group-hover:scale-105 transition-all duration-300 shadow-lg">
+                        <Cpu className="w-5 h-5 text-white" strokeWidth={2} />
                       </div>
                       <div>
-                        <div className="text-base font-bold text-primary-900 group-hover:text-secondary-600 transition-colors">Mobile Robots</div>
-                        <div className="text-xs text-primary-700 font-medium">{mobileRobotsCount} models</div>
+                        <div className="text-sm font-bold text-white drop-shadow-lg group-hover:text-secondary-200 transition-colors">Mobile Robots</div>
+                        <div className="text-[11px] text-white/80 font-medium drop-shadow">{mobileRobotsCount} models</div>
                       </div>
                     </div>
-                    <ArrowRight className="w-5 h-5 text-secondary-600 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" />
+                    <ArrowRight className="w-4 h-4 text-white/80 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300 drop-shadow" />
                   </div>
                 </Link>
               </div>

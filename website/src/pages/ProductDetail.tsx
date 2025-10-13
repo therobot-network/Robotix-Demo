@@ -99,10 +99,10 @@ function ProductDetail() {
               <span className="inline-block px-3 py-1 bg-primary-800/50 text-primary-300 rounded-full text-sm font-semibold mb-4 border border-primary-600/40 shadow-sm">
                 {product.category}
               </span>
-              <h1 className="text-4xl font-bold font-bold text-text mb-4">
+              <h1 className="text-3xl font-bold font-bold text-text mb-4">
                 {product.product_name}
               </h1>
-              <p className="text-lg text-text-muted leading-relaxed">
+              <p className="text-base text-text-muted leading-relaxed">
                 {product.description}
               </p>
             </div>
@@ -110,7 +110,7 @@ function ProductDetail() {
             {/* Price */}
             <div className="bg-primary-800/30 rounded-xl p-6 border border-primary-600/40 shadow-sm">
               <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-4xl font-bold text-primary-300">
+                <span className="text-3xl font-bold text-primary-300">
                   ${product.msrp.toLocaleString()}
                 </span>
                 <span className="text-text-muted">USD</span>
@@ -179,8 +179,8 @@ function ProductDetail() {
           variants={fadeInUp}
           transition={{ delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold font-bold text-text mb-6 flex items-center">
-            <FileText className="w-6 h-6 mr-3 text-primary-300" />
+          <h2 className="text-xl font-bold font-bold text-text mb-6 flex items-center">
+            <FileText className="w-5 h-5 mr-3 text-primary-300" />
             Technical Specifications
           </h2>
           <motion.div 
@@ -242,8 +242,8 @@ function ProductDetail() {
         >
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-2xl font-bold font-bold mb-2 text-text">Need Documentation?</h3>
-              <p className="text-text/95 font-normal">
+              <h3 className="text-xl font-bold font-bold mb-2 text-text">Need Documentation?</h3>
+              <p className="text-text/95 font-normal text-sm">
                 Access technical specifications, user guides, and installation manuals
               </p>
             </div>
@@ -267,7 +267,7 @@ function ProductDetail() {
             animate="animate"
             transition={{ delay: 0.5 }}
           >
-            <h2 className="text-3xl font-bold font-bold text-text mb-8">Related Products</h2>
+            <h2 className="text-2xl font-bold font-bold text-text mb-8">Related Products</h2>
             <motion.div 
               className="grid md:grid-cols-3 gap-6"
               variants={staggerContainer}
@@ -293,10 +293,10 @@ function ProductDetail() {
                       {relatedProduct.category}
                     </span>
                   </div>
-                  <h3 className="text-lg font-semibold text-text mb-2">{relatedProduct.product_name}</h3>
+                  <h3 className="text-base font-semibold text-text mb-2">{relatedProduct.product_name}</h3>
                   <p className="text-text-muted text-sm mb-4 line-clamp-2">{relatedProduct.description}</p>
                   <div className="flex justify-between items-center pt-4 border-t border-border">
-                    <span className="text-xl font-bold text-primary-300">
+                    <span className="text-lg font-bold text-primary-300">
                       ${relatedProduct.msrp.toLocaleString()}
                     </span>
                       <span className="text-primary-300 text-sm font-semibold">View Details →</span>
