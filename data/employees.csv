@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,full_name,email,title,department,hire_date,salary,location,employment_type,manager,performance_rating,years_of_service,status
+EMP4998,Sarah,Chen,Sarah Chen,sarah.chen@robotix.com,Chief Executive Officer,Executive Leadership,2017-12-14,193743,Bothell,Part-time,Sarah Chen,3,7,Active
+EMP7088,Michael,Rodriguez,Michael Rodriguez,michael.rodriguez@robotix.com,Chief Financial Officer,Executive Leadership,2020-03-30,219212,Seattle,Full-time,Sarah Chen,5,5,Active
+EMP2280,Jennifer,Park,Jennifer Park,jennifer.park@robotix.com,VP of Human Resources,Human Resources,2020-03-27,82258,Minneapolis,Full-time,Jennifer Park,4,5,Active
+EMP3699,David,Martinez,David Martinez,david.martinez@robotix.com,VP of Sales,Sales & Marketing,2017-02-10,88310,Portland,Full-time,David Martinez,4,8,Active
+EMP3324,Emily,Thompson,Emily Thompson,emily.thompson@robotix.com,VP of Product Development,Product Development,2017-04-17,127785,Austin,Full-time,Emily Thompson,3,8,Active
+EMP8855,James,Wilson,James Wilson,james.wilson@robotix.com,Director of Manufacturing,Manufacturing,2021-03-26,46259,Austin,Full-time,James Wilson,4,4,Active
+EMP1244,Lisa,Anderson,Lisa Anderson,lisa.anderson@robotix.com,Director of Quality Assurance,Quality Assurance,2016-11-07,67863,Minneapolis,Full-time,Lisa Anderson,4,8,Active
+EMP2912,Robert,Kim,Robert Kim,robert.kim@robotix.com,Director of Customer Service,Customer Service,2023-03-07,59807,Austin,Part-time,Robert Kim,3,2,Active
+EMP5503,Amanda,Foster,Amanda Foster,amanda.foster@robotix.com,HR Manager,Human Resources,2022-03-19,87230,Austin,Part-time,Jennifer Park,3,3,Active
+EMP8389,Chris,Patel,Chris Patel,chris.patel@robotix.com,Marketing Manager,Sales & Marketing,2022-08-05,105633,Austin,Full-time,David Martinez,4,3,Active
+EMP3498,Nicole,Sanders,Nicole Sanders,nicole.sanders@robotix.com,Product Manager - Industrial Robots,Product Development,2020-11-14,86124,Minneapolis,Full-time,Emily Thompson,4,4,Active
+EMP9277,Marcus,Johnson,Marcus Johnson,marcus.johnson@robotix.com,Product Manager - Collaborative Robots,Product Development,2022-03-19,119304,Minneapolis,Part-time,Emily Thompson,5,3,Active
+EMP5348,Rachel,Green,Rachel Green,rachel.green@robotix.com,Senior Engineer,Product Development,2021-03-27,75822,Bothell,Full-time,Emily Thompson,5,4,Active
+EMP7259,Tom,Bradley,Tom Bradley,tom.bradley@robotix.com,Quality Control Specialist,Quality Assurance,2023-11-25,67774,Austin,Full-time,Lisa Anderson,4,1,Active
+EMP6066,Diana,Lopez,Diana Lopez,diana.lopez@robotix.com,Customer Support Lead,Customer Service,2015-09-08,44872,Minneapolis,Full-time,Robert Kim,5,10,Active
+EMP1811,Kevin,O'Brien,Kevin O'Brien,kevin.obrien@robotix.com,IT Manager,IT & Systems,2015-12-09,112722,Seattle,Full-time,Sarah Chen,4,9,Active
+EMP7655,Sophia,Nguyen,Sophia Nguyen,sophia.nguyen@robotix.com,Finance Manager,Finance,2023-01-18,102755,Bothell,Full-time,Sarah Chen,5,2,Active
+EMP4271,Daniel,Wright,Daniel Wright,daniel.wright@robotix.com,Legal Counsel,Legal & Compliance,2019-08-25,141386,Austin,Full-time,Sarah Chen,4,6,Active
+EMP2776,Jessica,Martinez,Jessica Martinez,jessica.martinez@robotix.com,Sales Representative,Sales & Marketing,2020-09-22,81991,Austin,Full-time,David Martinez,3,5,Active
+EMP1967,Brian,Cooper,Brian Cooper,brian.cooper@robotix.com,Manufacturing Supervisor,Manufacturing,2015-09-22,56234,Seattle,Full-time,James Wilson,5,10,Active

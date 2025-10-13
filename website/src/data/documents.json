@@ -1,0 +1,307 @@
+[
+  {
+    "id": "precisionarm-6-axis-spec",
+    "title": "PrecisionArm 6-Axis - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/precisionarm-6-axis---technical-specification.html",
+    "description": "Detailed technical specifications for the PrecisionArm 6-Axis industrial robot"
+  },
+  {
+    "id": "precisionarm-6-axis-guide",
+    "title": "PrecisionArm 6-Axis - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/precisionarm-6-axis---user-guide.html",
+    "description": "Comprehensive user guide for operating and maintaining the PrecisionArm 6-Axis robot"
+  },
+  {
+    "id": "heavyduty-articulated-robot-spec",
+    "title": "HeavyDuty Articulated Robot - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/heavyduty-articulated-robot---technical-specification.html",
+    "description": "Technical specifications for the HeavyDuty Articulated Robot"
+  },
+  {
+    "id": "heavyduty-articulated-robot-guide",
+    "title": "HeavyDuty Articulated Robot - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/heavyduty-articulated-robot---user-guide.html",
+    "description": "User guide for the HeavyDuty Articulated Robot"
+  },
+  {
+    "id": "highspeed-assembly-robot-spec",
+    "title": "HighSpeed Assembly Robot - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/highspeed-assembly-robot---technical-specification.html",
+    "description": "Technical specifications for the HighSpeed Assembly Robot"
+  },
+  {
+    "id": "highspeed-assembly-robot-guide",
+    "title": "HighSpeed Assembly Robot - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/highspeed-assembly-robot---user-guide.html",
+    "description": "User guide for the HighSpeed Assembly Robot"
+  },
+  {
+    "id": "welding-robot-pro-spec",
+    "title": "Welding Robot Pro - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/welding-robot-pro---technical-specification.html",
+    "description": "Technical specifications for the Welding Robot Pro"
+  },
+  {
+    "id": "welding-robot-pro-guide",
+    "title": "Welding Robot Pro - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/welding-robot-pro---user-guide.html",
+    "description": "User guide for the Welding Robot Pro"
+  },
+  {
+    "id": "cobot-precision-10kg-spec",
+    "title": "CoBot Precision 10kg - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/cobot-precision-10kg---technical-specification.html",
+    "description": "Technical specifications for the CoBot Precision 10kg collaborative robot"
+  },
+  {
+    "id": "cobot-precision-10kg-guide",
+    "title": "CoBot Precision 10kg - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/cobot-precision-10kg---user-guide.html",
+    "description": "User guide for the CoBot Precision 10kg collaborative robot"
+  },
+  {
+    "id": "cobot-assistant-5kg-spec",
+    "title": "CoBot Assistant 5kg - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/cobot-assistant-5kg---technical-specification.html",
+    "description": "Technical specifications for the CoBot Assistant 5kg"
+  },
+  {
+    "id": "cobot-assistant-5kg-guide",
+    "title": "CoBot Assistant 5kg - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/cobot-assistant-5kg---user-guide.html",
+    "description": "User guide for the CoBot Assistant 5kg"
+  },
+  {
+    "id": "cobot-dual-arm-system-spec",
+    "title": "CoBot Dual Arm System - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/cobot-dual-arm-system---technical-specification.html",
+    "description": "Technical specifications for the CoBot Dual Arm System"
+  },
+  {
+    "id": "cobot-dual-arm-system-guide",
+    "title": "CoBot Dual Arm System - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/cobot-dual-arm-system---user-guide.html",
+    "description": "User guide for the CoBot Dual Arm System"
+  },
+  {
+    "id": "cobot-mobile-platform-spec",
+    "title": "CoBot Mobile Platform - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/cobot-mobile-platform---technical-specification.html",
+    "description": "Technical specifications for the CoBot Mobile Platform"
+  },
+  {
+    "id": "cobot-mobile-platform-guide",
+    "title": "CoBot Mobile Platform - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/cobot-mobile-platform---user-guide.html",
+    "description": "User guide for the CoBot Mobile Platform"
+  },
+  {
+    "id": "autonav-agv-500-spec",
+    "title": "AutoNav AGV 500 - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/autonav-agv-500---technical-specification.html",
+    "description": "Technical specifications for the AutoNav AGV 500 autonomous guided vehicle"
+  },
+  {
+    "id": "autonav-agv-500-guide",
+    "title": "AutoNav AGV 500 - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/autonav-agv-500---user-guide.html",
+    "description": "User guide for the AutoNav AGV 500"
+  },
+  {
+    "id": "smartcart-amr-1000-spec",
+    "title": "SmartCart AMR 1000 - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/smartcart-amr-1000---technical-specification.html",
+    "description": "Technical specifications for the SmartCart AMR 1000 autonomous mobile robot"
+  },
+  {
+    "id": "smartcart-amr-1000-guide",
+    "title": "SmartCart AMR 1000 - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/smartcart-amr-1000---user-guide.html",
+    "description": "User guide for the SmartCart AMR 1000"
+  },
+  {
+    "id": "palletmover-robot-spec",
+    "title": "PalletMover Robot - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/palletmover-robot---technical-specification.html",
+    "description": "Technical specifications for the PalletMover Robot"
+  },
+  {
+    "id": "palletmover-robot-guide",
+    "title": "PalletMover Robot - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/palletmover-robot---user-guide.html",
+    "description": "User guide for the PalletMover Robot"
+  },
+  {
+    "id": "inspection-rover-spec",
+    "title": "Inspection Rover - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/inspection-rover---technical-specification.html",
+    "description": "Technical specifications for the Inspection Rover"
+  },
+  {
+    "id": "inspection-rover-guide",
+    "title": "Inspection Rover - User Guide",
+    "category": "Product",
+    "type": "User Guide",
+    "path": "/html_documents/product/inspection-rover---user-guide.html",
+    "description": "User guide for the Inspection Rover"
+  },
+  {
+    "id": "high-precision-gripper-spec",
+    "title": "High-Precision Gripper - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/high-precision-gripper---technical-specification.html",
+    "description": "Technical specifications for the High-Precision Gripper"
+  },
+  {
+    "id": "end-effector-kit-spec",
+    "title": "End Effector Kit - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/end-effector-kit---technical-specification.html",
+    "description": "Technical specifications for the End Effector Kit"
+  },
+  {
+    "id": "6-axis-force-sensor-spec",
+    "title": "6-Axis Force Sensor - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/6-axis-force-sensor---technical-specification.html",
+    "description": "Technical specifications for the 6-Axis Force Sensor"
+  },
+  {
+    "id": "vision-system-pro-spec",
+    "title": "Vision System Pro - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/vision-system-pro---technical-specification.html",
+    "description": "Technical specifications for the Vision System Pro"
+  },
+  {
+    "id": "safety-scanner-system-spec",
+    "title": "Safety Scanner System - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/safety-scanner-system---technical-specification.html",
+    "description": "Technical specifications for the Safety Scanner System"
+  },
+  {
+    "id": "robotos-control-suite-spec",
+    "title": "RobotOS Control Suite - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/robotos-control-suite---technical-specification.html",
+    "description": "Technical specifications for the RobotOS Control Suite software"
+  },
+  {
+    "id": "simulation-programming-tool-spec",
+    "title": "Simulation and Programming Tool - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/simulation-and-programming-tool---technical-specification.html",
+    "description": "Technical specifications for the Simulation and Programming Tool"
+  },
+  {
+    "id": "fleet-management-platform-spec",
+    "title": "Fleet Management Platform - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/fleet-management-platform---technical-specification.html",
+    "description": "Technical specifications for the Fleet Management Platform"
+  },
+  {
+    "id": "predictive-maintenance-ai-spec",
+    "title": "Predictive Maintenance AI - Technical Specification",
+    "category": "Product",
+    "type": "Technical Specification",
+    "path": "/html_documents/product/predictive-maintenance-ai---technical-specification.html",
+    "description": "Technical specifications for the Predictive Maintenance AI system"
+  },
+  {
+    "id": "employee-handbook-2024",
+    "title": "Employee Handbook 2024",
+    "category": "HR",
+    "type": "Policy Document",
+    "path": "/html_documents/hr/employee-handbook-2024.html",
+    "description": "Comprehensive employee handbook covering company policies, procedures, and guidelines"
+  },
+  {
+    "id": "benefits-overview-2024",
+    "title": "Benefits Overview 2024",
+    "category": "HR",
+    "type": "Policy Document",
+    "path": "/html_documents/hr/benefits-overview-2024.html",
+    "description": "Overview of employee benefits including health insurance, retirement plans, and other perks"
+  },
+  {
+    "id": "remote-work-policy",
+    "title": "Remote Work Policy",
+    "category": "HR",
+    "type": "Policy Document",
+    "path": "/html_documents/hr/remote-work-policy.html",
+    "description": "Guidelines and requirements for remote work arrangements"
+  },
+  {
+    "id": "privacy-policy",
+    "title": "Privacy Policy",
+    "category": "Legal",
+    "type": "Legal Document",
+    "path": "/html_documents/legal/privacy-policy.html",
+    "description": "Privacy policy outlining how we collect, use, and protect customer data"
+  },
+  {
+    "id": "warranty-return-policy",
+    "title": "Warranty and Return Policy",
+    "category": "Legal",
+    "type": "Legal Document",
+    "path": "/html_documents/legal/warranty-and-return-policy.html",
+    "description": "Warranty terms and return policy for all products"
+  }
+]
+
