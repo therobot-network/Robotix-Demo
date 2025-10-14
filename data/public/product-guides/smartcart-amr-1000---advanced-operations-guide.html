@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCart AMR 1000 - Advanced Operations Guide - Robotix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2563eb;
+            margin-top: 30px;
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #0ea5e9;
+            margin-top: 20px;
+        }
+        .metadata {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2563eb;
+        }
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .info {
+            background: #dbeafe;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>SmartCart AMR 1000<br>Advanced Operations Guide</h1>
+    
+    <div class="metadata">
+        <strong>Category:</strong> Product Guide | 
+        <strong>Type:</strong> Advanced | 
+        <strong>Date:</strong> October 13, 2025 | 
+        <strong>Author:</strong> Technical Writing Team
+    </div>
+    
+    <hr>
+    
+    <h2>Overview</h2>
+    <p>This guide provides comprehensive information about advanced operations guide for the SmartCart AMR 1000. 
+    Whether you're a new user or an experienced operator, this document will help you understand and implement 
+    best practices for advanced operations.</p>
+    
+    <div class="info">
+        <strong>📘 Note:</strong> This guide should be used in conjunction with the main product manual. 
+        For basic operation instructions, please refer to the SmartCart AMR 1000 User Guide.
+    </div>
+
+    <h2>1. Advanced Motion Control</h2>
+
+    <p>Advanced motion control features for optimized performance:</p>
+    
+    <h3>Trajectory Blending</h3>
+    <p>Use zone parameters to blend motions for smoother paths:</p>
+    <ul>
+        <li><code>z1</code> - 1mm radius blend (tight corners)</li>
+        <li><code>z10</code> - 10mm radius blend (balanced)</li>
+        <li><code>z50</code> - 50mm radius blend (high speed)</li>
+        <li><code>fine</code> - No blending (precise stop)</li>
+    </ul>
+    
+    <div class="info">
+        <strong>💡 Tip:</strong> Using zone parameters instead of fine positioning can reduce cycle time by 20-40%.
+    </div>
+
+    <h2>2. Path Planning Optimization</h2>
+    <p>Content for Path Planning Optimization section...</p>
+
+    <h2>3. Force Control Applications</h2>
+
+    <p>Implement force-controlled operations for delicate tasks:</p>
+    
+    <h3>Contact Detection</h3>
+    <code>ForceMode(TCP, [0,0,1,0,0,0], [0,0,20,0,0,0], 2, [.1,.1,.1,.1,.1,.1])</code>
+    
+    <p>Parameters:</p>
+    <ul>
+        <li>Reference frame: TCP</li>
+        <li>Selection vector: Z-axis only</li>
+        <li>Force limits: 20N in Z-direction</li>
+        <li>Type: 2 (compliant mode)</li>
+        <li>Limits: Motion limits per axis</li>
+    </ul>
+    
+    <h3>Applications</h3>
+    <ul>
+        <li>Part insertion and assembly</li>
+        <li>Surface following and deburring</li>
+        <li>Quality inspection with probing</li>
+        <li>Delicate material handling</li>
+    </ul>
+
+    <h2>4. Vision System Integration</h2>
+    <p>Content for Vision System Integration section...</p>
+
+    <h2>5. Multi-Robot Coordination</h2>
+    <p>Content for Multi-Robot Coordination section...</p>
+
+    <h2>6. Performance Tuning</h2>
+
+    <p>Optimize robot performance for your application:</p>
+    
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Default</th>
+            <th>Tuning Guide</th>
+        </tr>
+        <tr>
+            <td>Acceleration</td>
+            <td>100%</td>
+            <td>Reduce for delicate payloads (50-75%)</td>
+        </tr>
+        <tr>
+            <td>Jerk Limiting</td>
+            <td>Enabled</td>
+            <td>Disable for maximum speed in simple motions</td>
+        </tr>
+        <tr>
+            <td>Look-ahead</td>
+            <td>5 points</td>
+            <td>Increase to 10-20 for complex paths</td>
+        </tr>
+        <tr>
+            <td>Servo Gain</td>
+            <td>Medium</td>
+            <td>Increase for high precision, decrease if oscillating</td>
+        </tr>
+    </table>
+
+    <h2>7. Advanced Diagnostics</h2>
+    <p>Content for Advanced Diagnostics section...</p>
+
+    <h2>8. Custom Application Development</h2>
+    <p>Content for Custom Application Development section...</p>
+
+    <hr>
+    
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><strong>Technical Support:</strong> support@robotix.com | 1-800-ROBOTIX</li>
+        <li><strong>Training Portal:</strong> training.robotix.com</li>
+        <li><strong>Knowledge Base:</strong> kb.robotix.com</li>
+        <li><strong>Video Tutorials:</strong> youtube.com/robotixinc</li>
+    </ul>
+    
+    <div class="info">
+        <strong>Document Version:</strong> 1.0<br>
+        <strong>Last Updated:</strong> October 13, 2025<br>
+        <strong>Next Review:</strong> October 2026
+    </div>
+    
+    <p><em>© 2025 Robotix. All rights reserved. This document is proprietary and confidential.</em></p>
+    
+</body>
+</html>
