@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-10-13 07:37:15",
+  "generated_date": "2025-10-13 18:41:21",
   "company": {
     "name": "Robotix",
     "tagline": "Automate Your Future",
@@ -129,6 +129,45 @@
         "assigned_to",
         "category",
         "satisfaction_rating"
+      ]
+    },
+    "invoices": {
+      "record_count": 200,
+      "fields": [
+        "invoice_id",
+        "customer_id",
+        "order_id",
+        "invoice_date",
+        "due_date",
+        "subtotal",
+        "tax",
+        "shipping",
+        "total",
+        "payment_status",
+        "payment_date",
+        "payment_method",
+        "notes"
+      ]
+    },
+    "marketing_campaigns": {
+      "record_count": 50,
+      "fields": [
+        "campaign_id",
+        "campaign_name",
+        "campaign_type",
+        "target_audience",
+        "start_date",
+        "end_date",
+        "budget",
+        "actual_spend",
+        "leads_generated",
+        "conversions",
+        "conversion_rate",
+        "revenue_generated",
+        "roi",
+        "status",
+        "owner",
+        "notes"
       ]
     }
   }

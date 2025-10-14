@@ -264,44 +264,67 @@
     "description": "Technical specifications for the Predictive Maintenance AI system"
   },
   {
-    "id": "employee-handbook-2024",
-    "title": "Employee Handbook 2024",
-    "category": "HR",
-    "type": "Policy Document",
-    "path": "/html_documents/hr/employee-handbook-2024.html",
-    "description": "Comprehensive employee handbook covering company policies, procedures, and guidelines"
+    "id": "budget-report-q1-2024",
+    "title": "Budget Report - Q1 2024",
+    "category": "Financial",
+    "type": "Budget Report",
+    "path": "/html_documents/financial/budget-report---q1-2024.html",
+    "description": "Quarterly budget report for Q1 2024 showing revenue and expenses by department"
   },
   {
-    "id": "benefits-overview-2024",
-    "title": "Benefits Overview 2024",
-    "category": "HR",
-    "type": "Policy Document",
-    "path": "/html_documents/hr/benefits-overview-2024.html",
-    "description": "Overview of employee benefits including health insurance, retirement plans, and other perks"
+    "id": "budget-report-q2-2024",
+    "title": "Budget Report - Q2 2024",
+    "category": "Financial",
+    "type": "Budget Report",
+    "path": "/html_documents/financial/budget-report---q2-2024.html",
+    "description": "Quarterly budget report for Q2 2024 showing revenue and expenses by department"
   },
   {
-    "id": "remote-work-policy",
-    "title": "Remote Work Policy",
-    "category": "HR",
-    "type": "Policy Document",
-    "path": "/html_documents/hr/remote-work-policy.html",
-    "description": "Guidelines and requirements for remote work arrangements"
+    "id": "budget-report-q3-2024",
+    "title": "Budget Report - Q3 2024",
+    "category": "Financial",
+    "type": "Budget Report",
+    "path": "/html_documents/financial/budget-report---q3-2024.html",
+    "description": "Quarterly budget report for Q3 2024 showing revenue and expenses by department"
   },
   {
-    "id": "privacy-policy",
-    "title": "Privacy Policy",
-    "category": "Legal",
-    "type": "Legal Document",
-    "path": "/html_documents/legal/privacy-policy.html",
-    "description": "Privacy policy outlining how we collect, use, and protect customer data"
+    "id": "budget-report-q4-2024",
+    "title": "Budget Report - Q4 2024",
+    "category": "Financial",
+    "type": "Budget Report",
+    "path": "/html_documents/financial/budget-report---q4-2024.html",
+    "description": "Quarterly budget report for Q4 2024 showing revenue and expenses by department"
   },
   {
-    "id": "warranty-return-policy",
-    "title": "Warranty and Return Policy",
-    "category": "Legal",
-    "type": "Legal Document",
-    "path": "/html_documents/legal/warranty-and-return-policy.html",
-    "description": "Warranty terms and return policy for all products"
+    "id": "budget-report-q1-2025",
+    "title": "Budget Report - Q1 2025",
+    "category": "Financial",
+    "type": "Budget Report",
+    "path": "/html_documents/financial/budget-report---q1-2025.html",
+    "description": "Quarterly budget report for Q1 2025 showing revenue and expenses by department"
+  },
+  {
+    "id": "product-satisfaction-survey",
+    "title": "Product Satisfaction Survey",
+    "category": "Marketing",
+    "type": "Survey Template",
+    "path": "/html_documents/marketing/product-satisfaction-survey.html",
+    "description": "Customer survey about product quality and satisfaction"
+  },
+  {
+    "id": "customer-service-experience-survey",
+    "title": "Customer Service Experience Survey",
+    "category": "Marketing",
+    "type": "Survey Template",
+    "path": "/html_documents/marketing/customer-service-experience-survey.html",
+    "description": "Survey about customer service interactions and support quality"
+  },
+  {
+    "id": "post-purchase-feedback-form",
+    "title": "Post-Purchase Feedback Form",
+    "category": "Marketing",
+    "type": "Survey Template",
+    "path": "/html_documents/marketing/post-purchase-feedback-form.html",
+    "description": "Feedback form for customers after product delivery"
   }
 ]
-

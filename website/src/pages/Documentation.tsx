@@ -24,7 +24,7 @@ function Documentation() {
   const [documentContent, setDocumentContent] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  const categories = ['All', 'Product', 'HR', 'Legal'];
+  const categories = ['All', 'Product'];
   
   // Get selected category from URL params, default to 'All'
   const selectedCategory = searchParams.get('category') || 'All';
@@ -170,18 +170,6 @@ function Documentation() {
                     <span className="text-text-muted">Product Docs</span>
                     <span className="font-bold text-accent-300 text-base">
                       {documents.filter(d => d.category === 'Product').length}
-                    </span>
-                  </div>
-                  <div className="flex justify-between items-center p-2 rounded-lg bg-surface-elevated/50">
-                    <span className="text-text-muted">HR Policies</span>
-                    <span className="font-bold text-secondary-300 text-base">
-                      {documents.filter(d => d.category === 'HR').length}
-                    </span>
-                  </div>
-                  <div className="flex justify-between items-center p-2 rounded-lg bg-surface-elevated/50">
-                    <span className="text-text-muted">Legal Docs</span>
-                    <span className="font-bold text-text text-base">
-                      {documents.filter(d => d.category === 'Legal').length}
                     </span>
                   </div>
                 </div>
