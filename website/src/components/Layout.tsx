@@ -64,82 +64,103 @@ function Layout({ children }: LayoutProps) {
       >
         <nav className="w-full px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            {/* Logo */}
-            <Link to="/" className="flex items-center group">
-              <motion.div 
-                className="flex items-center px-5 py-2.5 rounded-[12px] border border-white/20 bg-white/5 backdrop-blur-xl relative overflow-hidden"
-                whileTap={{ scale: 0.97 }}
-                onMouseEnter={() => setLogoHovered(true)}
-                onMouseLeave={() => setLogoHovered(false)}
-                style={{
-                  boxShadow: '0 4px 16px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
-                }}
-              >
-                {/* Subtle gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-400/10 via-transparent to-accent-400/5 pointer-events-none"></div>
-                
-                {/* Text - Animated expansion */}
-                <span 
-                  className="text-base font-display font-black relative flex items-center"
+            {/* Logo and Demo Files Button */}
+            <div className="flex items-center gap-3">
+              <Link to="/" className="flex items-center group">
+                <motion.div 
+                  className="flex items-center px-5 py-2.5 rounded-[12px] border border-white/20 bg-white/5 backdrop-blur-xl relative overflow-hidden"
+                  whileTap={{ scale: 0.97 }}
+                  onMouseEnter={() => setLogoHovered(true)}
+                  onMouseLeave={() => setLogoHovered(false)}
                   style={{
-                    letterSpacing: '0.02em',
-                    background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%)',
-                    WebkitBackgroundClip: 'text',
-                    backgroundClip: 'text',
-                    color: 'transparent',
-                    textShadow: '0 1px 3px rgba(0, 0, 0, 0.3), 0 0 8px rgba(14, 116, 144, 0.15)',
-                    filter: 'drop-shadow(0 0 1px rgba(14, 116, 144, 0.2))'
+                    boxShadow: '0 4px 16px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.1)'
                   }}
                 >
-                  <span>R</span>
-                  <motion.span
-                    animate={{ 
-                      width: logoHovered ? 'auto' : 0, 
-                      opacity: logoHovered ? 1 : 0 
-                    }}
-                    className="inline-block overflow-hidden"
-                    transition={{ 
-                      duration: logoHovered ? 0.3 : 0.4, 
-                      ease: [0.16, 1, 0.3, 1] 
-                    }}
-                  >
-                    <span className="inline-block">O</span>
-                  </motion.span>
-                  <span>B</span>
-                  <motion.span
-                    animate={{ 
-                      width: logoHovered ? 'auto' : 0, 
-                      opacity: logoHovered ? 1 : 0 
-                    }}
-                    className="inline-block overflow-hidden"
-                    transition={{ 
-                      duration: logoHovered ? 0.3 : 0.4, 
-                      ease: [0.16, 1, 0.3, 1], 
-                      delay: logoHovered ? 0.05 : 0.03 
+                  {/* Subtle gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-400/10 via-transparent to-accent-400/5 pointer-events-none"></div>
+                  
+                  {/* Text - Animated expansion */}
+                  <span 
+                    className="text-base font-display font-black relative flex items-center"
+                    style={{
+                      letterSpacing: '0.02em',
+                      background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%)',
+                      WebkitBackgroundClip: 'text',
+                      backgroundClip: 'text',
+                      color: 'transparent',
+                      textShadow: '0 1px 3px rgba(0, 0, 0, 0.3), 0 0 8px rgba(14, 116, 144, 0.15)',
+                      filter: 'drop-shadow(0 0 1px rgba(14, 116, 144, 0.2))'
                     }}
                   >
-                    <span className="inline-block">O</span>
-                  </motion.span>
-                  <span>T</span>
-                  <motion.span
-                    animate={{ 
-                      width: logoHovered ? 'auto' : 0, 
-                      opacity: logoHovered ? 1 : 0 
-                    }}
-                    className="inline-block overflow-hidden"
-                    transition={{ 
-                      duration: logoHovered ? 0.3 : 0.4, 
-                      ease: [0.16, 1, 0.3, 1], 
-                      delay: logoHovered ? 0.1 : 0.06 
-                    }}
-                  >
-                    <span className="inline-block">I</span>
-                  </motion.span>
-                  <span>X</span>
-                </span>
-                
-              </motion.div>
-            </Link>
+                    <span>R</span>
+                    <motion.span
+                      animate={{ 
+                        width: logoHovered ? 'auto' : 0, 
+                        opacity: logoHovered ? 1 : 0 
+                      }}
+                      className="inline-block overflow-hidden"
+                      transition={{ 
+                        duration: logoHovered ? 0.3 : 0.4, 
+                        ease: [0.16, 1, 0.3, 1] 
+                      }}
+                    >
+                      <span className="inline-block">O</span>
+                    </motion.span>
+                    <span>B</span>
+                    <motion.span
+                      animate={{ 
+                        width: logoHovered ? 'auto' : 0, 
+                        opacity: logoHovered ? 1 : 0 
+                      }}
+                      className="inline-block overflow-hidden"
+                      transition={{ 
+                        duration: logoHovered ? 0.3 : 0.4, 
+                        ease: [0.16, 1, 0.3, 1], 
+                        delay: logoHovered ? 0.05 : 0.03 
+                      }}
+                    >
+                      <span className="inline-block">O</span>
+                    </motion.span>
+                    <span>T</span>
+                    <motion.span
+                      animate={{ 
+                        width: logoHovered ? 'auto' : 0, 
+                        opacity: logoHovered ? 1 : 0 
+                      }}
+                      className="inline-block overflow-hidden"
+                      transition={{ 
+                        duration: logoHovered ? 0.3 : 0.4, 
+                        ease: [0.16, 1, 0.3, 1], 
+                        delay: logoHovered ? 0.1 : 0.06 
+                      }}
+                    >
+                      <span className="inline-block">I</span>
+                    </motion.span>
+                    <span>X</span>
+                  </span>
+                  
+                </motion.div>
+              </Link>
+              
+              {/* Demo Files Button */}
+              <Link
+                to="/demo-files"
+                className="hidden md:block px-5 py-2.5 bg-gradient-to-r from-accent-600 to-accent-700 text-background rounded-lg font-bold text-sm border border-accent-500/30 relative overflow-hidden"
+                style={{ 
+                  letterSpacing: '0.025em',
+                  boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(245, 158, 11, 0.3)',
+                  outline: 'none'
+                }}
+                onMouseDown={(e) => {
+                  e.preventDefault();
+                }}
+                onClick={(e) => {
+                  (e.currentTarget as HTMLAnchorElement).blur();
+                }}
+              >
+                Demo Files
+              </Link>
+            </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-1">
@@ -168,27 +189,10 @@ function Layout({ children }: LayoutProps) {
                   </Link>
                 </div>
               ))}
-              <div className="flex gap-2">
-                <Link
-                  to="/demo-files"
-                  className="ml-3 px-5 py-2.5 bg-gradient-to-r from-accent-600 to-accent-700 text-background rounded-lg font-bold text-sm border border-accent-500/30 relative overflow-hidden"
-                  style={{ 
-                    letterSpacing: '0.025em',
-                    boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(245, 158, 11, 0.3)',
-                    outline: 'none'
-                  }}
-                  onMouseDown={(e) => {
-                    e.preventDefault();
-                  }}
-                  onClick={(e) => {
-                    (e.currentTarget as HTMLAnchorElement).blur();
-                  }}
-                >
-                  Demo Files
-                </Link>
+              <div>
                 <Link
                   to="/customer-portal"
-                  className="px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-700 text-background rounded-lg font-bold text-sm border border-primary-500/30 relative overflow-hidden"
+                  className="ml-3 px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-700 text-background rounded-lg font-bold text-sm border border-primary-500/30 relative overflow-hidden"
                   style={{ 
                     letterSpacing: '0.025em',
                     boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(14, 116, 144, 0.3)',
