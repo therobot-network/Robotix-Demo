@@ -1,0 +1,201 @@
+ticket_id,customer_id,customer_email,company_name,subject,priority,status,created_date,resolved_date,assigned_to,category,satisfaction_rating
+TICK10000,CUST10010,patricia.williams@precisionassembly.com,Precision Assembly,Replacement parts inquiry,Low,Open,2024-08-22,,Diana Lopez,Warranty,
+TICK10001,CUST10244,joseph.rodriguez@techrobotics.com,Tech Robotics,Warranty claim - mechanical issue,High,Resolved,2024-03-27,2024-04-09,Diana Lopez,Programming,3
+TICK10002,CUST10104,william.davis556@email.com,Individual,Performance optimization question,Medium,Open,2024-04-11,,Robert Kim,Maintenance,
+TICK10003,CUST10357,joseph.miller@eliteautomation.com,Elite Automation,Replacement parts inquiry,Medium,Resolved,2023-07-24,2023-07-27,Robert Kim,Technical Support,4
+TICK10004,CUST10191,jennifer.smith492@email.com,Individual,Sensor calibration issue,Medium,Resolved,2023-08-05,2023-08-08,Diana Lopez,Training,4
+TICK10005,CUST10192,richard.garcia206@email.com,Individual,Software integration question,Medium,Open,2024-03-08,,Diana Lopez,Maintenance,
+TICK10006,CUST10461,susan.hernandez@advancedrobotics.com,Advanced Robotics,Maintenance and calibration request,Medium,Resolved,2024-08-26,2024-09-07,Diana Lopez,Installation,
+TICK10007,CUST10308,linda.williams@industrialmanufacturing.com,Industrial Manufacturing,Performance optimization question,High,Resolved,2023-12-25,2024-01-08,Diana Lopez,Technical Support,4
+TICK10008,CUST10029,elizabeth.jones@advancedmanufacturing.com,Advanced Manufacturing,Programming support needed,Medium,Resolved,2023-08-08,2023-08-16,Diana Lopez,Warranty,
+TICK10009,CUST10120,joseph.garcia557@email.com,Individual,Robot not responding to commands,Critical,Closed,2023-08-30,2023-09-08,Robert Kim,Installation,
+TICK10010,CUST10178,michael.garcia@precisionsystems.com,Precision Systems,Replacement parts inquiry,Low,Closed,2023-05-05,2023-05-10,Diana Lopez,Programming,
+TICK10011,CUST10324,linda.lopez@precisiontechnologies.com,Precision Technologies,Installation and setup assistance,Medium,In Progress,2023-01-21,,Robert Kim,Warranty,
+TICK10012,CUST10204,linda.anderson@smartautomation.com,Smart Automation,Maintenance and calibration request,Critical,In Progress,2023-10-31,,Robert Kim,Technical Support,
+TICK10013,CUST10192,richard.garcia206@email.com,Individual,Training and documentation request,Critical,Resolved,2024-08-14,2024-08-15,Diana Lopez,Installation,
+TICK10014,CUST10348,joseph.martinez@innovativeindustries.com,Innovative Industries,Robot not responding to commands,High,In Progress,2023-08-11,,Robert Kim,Technical Support,
+TICK10015,CUST10394,robert.anderson@innovativeassembly.com,Innovative Assembly,Robot not responding to commands,Medium,In Progress,2023-06-23,,Diana Lopez,Installation,
+TICK10016,CUST10498,jessica.johnson@smartautomation.com,Smart Automation,Installation and setup assistance,Medium,Resolved,2023-07-07,2023-07-18,Robert Kim,Technical Support,
+TICK10017,CUST10056,william.johnson@precisionindustries.com,Precision Industries,Safety system troubleshooting,High,Resolved,2023-04-16,2023-04-18,Diana Lopez,Training,5
+TICK10018,CUST10035,jennifer.jones668@email.com,Individual,Installation and setup assistance,Critical,Closed,2023-02-23,2023-03-04,Diana Lopez,Training,
+TICK10019,CUST10492,james.smith@precisionrobotics.com,Precision Robotics,Programming support needed,Medium,Resolved,2023-04-18,2023-04-30,Robert Kim,Technical Support,
+TICK10020,CUST10178,michael.garcia@precisionsystems.com,Precision Systems,Robot not responding to commands,Medium,Closed,2024-05-14,2024-05-17,Robert Kim,Technical Support,4
+TICK10021,CUST10100,susan.brown@globalindustries.com,Global Industries,Training and documentation request,Medium,Open,2024-12-03,,Diana Lopez,Installation,
+TICK10022,CUST10045,david.rodriguez53@email.com,Individual,Sensor calibration issue,Low,Resolved,2024-11-29,2024-12-07,Robert Kim,Installation,4
+TICK10023,CUST10281,michael.anderson@advancedsystems.com,Advanced Systems,Performance optimization question,Low,In Progress,2024-01-03,,Robert Kim,Programming,
+TICK10024,CUST10341,linda.taylor950@email.com,Individual,Warranty claim - mechanical issue,Medium,In Progress,2023-11-13,,Robert Kim,Training,
+TICK10025,CUST10108,richard.hernandez560@email.com,Individual,Replacement parts inquiry,High,Resolved,2023-07-03,2023-07-10,Diana Lopez,Installation,3
+TICK10026,CUST10330,elizabeth.hernandez78@email.com,Individual,Programming support needed,High,In Progress,2023-01-18,,Robert Kim,Programming,
+TICK10027,CUST10263,john.garcia@smartindustries.com,Smart Industries,Technical specifications question,Low,Open,2024-02-07,,Robert Kim,Maintenance,
+TICK10028,CUST10436,michael.taylor@innovativerobotics.com,Innovative Robotics,Network connectivity issue,Medium,Resolved,2023-12-05,2023-12-19,Robert Kim,Technical Support,5
+TICK10029,CUST10107,jessica.williams445@email.com,Individual,Programming support needed,Low,Resolved,2023-06-06,2023-06-20,Diana Lopez,Programming,
+TICK10030,CUST10258,william.martinez@globalmanufacturing.com,Global Manufacturing,Network connectivity issue,Low,Closed,2024-07-23,2024-08-02,Robert Kim,Warranty,3
+TICK10031,CUST10330,elizabeth.hernandez78@email.com,Individual,Technical specifications question,High,Closed,2023-08-27,2023-09-10,Diana Lopez,Maintenance,
+TICK10032,CUST10465,robert.smith@smartindustries.com,Smart Industries,Warranty claim - mechanical issue,Critical,Closed,2023-12-24,2024-01-05,Diana Lopez,Installation,
+TICK10033,CUST10440,richard.davis@autoassembly.com,Auto Assembly,Maintenance and calibration request,Critical,Open,2023-07-01,,Diana Lopez,Training,
+TICK10034,CUST10328,joseph.williams316@email.com,Individual,Safety system troubleshooting,Medium,Resolved,2023-06-05,2023-06-18,Diana Lopez,Warranty,
+TICK10035,CUST10288,patricia.taylor286@email.com,Individual,Programming support needed,Critical,Closed,2024-04-06,2024-04-15,Diana Lopez,Installation,5
+TICK10036,CUST10275,robert.miller275@email.com,Individual,Warranty claim - mechanical issue,Low,Resolved,2024-03-29,2024-04-01,Diana Lopez,Maintenance,
+TICK10037,CUST10331,susan.lopez@eliteautomation.com,Elite Automation,Safety system troubleshooting,Critical,Resolved,2023-11-25,2023-12-04,Robert Kim,Programming,
+TICK10038,CUST10219,linda.martinez@smartrobotics.com,Smart Robotics,Network connectivity issue,Critical,In Progress,2024-09-24,,Diana Lopez,Programming,
+TICK10039,CUST10043,jessica.smith@automanufacturing.com,Auto Manufacturing,Safety system troubleshooting,Low,Closed,2024-06-22,2024-07-02,Robert Kim,Maintenance,5
+TICK10040,CUST10206,jennifer.brown@techmanufacturing.com,Tech Manufacturing,Programming support needed,Low,In Progress,2023-04-25,,Robert Kim,Maintenance,
+TICK10041,CUST10161,richard.johnson64@email.com,Individual,Installation and setup assistance,Low,Closed,2024-04-19,2024-04-28,Diana Lopez,Technical Support,5
+TICK10042,CUST10067,william.johnson@innovativesolutions.com,Innovative Solutions,Maintenance and calibration request,Medium,Resolved,2023-12-02,2023-12-11,Diana Lopez,Maintenance,4
+TICK10043,CUST10202,barbara.lopez@smarttechnologies.com,Smart Technologies,Software integration question,Low,Closed,2024-08-19,2024-08-30,Diana Lopez,Technical Support,4
+TICK10044,CUST10319,barbara.brown@techrobotics.com,Tech Robotics,Maintenance and calibration request,Critical,In Progress,2023-10-17,,Diana Lopez,Warranty,
+TICK10045,CUST10272,john.johnson42@email.com,Individual,Performance optimization question,Critical,Resolved,2023-11-08,2023-11-18,Diana Lopez,Technical Support,4
+TICK10046,CUST10008,elizabeth.smith@elitesolutions.com,Elite Solutions,Replacement parts inquiry,High,Resolved,2023-04-07,2023-04-08,Diana Lopez,Technical Support,4
+TICK10047,CUST10383,james.martinez691@email.com,Individual,Training and documentation request,Critical,Closed,2023-03-21,2023-03-31,Diana Lopez,Warranty,3
+TICK10048,CUST10075,jessica.williams@autoindustries.com,Auto Industries,Programming support needed,Critical,Open,2023-11-12,,Diana Lopez,Training,
+TICK10049,CUST10037,michael.taylor@techindustries.com,Tech Industries,Training and documentation request,High,In Progress,2024-08-14,,Diana Lopez,Technical Support,
+TICK10050,CUST10010,patricia.williams@precisionassembly.com,Precision Assembly,Performance optimization question,Medium,Closed,2024-08-31,2024-09-07,Robert Kim,Technical Support,3
+TICK10051,CUST10340,jennifer.garcia@techindustries.com,Tech Industries,Sensor calibration issue,High,Closed,2024-06-21,2024-06-28,Robert Kim,Training,4
+TICK10052,CUST10391,joseph.hernandez@smartrobotics.com,Smart Robotics,Technical specifications question,Critical,Open,2023-04-20,,Robert Kim,Maintenance,
+TICK10053,CUST10345,richard.williams@industrialsolutions.com,Industrial Solutions,Replacement parts inquiry,Critical,In Progress,2024-09-24,,Diana Lopez,Maintenance,
+TICK10054,CUST10161,richard.johnson64@email.com,Individual,Safety system troubleshooting,Medium,Resolved,2024-04-11,2024-04-21,Robert Kim,Maintenance,5
+TICK10055,CUST10492,james.smith@precisionrobotics.com,Precision Robotics,Performance optimization question,Low,Resolved,2023-11-12,2023-11-14,Robert Kim,Training,4
+TICK10056,CUST10180,linda.wilson@smartindustries.com,Smart Industries,Installation and setup assistance,Low,Closed,2024-11-28,2024-11-30,Robert Kim,Maintenance,4
+TICK10057,CUST10208,john.thomas@autoindustries.com,Auto Industries,Installation and setup assistance,Medium,Open,2024-07-27,,Robert Kim,Maintenance,
+TICK10058,CUST10483,richard.lopez45@email.com,Individual,Maintenance and calibration request,High,Closed,2024-05-20,2024-05-29,Diana Lopez,Warranty,
+TICK10059,CUST10314,mary.davis@techassembly.com,Tech Assembly,Software integration question,Medium,In Progress,2024-12-25,,Diana Lopez,Technical Support,
+TICK10060,CUST10197,richard.brown@autosystems.com,Auto Systems,Installation and setup assistance,High,Resolved,2023-07-21,2023-07-25,Robert Kim,Maintenance,
+TICK10061,CUST10461,susan.hernandez@advancedrobotics.com,Advanced Robotics,Training and documentation request,Medium,Resolved,2023-12-04,2023-12-10,Diana Lopez,Maintenance,
+TICK10062,CUST10034,mary.wilson369@email.com,Individual,Replacement parts inquiry,Medium,In Progress,2023-02-16,,Robert Kim,Programming,
+TICK10063,CUST10208,john.thomas@autoindustries.com,Auto Industries,Network connectivity issue,High,In Progress,2024-07-14,,Robert Kim,Maintenance,
+TICK10064,CUST10176,mary.lopez@globalmanufacturing.com,Global Manufacturing,Warranty claim - mechanical issue,Medium,Open,2024-04-06,,Robert Kim,Programming,
+TICK10065,CUST10475,james.smith@techsolutions.com,Tech Solutions,Robot not responding to commands,Medium,Resolved,2024-01-14,2024-01-26,Diana Lopez,Warranty,5
+TICK10066,CUST10121,david.brown@techsolutions.com,Tech Solutions,Software integration question,Low,Resolved,2023-10-05,2023-10-16,Diana Lopez,Programming,4
+TICK10067,CUST10456,barbara.jones@advancedassembly.com,Advanced Assembly,Safety system troubleshooting,Medium,Open,2024-03-22,,Diana Lopez,Warranty,
+TICK10068,CUST10057,david.johnson@industrialrobotics.com,Industrial Robotics,Technical specifications question,Medium,Resolved,2024-01-18,2024-01-26,Robert Kim,Programming,5
+TICK10069,CUST10035,jennifer.jones668@email.com,Individual,Robot not responding to commands,Critical,Open,2024-01-26,,Diana Lopez,Programming,
+TICK10070,CUST10285,elizabeth.davis@autosolutions.com,Auto Solutions,Technical specifications question,Low,Resolved,2023-01-28,2023-01-30,Diana Lopez,Installation,4
+TICK10071,CUST10047,john.miller740@email.com,Individual,Programming support needed,High,Resolved,2023-09-12,2023-09-24,Diana Lopez,Training,5
+TICK10072,CUST10213,richard.martinez882@email.com,Individual,Warranty claim - mechanical issue,Low,In Progress,2023-04-11,,Robert Kim,Maintenance,
+TICK10073,CUST10409,patricia.williams@globalrobotics.com,Global Robotics,Safety system troubleshooting,Low,Resolved,2023-03-30,2023-04-07,Robert Kim,Technical Support,5
+TICK10074,CUST10271,david.martinez692@email.com,Individual,Performance optimization question,Medium,Resolved,2024-12-08,2024-12-22,Robert Kim,Maintenance,5
+TICK10075,CUST10039,joseph.jones@techautomation.com,Tech Automation,Sensor calibration issue,Medium,Resolved,2023-08-06,2023-08-18,Robert Kim,Warranty,
+TICK10076,CUST10423,joseph.williams@autorobotics.com,Auto Robotics,Installation and setup assistance,High,Open,2024-07-10,,Robert Kim,Programming,
+TICK10077,CUST10162,james.miller@qualitysolutions.com,Quality Solutions,Warranty claim - mechanical issue,Critical,Resolved,2024-05-09,2024-05-19,Diana Lopez,Technical Support,
+TICK10078,CUST10335,jessica.johnson@qualityautomation.com,Quality Automation,Programming support needed,Medium,Closed,2024-01-27,2024-01-31,Robert Kim,Maintenance,4
+TICK10079,CUST10484,joseph.brown@advancedmanufacturing.com,Advanced Manufacturing,Robot not responding to commands,High,Closed,2024-02-05,2024-02-12,Diana Lopez,Technical Support,
+TICK10080,CUST10118,john.thomas@industrialindustries.com,Industrial Industries,Performance optimization question,Medium,Resolved,2023-04-21,2023-04-27,Diana Lopez,Training,
+TICK10081,CUST10388,patricia.smith@elitesolutions.com,Elite Solutions,Sensor calibration issue,High,Closed,2023-10-29,2023-11-05,Diana Lopez,Programming,5
+TICK10082,CUST10217,michael.smith138@email.com,Individual,Technical specifications question,Medium,In Progress,2023-01-11,,Diana Lopez,Installation,
+TICK10083,CUST10443,michael.martinez@elitesolutions.com,Elite Solutions,Performance optimization question,Critical,Closed,2024-11-04,2024-11-16,Diana Lopez,Installation,5
+TICK10084,CUST10163,elizabeth.rodriguez17@email.com,Individual,Safety system troubleshooting,Medium,Closed,2024-11-01,2024-11-07,Diana Lopez,Training,4
+TICK10085,CUST10232,barbara.johnson@innovativerobotics.com,Innovative Robotics,Replacement parts inquiry,Medium,In Progress,2024-09-30,,Diana Lopez,Programming,
+TICK10086,CUST10092,michael.martinez@precisionsolutions.com,Precision Solutions,Software integration question,High,In Progress,2024-07-11,,Diana Lopez,Maintenance,
+TICK10087,CUST10467,patricia.garcia4@email.com,Individual,Sensor calibration issue,Critical,Resolved,2024-09-04,2024-09-07,Diana Lopez,Maintenance,3
+TICK10088,CUST10309,michael.rodriguez@precisionmanufacturing.com,Precision Manufacturing,Installation and setup assistance,Medium,Resolved,2024-03-07,2024-03-09,Diana Lopez,Maintenance,
+TICK10089,CUST10252,david.davis332@email.com,Individual,Warranty claim - mechanical issue,Low,Resolved,2023-01-31,2023-02-07,Diana Lopez,Maintenance,4
+TICK10090,CUST10421,david.johnson@industrialrobotics.com,Industrial Robotics,Technical specifications question,Medium,Resolved,2023-07-26,2023-07-28,Diana Lopez,Maintenance,
+TICK10091,CUST10065,patricia.rodriguez443@email.com,Individual,Sensor calibration issue,Low,In Progress,2024-12-31,,Robert Kim,Warranty,
+TICK10092,CUST10319,barbara.brown@techrobotics.com,Tech Robotics,Replacement parts inquiry,Medium,Resolved,2024-06-03,2024-06-17,Robert Kim,Programming,5
+TICK10093,CUST10002,david.miller44@email.com,Individual,Network connectivity issue,Low,Resolved,2023-01-25,2023-01-30,Diana Lopez,Warranty,
+TICK10094,CUST10456,barbara.jones@advancedassembly.com,Advanced Assembly,Technical specifications question,Low,Closed,2023-06-27,2023-06-28,Diana Lopez,Programming,4
+TICK10095,CUST10076,elizabeth.smith751@email.com,Individual,Sensor calibration issue,Medium,In Progress,2024-11-25,,Robert Kim,Programming,
+TICK10096,CUST10346,robert.martinez@globalautomation.com,Global Automation,Safety system troubleshooting,High,Resolved,2023-06-05,2023-06-17,Diana Lopez,Technical Support,5
+TICK10097,CUST10271,david.martinez692@email.com,Individual,Performance optimization question,Critical,Open,2024-07-22,,Diana Lopez,Warranty,
+TICK10098,CUST10457,patricia.davis@techassembly.com,Tech Assembly,Performance optimization question,Medium,Open,2023-06-05,,Diana Lopez,Training,
+TICK10099,CUST10126,joseph.wilson@advancedrobotics.com,Advanced Robotics,Programming support needed,Low,Closed,2023-07-23,2023-07-26,Diana Lopez,Training,3
+TICK10100,CUST10227,patricia.brown@advancedassembly.com,Advanced Assembly,Technical specifications question,High,Open,2024-12-29,,Robert Kim,Technical Support,
+TICK10101,CUST10354,elizabeth.taylor@smartrobotics.com,Smart Robotics,Robot not responding to commands,Low,In Progress,2023-06-14,,Robert Kim,Maintenance,
+TICK10102,CUST10245,john.rodriguez@industrialrobotics.com,Industrial Robotics,Software integration question,Medium,In Progress,2023-10-31,,Diana Lopez,Installation,
+TICK10103,CUST10103,james.smith@innovativeindustries.com,Innovative Industries,Training and documentation request,Low,Resolved,2023-05-20,2023-06-02,Robert Kim,Technical Support,
+TICK10104,CUST10306,jessica.brown@qualityautomation.com,Quality Automation,Training and documentation request,Medium,Resolved,2024-08-20,2024-08-31,Diana Lopez,Training,3
+TICK10105,CUST10151,elizabeth.johnson@techmanufacturing.com,Tech Manufacturing,Sensor calibration issue,High,Resolved,2024-10-22,2024-10-29,Robert Kim,Installation,
+TICK10106,CUST10206,jennifer.brown@techmanufacturing.com,Tech Manufacturing,Technical specifications question,Critical,Resolved,2024-09-15,2024-09-17,Diana Lopez,Training,4
+TICK10107,CUST10145,linda.thomas395@email.com,Individual,Installation and setup assistance,Low,Resolved,2023-06-07,2023-06-10,Robert Kim,Maintenance,
+TICK10108,CUST10166,joseph.anderson@innovativetechnologies.com,Innovative Technologies,Performance optimization question,High,Resolved,2023-12-25,2023-12-28,Robert Kim,Programming,5
+TICK10109,CUST10496,linda.wilson@industrialtechnologies.com,Industrial Technologies,Programming support needed,Critical,Resolved,2024-10-03,2024-10-11,Robert Kim,Technical Support,3
+TICK10110,CUST10493,mary.thomas955@email.com,Individual,Performance optimization question,High,Closed,2023-02-17,2023-02-26,Robert Kim,Programming,3
+TICK10111,CUST10105,patricia.davis430@email.com,Individual,Technical specifications question,Low,Resolved,2024-02-09,2024-02-13,Robert Kim,Technical Support,5
+TICK10112,CUST10009,elizabeth.brown@precisiontechnologies.com,Precision Technologies,Performance optimization question,Medium,In Progress,2024-09-30,,Robert Kim,Technical Support,
+TICK10113,CUST10208,john.thomas@autoindustries.com,Auto Industries,Safety system troubleshooting,Medium,Closed,2024-08-01,2024-08-10,Robert Kim,Installation,3
+TICK10114,CUST10452,elizabeth.garcia658@email.com,Individual,Robot not responding to commands,Critical,Open,2024-02-11,,Robert Kim,Installation,
+TICK10115,CUST10374,michael.davis@eliteautomation.com,Elite Automation,Replacement parts inquiry,Medium,Open,2023-08-22,,Diana Lopez,Warranty,
+TICK10116,CUST10201,michael.davis@industrialsolutions.com,Industrial Solutions,Performance optimization question,Low,Resolved,2024-04-25,2024-05-01,Diana Lopez,Programming,5
+TICK10117,CUST10206,jennifer.brown@techmanufacturing.com,Tech Manufacturing,Warranty claim - mechanical issue,Medium,Resolved,2023-04-23,2023-04-29,Diana Lopez,Training,5
+TICK10118,CUST10022,jennifer.lopez@smartautomation.com,Smart Automation,Installation and setup assistance,Low,Open,2024-01-29,,Diana Lopez,Technical Support,
+TICK10119,CUST10476,mary.lopez@precisionmanufacturing.com,Precision Manufacturing,Sensor calibration issue,Medium,Resolved,2023-07-30,2023-08-12,Robert Kim,Warranty,
+TICK10120,CUST10350,richard.miller582@email.com,Individual,Software integration question,Critical,Closed,2024-05-23,2024-06-02,Robert Kim,Installation,
+TICK10121,CUST10053,susan.brown138@email.com,Individual,Installation and setup assistance,Critical,Open,2023-12-25,,Robert Kim,Technical Support,
+TICK10122,CUST10230,robert.davis@qualitysystems.com,Quality Systems,Technical specifications question,Medium,Resolved,2023-08-16,2023-08-24,Diana Lopez,Warranty,4
+TICK10123,CUST10316,jennifer.thomas@smartrobotics.com,Smart Robotics,Programming support needed,Low,Open,2023-12-25,,Diana Lopez,Training,
+TICK10124,CUST10262,linda.miller256@email.com,Individual,Performance optimization question,Medium,Resolved,2024-01-30,2024-02-04,Diana Lopez,Technical Support,3
+TICK10125,CUST10223,james.rodriguez298@email.com,Individual,Training and documentation request,Low,Closed,2023-08-19,2023-08-24,Diana Lopez,Training,3
+TICK10126,CUST10353,barbara.davis@smartassembly.com,Smart Assembly,Installation and setup assistance,Critical,In Progress,2024-07-27,,Robert Kim,Programming,
+TICK10127,CUST10260,michael.martinez@advancedrobotics.com,Advanced Robotics,Network connectivity issue,Low,Open,2023-10-14,,Diana Lopez,Maintenance,
+TICK10128,CUST10218,linda.brown@smartassembly.com,Smart Assembly,Installation and setup assistance,Medium,In Progress,2023-09-16,,Robert Kim,Installation,
+TICK10129,CUST10290,mary.hernandez939@email.com,Individual,Software integration question,Critical,Resolved,2024-09-30,2024-10-06,Diana Lopez,Technical Support,5
+TICK10130,CUST10189,elizabeth.garcia510@email.com,Individual,Programming support needed,Medium,In Progress,2024-07-31,,Diana Lopez,Installation,
+TICK10131,CUST10488,elizabeth.wilson@industrialassembly.com,Industrial Assembly,Performance optimization question,Low,Closed,2024-06-19,2024-07-01,Robert Kim,Programming,
+TICK10132,CUST10076,elizabeth.smith751@email.com,Individual,Installation and setup assistance,Low,In Progress,2024-01-29,,Diana Lopez,Warranty,
+TICK10133,CUST10454,richard.miller@globalautomation.com,Global Automation,Maintenance and calibration request,Low,Closed,2023-11-25,2023-12-07,Robert Kim,Technical Support,4
+TICK10134,CUST10412,linda.lopez@industrialrobotics.com,Industrial Robotics,Safety system troubleshooting,Medium,In Progress,2024-10-30,,Diana Lopez,Warranty,
+TICK10135,CUST10296,jennifer.wilson94@email.com,Individual,Technical specifications question,Medium,Resolved,2024-07-29,2024-08-09,Diana Lopez,Warranty,
+TICK10136,CUST10429,michael.hernandez@innovativesystems.com,Innovative Systems,Software integration question,Critical,Resolved,2024-03-21,2024-03-24,Diana Lopez,Warranty,5
+TICK10137,CUST10065,patricia.rodriguez443@email.com,Individual,Warranty claim - mechanical issue,Medium,Resolved,2024-09-07,2024-09-13,Robert Kim,Warranty,
+TICK10138,CUST10262,linda.miller256@email.com,Individual,Training and documentation request,Critical,In Progress,2023-07-27,,Diana Lopez,Training,
+TICK10139,CUST10140,james.garcia797@email.com,Individual,Programming support needed,Medium,Resolved,2024-04-01,2024-04-12,Robert Kim,Maintenance,
+TICK10140,CUST10318,elizabeth.brown176@email.com,Individual,Technical specifications question,Critical,Resolved,2023-11-16,2023-11-21,Diana Lopez,Maintenance,
+TICK10141,CUST10490,william.smith@smartautomation.com,Smart Automation,Technical specifications question,Low,Resolved,2024-06-08,2024-06-15,Diana Lopez,Programming,3
+TICK10142,CUST10429,michael.hernandez@innovativesystems.com,Innovative Systems,Robot not responding to commands,Medium,Resolved,2024-03-31,2024-04-05,Diana Lopez,Training,
+TICK10143,CUST10252,david.davis332@email.com,Individual,Replacement parts inquiry,Medium,Open,2024-10-05,,Robert Kim,Warranty,
+TICK10144,CUST10333,james.jones@techrobotics.com,Tech Robotics,Software integration question,High,Closed,2023-10-09,2023-10-21,Diana Lopez,Programming,3
+TICK10145,CUST10183,david.thomas@autosystems.com,Auto Systems,Replacement parts inquiry,Critical,Closed,2024-07-29,2024-08-06,Diana Lopez,Warranty,4
+TICK10146,CUST10275,robert.miller275@email.com,Individual,Programming support needed,Critical,Resolved,2024-10-01,2024-10-08,Diana Lopez,Training,
+TICK10147,CUST10396,jessica.jones@qualityautomation.com,Quality Automation,Safety system troubleshooting,High,Open,2023-10-14,,Robert Kim,Installation,
+TICK10148,CUST10248,mary.lopez@qualityrobotics.com,Quality Robotics,Warranty claim - mechanical issue,Low,Open,2024-11-26,,Robert Kim,Technical Support,
+TICK10149,CUST10404,mary.davis817@email.com,Individual,Sensor calibration issue,Critical,Resolved,2024-01-01,2024-01-06,Robert Kim,Warranty,5
+TICK10150,CUST10149,patricia.johnson@industrialtechnologies.com,Industrial Technologies,Training and documentation request,Medium,In Progress,2023-03-13,,Diana Lopez,Maintenance,
+TICK10151,CUST10453,jennifer.brown979@email.com,Individual,Sensor calibration issue,Medium,Resolved,2024-06-22,2024-07-01,Diana Lopez,Warranty,4
+TICK10152,CUST10351,elizabeth.davis@innovativeindustries.com,Innovative Industries,Warranty claim - mechanical issue,Medium,Closed,2024-01-15,2024-01-27,Robert Kim,Training,5
+TICK10153,CUST10038,william.miller@elitesystems.com,Elite Systems,Sensor calibration issue,Medium,Resolved,2024-08-24,2024-08-31,Diana Lopez,Warranty,
+TICK10154,CUST10451,james.smith@innovativeautomation.com,Innovative Automation,Network connectivity issue,Low,Resolved,2024-01-30,2024-02-11,Robert Kim,Maintenance,
+TICK10155,CUST10288,patricia.taylor286@email.com,Individual,Maintenance and calibration request,High,Resolved,2024-10-15,2024-10-17,Diana Lopez,Technical Support,
+TICK10156,CUST10296,jennifer.wilson94@email.com,Individual,Warranty claim - mechanical issue,Critical,In Progress,2023-03-07,,Robert Kim,Warranty,
+TICK10157,CUST10299,john.hernandez@innovativeindustries.com,Innovative Industries,Warranty claim - mechanical issue,Medium,Resolved,2023-09-18,2023-09-27,Diana Lopez,Maintenance,
+TICK10158,CUST10371,joseph.rodriguez270@email.com,Individual,Warranty claim - mechanical issue,High,Resolved,2023-05-12,2023-05-26,Robert Kim,Training,
+TICK10159,CUST10102,richard.johnson@qualityassembly.com,Quality Assembly,Software integration question,Medium,Resolved,2024-04-19,2024-04-29,Diana Lopez,Technical Support,
+TICK10160,CUST10000,michael.williams22@email.com,Individual,Software integration question,Medium,In Progress,2024-07-26,,Diana Lopez,Maintenance,
+TICK10161,CUST10241,jennifer.johnson@globalmanufacturing.com,Global Manufacturing,Safety system troubleshooting,Low,Open,2024-07-06,,Robert Kim,Programming,
+TICK10162,CUST10497,jessica.anderson@elitesolutions.com,Elite Solutions,Maintenance and calibration request,Medium,In Progress,2024-02-20,,Diana Lopez,Programming,
+TICK10163,CUST10014,david.thomas@globalsystems.com,Global Systems,Programming support needed,Medium,Resolved,2023-02-21,2023-02-22,Diana Lopez,Training,4
+TICK10164,CUST10415,robert.smith@elitemanufacturing.com,Elite Manufacturing,Sensor calibration issue,High,Resolved,2024-05-08,2024-05-15,Diana Lopez,Training,3
+TICK10165,CUST10031,mary.smith@advancedmanufacturing.com,Advanced Manufacturing,Robot not responding to commands,Critical,Closed,2023-05-18,2023-05-31,Robert Kim,Installation,
+TICK10166,CUST10154,susan.rodriguez@smartsolutions.com,Smart Solutions,Maintenance and calibration request,High,Open,2024-12-16,,Diana Lopez,Maintenance,
+TICK10167,CUST10062,barbara.garcia@eliteassembly.com,Elite Assembly,Maintenance and calibration request,Low,Open,2024-10-28,,Robert Kim,Installation,
+TICK10168,CUST10303,david.smith@advancedautomation.com,Advanced Automation,Network connectivity issue,High,Resolved,2024-03-13,2024-03-21,Diana Lopez,Maintenance,3
+TICK10169,CUST10051,linda.taylor@advancedindustries.com,Advanced Industries,Performance optimization question,Medium,Resolved,2024-06-01,2024-06-02,Diana Lopez,Training,5
+TICK10170,CUST10268,james.taylor105@email.com,Individual,Software integration question,Medium,Resolved,2023-09-27,2023-09-30,Robert Kim,Technical Support,
+TICK10171,CUST10253,richard.taylor@autotechnologies.com,Auto Technologies,Robot not responding to commands,Critical,Resolved,2024-05-27,2024-06-06,Diana Lopez,Maintenance,
+TICK10172,CUST10267,jennifer.martinez@precisionrobotics.com,Precision Robotics,Sensor calibration issue,Low,Closed,2023-02-18,2023-02-25,Robert Kim,Warranty,
+TICK10173,CUST10151,elizabeth.johnson@techmanufacturing.com,Tech Manufacturing,Installation and setup assistance,High,Open,2024-12-10,,Diana Lopez,Technical Support,
+TICK10174,CUST10314,mary.davis@techassembly.com,Tech Assembly,Software integration question,Medium,In Progress,2024-12-27,,Diana Lopez,Programming,
+TICK10175,CUST10480,jennifer.thomas721@email.com,Individual,Sensor calibration issue,High,Resolved,2024-02-23,2024-03-06,Robert Kim,Technical Support,4
+TICK10176,CUST10201,michael.davis@industrialsolutions.com,Industrial Solutions,Software integration question,Low,Resolved,2024-04-15,2024-04-18,Robert Kim,Maintenance,
+TICK10177,CUST10352,susan.smith@smartmanufacturing.com,Smart Manufacturing,Installation and setup assistance,Medium,Open,2023-04-28,,Robert Kim,Maintenance,
+TICK10178,CUST10143,richard.hernandez568@email.com,Individual,Performance optimization question,Medium,Resolved,2023-01-02,2023-01-09,Diana Lopez,Warranty,4
+TICK10179,CUST10096,mary.taylor330@email.com,Individual,Performance optimization question,Medium,Resolved,2023-09-14,2023-09-16,Diana Lopez,Warranty,
+TICK10180,CUST10062,barbara.garcia@eliteassembly.com,Elite Assembly,Performance optimization question,Critical,Closed,2023-12-03,2023-12-17,Diana Lopez,Maintenance,5
+TICK10181,CUST10286,linda.williams@smarttechnologies.com,Smart Technologies,Technical specifications question,High,Resolved,2023-05-04,2023-05-10,Diana Lopez,Warranty,
+TICK10182,CUST10299,john.hernandez@innovativeindustries.com,Innovative Industries,Technical specifications question,Low,Resolved,2024-12-16,2024-12-18,Diana Lopez,Warranty,4
+TICK10183,CUST10283,linda.martinez461@email.com,Individual,Technical specifications question,Medium,Closed,2023-01-09,2023-01-10,Diana Lopez,Programming,5
+TICK10184,CUST10060,linda.lopez@qualityautomation.com,Quality Automation,Software integration question,Medium,Resolved,2023-05-06,2023-05-16,Diana Lopez,Programming,4
+TICK10185,CUST10322,jennifer.jones@industrialtechnologies.com,Industrial Technologies,Safety system troubleshooting,Low,Open,2024-03-15,,Robert Kim,Installation,
+TICK10186,CUST10362,joseph.brown940@email.com,Individual,Network connectivity issue,Medium,Resolved,2023-07-11,2023-07-15,Diana Lopez,Installation,
+TICK10187,CUST10149,patricia.johnson@industrialtechnologies.com,Industrial Technologies,Replacement parts inquiry,Medium,Open,2023-04-18,,Robert Kim,Installation,
+TICK10188,CUST10226,barbara.hernandez45@email.com,Individual,Training and documentation request,Medium,Closed,2024-10-06,2024-10-16,Diana Lopez,Warranty,5
+TICK10189,CUST10409,patricia.williams@globalrobotics.com,Global Robotics,Network connectivity issue,Low,In Progress,2024-04-17,,Diana Lopez,Warranty,
+TICK10190,CUST10462,patricia.smith@techindustries.com,Tech Industries,Warranty claim - mechanical issue,Medium,Closed,2024-08-14,2024-08-19,Robert Kim,Programming,4
+TICK10191,CUST10350,richard.miller582@email.com,Individual,Performance optimization question,High,Resolved,2024-04-10,2024-04-24,Robert Kim,Warranty,4
+TICK10192,CUST10392,joseph.taylor263@email.com,Individual,Installation and setup assistance,Medium,Resolved,2023-07-24,2023-07-26,Diana Lopez,Training,
+TICK10193,CUST10318,elizabeth.brown176@email.com,Individual,Maintenance and calibration request,Critical,Open,2023-11-18,,Diana Lopez,Warranty,
+TICK10194,CUST10232,barbara.johnson@innovativerobotics.com,Innovative Robotics,Robot not responding to commands,Low,Resolved,2024-06-16,2024-06-26,Robert Kim,Maintenance,
+TICK10195,CUST10480,jennifer.thomas721@email.com,Individual,Sensor calibration issue,High,In Progress,2024-11-09,,Diana Lopez,Programming,
+TICK10196,CUST10492,james.smith@precisionrobotics.com,Precision Robotics,Technical specifications question,Medium,Open,2023-03-12,,Robert Kim,Maintenance,
+TICK10197,CUST10443,michael.martinez@elitesolutions.com,Elite Solutions,Network connectivity issue,Critical,Open,2024-09-07,,Robert Kim,Warranty,
+TICK10198,CUST10384,elizabeth.rodriguez@innovativeautomation.com,Innovative Automation,Sensor calibration issue,Medium,In Progress,2024-09-01,,Diana Lopez,Maintenance,
+TICK10199,CUST10197,richard.brown@autosystems.com,Auto Systems,Robot not responding to commands,High,In Progress,2023-02-17,,Robert Kim,Technical Support,

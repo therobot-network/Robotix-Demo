@@ -1,0 +1,1001 @@
+order_id,customer_id,order_date,subtotal,discount,tax,shipping,total,payment_method,payment_terms,order_status,shipping_address,shipping_city,shipping_state,shipping_zip,sales_channel,sales_rep
+ORD100000,CUST10265,2024-08-26,138139,6906,11051.12,0,142284.12,Financing,Prepaid,Completed,8231 Manufacturing Dr,Chicago,WA,96146,Phone,Jessica Martinez
+ORD100001,CUST10069,2024-03-18,24923,0,1993.84,0,26916.84,Purchase Order,Prepaid,Completed,9231 Manufacturing Way,Chicago,CO,78578,Online,David Martinez
+ORD100002,CUST10015,2023-04-18,82321,4116,6585.68,0,84790.68,Wire Transfer,Net 30,Completed,1406 Manufacturing Blvd,Chicago,TX,63871,Direct Sales,Jessica Martinez
+ORD100003,CUST10049,2024-01-25,44824,0,3585.92,0,48409.92,Financing,Prepaid,Shipped,4896 Tech Way,Austin,OR,29829,Partner,Jessica Martinez
+ORD100004,CUST10057,2024-02-25,12184,0,974.72,0,13158.72,Wire Transfer,50/50,Completed,6017 Tech Parkway,Boston,CO,60614,Phone,Jessica Martinez
+ORD100005,CUST10300,2024-01-31,109147,10914,8731.76,0,106964.76,Wire Transfer,50/50,Cancelled,161 Business Blvd,Minneapolis,CO,10738,Phone,Chris Patel
+ORD100006,CUST10449,2023-09-09,51207,5120,4096.56,0,50183.56,Purchase Order,Prepaid,Cancelled,1881 Commerce Blvd,Detroit,IL,36734,Phone,Chris Patel
+ORD100007,CUST10388,2023-07-01,208223,20822,16657.84,0,204058.84,Purchase Order,Net 60,In Production,2668 Industrial Parkway,Detroit,TX,43236,Phone,David Martinez
+ORD100008,CUST10483,2023-06-05,18747,0,1499.76,0,20246.76,Credit Card,Financing 24mo,Shipped,7507 Manufacturing Dr,Boston,IL,40408,Direct Sales,David Martinez
+ORD100009,CUST10456,2023-04-08,46625,0,3730.0,0,50355.0,Financing,Prepaid,Completed,8131 Business Parkway,Detroit,WA,85915,Direct Sales,David Martinez
+ORD100010,CUST10328,2024-07-16,138972,13897,11117.76,0,136192.76,Credit Card,Prepaid,Completed,9770 Tech Parkway,Austin,CO,91122,Phone,Jessica Martinez
+ORD100011,CUST10382,2024-10-30,93264,9326,7461.12,0,91399.12,Wire Transfer,Prepaid,Completed,9202 Business Blvd,Boston,MA,34355,Direct Sales,Chris Patel
+ORD100012,CUST10434,2024-10-01,126174,6308,10093.92,0,129959.92,Purchase Order,Financing 24mo,Cancelled,5228 Manufacturing Way,Denver,OR,55942,Partner,Chris Patel
+ORD100013,CUST10115,2024-08-23,75946,3797,6075.68,0,78224.68,Purchase Order,50/50,Completed,1968 Industrial Dr,Chicago,WA,17524,Direct Sales,David Martinez
+ORD100014,CUST10382,2024-09-03,142685,7134,11414.8,0,146965.8,Wire Transfer,Net 30,Completed,9202 Business Blvd,Boston,MA,34355,Phone,David Martinez
+ORD100015,CUST10015,2024-06-12,110781,5539,8862.48,0,114104.48,Financing,Net 30,Completed,1406 Manufacturing Blvd,Chicago,TX,63871,Phone,Chris Patel
+ORD100016,CUST10114,2023-01-14,113470,11347,9077.6,0,111200.6,Credit Card,Net 30,Completed,2138 Tech Way,Seattle,OR,17401,Partner,David Martinez
+ORD100017,CUST10285,2023-04-11,137139,13713,10971.12,0,134397.12,Purchase Order,50/50,Cancelled,722 Industrial Dr,Detroit,MA,41220,Partner,David Martinez
+ORD100018,CUST10372,2024-03-29,57510,2875,4600.8,0,59235.8,Purchase Order,Net 30,Shipped,2859 Industrial Dr,Portland,MA,19854,Online,Chris Patel
+ORD100019,CUST10287,2024-12-25,10900,0,872.0,0,11772.0,Credit Card,Net 60,In Production,1382 Industrial Parkway,Detroit,TX,95709,Online,David Martinez
+ORD100020,CUST10030,2023-01-18,55459,2772,4436.72,0,57123.72,Purchase Order,50/50,Completed,824 Industrial Dr,Seattle,OR,15830,Direct Sales,David Martinez
+ORD100021,CUST10093,2023-09-04,227965,22796,18237.2,0,223406.2,Financing,Financing 24mo,Completed,7358 Manufacturing Parkway,Denver,MN,98064,Direct Sales,David Martinez
+ORD100022,CUST10256,2024-06-09,18747,0,1499.76,0,20246.76,Wire Transfer,Financing 24mo,Shipped,1386 Industrial Parkway,Chicago,MA,11532,Online,Jessica Martinez
+ORD100023,CUST10073,2024-11-18,23324,0,1865.92,0,25189.92,Purchase Order,50/50,Completed,7523 Commerce Way,Boston,MN,43617,Online,Chris Patel
+ORD100024,CUST10016,2023-04-07,67117,6711,5369.36,0,65775.36,Wire Transfer,Net 60,In Production,5505 Business Dr,Denver,TX,50789,Direct Sales,Chris Patel
+ORD100025,CUST10280,2023-08-12,32282,0,2582.56,0,34864.56,Financing,Net 30,Completed,4354 Manufacturing Way,Austin,MN,50857,Online,Jessica Martinez
+ORD100026,CUST10306,2023-03-02,37901,0,3032.08,0,40933.08,Purchase Order,Prepaid,Shipped,9245 Manufacturing Way,Austin,WA,83487,Partner,David Martinez
+ORD100027,CUST10232,2023-01-18,61702,6170,4936.16,0,60468.16,Wire Transfer,50/50,Shipped,9767 Industrial Dr,Boston,MI,33468,Phone,David Martinez
+ORD100028,CUST10244,2023-04-04,60116,6011,4809.28,0,58914.28,Wire Transfer,Net 30,Shipped,183 Tech Dr,Seattle,TX,31036,Direct Sales,David Martinez
+ORD100029,CUST10495,2023-04-27,37342,0,2987.36,0,40329.36,Financing,Prepaid,Completed,3064 Commerce Parkway,Boston,MN,65880,Direct Sales,Chris Patel
+ORD100030,CUST10197,2024-01-05,26076,0,2086.08,0,28162.08,Purchase Order,50/50,Completed,3922 Tech Dr,Chicago,WA,30291,Partner,David Martinez
+ORD100031,CUST10446,2023-07-15,141227,7061,11298.16,0,145464.16,Purchase Order,Prepaid,Cancelled,1147 Commerce Blvd,Portland,MN,93670,Phone,David Martinez
+ORD100032,CUST10346,2023-07-27,39652,0,3172.16,0,42824.16,Purchase Order,50/50,Cancelled,5480 Business Blvd,Portland,MA,79855,Direct Sales,Chris Patel
+ORD100033,CUST10280,2024-10-30,46175,0,3694.0,0,49869.0,Purchase Order,50/50,Completed,4354 Manufacturing Way,Austin,MN,50857,Phone,Chris Patel
+ORD100034,CUST10338,2024-12-19,102891,10289,8231.28,0,100833.28,Purchase Order,Financing 24mo,Shipped,9714 Tech Way,Boston,CO,32509,Phone,Chris Patel
+ORD100035,CUST10240,2024-05-31,164509,16450,13160.72,0,161219.72,Wire Transfer,Net 30,In Production,1752 Industrial Blvd,Portland,CO,29182,Direct Sales,David Martinez
+ORD100036,CUST10029,2024-04-20,153334,15333,12266.72,0,150267.72,Credit Card,50/50,Shipped,8360 Commerce Blvd,Boston,OR,39487,Direct Sales,Jessica Martinez
+ORD100037,CUST10400,2024-08-13,48342,0,3867.36,0,52209.36,Purchase Order,Financing 24mo,Completed,1538 Manufacturing Parkway,Austin,OR,81007,Direct Sales,Chris Patel
+ORD100038,CUST10163,2023-12-03,116133,5806,9290.64,0,119617.64,Purchase Order,Financing 24mo,Shipped,8131 Commerce Dr,Portland,MI,14634,Phone,David Martinez
+ORD100039,CUST10258,2024-05-22,52708,2635,4216.64,0,54289.64,Credit Card,Net 60,Completed,7013 Industrial Way,Chicago,MN,35415,Partner,David Martinez
+ORD100040,CUST10405,2023-12-24,121934,12193,9754.72,0,119495.72,Financing,Net 60,Completed,4691 Tech Blvd,Chicago,IL,66747,Phone,David Martinez
+ORD100041,CUST10075,2023-08-13,51924,2596,4153.92,0,53481.92,Financing,Prepaid,Cancelled,3477 Manufacturing Parkway,Chicago,CO,65780,Direct Sales,David Martinez
+ORD100042,CUST10220,2023-05-02,105219,10521,8417.52,0,103115.52,Wire Transfer,Financing 24mo,Completed,7856 Industrial Dr,Portland,OR,84236,Online,David Martinez
+ORD100043,CUST10485,2024-09-09,84431,8443,6754.48,0,82742.48,Wire Transfer,Prepaid,Shipped,9041 Business Blvd,Chicago,CO,54039,Direct Sales,David Martinez
+ORD100044,CUST10107,2023-11-29,53003,2650,4240.24,0,54593.24,Wire Transfer,Net 30,Completed,8005 Business Dr,Austin,TX,79528,Direct Sales,Chris Patel
+ORD100045,CUST10070,2024-06-14,9596,0,767.68,334,10697.68,Credit Card,Prepaid,Cancelled,6239 Manufacturing Dr,Seattle,OR,15439,Online,Jessica Martinez
+ORD100046,CUST10053,2024-02-18,41044,0,3283.52,0,44327.52,Financing,Prepaid,Completed,2170 Business Dr,Detroit,WA,60143,Phone,Chris Patel
+ORD100047,CUST10166,2023-09-01,49720,0,3977.6,0,53697.6,Purchase Order,50/50,Completed,9735 Tech Way,Chicago,MN,40110,Direct Sales,Jessica Martinez
+ORD100048,CUST10489,2024-01-10,2585,0,206.8,350,3141.8,Financing,Financing 24mo,Shipped,3780 Manufacturing Parkway,Seattle,CO,37481,Direct Sales,David Martinez
+ORD100049,CUST10164,2024-02-17,148739,14873,11899.12,0,145765.12,Credit Card,50/50,Completed,6121 Commerce Dr,Minneapolis,IL,73636,Phone,David Martinez
+ORD100050,CUST10443,2024-08-21,93149,4657,7451.92,0,95943.92,Credit Card,Financing 24mo,Completed,8226 Commerce Blvd,Portland,MI,34984,Direct Sales,Chris Patel
+ORD100051,CUST10483,2024-01-01,182492,9124,14599.36,0,187967.36,Financing,Financing 24mo,Completed,7507 Manufacturing Dr,Boston,IL,40408,Direct Sales,Chris Patel
+ORD100052,CUST10189,2023-10-30,55198,5519,4415.84,0,54094.84,Purchase Order,Net 30,Completed,7268 Business Way,Seattle,CO,77108,Partner,David Martinez
+ORD100053,CUST10291,2024-07-24,103087,5154,8246.96,0,106179.95999999999,Purchase Order,Net 60,Shipped,4639 Manufacturing Blvd,Chicago,MN,54026,Direct Sales,Chris Patel
+ORD100054,CUST10291,2023-10-19,135762,13576,10860.96,0,133046.96,Purchase Order,Prepaid,Completed,4639 Manufacturing Blvd,Chicago,MN,54026,Direct Sales,Chris Patel
+ORD100055,CUST10107,2024-04-30,59800,5980,4784.0,0,58604.0,Financing,Net 60,Cancelled,8005 Business Dr,Austin,TX,79528,Online,Chris Patel
+ORD100056,CUST10498,2024-08-26,70891,7089,5671.28,0,69473.28,Credit Card,Net 30,Completed,3816 Commerce Dr,Portland,TX,32125,Phone,David Martinez
+ORD100057,CUST10126,2023-05-25,38904,0,3112.32,0,42016.32,Credit Card,Net 60,Completed,570 Commerce Dr,Chicago,MA,86841,Direct Sales,Jessica Martinez
+ORD100058,CUST10034,2024-07-11,34001,0,2720.08,0,36721.08,Purchase Order,Net 30,Shipped,3570 Commerce Way,Seattle,OR,55812,Direct Sales,Jessica Martinez
+ORD100059,CUST10206,2023-05-16,110415,5520,8833.2,0,113728.2,Financing,50/50,Completed,3357 Business Parkway,Denver,MA,44718,Direct Sales,Chris Patel
+ORD100060,CUST10333,2023-04-30,61153,3057,4892.24,0,62988.24,Wire Transfer,Net 30,Completed,3340 Industrial Way,Minneapolis,MI,74103,Partner,Jessica Martinez
+ORD100061,CUST10295,2024-07-29,17656,0,1412.48,0,19068.48,Credit Card,50/50,In Production,2687 Commerce Dr,Minneapolis,OR,69195,Direct Sales,Chris Patel
+ORD100062,CUST10029,2024-11-03,42202,0,3376.16,0,45578.16,Financing,Net 30,Completed,8360 Commerce Blvd,Boston,OR,39487,Phone,Jessica Martinez
+ORD100063,CUST10328,2024-08-18,30814,0,2465.12,0,33279.12,Credit Card,Net 30,Completed,9770 Tech Parkway,Austin,CO,91122,Online,Chris Patel
+ORD100064,CUST10392,2023-06-04,12778,0,1022.24,0,13800.24,Purchase Order,Prepaid,Completed,5376 Industrial Blvd,Seattle,MA,35733,Direct Sales,David Martinez
+ORD100065,CUST10166,2023-10-06,162467,16246,12997.36,0,159218.36,Purchase Order,Net 30,Cancelled,9735 Tech Way,Chicago,MN,40110,Partner,David Martinez
+ORD100066,CUST10422,2024-01-12,1468,0,117.44,499,2084.44,Credit Card,Prepaid,Shipped,8326 Tech Dr,Detroit,CO,35222,Partner,Jessica Martinez
+ORD100067,CUST10121,2024-12-24,93871,9387,7509.68,0,91993.68,Financing,50/50,Completed,1428 Industrial Blvd,Chicago,MA,20230,Direct Sales,Jessica Martinez
+ORD100068,CUST10355,2023-03-23,133271,13327,10661.68,0,130605.68,Credit Card,Prepaid,Completed,8722 Business Dr,Portland,CO,66871,Phone,Jessica Martinez
+ORD100069,CUST10434,2024-03-28,76038,3801,6083.04,0,78320.04,Financing,Net 30,Shipped,5228 Manufacturing Way,Denver,OR,55942,Direct Sales,Jessica Martinez
+ORD100070,CUST10034,2024-03-14,26641,0,2131.28,0,28772.28,Purchase Order,50/50,Completed,3570 Commerce Way,Seattle,OR,55812,Online,Chris Patel
+ORD100071,CUST10405,2024-07-04,153064,15306,12245.12,0,150003.12,Purchase Order,Net 30,Shipped,4691 Tech Blvd,Chicago,IL,66747,Direct Sales,Jessica Martinez
+ORD100072,CUST10483,2023-10-13,166400,8320,13312.0,0,171392.0,Credit Card,Net 60,Cancelled,7507 Manufacturing Dr,Boston,IL,40408,Direct Sales,Jessica Martinez
+ORD100073,CUST10450,2023-12-30,88643,8864,7091.44,0,86870.44,Financing,Net 30,Completed,1163 Commerce Parkway,Detroit,CO,91930,Direct Sales,Jessica Martinez
+ORD100074,CUST10453,2023-11-30,75965,3798,6077.2,0,78244.2,Wire Transfer,Financing 24mo,Cancelled,6490 Business Dr,Detroit,IL,74707,Direct Sales,Jessica Martinez
+ORD100075,CUST10133,2024-12-11,119017,5950,9521.36,0,122588.36,Financing,Financing 24mo,Shipped,1420 Tech Blvd,Denver,TX,42439,Partner,Jessica Martinez
+ORD100076,CUST10120,2024-04-25,89197,4459,7135.76,0,91873.76,Purchase Order,Financing 24mo,Shipped,2836 Business Way,Detroit,IL,32127,Partner,David Martinez
+ORD100077,CUST10351,2024-04-17,133362,13336,10668.96,0,130694.95999999999,Financing,50/50,Shipped,533 Commerce Dr,Seattle,CO,13098,Direct Sales,Chris Patel
+ORD100078,CUST10254,2024-05-07,57537,2876,4602.96,0,59263.96,Credit Card,50/50,Completed,3738 Tech Parkway,Denver,MI,69656,Online,Jessica Martinez
+ORD100079,CUST10182,2024-05-01,29253,0,2340.24,0,31593.239999999998,Wire Transfer,Net 30,Completed,6926 Commerce Way,Minneapolis,MI,22411,Direct Sales,David Martinez
+ORD100080,CUST10175,2023-07-07,100828,10082,8066.24,0,98812.24,Credit Card,Net 30,In Production,3398 Tech Parkway,Chicago,MI,63584,Online,Chris Patel
+ORD100081,CUST10358,2023-01-18,69242,6924,5539.36,0,67857.36,Financing,Net 30,Completed,8684 Manufacturing Dr,Austin,MA,36495,Direct Sales,David Martinez
+ORD100082,CUST10190,2023-10-07,9360,0,748.8,60,10168.8,Wire Transfer,Net 60,Cancelled,7203 Tech Parkway,Minneapolis,WA,22995,Phone,Jessica Martinez
+ORD100083,CUST10331,2024-12-03,118031,11803,9442.48,0,115670.48,Wire Transfer,Net 60,Completed,6202 Manufacturing Blvd,Detroit,IL,76083,Online,Chris Patel
+ORD100084,CUST10486,2024-05-24,90009,4500,7200.72,0,92709.72,Financing,Financing 24mo,Completed,9772 Business Parkway,Denver,MA,77568,Partner,Jessica Martinez
+ORD100085,CUST10097,2023-12-01,85998,8599,6879.84,0,84278.84,Wire Transfer,50/50,Completed,5226 Business Dr,Seattle,MN,32012,Phone,Chris Patel
+ORD100086,CUST10239,2024-12-05,42859,0,3428.72,0,46287.72,Purchase Order,Financing 24mo,In Production,9464 Industrial Dr,Chicago,TX,47631,Partner,Chris Patel
+ORD100087,CUST10393,2024-10-15,157685,15768,12614.8,0,154531.8,Credit Card,Net 60,Completed,1737 Tech Way,Austin,MA,47338,Direct Sales,Jessica Martinez
+ORD100088,CUST10291,2024-11-24,4988,0,399.04,315,5702.04,Wire Transfer,Prepaid,Completed,4639 Manufacturing Blvd,Chicago,MN,54026,Phone,Jessica Martinez
+ORD100089,CUST10050,2024-07-21,47387,0,3790.96,0,51177.96,Purchase Order,Net 30,Completed,2831 Manufacturing Blvd,Austin,MA,69433,Partner,Jessica Martinez
+ORD100090,CUST10329,2024-04-09,54426,5442,4354.08,0,53338.08,Financing,Prepaid,Completed,8288 Manufacturing Blvd,Chicago,TX,30050,Online,David Martinez
+ORD100091,CUST10316,2024-05-29,31264,0,2501.12,0,33765.12,Wire Transfer,Prepaid,In Production,769 Industrial Dr,Boston,WA,93276,Online,Jessica Martinez
+ORD100092,CUST10091,2023-09-07,80603,4030,6448.24,0,83021.24,Credit Card,Financing 24mo,Completed,5742 Manufacturing Dr,Boston,OR,76024,Direct Sales,Chris Patel
+ORD100093,CUST10236,2024-05-16,37665,0,3013.2,0,40678.2,Purchase Order,Net 60,Shipped,1341 Manufacturing Dr,Austin,MN,40092,Partner,Chris Patel
+ORD100094,CUST10444,2023-12-06,32449,0,2595.92,0,35044.92,Wire Transfer,Prepaid,Completed,8621 Business Way,Denver,MN,42508,Direct Sales,Jessica Martinez
+ORD100095,CUST10479,2024-07-19,136279,6813,10902.32,0,140368.32,Purchase Order,Prepaid,Completed,8917 Business Blvd,Seattle,IL,32764,Phone,David Martinez
+ORD100096,CUST10387,2023-05-24,123199,6159,9855.92,0,126895.92,Financing,Financing 24mo,Completed,7663 Industrial Parkway,Detroit,WA,64038,Online,Jessica Martinez
+ORD100097,CUST10457,2023-01-13,97481,9748,7798.48,0,95531.48,Financing,Net 60,In Production,1140 Commerce Parkway,Seattle,MA,76458,Partner,Jessica Martinez
+ORD100098,CUST10182,2024-10-05,3702,0,296.16,482,4480.16,Wire Transfer,Net 60,Completed,6926 Commerce Way,Minneapolis,MI,22411,Online,Jessica Martinez
+ORD100099,CUST10239,2024-03-28,36996,0,2959.68,0,39955.68,Purchase Order,Net 60,Completed,9464 Industrial Dr,Chicago,TX,47631,Phone,Chris Patel
+ORD100100,CUST10182,2023-09-14,44598,0,3567.84,0,48165.84,Financing,Net 60,Shipped,6926 Commerce Way,Minneapolis,MI,22411,Direct Sales,Jessica Martinez
+ORD100101,CUST10000,2023-09-17,63772,3188,5101.76,0,65685.76,Purchase Order,Net 30,In Production,842 Industrial Parkway,Denver,OR,75627,Phone,Chris Patel
+ORD100102,CUST10323,2024-12-29,10748,0,859.84,0,11607.84,Credit Card,Net 60,Cancelled,9113 Commerce Blvd,Chicago,MN,64734,Partner,David Martinez
+ORD100103,CUST10114,2023-06-20,13435,0,1074.8,0,14509.8,Financing,Financing 24mo,Cancelled,2138 Tech Way,Seattle,OR,17401,Direct Sales,Chris Patel
+ORD100104,CUST10161,2023-09-08,61461,6146,4916.88,0,60231.88,Financing,Prepaid,Cancelled,9524 Manufacturing Way,Portland,CO,45559,Direct Sales,Chris Patel
+ORD100105,CUST10150,2024-12-11,162314,8115,12985.12,0,167184.12,Credit Card,50/50,Completed,9222 Manufacturing Parkway,Chicago,MA,27414,Partner,David Martinez
+ORD100106,CUST10472,2024-04-21,47975,0,3838.0,0,51813.0,Purchase Order,Prepaid,Cancelled,7849 Tech Dr,Detroit,CO,21557,Partner,Jessica Martinez
+ORD100107,CUST10343,2023-03-20,53311,2665,4264.88,0,54910.88,Credit Card,Financing 24mo,Completed,9530 Tech Parkway,Boston,MA,44198,Online,David Martinez
+ORD100108,CUST10089,2023-02-11,73958,7395,5916.64,0,72479.64,Credit Card,Prepaid,Shipped,3739 Tech Parkway,Denver,MA,66471,Partner,Chris Patel
+ORD100109,CUST10160,2023-02-11,39880,0,3190.4,0,43070.4,Financing,Financing 24mo,Completed,441 Industrial Parkway,Boston,MA,32039,Partner,Chris Patel
+ORD100110,CUST10305,2024-03-05,156753,7837,12540.24,0,161456.24,Credit Card,Net 30,Completed,9854 Commerce Blvd,Detroit,OR,91487,Partner,Chris Patel
+ORD100111,CUST10408,2024-05-12,50110,5011,4008.8,0,49107.8,Wire Transfer,Prepaid,In Production,7751 Business Blvd,Denver,IL,32573,Direct Sales,Chris Patel
+ORD100112,CUST10392,2023-02-01,70576,3528,5646.08,0,72694.08,Wire Transfer,Prepaid,Cancelled,5376 Industrial Blvd,Seattle,MA,35733,Direct Sales,Chris Patel
+ORD100113,CUST10036,2024-10-28,119831,5991,9586.48,0,123426.48,Credit Card,Net 60,Completed,3632 Commerce Way,Austin,WA,42898,Partner,David Martinez
+ORD100114,CUST10199,2023-02-15,154669,7733,12373.52,0,159309.52,Purchase Order,Prepaid,Completed,8667 Business Parkway,Boston,MA,78147,Phone,Chris Patel
+ORD100115,CUST10189,2023-09-01,91194,4559,7295.52,0,93930.52,Credit Card,Net 60,Completed,7268 Business Way,Seattle,CO,77108,Online,Chris Patel
+ORD100116,CUST10202,2023-04-18,137992,13799,11039.36,0,135232.36,Financing,Prepaid,In Production,1581 Commerce Dr,Detroit,CO,75697,Phone,Jessica Martinez
+ORD100117,CUST10186,2023-06-25,150841,15084,12067.28,0,147824.28,Purchase Order,50/50,Completed,8675 Manufacturing Parkway,Portland,MI,62005,Direct Sales,Chris Patel
+ORD100118,CUST10265,2024-05-27,44467,0,3557.36,0,48024.36,Wire Transfer,Financing 24mo,Cancelled,8231 Manufacturing Dr,Chicago,WA,96146,Partner,Jessica Martinez
+ORD100119,CUST10148,2023-07-10,3438,0,275.04,360,4073.04,Purchase Order,Prepaid,Completed,7394 Industrial Way,Austin,MN,85331,Online,Jessica Martinez
+ORD100120,CUST10243,2023-10-21,177923,8896,14233.84,0,183260.84,Financing,Financing 24mo,In Production,8297 Manufacturing Dr,Austin,MI,18473,Phone,David Martinez
+ORD100121,CUST10370,2024-06-12,129948,12994,10395.84,0,127349.84,Credit Card,Financing 24mo,Shipped,6513 Industrial Dr,Portland,WA,15525,Direct Sales,Chris Patel
+ORD100122,CUST10218,2023-11-05,48154,0,3852.32,0,52006.32,Financing,Prepaid,Cancelled,8254 Business Blvd,Boston,MA,23240,Online,Jessica Martinez
+ORD100123,CUST10037,2024-07-20,161190,8059,12895.2,0,166026.2,Financing,50/50,In Production,6157 Manufacturing Parkway,Boston,CO,65253,Partner,David Martinez
+ORD100124,CUST10478,2023-01-12,82706,8270,6616.48,0,81052.48,Credit Card,Net 60,Completed,5351 Tech Blvd,Detroit,TX,43511,Phone,Jessica Martinez
+ORD100125,CUST10459,2024-07-30,122568,6128,9805.44,0,126245.44,Purchase Order,50/50,Shipped,2342 Industrial Parkway,Denver,CO,27951,Phone,David Martinez
+ORD100126,CUST10475,2024-02-23,1468,0,117.44,463,2048.44,Purchase Order,Net 30,Completed,9561 Business Dr,Minneapolis,CO,69786,Partner,Jessica Martinez
+ORD100127,CUST10013,2023-08-24,2936,0,234.88,481,3651.88,Wire Transfer,50/50,Shipped,1083 Manufacturing Dr,Boston,TX,66911,Online,David Martinez
+ORD100128,CUST10182,2023-07-07,156355,15635,12508.4,0,153228.4,Purchase Order,50/50,In Production,6926 Commerce Way,Minneapolis,MI,22411,Phone,Chris Patel
+ORD100129,CUST10203,2023-10-07,94760,4738,7580.8,0,97602.8,Purchase Order,Prepaid,Cancelled,2135 Commerce Parkway,Denver,IL,12967,Direct Sales,Chris Patel
+ORD100130,CUST10018,2023-06-26,148579,7428,11886.32,0,153037.32,Purchase Order,Prepaid,Completed,8463 Industrial Dr,Minneapolis,TX,48721,Partner,Jessica Martinez
+ORD100131,CUST10356,2024-08-15,175649,8782,14051.92,0,180918.92,Wire Transfer,50/50,Completed,7892 Manufacturing Way,Austin,OR,96568,Partner,Chris Patel
+ORD100132,CUST10139,2024-08-22,10555,0,844.4,0,11399.4,Wire Transfer,50/50,Shipped,933 Business Blvd,Seattle,WA,88283,Online,Jessica Martinez
+ORD100133,CUST10144,2023-02-27,55904,5590,4472.32,0,54786.32,Purchase Order,Prepaid,In Production,8022 Business Parkway,Seattle,WA,24361,Phone,David Martinez
+ORD100134,CUST10365,2024-04-13,46324,0,3705.92,0,50029.92,Purchase Order,Net 30,Completed,1159 Business Parkway,Boston,MA,11904,Direct Sales,David Martinez
+ORD100135,CUST10415,2024-04-02,18747,0,1499.76,0,20246.76,Purchase Order,Net 30,Completed,3176 Commerce Parkway,Detroit,IL,60785,Direct Sales,David Martinez
+ORD100136,CUST10031,2024-02-20,38685,0,3094.8,0,41779.8,Purchase Order,Prepaid,Completed,232 Industrial Dr,Detroit,MA,67054,Direct Sales,David Martinez
+ORD100137,CUST10482,2023-07-29,40774,0,3261.92,0,44035.92,Wire Transfer,Financing 24mo,Completed,8075 Commerce Way,Seattle,CO,94301,Partner,Jessica Martinez
+ORD100138,CUST10329,2024-08-22,66081,6608,5286.48,0,64759.479999999996,Purchase Order,Net 30,Completed,8288 Manufacturing Blvd,Chicago,TX,30050,Direct Sales,David Martinez
+ORD100139,CUST10023,2024-12-25,93245,4662,7459.6,0,96042.6,Purchase Order,Net 30,Completed,1686 Manufacturing Dr,Chicago,IL,10077,Online,David Martinez
+ORD100140,CUST10178,2023-05-02,169393,8469,13551.44,0,174475.44,Purchase Order,Net 30,Cancelled,2597 Tech Blvd,Austin,WA,48599,Direct Sales,Chris Patel
+ORD100141,CUST10103,2023-06-03,125183,12518,10014.64,0,122679.64,Financing,Prepaid,Completed,6065 Business Dr,Minneapolis,MN,17622,Partner,David Martinez
+ORD100142,CUST10475,2023-02-24,57126,2856,4570.08,0,58840.08,Financing,Prepaid,In Production,9561 Business Dr,Minneapolis,CO,69786,Direct Sales,Chris Patel
+ORD100143,CUST10000,2024-04-06,48154,0,3852.32,0,52006.32,Wire Transfer,Financing 24mo,Shipped,842 Industrial Parkway,Denver,OR,75627,Direct Sales,David Martinez
+ORD100144,CUST10358,2023-07-29,166036,8301,13282.88,0,171017.88,Wire Transfer,Net 30,Cancelled,8684 Manufacturing Dr,Austin,MA,36495,Partner,David Martinez
+ORD100145,CUST10326,2024-02-23,71944,3597,5755.52,0,74102.52,Purchase Order,Financing 24mo,Shipped,8689 Tech Dr,Chicago,MI,55149,Phone,Jessica Martinez
+ORD100146,CUST10477,2024-04-04,19131,0,1530.48,0,20661.48,Purchase Order,Prepaid,In Production,6866 Tech Dr,Seattle,MI,33991,Direct Sales,Jessica Martinez
+ORD100147,CUST10022,2023-09-04,53920,2696,4313.6,0,55537.6,Credit Card,Prepaid,Cancelled,7369 Business Way,Minneapolis,WA,61366,Phone,Chris Patel
+ORD100148,CUST10344,2024-06-13,20619,0,1649.52,0,22268.52,Financing,Net 30,Cancelled,7615 Commerce Dr,Portland,TX,19133,Phone,Chris Patel
+ORD100149,CUST10144,2023-01-11,87542,8754,7003.36,0,85791.36,Financing,Financing 24mo,Completed,8022 Business Parkway,Seattle,WA,24361,Direct Sales,David Martinez
+ORD100150,CUST10164,2023-06-23,188685,9434,15094.8,0,194345.8,Wire Transfer,Financing 24mo,Shipped,6121 Commerce Dr,Minneapolis,IL,73636,Online,David Martinez
+ORD100151,CUST10354,2024-06-11,68228,3411,5458.24,0,70275.24,Wire Transfer,Financing 24mo,Shipped,3724 Industrial Parkway,Seattle,MA,68344,Partner,David Martinez
+ORD100152,CUST10319,2024-07-09,96129,4806,7690.32,0,99013.32,Purchase Order,Prepaid,Completed,6251 Business Dr,Portland,CO,24706,Direct Sales,David Martinez
+ORD100153,CUST10272,2024-01-20,112438,11243,8995.04,0,110190.04000000001,Purchase Order,Net 60,Completed,4060 Tech Dr,Detroit,TX,22766,Direct Sales,David Martinez
+ORD100154,CUST10126,2024-12-10,141191,14119,11295.28,0,138367.28,Purchase Order,50/50,Completed,570 Commerce Dr,Chicago,MA,86841,Direct Sales,Chris Patel
+ORD100155,CUST10326,2023-12-13,80228,4011,6418.24,0,82635.24,Credit Card,50/50,Completed,8689 Tech Dr,Chicago,MI,55149,Direct Sales,Chris Patel
+ORD100156,CUST10462,2024-05-11,63994,3199,5119.52,0,65914.52,Credit Card,Prepaid,Completed,8456 Industrial Blvd,Boston,TX,47297,Online,Chris Patel
+ORD100157,CUST10384,2023-05-21,75104,3755,6008.32,0,77357.32,Financing,Financing 24mo,Cancelled,6671 Commerce Parkway,Seattle,OR,65816,Direct Sales,David Martinez
+ORD100158,CUST10446,2023-03-22,200037,10001,16002.96,0,206038.96,Purchase Order,Net 60,Shipped,1147 Commerce Blvd,Portland,MN,93670,Partner,Jessica Martinez
+ORD100159,CUST10015,2024-10-06,52202,5220,4176.16,0,51158.16,Wire Transfer,50/50,Cancelled,1406 Manufacturing Blvd,Chicago,TX,63871,Direct Sales,Jessica Martinez
+ORD100160,CUST10043,2024-12-20,193210,19321,15456.8,0,189345.8,Purchase Order,Financing 24mo,Shipped,4161 Business Parkway,Detroit,TX,13692,Online,Chris Patel
+ORD100161,CUST10233,2024-11-14,50110,2505,4008.8,0,51613.8,Credit Card,Net 30,Shipped,9283 Tech Dr,Boston,TX,30283,Partner,David Martinez
+ORD100162,CUST10221,2024-06-19,734,0,58.72,161,953.72,Wire Transfer,Net 30,Cancelled,770 Industrial Way,Portland,WA,20068,Direct Sales,Jessica Martinez
+ORD100163,CUST10048,2023-05-02,56534,5653,4522.72,0,55403.72,Financing,Prepaid,Completed,6051 Tech Blvd,Seattle,CO,12031,Online,David Martinez
+ORD100164,CUST10371,2024-02-10,49433,0,3954.64,0,53387.64,Wire Transfer,Prepaid,Completed,9004 Business Blvd,Chicago,TX,79679,Partner,Chris Patel
+ORD100165,CUST10272,2023-04-17,18747,0,1499.76,0,20246.76,Wire Transfer,Net 30,Shipped,4060 Tech Dr,Detroit,TX,22766,Online,Chris Patel
+ORD100166,CUST10463,2023-02-03,91011,9101,7280.88,0,89190.88,Wire Transfer,50/50,Shipped,2953 Tech Way,Detroit,CO,41064,Partner,David Martinez
+ORD100167,CUST10376,2023-04-24,62359,3117,4988.72,0,64230.72,Financing,Financing 24mo,Completed,1497 Commerce Parkway,Boston,IL,10892,Phone,Jessica Martinez
+ORD100168,CUST10313,2023-11-28,21213,0,1697.04,0,22910.04,Financing,Net 60,Completed,220 Tech Parkway,Denver,CO,12443,Direct Sales,Chris Patel
+ORD100169,CUST10063,2023-09-22,18747,0,1499.76,0,20246.76,Purchase Order,Prepaid,In Production,8941 Manufacturing Blvd,Seattle,IL,92441,Direct Sales,David Martinez
+ORD100170,CUST10205,2023-07-10,30522,0,2441.76,0,32963.76,Credit Card,Prepaid,Cancelled,570 Commerce Dr,Detroit,MN,49598,Partner,Chris Patel
+ORD100171,CUST10053,2023-05-21,20074,0,1605.92,0,21679.92,Financing,Prepaid,Completed,2170 Business Dr,Detroit,WA,60143,Phone,David Martinez
+ORD100172,CUST10274,2024-08-28,123225,6161,9858.0,0,126922.0,Purchase Order,50/50,Completed,2667 Manufacturing Blvd,Minneapolis,IL,69589,Direct Sales,Chris Patel
+ORD100173,CUST10476,2023-12-13,55029,2751,4402.32,0,56680.32,Purchase Order,Net 60,Cancelled,9287 Manufacturing Dr,Boston,MA,61149,Direct Sales,David Martinez
+ORD100174,CUST10072,2023-05-31,79915,3995,6393.2,0,82313.2,Wire Transfer,Net 60,Cancelled,4513 Business Dr,Boston,MN,32455,Direct Sales,David Martinez
+ORD100175,CUST10259,2023-08-23,127478,6373,10198.24,0,131303.24,Wire Transfer,50/50,Completed,7430 Commerce Way,Seattle,CO,69634,Partner,Jessica Martinez
+ORD100176,CUST10312,2024-03-03,75272,7527,6021.76,0,73766.76,Purchase Order,Prepaid,Cancelled,2501 Commerce Dr,Austin,MI,88994,Direct Sales,Chris Patel
+ORD100177,CUST10375,2023-11-04,46961,0,3756.88,0,50717.88,Financing,Prepaid,In Production,7661 Manufacturing Parkway,Denver,IL,32289,Direct Sales,Jessica Martinez
+ORD100178,CUST10375,2024-04-16,37848,0,3027.84,0,40875.84,Credit Card,Prepaid,Completed,7661 Manufacturing Parkway,Denver,IL,32289,Direct Sales,Chris Patel
+ORD100179,CUST10296,2023-10-23,27562,0,2204.96,0,29766.96,Purchase Order,50/50,Cancelled,7385 Commerce Blvd,Chicago,MN,72319,Partner,David Martinez
+ORD100180,CUST10014,2024-05-06,56731,2836,4538.48,0,58433.479999999996,Credit Card,Prepaid,In Production,5020 Business Dr,Denver,MI,11909,Direct Sales,David Martinez
+ORD100181,CUST10064,2024-12-29,115639,5781,9251.12,0,119109.12,Wire Transfer,50/50,Completed,7455 Commerce Parkway,Minneapolis,WA,60743,Partner,Chris Patel
+ORD100182,CUST10234,2024-08-01,71898,7189,5751.84,0,70460.84,Financing,Financing 24mo,Completed,9145 Manufacturing Blvd,Chicago,WA,53686,Partner,Jessica Martinez
+ORD100183,CUST10142,2023-04-22,18308,0,1464.64,0,19772.64,Financing,Financing 24mo,Completed,2340 Manufacturing Blvd,Portland,WA,17937,Direct Sales,David Martinez
+ORD100184,CUST10380,2023-10-18,147907,14790,11832.56,0,144949.56,Purchase Order,Prepaid,Completed,6485 Commerce Blvd,Chicago,WA,58293,Direct Sales,David Martinez
+ORD100185,CUST10388,2023-07-12,87487,8748,6998.96,0,85737.96,Purchase Order,50/50,Shipped,2668 Industrial Parkway,Detroit,TX,43236,Direct Sales,Chris Patel
+ORD100186,CUST10283,2024-10-27,70645,7064,5651.6,0,69232.6,Purchase Order,50/50,Shipped,4722 Commerce Blvd,Boston,MI,41122,Partner,Jessica Martinez
+ORD100187,CUST10406,2024-01-30,58214,5821,4657.12,0,57050.12,Financing,Net 30,In Production,4795 Tech Way,Portland,WA,68533,Partner,Chris Patel
+ORD100188,CUST10130,2023-07-11,91443,9144,7315.44,0,89614.44,Credit Card,Net 60,Cancelled,5546 Industrial Way,Portland,MN,25136,Online,Chris Patel
+ORD100189,CUST10044,2024-02-14,51196,2559,4095.68,0,52732.68,Financing,Net 30,Cancelled,7701 Business Blvd,Austin,IL,18974,Phone,David Martinez
+ORD100190,CUST10465,2024-08-04,15157,0,1212.56,0,16369.56,Credit Card,50/50,Shipped,9234 Industrial Parkway,Minneapolis,CO,16361,Direct Sales,Chris Patel
+ORD100191,CUST10266,2024-04-09,26808,0,2144.64,0,28952.64,Purchase Order,Prepaid,Shipped,8471 Business Blvd,Detroit,TX,19723,Online,Jessica Martinez
+ORD100192,CUST10231,2024-06-05,154277,7713,12342.16,0,158906.16,Wire Transfer,Financing 24mo,Cancelled,5829 Business Blvd,Boston,IL,78012,Direct Sales,Chris Patel
+ORD100193,CUST10379,2024-01-19,104376,10437,8350.08,0,102289.08,Purchase Order,50/50,Completed,3314 Industrial Way,Austin,MN,92989,Direct Sales,Chris Patel
+ORD100194,CUST10244,2023-04-24,90680,9068,7254.4,0,88866.4,Purchase Order,Prepaid,Cancelled,183 Tech Dr,Seattle,TX,31036,Direct Sales,David Martinez
+ORD100195,CUST10408,2023-10-18,100244,10024,8019.52,0,98239.52,Financing,Prepaid,In Production,7751 Business Blvd,Denver,IL,32573,Phone,Jessica Martinez
+ORD100196,CUST10102,2024-03-24,118490,5924,9479.2,0,122045.2,Purchase Order,Financing 24mo,Shipped,3442 Business Way,Denver,MI,19308,Partner,David Martinez
+ORD100197,CUST10102,2024-05-13,61755,3087,4940.4,0,63608.4,Wire Transfer,Prepaid,Cancelled,3442 Business Way,Denver,MI,19308,Direct Sales,David Martinez
+ORD100198,CUST10424,2023-06-02,29329,0,2346.32,0,31675.32,Purchase Order,Prepaid,Completed,3636 Commerce Way,Chicago,WA,87259,Direct Sales,David Martinez
+ORD100199,CUST10319,2023-03-27,25173,0,2013.84,0,27186.84,Credit Card,Prepaid,In Production,6251 Business Dr,Portland,CO,24706,Direct Sales,David Martinez
+ORD100200,CUST10392,2024-01-07,77243,3862,6179.44,0,79560.44,Credit Card,Prepaid,Completed,5376 Industrial Blvd,Seattle,MA,35733,Direct Sales,Chris Patel
+ORD100201,CUST10135,2024-10-22,18390,0,1471.2,0,19861.2,Credit Card,50/50,Completed,2176 Commerce Way,Denver,MA,64327,Online,David Martinez
+ORD100202,CUST10331,2023-08-14,45044,0,3603.52,0,48647.52,Financing,Financing 24mo,Completed,6202 Manufacturing Blvd,Detroit,IL,76083,Online,Jessica Martinez
+ORD100203,CUST10469,2024-12-10,112797,11279,9023.76,0,110541.76,Purchase Order,Financing 24mo,Completed,8199 Manufacturing Dr,Chicago,OR,37316,Partner,Chris Patel
+ORD100204,CUST10424,2023-05-03,13435,0,1074.8,0,14509.8,Financing,Prepaid,Completed,3636 Commerce Way,Chicago,WA,87259,Direct Sales,Jessica Martinez
+ORD100205,CUST10145,2024-05-16,23932,0,1914.56,0,25846.56,Purchase Order,Net 60,Cancelled,6736 Industrial Parkway,Boston,MI,32711,Online,David Martinez
+ORD100206,CUST10381,2024-07-10,50563,5056,4045.04,0,49552.04,Credit Card,Net 60,Completed,4413 Tech Dr,Portland,WA,28257,Direct Sales,David Martinez
+ORD100207,CUST10109,2023-12-14,232048,11602,18563.84,0,239009.84,Financing,Prepaid,In Production,6512 Commerce Blvd,Denver,MI,77767,Direct Sales,Jessica Martinez
+ORD100208,CUST10123,2023-02-21,34410,0,2752.8,0,37162.8,Financing,Net 30,Completed,6003 Manufacturing Dr,Seattle,OR,36053,Direct Sales,Jessica Martinez
+ORD100209,CUST10069,2024-02-29,67335,6733,5386.8,0,65988.8,Financing,Prepaid,Cancelled,9231 Manufacturing Way,Chicago,CO,78578,Direct Sales,Chris Patel
+ORD100210,CUST10105,2023-08-04,11780,0,942.4,0,12722.4,Financing,Prepaid,Completed,8965 Manufacturing Dr,Denver,CO,59285,Direct Sales,David Martinez
+ORD100211,CUST10009,2024-12-01,122692,6134,9815.36,0,126373.36,Credit Card,Net 60,Shipped,9524 Tech Dr,Austin,MA,50277,Phone,David Martinez
+ORD100212,CUST10376,2024-09-21,30547,0,2443.76,0,32990.76,Purchase Order,Net 30,Shipped,1497 Commerce Parkway,Boston,IL,10892,Partner,Jessica Martinez
+ORD100213,CUST10319,2023-04-05,20074,0,1605.92,0,21679.92,Credit Card,Prepaid,Shipped,6251 Business Dr,Portland,CO,24706,Direct Sales,David Martinez
+ORD100214,CUST10210,2024-01-08,172104,8605,13768.32,0,177267.32,Wire Transfer,Net 30,Completed,724 Commerce Blvd,Chicago,MI,88154,Online,Chris Patel
+ORD100215,CUST10004,2024-09-09,59544,5954,4763.52,0,58353.520000000004,Wire Transfer,Financing 24mo,In Production,7863 Industrial Way,Detroit,CO,85714,Online,Chris Patel
+ORD100216,CUST10102,2024-07-25,57861,5786,4628.88,0,56703.88,Purchase Order,Net 60,Completed,3442 Business Way,Denver,MI,19308,Direct Sales,Chris Patel
+ORD100217,CUST10011,2023-09-13,30972,0,2477.76,0,33449.76,Credit Card,Prepaid,Completed,909 Tech Way,Denver,MN,78991,Direct Sales,David Martinez
+ORD100218,CUST10331,2023-12-06,36471,0,2917.68,0,39388.68,Wire Transfer,Net 30,Completed,6202 Manufacturing Blvd,Detroit,IL,76083,Phone,David Martinez
+ORD100219,CUST10050,2024-10-13,23932,0,1914.56,0,25846.56,Financing,Financing 24mo,Cancelled,2831 Manufacturing Blvd,Austin,MA,69433,Online,Jessica Martinez
+ORD100220,CUST10293,2023-09-11,112932,11293,9034.56,0,110673.56,Purchase Order,Net 60,In Production,6504 Business Way,Boston,IL,29850,Partner,Jessica Martinez
+ORD100221,CUST10361,2024-08-01,48910,0,3912.8,0,52822.8,Financing,Financing 24mo,In Production,3605 Tech Way,Chicago,CO,79595,Phone,Chris Patel
+ORD100222,CUST10137,2024-07-21,69533,3476,5562.64,0,71619.64,Wire Transfer,50/50,In Production,7314 Tech Parkway,Austin,MN,79862,Online,Jessica Martinez
+ORD100223,CUST10073,2024-04-12,25173,0,2013.84,0,27186.84,Financing,Net 60,Completed,7523 Commerce Way,Boston,MN,43617,Online,Jessica Martinez
+ORD100224,CUST10078,2023-05-31,68508,6850,5480.64,0,67138.64,Purchase Order,Prepaid,Completed,2790 Commerce Blvd,Boston,WA,82841,Partner,Chris Patel
+ORD100225,CUST10427,2023-06-21,12298,0,983.84,0,13281.84,Credit Card,Net 30,Completed,160 Industrial Way,Boston,WA,11140,Phone,David Martinez
+ORD100226,CUST10354,2024-03-28,25173,0,2013.84,0,27186.84,Financing,50/50,In Production,3724 Industrial Parkway,Seattle,MA,68344,Partner,Chris Patel
+ORD100227,CUST10135,2023-09-29,108943,10894,8715.44,0,106764.44,Financing,Net 60,Completed,2176 Commerce Way,Denver,MA,64327,Direct Sales,David Martinez
+ORD100228,CUST10255,2023-01-12,20808,0,1664.64,0,22472.64,Financing,50/50,Shipped,8472 Business Way,Detroit,WA,67208,Online,Chris Patel
+ORD100229,CUST10476,2024-08-28,32815,0,2625.2,0,35440.2,Financing,Net 30,Shipped,9287 Manufacturing Dr,Boston,MA,61149,Direct Sales,Jessica Martinez
+ORD100230,CUST10409,2024-09-18,158791,15879,12703.28,0,155615.28,Credit Card,Prepaid,Completed,5625 Business Way,Detroit,MA,40161,Partner,Jessica Martinez
+ORD100231,CUST10312,2024-12-02,9432,0,754.56,305,10491.56,Financing,Prepaid,Completed,2501 Commerce Dr,Austin,MI,88994,Partner,Chris Patel
+ORD100232,CUST10146,2024-07-17,138096,13809,11047.68,0,135334.68,Purchase Order,Prepaid,Cancelled,815 Manufacturing Blvd,Seattle,MI,59520,Partner,Chris Patel
+ORD100233,CUST10497,2023-12-25,97538,4876,7803.04,0,100465.04,Wire Transfer,Net 30,Completed,735 Manufacturing Dr,Portland,MN,33309,Direct Sales,Chris Patel
+ORD100234,CUST10249,2024-11-17,27488,0,2199.04,0,29687.04,Purchase Order,50/50,Completed,6793 Manufacturing Way,Seattle,CO,42712,Phone,Jessica Martinez
+ORD100235,CUST10093,2024-08-27,56710,5671,4536.8,0,55575.8,Financing,Net 60,Completed,7358 Manufacturing Parkway,Denver,MN,98064,Direct Sales,Chris Patel
+ORD100236,CUST10177,2023-06-30,79371,3968,6349.68,0,81752.68,Purchase Order,Prepaid,Cancelled,7711 Tech Way,Boston,MN,32253,Online,Jessica Martinez
+ORD100237,CUST10455,2024-03-25,77141,7714,6171.28,0,75598.28,Credit Card,Net 30,Completed,3365 Business Dr,Seattle,WA,19688,Direct Sales,David Martinez
+ORD100238,CUST10401,2024-11-11,117491,11749,9399.28,0,115141.28,Wire Transfer,Prepaid,Shipped,721 Manufacturing Dr,Austin,MA,62018,Phone,Chris Patel
+ORD100239,CUST10462,2023-04-03,86219,4310,6897.52,0,88806.52,Wire Transfer,Prepaid,Completed,8456 Industrial Blvd,Boston,TX,47297,Phone,Jessica Martinez
+ORD100240,CUST10475,2023-02-23,52708,5270,4216.64,0,51654.64,Credit Card,Net 60,In Production,9561 Business Dr,Minneapolis,CO,69786,Online,David Martinez
+ORD100241,CUST10334,2024-07-13,61303,3065,4904.24,0,63142.24,Purchase Order,Net 60,Completed,5552 Business Blvd,Detroit,OR,10655,Online,Jessica Martinez
+ORD100242,CUST10487,2024-10-05,70376,7037,5630.08,0,68969.08,Purchase Order,Prepaid,Completed,8662 Commerce Blvd,Detroit,MN,80436,Partner,Chris Patel
+ORD100243,CUST10482,2023-07-15,193882,19388,15510.56,0,190004.56,Purchase Order,Financing 24mo,Completed,8075 Commerce Way,Seattle,CO,94301,Partner,David Martinez
+ORD100244,CUST10220,2023-02-20,150910,15091,12072.8,0,147891.8,Financing,Financing 24mo,Shipped,7856 Industrial Dr,Portland,OR,84236,Partner,Chris Patel
+ORD100245,CUST10271,2023-09-21,68597,3429,5487.76,0,70655.76,Wire Transfer,Net 30,Completed,909 Tech Way,Boston,MI,89373,Online,David Martinez
+ORD100246,CUST10272,2023-12-26,68228,3411,5458.24,0,70275.24,Financing,Net 30,Completed,4060 Tech Dr,Detroit,TX,22766,Partner,Chris Patel
+ORD100247,CUST10401,2024-09-10,49327,0,3946.16,0,53273.16,Financing,50/50,Cancelled,721 Manufacturing Dr,Austin,MA,62018,Direct Sales,Chris Patel
+ORD100248,CUST10439,2024-05-31,117345,5867,9387.6,0,120865.6,Financing,Financing 24mo,In Production,7223 Manufacturing Parkway,Boston,OR,15486,Direct Sales,David Martinez
+ORD100249,CUST10263,2024-10-16,2936,0,234.88,94,3264.88,Purchase Order,Prepaid,Cancelled,6795 Commerce Parkway,Boston,WA,40006,Direct Sales,Jessica Martinez
+ORD100250,CUST10182,2023-02-20,108167,10816,8653.36,0,106004.36,Purchase Order,50/50,In Production,6926 Commerce Way,Minneapolis,MI,22411,Direct Sales,Jessica Martinez
+ORD100251,CUST10197,2024-07-10,192894,9644,15431.52,0,198681.52,Purchase Order,50/50,In Production,3922 Tech Dr,Chicago,WA,30291,Online,Chris Patel
+ORD100252,CUST10191,2024-12-29,206093,10304,16487.44,0,212276.44,Financing,Net 30,Completed,7545 Tech Blvd,Minneapolis,MN,52209,Phone,Jessica Martinez
+ORD100253,CUST10405,2023-05-20,41217,0,3297.36,0,44514.36,Purchase Order,50/50,Completed,4691 Tech Blvd,Chicago,IL,66747,Partner,Chris Patel
+ORD100254,CUST10129,2024-12-08,38340,0,3067.2,0,41407.2,Purchase Order,Prepaid,In Production,8831 Business Way,Portland,OR,48450,Direct Sales,Jessica Martinez
+ORD100255,CUST10020,2024-09-15,162128,16212,12970.24,0,158886.24,Purchase Order,50/50,Shipped,5005 Business Parkway,Chicago,CO,50241,Direct Sales,Chris Patel
+ORD100256,CUST10148,2023-05-11,32449,0,2595.92,0,35044.92,Credit Card,Prepaid,Completed,7394 Industrial Way,Austin,MN,85331,Online,Chris Patel
+ORD100257,CUST10238,2023-08-07,125724,6286,10057.92,0,129495.92,Financing,50/50,Completed,8280 Business Blvd,Detroit,MN,44163,Direct Sales,Chris Patel
+ORD100258,CUST10391,2024-09-26,42622,0,3409.76,0,46031.76,Wire Transfer,Prepaid,Completed,2553 Tech Blvd,Boston,TX,21190,Direct Sales,David Martinez
+ORD100259,CUST10026,2023-06-15,95677,9567,7654.16,0,93764.16,Wire Transfer,Prepaid,In Production,2160 Commerce Blvd,Austin,IL,37226,Partner,David Martinez
+ORD100260,CUST10494,2024-06-24,34382,0,2750.56,0,37132.56,Purchase Order,Prepaid,Shipped,966 Commerce Blvd,Portland,IL,67718,Partner,Chris Patel
+ORD100261,CUST10292,2024-10-03,78204,7820,6256.32,0,76640.32,Purchase Order,Net 60,Cancelled,8748 Business Way,Boston,OR,31382,Phone,Jessica Martinez
+ORD100262,CUST10340,2023-11-18,46175,0,3694.0,0,49869.0,Financing,Net 30,Completed,3200 Manufacturing Dr,Detroit,MI,85378,Phone,Jessica Martinez
+ORD100263,CUST10017,2024-12-03,25231,0,2018.48,0,27249.48,Purchase Order,50/50,Cancelled,3169 Industrial Parkway,Detroit,IL,62731,Partner,Chris Patel
+ORD100264,CUST10079,2023-07-20,40723,0,3257.84,0,43980.84,Purchase Order,50/50,Cancelled,1342 Commerce Dr,Chicago,TX,95907,Direct Sales,Jessica Martinez
+ORD100265,CUST10018,2023-07-28,58582,2929,4686.56,0,60339.56,Credit Card,Financing 24mo,Completed,8463 Industrial Dr,Minneapolis,TX,48721,Phone,David Martinez
+ORD100266,CUST10320,2023-11-15,57861,5786,4628.88,0,56703.88,Purchase Order,Prepaid,Completed,8112 Tech Way,Minneapolis,MI,98751,Phone,Jessica Martinez
+ORD100267,CUST10025,2024-11-20,34487,0,2758.96,0,37245.96,Purchase Order,Prepaid,In Production,2117 Tech Blvd,Seattle,MA,21154,Online,Chris Patel
+ORD100268,CUST10234,2024-09-18,36235,0,2898.8,0,39133.8,Financing,Prepaid,Shipped,9145 Manufacturing Blvd,Chicago,WA,53686,Direct Sales,David Martinez
+ORD100269,CUST10099,2024-05-17,89248,4462,7139.84,0,91925.84,Purchase Order,Financing 24mo,Cancelled,9781 Commerce Blvd,Seattle,MA,70596,Direct Sales,Jessica Martinez
+ORD100270,CUST10106,2024-11-24,10748,0,859.84,0,11607.84,Credit Card,Prepaid,In Production,1230 Tech Dr,Austin,MI,87276,Online,Jessica Martinez
+ORD100271,CUST10410,2023-09-12,25173,0,2013.84,0,27186.84,Purchase Order,Prepaid,Completed,4881 Commerce Blvd,Boston,OR,25767,Online,David Martinez
+ORD100272,CUST10291,2024-01-02,78288,7828,6263.04,0,76723.04,Financing,Net 60,Cancelled,4639 Manufacturing Blvd,Chicago,MN,54026,Online,Jessica Martinez
+ORD100273,CUST10074,2024-11-15,21830,0,1746.4,0,23576.4,Purchase Order,Net 30,Completed,2421 Commerce Parkway,Chicago,OR,51179,Partner,David Martinez
+ORD100274,CUST10361,2023-10-08,50796,5079,4063.68,0,49780.68,Credit Card,50/50,Completed,3605 Tech Way,Chicago,CO,79595,Partner,Chris Patel
+ORD100275,CUST10362,2023-10-23,30466,0,2437.28,0,32903.28,Wire Transfer,Prepaid,Shipped,1044 Business Blvd,Minneapolis,MN,93337,Phone,Jessica Martinez
+ORD100276,CUST10091,2024-07-18,27901,0,2232.08,0,30133.08,Wire Transfer,Prepaid,Completed,5742 Manufacturing Dr,Boston,OR,76024,Partner,Jessica Martinez
+ORD100277,CUST10104,2023-12-26,161771,8088,12941.68,0,166624.68,Financing,50/50,Completed,4823 Manufacturing Blvd,Portland,OR,27702,Direct Sales,Jessica Martinez
+ORD100278,CUST10371,2024-09-10,78624,7862,6289.92,0,77051.92,Credit Card,Financing 24mo,Completed,9004 Business Blvd,Chicago,TX,79679,Online,Chris Patel
+ORD100279,CUST10422,2024-03-04,23915,0,1913.2,0,25828.2,Purchase Order,Prepaid,In Production,8326 Tech Dr,Detroit,CO,35222,Online,David Martinez
+ORD100280,CUST10032,2024-11-16,1872,0,149.76,157,2178.76,Wire Transfer,Net 60,Shipped,9731 Business Blvd,Austin,TX,97900,Direct Sales,David Martinez
+ORD100281,CUST10179,2023-11-24,167211,8360,13376.88,0,172227.88,Purchase Order,Prepaid,Completed,7883 Industrial Parkway,Austin,TX,32022,Partner,Chris Patel
+ORD100282,CUST10371,2023-06-26,68328,6832,5466.24,0,66962.24,Purchase Order,Net 30,Completed,9004 Business Blvd,Chicago,TX,79679,Direct Sales,David Martinez
+ORD100283,CUST10329,2024-09-22,17137,0,1370.96,0,18507.96,Financing,50/50,Completed,8288 Manufacturing Blvd,Chicago,TX,30050,Partner,David Martinez
+ORD100284,CUST10441,2024-03-16,39457,0,3156.56,0,42613.56,Credit Card,Net 60,Completed,1879 Business Way,Austin,WA,49785,Online,David Martinez
+ORD100285,CUST10454,2023-12-09,80881,8088,6470.48,0,79263.48,Wire Transfer,Net 30,Shipped,9779 Industrial Way,Denver,MA,88017,Direct Sales,David Martinez
+ORD100286,CUST10387,2024-02-23,57459,5745,4596.72,0,56310.72,Credit Card,Financing 24mo,Completed,7663 Industrial Parkway,Detroit,WA,64038,Direct Sales,David Martinez
+ORD100287,CUST10027,2024-07-15,162428,16242,12994.24,0,159180.24,Financing,Financing 24mo,In Production,590 Business Way,Portland,OR,98117,Partner,Chris Patel
+ORD100288,CUST10161,2023-12-27,21144,0,1691.52,0,22835.52,Purchase Order,50/50,Completed,9524 Manufacturing Way,Portland,CO,45559,Online,Chris Patel
+ORD100289,CUST10159,2023-04-01,30330,0,2426.4,0,32756.4,Purchase Order,Financing 24mo,Shipped,3890 Business Dr,Chicago,OR,94953,Direct Sales,David Martinez
+ORD100290,CUST10452,2024-08-19,60434,3021,4834.72,0,62247.72,Wire Transfer,Financing 24mo,Shipped,9886 Industrial Way,Detroit,MN,29921,Online,David Martinez
+ORD100291,CUST10215,2024-04-18,52716,2635,4217.28,0,54298.28,Purchase Order,Net 60,Shipped,9905 Tech Blvd,Austin,WA,74280,Phone,Jessica Martinez
+ORD100292,CUST10490,2024-04-13,53953,2697,4316.24,0,55572.24,Wire Transfer,Financing 24mo,Completed,4788 Tech Blvd,Detroit,MA,97580,Direct Sales,David Martinez
+ORD100293,CUST10035,2023-07-07,73348,7334,5867.84,0,71881.84,Financing,Net 30,In Production,5677 Commerce Dr,Minneapolis,TX,20680,Partner,Chris Patel
+ORD100294,CUST10101,2024-10-10,168196,8409,13455.68,0,173242.68,Wire Transfer,Net 60,Completed,9208 Business Blvd,Austin,OR,64169,Online,Chris Patel
+ORD100295,CUST10121,2023-07-11,87649,4382,7011.92,0,90278.92,Wire Transfer,50/50,Completed,1428 Industrial Blvd,Chicago,MA,20230,Direct Sales,Chris Patel
+ORD100296,CUST10066,2023-03-16,57622,2881,4609.76,0,59350.76,Credit Card,Prepaid,Cancelled,4011 Manufacturing Dr,Denver,CO,78622,Direct Sales,Jessica Martinez
+ORD100297,CUST10115,2024-09-26,734,0,58.72,238,1030.72,Financing,Financing 24mo,Cancelled,1968 Industrial Dr,Chicago,WA,17524,Partner,David Martinez
+ORD100298,CUST10151,2023-05-19,23455,0,1876.4,0,25331.4,Purchase Order,Prepaid,Shipped,7813 Commerce Parkway,Austin,MI,43643,Direct Sales,David Martinez
+ORD100299,CUST10150,2024-09-15,93579,4678,7486.32,0,96387.32,Credit Card,Prepaid,Shipped,9222 Manufacturing Parkway,Chicago,MA,27414,Partner,David Martinez
+ORD100300,CUST10151,2024-04-01,61702,6170,4936.16,0,60468.16,Wire Transfer,Prepaid,In Production,7813 Commerce Parkway,Austin,MI,43643,Online,Jessica Martinez
+ORD100301,CUST10010,2023-05-07,34415,0,2753.2,0,37168.2,Wire Transfer,Prepaid,Completed,212 Tech Parkway,Portland,OR,22560,Partner,David Martinez
+ORD100302,CUST10336,2023-10-31,49496,0,3959.68,0,53455.68,Purchase Order,Financing 24mo,Completed,4582 Tech Parkway,Minneapolis,MA,16722,Phone,Chris Patel
+ORD100303,CUST10395,2023-04-02,20074,0,1605.92,0,21679.92,Purchase Order,50/50,Shipped,3888 Industrial Parkway,Minneapolis,OR,59029,Direct Sales,David Martinez
+ORD100304,CUST10290,2023-04-23,69470,3473,5557.6,0,71554.6,Purchase Order,Net 60,Cancelled,8514 Industrial Parkway,Austin,OR,92403,Partner,Jessica Martinez
+ORD100305,CUST10435,2023-11-10,41829,0,3346.32,0,45175.32,Credit Card,Net 60,Completed,120 Business Parkway,Austin,MA,96621,Phone,David Martinez
+ORD100306,CUST10086,2023-10-31,60083,6008,4806.64,0,58881.64,Financing,Prepaid,Completed,6182 Commerce Way,Austin,IL,33626,Direct Sales,Jessica Martinez
+ORD100307,CUST10340,2024-02-20,124597,6229,9967.76,0,128335.76,Credit Card,Prepaid,Shipped,3200 Manufacturing Dr,Detroit,MI,85378,Phone,Jessica Martinez
+ORD100308,CUST10384,2023-08-24,28747,0,2299.76,0,31046.760000000002,Wire Transfer,Prepaid,Shipped,6671 Commerce Parkway,Seattle,OR,65816,Phone,Jessica Martinez
+ORD100309,CUST10143,2024-04-17,8433,0,674.64,446,9553.64,Financing,Prepaid,Shipped,4633 Manufacturing Way,Seattle,TX,69081,Phone,Chris Patel
+ORD100310,CUST10110,2023-06-30,37787,0,3022.96,0,40809.96,Financing,Financing 24mo,Completed,1819 Commerce Parkway,Seattle,IL,39631,Direct Sales,Jessica Martinez
+ORD100311,CUST10362,2023-01-17,73087,3654,5846.96,0,75279.96,Credit Card,Net 30,Completed,1044 Business Blvd,Minneapolis,MN,93337,Phone,Jessica Martinez
+ORD100312,CUST10317,2023-10-05,141605,7080,11328.4,0,145853.4,Wire Transfer,Net 30,Completed,5212 Manufacturing Way,Austin,MA,10906,Direct Sales,Chris Patel
+ORD100313,CUST10062,2023-05-12,25173,0,2013.84,0,27186.84,Purchase Order,Financing 24mo,Shipped,3506 Industrial Parkway,Detroit,MA,62460,Online,Jessica Martinez
+ORD100314,CUST10134,2023-02-12,90659,4532,7252.72,0,93379.72,Wire Transfer,Net 60,Shipped,9980 Business Way,Denver,CO,44762,Partner,Jessica Martinez
+ORD100315,CUST10317,2024-08-31,41718,0,3337.44,0,45055.44,Purchase Order,Prepaid,Shipped,5212 Manufacturing Way,Austin,MA,10906,Phone,David Martinez
+ORD100316,CUST10233,2024-09-16,134608,6730,10768.64,0,138646.64,Purchase Order,Financing 24mo,Completed,9283 Tech Dr,Boston,TX,30283,Online,Jessica Martinez
+ORD100317,CUST10039,2023-08-31,201641,10082,16131.28,0,207690.28,Financing,Net 30,Completed,8952 Industrial Blvd,Minneapolis,IL,60187,Direct Sales,Jessica Martinez
+ORD100318,CUST10078,2023-06-21,189982,9499,15198.56,0,195681.56,Wire Transfer,Prepaid,Shipped,2790 Commerce Blvd,Boston,WA,82841,Partner,David Martinez
+ORD100319,CUST10381,2023-11-25,148500,14850,11880.0,0,145530.0,Wire Transfer,50/50,Shipped,4413 Tech Dr,Portland,WA,28257,Online,David Martinez
+ORD100320,CUST10172,2024-07-21,59425,2971,4754.0,0,61208.0,Financing,50/50,Completed,5290 Tech Parkway,Minneapolis,IL,29076,Phone,Jessica Martinez
+ORD100321,CUST10059,2024-03-16,128976,12897,10318.08,0,126397.08,Purchase Order,Net 30,Shipped,2432 Business Blvd,Austin,OR,41052,Direct Sales,Jessica Martinez
+ORD100322,CUST10165,2023-09-23,84434,8443,6754.72,0,82745.72,Financing,Net 30,Cancelled,2447 Manufacturing Way,Austin,CO,43336,Direct Sales,Chris Patel
+ORD100323,CUST10496,2023-11-16,16922,0,1353.76,0,18275.76,Financing,Prepaid,Completed,1041 Industrial Way,Minneapolis,OR,13834,Phone,Jessica Martinez
+ORD100324,CUST10099,2023-12-08,81848,8184,6547.84,0,80211.84,Wire Transfer,50/50,Completed,9781 Commerce Blvd,Seattle,MA,70596,Phone,Jessica Martinez
+ORD100325,CUST10102,2024-01-31,159832,15983,12786.56,0,156635.56,Purchase Order,Financing 24mo,Cancelled,3442 Business Way,Denver,MI,19308,Direct Sales,David Martinez
+ORD100326,CUST10202,2023-02-04,32449,0,2595.92,0,35044.92,Wire Transfer,Financing 24mo,Completed,1581 Commerce Dr,Detroit,CO,75697,Direct Sales,Jessica Martinez
+ORD100327,CUST10484,2023-11-14,82633,4131,6610.64,0,85112.64,Credit Card,Prepaid,Shipped,863 Tech Blvd,Seattle,OR,95457,Partner,David Martinez
+ORD100328,CUST10410,2023-05-31,76134,7613,6090.72,0,74611.72,Purchase Order,Prepaid,Completed,4881 Commerce Blvd,Boston,OR,25767,Phone,David Martinez
+ORD100329,CUST10247,2023-01-24,16922,0,1353.76,0,18275.76,Wire Transfer,Net 60,Cancelled,236 Industrial Parkway,Boston,MI,32946,Phone,David Martinez
+ORD100330,CUST10225,2023-12-17,30629,0,2450.32,0,33079.32,Purchase Order,Net 30,Shipped,4989 Tech Way,Minneapolis,MI,31120,Direct Sales,David Martinez
+ORD100331,CUST10467,2023-05-12,50077,5007,4006.16,0,49076.16,Purchase Order,50/50,Completed,4753 Tech Way,Minneapolis,MN,92047,Phone,David Martinez
+ORD100332,CUST10268,2024-09-25,62169,3108,4973.52,0,64034.520000000004,Wire Transfer,Financing 24mo,Cancelled,7702 Commerce Dr,Boston,MA,40898,Direct Sales,Jessica Martinez
+ORD100333,CUST10184,2023-05-28,96886,9688,7750.88,0,94948.88,Financing,Net 30,Shipped,8028 Manufacturing Way,Seattle,WA,16706,Online,David Martinez
+ORD100334,CUST10047,2023-10-04,50026,2501,4002.08,0,51527.08,Wire Transfer,50/50,Shipped,866 Manufacturing Blvd,Denver,MI,42473,Direct Sales,David Martinez
+ORD100335,CUST10414,2023-01-11,84059,4202,6724.72,0,86581.72,Credit Card,Prepaid,Completed,9060 Tech Way,Portland,TX,84625,Direct Sales,Jessica Martinez
+ORD100336,CUST10297,2024-01-20,150350,15035,12028.0,0,147343.0,Financing,Net 60,Completed,4917 Commerce Way,Seattle,OR,81525,Partner,David Martinez
+ORD100337,CUST10033,2023-06-03,61196,3059,4895.68,0,63032.68,Financing,Prepaid,Shipped,8079 Commerce Dr,Chicago,CO,82837,Direct Sales,Jessica Martinez
+ORD100338,CUST10343,2024-08-21,38076,0,3046.08,0,41122.08,Credit Card,50/50,Cancelled,9530 Tech Parkway,Boston,MA,44198,Direct Sales,Chris Patel
+ORD100339,CUST10002,2023-06-27,12470,0,997.6,0,13467.6,Wire Transfer,Net 30,Completed,1906 Industrial Dr,Seattle,WA,60229,Direct Sales,David Martinez
+ORD100340,CUST10228,2023-12-19,36996,0,2959.68,0,39955.68,Wire Transfer,Prepaid,Shipped,9147 Business Way,Boston,CO,86445,Direct Sales,Jessica Martinez
+ORD100341,CUST10324,2023-10-13,34321,0,2745.68,0,37066.68,Wire Transfer,Prepaid,Completed,1734 Manufacturing Dr,Portland,MI,19704,Phone,Chris Patel
+ORD100342,CUST10284,2023-09-14,20074,0,1605.92,0,21679.92,Credit Card,Financing 24mo,Shipped,2940 Business Parkway,Boston,MN,80153,Online,Chris Patel
+ORD100343,CUST10497,2024-07-23,87456,4372,6996.48,0,90080.48,Purchase Order,Net 60,Completed,735 Manufacturing Dr,Portland,MN,33309,Partner,David Martinez
+ORD100344,CUST10341,2024-08-10,54398,5439,4351.84,0,53310.84,Credit Card,Net 60,Shipped,7516 Business Dr,Portland,MI,13663,Partner,Jessica Martinez
+ORD100345,CUST10333,2024-09-26,60950,6095,4876.0,0,59731.0,Wire Transfer,50/50,Completed,3340 Industrial Way,Minneapolis,MI,74103,Online,David Martinez
+ORD100346,CUST10440,2024-07-18,99489,9948,7959.12,0,97500.12,Purchase Order,Prepaid,Completed,4473 Tech Blvd,Portland,MN,24122,Direct Sales,Chris Patel
+ORD100347,CUST10344,2023-06-14,134516,13451,10761.28,0,131826.28,Credit Card,Net 30,Cancelled,7615 Commerce Dr,Portland,TX,19133,Partner,David Martinez
+ORD100348,CUST10390,2024-01-05,111925,11192,8954.0,0,109687.0,Financing,Prepaid,Completed,3806 Industrial Way,Seattle,TX,77172,Online,Jessica Martinez
+ORD100349,CUST10425,2024-12-12,38440,0,3075.2,0,41515.2,Credit Card,Prepaid,Completed,5717 Commerce Way,Detroit,MI,18290,Partner,Jessica Martinez
+ORD100350,CUST10489,2024-09-09,67657,6765,5412.56,0,66304.56,Financing,Net 30,Shipped,3780 Manufacturing Parkway,Seattle,CO,37481,Partner,Jessica Martinez
+ORD100351,CUST10077,2024-01-20,105776,5288,8462.08,0,108950.08,Purchase Order,Prepaid,Cancelled,2262 Business Blvd,Austin,MA,15489,Partner,David Martinez
+ORD100352,CUST10265,2023-02-05,85529,4276,6842.32,0,88095.32,Credit Card,Financing 24mo,Completed,8231 Manufacturing Dr,Chicago,WA,96146,Direct Sales,Jessica Martinez
+ORD100353,CUST10400,2024-05-31,117958,5897,9436.64,0,121497.64,Purchase Order,50/50,Completed,1538 Manufacturing Parkway,Austin,OR,81007,Direct Sales,Jessica Martinez
+ORD100354,CUST10319,2024-10-05,10555,0,844.4,0,11399.4,Financing,Prepaid,In Production,6251 Business Dr,Portland,CO,24706,Phone,David Martinez
+ORD100355,CUST10494,2023-02-03,28747,0,2299.76,0,31046.760000000002,Purchase Order,Net 30,Completed,966 Commerce Blvd,Portland,IL,67718,Partner,Chris Patel
+ORD100356,CUST10270,2023-03-27,45962,0,3676.96,0,49638.96,Credit Card,Financing 24mo,Shipped,379 Business Way,Detroit,TX,79719,Direct Sales,Chris Patel
+ORD100357,CUST10426,2023-09-07,20360,0,1628.8,0,21988.8,Financing,Financing 24mo,Completed,2441 Business Dr,Portland,OR,13116,Online,Jessica Martinez
+ORD100358,CUST10351,2023-08-04,96574,9657,7725.92,0,94642.92,Purchase Order,Prepaid,Cancelled,533 Commerce Dr,Seattle,CO,13098,Partner,Jessica Martinez
+ORD100359,CUST10372,2024-02-22,24300,0,1944.0,0,26244.0,Financing,Net 30,In Production,2859 Industrial Dr,Portland,MA,19854,Direct Sales,Jessica Martinez
+ORD100360,CUST10319,2023-11-06,20858,0,1668.64,0,22526.64,Purchase Order,Prepaid,Cancelled,6251 Business Dr,Portland,CO,24706,Phone,David Martinez
+ORD100361,CUST10338,2023-08-10,47763,0,3821.04,0,51584.04,Purchase Order,Financing 24mo,Completed,9714 Tech Way,Boston,CO,32509,Direct Sales,Jessica Martinez
+ORD100362,CUST10447,2024-08-06,7404,0,592.32,388,8384.32,Purchase Order,Prepaid,Cancelled,1176 Manufacturing Parkway,Minneapolis,MI,74998,Online,David Martinez
+ORD100363,CUST10217,2023-12-21,29253,0,2340.24,0,31593.239999999998,Credit Card,Prepaid,Cancelled,5419 Manufacturing Blvd,Portland,WA,43120,Online,Chris Patel
+ORD100364,CUST10365,2023-12-19,65039,3251,5203.12,0,66991.12,Financing,Financing 24mo,Cancelled,1159 Business Parkway,Boston,MA,11904,Online,Jessica Martinez
+ORD100365,CUST10268,2024-03-01,49606,0,3968.48,0,53574.48,Purchase Order,50/50,Cancelled,7702 Commerce Dr,Boston,MA,40898,Direct Sales,David Martinez
+ORD100366,CUST10091,2023-03-26,104307,10430,8344.56,0,102221.56,Purchase Order,50/50,Completed,5742 Manufacturing Dr,Boston,OR,76024,Online,Jessica Martinez
+ORD100367,CUST10287,2024-03-25,57359,2867,4588.72,0,59080.72,Wire Transfer,50/50,Completed,1382 Industrial Parkway,Detroit,TX,95709,Online,David Martinez
+ORD100368,CUST10220,2023-11-26,101020,5051,8081.6,0,104050.6,Purchase Order,50/50,Completed,7856 Industrial Dr,Portland,OR,84236,Partner,Chris Patel
+ORD100369,CUST10493,2023-06-27,20066,0,1605.28,0,21671.28,Credit Card,50/50,Completed,7376 Business Blvd,Austin,OR,26803,Online,Jessica Martinez
+ORD100370,CUST10370,2024-11-16,44075,0,3526.0,0,47601.0,Financing,Net 60,In Production,6513 Industrial Dr,Portland,WA,15525,Phone,Chris Patel
+ORD100371,CUST10224,2024-06-11,1719,0,137.52,290,2146.52,Credit Card,Prepaid,Shipped,1844 Tech Way,Portland,MN,65489,Direct Sales,David Martinez
+ORD100372,CUST10377,2023-08-13,26641,0,2131.28,0,28772.28,Purchase Order,Financing 24mo,Completed,9700 Commerce Blvd,Minneapolis,OR,90930,Partner,Jessica Martinez
+ORD100373,CUST10302,2023-04-08,39652,0,3172.16,0,42824.16,Purchase Order,Financing 24mo,Cancelled,9399 Manufacturing Parkway,Minneapolis,MI,20717,Partner,Jessica Martinez
+ORD100374,CUST10249,2024-09-20,136318,6815,10905.44,0,140408.44,Purchase Order,Prepaid,Completed,6793 Manufacturing Way,Seattle,CO,42712,Online,David Martinez
+ORD100375,CUST10456,2023-06-27,54442,5444,4355.36,0,53353.36,Financing,Prepaid,Completed,8131 Business Parkway,Detroit,WA,85915,Direct Sales,David Martinez
+ORD100376,CUST10422,2023-10-15,61369,6136,4909.52,0,60142.520000000004,Purchase Order,Prepaid,Completed,8326 Tech Dr,Detroit,CO,35222,Direct Sales,Chris Patel
+ORD100377,CUST10001,2024-05-02,77702,7770,6216.16,0,76148.16,Credit Card,Net 60,In Production,6912 Tech Parkway,Detroit,MN,51836,Direct Sales,David Martinez
+ORD100378,CUST10438,2024-09-15,1719,0,137.52,212,2068.52,Financing,Prepaid,Completed,9819 Business Parkway,Austin,OR,18962,Phone,Jessica Martinez
+ORD100379,CUST10367,2023-10-01,117825,5891,9426.0,0,121360.0,Credit Card,50/50,Shipped,3589 Commerce Dr,Denver,MN,28405,Partner,David Martinez
+ORD100380,CUST10456,2024-09-07,29253,0,2340.24,0,31593.239999999998,Wire Transfer,Prepaid,Shipped,8131 Business Parkway,Detroit,WA,85915,Phone,David Martinez
+ORD100381,CUST10167,2023-04-06,28669,0,2293.52,0,30962.52,Wire Transfer,Net 30,In Production,5167 Industrial Way,Portland,TX,46476,Direct Sales,David Martinez
+ORD100382,CUST10267,2024-05-17,16922,0,1353.76,0,18275.76,Purchase Order,50/50,In Production,4368 Manufacturing Blvd,Chicago,MA,35225,Direct Sales,David Martinez
+ORD100383,CUST10008,2024-02-09,65076,3253,5206.08,0,67029.08,Credit Card,50/50,Cancelled,6932 Business Way,Chicago,WA,17127,Phone,David Martinez
+ORD100384,CUST10115,2023-03-17,23932,0,1914.56,0,25846.56,Financing,Financing 24mo,Completed,1968 Industrial Dr,Chicago,WA,17524,Online,Chris Patel
+ORD100385,CUST10145,2024-08-26,6333,0,506.64,84,6923.64,Purchase Order,Financing 24mo,Shipped,6736 Industrial Parkway,Boston,MI,32711,Phone,Chris Patel
+ORD100386,CUST10327,2024-09-04,6080,0,486.4,494,7060.4,Credit Card,50/50,In Production,7508 Business Blvd,Chicago,CO,25343,Direct Sales,David Martinez
+ORD100387,CUST10484,2023-04-09,35541,0,2843.28,0,38384.28,Wire Transfer,Net 30,Completed,863 Tech Blvd,Seattle,OR,95457,Partner,Chris Patel
+ORD100388,CUST10104,2023-01-28,105634,10563,8450.72,0,103521.72,Financing,Prepaid,Shipped,4823 Manufacturing Blvd,Portland,OR,27702,Partner,David Martinez
+ORD100389,CUST10147,2024-06-17,101633,5081,8130.64,0,104682.64,Purchase Order,Net 30,In Production,7905 Commerce Parkway,Seattle,MA,16929,Direct Sales,Chris Patel
+ORD100390,CUST10351,2024-10-24,10748,0,859.84,0,11607.84,Financing,Net 60,Completed,533 Commerce Dr,Seattle,CO,13098,Direct Sales,Chris Patel
+ORD100391,CUST10374,2024-03-10,115172,5758,9213.76,0,118627.76,Purchase Order,Prepaid,Cancelled,1295 Manufacturing Parkway,Minneapolis,MI,88093,Online,Jessica Martinez
+ORD100392,CUST10477,2023-01-18,29253,0,2340.24,0,31593.239999999998,Purchase Order,Prepaid,Completed,6866 Tech Dr,Seattle,MI,33991,Partner,David Martinez
+ORD100393,CUST10242,2024-09-17,44484,0,3558.72,0,48042.72,Purchase Order,Net 60,Completed,7879 Industrial Parkway,Detroit,OR,31571,Direct Sales,Jessica Martinez
+ORD100394,CUST10171,2024-04-12,36671,0,2933.68,0,39604.68,Wire Transfer,Financing 24mo,Completed,7172 Manufacturing Blvd,Minneapolis,WA,48101,Phone,Jessica Martinez
+ORD100395,CUST10219,2023-03-14,2494,0,199.52,331,3024.52,Credit Card,Prepaid,Completed,2009 Business Blvd,Portland,IL,71968,Partner,Jessica Martinez
+ORD100396,CUST10464,2024-05-05,23222,0,1857.76,0,25079.76,Wire Transfer,Net 60,Completed,7984 Tech Dr,Seattle,MI,33039,Direct Sales,David Martinez
+ORD100397,CUST10245,2024-08-09,41770,0,3341.6,0,45111.6,Wire Transfer,Net 60,Shipped,2799 Business Blvd,Portland,TX,64568,Direct Sales,David Martinez
+ORD100398,CUST10441,2024-11-16,48445,0,3875.6,0,52320.6,Credit Card,Financing 24mo,Shipped,1879 Business Way,Austin,WA,49785,Partner,David Martinez
+ORD100399,CUST10194,2024-07-14,53720,2686,4297.6,0,55331.6,Purchase Order,Prepaid,Completed,1199 Commerce Way,Seattle,WA,83789,Online,Jessica Martinez
+ORD100400,CUST10311,2024-01-19,23932,0,1914.56,0,25846.56,Wire Transfer,Prepaid,Completed,8098 Manufacturing Parkway,Boston,MI,21765,Partner,Chris Patel
+ORD100401,CUST10458,2024-03-10,15720,0,1257.6,0,16977.6,Purchase Order,Prepaid,Cancelled,189 Tech Dr,Portland,MA,46487,Phone,David Martinez
+ORD100402,CUST10048,2024-07-08,62169,3108,4973.52,0,64034.520000000004,Wire Transfer,Prepaid,Shipped,6051 Tech Blvd,Seattle,CO,12031,Partner,Chris Patel
+ORD100403,CUST10303,2023-01-04,114872,5743,9189.76,0,118318.76,Financing,Net 60,Cancelled,1402 Tech Way,Austin,CO,46458,Partner,Jessica Martinez
+ORD100404,CUST10100,2023-08-07,78751,7875,6300.08,0,77176.08,Purchase Order,Prepaid,Completed,3884 Commerce Way,Denver,CO,15740,Direct Sales,Jessica Martinez
+ORD100405,CUST10496,2023-05-13,71875,3593,5750.0,0,74032.0,Financing,Prepaid,Shipped,1041 Industrial Way,Minneapolis,OR,13834,Online,Chris Patel
+ORD100406,CUST10384,2023-11-29,28570,0,2285.6,0,30855.6,Wire Transfer,Net 30,Completed,6671 Commerce Parkway,Seattle,OR,65816,Partner,Chris Patel
+ORD100407,CUST10333,2023-03-03,134601,13460,10768.08,0,131909.08,Credit Card,Financing 24mo,In Production,3340 Industrial Way,Minneapolis,MI,74103,Phone,David Martinez
+ORD100408,CUST10100,2024-03-05,70092,7009,5607.36,0,68690.36,Purchase Order,50/50,Shipped,3884 Commerce Way,Denver,CO,15740,Direct Sales,Jessica Martinez
+ORD100409,CUST10463,2023-06-28,93260,4663,7460.8,0,96057.8,Purchase Order,Financing 24mo,In Production,2953 Tech Way,Detroit,CO,41064,Phone,Jessica Martinez
+ORD100410,CUST10156,2024-10-16,36996,0,2959.68,0,39955.68,Purchase Order,Prepaid,Completed,247 Business Way,Boston,WA,17249,Direct Sales,Jessica Martinez
+ORD100411,CUST10288,2024-09-17,34508,0,2760.64,0,37268.64,Wire Transfer,Prepaid,Cancelled,4955 Business Blvd,Denver,TX,13009,Direct Sales,David Martinez
+ORD100412,CUST10358,2024-01-30,70949,7094,5675.92,0,69530.92,Wire Transfer,Net 60,In Production,8684 Manufacturing Dr,Austin,MA,36495,Partner,Jessica Martinez
+ORD100413,CUST10055,2024-06-17,170489,8524,13639.12,0,175604.12,Purchase Order,Net 30,Completed,9155 Business Dr,Boston,IL,44980,Direct Sales,Jessica Martinez
+ORD100414,CUST10241,2024-02-25,151625,7581,12130.0,0,156174.0,Purchase Order,Net 60,In Production,3750 Commerce Way,Portland,OR,96833,Direct Sales,Chris Patel
+ORD100415,CUST10129,2023-08-31,18747,0,1499.76,0,20246.76,Purchase Order,Prepaid,Cancelled,8831 Business Way,Portland,OR,48450,Phone,Jessica Martinez
+ORD100416,CUST10172,2024-11-28,23932,0,1914.56,0,25846.56,Financing,Net 30,Cancelled,5290 Tech Parkway,Minneapolis,IL,29076,Direct Sales,Jessica Martinez
+ORD100417,CUST10362,2024-05-28,81172,8117,6493.76,0,79548.76,Purchase Order,Net 30,In Production,1044 Business Blvd,Minneapolis,MN,93337,Partner,Chris Patel
+ORD100418,CUST10361,2024-12-09,148786,14878,11902.88,0,145810.88,Purchase Order,Financing 24mo,In Production,3605 Tech Way,Chicago,CO,79595,Online,Chris Patel
+ORD100419,CUST10245,2024-04-29,45780,0,3662.4,0,49442.4,Purchase Order,Net 60,Completed,2799 Business Blvd,Portland,TX,64568,Online,David Martinez
+ORD100420,CUST10271,2023-04-02,117807,5890,9424.56,0,121341.56,Purchase Order,Prepaid,Completed,909 Tech Way,Boston,MI,89373,Partner,Chris Patel
+ORD100421,CUST10182,2023-10-29,75894,7589,6071.52,0,74376.52,Purchase Order,Net 30,Completed,6926 Commerce Way,Minneapolis,MI,22411,Direct Sales,David Martinez
+ORD100422,CUST10084,2024-09-01,100862,5043,8068.96,0,103887.96,Financing,50/50,Completed,5389 Commerce Dr,Austin,MI,28054,Direct Sales,Chris Patel
+ORD100423,CUST10198,2024-10-28,45094,0,3607.52,0,48701.52,Wire Transfer,Net 60,Completed,4976 Business Way,Seattle,TX,91975,Phone,Chris Patel
+ORD100424,CUST10345,2023-09-03,6839,0,547.12,481,7867.12,Purchase Order,Net 60,Shipped,9030 Commerce Dr,Denver,TX,63209,Direct Sales,David Martinez
+ORD100425,CUST10173,2023-06-15,32194,0,2575.52,0,34769.52,Financing,Prepaid,Completed,8121 Manufacturing Dr,Seattle,TX,58134,Phone,David Martinez
+ORD100426,CUST10340,2023-07-03,18747,0,1499.76,0,20246.76,Wire Transfer,Net 60,Completed,3200 Manufacturing Dr,Detroit,MI,85378,Online,Chris Patel
+ORD100427,CUST10458,2023-01-03,37437,0,2994.96,0,40431.96,Financing,Prepaid,Shipped,189 Tech Dr,Portland,MA,46487,Phone,David Martinez
+ORD100428,CUST10078,2023-08-28,20074,0,1605.92,0,21679.92,Purchase Order,Financing 24mo,Completed,2790 Commerce Blvd,Boston,WA,82841,Online,Chris Patel
+ORD100429,CUST10340,2023-08-18,67040,6704,5363.2,0,65699.2,Credit Card,50/50,Cancelled,3200 Manufacturing Dr,Detroit,MI,85378,Phone,Jessica Martinez
+ORD100430,CUST10481,2024-12-03,32673,0,2613.84,0,35286.84,Purchase Order,Net 30,Completed,8211 Manufacturing Parkway,Seattle,MI,77990,Direct Sales,Chris Patel
+ORD100431,CUST10234,2023-02-05,59606,5960,4768.48,0,58414.479999999996,Credit Card,50/50,Completed,9145 Manufacturing Blvd,Chicago,WA,53686,Direct Sales,Jessica Martinez
+ORD100432,CUST10410,2024-01-31,9432,0,754.56,126,10312.56,Financing,Prepaid,Completed,4881 Commerce Blvd,Boston,OR,25767,Partner,Chris Patel
+ORD100433,CUST10482,2023-10-27,135168,13516,10813.44,0,132465.44,Credit Card,50/50,Completed,8075 Commerce Way,Seattle,CO,94301,Phone,David Martinez
+ORD100434,CUST10312,2024-07-17,28747,0,2299.76,0,31046.760000000002,Credit Card,Prepaid,Shipped,2501 Commerce Dr,Austin,MI,88994,Phone,Jessica Martinez
+ORD100435,CUST10309,2024-07-19,48734,0,3898.72,0,52632.72,Purchase Order,Net 30,In Production,4978 Industrial Dr,Austin,MI,14226,Phone,Chris Patel
+ORD100436,CUST10187,2023-01-25,18308,0,1464.64,0,19772.64,Purchase Order,Prepaid,Cancelled,1148 Tech Parkway,Chicago,IL,91798,Online,Jessica Martinez
+ORD100437,CUST10453,2024-09-14,72086,7208,5766.88,0,70644.88,Wire Transfer,50/50,Completed,6490 Business Dr,Detroit,IL,74707,Direct Sales,David Martinez
+ORD100438,CUST10321,2023-02-08,4222,0,337.76,487,5046.76,Purchase Order,Prepaid,Completed,226 Commerce Dr,Detroit,CO,83203,Partner,Jessica Martinez
+ORD100439,CUST10132,2024-10-17,39626,0,3170.08,0,42796.08,Purchase Order,Financing 24mo,In Production,3450 Business Parkway,Seattle,MN,17157,Direct Sales,David Martinez
+ORD100440,CUST10480,2023-07-29,43043,0,3443.44,0,46486.44,Credit Card,Prepaid,Completed,9499 Manufacturing Way,Minneapolis,MI,16016,Direct Sales,Jessica Martinez
+ORD100441,CUST10431,2024-08-05,145798,7289,11663.84,0,150172.84,Purchase Order,Net 60,Completed,4373 Industrial Dr,Denver,TX,50223,Direct Sales,Jessica Martinez
+ORD100442,CUST10381,2024-10-25,28317,0,2265.36,0,30582.36,Purchase Order,Net 30,Cancelled,4413 Tech Dr,Portland,WA,28257,Direct Sales,Chris Patel
+ORD100443,CUST10074,2024-02-25,66554,6655,5324.32,0,65223.32,Wire Transfer,Financing 24mo,Cancelled,2421 Commerce Parkway,Chicago,OR,51179,Direct Sales,Jessica Martinez
+ORD100444,CUST10113,2023-06-14,55904,2795,4472.32,0,57581.32,Purchase Order,Prepaid,In Production,8714 Industrial Way,Chicago,MN,98749,Direct Sales,Chris Patel
+ORD100445,CUST10455,2024-08-11,42622,0,3409.76,0,46031.76,Purchase Order,Net 30,Completed,3365 Business Dr,Seattle,WA,19688,Phone,Chris Patel
+ORD100446,CUST10251,2023-12-16,26868,0,2149.44,0,29017.44,Purchase Order,Prepaid,Cancelled,8393 Commerce Parkway,Boston,MA,97142,Online,David Martinez
+ORD100447,CUST10424,2024-06-10,70430,3521,5634.4,0,72543.4,Financing,Prepaid,Cancelled,3636 Commerce Way,Chicago,WA,87259,Direct Sales,Chris Patel
+ORD100448,CUST10409,2023-07-12,90670,9067,7253.6,0,88856.6,Financing,Net 30,Completed,5625 Business Way,Detroit,MA,40161,Online,Chris Patel
+ORD100449,CUST10458,2024-01-08,59036,5903,4722.88,0,57855.88,Purchase Order,Prepaid,In Production,189 Tech Dr,Portland,MA,46487,Direct Sales,David Martinez
+ORD100450,CUST10379,2024-01-23,146191,7309,11695.28,0,150577.28,Purchase Order,Net 30,Shipped,3314 Industrial Way,Austin,MN,92989,Partner,David Martinez
+ORD100451,CUST10036,2024-06-17,18043,0,1443.44,0,19486.44,Purchase Order,Prepaid,In Production,3632 Commerce Way,Austin,WA,42898,Direct Sales,Jessica Martinez
+ORD100452,CUST10406,2023-10-17,50885,2544,4070.8,0,52411.8,Wire Transfer,Prepaid,Completed,4795 Tech Way,Portland,WA,68533,Direct Sales,Jessica Martinez
+ORD100453,CUST10217,2023-12-01,132635,6631,10610.8,0,136614.8,Purchase Order,Net 60,Cancelled,5419 Manufacturing Blvd,Portland,WA,43120,Online,Chris Patel
+ORD100454,CUST10160,2023-10-11,16922,0,1353.76,0,18275.76,Purchase Order,Financing 24mo,Completed,441 Industrial Parkway,Boston,MA,32039,Phone,Jessica Martinez
+ORD100455,CUST10195,2023-09-18,23861,0,1908.88,0,25769.88,Purchase Order,Net 30,Cancelled,3299 Industrial Blvd,Austin,MA,79544,Direct Sales,Chris Patel
+ORD100456,CUST10352,2023-08-21,36019,0,2881.52,0,38900.52,Purchase Order,Prepaid,Completed,5067 Industrial Parkway,Minneapolis,WA,28696,Direct Sales,Jessica Martinez
+ORD100457,CUST10314,2023-05-18,175939,8796,14075.12,0,181218.12,Wire Transfer,Prepaid,Completed,389 Business Dr,Denver,MN,54632,Direct Sales,David Martinez
+ORD100458,CUST10170,2024-06-24,166285,16628,13302.8,0,162959.8,Purchase Order,Financing 24mo,Completed,1272 Manufacturing Blvd,Denver,MN,10985,Online,Jessica Martinez
+ORD100459,CUST10038,2024-10-12,175630,8781,14050.4,0,180899.4,Wire Transfer,Financing 24mo,Shipped,7811 Commerce Dr,Detroit,WA,55272,Phone,Chris Patel
+ORD100460,CUST10084,2024-09-07,26407,0,2112.56,0,28519.56,Financing,Financing 24mo,Cancelled,5389 Commerce Dr,Austin,MI,28054,Phone,Jessica Martinez
+ORD100461,CUST10428,2024-07-17,40854,0,3268.32,0,44122.32,Credit Card,Net 60,Cancelled,3720 Commerce Parkway,Austin,MN,53308,Online,Jessica Martinez
+ORD100462,CUST10348,2024-08-01,34680,0,2774.4,0,37454.4,Credit Card,Financing 24mo,Completed,2116 Tech Blvd,Seattle,CO,36389,Phone,Chris Patel
+ORD100463,CUST10406,2023-09-29,54918,5491,4393.44,0,53820.44,Purchase Order,Net 60,Completed,4795 Tech Way,Portland,WA,68533,Direct Sales,David Martinez
+ORD100464,CUST10439,2023-10-06,122346,6117,9787.68,0,126016.68,Purchase Order,Net 30,Cancelled,7223 Manufacturing Parkway,Boston,OR,15486,Direct Sales,Jessica Martinez
+ORD100465,CUST10285,2023-11-10,95840,4792,7667.2,0,98715.2,Credit Card,Net 30,Cancelled,722 Industrial Dr,Detroit,MA,41220,Phone,Jessica Martinez
+ORD100466,CUST10359,2024-03-18,8595,0,687.6,170,9452.6,Purchase Order,Net 30,Completed,9403 Business Blvd,Austin,CO,99611,Direct Sales,David Martinez
+ORD100467,CUST10230,2023-02-04,68228,6822,5458.24,0,66864.24,Wire Transfer,Prepaid,Completed,9462 Business Way,Seattle,WA,41998,Direct Sales,David Martinez
+ORD100468,CUST10011,2024-12-08,104535,10453,8362.8,0,102444.8,Credit Card,Prepaid,In Production,909 Tech Way,Denver,MN,78991,Online,Chris Patel
+ORD100469,CUST10082,2023-06-03,61041,6104,4883.28,0,59820.28,Purchase Order,Net 60,Cancelled,8105 Manufacturing Way,Minneapolis,OR,36106,Online,Chris Patel
+ORD100470,CUST10157,2023-04-11,44047,0,3523.76,0,47570.76,Financing,Prepaid,Completed,8374 Commerce Parkway,Chicago,MI,57106,Online,Chris Patel
+ORD100471,CUST10473,2023-06-24,25366,0,2029.28,0,27395.28,Purchase Order,50/50,Shipped,6235 Tech Parkway,Denver,MA,46970,Direct Sales,David Martinez
+ORD100472,CUST10306,2023-12-31,55904,2795,4472.32,0,57581.32,Financing,Prepaid,Completed,9245 Manufacturing Way,Austin,WA,83487,Online,Chris Patel
+ORD100473,CUST10173,2024-08-28,51871,5187,4149.68,0,50833.68,Wire Transfer,Prepaid,Completed,8121 Manufacturing Dr,Seattle,TX,58134,Direct Sales,Jessica Martinez
+ORD100474,CUST10406,2023-06-24,68443,3422,5475.44,0,70496.44,Purchase Order,Prepaid,Completed,4795 Tech Way,Portland,WA,68533,Phone,Jessica Martinez
+ORD100475,CUST10228,2023-10-31,51196,5119,4095.68,0,50172.68,Credit Card,Prepaid,Completed,9147 Business Way,Boston,CO,86445,Partner,David Martinez
+ORD100476,CUST10201,2023-10-17,8595,0,687.6,417,9699.6,Purchase Order,Net 30,In Production,1627 Tech Dr,Denver,TX,47316,Online,Jessica Martinez
+ORD100477,CUST10416,2023-09-13,145970,14597,11677.6,0,143050.6,Wire Transfer,Net 30,Cancelled,3609 Industrial Dr,Minneapolis,CO,71684,Partner,David Martinez
+ORD100478,CUST10493,2023-02-26,53707,5370,4296.56,0,52633.56,Purchase Order,Net 30,Completed,7376 Business Blvd,Austin,OR,26803,Partner,David Martinez
+ORD100479,CUST10357,2024-05-25,59544,2977,4763.52,0,61330.520000000004,Financing,Net 30,Completed,3917 Commerce Dr,Portland,CO,61690,Partner,Jessica Martinez
+ORD100480,CUST10374,2024-09-01,6333,0,506.64,56,6895.64,Wire Transfer,50/50,Completed,1295 Manufacturing Parkway,Minneapolis,MI,88093,Online,Jessica Martinez
+ORD100481,CUST10496,2024-02-21,57361,5736,4588.88,0,56213.88,Purchase Order,Prepaid,Cancelled,1041 Industrial Way,Minneapolis,OR,13834,Online,David Martinez
+ORD100482,CUST10323,2024-07-02,172998,8649,13839.84,0,178188.84,Purchase Order,Net 30,Completed,9113 Commerce Blvd,Chicago,MN,64734,Partner,Chris Patel
+ORD100483,CUST10389,2024-03-14,28747,0,2299.76,0,31046.760000000002,Credit Card,50/50,Shipped,686 Business Way,Minneapolis,MI,32496,Direct Sales,Jessica Martinez
+ORD100484,CUST10336,2024-10-22,58096,5809,4647.68,0,56934.68,Financing,Prepaid,Completed,4582 Tech Parkway,Minneapolis,MA,16722,Direct Sales,Jessica Martinez
+ORD100485,CUST10154,2023-06-20,66534,3326,5322.72,0,68530.72,Purchase Order,50/50,Completed,9813 Commerce Blvd,Austin,MA,97549,Direct Sales,David Martinez
+ORD100486,CUST10406,2024-05-11,66345,6634,5307.6,0,65018.6,Purchase Order,Financing 24mo,Shipped,4795 Tech Way,Portland,WA,68533,Direct Sales,David Martinez
+ORD100487,CUST10030,2024-11-09,36161,0,2892.88,0,39053.88,Credit Card,50/50,In Production,824 Industrial Dr,Seattle,OR,15830,Partner,Chris Patel
+ORD100488,CUST10294,2023-10-01,58147,2907,4651.76,0,59891.76,Purchase Order,Net 60,Completed,1513 Manufacturing Way,Minneapolis,IL,12870,Phone,Chris Patel
+ORD100489,CUST10190,2023-11-17,9432,0,754.56,384,10570.56,Purchase Order,Financing 24mo,Cancelled,7203 Tech Parkway,Minneapolis,WA,22995,Direct Sales,Jessica Martinez
+ORD100490,CUST10184,2024-03-29,81443,8144,6515.44,0,79814.44,Wire Transfer,Net 60,In Production,8028 Manufacturing Way,Seattle,WA,16706,Partner,Chris Patel
+ORD100491,CUST10177,2023-09-09,41632,0,3330.56,0,44962.56,Credit Card,Prepaid,Completed,7711 Tech Way,Boston,MN,32253,Phone,Chris Patel
+ORD100492,CUST10053,2024-04-29,64737,6473,5178.96,0,63442.96,Wire Transfer,Prepaid,Completed,2170 Business Dr,Detroit,WA,60143,Direct Sales,David Martinez
+ORD100493,CUST10395,2024-02-25,110457,5522,8836.56,0,113771.56,Wire Transfer,Financing 24mo,Cancelled,3888 Industrial Parkway,Minneapolis,OR,59029,Phone,David Martinez
+ORD100494,CUST10231,2024-03-29,134898,6744,10791.84,0,138945.84,Wire Transfer,Financing 24mo,Completed,5829 Business Blvd,Boston,IL,78012,Online,Chris Patel
+ORD100495,CUST10284,2024-04-20,80131,8013,6410.48,0,78528.48,Purchase Order,Financing 24mo,Completed,2940 Business Parkway,Boston,MN,80153,Phone,Chris Patel
+ORD100496,CUST10304,2023-02-09,90606,9060,7248.48,0,88794.48,Wire Transfer,Net 30,Completed,6882 Commerce Way,Detroit,TX,83511,Direct Sales,David Martinez
+ORD100497,CUST10213,2024-01-14,76263,7626,6101.04,0,74738.04,Financing,50/50,Completed,7674 Manufacturing Parkway,Denver,CO,16015,Partner,David Martinez
+ORD100498,CUST10392,2023-06-19,32049,0,2563.92,0,34612.92,Credit Card,Prepaid,In Production,5376 Industrial Blvd,Seattle,MA,35733,Direct Sales,Jessica Martinez
+ORD100499,CUST10357,2023-04-27,75710,7571,6056.8,0,74195.8,Purchase Order,Net 60,Cancelled,3917 Commerce Dr,Portland,CO,61690,Direct Sales,David Martinez
+ORD100500,CUST10125,2024-09-03,5374,0,429.92,418,6221.92,Wire Transfer,Net 30,Completed,1230 Tech Way,Austin,WA,58115,Direct Sales,Chris Patel
+ORD100501,CUST10264,2023-06-22,71262,3563,5700.96,0,73399.96,Wire Transfer,Net 30,Completed,925 Industrial Dr,Minneapolis,IL,95730,Phone,David Martinez
+ORD100502,CUST10385,2023-01-09,55826,2791,4466.08,0,57501.08,Purchase Order,50/50,Completed,7305 Commerce Parkway,Seattle,TX,88607,Online,Jessica Martinez
+ORD100503,CUST10221,2024-06-11,2202,0,176.16,479,2857.16,Credit Card,Net 30,Shipped,770 Industrial Way,Portland,WA,20068,Online,Chris Patel
+ORD100504,CUST10190,2023-10-02,79110,3955,6328.8,0,81483.8,Financing,Prepaid,Completed,7203 Tech Parkway,Minneapolis,WA,22995,Direct Sales,Chris Patel
+ORD100505,CUST10457,2024-12-17,46779,0,3742.32,0,50521.32,Credit Card,Net 30,Completed,1140 Commerce Parkway,Seattle,MA,76458,Phone,David Martinez
+ORD100506,CUST10473,2023-09-09,101668,5083,8133.44,0,104718.44,Wire Transfer,Financing 24mo,Shipped,6235 Tech Parkway,Denver,MA,46970,Phone,David Martinez
+ORD100507,CUST10145,2024-10-19,122072,12207,9765.76,0,119630.76,Financing,50/50,Shipped,6736 Industrial Parkway,Boston,MI,32711,Online,Chris Patel
+ORD100508,CUST10470,2024-10-23,59389,2969,4751.12,0,61171.12,Purchase Order,Net 60,Cancelled,7914 Business Blvd,Denver,OR,31063,Direct Sales,Jessica Martinez
+ORD100509,CUST10075,2023-02-08,12470,0,997.6,0,13467.6,Purchase Order,Net 30,Completed,3477 Manufacturing Parkway,Chicago,CO,65780,Partner,Chris Patel
+ORD100510,CUST10496,2024-08-09,53991,2699,4319.28,0,55611.28,Credit Card,Prepaid,Cancelled,1041 Industrial Way,Minneapolis,OR,13834,Phone,Chris Patel
+ORD100511,CUST10094,2024-11-29,60740,3037,4859.2,0,62562.2,Purchase Order,50/50,Shipped,6542 Manufacturing Dr,Portland,MI,10734,Direct Sales,David Martinez
+ORD100512,CUST10043,2023-07-08,23306,0,1864.48,0,25170.48,Financing,Net 30,Completed,4161 Business Parkway,Detroit,TX,13692,Partner,David Martinez
+ORD100513,CUST10474,2023-12-25,49632,0,3970.56,0,53602.56,Wire Transfer,Prepaid,Completed,5736 Business Blvd,Seattle,MN,45551,Direct Sales,David Martinez
+ORD100514,CUST10387,2024-07-19,69601,3480,5568.08,0,71689.08,Credit Card,Prepaid,Cancelled,7663 Industrial Parkway,Detroit,WA,64038,Direct Sales,David Martinez
+ORD100515,CUST10339,2024-06-06,34966,0,2797.28,0,37763.28,Credit Card,50/50,Cancelled,8172 Industrial Dr,Austin,OR,75336,Phone,Jessica Martinez
+ORD100516,CUST10402,2024-10-28,74500,3725,5960.0,0,76735.0,Credit Card,Net 30,Completed,7090 Tech Way,Portland,WA,53187,Phone,Chris Patel
+ORD100517,CUST10251,2023-03-18,142418,7120,11393.44,0,146691.44,Financing,Net 30,Completed,8393 Commerce Parkway,Boston,MA,97142,Direct Sales,Jessica Martinez
+ORD100518,CUST10064,2023-10-23,196464,9823,15717.12,0,202358.12,Credit Card,Prepaid,Completed,7455 Commerce Parkway,Minneapolis,WA,60743,Partner,Chris Patel
+ORD100519,CUST10404,2024-08-05,72086,3604,5766.88,0,74248.88,Credit Card,50/50,In Production,7761 Business Blvd,Denver,IL,98238,Direct Sales,Chris Patel
+ORD100520,CUST10082,2023-12-13,70497,3524,5639.76,0,72612.76,Credit Card,Net 30,Completed,8105 Manufacturing Way,Minneapolis,OR,36106,Direct Sales,David Martinez
+ORD100521,CUST10161,2023-08-23,140446,14044,11235.68,0,137637.68,Purchase Order,50/50,Completed,9524 Manufacturing Way,Portland,CO,45559,Phone,Chris Patel
+ORD100522,CUST10044,2023-04-19,28808,0,2304.64,0,31112.64,Purchase Order,50/50,Completed,7701 Business Blvd,Austin,IL,18974,Direct Sales,Chris Patel
+ORD100523,CUST10217,2024-09-11,33735,0,2698.8,0,36433.8,Purchase Order,50/50,Completed,5419 Manufacturing Blvd,Portland,WA,43120,Phone,David Martinez
+ORD100524,CUST10307,2024-06-19,125486,6274,10038.88,0,129250.88,Purchase Order,Net 30,Cancelled,885 Business Blvd,Austin,WA,37264,Partner,David Martinez
+ORD100525,CUST10424,2024-04-27,69821,3491,5585.68,0,71915.68,Purchase Order,Prepaid,Completed,3636 Commerce Way,Chicago,WA,87259,Partner,David Martinez
+ORD100526,CUST10276,2023-07-27,33324,0,2665.92,0,35989.92,Purchase Order,Prepaid,Shipped,5736 Commerce Dr,Austin,MN,49808,Direct Sales,Jessica Martinez
+ORD100527,CUST10488,2024-05-16,119838,11983,9587.04,0,117442.04000000001,Purchase Order,50/50,Shipped,6549 Tech Dr,Chicago,IL,52016,Phone,David Martinez
+ORD100528,CUST10197,2024-04-13,13699,0,1095.92,0,14794.92,Financing,Financing 24mo,Completed,3922 Tech Dr,Chicago,WA,30291,Direct Sales,Chris Patel
+ORD100529,CUST10476,2024-12-25,20074,0,1605.92,0,21679.92,Credit Card,Financing 24mo,Completed,9287 Manufacturing Dr,Boston,MA,61149,Direct Sales,Jessica Martinez
+ORD100530,CUST10429,2023-10-21,55296,2764,4423.68,0,56955.68,Credit Card,50/50,Completed,4853 Tech Dr,Austin,MN,69791,Phone,Chris Patel
+ORD100531,CUST10049,2024-02-26,181153,9057,14492.24,0,186588.24,Financing,Financing 24mo,In Production,4896 Tech Way,Austin,OR,29829,Online,Jessica Martinez
+ORD100532,CUST10126,2023-12-27,125624,6281,10049.92,0,129392.92,Credit Card,Financing 24mo,In Production,570 Commerce Dr,Chicago,MA,86841,Online,Chris Patel
+ORD100533,CUST10185,2024-04-07,10020,0,801.6,0,10821.6,Purchase Order,Prepaid,Completed,4980 Tech Parkway,Chicago,TX,37071,Partner,Chris Patel
+ORD100534,CUST10269,2024-07-22,9976,0,798.08,86,10860.08,Credit Card,Financing 24mo,Cancelled,7351 Manufacturing Parkway,Portland,CO,22307,Online,Jessica Martinez
+ORD100535,CUST10198,2024-10-09,39446,0,3155.68,0,42601.68,Wire Transfer,Net 60,Completed,4976 Business Way,Seattle,TX,91975,Partner,David Martinez
+ORD100536,CUST10448,2024-12-20,86084,4304,6886.72,0,88666.72,Purchase Order,Prepaid,In Production,6818 Industrial Blvd,Seattle,IL,84140,Direct Sales,Jessica Martinez
+ORD100537,CUST10079,2023-12-13,34241,0,2739.28,0,36980.28,Purchase Order,Prepaid,Completed,1342 Commerce Dr,Chicago,TX,95907,Direct Sales,Jessica Martinez
+ORD100538,CUST10369,2024-05-15,155386,7769,12430.88,0,160047.88,Credit Card,Financing 24mo,Completed,890 Business Way,Denver,IL,98373,Direct Sales,David Martinez
+ORD100539,CUST10277,2023-01-09,51527,5152,4122.16,0,50497.16,Wire Transfer,Net 60,In Production,6537 Commerce Parkway,Austin,WA,47494,Direct Sales,Chris Patel
+ORD100540,CUST10165,2024-04-06,51350,5135,4108.0,0,50323.0,Purchase Order,50/50,In Production,2447 Manufacturing Way,Austin,CO,43336,Direct Sales,Jessica Martinez
+ORD100541,CUST10457,2023-01-03,67635,3381,5410.8,0,69664.8,Credit Card,Net 30,Shipped,1140 Commerce Parkway,Seattle,MA,76458,Online,David Martinez
+ORD100542,CUST10246,2023-01-12,7404,0,592.32,177,8173.32,Wire Transfer,Prepaid,Cancelled,1744 Tech Dr,Minneapolis,CO,38282,Direct Sales,Jessica Martinez
+ORD100543,CUST10384,2024-10-04,52202,2610,4176.16,0,53768.16,Financing,50/50,In Production,6671 Commerce Parkway,Seattle,OR,65816,Direct Sales,David Martinez
+ORD100544,CUST10033,2023-08-07,60558,6055,4844.64,0,59347.64,Purchase Order,Prepaid,Completed,8079 Commerce Dr,Chicago,CO,82837,Direct Sales,David Martinez
+ORD100545,CUST10275,2023-10-14,23932,0,1914.56,0,25846.56,Credit Card,Financing 24mo,Completed,7003 Commerce Blvd,Boston,MI,27106,Online,Chris Patel
+ORD100546,CUST10079,2024-01-29,34010,0,2720.8,0,36730.8,Purchase Order,50/50,Shipped,1342 Commerce Dr,Chicago,TX,95907,Phone,David Martinez
+ORD100547,CUST10258,2024-08-25,7067,0,565.36,212,7844.36,Financing,Financing 24mo,Completed,7013 Industrial Way,Chicago,MN,35415,Direct Sales,David Martinez
+ORD100548,CUST10131,2023-03-26,82970,8297,6637.6,0,81310.6,Credit Card,Net 60,Completed,1023 Business Way,Minneapolis,OR,36309,Phone,Jessica Martinez
+ORD100549,CUST10111,2023-01-09,156427,15642,12514.16,0,153299.16,Purchase Order,Net 30,Cancelled,6232 Business Parkway,Chicago,MA,74750,Partner,Chris Patel
+ORD100550,CUST10373,2023-03-01,3744,0,299.52,150,4193.52,Financing,Prepaid,Completed,9254 Business Blvd,Portland,WA,56937,Direct Sales,Jessica Martinez
+ORD100551,CUST10125,2023-01-21,182384,9119,14590.72,0,187855.72,Purchase Order,Net 30,Shipped,1230 Tech Way,Austin,WA,58115,Online,Jessica Martinez
+ORD100552,CUST10231,2023-11-20,62545,6254,5003.6,0,61294.6,Purchase Order,Financing 24mo,Completed,5829 Business Blvd,Boston,IL,78012,Direct Sales,David Martinez
+ORD100553,CUST10189,2023-09-21,61692,3084,4935.36,0,63543.36,Financing,Net 60,Completed,7268 Business Way,Seattle,CO,77108,Direct Sales,Chris Patel
+ORD100554,CUST10486,2024-06-29,78437,3921,6274.96,0,80790.96,Purchase Order,50/50,Completed,9772 Business Parkway,Denver,MA,77568,Partner,David Martinez
+ORD100555,CUST10107,2024-12-18,83456,4172,6676.48,0,85960.48,Financing,Net 60,Cancelled,8005 Business Dr,Austin,TX,79528,Direct Sales,Chris Patel
+ORD100556,CUST10392,2023-12-31,15929,0,1274.32,0,17203.32,Purchase Order,Prepaid,Completed,5376 Industrial Blvd,Seattle,MA,35733,Direct Sales,David Martinez
+ORD100557,CUST10047,2023-07-10,108133,10813,8650.64,0,105970.64,Purchase Order,Net 30,Completed,866 Manufacturing Blvd,Denver,MI,42473,Phone,David Martinez
+ORD100558,CUST10330,2023-05-15,148876,7443,11910.08,0,153343.08,Purchase Order,Net 30,Completed,430 Tech Blvd,Minneapolis,MN,88105,Direct Sales,Jessica Martinez
+ORD100559,CUST10226,2024-03-14,71552,7155,5724.16,0,70121.16,Purchase Order,Net 30,Shipped,5663 Tech Dr,Portland,OR,17377,Direct Sales,Chris Patel
+ORD100560,CUST10232,2023-10-06,142754,14275,11420.32,0,139899.32,Purchase Order,50/50,Completed,9767 Industrial Dr,Boston,MI,33468,Direct Sales,Chris Patel
+ORD100561,CUST10300,2023-05-28,34841,0,2787.28,0,37628.28,Wire Transfer,Financing 24mo,In Production,161 Business Blvd,Minneapolis,CO,10738,Direct Sales,Jessica Martinez
+ORD100562,CUST10272,2024-12-11,36151,0,2892.08,0,39043.08,Purchase Order,Financing 24mo,Completed,4060 Tech Dr,Detroit,TX,22766,Partner,David Martinez
+ORD100563,CUST10331,2023-05-03,26357,0,2108.56,0,28465.56,Credit Card,Net 60,Completed,6202 Manufacturing Blvd,Detroit,IL,76083,Direct Sales,Jessica Martinez
+ORD100564,CUST10101,2024-11-29,66674,6667,5333.92,0,65340.92,Purchase Order,Net 60,Completed,9208 Business Blvd,Austin,OR,64169,Direct Sales,Jessica Martinez
+ORD100565,CUST10242,2023-07-31,14008,0,1120.64,0,15128.64,Purchase Order,Net 60,Completed,7879 Industrial Parkway,Detroit,OR,31571,Direct Sales,David Martinez
+ORD100566,CUST10301,2024-04-02,28747,0,2299.76,0,31046.760000000002,Purchase Order,Prepaid,Completed,4798 Business Parkway,Boston,OR,66669,Direct Sales,David Martinez
+ORD100567,CUST10263,2023-04-22,28033,0,2242.64,0,30275.64,Financing,Prepaid,In Production,6795 Commerce Parkway,Boston,WA,40006,Direct Sales,Chris Patel
+ORD100568,CUST10188,2024-05-02,74222,7422,5937.76,0,72737.76,Credit Card,Net 30,In Production,9551 Commerce Way,Seattle,TX,64651,Online,David Martinez
+ORD100569,CUST10229,2024-04-08,65591,3279,5247.28,0,67559.28,Purchase Order,Net 60,Completed,4161 Tech Blvd,Chicago,WA,93518,Direct Sales,Jessica Martinez
+ORD100570,CUST10068,2023-07-12,68533,6853,5482.64,0,67162.64,Credit Card,50/50,Completed,5884 Commerce Blvd,Boston,WA,51163,Direct Sales,David Martinez
+ORD100571,CUST10072,2024-03-12,102912,5145,8232.96,0,105999.95999999999,Credit Card,Financing 24mo,In Production,4513 Business Dr,Boston,MN,32455,Direct Sales,Chris Patel
+ORD100572,CUST10292,2024-12-10,34077,0,2726.16,0,36803.16,Purchase Order,Prepaid,Completed,8748 Business Way,Boston,OR,31382,Direct Sales,David Martinez
+ORD100573,CUST10187,2024-05-10,18615,0,1489.2,0,20104.2,Financing,Prepaid,In Production,1148 Tech Parkway,Chicago,IL,91798,Phone,Jessica Martinez
+ORD100574,CUST10421,2024-06-12,151293,15129,12103.44,0,148267.44,Purchase Order,Net 60,In Production,2294 Manufacturing Dr,Chicago,MN,38570,Phone,Jessica Martinez
+ORD100575,CUST10081,2024-12-07,30789,0,2463.12,0,33252.12,Purchase Order,Net 60,Completed,5748 Tech Parkway,Denver,WA,29662,Direct Sales,Jessica Martinez
+ORD100576,CUST10060,2024-07-29,15406,0,1232.48,0,16638.48,Financing,Prepaid,Cancelled,3421 Manufacturing Parkway,Seattle,WA,79913,Direct Sales,Jessica Martinez
+ORD100577,CUST10081,2023-11-27,118756,11875,9500.48,0,116381.48,Purchase Order,50/50,Completed,5748 Tech Parkway,Denver,WA,29662,Direct Sales,David Martinez
+ORD100578,CUST10126,2023-01-27,51298,2564,4103.84,0,52837.84,Wire Transfer,Net 60,Completed,570 Commerce Dr,Chicago,MA,86841,Direct Sales,Chris Patel
+ORD100579,CUST10250,2023-03-13,136033,6801,10882.64,0,140114.64,Purchase Order,Net 60,Completed,6342 Manufacturing Way,Minneapolis,MN,43821,Online,David Martinez
+ORD100580,CUST10010,2023-03-27,5157,0,412.56,101,5670.56,Credit Card,Prepaid,Completed,212 Tech Parkway,Portland,OR,22560,Phone,David Martinez
+ORD100581,CUST10118,2024-09-26,76901,3845,6152.08,0,79208.08,Financing,Financing 24mo,Cancelled,3250 Tech Dr,Portland,TX,55279,Phone,Chris Patel
+ORD100582,CUST10350,2023-10-17,135089,13508,10807.12,0,132388.12,Financing,Net 30,Completed,9573 Business Parkway,Chicago,WA,42704,Direct Sales,Chris Patel
+ORD100583,CUST10028,2024-05-04,63958,3197,5116.64,0,65877.64,Credit Card,Net 30,Completed,1832 Commerce Blvd,Boston,CO,26427,Direct Sales,David Martinez
+ORD100584,CUST10422,2023-04-19,65074,6507,5205.92,0,63772.92,Purchase Order,Prepaid,Completed,8326 Tech Dr,Detroit,CO,35222,Partner,David Martinez
+ORD100585,CUST10425,2023-07-17,1872,0,149.76,295,2316.76,Purchase Order,Net 60,Completed,5717 Commerce Way,Detroit,MI,18290,Online,David Martinez
+ORD100586,CUST10024,2024-11-24,85941,4297,6875.28,0,88519.28,Wire Transfer,Prepaid,Completed,9633 Manufacturing Parkway,Boston,MI,69309,Direct Sales,David Martinez
+ORD100587,CUST10383,2024-02-12,44154,0,3532.32,0,47686.32,Credit Card,Prepaid,Cancelled,3029 Industrial Dr,Austin,MN,90060,Partner,David Martinez
+ORD100588,CUST10319,2023-01-03,36996,0,2959.68,0,39955.68,Credit Card,Prepaid,Cancelled,6251 Business Dr,Portland,CO,24706,Phone,Jessica Martinez
+ORD100589,CUST10066,2024-07-28,6288,0,503.04,292,7083.04,Financing,Prepaid,Cancelled,4011 Manufacturing Dr,Denver,CO,78622,Direct Sales,David Martinez
+ORD100590,CUST10379,2023-02-06,144114,14411,11529.12,0,141232.12,Purchase Order,Prepaid,In Production,3314 Industrial Way,Austin,MN,92989,Direct Sales,David Martinez
+ORD100591,CUST10046,2024-03-23,55092,5509,4407.36,0,53990.36,Purchase Order,Net 30,Shipped,552 Business Way,Denver,MA,57251,Partner,Chris Patel
+ORD100592,CUST10366,2023-04-13,34452,0,2756.16,0,37208.16,Financing,Prepaid,Shipped,7648 Manufacturing Blvd,Denver,OR,47390,Direct Sales,Jessica Martinez
+ORD100593,CUST10009,2024-05-09,33183,0,2654.64,0,35837.64,Purchase Order,Net 60,Cancelled,9524 Tech Dr,Austin,MA,50277,Online,David Martinez
+ORD100594,CUST10465,2023-11-16,46309,0,3704.72,0,50013.72,Financing,Prepaid,Completed,9234 Industrial Parkway,Minneapolis,CO,16361,Direct Sales,Jessica Martinez
+ORD100595,CUST10475,2023-01-06,53707,5370,4296.56,0,52633.56,Wire Transfer,Financing 24mo,Cancelled,9561 Business Dr,Minneapolis,CO,69786,Phone,Jessica Martinez
+ORD100596,CUST10114,2023-07-04,64631,3231,5170.48,0,66570.48,Purchase Order,Net 30,In Production,2138 Tech Way,Seattle,OR,17401,Partner,Chris Patel
+ORD100597,CUST10130,2023-10-01,66077,6607,5286.16,0,64756.16,Wire Transfer,50/50,Shipped,5546 Industrial Way,Portland,MN,25136,Direct Sales,Jessica Martinez
+ORD100598,CUST10461,2023-07-29,16922,0,1353.76,0,18275.76,Credit Card,Prepaid,Shipped,2046 Manufacturing Blvd,Minneapolis,IL,56554,Phone,Chris Patel
+ORD100599,CUST10219,2023-03-07,99350,9935,7948.0,0,97363.0,Purchase Order,Net 60,Completed,2009 Business Blvd,Portland,IL,71968,Direct Sales,David Martinez
+ORD100600,CUST10398,2024-05-13,18747,0,1499.76,0,20246.76,Credit Card,Financing 24mo,Shipped,4776 Manufacturing Way,Minneapolis,MI,26535,Online,Jessica Martinez
+ORD100601,CUST10005,2023-04-10,70674,3533,5653.92,0,72794.92,Financing,50/50,Cancelled,3572 Tech Way,Denver,CO,24757,Direct Sales,Jessica Martinez
+ORD100602,CUST10401,2024-01-23,32449,0,2595.92,0,35044.92,Wire Transfer,50/50,Completed,721 Manufacturing Dr,Austin,MA,62018,Phone,Jessica Martinez
+ORD100603,CUST10446,2024-01-08,93133,9313,7450.64,0,91270.64,Wire Transfer,Net 60,Completed,1147 Commerce Blvd,Portland,MN,93670,Phone,Jessica Martinez
+ORD100604,CUST10176,2024-10-09,26868,0,2149.44,0,29017.44,Wire Transfer,50/50,Completed,3223 Tech Blvd,Portland,CO,49145,Partner,Chris Patel
+ORD100605,CUST10424,2024-03-08,43732,0,3498.56,0,47230.56,Purchase Order,Prepaid,Completed,3636 Commerce Way,Chicago,WA,87259,Direct Sales,Chris Patel
+ORD100606,CUST10222,2024-12-23,15929,0,1274.32,0,17203.32,Financing,50/50,Completed,2755 Commerce Blvd,Boston,MA,45782,Direct Sales,Jessica Martinez
+ORD100607,CUST10214,2023-10-10,23218,0,1857.44,0,25075.44,Credit Card,Net 30,Cancelled,2545 Industrial Way,Minneapolis,CO,98314,Online,David Martinez
+ORD100608,CUST10085,2023-08-05,32449,0,2595.92,0,35044.92,Wire Transfer,Prepaid,Shipped,1613 Tech Way,Detroit,TX,42802,Phone,David Martinez
+ORD100609,CUST10030,2023-03-25,67987,6798,5438.96,0,66627.96,Wire Transfer,Prepaid,In Production,824 Industrial Dr,Seattle,OR,15830,Partner,Chris Patel
+ORD100610,CUST10069,2024-08-01,37787,0,3022.96,0,40809.96,Purchase Order,Prepaid,Cancelled,9231 Manufacturing Way,Chicago,CO,78578,Direct Sales,Jessica Martinez
+ORD100611,CUST10249,2024-05-12,68851,6885,5508.08,0,67474.08,Purchase Order,Net 30,Completed,6793 Manufacturing Way,Seattle,CO,42712,Phone,Chris Patel
+ORD100612,CUST10470,2024-01-17,32185,0,2574.8,0,34759.8,Purchase Order,Prepaid,Shipped,7914 Business Blvd,Denver,OR,31063,Direct Sales,Jessica Martinez
+ORD100613,CUST10322,2024-12-08,85961,8596,6876.88,0,84241.88,Purchase Order,Net 60,Completed,2395 Industrial Parkway,Austin,MN,18451,Online,Chris Patel
+ORD100614,CUST10121,2023-08-13,54551,2727,4364.08,0,56188.08,Financing,Net 60,Completed,1428 Industrial Blvd,Chicago,MA,20230,Direct Sales,Jessica Martinez
+ORD100615,CUST10284,2024-06-05,158414,7920,12673.12,0,163167.12,Financing,Net 30,Completed,2940 Business Parkway,Boston,MN,80153,Direct Sales,David Martinez
+ORD100616,CUST10474,2023-02-22,13731,0,1098.48,0,14829.48,Credit Card,Prepaid,Completed,5736 Business Blvd,Seattle,MN,45551,Direct Sales,David Martinez
+ORD100617,CUST10144,2023-05-20,21499,0,1719.92,0,23218.92,Financing,Financing 24mo,Completed,8022 Business Parkway,Seattle,WA,24361,Direct Sales,David Martinez
+ORD100618,CUST10230,2024-12-03,109022,5451,8721.76,0,112292.76,Purchase Order,Net 30,Completed,9462 Business Way,Seattle,WA,41998,Phone,David Martinez
+ORD100619,CUST10431,2024-07-05,8595,0,687.6,264,9546.6,Purchase Order,Net 30,Completed,4373 Industrial Dr,Denver,TX,50223,Partner,Jessica Martinez
+ORD100620,CUST10013,2023-10-28,29253,0,2340.24,0,31593.239999999998,Credit Card,50/50,In Production,1083 Manufacturing Dr,Boston,TX,66911,Direct Sales,David Martinez
+ORD100621,CUST10124,2024-03-10,126235,6311,10098.8,0,130022.8,Credit Card,50/50,Completed,5739 Commerce Dr,Seattle,TX,72130,Direct Sales,Jessica Martinez
+ORD100622,CUST10015,2024-04-14,105765,10576,8461.2,0,103650.2,Wire Transfer,Financing 24mo,Completed,1406 Manufacturing Blvd,Chicago,TX,63871,Partner,David Martinez
+ORD100623,CUST10072,2023-11-08,49809,0,3984.72,0,53793.72,Purchase Order,50/50,Completed,4513 Business Dr,Boston,MN,32455,Direct Sales,Chris Patel
+ORD100624,CUST10182,2023-06-02,83538,4176,6683.04,0,86045.04,Purchase Order,50/50,Completed,6926 Commerce Way,Minneapolis,MI,22411,Online,David Martinez
+ORD100625,CUST10301,2024-01-17,77407,3870,6192.56,0,79729.56,Purchase Order,Prepaid,Cancelled,4798 Business Parkway,Boston,OR,66669,Partner,David Martinez
+ORD100626,CUST10482,2024-01-28,15720,0,1257.6,0,16977.6,Wire Transfer,Net 60,Cancelled,8075 Commerce Way,Seattle,CO,94301,Direct Sales,David Martinez
+ORD100627,CUST10034,2023-02-11,84811,8481,6784.88,0,83114.88,Credit Card,Net 60,Completed,3570 Commerce Way,Seattle,OR,55812,Partner,David Martinez
+ORD100628,CUST10470,2023-03-30,38002,0,3040.16,0,41042.16,Wire Transfer,Net 30,In Production,7914 Business Blvd,Denver,OR,31063,Direct Sales,David Martinez
+ORD100629,CUST10220,2024-04-10,29253,0,2340.24,0,31593.239999999998,Financing,Net 30,Completed,7856 Industrial Dr,Portland,OR,84236,Online,David Martinez
+ORD100630,CUST10309,2023-07-13,31859,0,2548.72,0,34407.72,Financing,Net 60,Completed,4978 Industrial Dr,Austin,MI,14226,Online,Chris Patel
+ORD100631,CUST10062,2023-08-20,56381,5638,4510.48,0,55253.479999999996,Purchase Order,50/50,Cancelled,3506 Industrial Parkway,Detroit,MA,62460,Online,Jessica Martinez
+ORD100632,CUST10094,2024-11-26,113464,11346,9077.12,0,111195.12,Credit Card,50/50,In Production,6542 Manufacturing Dr,Portland,MI,10734,Online,David Martinez
+ORD100633,CUST10104,2023-12-17,23960,0,1916.8,0,25876.8,Credit Card,Net 30,Completed,4823 Manufacturing Blvd,Portland,OR,27702,Direct Sales,Jessica Martinez
+ORD100634,CUST10173,2024-03-15,5374,0,429.92,78,5881.92,Financing,Net 60,Cancelled,8121 Manufacturing Dr,Seattle,TX,58134,Partner,Jessica Martinez
+ORD100635,CUST10225,2023-11-14,29743,0,2379.44,0,32122.44,Credit Card,50/50,Cancelled,4989 Tech Way,Minneapolis,MI,31120,Direct Sales,Jessica Martinez
+ORD100636,CUST10350,2023-10-15,51573,2578,4125.84,0,53120.84,Purchase Order,50/50,Completed,9573 Business Parkway,Chicago,WA,42704,Online,Chris Patel
+ORD100637,CUST10229,2024-06-26,124271,6213,9941.68,0,127999.68,Purchase Order,50/50,Completed,4161 Tech Blvd,Chicago,WA,93518,Online,David Martinez
+ORD100638,CUST10013,2024-02-11,61216,6121,4897.28,0,59992.28,Wire Transfer,Net 30,In Production,1083 Manufacturing Dr,Boston,TX,66911,Direct Sales,David Martinez
+ORD100639,CUST10274,2023-10-20,85281,8528,6822.48,0,83575.48,Wire Transfer,Net 30,Completed,2667 Manufacturing Blvd,Minneapolis,IL,69589,Direct Sales,Jessica Martinez
+ORD100640,CUST10292,2023-09-11,93310,4665,7464.8,0,96109.8,Financing,Net 30,Completed,8748 Business Way,Boston,OR,31382,Direct Sales,Jessica Martinez
+ORD100641,CUST10039,2023-06-27,6876,0,550.08,389,7815.08,Purchase Order,50/50,Completed,8952 Industrial Blvd,Minneapolis,IL,60187,Online,David Martinez
+ORD100642,CUST10047,2024-10-28,178519,8925,14281.52,0,183875.52,Purchase Order,Net 60,Shipped,866 Manufacturing Blvd,Denver,MI,42473,Direct Sales,Jessica Martinez
+ORD100643,CUST10387,2024-06-18,49841,0,3987.28,0,53828.28,Purchase Order,50/50,In Production,7663 Industrial Parkway,Detroit,WA,64038,Phone,Jessica Martinez
+ORD100644,CUST10195,2024-09-20,31993,0,2559.44,0,34552.44,Purchase Order,Financing 24mo,Completed,3299 Industrial Blvd,Austin,MA,79544,Direct Sales,David Martinez
+ORD100645,CUST10299,2023-12-08,32655,0,2612.4,0,35267.4,Purchase Order,50/50,In Production,9136 Commerce Way,Chicago,OR,76835,Phone,Chris Patel
+ORD100646,CUST10197,2023-10-22,183345,9167,14667.6,0,188845.6,Wire Transfer,50/50,Completed,3922 Tech Dr,Chicago,WA,30291,Partner,David Martinez
+ORD100647,CUST10327,2024-02-10,66687,6668,5334.96,0,65353.96,Financing,Net 30,Completed,7508 Business Blvd,Chicago,CO,25343,Partner,Jessica Martinez
+ORD100648,CUST10341,2023-01-31,35684,0,2854.72,0,38538.72,Purchase Order,Financing 24mo,Completed,7516 Business Dr,Portland,MI,13663,Online,David Martinez
+ORD100649,CUST10321,2024-09-12,4577,0,366.16,229,5172.16,Purchase Order,Prepaid,Shipped,226 Commerce Dr,Detroit,CO,83203,Partner,Chris Patel
+ORD100650,CUST10062,2024-12-23,43004,0,3440.32,0,46444.32,Wire Transfer,Financing 24mo,In Production,3506 Industrial Parkway,Detroit,MA,62460,Direct Sales,Jessica Martinez
+ORD100651,CUST10460,2024-04-09,159580,15958,12766.4,0,156388.4,Financing,Prepaid,Completed,7218 Business Parkway,Denver,OR,17713,Direct Sales,Jessica Martinez
+ORD100652,CUST10151,2023-03-11,61098,6109,4887.84,0,59876.84,Purchase Order,Prepaid,In Production,7813 Commerce Parkway,Austin,MI,43643,Direct Sales,Jessica Martinez
+ORD100653,CUST10011,2024-09-23,54426,2721,4354.08,0,56059.08,Wire Transfer,Prepaid,Shipped,909 Tech Way,Denver,MN,78991,Phone,Jessica Martinez
+ORD100654,CUST10067,2023-07-31,109856,10985,8788.48,0,107659.48,Wire Transfer,Net 60,Completed,4776 Manufacturing Parkway,Austin,CO,82971,Online,David Martinez
+ORD100655,CUST10143,2024-01-26,29253,0,2340.24,0,31593.239999999998,Financing,Prepaid,Completed,4633 Manufacturing Way,Seattle,TX,69081,Online,Chris Patel
+ORD100656,CUST10000,2023-06-15,129651,6482,10372.08,0,133541.08,Purchase Order,Net 60,Completed,842 Industrial Parkway,Denver,OR,75627,Online,Jessica Martinez
+ORD100657,CUST10350,2024-09-26,45215,0,3617.2,0,48832.2,Purchase Order,50/50,In Production,9573 Business Parkway,Chicago,WA,42704,Partner,David Martinez
+ORD100658,CUST10265,2024-06-15,734,0,58.72,201,993.72,Credit Card,Financing 24mo,Cancelled,8231 Manufacturing Dr,Chicago,WA,96146,Phone,David Martinez
+ORD100659,CUST10162,2024-01-25,55743,2787,4459.44,0,57415.44,Credit Card,Financing 24mo,Completed,728 Tech Parkway,Minneapolis,CO,30184,Direct Sales,Chris Patel
+ORD100660,CUST10177,2023-08-02,65389,3269,5231.12,0,67351.12,Purchase Order,Prepaid,Completed,7711 Tech Way,Boston,MN,32253,Online,David Martinez
+ORD100661,CUST10312,2023-11-11,7404,0,592.32,196,8192.32,Financing,Prepaid,Shipped,2501 Commerce Dr,Austin,MI,88994,Partner,David Martinez
+ORD100662,CUST10102,2023-09-15,104087,5204,8326.96,0,107209.95999999999,Financing,Net 60,Completed,3442 Business Way,Denver,MI,19308,Partner,David Martinez
+ORD100663,CUST10432,2024-12-12,10555,0,844.4,0,11399.4,Financing,Net 60,Completed,9600 Manufacturing Dr,Portland,MI,76104,Phone,Chris Patel
+ORD100664,CUST10281,2024-01-05,23455,0,1876.4,0,25331.4,Credit Card,Prepaid,Completed,348 Business Way,Denver,IL,22104,Direct Sales,David Martinez
+ORD100665,CUST10095,2023-11-15,72826,3641,5826.08,0,75011.08,Purchase Order,Prepaid,Shipped,5875 Business Parkway,Minneapolis,OR,53056,Partner,David Martinez
+ORD100666,CUST10313,2024-08-09,32609,0,2608.72,0,35217.72,Purchase Order,Financing 24mo,Cancelled,220 Tech Parkway,Denver,CO,12443,Online,Jessica Martinez
+ORD100667,CUST10286,2023-02-28,9255,0,740.4,485,10480.4,Credit Card,Prepaid,Completed,5058 Industrial Way,Portland,TX,13615,Online,Jessica Martinez
+ORD100668,CUST10145,2023-10-19,59658,2982,4772.64,0,61448.64,Purchase Order,Financing 24mo,Completed,6736 Industrial Parkway,Boston,MI,32711,Direct Sales,Jessica Martinez
+ORD100669,CUST10462,2023-07-02,63018,3150,5041.44,0,64909.44,Purchase Order,Prepaid,Completed,8456 Industrial Blvd,Boston,TX,47297,Direct Sales,David Martinez
+ORD100670,CUST10398,2023-07-16,145753,7287,11660.24,0,150126.24,Financing,50/50,Shipped,4776 Manufacturing Way,Minneapolis,MI,26535,Online,David Martinez
+ORD100671,CUST10376,2023-07-06,164775,8238,13182.0,0,169719.0,Purchase Order,Net 30,In Production,1497 Commerce Parkway,Boston,IL,10892,Partner,Chris Patel
+ORD100672,CUST10027,2023-02-21,30789,0,2463.12,0,33252.12,Purchase Order,50/50,Completed,590 Business Way,Portland,OR,98117,Direct Sales,David Martinez
+ORD100673,CUST10045,2024-01-29,1872,0,149.76,228,2249.76,Financing,Prepaid,Completed,8604 Tech Way,Seattle,MI,38466,Direct Sales,Jessica Martinez
+ORD100674,CUST10171,2023-04-17,42273,0,3381.84,0,45654.84,Purchase Order,Net 30,Shipped,7172 Manufacturing Blvd,Minneapolis,WA,48101,Direct Sales,Jessica Martinez
+ORD100675,CUST10096,2023-01-03,90495,4524,7239.6,0,93210.6,Credit Card,Prepaid,Completed,8881 Commerce Blvd,Chicago,WA,77035,Direct Sales,Chris Patel
+ORD100676,CUST10402,2023-03-25,68724,6872,5497.92,0,67349.92,Purchase Order,Net 30,Shipped,7090 Tech Way,Portland,WA,53187,Direct Sales,Jessica Martinez
+ORD100677,CUST10341,2024-08-07,29253,0,2340.24,0,31593.239999999998,Credit Card,Net 60,Completed,7516 Business Dr,Portland,MI,13663,Partner,Chris Patel
+ORD100678,CUST10067,2023-07-16,34605,0,2768.4,0,37373.4,Wire Transfer,Net 60,Cancelled,4776 Manufacturing Parkway,Austin,CO,82971,Direct Sales,Jessica Martinez
+ORD100679,CUST10393,2024-06-23,121896,6094,9751.68,0,125553.68,Purchase Order,Financing 24mo,Completed,1737 Tech Way,Austin,MA,47338,Direct Sales,Jessica Martinez
+ORD100680,CUST10201,2024-07-31,23218,0,1857.44,0,25075.44,Credit Card,50/50,Cancelled,1627 Tech Dr,Denver,TX,47316,Direct Sales,Chris Patel
+ORD100681,CUST10149,2023-02-17,57360,5736,4588.8,0,56212.8,Purchase Order,50/50,Completed,2057 Commerce Way,Minneapolis,TX,22581,Online,Jessica Martinez
+ORD100682,CUST10248,2023-09-15,30659,0,2452.72,0,33111.72,Financing,Financing 24mo,In Production,273 Manufacturing Way,Chicago,MI,49874,Direct Sales,David Martinez
+ORD100683,CUST10232,2023-04-10,32656,0,2612.48,0,35268.48,Financing,Net 60,Shipped,9767 Industrial Dr,Boston,MI,33468,Direct Sales,Jessica Martinez
+ORD100684,CUST10107,2024-04-09,175328,17532,14026.24,0,171822.24,Wire Transfer,Net 60,Shipped,8005 Business Dr,Austin,TX,79528,Direct Sales,Chris Patel
+ORD100685,CUST10218,2024-06-08,37787,0,3022.96,0,40809.96,Wire Transfer,Prepaid,Shipped,8254 Business Blvd,Boston,MA,23240,Online,David Martinez
+ORD100686,CUST10423,2024-09-26,11190,0,895.2,0,12085.2,Credit Card,Prepaid,Shipped,9475 Commerce Dr,Boston,MI,61601,Online,Jessica Martinez
+ORD100687,CUST10215,2023-12-17,31849,0,2547.92,0,34396.92,Credit Card,Net 30,In Production,9905 Tech Blvd,Austin,WA,74280,Phone,Chris Patel
+ORD100688,CUST10011,2024-07-30,47147,0,3771.76,0,50918.76,Purchase Order,Prepaid,Completed,909 Tech Way,Denver,MN,78991,Direct Sales,Chris Patel
+ORD100689,CUST10060,2023-12-26,92160,9216,7372.8,0,90316.8,Wire Transfer,Prepaid,Shipped,3421 Manufacturing Parkway,Seattle,WA,79913,Online,David Martinez
+ORD100690,CUST10242,2023-06-12,45109,0,3608.72,0,48717.72,Purchase Order,Prepaid,In Production,7879 Industrial Parkway,Detroit,OR,31571,Phone,Chris Patel
+ORD100691,CUST10100,2024-08-05,120483,12048,9638.64,0,118073.64,Purchase Order,50/50,In Production,3884 Commerce Way,Denver,CO,15740,Online,Jessica Martinez
+ORD100692,CUST10338,2024-12-23,116317,5815,9305.36,0,119807.36,Purchase Order,Prepaid,Cancelled,9714 Tech Way,Boston,CO,32509,Direct Sales,Jessica Martinez
+ORD100693,CUST10265,2024-12-04,152244,7612,12179.52,0,156811.52,Purchase Order,Financing 24mo,In Production,8231 Manufacturing Dr,Chicago,WA,96146,Phone,Chris Patel
+ORD100694,CUST10275,2024-11-05,4222,0,337.76,156,4715.76,Wire Transfer,50/50,In Production,7003 Commerce Blvd,Boston,MI,27106,Online,David Martinez
+ORD100695,CUST10317,2023-02-21,51856,2592,4148.48,0,53412.479999999996,Credit Card,Financing 24mo,In Production,5212 Manufacturing Way,Austin,MA,10906,Direct Sales,Chris Patel
+ORD100696,CUST10217,2024-12-09,138681,13868,11094.48,0,135907.48,Purchase Order,50/50,Completed,5419 Manufacturing Blvd,Portland,WA,43120,Direct Sales,David Martinez
+ORD100697,CUST10212,2023-08-13,48090,0,3847.2,0,51937.2,Purchase Order,Prepaid,Completed,7315 Industrial Dr,Boston,MA,36024,Phone,David Martinez
+ORD100698,CUST10357,2024-07-11,15720,0,1257.6,0,16977.6,Wire Transfer,Prepaid,In Production,3917 Commerce Dr,Portland,CO,61690,Partner,Chris Patel
+ORD100699,CUST10345,2024-01-15,115014,5750,9201.12,0,118465.12,Purchase Order,Net 60,Completed,9030 Commerce Dr,Denver,TX,63209,Online,Jessica Martinez
+ORD100700,CUST10033,2023-12-22,48154,0,3852.32,0,52006.32,Financing,Prepaid,Completed,8079 Commerce Dr,Chicago,CO,82837,Direct Sales,David Martinez
+ORD100701,CUST10142,2024-10-21,156852,7842,12548.16,0,161558.16,Purchase Order,Net 60,Shipped,2340 Manufacturing Blvd,Portland,WA,17937,Online,Chris Patel
+ORD100702,CUST10353,2024-02-12,129115,6455,10329.2,0,132989.2,Credit Card,Prepaid,Cancelled,2476 Commerce Way,Detroit,WA,13720,Online,Jessica Martinez
+ORD100703,CUST10485,2024-11-11,42202,0,3376.16,0,45578.16,Credit Card,Prepaid,In Production,9041 Business Blvd,Chicago,CO,54039,Online,Jessica Martinez
+ORD100704,CUST10490,2024-12-19,57440,5744,4595.2,0,56291.2,Purchase Order,Net 30,Cancelled,4788 Tech Blvd,Detroit,MA,97580,Phone,Jessica Martinez
+ORD100705,CUST10284,2023-07-24,3744,0,299.52,420,4463.52,Credit Card,50/50,Completed,2940 Business Parkway,Boston,MN,80153,Direct Sales,David Martinez
+ORD100706,CUST10165,2023-09-07,112651,11265,9012.08,0,110398.08,Wire Transfer,Financing 24mo,Shipped,2447 Manufacturing Way,Austin,CO,43336,Direct Sales,Chris Patel
+ORD100707,CUST10395,2023-09-25,57622,5762,4609.76,0,56469.76,Purchase Order,Net 60,Completed,3888 Industrial Parkway,Minneapolis,OR,59029,Partner,David Martinez
+ORD100708,CUST10154,2023-02-22,6876,0,550.08,227,7653.08,Purchase Order,50/50,Completed,9813 Commerce Blvd,Austin,MA,97549,Partner,Chris Patel
+ORD100709,CUST10109,2024-02-12,76790,3839,6143.2,0,79094.2,Wire Transfer,Net 60,Cancelled,6512 Commerce Blvd,Denver,MI,77767,Direct Sales,Jessica Martinez
+ORD100710,CUST10162,2023-07-21,155202,7760,12416.16,0,159858.16,Wire Transfer,Net 30,Cancelled,728 Tech Parkway,Minneapolis,CO,30184,Direct Sales,Jessica Martinez
+ORD100711,CUST10397,2024-07-18,101067,10106,8085.36,0,99046.36,Financing,Prepaid,Cancelled,1801 Industrial Parkway,Boston,CO,86697,Direct Sales,David Martinez
+ORD100712,CUST10281,2024-07-21,2202,0,176.16,77,2455.16,Purchase Order,Prepaid,Completed,348 Business Way,Denver,IL,22104,Partner,David Martinez
+ORD100713,CUST10266,2023-01-21,32449,0,2595.92,0,35044.92,Credit Card,Prepaid,Shipped,8471 Business Blvd,Detroit,TX,19723,Partner,David Martinez
+ORD100714,CUST10324,2024-09-23,155230,7761,12418.4,0,159887.4,Credit Card,Financing 24mo,Completed,1734 Manufacturing Dr,Portland,MI,19704,Phone,David Martinez
+ORD100715,CUST10231,2023-06-23,119523,11952,9561.84,0,117132.84,Purchase Order,Prepaid,Completed,5829 Business Blvd,Boston,IL,78012,Phone,Chris Patel
+ORD100716,CUST10087,2024-02-13,25173,0,2013.84,0,27186.84,Credit Card,Financing 24mo,Shipped,5540 Industrial Parkway,Portland,MA,29130,Direct Sales,Chris Patel
+ORD100717,CUST10483,2023-11-09,18747,0,1499.76,0,20246.76,Credit Card,Net 30,In Production,7507 Manufacturing Dr,Boston,IL,40408,Direct Sales,Jessica Martinez
+ORD100718,CUST10422,2024-03-02,8595,0,687.6,54,9336.6,Wire Transfer,Prepaid,In Production,8326 Tech Dr,Detroit,CO,35222,Partner,David Martinez
+ORD100719,CUST10225,2023-08-13,27667,0,2213.36,0,29880.36,Purchase Order,Financing 24mo,In Production,4989 Tech Way,Minneapolis,MI,31120,Direct Sales,Chris Patel
+ORD100720,CUST10160,2024-07-17,40377,0,3230.16,0,43607.16,Wire Transfer,Net 60,Completed,441 Industrial Parkway,Boston,MA,32039,Online,Jessica Martinez
+ORD100721,CUST10380,2023-12-30,49105,0,3928.4,0,53033.4,Credit Card,Financing 24mo,Completed,6485 Commerce Blvd,Chicago,WA,58293,Direct Sales,David Martinez
+ORD100722,CUST10434,2023-12-11,108985,10898,8718.8,0,106805.8,Purchase Order,50/50,Completed,5228 Manufacturing Way,Denver,OR,55942,Partner,Chris Patel
+ORD100723,CUST10049,2023-09-24,48628,0,3890.24,0,52518.24,Purchase Order,50/50,Shipped,4896 Tech Way,Austin,OR,29829,Direct Sales,David Martinez
+ORD100724,CUST10477,2024-03-02,60126,3006,4810.08,0,61930.08,Purchase Order,Prepaid,Completed,6866 Tech Dr,Seattle,MI,33991,Online,Chris Patel
+ORD100725,CUST10127,2024-11-10,53074,2653,4245.92,0,54666.92,Purchase Order,Net 30,In Production,450 Tech Dr,Minneapolis,MN,84148,Direct Sales,Jessica Martinez
+ORD100726,CUST10388,2024-05-22,34363,0,2749.04,0,37112.04,Purchase Order,Net 60,Shipped,2668 Industrial Parkway,Detroit,TX,43236,Partner,David Martinez
+ORD100727,CUST10029,2024-12-30,70710,7071,5656.8,0,69295.8,Credit Card,Net 60,Shipped,8360 Commerce Blvd,Boston,OR,39487,Phone,Chris Patel
+ORD100728,CUST10475,2024-06-27,20419,0,1633.52,0,22052.52,Purchase Order,50/50,Completed,9561 Business Dr,Minneapolis,CO,69786,Partner,Jessica Martinez
+ORD100729,CUST10028,2023-01-08,85485,4274,6838.8,0,88049.8,Credit Card,Prepaid,Shipped,1832 Commerce Blvd,Boston,CO,26427,Phone,David Martinez
+ORD100730,CUST10284,2023-11-27,76955,7695,6156.4,0,75416.4,Credit Card,Prepaid,Cancelled,2940 Business Parkway,Boston,MN,80153,Direct Sales,David Martinez
+ORD100731,CUST10166,2023-12-03,88419,8841,7073.52,0,86651.52,Purchase Order,50/50,Completed,9735 Tech Way,Chicago,MN,40110,Partner,David Martinez
+ORD100732,CUST10473,2024-07-03,80603,8060,6448.24,0,78991.24,Purchase Order,50/50,In Production,6235 Tech Parkway,Denver,MA,46970,Direct Sales,David Martinez
+ORD100733,CUST10339,2023-06-15,72782,3639,5822.56,0,74965.56,Credit Card,Financing 24mo,Completed,8172 Industrial Dr,Austin,OR,75336,Online,David Martinez
+ORD100734,CUST10350,2023-09-20,70289,7028,5623.12,0,68884.12,Purchase Order,Financing 24mo,Cancelled,9573 Business Parkway,Chicago,WA,42704,Phone,David Martinez
+ORD100735,CUST10009,2024-08-24,69140,6914,5531.2,0,67757.2,Purchase Order,50/50,Shipped,9524 Tech Dr,Austin,MA,50277,Partner,David Martinez
+ORD100736,CUST10203,2024-03-31,23932,0,1914.56,0,25846.56,Credit Card,Prepaid,Completed,2135 Commerce Parkway,Denver,IL,12967,Phone,David Martinez
+ORD100737,CUST10297,2024-08-24,132594,6629,10607.52,0,136572.52,Purchase Order,Financing 24mo,Cancelled,4917 Commerce Way,Seattle,OR,81525,Phone,Jessica Martinez
+ORD100738,CUST10134,2023-09-25,91873,9187,7349.84,0,90035.84,Financing,Financing 24mo,Completed,9980 Business Way,Denver,CO,44762,Online,Chris Patel
+ORD100739,CUST10140,2023-01-20,18773,0,1501.84,0,20274.84,Purchase Order,Prepaid,Cancelled,5888 Manufacturing Blvd,Detroit,WA,52077,Phone,David Martinez
+ORD100740,CUST10199,2023-03-20,25173,0,2013.84,0,27186.84,Financing,Financing 24mo,Completed,8667 Business Parkway,Boston,MA,78147,Online,Chris Patel
+ORD100741,CUST10115,2023-03-18,120434,6021,9634.72,0,124047.72,Financing,50/50,Completed,1968 Industrial Dr,Chicago,WA,17524,Partner,Chris Patel
+ORD100742,CUST10412,2023-12-31,43529,0,3482.32,0,47011.32,Wire Transfer,Net 30,In Production,5519 Manufacturing Way,Boston,OR,23283,Partner,Chris Patel
+ORD100743,CUST10199,2024-12-10,59601,2980,4768.08,0,61389.08,Purchase Order,Financing 24mo,Completed,8667 Business Parkway,Boston,MA,78147,Partner,Chris Patel
+ORD100744,CUST10007,2024-10-30,161201,16120,12896.08,0,157977.08,Credit Card,50/50,Shipped,9173 Commerce Dr,Chicago,MI,52914,Direct Sales,David Martinez
+ORD100745,CUST10131,2024-07-02,18747,0,1499.76,0,20246.76,Financing,Net 60,Completed,1023 Business Way,Minneapolis,OR,36309,Partner,David Martinez
+ORD100746,CUST10039,2023-06-06,31480,0,2518.4,0,33998.4,Credit Card,Net 60,Cancelled,8952 Industrial Blvd,Minneapolis,IL,60187,Partner,Chris Patel
+ORD100747,CUST10337,2023-12-20,34410,0,2752.8,0,37162.8,Credit Card,Prepaid,Shipped,8861 Commerce Blvd,Boston,CO,77472,Partner,Jessica Martinez
+ORD100748,CUST10220,2023-06-27,100654,5032,8052.32,0,103674.32,Purchase Order,Financing 24mo,Completed,7856 Industrial Dr,Portland,OR,84236,Phone,Jessica Martinez
+ORD100749,CUST10036,2024-07-08,95053,4752,7604.24,0,97905.24,Purchase Order,Prepaid,Cancelled,3632 Commerce Way,Austin,WA,42898,Phone,David Martinez
+ORD100750,CUST10197,2023-09-04,73173,7317,5853.84,0,71709.84,Financing,Prepaid,Completed,3922 Tech Dr,Chicago,WA,30291,Phone,Jessica Martinez
+ORD100751,CUST10374,2024-06-03,136911,13691,10952.88,0,134172.88,Purchase Order,50/50,Completed,1295 Manufacturing Parkway,Minneapolis,MI,88093,Direct Sales,David Martinez
+ORD100752,CUST10010,2023-01-30,4155,0,332.4,365,4852.4,Financing,Prepaid,Completed,212 Tech Parkway,Portland,OR,22560,Phone,David Martinez
+ORD100753,CUST10470,2024-11-23,72653,3632,5812.24,0,74833.24,Financing,Net 60,Shipped,7914 Business Blvd,Denver,OR,31063,Direct Sales,David Martinez
+ORD100754,CUST10204,2024-12-02,105143,10514,8411.44,0,103040.44,Purchase Order,Net 30,Completed,400 Tech Way,Portland,OR,55589,Phone,David Martinez
+ORD100755,CUST10476,2023-04-23,125766,6288,10061.28,0,129539.28,Purchase Order,Prepaid,Completed,9287 Manufacturing Dr,Boston,MA,61149,Direct Sales,David Martinez
+ORD100756,CUST10498,2024-03-21,41531,0,3322.48,0,44853.48,Wire Transfer,Net 30,Cancelled,3816 Commerce Dr,Portland,TX,32125,Phone,Chris Patel
+ORD100757,CUST10310,2023-07-22,109722,5486,8777.76,0,113013.76,Financing,Net 60,Completed,372 Business Blvd,Seattle,WA,84337,Direct Sales,Chris Patel
+ORD100758,CUST10270,2023-10-09,13583,0,1086.64,0,14669.64,Purchase Order,Prepaid,Shipped,379 Business Way,Detroit,TX,79719,Direct Sales,Chris Patel
+ORD100759,CUST10071,2024-03-26,20624,0,1649.92,0,22273.92,Purchase Order,Net 60,Shipped,1126 Business Way,Boston,WA,14512,Online,Chris Patel
+ORD100760,CUST10175,2023-04-16,93794,4689,7503.52,0,96608.52,Credit Card,Financing 24mo,In Production,3398 Tech Parkway,Chicago,MI,63584,Direct Sales,Jessica Martinez
+ORD100761,CUST10127,2023-07-06,76471,3823,6117.68,0,78765.68,Financing,Net 30,Shipped,450 Tech Dr,Minneapolis,MN,84148,Direct Sales,David Martinez
+ORD100762,CUST10264,2024-01-24,145592,14559,11647.36,0,142680.36,Purchase Order,Net 30,Cancelled,925 Industrial Dr,Minneapolis,IL,95730,Online,David Martinez
+ORD100763,CUST10005,2023-05-25,49641,0,3971.28,0,53612.28,Credit Card,Prepaid,In Production,3572 Tech Way,Denver,CO,24757,Direct Sales,Jessica Martinez
+ORD100764,CUST10495,2023-11-11,30023,0,2401.84,0,32424.84,Financing,Prepaid,Completed,3064 Commerce Parkway,Boston,MN,65880,Online,David Martinez
+ORD100765,CUST10240,2024-09-12,52523,5252,4201.84,0,51472.84,Purchase Order,Net 30,Completed,1752 Industrial Blvd,Portland,CO,29182,Online,Jessica Martinez
+ORD100766,CUST10362,2023-12-31,103558,10355,8284.64,0,101487.64,Financing,50/50,Completed,1044 Business Blvd,Minneapolis,MN,93337,Partner,David Martinez
+ORD100767,CUST10076,2024-08-09,117997,11799,9439.76,0,115637.76,Purchase Order,Net 60,Completed,1426 Tech Parkway,Denver,MI,86555,Online,Chris Patel
+ORD100768,CUST10148,2024-07-08,9154,0,732.32,212,10098.32,Credit Card,Prepaid,In Production,7394 Industrial Way,Austin,MN,85331,Direct Sales,Jessica Martinez
+ORD100769,CUST10056,2024-12-15,83543,8354,6683.44,0,81872.44,Purchase Order,Net 30,Cancelled,3900 Business Parkway,Detroit,IL,40952,Partner,Chris Patel
+ORD100770,CUST10163,2024-09-01,140425,14042,11234.0,0,137617.0,Purchase Order,50/50,Completed,8131 Commerce Dr,Portland,MI,14634,Online,Chris Patel
+ORD100771,CUST10006,2023-09-08,168208,16820,13456.64,0,164844.64,Credit Card,Net 30,Cancelled,5710 Business Parkway,Detroit,CO,60748,Phone,David Martinez
+ORD100772,CUST10314,2024-12-23,89487,4474,7158.96,0,92171.96,Purchase Order,Financing 24mo,Completed,389 Business Dr,Denver,MN,54632,Direct Sales,Chris Patel
+ORD100773,CUST10316,2024-12-03,23932,0,1914.56,0,25846.56,Financing,Prepaid,In Production,769 Industrial Dr,Boston,WA,93276,Online,Chris Patel
+ORD100774,CUST10188,2023-05-07,75551,3777,6044.08,0,77818.08,Financing,Financing 24mo,Shipped,9551 Commerce Way,Seattle,TX,64651,Direct Sales,David Martinez
+ORD100775,CUST10373,2023-04-14,65743,3287,5259.44,0,67715.44,Purchase Order,Prepaid,Shipped,9254 Business Blvd,Portland,WA,56937,Direct Sales,David Martinez
+ORD100776,CUST10455,2023-03-03,29253,0,2340.24,0,31593.239999999998,Financing,Financing 24mo,In Production,3365 Business Dr,Seattle,WA,19688,Phone,Jessica Martinez
+ORD100777,CUST10353,2024-04-02,58604,2930,4688.32,0,60362.32,Financing,Net 30,Completed,2476 Commerce Way,Detroit,WA,13720,Direct Sales,David Martinez
+ORD100778,CUST10426,2024-09-01,80603,8060,6448.24,0,78991.24,Credit Card,Prepaid,Cancelled,2441 Business Dr,Portland,OR,13116,Online,Chris Patel
+ORD100779,CUST10218,2023-06-06,33431,0,2674.48,0,36105.48,Purchase Order,Prepaid,In Production,8254 Business Blvd,Boston,MA,23240,Online,David Martinez
+ORD100780,CUST10374,2023-04-26,83022,8302,6641.76,0,81361.76,Purchase Order,Net 60,Shipped,1295 Manufacturing Parkway,Minneapolis,MI,88093,Direct Sales,Jessica Martinez
+ORD100781,CUST10035,2024-10-25,198521,9926,15881.68,0,204476.68,Purchase Order,Net 30,Completed,5677 Commerce Dr,Minneapolis,TX,20680,Phone,David Martinez
+ORD100782,CUST10243,2023-04-25,71445,7144,5715.6,0,70016.6,Financing,Financing 24mo,Completed,8297 Manufacturing Dr,Austin,MI,18473,Online,Jessica Martinez
+ORD100783,CUST10321,2023-11-20,45551,0,3644.08,0,49195.08,Purchase Order,Prepaid,Completed,226 Commerce Dr,Detroit,CO,83203,Partner,Chris Patel
+ORD100784,CUST10216,2023-09-28,45309,0,3624.72,0,48933.72,Credit Card,Net 60,Completed,3927 Manufacturing Way,Seattle,IL,58598,Phone,Chris Patel
+ORD100785,CUST10446,2024-11-01,45990,0,3679.2,0,49669.2,Wire Transfer,Net 30,Completed,1147 Commerce Blvd,Portland,MN,93670,Partner,Jessica Martinez
+ORD100786,CUST10018,2024-08-15,6876,0,550.08,138,7564.08,Purchase Order,Net 60,Shipped,8463 Industrial Dr,Minneapolis,TX,48721,Direct Sales,David Martinez
+ORD100787,CUST10493,2023-04-22,56381,5638,4510.48,0,55253.479999999996,Purchase Order,Net 30,Shipped,7376 Business Blvd,Austin,OR,26803,Phone,David Martinez
+ORD100788,CUST10483,2024-09-18,151480,15148,12118.4,0,148450.4,Purchase Order,50/50,Completed,7507 Manufacturing Dr,Boston,IL,40408,Phone,David Martinez
+ORD100789,CUST10420,2023-08-03,9432,0,754.56,415,10601.56,Credit Card,50/50,Completed,3229 Commerce Blvd,Detroit,IL,20043,Direct Sales,Jessica Martinez
+ORD100790,CUST10304,2023-05-03,59458,2972,4756.64,0,61242.64,Purchase Order,Net 30,In Production,6882 Commerce Way,Detroit,TX,83511,Online,Jessica Martinez
+ORD100791,CUST10173,2024-08-11,49327,0,3946.16,0,53273.16,Financing,50/50,Completed,8121 Manufacturing Dr,Seattle,TX,58134,Online,Jessica Martinez
+ORD100792,CUST10036,2024-09-28,35149,0,2811.92,0,37960.92,Wire Transfer,Prepaid,Cancelled,3632 Commerce Way,Austin,WA,42898,Direct Sales,Jessica Martinez
+ORD100793,CUST10253,2024-12-10,30220,0,2417.6,0,32637.6,Financing,Prepaid,Completed,1224 Industrial Way,Denver,WA,60496,Online,Chris Patel
+ORD100794,CUST10100,2023-08-03,125274,12527,10021.92,0,122768.92,Credit Card,Prepaid,Completed,3884 Commerce Way,Denver,CO,15740,Online,David Martinez
+ORD100795,CUST10233,2023-12-06,14517,0,1161.36,0,15678.36,Purchase Order,Net 30,Shipped,9283 Tech Dr,Boston,TX,30283,Direct Sales,David Martinez
+ORD100796,CUST10498,2024-09-23,20074,0,1605.92,0,21679.92,Purchase Order,Financing 24mo,Completed,3816 Commerce Dr,Portland,TX,32125,Phone,Chris Patel
+ORD100797,CUST10006,2024-07-16,63682,3184,5094.56,0,65592.56,Wire Transfer,Prepaid,Completed,5710 Business Parkway,Detroit,CO,60748,Direct Sales,Jessica Martinez
+ORD100798,CUST10044,2023-03-23,117605,11760,9408.4,0,115253.4,Wire Transfer,Net 30,Completed,7701 Business Blvd,Austin,IL,18974,Phone,Chris Patel
+ORD100799,CUST10323,2024-11-30,22538,0,1803.04,0,24341.04,Wire Transfer,50/50,Completed,9113 Commerce Blvd,Chicago,MN,64734,Direct Sales,Chris Patel
+ORD100800,CUST10333,2023-08-18,35131,0,2810.48,0,37941.48,Purchase Order,Net 60,Cancelled,3340 Industrial Way,Minneapolis,MI,74103,Online,Chris Patel
+ORD100801,CUST10399,2024-09-04,88192,4409,7055.36,0,90838.36,Purchase Order,Financing 24mo,Completed,2518 Commerce Way,Detroit,MN,42409,Online,Chris Patel
+ORD100802,CUST10222,2023-06-22,146626,14662,11730.08,0,143694.08,Purchase Order,Prepaid,Completed,2755 Commerce Blvd,Boston,MA,45782,Phone,Jessica Martinez
+ORD100803,CUST10356,2024-12-05,3921,0,313.68,464,4698.68,Purchase Order,Net 30,Completed,7892 Manufacturing Way,Austin,OR,96568,Direct Sales,David Martinez
+ORD100804,CUST10394,2023-04-09,206677,20667,16534.16,0,202544.16,Purchase Order,Financing 24mo,Completed,2579 Tech Parkway,Denver,MI,94197,Direct Sales,Jessica Martinez
+ORD100805,CUST10081,2023-11-03,33858,0,2708.64,0,36566.64,Purchase Order,Net 60,Shipped,5748 Tech Parkway,Denver,WA,29662,Online,Chris Patel
+ORD100806,CUST10340,2024-06-16,23455,0,1876.4,0,25331.4,Purchase Order,Net 30,Completed,3200 Manufacturing Dr,Detroit,MI,85378,Phone,Jessica Martinez
+ORD100807,CUST10056,2024-12-22,104341,5217,8347.28,0,107471.28,Purchase Order,50/50,In Production,3900 Business Parkway,Detroit,IL,40952,Partner,David Martinez
+ORD100808,CUST10375,2023-05-12,18747,0,1499.76,0,20246.76,Purchase Order,Prepaid,Completed,7661 Manufacturing Parkway,Denver,IL,32289,Partner,Chris Patel
+ORD100809,CUST10369,2024-10-15,26354,0,2108.32,0,28462.32,Credit Card,Net 60,In Production,890 Business Way,Denver,IL,98373,Online,David Martinez
+ORD100810,CUST10054,2023-06-11,154626,15462,12370.08,0,151534.08,Financing,Net 30,Completed,8926 Commerce Dr,Portland,CO,40673,Direct Sales,David Martinez
+ORD100811,CUST10016,2024-01-28,2494,0,199.52,119,2812.52,Purchase Order,Net 60,Cancelled,5505 Business Dr,Denver,TX,50789,Phone,Chris Patel
+ORD100812,CUST10448,2024-02-21,23324,0,1865.92,0,25189.92,Wire Transfer,Net 30,Completed,6818 Industrial Blvd,Seattle,IL,84140,Online,David Martinez
+ORD100813,CUST10332,2024-12-06,28747,0,2299.76,0,31046.760000000002,Financing,Net 30,Shipped,2412 Industrial Way,Seattle,CO,37034,Online,David Martinez
+ORD100814,CUST10388,2023-09-09,56793,2839,4543.44,0,58497.44,Purchase Order,50/50,Cancelled,2668 Industrial Parkway,Detroit,TX,43236,Partner,Jessica Martinez
+ORD100815,CUST10159,2023-08-28,17081,0,1366.48,0,18447.48,Purchase Order,Financing 24mo,Shipped,3890 Business Dr,Chicago,OR,94953,Direct Sales,David Martinez
+ORD100816,CUST10329,2023-08-08,37749,0,3019.92,0,40768.92,Wire Transfer,Net 30,Cancelled,8288 Manufacturing Blvd,Chicago,TX,30050,Phone,David Martinez
+ORD100817,CUST10356,2024-10-22,33817,0,2705.36,0,36522.36,Credit Card,Net 30,Completed,7892 Manufacturing Way,Austin,OR,96568,Phone,David Martinez
+ORD100818,CUST10280,2024-08-23,37772,0,3021.76,0,40793.76,Financing,Net 30,Completed,4354 Manufacturing Way,Austin,MN,50857,Direct Sales,Jessica Martinez
+ORD100819,CUST10057,2024-01-28,23932,0,1914.56,0,25846.56,Purchase Order,Financing 24mo,Completed,6017 Tech Parkway,Boston,CO,60614,Partner,David Martinez
+ORD100820,CUST10109,2023-05-15,160432,8021,12834.56,0,165245.56,Purchase Order,Net 30,Cancelled,6512 Commerce Blvd,Denver,MI,77767,Partner,David Martinez
+ORD100821,CUST10141,2024-01-03,38002,0,3040.16,0,41042.16,Financing,Financing 24mo,Completed,7120 Industrial Parkway,Chicago,TX,43722,Direct Sales,Chris Patel
+ORD100822,CUST10021,2024-12-03,42202,0,3376.16,0,45578.16,Wire Transfer,Net 60,Completed,1726 Tech Dr,Boston,OR,86847,Partner,Chris Patel
+ORD100823,CUST10405,2023-05-14,136184,6809,10894.72,0,140269.72,Purchase Order,Net 30,Completed,4691 Tech Blvd,Chicago,IL,66747,Online,Chris Patel
+ORD100824,CUST10158,2023-12-15,64638,3231,5171.04,0,66578.04,Credit Card,50/50,In Production,2561 Industrial Blvd,Seattle,IL,84586,Phone,Chris Patel
+ORD100825,CUST10267,2023-08-06,49327,0,3946.16,0,53273.16,Wire Transfer,Prepaid,Completed,4368 Manufacturing Blvd,Chicago,MA,35225,Online,David Martinez
+ORD100826,CUST10029,2024-04-13,27677,0,2214.16,0,29891.16,Wire Transfer,Financing 24mo,Cancelled,8360 Commerce Blvd,Boston,OR,39487,Partner,Chris Patel
+ORD100827,CUST10411,2024-08-12,111781,11178,8942.48,0,109545.48,Credit Card,Net 30,Completed,5941 Commerce Way,Detroit,TX,22294,Online,David Martinez
+ORD100828,CUST10244,2024-03-15,165793,8289,13263.44,0,170767.44,Purchase Order,Net 30,Completed,183 Tech Dr,Seattle,TX,31036,Online,Jessica Martinez
+ORD100829,CUST10329,2023-08-21,80525,8052,6442.0,0,78915.0,Credit Card,Prepaid,Completed,8288 Manufacturing Blvd,Chicago,TX,30050,Online,David Martinez
+ORD100830,CUST10412,2024-05-01,13435,0,1074.8,0,14509.8,Purchase Order,Net 30,Completed,5519 Manufacturing Way,Boston,OR,23283,Partner,Jessica Martinez
+ORD100831,CUST10258,2023-11-28,16922,0,1353.76,0,18275.76,Financing,Net 30,Shipped,7013 Industrial Way,Chicago,MN,35415,Direct Sales,Jessica Martinez
+ORD100832,CUST10153,2024-08-10,67182,6718,5374.56,0,65838.56,Credit Card,Net 30,Completed,2524 Industrial Dr,Boston,MI,26685,Partner,David Martinez
+ORD100833,CUST10416,2023-11-13,44162,0,3532.96,0,47694.96,Purchase Order,50/50,In Production,3609 Industrial Dr,Minneapolis,CO,71684,Direct Sales,Chris Patel
+ORD100834,CUST10167,2024-02-05,116714,11671,9337.12,0,114380.12,Financing,Prepaid,Shipped,5167 Industrial Way,Portland,TX,46476,Direct Sales,Chris Patel
+ORD100835,CUST10462,2024-11-23,18747,0,1499.76,0,20246.76,Purchase Order,Prepaid,Completed,8456 Industrial Blvd,Boston,TX,47297,Direct Sales,Jessica Martinez
+ORD100836,CUST10047,2024-02-20,100530,10053,8042.4,0,98519.4,Purchase Order,Prepaid,Completed,866 Manufacturing Blvd,Denver,MI,42473,Phone,Jessica Martinez
+ORD100837,CUST10405,2023-01-18,84717,4235,6777.36,0,87259.36,Wire Transfer,Prepaid,Cancelled,4691 Tech Blvd,Chicago,IL,66747,Online,David Martinez
+ORD100838,CUST10355,2023-10-17,24361,0,1948.88,0,26309.88,Credit Card,Net 60,Shipped,8722 Business Dr,Portland,CO,66871,Direct Sales,Jessica Martinez
+ORD100839,CUST10346,2023-06-22,7029,0,562.32,471,8062.32,Purchase Order,50/50,Shipped,5480 Business Blvd,Portland,MA,79855,Direct Sales,Chris Patel
+ORD100840,CUST10109,2023-11-17,27045,0,2163.6,0,29208.6,Wire Transfer,Net 60,Completed,6512 Commerce Blvd,Denver,MI,77767,Direct Sales,David Martinez
+ORD100841,CUST10389,2023-04-18,55742,2787,4459.36,0,57414.36,Wire Transfer,Prepaid,Cancelled,686 Business Way,Minneapolis,MI,32496,Direct Sales,Chris Patel
+ORD100842,CUST10236,2023-06-08,70236,3511,5618.88,0,72343.88,Financing,Financing 24mo,Cancelled,1341 Manufacturing Dr,Austin,MN,40092,Direct Sales,Chris Patel
+ORD100843,CUST10251,2023-12-19,19042,0,1523.36,0,20565.36,Financing,Net 60,In Production,8393 Commerce Parkway,Boston,MA,97142,Direct Sales,Jessica Martinez
+ORD100844,CUST10048,2024-09-09,28747,0,2299.76,0,31046.760000000002,Purchase Order,Prepaid,Shipped,6051 Tech Blvd,Seattle,CO,12031,Partner,David Martinez
+ORD100845,CUST10258,2024-12-27,35526,0,2842.08,0,38368.08,Purchase Order,Net 60,Completed,7013 Industrial Way,Chicago,MN,35415,Online,David Martinez
+ORD100846,CUST10097,2024-11-05,81230,8123,6498.4,0,79605.4,Wire Transfer,50/50,Completed,5226 Business Dr,Seattle,MN,32012,Direct Sales,Jessica Martinez
+ORD100847,CUST10128,2024-09-05,143462,14346,11476.96,0,140592.96,Purchase Order,Net 60,Completed,6919 Commerce Dr,Austin,OR,31912,Phone,Jessica Martinez
+ORD100848,CUST10474,2023-05-09,53177,2658,4254.16,0,54773.16,Purchase Order,Financing 24mo,Cancelled,5736 Business Blvd,Seattle,MN,45551,Direct Sales,Chris Patel
+ORD100849,CUST10348,2023-08-10,32661,0,2612.88,0,35273.88,Financing,50/50,Completed,2116 Tech Blvd,Seattle,CO,36389,Phone,Jessica Martinez
+ORD100850,CUST10235,2024-09-28,16692,0,1335.36,0,18027.36,Wire Transfer,Net 30,Cancelled,4825 Business Parkway,Denver,MI,67007,Online,Chris Patel
+ORD100851,CUST10179,2024-07-15,32449,0,2595.92,0,35044.92,Wire Transfer,Prepaid,Completed,7883 Industrial Parkway,Austin,TX,32022,Partner,Chris Patel
+ORD100852,CUST10496,2023-10-04,62696,3134,5015.68,0,64577.68,Wire Transfer,Prepaid,In Production,1041 Industrial Way,Minneapolis,OR,13834,Online,Jessica Martinez
+ORD100853,CUST10463,2023-07-11,29089,0,2327.12,0,31416.12,Credit Card,Net 60,Cancelled,2953 Tech Way,Detroit,CO,41064,Direct Sales,Jessica Martinez
+ORD100854,CUST10247,2023-04-18,63100,6310,5048.0,0,61838.0,Credit Card,Financing 24mo,In Production,236 Industrial Parkway,Boston,MI,32946,Phone,Chris Patel
+ORD100855,CUST10025,2023-05-02,50648,2532,4051.84,0,52167.84,Purchase Order,Prepaid,Cancelled,2117 Tech Blvd,Seattle,MA,21154,Partner,Jessica Martinez
+ORD100856,CUST10064,2024-08-27,77961,3898,6236.88,0,80299.88,Financing,Financing 24mo,Completed,7455 Commerce Parkway,Minneapolis,WA,60743,Online,David Martinez
+ORD100857,CUST10471,2023-03-21,28288,0,2263.04,0,30551.04,Financing,50/50,Completed,7063 Commerce Parkway,Detroit,MA,52237,Phone,David Martinez
+ORD100858,CUST10301,2023-05-02,78976,3948,6318.08,0,81346.08,Wire Transfer,Prepaid,Completed,4798 Business Parkway,Boston,OR,66669,Online,David Martinez
+ORD100859,CUST10358,2023-08-25,57586,5758,4606.88,0,56434.88,Purchase Order,Net 30,Shipped,8684 Manufacturing Dr,Austin,MA,36495,Direct Sales,Chris Patel
+ORD100860,CUST10397,2024-04-12,85998,4299,6879.84,0,88578.84,Financing,Net 30,Shipped,1801 Industrial Parkway,Boston,CO,86697,Direct Sales,Jessica Martinez
+ORD100861,CUST10071,2023-10-23,27958,0,2236.64,0,30194.64,Wire Transfer,Prepaid,In Production,1126 Business Way,Boston,WA,14512,Partner,Jessica Martinez
+ORD100862,CUST10176,2023-10-04,83854,8385,6708.32,0,82177.32,Purchase Order,Net 30,In Production,3223 Tech Blvd,Portland,CO,49145,Phone,Jessica Martinez
+ORD100863,CUST10092,2023-03-31,18255,0,1460.4,0,19715.4,Wire Transfer,Prepaid,Completed,9621 Commerce Way,Chicago,OR,99360,Direct Sales,Jessica Martinez
+ORD100864,CUST10194,2023-01-02,87869,8786,7029.52,0,86112.52,Credit Card,Prepaid,Cancelled,1199 Commerce Way,Seattle,WA,83789,Direct Sales,David Martinez
+ORD100865,CUST10296,2024-10-16,13020,0,1041.6,0,14061.6,Wire Transfer,50/50,In Production,7385 Commerce Blvd,Chicago,MN,72319,Online,Chris Patel
+ORD100866,CUST10002,2023-02-22,9976,0,798.08,64,10838.08,Purchase Order,50/50,In Production,1906 Industrial Dr,Seattle,WA,60229,Direct Sales,Jessica Martinez
+ORD100867,CUST10180,2023-06-15,35669,0,2853.52,0,38522.52,Wire Transfer,50/50,Completed,3993 Business Parkway,Detroit,WA,92159,Direct Sales,Chris Patel
+ORD100868,CUST10215,2024-07-01,34806,0,2784.48,0,37590.48,Purchase Order,50/50,Completed,9905 Tech Blvd,Austin,WA,74280,Direct Sales,Jessica Martinez
+ORD100869,CUST10231,2023-07-25,44161,0,3532.88,0,47693.88,Credit Card,Net 60,Cancelled,5829 Business Blvd,Boston,IL,78012,Phone,Jessica Martinez
+ORD100870,CUST10372,2024-08-06,157132,7856,12570.56,0,161846.56,Purchase Order,Net 60,Cancelled,2859 Industrial Dr,Portland,MA,19854,Direct Sales,David Martinez
+ORD100871,CUST10359,2024-06-21,44699,0,3575.92,0,48274.92,Purchase Order,50/50,Completed,9403 Business Blvd,Austin,CO,99611,Online,Jessica Martinez
+ORD100872,CUST10147,2024-10-18,70265,7026,5621.2,0,68860.2,Financing,Net 30,Cancelled,7905 Commerce Parkway,Seattle,MA,16929,Online,David Martinez
+ORD100873,CUST10261,2023-02-04,53047,5304,4243.76,0,51986.76,Purchase Order,Prepaid,Completed,4136 Commerce Way,Portland,OR,75100,Partner,David Martinez
+ORD100874,CUST10244,2024-02-08,81307,8130,6504.56,0,79681.56,Purchase Order,Net 30,In Production,183 Tech Dr,Seattle,TX,31036,Phone,Jessica Martinez
+ORD100875,CUST10080,2024-04-01,34648,0,2771.84,0,37419.84,Purchase Order,Net 30,Completed,5864 Business Dr,Minneapolis,MN,18732,Direct Sales,Jessica Martinez
+ORD100876,CUST10300,2024-06-23,86369,8636,6909.52,0,84642.52,Purchase Order,Financing 24mo,Completed,161 Business Blvd,Minneapolis,CO,10738,Partner,Chris Patel
+ORD100877,CUST10323,2023-08-06,89984,4499,7198.72,0,92683.72,Purchase Order,Prepaid,Completed,9113 Commerce Blvd,Chicago,MN,64734,Phone,David Martinez
+ORD100878,CUST10491,2024-07-31,25173,0,2013.84,0,27186.84,Purchase Order,50/50,Completed,834 Tech Dr,Seattle,IL,74988,Online,David Martinez
+ORD100879,CUST10428,2023-04-11,36119,0,2889.52,0,39008.52,Credit Card,50/50,In Production,3720 Commerce Parkway,Austin,MN,53308,Partner,Chris Patel
+ORD100880,CUST10315,2023-10-19,67250,3362,5380.0,0,69268.0,Wire Transfer,Net 30,Shipped,6370 Business Blvd,Portland,MI,22468,Direct Sales,Chris Patel
+ORD100881,CUST10365,2024-11-23,74940,7494,5995.2,0,73441.2,Credit Card,Financing 24mo,Cancelled,1159 Business Parkway,Boston,MA,11904,Phone,Chris Patel
+ORD100882,CUST10491,2023-03-13,32449,0,2595.92,0,35044.92,Purchase Order,Financing 24mo,Completed,834 Tech Dr,Seattle,IL,74988,Phone,Chris Patel
+ORD100883,CUST10331,2024-03-07,95989,9598,7679.12,0,94070.12,Credit Card,Net 30,Completed,6202 Manufacturing Blvd,Detroit,IL,76083,Direct Sales,Chris Patel
+ORD100884,CUST10129,2024-06-16,2936,0,234.88,125,3295.88,Credit Card,Prepaid,In Production,8831 Business Way,Portland,OR,48450,Partner,David Martinez
+ORD100885,CUST10460,2024-07-18,26898,0,2151.84,0,29049.84,Wire Transfer,Financing 24mo,Cancelled,7218 Business Parkway,Denver,OR,17713,Online,Jessica Martinez
+ORD100886,CUST10489,2024-10-08,102188,5109,8175.04,0,105254.04,Credit Card,Prepaid,Shipped,3780 Manufacturing Parkway,Seattle,CO,37481,Partner,David Martinez
+ORD100887,CUST10052,2023-12-30,147584,7379,11806.72,0,152011.72,Wire Transfer,50/50,Completed,1123 Tech Dr,Chicago,OR,86306,Direct Sales,David Martinez
+ORD100888,CUST10311,2023-10-01,46882,0,3750.56,0,50632.56,Purchase Order,Prepaid,Cancelled,8098 Manufacturing Parkway,Boston,MI,21765,Direct Sales,David Martinez
+ORD100889,CUST10126,2023-11-21,14349,0,1147.92,0,15496.92,Credit Card,Prepaid,Completed,570 Commerce Dr,Chicago,MA,86841,Phone,David Martinez
+ORD100890,CUST10136,2023-05-04,113374,11337,9069.92,0,111106.92,Purchase Order,Net 60,Completed,875 Business Dr,Boston,MI,45527,Online,Chris Patel
+ORD100891,CUST10002,2024-09-18,24923,0,1993.84,0,26916.84,Purchase Order,Prepaid,In Production,1906 Industrial Dr,Seattle,WA,60229,Phone,David Martinez
+ORD100892,CUST10087,2024-12-26,90068,9006,7205.44,0,88267.44,Financing,Financing 24mo,In Production,5540 Industrial Parkway,Portland,MA,29130,Direct Sales,David Martinez
+ORD100893,CUST10057,2024-11-23,86953,8695,6956.24,0,85214.24,Credit Card,Net 60,Completed,6017 Tech Parkway,Boston,CO,60614,Partner,Chris Patel
+ORD100894,CUST10445,2023-07-11,16309,0,1304.72,0,17613.72,Wire Transfer,Prepaid,In Production,6496 Commerce Way,Seattle,MI,45809,Phone,Jessica Martinez
+ORD100895,CUST10231,2024-05-19,13731,0,1098.48,0,14829.48,Financing,Net 30,Completed,5829 Business Blvd,Boston,IL,78012,Direct Sales,David Martinez
+ORD100896,CUST10128,2024-09-27,101694,5084,8135.52,0,104745.52,Purchase Order,Net 60,Shipped,6919 Commerce Dr,Austin,OR,31912,Direct Sales,Chris Patel
+ORD100897,CUST10308,2024-02-10,10748,0,859.84,0,11607.84,Credit Card,Financing 24mo,In Production,7296 Business Parkway,Austin,MI,36351,Phone,David Martinez
+ORD100898,CUST10324,2023-09-06,96855,4842,7748.4,0,99761.4,Financing,Financing 24mo,Completed,1734 Manufacturing Dr,Portland,MI,19704,Direct Sales,Jessica Martinez
+ORD100899,CUST10363,2024-05-28,3702,0,296.16,402,4400.16,Financing,50/50,Completed,5963 Manufacturing Dr,Seattle,MI,97631,Online,Jessica Martinez
+ORD100900,CUST10034,2023-04-06,1872,0,149.76,84,2105.76,Financing,Financing 24mo,Completed,3570 Commerce Way,Seattle,OR,55812,Partner,Jessica Martinez
+ORD100901,CUST10129,2023-10-23,69837,3491,5586.96,0,71932.96,Financing,Prepaid,Shipped,8831 Business Way,Portland,OR,48450,Direct Sales,David Martinez
+ORD100902,CUST10426,2023-02-23,79882,7988,6390.56,0,78284.56,Wire Transfer,Prepaid,Completed,2441 Business Dr,Portland,OR,13116,Phone,Jessica Martinez
+ORD100903,CUST10294,2024-06-09,46591,0,3727.28,0,50318.28,Purchase Order,Financing 24mo,Completed,1513 Manufacturing Way,Minneapolis,IL,12870,Partner,Chris Patel
+ORD100904,CUST10115,2024-02-09,63605,6360,5088.4,0,62333.4,Wire Transfer,Net 60,Completed,1968 Industrial Dr,Chicago,WA,17524,Online,Jessica Martinez
+ORD100905,CUST10258,2023-08-30,35208,0,2816.64,0,38024.64,Purchase Order,Financing 24mo,In Production,7013 Industrial Way,Chicago,MN,35415,Partner,David Martinez
+ORD100906,CUST10423,2023-04-24,52202,5220,4176.16,0,51158.16,Purchase Order,Prepaid,Completed,9475 Commerce Dr,Boston,MI,61601,Direct Sales,David Martinez
+ORD100907,CUST10223,2023-07-25,69514,3475,5561.12,0,71600.12,Financing,Prepaid,Completed,731 Business Parkway,Portland,MN,94634,Partner,Jessica Martinez
+ORD100908,CUST10368,2023-05-30,9255,0,740.4,385,10380.4,Purchase Order,50/50,Completed,2830 Tech Blvd,Detroit,OR,73116,Online,Jessica Martinez
+ORD100909,CUST10150,2024-08-19,85919,8591,6873.52,0,84201.52,Wire Transfer,Net 60,Completed,9222 Manufacturing Parkway,Chicago,MA,27414,Direct Sales,Jessica Martinez
+ORD100910,CUST10221,2024-09-13,46844,0,3747.52,0,50591.52,Purchase Order,Net 30,Completed,770 Industrial Way,Portland,WA,20068,Phone,Chris Patel
+ORD100911,CUST10283,2024-08-24,132707,6635,10616.56,0,136688.56,Financing,Financing 24mo,In Production,4722 Commerce Blvd,Boston,MI,41122,Phone,David Martinez
+ORD100912,CUST10427,2024-02-03,196513,19651,15721.04,0,192583.04,Credit Card,Prepaid,Cancelled,160 Industrial Way,Boston,WA,11140,Online,David Martinez
+ORD100913,CUST10196,2023-09-23,30062,0,2404.96,0,32466.96,Purchase Order,Financing 24mo,Shipped,6002 Commerce Dr,Denver,CO,44859,Direct Sales,Jessica Martinez
+ORD100914,CUST10251,2024-02-11,16922,0,1353.76,0,18275.76,Financing,50/50,Shipped,8393 Commerce Parkway,Boston,MA,97142,Phone,Jessica Martinez
+ORD100915,CUST10409,2024-07-28,57636,5763,4610.88,0,56483.88,Purchase Order,50/50,Completed,5625 Business Way,Detroit,MA,40161,Online,Jessica Martinez
+ORD100916,CUST10269,2024-11-29,56114,2805,4489.12,0,57798.12,Purchase Order,Net 60,Completed,7351 Manufacturing Parkway,Portland,CO,22307,Direct Sales,Jessica Martinez
+ORD100917,CUST10487,2023-07-11,118079,5903,9446.32,0,121622.32,Financing,Prepaid,Completed,8662 Commerce Blvd,Detroit,MN,80436,Partner,David Martinez
+ORD100918,CUST10077,2023-07-01,10467,0,837.36,0,11304.36,Purchase Order,Prepaid,Cancelled,2262 Business Blvd,Austin,MA,15489,Partner,Jessica Martinez
+ORD100919,CUST10423,2024-11-06,67657,3382,5412.56,0,69687.56,Purchase Order,Prepaid,Cancelled,9475 Commerce Dr,Boston,MI,61601,Direct Sales,Chris Patel
+ORD100920,CUST10170,2023-09-19,81093,4054,6487.44,0,83526.44,Purchase Order,Financing 24mo,In Production,1272 Manufacturing Blvd,Denver,MN,10985,Phone,Jessica Martinez
+ORD100921,CUST10194,2023-10-08,42095,0,3367.6,0,45462.6,Purchase Order,Prepaid,Shipped,1199 Commerce Way,Seattle,WA,83789,Partner,Jessica Martinez
+ORD100922,CUST10005,2024-05-18,148230,14823,11858.4,0,145265.4,Purchase Order,Net 60,In Production,3572 Tech Way,Denver,CO,24757,Partner,David Martinez
+ORD100923,CUST10144,2023-02-21,71345,7134,5707.6,0,69918.6,Purchase Order,Financing 24mo,Cancelled,8022 Business Parkway,Seattle,WA,24361,Phone,Chris Patel
+ORD100924,CUST10423,2023-11-18,27076,0,2166.08,0,29242.08,Credit Card,Prepaid,Shipped,9475 Commerce Dr,Boston,MI,61601,Partner,David Martinez
+ORD100925,CUST10228,2024-08-03,7482,0,598.56,316,8396.56,Credit Card,Prepaid,Completed,9147 Business Way,Boston,CO,86445,Direct Sales,Chris Patel
+ORD100926,CUST10175,2024-06-22,146282,7314,11702.56,0,150670.56,Purchase Order,Prepaid,Completed,3398 Tech Parkway,Chicago,MI,63584,Direct Sales,Chris Patel
+ORD100927,CUST10186,2024-08-20,143914,7195,11513.12,0,148232.12,Purchase Order,Net 60,Shipped,8675 Manufacturing Parkway,Portland,MI,62005,Phone,Chris Patel
+ORD100928,CUST10051,2024-07-27,92053,4602,7364.24,0,94815.24,Financing,50/50,In Production,1507 Manufacturing Blvd,Minneapolis,MA,25159,Direct Sales,Jessica Martinez
+ORD100929,CUST10147,2023-10-10,71875,7187,5750.0,0,70438.0,Purchase Order,Net 30,Shipped,7905 Commerce Parkway,Seattle,MA,16929,Partner,David Martinez
+ORD100930,CUST10106,2023-09-16,32449,0,2595.92,0,35044.92,Purchase Order,Prepaid,In Production,1230 Tech Dr,Austin,MI,87276,Direct Sales,Jessica Martinez
+ORD100931,CUST10149,2024-03-20,51196,5119,4095.68,0,50172.68,Credit Card,Net 30,Cancelled,2057 Commerce Way,Minneapolis,TX,22581,Phone,Chris Patel
+ORD100932,CUST10117,2024-03-18,198326,19832,15866.08,0,194360.08,Purchase Order,Prepaid,Shipped,2955 Business Way,Denver,TX,24786,Direct Sales,Jessica Martinez
+ORD100933,CUST10420,2024-10-05,49466,0,3957.28,0,53423.28,Financing,50/50,Cancelled,3229 Commerce Blvd,Detroit,IL,20043,Direct Sales,Jessica Martinez
+ORD100934,CUST10074,2023-06-05,140399,14039,11231.92,0,137591.92,Wire Transfer,Financing 24mo,In Production,2421 Commerce Parkway,Chicago,OR,51179,Direct Sales,Jessica Martinez
+ORD100935,CUST10063,2024-09-09,26893,0,2151.44,0,29044.44,Purchase Order,Prepaid,Completed,8941 Manufacturing Blvd,Seattle,IL,92441,Direct Sales,Chris Patel
+ORD100936,CUST10330,2024-09-10,3744,0,299.52,167,4210.52,Purchase Order,Prepaid,Completed,430 Tech Blvd,Minneapolis,MN,88105,Online,Jessica Martinez
+ORD100937,CUST10226,2023-07-29,3670,0,293.6,141,4104.6,Purchase Order,50/50,Cancelled,5663 Tech Dr,Portland,OR,17377,Partner,Jessica Martinez
+ORD100938,CUST10418,2023-10-07,29743,0,2379.44,0,32122.44,Purchase Order,Prepaid,Cancelled,8249 Industrial Parkway,Portland,MN,19495,Partner,Chris Patel
+ORD100939,CUST10391,2024-01-21,58000,2900,4640.0,0,59740.0,Credit Card,Prepaid,Completed,2553 Tech Blvd,Boston,TX,21190,Direct Sales,Chris Patel
+ORD100940,CUST10464,2024-12-18,1851,0,148.08,298,2297.08,Financing,Net 60,Completed,7984 Tech Dr,Seattle,MI,33039,Phone,Jessica Martinez
+ORD100941,CUST10293,2024-05-24,72607,3630,5808.56,0,74785.56,Credit Card,Net 30,In Production,6504 Business Way,Boston,IL,29850,Partner,Jessica Martinez
+ORD100942,CUST10221,2023-10-17,54999,5499,4399.92,0,53899.92,Credit Card,50/50,In Production,770 Industrial Way,Portland,WA,20068,Direct Sales,David Martinez
+ORD100943,CUST10307,2023-11-13,185718,9285,14857.44,0,191290.44,Purchase Order,50/50,Cancelled,885 Business Blvd,Austin,WA,37264,Direct Sales,Chris Patel
+ORD100944,CUST10321,2023-12-01,67795,3389,5423.6,0,69829.6,Purchase Order,Prepaid,Shipped,226 Commerce Dr,Detroit,CO,83203,Partner,Jessica Martinez
+ORD100945,CUST10273,2023-11-11,90833,4541,7266.64,0,93558.64,Purchase Order,Prepaid,Cancelled,4270 Commerce Blvd,Portland,OR,90616,Partner,Jessica Martinez
+ORD100946,CUST10154,2024-02-27,66840,3342,5347.2,0,68845.2,Wire Transfer,Net 30,Completed,9813 Commerce Blvd,Austin,MA,97549,Direct Sales,Jessica Martinez
+ORD100947,CUST10034,2023-12-07,188149,9407,15051.92,0,193793.92,Financing,Net 60,In Production,3570 Commerce Way,Seattle,OR,55812,Direct Sales,Jessica Martinez
+ORD100948,CUST10417,2023-01-24,31940,0,2555.2,0,34495.2,Credit Card,Prepaid,In Production,8032 Business Parkway,Portland,TX,58642,Phone,David Martinez
+ORD100949,CUST10166,2024-10-16,123958,12395,9916.64,0,121479.64,Purchase Order,Net 60,In Production,9735 Tech Way,Chicago,MN,40110,Direct Sales,Chris Patel
+ORD100950,CUST10259,2024-01-23,92867,9286,7429.36,0,91010.36,Credit Card,Financing 24mo,Completed,7430 Commerce Way,Seattle,CO,69634,Online,Chris Patel
+ORD100951,CUST10283,2023-11-01,65457,6545,5236.56,0,64148.56,Purchase Order,Financing 24mo,Completed,4722 Commerce Blvd,Boston,MI,41122,Direct Sales,David Martinez
+ORD100952,CUST10225,2023-05-05,56381,5638,4510.48,0,55253.479999999996,Credit Card,Net 60,Cancelled,4989 Tech Way,Minneapolis,MI,31120,Direct Sales,Jessica Martinez
+ORD100953,CUST10390,2023-04-10,26407,0,2112.56,0,28519.56,Purchase Order,50/50,Cancelled,3806 Industrial Way,Seattle,TX,77172,Direct Sales,Chris Patel
+ORD100954,CUST10468,2024-05-21,128622,6431,10289.76,0,132480.76,Purchase Order,Net 30,Completed,2869 Commerce Way,Seattle,MN,17196,Partner,Jessica Martinez
+ORD100955,CUST10272,2023-12-25,110725,11072,8858.0,0,108511.0,Purchase Order,Net 30,In Production,4060 Tech Dr,Detroit,TX,22766,Partner,David Martinez
+ORD100956,CUST10203,2024-12-07,10748,0,859.84,0,11607.84,Credit Card,Prepaid,Completed,2135 Commerce Parkway,Denver,IL,12967,Direct Sales,David Martinez
+ORD100957,CUST10462,2023-10-01,94446,4722,7555.68,0,97279.68,Wire Transfer,Prepaid,Completed,8456 Industrial Blvd,Boston,TX,47297,Partner,Chris Patel
+ORD100958,CUST10048,2024-10-14,29743,0,2379.44,0,32122.44,Wire Transfer,Prepaid,Shipped,6051 Tech Blvd,Seattle,CO,12031,Direct Sales,Jessica Martinez
+ORD100959,CUST10371,2024-12-05,146618,14661,11729.44,0,143686.44,Financing,Prepaid,Completed,9004 Business Blvd,Chicago,TX,79679,Direct Sales,Chris Patel
+ORD100960,CUST10344,2023-08-05,108139,10813,8651.12,0,105977.12,Wire Transfer,Net 30,Completed,7615 Commerce Dr,Portland,TX,19133,Partner,David Martinez
+ORD100961,CUST10208,2023-01-03,43529,0,3482.32,0,47011.32,Financing,50/50,Completed,5486 Industrial Dr,Boston,MN,65693,Online,David Martinez
+ORD100962,CUST10311,2023-12-09,45766,0,3661.28,0,49427.28,Purchase Order,Prepaid,In Production,8098 Manufacturing Parkway,Boston,MI,21765,Online,David Martinez
+ORD100963,CUST10435,2024-09-27,91422,9142,7313.76,0,89593.76,Purchase Order,Net 60,Completed,120 Business Parkway,Austin,MA,96621,Partner,Chris Patel
+ORD100964,CUST10124,2023-04-28,71609,3580,5728.72,0,73757.72,Purchase Order,Net 30,Completed,5739 Commerce Dr,Seattle,TX,72130,Direct Sales,Chris Patel
+ORD100965,CUST10090,2023-06-28,6333,0,506.64,319,7158.64,Credit Card,Prepaid,Completed,7337 Industrial Way,Portland,MA,36741,Phone,David Martinez
+ORD100966,CUST10182,2023-12-21,78919,3945,6313.52,0,81287.52,Financing,Net 30,Cancelled,6926 Commerce Way,Minneapolis,MI,22411,Direct Sales,Chris Patel
+ORD100967,CUST10307,2023-07-17,43790,0,3503.2,0,47293.2,Purchase Order,50/50,In Production,885 Business Blvd,Austin,WA,37264,Online,Jessica Martinez
+ORD100968,CUST10390,2023-01-12,9775,0,782.0,67,10624.0,Wire Transfer,Prepaid,Completed,3806 Industrial Way,Seattle,TX,77172,Direct Sales,David Martinez
+ORD100969,CUST10366,2024-10-05,121932,12193,9754.56,0,119493.56,Credit Card,Prepaid,Cancelled,7648 Manufacturing Blvd,Denver,OR,47390,Phone,Jessica Martinez
+ORD100970,CUST10361,2024-10-25,112497,11249,8999.76,0,110247.76,Financing,Financing 24mo,Shipped,3605 Tech Way,Chicago,CO,79595,Phone,Jessica Martinez
+ORD100971,CUST10056,2024-01-20,18747,0,1499.76,0,20246.76,Financing,Financing 24mo,Completed,3900 Business Parkway,Detroit,IL,40952,Online,David Martinez
+ORD100972,CUST10026,2023-02-19,138007,13800,11040.56,0,135247.56,Credit Card,Net 60,Completed,2160 Commerce Blvd,Austin,IL,37226,Direct Sales,Chris Patel
+ORD100973,CUST10343,2024-03-18,102753,5137,8220.24,0,105836.24,Purchase Order,50/50,Shipped,9530 Tech Parkway,Boston,MA,44198,Direct Sales,Chris Patel
+ORD100974,CUST10115,2023-08-27,32185,0,2574.8,0,34759.8,Purchase Order,Prepaid,Shipped,1968 Industrial Dr,Chicago,WA,17524,Online,David Martinez
+ORD100975,CUST10129,2023-02-12,50683,2534,4054.64,0,52203.64,Purchase Order,Prepaid,Completed,8831 Business Way,Portland,OR,48450,Online,David Martinez
+ORD100976,CUST10291,2023-09-06,52202,5220,4176.16,0,51158.16,Financing,Prepaid,Shipped,4639 Manufacturing Blvd,Chicago,MN,54026,Direct Sales,Chris Patel
+ORD100977,CUST10125,2024-06-01,199334,19933,15946.72,0,195347.72,Financing,Net 30,In Production,1230 Tech Way,Austin,WA,58115,Online,Jessica Martinez
+ORD100978,CUST10249,2023-01-22,122126,6106,9770.08,0,125790.08,Financing,50/50,Completed,6793 Manufacturing Way,Seattle,CO,42712,Partner,Chris Patel
+ORD100979,CUST10330,2024-08-27,117739,11773,9419.12,0,115385.12,Purchase Order,Prepaid,Completed,430 Tech Blvd,Minneapolis,MN,88105,Direct Sales,Jessica Martinez
+ORD100980,CUST10273,2023-06-11,85941,4297,6875.28,0,88519.28,Financing,Prepaid,Completed,4270 Commerce Blvd,Portland,OR,90616,Phone,David Martinez
+ORD100981,CUST10067,2023-10-19,162864,16286,13029.12,0,159607.12,Purchase Order,50/50,In Production,4776 Manufacturing Parkway,Austin,CO,82971,Direct Sales,David Martinez
+ORD100982,CUST10285,2024-02-04,53142,5314,4251.36,0,52079.36,Credit Card,Net 30,In Production,722 Industrial Dr,Detroit,MA,41220,Online,David Martinez
+ORD100983,CUST10466,2023-02-11,129834,12983,10386.72,0,127237.72,Wire Transfer,Net 30,Cancelled,6771 Commerce Dr,Boston,MA,50034,Direct Sales,Chris Patel
+ORD100984,CUST10409,2024-03-10,23455,0,1876.4,0,25331.4,Credit Card,Prepaid,Cancelled,5625 Business Way,Detroit,MA,40161,Online,Chris Patel
+ORD100985,CUST10166,2023-03-07,140387,14038,11230.96,0,137579.96,Financing,Prepaid,Shipped,9735 Tech Way,Chicago,MN,40110,Direct Sales,Jessica Martinez
+ORD100986,CUST10259,2024-12-18,128183,6409,10254.64,0,132028.64,Credit Card,Financing 24mo,Cancelled,7430 Commerce Way,Seattle,CO,69634,Phone,Jessica Martinez
+ORD100987,CUST10010,2023-06-20,7488,0,599.04,90,8177.04,Credit Card,Prepaid,Completed,212 Tech Parkway,Portland,OR,22560,Partner,Chris Patel
+ORD100988,CUST10009,2024-11-25,42009,0,3360.72,0,45369.72,Purchase Order,Financing 24mo,Completed,9524 Tech Dr,Austin,MA,50277,Direct Sales,David Martinez
+ORD100989,CUST10320,2024-07-30,55697,5569,4455.76,0,54583.76,Purchase Order,Prepaid,Cancelled,8112 Tech Way,Minneapolis,MI,98751,Phone,Jessica Martinez
+ORD100990,CUST10072,2023-08-04,1719,0,137.52,480,2336.52,Wire Transfer,Net 60,Completed,4513 Business Dr,Boston,MN,32455,Direct Sales,Chris Patel
+ORD100991,CUST10075,2023-07-16,223511,11175,17880.88,0,230216.88,Credit Card,Net 60,Cancelled,3477 Manufacturing Parkway,Chicago,CO,65780,Phone,Chris Patel
+ORD100992,CUST10112,2023-11-08,27284,0,2182.72,0,29466.72,Credit Card,Prepaid,In Production,6548 Business Way,Boston,MA,74797,Partner,Chris Patel
+ORD100993,CUST10405,2024-01-07,20074,0,1605.92,0,21679.92,Credit Card,Net 30,Cancelled,4691 Tech Blvd,Chicago,IL,66747,Phone,Jessica Martinez
+ORD100994,CUST10010,2023-01-23,18967,0,1517.36,0,20484.36,Credit Card,Prepaid,Completed,212 Tech Parkway,Portland,OR,22560,Online,David Martinez
+ORD100995,CUST10183,2023-07-12,69837,6983,5586.96,0,68440.96,Credit Card,Prepaid,Completed,177 Business Dr,Boston,MN,22422,Partner,Jessica Martinez
+ORD100996,CUST10489,2024-10-04,25448,0,2035.84,0,27483.84,Financing,Prepaid,Shipped,3780 Manufacturing Parkway,Seattle,CO,37481,Direct Sales,David Martinez
+ORD100997,CUST10489,2024-07-08,29253,0,2340.24,0,31593.239999999998,Credit Card,Financing 24mo,Completed,3780 Manufacturing Parkway,Seattle,CO,37481,Phone,Chris Patel
+ORD100998,CUST10039,2023-12-21,54262,5426,4340.96,0,53176.96,Financing,Net 60,Completed,8952 Industrial Blvd,Minneapolis,IL,60187,Direct Sales,Jessica Martinez
+ORD100999,CUST10288,2024-07-17,52523,2626,4201.84,0,54098.84,Purchase Order,Prepaid,Completed,4955 Business Blvd,Denver,TX,13009,Direct Sales,Jessica Martinez

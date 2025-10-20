@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "clear-port": "chmod +x clear-port.sh && ./clear-port.sh"
+    "clear-port": "chmod +x clear-port.sh && ./clear-port.sh",
+    "update-demo-files": "chmod +x update_demo_files.sh && ./update_demo_files.sh"
   },
   "dependencies": {
     "framer-motion": "^12.23.24",

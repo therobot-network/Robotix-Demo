@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoNav AGV 500 - Integration Guide - Robotix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2563eb;
+            margin-top: 30px;
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #0ea5e9;
+            margin-top: 20px;
+        }
+        .metadata {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2563eb;
+        }
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .info {
+            background: #dbeafe;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>AutoNav AGV 500<br>Integration Guide</h1>
+    
+    <div class="metadata">
+        <strong>Category:</strong> Product Guide | 
+        <strong>Type:</strong> Integration | 
+        <strong>Date:</strong> October 13, 2025 | 
+        <strong>Author:</strong> Engineering Team
+    </div>
+    
+    <hr>
+    
+    <h2>Overview</h2>
+    <p>This guide provides comprehensive information about integration guide for the AutoNav AGV 500. 
+    Whether you're a new user or an experienced operator, this document will help you understand and implement 
+    best practices for integration operations.</p>
+    
+    <div class="info">
+        <strong>📘 Note:</strong> This guide should be used in conjunction with the main product manual. 
+        For basic operation instructions, please refer to the AutoNav AGV 500 User Guide.
+    </div>
+
+    <h2>1. System Requirements</h2>
+
+    <p>Minimum system requirements for integration:</p>
+    
+    <table>
+        <tr>
+            <th>Component</th>
+            <th>Requirement</th>
+        </tr>
+        <tr>
+            <td>Network</td>
+            <td>Ethernet 100Mbps minimum, 1Gbps recommended</td>
+        </tr>
+        <tr>
+            <td>PLC</td>
+            <td>Modbus TCP, EtherNet/IP, or PROFINET compatible</td>
+        </tr>
+        <tr>
+            <td>PC (Programming)</td>
+            <td>Windows 10/11, 8GB RAM, 50GB storage</td>
+        </tr>
+        <tr>
+            <td>Safety Controller</td>
+            <td>Category 3, PLd or higher per ISO 13849-1</td>
+        </tr>
+    </table>
+
+    <h2>2. Network Configuration</h2>
+    <p>Content for Network Configuration section...</p>
+
+    <h2>3. PLC Integration</h2>
+    <p>Content for PLC Integration section...</p>
+
+    <h2>4. I/O Signal Mapping</h2>
+    <p>Content for I/O Signal Mapping section...</p>
+
+    <h2>5. Communication Protocols</h2>
+
+    <p>Supported communication protocols:</p>
+    
+    <h3>Industrial Ethernet</h3>
+    <ul>
+        <li><strong>Modbus TCP:</strong> Port 502, slave mode</li>
+        <li><strong>EtherNet/IP:</strong> Scanner/Adapter modes</li>
+        <li><strong>PROFINET:</strong> IO-Device mode, RT/IRT</li>
+        <li><strong>OPC UA:</strong> Server implementation</li>
+    </ul>
+    
+    <h3>Digital I/O</h3>
+    <ul>
+        <li>24 configurable digital inputs</li>
+        <li>16 configurable digital outputs</li>
+        <li>24VDC, sourcing/sinking configurable</li>
+        <li>Response time: < 1ms</li>
+    </ul>
+    
+    <h3>Analog I/O</h3>
+    <ul>
+        <li>8 analog inputs: ±10V, 0-10V, 4-20mA</li>
+        <li>4 analog outputs: ±10V, 0-10V</li>
+        <li>16-bit resolution</li>
+    </ul>
+
+    <h2>6. Third-Party Software Integration</h2>
+    <p>Content for Third-Party Software Integration section...</p>
+
+    <h2>7. API Reference</h2>
+
+    <p>REST API endpoints for external system integration:</p>
+    
+    <h3>Authentication</h3>
+    <code>POST /api/v1/auth/login</code>
+    <p>Authenticate and receive JWT token</p>
+    
+    <h3>Robot Control</h3>
+    <code>GET /api/v1/robot/status</code>
+    <p>Retrieve current robot status</p>
+    
+    <code>POST /api/v1/robot/move</code>
+    <p>Execute movement command</p>
+    
+    <code>POST /api/v1/robot/program/start</code>
+    <p>Start program execution</p>
+    
+    <h3>Data Monitoring</h3>
+    <code>GET /api/v1/robot/position</code>
+    <p>Get current position (X, Y, Z, Rx, Ry, Rz)</p>
+    
+    <code>GET /api/v1/robot/io</code>
+    <p>Read I/O status</p>
+
+    <h2>8. Integration Examples</h2>
+    <p>Content for Integration Examples section...</p>
+
+    <hr>
+    
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><strong>Technical Support:</strong> support@robotix.com | 1-800-ROBOTIX</li>
+        <li><strong>Training Portal:</strong> training.robotix.com</li>
+        <li><strong>Knowledge Base:</strong> kb.robotix.com</li>
+        <li><strong>Video Tutorials:</strong> youtube.com/robotixinc</li>
+    </ul>
+    
+    <div class="info">
+        <strong>Document Version:</strong> 1.0<br>
+        <strong>Last Updated:</strong> October 13, 2025<br>
+        <strong>Next Review:</strong> October 2026
+    </div>
+    
+    <p><em>© 2025 Robotix. All rights reserved. This document is proprietary and confidential.</em></p>
+    
+</body>
+</html>

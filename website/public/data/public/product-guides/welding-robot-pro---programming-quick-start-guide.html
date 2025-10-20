@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welding Robot Pro - Programming Quick Start Guide - Robotix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #1a365d;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2563eb;
+            margin-top: 30px;
+            border-left: 4px solid #2563eb;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #0ea5e9;
+            margin-top: 20px;
+        }
+        .metadata {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2563eb;
+        }
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .info {
+            background: #dbeafe;
+            border-left: 4px solid #2563eb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d1fae5;
+            border-left: 4px solid #10b981;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        code {
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welding Robot Pro<br>Programming Quick Start Guide</h1>
+    
+    <div class="metadata">
+        <strong>Category:</strong> Product Guide | 
+        <strong>Type:</strong> Programming | 
+        <strong>Date:</strong> October 13, 2025 | 
+        <strong>Author:</strong> Engineering Team
+    </div>
+    
+    <hr>
+    
+    <h2>Overview</h2>
+    <p>This guide provides comprehensive information about programming quick start guide for the Welding Robot Pro. 
+    Whether you're a new user or an experienced operator, this document will help you understand and implement 
+    best practices for programming operations.</p>
+    
+    <div class="info">
+        <strong>📘 Note:</strong> This guide should be used in conjunction with the main product manual. 
+        For basic operation instructions, please refer to the Welding Robot Pro User Guide.
+    </div>
+
+    <h2>1. Getting Started</h2>
+
+    <p>Begin programming your robot in three easy steps:</p>
+    
+    <ol>
+        <li><strong>Power On:</strong> Turn on the controller and wait for initialization (30-45 seconds)</li>
+        <li><strong>Home Position:</strong> Navigate to Setup > Calibration > Home Robot</li>
+        <li><strong>Create Program:</strong> Press PROG > NEW > Enter program name</li>
+    </ol>
+    
+    <div class="success">
+        <strong>✓ Best Practice:</strong> Always test new programs in T1 (reduced speed) mode first.
+    </div>
+
+    <h2>2. Teaching Pendant Basics</h2>
+    <p>Content for Teaching Pendant Basics section...</p>
+
+    <h2>3. Creating Your First Program</h2>
+    <p>Content for Creating Your First Program section...</p>
+
+    <h2>4. Motion Commands</h2>
+
+    <p>Basic motion command syntax:</p>
+    
+    <h3>Linear Movement (MoveL)</h3>
+    <code>MoveL P1, v100, fine</code>
+    <p>Move linearly to position P1 at 100mm/s with fine positioning</p>
+    
+    <h3>Joint Movement (MoveJ)</h3>
+    <code>MoveJ P2, v50, z10</code>
+    <p>Move in joint space to P2 at 50% speed with 10mm zone</p>
+    
+    <h3>Circular Movement (MoveC)</h3>
+    <code>MoveC P3, P4, v200, fine</code>
+    <p>Circular movement through P3 to P4 at 200mm/s</p>
+    
+    <table>
+        <tr>
+            <th>Speed Parameter</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>v100</td>
+            <td>100mm/s TCP speed</td>
+        </tr>
+        <tr>
+            <td>v50</td>
+            <td>50% of maximum joint speed</td>
+        </tr>
+    </table>
+
+    <h2>5. Logic and Variables</h2>
+
+    <p>Programming logic and variable handling:</p>
+    
+    <h3>Variable Types</h3>
+    <ul>
+        <li><code>num</code> - Numeric values (integer or float)</li>
+        <li><code>bool</code> - Boolean (TRUE/FALSE)</li>
+        <li><code>pos</code> - Position data (X, Y, Z, Rx, Ry, Rz)</code>
+        <li><code>string</code> - Text strings</li>
+    </ul>
+    
+    <h3>Conditional Statements</h3>
+    <code>IF DI[1] = TRUE THEN</code><br>
+    <code>&nbsp;&nbsp;MoveL P1, v100, fine</code><br>
+    <code>ELSE</code><br>
+    <code>&nbsp;&nbsp;MoveL P2, v100, fine</code><br>
+    <code>ENDIF</code>
+    
+    <h3>Loops</h3>
+    <code>FOR i:=1 TO 10 DO</code><br>
+    <code>&nbsp;&nbsp;MoveL PickPos[i], v100, fine</code><br>
+    <code>&nbsp;&nbsp;GripperClose()</code><br>
+    <code>&nbsp;&nbsp;MoveL PlacePos[i], v100, fine</code><br>
+    <code>&nbsp;&nbsp;GripperOpen()</code><br>
+    <code>ENDFOR</code>
+
+    <h2>6. Subroutines and Functions</h2>
+    <p>Content for Subroutines and Functions section...</p>
+
+    <h2>7. Testing and Debugging</h2>
+    <p>Content for Testing and Debugging section...</p>
+
+    <h2>8. Program Optimization Tips</h2>
+    <p>Content for Program Optimization Tips section...</p>
+
+    <hr>
+    
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><strong>Technical Support:</strong> support@robotix.com | 1-800-ROBOTIX</li>
+        <li><strong>Training Portal:</strong> training.robotix.com</li>
+        <li><strong>Knowledge Base:</strong> kb.robotix.com</li>
+        <li><strong>Video Tutorials:</strong> youtube.com/robotixinc</li>
+    </ul>
+    
+    <div class="info">
+        <strong>Document Version:</strong> 1.0<br>
+        <strong>Last Updated:</strong> October 13, 2025<br>
+        <strong>Next Review:</strong> October 2026
+    </div>
+    
+    <p><em>© 2025 Robotix. All rights reserved. This document is proprietary and confidential.</em></p>
+    
+</body>
+</html>

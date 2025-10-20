@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Experience Survey - Robotix</title>
+</head>
+<body>
+    <h1>Customer Service Experience Survey</h1>
+    <p><strong>Category:</strong> Marketing | <strong>Type:</strong> Survey Template | <strong>Date:</strong> 2025-10-13 | <strong>Author:</strong> Chris Patel, Marketing Manager</p>
+    <hr>
+    <div class="survey-container">
+    <h2>Robotix Customer Service Experience Survey</h2>
+    <p class="intro">Thank you for choosing Robotix. Please help us improve our products and services by completing this brief survey about your recent experience.</p>
+
+    <form id="customer-survey">
+        <div class="section">
+            <h3>Product Information</h3>
+            <label>Which Robotix product line did you purchase?</label><br>
+            <select name="product" required>
+                <option value="">Select Product Line</option>
+                <option value="industrial">Industrial Robot Series (IR-2000)</option>
+                <option value="collaborative">Collaborative Robot (CoBot-X)</option>
+                <option value="mobile">Mobile Robot Platform (MRP-500)</option>
+                <option value="software">RobotixControl™ Software</option>
+            </select>
+
+            <h3>Product Quality</h3>
+            <label>How would you rate the overall quality of your Robotix product?</label><br>
+            <input type="radio" name="quality" value="5"> Excellent
+            <input type="radio" name="quality" value="4"> Very Good
+            <input type="radio" name="quality" value="3"> Good
+            <input type="radio" name="quality" value="2"> Fair
+            <input type="radio" name="quality" value="1"> Poor
+
+            <h3>Customer Support Experience</h3>
+            <label>Rate your satisfaction with our technical support team (1-10):</label><br>
+            <input type="range" min="1" max="10" value="8"><br>
+
+            <label>How long did it take to receive initial response from support?</label><br>
+            <select name="response-time">
+                <option>Within 1 hour</option>
+                <option>2-4 hours</option>
+                <option>Same business day</option>
+                <option>Next business day</option>
+                <option>More than 2 days</option>
+            </select>
+
+            <h3>Installation & Implementation</h3>
+            <label>Did the installation meet your timeline expectations?</label><br>
+            <input type="radio" name="timeline" value="yes"> Yes
+            <input type="radio" name="timeline" value="no"> No<br>
+
+            <label>Rate the knowledge level of our installation team:</label><br>
+            <input type="radio" name="knowledge" value="5"> Excellent
+            <input type="radio" name="knowledge" value="4"> Very Good
+            <input type="radio" name="knowledge" value="3"> Good
+            <input type="radio" name="knowledge" value="2"> Fair
+            <input type="radio" name="knowledge" value="1"> Poor
+
+            <h3>Overall Satisfaction</h3>
+            <label>How likely are you to recommend Robotix to others? (1-10)</label><br>
+            <input type="number" min="1" max="10" required><br>
+
+            <label>What aspects of our service exceeded your expectations?</label><br>
+            <textarea rows="4" cols="50"></textarea><br>
+
+            <label>What areas need improvement?</label><br>
+            <textarea rows="4" cols="50"></textarea>
+        </div>
+    </form>
+
+    <div class="sample-responses">
+        <h3>Sample Response Examples</h3>
+        <div class="response">
+            <strong>Customer A:</strong>
+            <p>Product: Industrial Robot Series (IR-2000)<br>
+            Quality Rating: Excellent<br>
+            Support Rating: 9/10<br>
+            Comments: "Exceptional technical support team. Installation completed ahead of schedule. ROI exceeded projections by 15%."</p>
+        </div>
+
+        <div class="response">
+            <strong>Customer B:</strong>
+            <p>Product: Collaborative Robot (CoBot-X)<br>
+            Quality Rating: Good<br>
+            Support Rating: 6/10<br>
+            Comments: "Product performs well but initial setup was challenging. Support response times could be improved."</p>
+        </div>
+    </div>
+
+    <div class="results-summary">
+        <h3>Aggregate Results Summary (Last Quarter)</h3>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Result</th>
+            </tr>
+            <tr>
+                <td>Average Product Quality Rating</td>
+                <td>4.3/5.0</td>
+            </tr>
+            <tr>
+                <td>Average Support Satisfaction</td>
+                <td>8.2/10</td>
+            </tr>
+            <tr>
+                <td>Net Promoter Score</td>
+                <td>76</td>
+            </tr>
+            <tr>
+                <td>Installation Timeline Satisfaction</td>
+                <td>87%</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="action-buttons">
+        <button type="submit" class="primary-button">Submit Survey</button>
+        <button type="reset" class="secondary-button">Clear Form</button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Satisfaction Survey - Robotix</title>
+</head>
+<body>
+    <h1>Product Satisfaction Survey</h1>
+    <p><strong>Category:</strong> Marketing | <strong>Type:</strong> Survey Template | <strong>Date:</strong> 2025-10-13 | <strong>Author:</strong> Chris Patel, Marketing Manager</p>
+    <hr>
+    <div class="survey-container">
+    <h2>Robotix Product Satisfaction Survey</h2>
+    <p class="intro">Thank you for choosing Robotix. Please help us improve our products and services by completing this survey about your recent purchase.</p>
+
+    <form id="satisfaction-survey">
+        <div class="section">
+            <h3>Product Information</h3>
+            <label>Which Robotix product are you evaluating?</label>
+            <select name="product" required>
+                <option value="">Select Product</option>
+                <option value="RX-2000">RX-2000 Industrial Robot Arm</option>
+                <option value="CoBot-5">CoBot-5 Collaborative Robot</option>
+                <option value="MobileBot">MobileBot Autonomous Transport</option>
+                <option value="RControl">RControl Automation Software</option>
+            </select>
+
+            <label>How long have you been using this product?</label>
+            <select name="usage-duration">
+                <option>Less than 1 month</option>
+                <option>1-6 months</option>
+                <option>6-12 months</option>
+                <option>Over 1 year</option>
+            </select>
+        </div>
+
+        <div class="section">
+            <h3>Product Quality Assessment</h3>
+            
+            <label>How would you rate the overall quality of the product?</label>
+            <div class="rating">
+                <input type="radio" name="quality" value="5"> Excellent
+                <input type="radio" name="quality" value="4"> Very Good
+                <input type="radio" name="quality" value="3"> Good
+                <input type="radio" name="quality" value="2"> Fair
+                <input type="radio" name="quality" value="1"> Poor
+            </div>
+
+            <label>Rate the following aspects (1-5):</label>
+            <table class="rating-table">
+                <tr>
+                    <td>Reliability:</td>
+                    <td><input type="number" min="1" max="5"></td>
+                </tr>
+                <tr>
+                    <td>Ease of Use:</td>
+                    <td><input type="number" min="1" max="5"></td>
+                </tr>
+                <tr>
+                    <td>Performance Speed:</td>
+                    <td><input type="number" min="1" max="5"></td>
+                </tr>
+                <tr>
+                    <td>Integration Capability:</td>
+                    <td><input type="number" min="1" max="5"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h3>Support & Service</h3>
+            
+            <label>How satisfied are you with our technical support?</label>
+            <div class="rating">
+                <input type="radio" name="support" value="5"> Very Satisfied
+                <input type="radio" name="support" value="4"> Satisfied
+                <input type="radio" name="support" value="3"> Neutral
+                <input type="radio" name="support" value="2"> Dissatisfied
+                <input type="radio" name="support" value="1"> Very Dissatisfied
+            </div>
+
+            <label>Have you experienced any technical issues?</label>
+            <select name="technical-issues">
+                <option>No issues</option>
+                <option>Minor issues, easily resolved</option>
+                <option>Significant issues, resolved with support</option>
+                <option>Major issues, still unresolved</option>
+            </select>
+        </div>
+
+        <div class="section">
+            <h3>Business Impact</h3>
+            
+            <label>What improvements have you seen in your operations?</label>
+            <div class="checkbox-group">
+                <input type="checkbox"> Increased productivity
+                <input type="checkbox"> Reduced errors
+                <input type="checkbox"> Cost savings
+                <input type="checkbox"> Improved safety
+                <input type="checkbox"> Better quality control
+            </div>
+
+            <label>Estimated ROI timeframe:</label>
+            <select name="roi">
+                <option>Less than 6 months</option>
+                <option>6-12 months</option>
+                <option>1-2 years</option>
+                <option>Over 2 years</option>
+                <option>Unable to determine</option>
+            </select>
+        </div>
+
+        <div class="section">
+            <h3>Additional Feedback</h3>
+            
+            <label>What do you like most about our product?</label>
+            <textarea rows="3"></textarea>
+
+            <label>What areas need improvement?</label>
+            <textarea rows="3"></textarea>
+
+            <label>Would you recommend Robotix to others?</label>
+            <div class="rating">
+                <input type="radio" name="recommend" value="5"> Definitely
+                <input type="radio" name="recommend" value="4"> Probably
+                <input type="radio" name="recommend" value="3"> Maybe
+                <input type="radio" name="recommend" value="2"> Probably Not
+                <input type="radio" name="recommend" value="1"> Definitely Not
+            </div>
+        </div>
+    </form>
+
+    <div class="sample-responses">
+        <h3>Sample Response Summary</h3>
+        <div class="response">
+            <strong>Customer A - RX-2000 Industrial Robot Arm</strong>
+            <p>Overall Rating: 5/5</p>
+            <p>Positive: Exceptional precision and reliability. ROI achieved in 8 months.</p>
+            <p>Improvement Areas: Initial setup complexity</p>
+        </div>
+        <div class="response">
+            <strong>Customer B - CoBot-5 Collaborative Robot</strong>
+            <p>Overall Rating: 4/5</p>
+            <p>Positive: User-friendly interface, excellent safety features</p>
+            <p>Improvement Areas: More integration options needed</p>
+        </div>
+    </div>
+
+    <div class="aggregate-results">
+        <h3>Aggregate Results (Last Quarter)</h3>
+        <table class="results-table">
+            <tr>
+                <td>Average Product Quality Rating:</td>
+                <td>4.3/5.0</td>
+            </tr>
+            <tr>
+                <td>Customer Satisfaction:</td>
+                <td>87%</td>
+            </tr>
+            <tr>
+                <td>Would Recommend:</td>
+                <td>92%</td>
+            </tr>
+            <tr>
+                <td>ROI Within 12 Months:</td>
+                <td>76%</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

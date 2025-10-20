@@ -1,0 +1,51 @@
+campaign_id,campaign_name,campaign_type,target_audience,start_date,end_date,budget,actual_spend,leads_generated,conversions,conversion_rate,revenue_generated,roi,status,owner,notes
+CAMP-2024001,Social Media - Q2 2023,Content Marketing,Manufacturing Companies,2023-08-04,2023-10-06,12862,12389.57,3819,238,6.23,31059.29,141.48,Completed,David Martinez,Budget increased mid-campaign
+CAMP-2024002,Social Media - Q3 2024,Trade Show,Enterprise Manufacturers,2024-11-26,2025-05-01,25554,26661.36,3324,451,13.57,86922.08,240.15,Planned,Chris Patel,
+CAMP-2024003,Email - Q4 2024,Content Marketing,Food & Beverage,2024-02-24,2024-06-24,41084,35814.41,489,5,1.02,67701.24,64.79,Planned,Jessica Martinez,Need to optimize messaging
+CAMP-2024004,Direct Mail - Q3 2023,Email,Manufacturing Companies,2023-08-27,2023-12-07,91682,88961.38,493,13,2.64,341929.92,272.95,Active,David Martinez,
+CAMP-2024005,Trade Show - Q2 2023,Content Marketing,Electronics Assembly,2023-07-14,2023-10-04,87524,90161.87,223,10,4.48,295906.06,238.09,On Hold,Chris Patel,Exceeded expectations
+CAMP-2024006,Webinar - Q4 2023,Email,SMB Manufacturers,2024-05-01,2024-09-20,27167,28046.64,4450,149,3.35,65254.31,140.2,Completed,Jessica Martinez,Strong engagement metrics
+CAMP-2024007,Direct Mail - Q2 2024,Social Media,SMB Manufacturers,2024-07-12,2024-11-06,29346,28886.93,3205,126,3.93,25459.34,-13.24,Completed,Chris Patel,Strong engagement metrics
+CAMP-2024008,Social Media - Q1 2023,Trade Show,Manufacturing Companies,2023-07-05,2023-11-16,56611,52688.73,162,16,9.88,83213.61,46.99,Planned,Chris Patel,Need to optimize messaging
+CAMP-2024009,Webinar - Q2 2024,Webinar,Warehousing & Logistics,2024-03-09,2024-05-20,91844,87405.51,3597,244,6.78,365674.1,298.15,On Hold,Chris Patel,
+CAMP-2024010,Social Media - Q4 2023,Social Media,Automotive Industry,2023-07-29,2023-11-18,70240,60297.02,4393,599,13.64,141471.97,101.41,Active,Jessica Martinez,Need to optimize messaging
+CAMP-2024011,PPC - Q3 2024,PPC,Automotive Industry,2024-05-27,2024-07-03,66544,62904.31,2328,135,5.8,188732.54,183.62,On Hold,Jessica Martinez,Budget increased mid-campaign
+CAMP-2024012,Content Marketing - Q3 2023,Social Media,Enterprise Manufacturers,2024-03-18,2024-07-05,72076,71682.32,4281,353,8.25,61281.51,-14.98,Planned,Jessica Martinez,Budget increased mid-campaign
+CAMP-2024013,Webinar - Q4 2024,Social Media,Food & Beverage,2024-10-01,2025-03-22,66070,69183.52,4888,222,4.54,54534.84,-17.46,Planned,Chris Patel,Strong engagement metrics
+CAMP-2024014,Social Media - Q3 2023,Direct Mail,Warehousing & Logistics,2023-11-24,2024-01-12,34585,35342.86,2273,212,9.33,120024.54,247.04,On Hold,Jessica Martinez,
+CAMP-2024015,Social Media - Q1 2024,Email,SMB Manufacturers,2024-09-04,2024-10-27,25155,26392.66,2526,221,8.75,64682.79,157.14,Planned,Chris Patel,Exceeded expectations
+CAMP-2024016,Social Media - Q2 2023,Social Media,System Integrators,2024-05-27,2024-08-08,15288,13847.15,3064,383,12.5,23729.24,55.21,Completed,Jessica Martinez,Need to optimize messaging
+CAMP-2024017,Content Marketing - Q1 2023,Direct Mail,Warehousing & Logistics,2024-11-01,2025-03-05,43281,41432.11,3951,370,9.36,116375.07,168.88,Planned,Jessica Martinez,Exceeded expectations
+CAMP-2024018,PPC - Q4 2023,Social Media,Enterprise Manufacturers,2023-07-26,2024-01-16,75640,79297.16,329,46,13.98,135886.96,79.65,On Hold,Chris Patel,Need to optimize messaging
+CAMP-2024019,Trade Show - Q1 2024,Webinar,Electronics Assembly,2024-01-22,2024-06-13,23861,22623.58,671,85,12.67,30672.86,28.55,On Hold,David Martinez,Strong engagement metrics
+CAMP-2024020,Email - Q3 2024,PPC,Automotive Industry,2023-08-06,2023-10-25,55545,49913.27,2756,261,9.47,60503.09,8.93,Planned,David Martinez,Need to optimize messaging
+CAMP-2024021,Direct Mail - Q4 2024,Social Media,Electronics Assembly,2023-06-13,2023-10-16,41625,35512.33,4588,480,10.46,40179.8,-3.47,Completed,David Martinez,Need to optimize messaging
+CAMP-2024022,Trade Show - Q1 2024,Social Media,Food & Beverage,2023-08-20,2023-09-30,91889,82475.25,1553,122,7.86,95942.79,4.41,Planned,Jessica Martinez,Budget increased mid-campaign
+CAMP-2024023,PPC - Q4 2023,Social Media,SMB Manufacturers,2023-12-01,2024-05-27,30890,32007.02,1981,92,4.64,42550.37,37.75,On Hold,Chris Patel,Need to optimize messaging
+CAMP-2024024,Trade Show - Q2 2023,Trade Show,Electronics Assembly,2024-08-05,2024-12-24,36747,31692.96,2001,175,8.75,131044.01,256.61,Active,Jessica Martinez,
+CAMP-2024025,PPC - Q4 2024,Social Media,Enterprise Manufacturers,2024-11-13,2025-03-26,51895,47207.93,2163,99,4.58,149709.39,188.49,Planned,Jessica Martinez,Budget increased mid-campaign
+CAMP-2024026,Email - Q4 2023,Email,Food & Beverage,2023-01-27,2023-06-05,92959,87653.66,4869,244,5.01,237620.29,155.62,Planned,David Martinez,Budget increased mid-campaign
+CAMP-2024027,Content Marketing - Q3 2023,Email,Food & Beverage,2023-07-05,2023-09-16,57960,57646.99,2057,122,5.93,48106.91,-17.0,Active,Jessica Martinez,Exceeded expectations
+CAMP-2024028,Trade Show - Q2 2024,Webinar,Automotive Industry,2023-03-28,2023-05-09,99987,91828.25,2247,110,4.9,131984.38,32.0,Active,Chris Patel,Exceeded expectations
+CAMP-2024029,Social Media - Q1 2024,Email,Automotive Industry,2024-09-11,2024-12-03,89746,89454.87,440,30,6.82,328053.16,265.54,Active,Jessica Martinez,Need to optimize messaging
+CAMP-2024030,Webinar - Q3 2024,Direct Mail,SMB Manufacturers,2023-01-24,2023-03-29,52092,50545.6,2552,234,9.17,134711.27,158.6,Active,David Martinez,Strong engagement metrics
+CAMP-2024031,Social Media - Q2 2023,Content Marketing,Automotive Industry,2024-06-15,2024-09-15,46692,43387.53,2686,275,10.24,158932.0,240.38,Active,Chris Patel,Need to optimize messaging
+CAMP-2024032,Trade Show - Q1 2023,PPC,System Integrators,2024-07-20,2024-10-06,50382,45139.32,2538,151,5.95,140693.74,179.25,Completed,David Martinez,Budget increased mid-campaign
+CAMP-2024033,Webinar - Q1 2023,Webinar,Manufacturing Companies,2023-09-03,2023-12-08,84704,83652.87,1537,203,13.21,288433.76,240.52,Planned,David Martinez,Need to optimize messaging
+CAMP-2024034,Email - Q1 2024,PPC,Warehousing & Logistics,2023-09-10,2023-10-27,20652,20686.84,1589,176,11.08,78076.67,278.06,Active,David Martinez,Strong engagement metrics
+CAMP-2024035,Webinar - Q4 2024,Social Media,SMB Manufacturers,2024-06-18,2024-10-24,15379,16043.38,2034,188,9.24,34921.69,127.07,On Hold,Chris Patel,
+CAMP-2024036,PPC - Q1 2023,Social Media,Warehousing & Logistics,2024-11-11,2025-01-03,99977,89779.72,1471,157,10.67,348597.38,248.68,Completed,Jessica Martinez,
+CAMP-2024037,Direct Mail - Q2 2024,Email,SMB Manufacturers,2024-04-11,2024-05-24,10747,11180.43,1840,255,13.86,8908.09,-17.11,On Hold,Chris Patel,Exceeded expectations
+CAMP-2024038,Direct Mail - Q3 2023,Webinar,Enterprise Manufacturers,2023-11-01,2024-01-20,70853,60758.76,468,17,3.63,178369.46,151.75,Active,Chris Patel,Need to optimize messaging
+CAMP-2024039,Social Media - Q3 2023,PPC,Warehousing & Logistics,2023-04-16,2023-05-19,17874,17746.4,2699,94,3.48,47796.54,167.41,Planned,Chris Patel,Strong engagement metrics
+CAMP-2024040,Social Media - Q4 2024,Trade Show,Warehousing & Logistics,2023-10-11,2024-02-28,32580,28590.4,4783,152,3.18,54141.51,66.18,Planned,David Martinez,Budget increased mid-campaign
+CAMP-2024041,PPC - Q2 2023,Social Media,Enterprise Manufacturers,2023-05-30,2023-07-03,87822,76923.69,3833,374,9.76,226155.88,157.52,Planned,Jessica Martinez,Need to optimize messaging
+CAMP-2024042,Webinar - Q4 2024,Webinar,Manufacturing Companies,2024-06-16,2024-10-21,43796,41453.65,3243,315,9.71,42226.12,-3.58,On Hold,David Martinez,Exceeded expectations
+CAMP-2024043,Direct Mail - Q4 2024,Social Media,SMB Manufacturers,2023-06-30,2023-09-27,7979,7914.01,3948,521,13.2,22005.29,175.79,Planned,Chris Patel,Strong engagement metrics
+CAMP-2024044,Social Media - Q1 2024,Trade Show,System Integrators,2023-10-02,2024-03-30,82679,77987.09,398,4,1.01,121514.61,46.97,Planned,Chris Patel,Budget increased mid-campaign
+CAMP-2024045,PPC - Q3 2024,Email,Food & Beverage,2023-09-21,2023-11-04,29451,30561.51,2806,222,7.91,49307.98,67.42,Planned,David Martinez,Budget increased mid-campaign
+CAMP-2024046,Trade Show - Q1 2023,Email,Food & Beverage,2023-11-14,2024-01-25,76200,77531.52,1349,186,13.79,291433.14,282.46,Completed,David Martinez,
+CAMP-2024047,Content Marketing - Q4 2024,Email,Enterprise Manufacturers,2023-06-17,2023-07-23,28831,27621.89,4698,222,4.73,113730.87,294.47,Active,Jessica Martinez,Exceeded expectations
+CAMP-2024048,Content Marketing - Q2 2024,Direct Mail,Automotive Industry,2024-03-10,2024-06-08,20828,20459.12,684,26,3.8,56843.85,172.92,Active,David Martinez,Need to optimize messaging
+CAMP-2024049,Social Media - Q2 2023,Email,SMB Manufacturers,2024-02-27,2024-05-08,12443,12627.85,2589,153,5.91,44907.9,260.91,Planned,David Martinez,Strong engagement metrics
+CAMP-2024050,Content Marketing - Q2 2024,PPC,System Integrators,2023-05-04,2023-09-05,23552,21677.74,3230,237,7.34,63348.83,168.97,Planned,David Martinez,Budget increased mid-campaign

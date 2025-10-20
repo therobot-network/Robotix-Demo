@@ -168,10 +168,27 @@ function Layout({ children }: LayoutProps) {
                   </Link>
                 </div>
               ))}
-              <div>
+              <div className="flex gap-2">
+                <Link
+                  to="/demo-files"
+                  className="ml-3 px-5 py-2.5 bg-gradient-to-r from-accent-600 to-accent-700 text-background rounded-lg font-bold text-sm border border-accent-500/30 relative overflow-hidden"
+                  style={{ 
+                    letterSpacing: '0.025em',
+                    boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(245, 158, 11, 0.3)',
+                    outline: 'none'
+                  }}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                  }}
+                  onClick={(e) => {
+                    (e.currentTarget as HTMLAnchorElement).blur();
+                  }}
+                >
+                  Demo Files
+                </Link>
                 <Link
                   to="/customer-portal"
-                  className="ml-3 px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-700 text-background rounded-lg font-bold text-sm border border-primary-500/30 relative overflow-hidden"
+                  className="px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-700 text-background rounded-lg font-bold text-sm border border-primary-500/30 relative overflow-hidden"
                   style={{ 
                     letterSpacing: '0.025em',
                     boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(14, 116, 144, 0.3)',
@@ -266,6 +283,29 @@ function Layout({ children }: LayoutProps) {
                     initial={{ x: -20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: navigation.length * 0.05 }}
+                  >
+                    <Link
+                      to="/demo-files"
+                      className="block px-4 py-3 bg-gradient-to-r from-accent-600 to-accent-700 text-background rounded-lg font-bold text-sm text-center border border-accent-500/30 shadow-md shadow-accent-500/30"
+                      style={{ 
+                        letterSpacing: '0.025em',
+                        boxShadow: 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1), 0 4px 6px -1px rgba(245, 158, 11, 0.3)',
+                        outline: 'none'
+                      }}
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                      }}
+                      onClick={(e) => {
+                        (e.currentTarget as HTMLAnchorElement).blur();
+                      }}
+                    >
+                      Demo Files
+                    </Link>
+                  </motion.div>
+                  <motion.div
+                    initial={{ x: -20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: (navigation.length + 1) * 0.05 }}
                   >
                     <Link
                       to="/customer-portal"
@@ -382,6 +422,9 @@ function Layout({ children }: LayoutProps) {
                 </Link></li>
                 <li><Link to="/documentation" className="text-text-muted hover:text-primary-300 transition-all duration-200 text-xs font-medium hover:translate-x-0.5 inline-block">
                   Documentation
+                </Link></li>
+                <li><Link to="/demo-files" className="text-text-muted hover:text-primary-300 transition-all duration-200 text-xs font-medium hover:translate-x-0.5 inline-block">
+                  Demo Files
                 </Link></li>
                 <li><Link to="/customer-portal" className="text-text-muted hover:text-primary-300 transition-all duration-200 text-xs font-medium hover:translate-x-0.5 inline-block">
                   Customer Portal

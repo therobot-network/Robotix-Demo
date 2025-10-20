@@ -1,0 +1,501 @@
+customer_id,company_name,contact_first_name,contact_last_name,email,phone,address,city,state,zip_code,signup_date,customer_type,industry,account_manager,lifetime_value,total_orders,status
+CUST10000,Individual,Michael,Williams,michael.williams22@email.com,(859) 575-9133,842 Industrial Parkway,Denver,OR,75627,2022-02-25,System Integrator,N/A,Jessica Martinez,46763,3,Active
+CUST10001,Industrial Technologies,James,Smith,james.smith@industrialtechnologies.com,(406) 544-6290,6912 Tech Parkway,Detroit,MN,51836,2020-12-04,Manufacturing,Automotive,Jessica Martinez,322570,2,Active
+CUST10002,Individual,David,Miller,david.miller44@email.com,(852) 425-4474,1906 Industrial Dr,Seattle,WA,60229,2022-01-05,System Integrator,N/A,Chris Patel,18405,5,Active
+CUST10003,Elite Robotics,James,Martinez,james.martinez@eliterobotics.com,(913) 635-4094,3416 Commerce Blvd,Chicago,CO,79445,2024-08-29,Individual,Automotive,David Martinez,498754,5,Active
+CUST10004,Auto Industries,James,Wilson,james.wilson@autoindustries.com,(366) 928-7427,7863 Industrial Way,Detroit,CO,85714,2023-01-21,Manufacturing,Pharmaceuticals,David Martinez,246822,13,Active
+CUST10005,Auto Robotics,Patricia,Garcia,patricia.garcia@autorobotics.com,(480) 392-6952,3572 Tech Way,Denver,CO,24757,2021-01-28,System Integrator,Food & Beverage,David Martinez,13432,3,Active
+CUST10006,Industrial Solutions,Joseph,Davis,joseph.davis@industrialsolutions.com,(884) 751-9459,5710 Business Parkway,Detroit,CO,60748,2024-07-05,Research,Food & Beverage,Jessica Martinez,498473,9,Active
+CUST10007,Tech Technologies,Elizabeth,Anderson,elizabeth.anderson@techtechnologies.com,(999) 513-2871,9173 Commerce Dr,Chicago,MI,52914,2023-05-23,Warehouse/Logistics,Food & Beverage,Jessica Martinez,155282,6,Active
+CUST10008,Elite Solutions,Elizabeth,Smith,elizabeth.smith@elitesolutions.com,(326) 597-3071,6932 Business Way,Chicago,WA,17127,2022-01-05,Research,Pharmaceuticals,Jessica Martinez,495419,9,Active
+CUST10009,Precision Technologies,Elizabeth,Brown,elizabeth.brown@precisiontechnologies.com,(448) 719-5337,9524 Tech Dr,Austin,MA,50277,2024-07-02,Manufacturing,Automotive,Chris Patel,303511,14,Active
+CUST10010,Precision Assembly,Patricia,Williams,patricia.williams@precisionassembly.com,(535) 773-2508,212 Tech Parkway,Portland,OR,22560,2024-06-14,Individual,Pharmaceuticals,Jessica Martinez,49531,15,Active
+CUST10011,Individual,Barbara,Anderson,barbara.anderson625@email.com,(931) 610-3190,909 Tech Way,Denver,MN,78991,2024-09-10,Individual,N/A,Jessica Martinez,7655,4,Active
+CUST10012,Auto Automation,Robert,Jones,robert.jones@autoautomation.com,(322) 992-5025,5238 Commerce Dr,Chicago,OR,11209,2020-12-29,Research,Pharmaceuticals,Chris Patel,362926,5,Active
+CUST10013,Individual,Michael,Taylor,michael.taylor976@email.com,(563) 956-6522,1083 Manufacturing Dr,Boston,TX,66911,2024-09-04,Research,N/A,David Martinez,31898,4,Active
+CUST10014,Global Systems,David,Thomas,david.thomas@globalsystems.com,(262) 659-6886,5020 Business Dr,Denver,MI,11909,2020-10-24,Manufacturing,Electronics,Chris Patel,13263,10,Active
+CUST10015,Quality Systems,Michael,Wilson,michael.wilson@qualitysystems.com,(522) 369-5774,1406 Manufacturing Blvd,Chicago,TX,63871,2020-05-14,Manufacturing,Electronics,David Martinez,17120,9,Active
+CUST10016,Global Solutions,Joseph,Brown,joseph.brown@globalsolutions.com,(730) 399-4928,5505 Business Dr,Denver,TX,50789,2021-10-04,System Integrator,Pharmaceuticals,Jessica Martinez,44031,6,Active
+CUST10017,Smart Assembly,Linda,Thomas,linda.thomas@smartassembly.com,(527) 228-1926,3169 Industrial Parkway,Detroit,IL,62731,2023-07-03,System Integrator,Electronics,Jessica Martinez,401218,2,Active
+CUST10018,Industrial Systems,Richard,Lopez,richard.lopez@industrialsystems.com,(321) 282-8210,8463 Industrial Dr,Minneapolis,TX,48721,2024-07-28,Warehouse/Logistics,General Manufacturing,Jessica Martinez,207647,3,Active
+CUST10019,Individual,Mary,Martinez,mary.martinez312@email.com,(799) 970-6691,1936 Commerce Dr,Minneapolis,MI,75392,2020-06-24,Research,N/A,David Martinez,49196,1,Active
+CUST10020,Individual,Jessica,Miller,jessica.miller261@email.com,(215) 589-9033,5005 Business Parkway,Chicago,CO,50241,2021-08-08,System Integrator,N/A,Jessica Martinez,25570,3,Active
+CUST10021,Tech Automation,Patricia,Rodriguez,patricia.rodriguez@techautomation.com,(958) 698-3971,1726 Tech Dr,Boston,OR,86847,2021-05-28,Research,Electronics,Chris Patel,302713,7,Active
+CUST10022,Smart Automation,Jennifer,Lopez,jennifer.lopez@smartautomation.com,(602) 390-4232,7369 Business Way,Minneapolis,WA,61366,2023-04-01,Individual,Electronics,Jessica Martinez,378370,15,Active
+CUST10023,Auto Robotics,John,Smith,john.smith@autorobotics.com,(277) 921-3784,1686 Manufacturing Dr,Chicago,IL,10077,2023-08-19,Manufacturing,General Manufacturing,Chris Patel,64599,7,Active
+CUST10024,Individual,Robert,Lopez,robert.lopez426@email.com,(827) 375-1052,9633 Manufacturing Parkway,Boston,MI,69309,2020-11-27,Individual,N/A,Jessica Martinez,37335,5,Active
+CUST10025,Tech Systems,John,Brown,john.brown@techsystems.com,(247) 562-7586,2117 Tech Blvd,Seattle,MA,21154,2023-01-22,Individual,Automotive,Jessica Martinez,276937,11,Active
+CUST10026,Individual,Jennifer,Williams,jennifer.williams267@email.com,(738) 916-5310,2160 Commerce Blvd,Austin,IL,37226,2022-01-19,System Integrator,N/A,Chris Patel,49366,5,Active
+CUST10027,Individual,Michael,Smith,michael.smith800@email.com,(689) 523-3356,590 Business Way,Portland,OR,98117,2022-10-17,Warehouse/Logistics,N/A,Chris Patel,49794,4,Active
+CUST10028,Individual,Jessica,Smith,jessica.smith332@email.com,(575) 701-8235,1832 Commerce Blvd,Boston,CO,26427,2022-08-29,System Integrator,N/A,Jessica Martinez,46822,4,Active
+CUST10029,Advanced Manufacturing,Elizabeth,Jones,elizabeth.jones@advancedmanufacturing.com,(767) 815-5457,8360 Commerce Blvd,Boston,OR,39487,2024-02-06,System Integrator,General Manufacturing,Chris Patel,14009,1,Active
+CUST10030,Individual,Jessica,Davis,jessica.davis780@email.com,(823) 697-4775,824 Industrial Dr,Seattle,OR,15830,2021-10-19,Manufacturing,N/A,David Martinez,27874,3,Active
+CUST10031,Advanced Manufacturing,Mary,Smith,mary.smith@advancedmanufacturing.com,(344) 895-8065,232 Industrial Dr,Detroit,MA,67054,2022-05-10,Individual,Electronics,Chris Patel,359366,12,Active
+CUST10032,Smart Systems,Patricia,Davis,patricia.davis@smartsystems.com,(717) 924-7669,9731 Business Blvd,Austin,TX,97900,2020-07-11,Research,Automotive,Chris Patel,82718,3,Active
+CUST10033,Innovative Industries,Elizabeth,Miller,elizabeth.miller@innovativeindustries.com,(674) 923-8419,8079 Commerce Dr,Chicago,CO,82837,2024-05-16,Individual,Aerospace,Chris Patel,382202,11,Active
+CUST10034,Individual,Mary,Wilson,mary.wilson369@email.com,(280) 660-7947,3570 Commerce Way,Seattle,OR,55812,2024-09-14,Research,N/A,David Martinez,7471,4,Active
+CUST10035,Individual,Jennifer,Jones,jennifer.jones668@email.com,(496) 661-8235,5677 Commerce Dr,Minneapolis,TX,20680,2024-02-21,Manufacturing,N/A,Jessica Martinez,19283,4,Active
+CUST10036,Individual,Linda,Davis,linda.davis73@email.com,(394) 234-7557,3632 Commerce Way,Austin,WA,42898,2022-07-04,Research,N/A,David Martinez,24667,4,Active
+CUST10037,Tech Industries,Michael,Taylor,michael.taylor@techindustries.com,(959) 409-1179,6157 Manufacturing Parkway,Boston,CO,65253,2020-03-23,Warehouse/Logistics,Food & Beverage,David Martinez,142283,7,Active
+CUST10038,Elite Systems,William,Miller,william.miller@elitesystems.com,(350) 822-8130,7811 Commerce Dr,Detroit,WA,55272,2021-07-29,Manufacturing,Pharmaceuticals,Chris Patel,227610,13,Active
+CUST10039,Tech Automation,Joseph,Jones,joseph.jones@techautomation.com,(335) 562-9605,8952 Industrial Blvd,Minneapolis,IL,60187,2022-10-01,Manufacturing,Electronics,Jessica Martinez,471920,15,Active
+CUST10040,Tech Solutions,Susan,Lopez,susan.lopez@techsolutions.com,(665) 226-4506,2591 Manufacturing Blvd,Detroit,WA,17254,2024-02-22,Individual,Automotive,Jessica Martinez,236795,2,Active
+CUST10041,Auto Solutions,David,Williams,david.williams@autosolutions.com,(382) 208-8327,1400 Tech Dr,Seattle,IL,24183,2022-05-04,Research,Pharmaceuticals,Chris Patel,272145,15,Active
+CUST10042,Tech Technologies,Jennifer,Wilson,jennifer.wilson@techtechnologies.com,(579) 442-4280,3588 Industrial Parkway,Portland,WA,96021,2023-03-19,Manufacturing,Aerospace,Jessica Martinez,489307,5,Active
+CUST10043,Auto Manufacturing,Jessica,Smith,jessica.smith@automanufacturing.com,(396) 529-2945,4161 Business Parkway,Detroit,TX,13692,2024-07-10,Manufacturing,General Manufacturing,David Martinez,367544,3,Active
+CUST10044,Quality Assembly,William,Williams,william.williams@qualityassembly.com,(990) 700-6496,7701 Business Blvd,Austin,IL,18974,2020-06-07,Warehouse/Logistics,Automotive,David Martinez,207338,13,Active
+CUST10045,Individual,David,Rodriguez,david.rodriguez53@email.com,(952) 315-8535,8604 Tech Way,Seattle,MI,38466,2020-11-30,Individual,N/A,Jessica Martinez,18972,2,Active
+CUST10046,Industrial Technologies,Linda,Jones,linda.jones@industrialtechnologies.com,(805) 409-3816,552 Business Way,Denver,MA,57251,2023-09-28,System Integrator,Automotive,Chris Patel,229987,6,Active
+CUST10047,Individual,John,Miller,john.miller740@email.com,(702) 791-4014,866 Manufacturing Blvd,Denver,MI,42473,2021-03-26,Warehouse/Logistics,N/A,David Martinez,27579,5,Active
+CUST10048,Elite Technologies,Mary,Taylor,mary.taylor@elitetechnologies.com,(906) 375-9324,6051 Tech Blvd,Seattle,CO,12031,2022-04-06,Individual,Aerospace,David Martinez,230863,12,Active
+CUST10049,Advanced Industries,Robert,Wilson,robert.wilson@advancedindustries.com,(568) 997-3186,4896 Tech Way,Austin,OR,29829,2022-11-09,System Integrator,Automotive,David Martinez,464838,9,Active
+CUST10050,Elite Industries,Linda,Johnson,linda.johnson@eliteindustries.com,(730) 477-9483,2831 Manufacturing Blvd,Austin,MA,69433,2024-11-28,System Integrator,Electronics,Chris Patel,300425,4,Active
+CUST10051,Advanced Industries,Linda,Taylor,linda.taylor@advancedindustries.com,(524) 829-8164,1507 Manufacturing Blvd,Minneapolis,MA,25159,2023-03-08,System Integrator,Pharmaceuticals,David Martinez,75628,4,Active
+CUST10052,Advanced Robotics,James,Anderson,james.anderson@advancedrobotics.com,(755) 417-7181,1123 Tech Dr,Chicago,OR,86306,2021-05-19,Warehouse/Logistics,Food & Beverage,David Martinez,287274,3,Active
+CUST10053,Individual,Susan,Brown,susan.brown138@email.com,(357) 836-2804,2170 Business Dr,Detroit,WA,60143,2020-05-22,Individual,N/A,Jessica Martinez,18242,4,Active
+CUST10054,Individual,Elizabeth,Garcia,elizabeth.garcia222@email.com,(269) 625-7824,8926 Commerce Dr,Portland,CO,40673,2024-08-22,Research,N/A,Chris Patel,22843,2,Active
+CUST10055,Individual,Richard,Johnson,richard.johnson685@email.com,(869) 784-6778,9155 Business Dr,Boston,IL,44980,2023-06-02,System Integrator,N/A,David Martinez,42110,1,Active
+CUST10056,Precision Industries,William,Johnson,william.johnson@precisionindustries.com,(273) 250-1351,3900 Business Parkway,Detroit,IL,40952,2020-06-08,Manufacturing,Aerospace,Jessica Martinez,93905,1,Active
+CUST10057,Industrial Robotics,David,Johnson,david.johnson@industrialrobotics.com,(808) 945-6717,6017 Tech Parkway,Boston,CO,60614,2023-08-19,System Integrator,Automotive,Jessica Martinez,162621,14,Active
+CUST10058,Elite Manufacturing,Elizabeth,Taylor,elizabeth.taylor@elitemanufacturing.com,(986) 386-4302,3800 Manufacturing Way,Detroit,MI,52955,2020-01-08,Warehouse/Logistics,Food & Beverage,David Martinez,108469,6,Active
+CUST10059,Individual,Michael,Jones,michael.jones15@email.com,(331) 403-7378,2432 Business Blvd,Austin,OR,41052,2023-05-24,Warehouse/Logistics,N/A,Jessica Martinez,23749,4,Active
+CUST10060,Quality Automation,Linda,Lopez,linda.lopez@qualityautomation.com,(561) 408-1624,3421 Manufacturing Parkway,Seattle,WA,79913,2023-06-06,Individual,Aerospace,David Martinez,387501,3,Active
+CUST10061,Elite Industries,Linda,Taylor,linda.taylor@eliteindustries.com,(323) 280-3164,1952 Commerce Blvd,Minneapolis,IL,64752,2023-06-29,Individual,Electronics,David Martinez,100517,6,Active
+CUST10062,Elite Assembly,Barbara,Garcia,barbara.garcia@eliteassembly.com,(683) 363-6878,3506 Industrial Parkway,Detroit,MA,62460,2024-10-02,Manufacturing,Electronics,Chris Patel,96800,12,Active
+CUST10063,Smart Robotics,John,Brown,john.brown@smartrobotics.com,(820) 667-2727,8941 Manufacturing Blvd,Seattle,IL,92441,2020-11-26,Individual,Food & Beverage,Jessica Martinez,334064,12,Active
+CUST10064,Individual,Michael,Thomas,michael.thomas181@email.com,(646) 598-8494,7455 Commerce Parkway,Minneapolis,WA,60743,2022-07-25,Warehouse/Logistics,N/A,Jessica Martinez,29372,5,Active
+CUST10065,Individual,Patricia,Rodriguez,patricia.rodriguez443@email.com,(261) 492-4550,6432 Commerce Way,Austin,CO,97795,2022-01-27,Warehouse/Logistics,N/A,David Martinez,8340,3,Active
+CUST10066,Individual,Richard,Rodriguez,richard.rodriguez924@email.com,(741) 488-2515,4011 Manufacturing Dr,Denver,CO,78622,2022-07-09,Individual,N/A,Chris Patel,35684,3,Active
+CUST10067,Innovative Solutions,William,Johnson,william.johnson@innovativesolutions.com,(289) 961-2020,4776 Manufacturing Parkway,Austin,CO,82971,2022-05-24,Manufacturing,Aerospace,Chris Patel,399133,9,Active
+CUST10068,Individual,William,Rodriguez,william.rodriguez7@email.com,(763) 614-8619,5884 Commerce Blvd,Boston,WA,51163,2020-03-03,Research,N/A,David Martinez,49337,4,Active
+CUST10069,Elite Solutions,William,Anderson,william.anderson@elitesolutions.com,(830) 876-2348,9231 Manufacturing Way,Chicago,CO,78578,2022-04-28,Individual,Pharmaceuticals,Chris Patel,444228,15,Active
+CUST10070,Precision Industries,Mary,Hernandez,mary.hernandez@precisionindustries.com,(245) 357-6837,6239 Manufacturing Dr,Seattle,OR,15439,2023-06-28,Warehouse/Logistics,Electronics,Jessica Martinez,79042,13,Active
+CUST10071,Elite Automation,Joseph,Rodriguez,joseph.rodriguez@eliteautomation.com,(476) 671-4776,1126 Business Way,Boston,WA,14512,2020-03-04,Manufacturing,Electronics,Chris Patel,473679,13,Active
+CUST10072,Precision Assembly,Barbara,Garcia,barbara.garcia@precisionassembly.com,(455) 367-7737,4513 Business Dr,Boston,MN,32455,2022-06-19,Warehouse/Logistics,General Manufacturing,Chris Patel,403957,3,Active
+CUST10073,Individual,Joseph,Miller,joseph.miller261@email.com,(841) 621-4252,7523 Commerce Way,Boston,MN,43617,2023-11-02,Manufacturing,N/A,Jessica Martinez,27427,1,Active
+CUST10074,Individual,Patricia,Miller,patricia.miller361@email.com,(704) 265-8372,2421 Commerce Parkway,Chicago,OR,51179,2023-08-21,System Integrator,N/A,Jessica Martinez,12350,3,Active
+CUST10075,Auto Industries,Jessica,Williams,jessica.williams@autoindustries.com,(719) 740-4774,3477 Manufacturing Parkway,Chicago,CO,65780,2024-08-14,System Integrator,Pharmaceuticals,David Martinez,456630,1,Active
+CUST10076,Individual,Elizabeth,Smith,elizabeth.smith751@email.com,(735) 345-1107,1426 Tech Parkway,Denver,MI,86555,2023-10-07,Research,N/A,Jessica Martinez,11590,1,Active
+CUST10077,Tech Manufacturing,Linda,Johnson,linda.johnson@techmanufacturing.com,(762) 612-2901,2262 Business Blvd,Austin,MA,15489,2024-09-10,Individual,General Manufacturing,Chris Patel,475484,12,Active
+CUST10078,Precision Robotics,William,Wilson,william.wilson@precisionrobotics.com,(397) 958-1639,2790 Commerce Blvd,Boston,WA,82841,2022-11-19,Manufacturing,General Manufacturing,Jessica Martinez,150383,1,Active
+CUST10079,Global Solutions,John,Smith,john.smith@globalsolutions.com,(787) 289-1713,1342 Commerce Dr,Chicago,TX,95907,2021-10-01,Warehouse/Logistics,Pharmaceuticals,Jessica Martinez,387345,11,Active
+CUST10080,Global Technologies,Patricia,Williams,patricia.williams@globaltechnologies.com,(381) 387-9485,5864 Business Dr,Minneapolis,MN,18732,2024-12-01,Manufacturing,General Manufacturing,David Martinez,276431,15,Active
+CUST10081,Innovative Assembly,Linda,Lopez,linda.lopez@innovativeassembly.com,(815) 562-5821,5748 Tech Parkway,Denver,WA,29662,2021-09-30,Manufacturing,Pharmaceuticals,David Martinez,82826,5,Active
+CUST10082,Auto Automation,Michael,Miller,michael.miller@autoautomation.com,(982) 252-6263,8105 Manufacturing Way,Minneapolis,OR,36106,2020-06-19,Manufacturing,General Manufacturing,Jessica Martinez,291285,2,Active
+CUST10083,Individual,James,Smith,james.smith278@email.com,(740) 746-6106,2473 Business Parkway,Denver,IL,52042,2020-10-25,Manufacturing,N/A,Chris Patel,38861,4,Active
+CUST10084,Individual,Richard,Davis,richard.davis440@email.com,(744) 604-8290,5389 Commerce Dr,Austin,MI,28054,2023-02-15,Research,N/A,Chris Patel,12174,5,Active
+CUST10085,Tech Solutions,Joseph,Miller,joseph.miller@techsolutions.com,(371) 773-5130,1613 Tech Way,Detroit,TX,42802,2020-07-11,Individual,Pharmaceuticals,Chris Patel,311800,13,Active
+CUST10086,Individual,Richard,Davis,richard.davis160@email.com,(794) 522-4842,6182 Commerce Way,Austin,IL,33626,2023-09-14,System Integrator,N/A,Jessica Martinez,14423,5,Active
+CUST10087,Individual,Mary,Jones,mary.jones601@email.com,(720) 955-4759,5540 Industrial Parkway,Portland,MA,29130,2022-02-27,Warehouse/Logistics,N/A,Jessica Martinez,25546,3,Active
+CUST10088,Advanced Assembly,John,Martinez,john.martinez@advancedassembly.com,(737) 713-3094,9801 Commerce Blvd,Seattle,WA,70492,2020-05-13,Individual,General Manufacturing,David Martinez,272696,8,Active
+CUST10089,Quality Technologies,Mary,Davis,mary.davis@qualitytechnologies.com,(440) 510-7863,3739 Tech Parkway,Denver,MA,66471,2020-11-17,Individual,Pharmaceuticals,David Martinez,292427,2,Active
+CUST10090,Elite Solutions,David,Anderson,david.anderson@elitesolutions.com,(245) 499-1424,7337 Industrial Way,Portland,MA,36741,2020-09-11,Individual,Pharmaceuticals,David Martinez,135990,4,Active
+CUST10091,Individual,David,Rodriguez,david.rodriguez23@email.com,(206) 480-3983,5742 Manufacturing Dr,Boston,OR,76024,2022-08-03,System Integrator,N/A,David Martinez,49229,3,Active
+CUST10092,Precision Solutions,Michael,Martinez,michael.martinez@precisionsolutions.com,(754) 507-2999,9621 Commerce Way,Chicago,OR,99360,2021-01-05,Individual,Pharmaceuticals,David Martinez,44572,12,Active
+CUST10093,Tech Technologies,Richard,Jones,richard.jones@techtechnologies.com,(475) 760-4738,7358 Manufacturing Parkway,Denver,MN,98064,2022-06-02,System Integrator,Electronics,Chris Patel,357855,3,Active
+CUST10094,Individual,Elizabeth,Rodriguez,elizabeth.rodriguez654@email.com,(698) 835-3485,6542 Manufacturing Dr,Portland,MI,10734,2021-03-24,Manufacturing,N/A,Jessica Martinez,18100,4,Active
+CUST10095,Auto Robotics,Mary,Anderson,mary.anderson@autorobotics.com,(392) 620-6270,5875 Business Parkway,Minneapolis,OR,53056,2023-02-01,Individual,Electronics,Chris Patel,279242,4,Active
+CUST10096,Individual,Mary,Taylor,mary.taylor330@email.com,(567) 831-7155,8881 Commerce Blvd,Chicago,WA,77035,2023-12-12,System Integrator,N/A,Jessica Martinez,13717,5,Active
+CUST10097,Individual,Susan,Johnson,susan.johnson984@email.com,(543) 479-9010,5226 Business Dr,Seattle,MN,32012,2022-05-11,Warehouse/Logistics,N/A,Jessica Martinez,28132,3,Active
+CUST10098,Tech Assembly,Elizabeth,Johnson,elizabeth.johnson@techassembly.com,(380) 649-8639,727 Manufacturing Parkway,Detroit,TX,24740,2020-05-20,Manufacturing,Aerospace,David Martinez,143476,8,Active
+CUST10099,Innovative Systems,Elizabeth,Rodriguez,elizabeth.rodriguez@innovativesystems.com,(957) 953-7877,9781 Commerce Blvd,Seattle,MA,70596,2021-06-04,System Integrator,General Manufacturing,David Martinez,110390,14,Active
+CUST10100,Global Industries,Susan,Brown,susan.brown@globalindustries.com,(827) 680-4151,3884 Commerce Way,Denver,CO,15740,2023-04-19,System Integrator,Aerospace,David Martinez,12020,10,Active
+CUST10101,Smart Technologies,Mary,Lopez,mary.lopez@smarttechnologies.com,(211) 331-3863,9208 Business Blvd,Austin,OR,64169,2020-09-16,System Integrator,Pharmaceuticals,Chris Patel,183230,14,Active
+CUST10102,Quality Assembly,Richard,Johnson,richard.johnson@qualityassembly.com,(778) 663-5156,3442 Business Way,Denver,MI,19308,2020-12-11,Manufacturing,Automotive,David Martinez,387297,6,Active
+CUST10103,Innovative Industries,James,Smith,james.smith@innovativeindustries.com,(384) 965-7298,6065 Business Dr,Minneapolis,MN,17622,2023-08-25,Warehouse/Logistics,Food & Beverage,Jessica Martinez,321589,5,Active
+CUST10104,Individual,William,Davis,william.davis556@email.com,(879) 231-4226,4823 Manufacturing Blvd,Portland,OR,27702,2024-01-18,Warehouse/Logistics,N/A,David Martinez,18309,3,Active
+CUST10105,Individual,Patricia,Davis,patricia.davis430@email.com,(287) 540-6813,8965 Manufacturing Dr,Denver,CO,59285,2023-05-28,System Integrator,N/A,David Martinez,12731,3,Active
+CUST10106,Individual,Susan,Williams,susan.williams129@email.com,(972) 653-9702,1230 Tech Dr,Austin,MI,87276,2022-12-27,Individual,N/A,Chris Patel,22306,2,Active
+CUST10107,Individual,Jessica,Williams,jessica.williams445@email.com,(482) 213-5303,8005 Business Dr,Austin,TX,79528,2024-05-17,Warehouse/Logistics,N/A,Jessica Martinez,48515,2,Active
+CUST10108,Individual,Richard,Hernandez,richard.hernandez560@email.com,(283) 752-8949,8406 Commerce Parkway,Minneapolis,MA,41442,2023-05-25,Individual,N/A,Jessica Martinez,35827,4,Active
+CUST10109,Advanced Technologies,Barbara,Miller,barbara.miller@advancedtechnologies.com,(956) 671-9716,6512 Commerce Blvd,Denver,MI,77767,2022-11-25,Warehouse/Logistics,Electronics,David Martinez,479067,1,Active
+CUST10110,Auto Assembly,Richard,Hernandez,richard.hernandez@autoassembly.com,(219) 621-8916,1819 Commerce Parkway,Seattle,IL,39631,2023-10-28,Research,Aerospace,Jessica Martinez,275010,3,Active
+CUST10111,Tech Systems,Jennifer,Brown,jennifer.brown@techsystems.com,(284) 831-2867,6232 Business Parkway,Chicago,MA,74750,2022-01-27,Research,Pharmaceuticals,Jessica Martinez,347846,11,Active
+CUST10112,Individual,Mary,Lopez,mary.lopez134@email.com,(862) 593-8262,6548 Business Way,Boston,MA,74797,2024-01-10,Individual,N/A,Chris Patel,38732,2,Active
+CUST10113,Individual,James,Johnson,james.johnson886@email.com,(201) 981-2926,8714 Industrial Way,Chicago,MN,98749,2020-01-28,Individual,N/A,David Martinez,26528,5,Active
+CUST10114,Quality Industries,Jennifer,Garcia,jennifer.garcia@qualityindustries.com,(608) 469-8017,2138 Tech Way,Seattle,OR,17401,2021-08-04,System Integrator,General Manufacturing,Chris Patel,141622,11,Active
+CUST10115,Quality Manufacturing,Linda,Davis,linda.davis@qualitymanufacturing.com,(541) 220-7630,1968 Industrial Dr,Chicago,WA,17524,2020-11-26,Manufacturing,Food & Beverage,David Martinez,364477,6,Active
+CUST10116,Industrial Manufacturing,Robert,Garcia,robert.garcia@industrialmanufacturing.com,(776) 232-1512,5422 Industrial Parkway,Portland,MN,38426,2024-12-17,Manufacturing,Automotive,Chris Patel,465112,12,Active
+CUST10117,Individual,Richard,Rodriguez,richard.rodriguez910@email.com,(766) 325-4034,2955 Business Way,Denver,TX,24786,2021-05-07,Warehouse/Logistics,N/A,Jessica Martinez,9253,5,Active
+CUST10118,Industrial Industries,John,Thomas,john.thomas@industrialindustries.com,(665) 997-4782,3250 Tech Dr,Portland,TX,55279,2022-12-15,Research,Pharmaceuticals,Jessica Martinez,22544,6,Active
+CUST10119,Auto Industries,Richard,Lopez,richard.lopez@autoindustries.com,(966) 204-5418,8538 Manufacturing Way,Seattle,MA,54980,2023-06-26,Manufacturing,Automotive,David Martinez,60070,11,Active
+CUST10120,Individual,Joseph,Garcia,joseph.garcia557@email.com,(360) 578-8778,2836 Business Way,Detroit,IL,32127,2022-07-01,Research,N/A,Chris Patel,33373,2,Active
+CUST10121,Tech Solutions,David,Brown,david.brown@techsolutions.com,(592) 497-4098,1428 Industrial Blvd,Chicago,MA,20230,2024-12-04,System Integrator,Electronics,David Martinez,240265,1,Active
+CUST10122,Individual,Patricia,Wilson,patricia.wilson811@email.com,(220) 250-9509,7083 Commerce Way,Minneapolis,IL,38404,2023-12-28,Warehouse/Logistics,N/A,David Martinez,33580,1,Active
+CUST10123,Quality Robotics,Patricia,Wilson,patricia.wilson@qualityrobotics.com,(915) 889-9972,6003 Manufacturing Dr,Seattle,OR,36053,2020-12-01,System Integrator,General Manufacturing,Jessica Martinez,387963,13,Active
+CUST10124,Auto Assembly,William,Anderson,william.anderson@autoassembly.com,(321) 643-7371,5739 Commerce Dr,Seattle,TX,72130,2022-02-18,Warehouse/Logistics,Aerospace,Chris Patel,273747,11,Active
+CUST10125,Auto Automation,Richard,Jones,richard.jones@autoautomation.com,(303) 498-3269,1230 Tech Way,Austin,WA,58115,2021-09-12,Research,Electronics,Jessica Martinez,372800,12,Active
+CUST10126,Advanced Robotics,Joseph,Wilson,joseph.wilson@advancedrobotics.com,(605) 580-7432,570 Commerce Dr,Chicago,MA,86841,2021-06-07,System Integrator,Food & Beverage,David Martinez,487891,10,Active
+CUST10127,Individual,Susan,Martinez,susan.martinez148@email.com,(429) 374-2286,450 Tech Dr,Minneapolis,MN,84148,2020-06-25,Manufacturing,N/A,Chris Patel,15954,1,Active
+CUST10128,Advanced Technologies,Barbara,Rodriguez,barbara.rodriguez@advancedtechnologies.com,(723) 334-1193,6919 Commerce Dr,Austin,OR,31912,2023-09-28,System Integrator,Aerospace,Jessica Martinez,93473,5,Active
+CUST10129,Elite Robotics,Jennifer,Wilson,jennifer.wilson@eliterobotics.com,(251) 570-8406,8831 Business Way,Portland,OR,48450,2023-04-05,Individual,Food & Beverage,Chris Patel,153700,9,Active
+CUST10130,Individual,John,Smith,john.smith710@email.com,(778) 945-3718,5546 Industrial Way,Portland,MN,25136,2023-09-13,Research,N/A,Chris Patel,26429,5,Active
+CUST10131,Innovative Assembly,William,Johnson,william.johnson@innovativeassembly.com,(610) 940-4278,1023 Business Way,Minneapolis,OR,36309,2020-01-07,Warehouse/Logistics,Food & Beverage,Jessica Martinez,339370,13,Active
+CUST10132,Tech Technologies,Jennifer,Johnson,jennifer.johnson@techtechnologies.com,(343) 535-5073,3450 Business Parkway,Seattle,MN,17157,2023-07-09,Warehouse/Logistics,Food & Beverage,David Martinez,102981,15,Active
+CUST10133,Precision Solutions,Elizabeth,Miller,elizabeth.miller@precisionsolutions.com,(896) 880-3636,1420 Tech Blvd,Denver,TX,42439,2020-09-12,Research,Aerospace,Chris Patel,386061,3,Active
+CUST10134,Individual,Barbara,Brown,barbara.brown891@email.com,(220) 937-9871,9980 Business Way,Denver,CO,44762,2020-07-03,Warehouse/Logistics,N/A,David Martinez,10453,1,Active
+CUST10135,Global Automation,Mary,Jones,mary.jones@globalautomation.com,(377) 592-5473,2176 Commerce Way,Denver,MA,64327,2022-12-03,Manufacturing,Aerospace,David Martinez,31713,4,Active
+CUST10136,Advanced Technologies,Joseph,Taylor,joseph.taylor@advancedtechnologies.com,(624) 820-7460,875 Business Dr,Boston,MI,45527,2023-10-11,System Integrator,Pharmaceuticals,Jessica Martinez,282195,10,Active
+CUST10137,Global Solutions,Patricia,Martinez,patricia.martinez@globalsolutions.com,(448) 369-9338,7314 Tech Parkway,Austin,MN,79862,2021-09-18,Manufacturing,General Manufacturing,David Martinez,122603,3,Active
+CUST10138,Individual,William,Anderson,william.anderson593@email.com,(883) 554-6385,9750 Business Blvd,Denver,CO,56242,2024-03-27,Manufacturing,N/A,Jessica Martinez,49634,1,Active
+CUST10139,Individual,Jennifer,Hernandez,jennifer.hernandez290@email.com,(918) 284-2719,933 Business Blvd,Seattle,WA,88283,2022-10-28,System Integrator,N/A,Jessica Martinez,38082,2,Active
+CUST10140,Individual,James,Garcia,james.garcia797@email.com,(260) 585-2348,5888 Manufacturing Blvd,Detroit,WA,52077,2024-07-02,Warehouse/Logistics,N/A,Jessica Martinez,46562,1,Active
+CUST10141,Quality Assembly,Susan,Thomas,susan.thomas@qualityassembly.com,(652) 423-9211,7120 Industrial Parkway,Chicago,TX,43722,2022-11-08,Warehouse/Logistics,Automotive,Jessica Martinez,250825,5,Active
+CUST10142,Global Automation,Mary,Martinez,mary.martinez@globalautomation.com,(666) 772-2884,2340 Manufacturing Blvd,Portland,WA,17937,2024-10-12,Research,Electronics,David Martinez,243079,10,Active
+CUST10143,Individual,Richard,Hernandez,richard.hernandez568@email.com,(443) 974-2485,4633 Manufacturing Way,Seattle,TX,69081,2020-05-11,Individual,N/A,Chris Patel,39607,1,Active
+CUST10144,Tech Technologies,William,Miller,william.miller@techtechnologies.com,(438) 894-6528,8022 Business Parkway,Seattle,WA,24361,2022-05-22,Warehouse/Logistics,Automotive,Jessica Martinez,462620,7,Active
+CUST10145,Individual,Linda,Thomas,linda.thomas395@email.com,(622) 282-3834,6736 Industrial Parkway,Boston,MI,32711,2020-09-27,Manufacturing,N/A,David Martinez,40480,3,Active
+CUST10146,Industrial Industries,John,Smith,john.smith@industrialindustries.com,(378) 366-6287,815 Manufacturing Blvd,Seattle,MI,59520,2024-08-14,Research,Aerospace,David Martinez,208758,12,Active
+CUST10147,Tech Solutions,Robert,Thomas,robert.thomas@techsolutions.com,(786) 804-4214,7905 Commerce Parkway,Seattle,MA,16929,2020-04-25,Research,Aerospace,David Martinez,426868,12,Active
+CUST10148,Innovative Solutions,Patricia,Anderson,patricia.anderson@innovativesolutions.com,(429) 645-8741,7394 Industrial Way,Austin,MN,85331,2020-01-12,Individual,Aerospace,Chris Patel,30050,13,Active
+CUST10149,Industrial Technologies,Patricia,Johnson,patricia.johnson@industrialtechnologies.com,(685) 237-1783,2057 Commerce Way,Minneapolis,TX,22581,2024-04-18,System Integrator,Pharmaceuticals,Chris Patel,143419,6,Active
+CUST10150,Individual,James,Smith,james.smith89@email.com,(947) 805-1668,9222 Manufacturing Parkway,Chicago,MA,27414,2020-09-10,Research,N/A,Jessica Martinez,36025,5,Active
+CUST10151,Tech Manufacturing,Elizabeth,Johnson,elizabeth.johnson@techmanufacturing.com,(609) 477-5945,7813 Commerce Parkway,Austin,MI,43643,2024-06-19,Individual,Pharmaceuticals,Chris Patel,424031,10,Active
+CUST10152,Individual,Patricia,Hernandez,patricia.hernandez350@email.com,(841) 410-4860,2667 Business Parkway,Portland,MI,56862,2023-03-25,Research,N/A,David Martinez,48363,1,Active
+CUST10153,Innovative Robotics,Jessica,Taylor,jessica.taylor@innovativerobotics.com,(266) 531-3643,2524 Industrial Dr,Boston,MI,26685,2022-02-23,Research,General Manufacturing,Chris Patel,421465,1,Active
+CUST10154,Smart Solutions,Susan,Rodriguez,susan.rodriguez@smartsolutions.com,(295) 252-5724,9813 Commerce Blvd,Austin,MA,97549,2023-03-17,Warehouse/Logistics,Food & Beverage,Chris Patel,26704,9,Active
+CUST10155,Smart Assembly,Jennifer,Miller,jennifer.miller@smartassembly.com,(444) 338-9354,9772 Tech Way,Chicago,WA,82080,2024-07-08,Individual,Aerospace,David Martinez,131101,14,Active
+CUST10156,Smart Assembly,Susan,Brown,susan.brown@smartassembly.com,(235) 608-5192,247 Business Way,Boston,WA,17249,2023-08-25,Manufacturing,Automotive,David Martinez,351805,15,Active
+CUST10157,Individual,Michael,Johnson,michael.johnson157@email.com,(927) 877-4382,8374 Commerce Parkway,Chicago,MI,57106,2021-07-08,System Integrator,N/A,Chris Patel,16624,4,Active
+CUST10158,Individual,Susan,Brown,susan.brown739@email.com,(871) 413-4796,2561 Industrial Blvd,Seattle,IL,84586,2022-04-12,Warehouse/Logistics,N/A,Jessica Martinez,7999,4,Active
+CUST10159,Quality Systems,Richard,Hernandez,richard.hernandez@qualitysystems.com,(760) 274-2701,3890 Business Dr,Chicago,OR,94953,2023-04-07,Warehouse/Logistics,General Manufacturing,David Martinez,470729,2,Active
+CUST10160,Individual,Jessica,Thomas,jessica.thomas930@email.com,(965) 707-6642,441 Industrial Parkway,Boston,MA,32039,2020-08-10,Research,N/A,Jessica Martinez,44472,1,Active
+CUST10161,Individual,Richard,Johnson,richard.johnson64@email.com,(246) 662-9420,9524 Manufacturing Way,Portland,CO,45559,2023-08-03,Warehouse/Logistics,N/A,David Martinez,21886,2,Active
+CUST10162,Quality Solutions,James,Miller,james.miller@qualitysolutions.com,(745) 561-4241,728 Tech Parkway,Minneapolis,CO,30184,2020-08-20,System Integrator,Aerospace,Chris Patel,409975,11,Active
+CUST10163,Individual,Elizabeth,Rodriguez,elizabeth.rodriguez17@email.com,(655) 782-4582,8131 Commerce Dr,Portland,MI,14634,2020-04-09,Warehouse/Logistics,N/A,David Martinez,24314,5,Active
+CUST10164,Industrial Industries,Jennifer,Thomas,jennifer.thomas@industrialindustries.com,(855) 227-1876,6121 Commerce Dr,Minneapolis,IL,73636,2020-07-25,System Integrator,Aerospace,Chris Patel,411693,14,Active
+CUST10165,Individual,William,Wilson,william.wilson815@email.com,(447) 781-7031,2447 Manufacturing Way,Austin,CO,43336,2024-04-20,Warehouse/Logistics,N/A,Chris Patel,15362,5,Active
+CUST10166,Innovative Technologies,Joseph,Anderson,joseph.anderson@innovativetechnologies.com,(878) 315-5686,9735 Tech Way,Chicago,MN,40110,2021-06-05,Research,Automotive,David Martinez,189883,3,Active
+CUST10167,Individual,James,Brown,james.brown63@email.com,(523) 503-4448,5167 Industrial Way,Portland,TX,46476,2022-10-08,Research,N/A,David Martinez,31969,1,Active
+CUST10168,Innovative Manufacturing,Jessica,Garcia,jessica.garcia@innovativemanufacturing.com,(261) 461-4870,6822 Commerce Parkway,Boston,MN,85029,2024-07-01,Research,Electronics,David Martinez,376820,11,Active
+CUST10169,Individual,David,Wilson,david.wilson856@email.com,(504) 789-1314,946 Industrial Way,Minneapolis,TX,48862,2021-09-15,Manufacturing,N/A,Chris Patel,32372,1,Active
+CUST10170,Individual,John,Smith,john.smith955@email.com,(227) 732-9659,1272 Manufacturing Blvd,Denver,MN,10985,2020-05-08,Warehouse/Logistics,N/A,Jessica Martinez,34038,4,Active
+CUST10171,Quality Assembly,Mary,Martinez,mary.martinez@qualityassembly.com,(987) 817-4085,7172 Manufacturing Blvd,Minneapolis,WA,48101,2021-06-15,Research,Electronics,David Martinez,344088,14,Active
+CUST10172,Industrial Industries,John,Thomas,john.thomas@industrialindustries.com,(924) 910-3889,5290 Tech Parkway,Minneapolis,IL,29076,2021-01-28,Research,Automotive,Chris Patel,435977,2,Active
+CUST10173,Precision Robotics,James,Miller,james.miller@precisionrobotics.com,(258) 464-7076,8121 Manufacturing Dr,Seattle,TX,58134,2021-05-27,System Integrator,Aerospace,Chris Patel,65172,14,Active
+CUST10174,Precision Solutions,Robert,Thomas,robert.thomas@precisionsolutions.com,(637) 649-5988,3572 Manufacturing Parkway,Denver,IL,16768,2020-05-05,Warehouse/Logistics,Automotive,Chris Patel,155941,9,Active
+CUST10175,Tech Systems,Susan,Hernandez,susan.hernandez@techsystems.com,(324) 697-7031,3398 Tech Parkway,Chicago,MI,63584,2022-12-03,Research,Pharmaceuticals,Chris Patel,189319,3,Active
+CUST10176,Global Manufacturing,Mary,Lopez,mary.lopez@globalmanufacturing.com,(577) 913-8817,3223 Tech Blvd,Portland,CO,49145,2021-03-27,Research,General Manufacturing,Jessica Martinez,371954,15,Active
+CUST10177,Individual,Richard,Johnson,richard.johnson20@email.com,(502) 424-2045,7711 Tech Way,Boston,MN,32253,2020-03-28,Individual,N/A,David Martinez,23883,3,Active
+CUST10178,Precision Systems,Michael,Garcia,michael.garcia@precisionsystems.com,(981) 622-3903,2597 Tech Blvd,Austin,WA,48599,2023-07-20,Manufacturing,Aerospace,Jessica Martinez,143640,4,Active
+CUST10179,Industrial Manufacturing,Michael,Wilson,michael.wilson@industrialmanufacturing.com,(384) 351-7620,7883 Industrial Parkway,Austin,TX,32022,2024-11-30,Warehouse/Logistics,General Manufacturing,Chris Patel,483414,13,Active
+CUST10180,Smart Industries,Linda,Wilson,linda.wilson@smartindustries.com,(575) 258-1854,3993 Business Parkway,Detroit,WA,92159,2024-02-23,Warehouse/Logistics,Aerospace,David Martinez,486552,3,Active
+CUST10181,Tech Systems,Patricia,Anderson,patricia.anderson@techsystems.com,(313) 562-5940,2425 Manufacturing Way,Detroit,MI,74972,2024-12-01,Individual,Aerospace,Chris Patel,342360,2,Active
+CUST10182,Smart Systems,Joseph,Davis,joseph.davis@smartsystems.com,(616) 795-8317,6926 Commerce Way,Minneapolis,MI,22411,2021-10-01,System Integrator,Pharmaceuticals,Jessica Martinez,446318,13,Active
+CUST10183,Auto Systems,David,Thomas,david.thomas@autosystems.com,(248) 402-8699,177 Business Dr,Boston,MN,22422,2023-04-30,Research,Food & Beverage,Jessica Martinez,493539,10,Active
+CUST10184,Quality Solutions,Michael,Miller,michael.miller@qualitysolutions.com,(814) 735-7616,8028 Manufacturing Way,Seattle,WA,16706,2024-11-21,Manufacturing,Pharmaceuticals,Jessica Martinez,244624,5,Active
+CUST10185,Global Industries,James,Jones,james.jones@globalindustries.com,(362) 483-8123,4980 Tech Parkway,Chicago,TX,37071,2020-12-13,Individual,Food & Beverage,Chris Patel,243533,2,Active
+CUST10186,Precision Assembly,Linda,Lopez,linda.lopez@precisionassembly.com,(337) 757-3078,8675 Manufacturing Parkway,Portland,MI,62005,2021-09-01,Research,Aerospace,David Martinez,78775,4,Active
+CUST10187,Global Solutions,Elizabeth,Rodriguez,elizabeth.rodriguez@globalsolutions.com,(541) 534-8813,1148 Tech Parkway,Chicago,IL,91798,2023-11-07,Individual,Aerospace,Jessica Martinez,381429,11,Active
+CUST10188,Individual,Robert,Jones,robert.jones525@email.com,(322) 361-9846,9551 Commerce Way,Seattle,TX,64651,2020-10-19,Research,N/A,David Martinez,12387,3,Active
+CUST10189,Individual,Elizabeth,Garcia,elizabeth.garcia510@email.com,(235) 546-9856,7268 Business Way,Seattle,CO,77108,2021-02-09,System Integrator,N/A,Jessica Martinez,29842,1,Active
+CUST10190,Individual,Elizabeth,Thomas,elizabeth.thomas411@email.com,(489) 543-8868,7203 Tech Parkway,Minneapolis,WA,22995,2020-02-24,Warehouse/Logistics,N/A,David Martinez,15843,3,Active
+CUST10191,Individual,Jennifer,Smith,jennifer.smith492@email.com,(680) 240-8235,7545 Tech Blvd,Minneapolis,MN,52209,2021-02-23,Warehouse/Logistics,N/A,Chris Patel,14379,3,Active
+CUST10192,Individual,Richard,Garcia,richard.garcia206@email.com,(640) 867-3633,2355 Manufacturing Blvd,Minneapolis,MI,10966,2023-04-02,Research,N/A,Chris Patel,9116,5,Active
+CUST10193,Individual,James,Lopez,james.lopez174@email.com,(568) 560-1968,5109 Tech Way,Detroit,MA,79276,2022-03-09,Research,N/A,David Martinez,38194,1,Active
+CUST10194,Individual,Susan,Thomas,susan.thomas464@email.com,(497) 428-2462,1199 Commerce Way,Seattle,WA,83789,2021-07-25,Individual,N/A,Jessica Martinez,37368,5,Active
+CUST10195,Smart Robotics,James,Garcia,james.garcia@smartrobotics.com,(387) 490-6043,3299 Industrial Blvd,Austin,MA,79544,2023-03-20,System Integrator,General Manufacturing,David Martinez,195512,15,Active
+CUST10196,Elite Technologies,Linda,Thomas,linda.thomas@elitetechnologies.com,(930) 488-5734,6002 Commerce Dr,Denver,CO,44859,2022-03-14,Manufacturing,Electronics,Chris Patel,260853,6,Active
+CUST10197,Auto Systems,Richard,Brown,richard.brown@autosystems.com,(643) 690-8416,3922 Tech Dr,Chicago,WA,30291,2020-02-21,Manufacturing,Aerospace,Jessica Martinez,332233,4,Active
+CUST10198,Advanced Robotics,Mary,Williams,mary.williams@advancedrobotics.com,(651) 247-4375,4976 Business Way,Seattle,TX,91975,2021-04-15,Manufacturing,Food & Beverage,David Martinez,241744,7,Active
+CUST10199,Precision Assembly,Richard,Wilson,richard.wilson@precisionassembly.com,(238) 432-8176,8667 Business Parkway,Boston,MA,78147,2020-06-15,System Integrator,General Manufacturing,David Martinez,176052,14,Active
+CUST10200,Precision Robotics,Jessica,Taylor,jessica.taylor@precisionrobotics.com,(605) 321-4939,8901 Manufacturing Dr,Minneapolis,MA,46286,2020-08-26,System Integrator,General Manufacturing,Jessica Martinez,271828,5,Active
+CUST10201,Industrial Solutions,Michael,Davis,michael.davis@industrialsolutions.com,(411) 791-3822,1627 Tech Dr,Denver,TX,47316,2024-01-27,Manufacturing,Food & Beverage,Jessica Martinez,353997,15,Active
+CUST10202,Smart Technologies,Barbara,Lopez,barbara.lopez@smarttechnologies.com,(994) 981-3661,1581 Commerce Dr,Detroit,CO,75697,2024-02-11,System Integrator,Pharmaceuticals,David Martinez,27817,7,Active
+CUST10203,Auto Systems,Robert,Martinez,robert.martinez@autosystems.com,(681) 409-2489,2135 Commerce Parkway,Denver,IL,12967,2024-09-29,Individual,Electronics,Jessica Martinez,229702,8,Active
+CUST10204,Smart Automation,Linda,Anderson,linda.anderson@smartautomation.com,(633) 871-4931,400 Tech Way,Portland,OR,55589,2020-10-11,Warehouse/Logistics,Aerospace,David Martinez,106999,1,Active
+CUST10205,Individual,Barbara,Thomas,barbara.thomas460@email.com,(524) 359-4311,570 Commerce Dr,Detroit,MN,49598,2022-04-25,Research,N/A,Chris Patel,8614,5,Active
+CUST10206,Tech Manufacturing,Jennifer,Brown,jennifer.brown@techmanufacturing.com,(226) 919-8772,3357 Business Parkway,Denver,MA,44718,2022-01-19,System Integrator,Electronics,David Martinez,187608,7,Active
+CUST10207,Advanced Industries,Joseph,Martinez,joseph.martinez@advancedindustries.com,(459) 638-8006,3562 Manufacturing Parkway,Boston,MA,85022,2023-05-02,System Integrator,Pharmaceuticals,Jessica Martinez,98430,15,Active
+CUST10208,Auto Industries,John,Thomas,john.thomas@autoindustries.com,(707) 810-5858,5486 Industrial Dr,Boston,MN,65693,2023-10-21,Warehouse/Logistics,General Manufacturing,David Martinez,81195,5,Active
+CUST10209,Industrial Robotics,Mary,Lopez,mary.lopez@industrialrobotics.com,(331) 584-4275,1322 Industrial Blvd,Seattle,TX,96541,2023-07-19,Research,Electronics,Jessica Martinez,20655,3,Active
+CUST10210,Individual,Susan,Martinez,susan.martinez306@email.com,(984) 504-6491,724 Commerce Blvd,Chicago,MI,88154,2020-02-07,Research,N/A,Jessica Martinez,24403,3,Active
+CUST10211,Industrial Robotics,Elizabeth,Martinez,elizabeth.martinez@industrialrobotics.com,(205) 993-6168,5825 Commerce Blvd,Detroit,MA,92425,2021-01-30,Individual,General Manufacturing,Jessica Martinez,113479,7,Active
+CUST10212,Individual,Elizabeth,Brown,elizabeth.brown367@email.com,(851) 729-7238,7315 Industrial Dr,Boston,MA,36024,2020-04-18,Individual,N/A,David Martinez,11397,1,Active
+CUST10213,Individual,Richard,Martinez,richard.martinez882@email.com,(531) 797-1890,7674 Manufacturing Parkway,Denver,CO,16015,2020-07-13,System Integrator,N/A,Chris Patel,9184,1,Active
+CUST10214,Innovative Manufacturing,Elizabeth,Davis,elizabeth.davis@innovativemanufacturing.com,(926) 338-3782,2545 Industrial Way,Minneapolis,CO,98314,2023-03-10,Research,General Manufacturing,Jessica Martinez,368300,2,Active
+CUST10215,Tech Technologies,Linda,Jones,linda.jones@techtechnologies.com,(847) 628-1825,9905 Tech Blvd,Austin,WA,74280,2022-12-14,Research,Aerospace,Chris Patel,138213,4,Active
+CUST10216,Individual,Richard,Taylor,richard.taylor777@email.com,(796) 757-4519,3927 Manufacturing Way,Seattle,IL,58598,2024-10-13,Manufacturing,N/A,David Martinez,11420,4,Active
+CUST10217,Individual,Michael,Smith,michael.smith138@email.com,(503) 671-2173,5419 Manufacturing Blvd,Portland,WA,43120,2020-10-30,Research,N/A,Jessica Martinez,25294,1,Active
+CUST10218,Smart Assembly,Linda,Brown,linda.brown@smartassembly.com,(931) 614-5700,8254 Business Blvd,Boston,MA,23240,2022-11-19,Individual,Aerospace,David Martinez,487025,13,Active
+CUST10219,Smart Robotics,Linda,Martinez,linda.martinez@smartrobotics.com,(660) 866-1521,2009 Business Blvd,Portland,IL,71968,2021-02-12,Research,Electronics,Jessica Martinez,254483,6,Active
+CUST10220,Elite Manufacturing,William,Williams,william.williams@elitemanufacturing.com,(565) 763-2710,7856 Industrial Dr,Portland,OR,84236,2021-05-27,System Integrator,Food & Beverage,Chris Patel,282085,2,Active
+CUST10221,Innovative Technologies,Richard,Garcia,richard.garcia@innovativetechnologies.com,(846) 476-3591,770 Industrial Way,Portland,WA,20068,2022-07-09,Warehouse/Logistics,Pharmaceuticals,Chris Patel,430749,3,Active
+CUST10222,Individual,Mary,Thomas,mary.thomas975@email.com,(807) 568-2724,2755 Commerce Blvd,Boston,MA,45782,2021-11-29,Warehouse/Logistics,N/A,Chris Patel,20097,3,Active
+CUST10223,Individual,James,Rodriguez,james.rodriguez298@email.com,(535) 528-2248,731 Business Parkway,Portland,MN,94634,2022-08-20,Individual,N/A,Chris Patel,14500,3,Active
+CUST10224,Quality Automation,Robert,Davis,robert.davis@qualityautomation.com,(852) 395-7668,1844 Tech Way,Portland,MN,65489,2024-01-16,Individual,Aerospace,Chris Patel,197719,9,Active
+CUST10225,Auto Manufacturing,Patricia,Thomas,patricia.thomas@automanufacturing.com,(345) 601-1493,4989 Tech Way,Minneapolis,MI,31120,2022-03-31,Warehouse/Logistics,General Manufacturing,David Martinez,49734,2,Active
+CUST10226,Individual,Barbara,Hernandez,barbara.hernandez45@email.com,(463) 924-8922,5663 Tech Dr,Portland,OR,17377,2021-10-30,Warehouse/Logistics,N/A,David Martinez,22359,3,Active
+CUST10227,Advanced Assembly,Patricia,Brown,patricia.brown@advancedassembly.com,(724) 641-7805,9532 Commerce Dr,Boston,MA,90374,2023-08-19,Warehouse/Logistics,Pharmaceuticals,Jessica Martinez,257863,2,Active
+CUST10228,Individual,Robert,Williams,robert.williams781@email.com,(680) 485-8927,9147 Business Way,Boston,CO,86445,2024-05-14,Individual,N/A,Chris Patel,20649,4,Active
+CUST10229,Auto Industries,William,Rodriguez,william.rodriguez@autoindustries.com,(792) 853-7960,4161 Tech Blvd,Chicago,WA,93518,2020-09-26,Warehouse/Logistics,Automotive,David Martinez,367587,13,Active
+CUST10230,Quality Systems,Robert,Davis,robert.davis@qualitysystems.com,(420) 889-6920,9462 Business Way,Seattle,WA,41998,2020-07-08,Research,Aerospace,David Martinez,315439,6,Active
+CUST10231,Individual,James,Brown,james.brown489@email.com,(354) 332-2442,5829 Business Blvd,Boston,IL,78012,2022-11-16,Manufacturing,N/A,David Martinez,9993,3,Active
+CUST10232,Innovative Robotics,Barbara,Johnson,barbara.johnson@innovativerobotics.com,(742) 931-9790,9767 Industrial Dr,Boston,MI,33468,2020-07-19,Research,Pharmaceuticals,Jessica Martinez,16771,4,Active
+CUST10233,Individual,Patricia,Thomas,patricia.thomas582@email.com,(713) 626-9373,9283 Tech Dr,Boston,TX,30283,2020-12-20,Manufacturing,N/A,David Martinez,32323,1,Active
+CUST10234,Individual,Robert,Jones,robert.jones109@email.com,(870) 498-1375,9145 Manufacturing Blvd,Chicago,WA,53686,2023-01-13,Manufacturing,N/A,Chris Patel,6658,1,Active
+CUST10235,Global Automation,Linda,Jones,linda.jones@globalautomation.com,(663) 414-5452,4825 Business Parkway,Denver,MI,67007,2024-02-28,Research,Pharmaceuticals,Jessica Martinez,104655,6,Active
+CUST10236,Tech Systems,William,Lopez,william.lopez@techsystems.com,(764) 976-8265,1341 Manufacturing Dr,Austin,MN,40092,2022-06-14,Manufacturing,Pharmaceuticals,David Martinez,436849,15,Active
+CUST10237,Innovative Manufacturing,Michael,Hernandez,michael.hernandez@innovativemanufacturing.com,(774) 512-4292,6347 Tech Dr,Austin,MA,26306,2020-04-07,System Integrator,Electronics,David Martinez,334571,2,Active
+CUST10238,Elite Automation,Joseph,Anderson,joseph.anderson@eliteautomation.com,(379) 231-3936,8280 Business Blvd,Detroit,MN,44163,2023-09-24,Warehouse/Logistics,Aerospace,Jessica Martinez,171052,8,Active
+CUST10239,Precision Technologies,Richard,Jones,richard.jones@precisiontechnologies.com,(566) 775-3797,9464 Industrial Dr,Chicago,TX,47631,2020-05-20,Manufacturing,Automotive,Chris Patel,189673,13,Active
+CUST10240,Quality Industries,Mary,Taylor,mary.taylor@qualityindustries.com,(476) 713-5660,1752 Industrial Blvd,Portland,CO,29182,2021-04-19,Research,Aerospace,Jessica Martinez,42522,12,Active
+CUST10241,Global Manufacturing,Jennifer,Johnson,jennifer.johnson@globalmanufacturing.com,(870) 466-4790,3750 Commerce Way,Portland,OR,96833,2020-01-11,Manufacturing,Food & Beverage,Jessica Martinez,177385,12,Active
+CUST10242,Innovative Solutions,Mary,Jones,mary.jones@innovativesolutions.com,(862) 244-5353,7879 Industrial Parkway,Detroit,OR,31571,2022-12-29,Warehouse/Logistics,General Manufacturing,David Martinez,118168,9,Active
+CUST10243,Global Systems,John,Garcia,john.garcia@globalsystems.com,(231) 395-9915,8297 Manufacturing Dr,Austin,MI,18473,2022-09-16,Manufacturing,Pharmaceuticals,Jessica Martinez,28781,11,Active
+CUST10244,Tech Robotics,Joseph,Rodriguez,joseph.rodriguez@techrobotics.com,(759) 458-3145,183 Tech Dr,Seattle,TX,31036,2024-11-02,System Integrator,General Manufacturing,David Martinez,274685,13,Active
+CUST10245,Industrial Robotics,John,Rodriguez,john.rodriguez@industrialrobotics.com,(986) 201-5772,2799 Business Blvd,Portland,TX,64568,2024-10-16,Manufacturing,Food & Beverage,Chris Patel,25711,9,Active
+CUST10246,Individual,Jennifer,Brown,jennifer.brown969@email.com,(920) 872-8233,1744 Tech Dr,Minneapolis,CO,38282,2021-01-08,Individual,N/A,David Martinez,42882,4,Active
+CUST10247,Innovative Automation,Jennifer,Garcia,jennifer.garcia@innovativeautomation.com,(472) 344-6450,236 Industrial Parkway,Boston,MI,32946,2020-02-04,Manufacturing,Automotive,David Martinez,460760,9,Active
+CUST10248,Quality Robotics,Mary,Lopez,mary.lopez@qualityrobotics.com,(365) 853-3035,273 Manufacturing Way,Chicago,MI,49874,2020-03-26,Research,Pharmaceuticals,David Martinez,242097,2,Active
+CUST10249,Smart Solutions,Joseph,Wilson,joseph.wilson@smartsolutions.com,(805) 997-2676,6793 Manufacturing Way,Seattle,CO,42712,2021-05-20,Research,Automotive,Jessica Martinez,478716,7,Active
+CUST10250,Individual,Joseph,Thomas,joseph.thomas247@email.com,(951) 290-6430,6342 Manufacturing Way,Minneapolis,MN,43821,2023-03-15,System Integrator,N/A,David Martinez,6229,4,Active
+CUST10251,Individual,James,Jones,james.jones497@email.com,(478) 268-4441,8393 Commerce Parkway,Boston,MA,97142,2024-05-11,Warehouse/Logistics,N/A,David Martinez,47092,2,Active
+CUST10252,Individual,David,Davis,david.davis332@email.com,(542) 379-3710,9292 Tech Dr,Denver,MN,26645,2021-10-13,Individual,N/A,David Martinez,14429,2,Active
+CUST10253,Auto Technologies,Richard,Taylor,richard.taylor@autotechnologies.com,(715) 874-9797,1224 Industrial Way,Denver,WA,60496,2023-04-06,Manufacturing,Electronics,David Martinez,326399,12,Active
+CUST10254,Individual,Jessica,Martinez,jessica.martinez495@email.com,(357) 659-4988,3738 Tech Parkway,Denver,MI,69656,2021-02-15,System Integrator,N/A,Chris Patel,34544,5,Active
+CUST10255,Smart Systems,David,Jones,david.jones@smartsystems.com,(981) 795-8077,8472 Business Way,Detroit,WA,67208,2022-01-11,Research,Automotive,David Martinez,363144,15,Active
+CUST10256,Auto Automation,Richard,Martinez,richard.martinez@autoautomation.com,(472) 651-8908,1386 Industrial Parkway,Chicago,MA,11532,2023-09-15,Manufacturing,General Manufacturing,Chris Patel,145771,15,Active
+CUST10257,Industrial Automation,Richard,Anderson,richard.anderson@industrialautomation.com,(725) 632-4201,3583 Business Parkway,Chicago,CO,15577,2023-05-29,Manufacturing,Food & Beverage,Chris Patel,72582,3,Active
+CUST10258,Global Manufacturing,William,Martinez,william.martinez@globalmanufacturing.com,(851) 257-8510,7013 Industrial Way,Chicago,MN,35415,2024-03-12,Warehouse/Logistics,Electronics,David Martinez,402593,5,Active
+CUST10259,Tech Automation,James,Jones,james.jones@techautomation.com,(426) 569-6688,7430 Commerce Way,Seattle,CO,69634,2023-05-08,System Integrator,General Manufacturing,Jessica Martinez,470363,4,Active
+CUST10260,Advanced Robotics,Michael,Martinez,michael.martinez@advancedrobotics.com,(345) 768-8718,8147 Manufacturing Way,Detroit,MN,49416,2022-12-19,Manufacturing,Pharmaceuticals,Jessica Martinez,178651,13,Active
+CUST10261,Individual,William,Wilson,william.wilson861@email.com,(806) 713-7058,4136 Commerce Way,Portland,OR,75100,2023-08-12,Individual,N/A,Jessica Martinez,21269,5,Active
+CUST10262,Individual,Linda,Miller,linda.miller256@email.com,(617) 535-3883,7784 Commerce Parkway,Seattle,MN,47488,2024-06-11,System Integrator,N/A,David Martinez,42094,1,Active
+CUST10263,Smart Industries,John,Garcia,john.garcia@smartindustries.com,(717) 370-7523,6795 Commerce Parkway,Boston,WA,40006,2022-05-08,Individual,Electronics,David Martinez,67439,4,Active
+CUST10264,Advanced Assembly,Susan,Garcia,susan.garcia@advancedassembly.com,(246) 497-6906,925 Industrial Dr,Minneapolis,IL,95730,2024-10-31,System Integrator,Electronics,Jessica Martinez,256772,12,Active
+CUST10265,Individual,Richard,Williams,richard.williams959@email.com,(324) 778-7588,8231 Manufacturing Dr,Chicago,WA,96146,2021-02-14,System Integrator,N/A,Jessica Martinez,46958,3,Active
+CUST10266,Auto Manufacturing,Mary,Miller,mary.miller@automanufacturing.com,(969) 590-2680,8471 Business Blvd,Detroit,TX,19723,2023-08-06,Individual,Pharmaceuticals,Jessica Martinez,360131,1,Active
+CUST10267,Precision Robotics,Jennifer,Martinez,jennifer.martinez@precisionrobotics.com,(681) 345-3655,4368 Manufacturing Blvd,Chicago,MA,35225,2023-07-26,System Integrator,Pharmaceuticals,Chris Patel,453839,12,Active
+CUST10268,Individual,James,Taylor,james.taylor105@email.com,(457) 792-1084,7702 Commerce Dr,Boston,MA,40898,2024-02-27,Research,N/A,Jessica Martinez,45320,1,Active
+CUST10269,Industrial Systems,Richard,Johnson,richard.johnson@industrialsystems.com,(694) 424-1289,7351 Manufacturing Parkway,Portland,CO,22307,2020-07-24,Warehouse/Logistics,Electronics,Chris Patel,303889,3,Active
+CUST10270,Advanced Automation,Robert,Davis,robert.davis@advancedautomation.com,(237) 495-5420,379 Business Way,Detroit,TX,79719,2021-05-18,System Integrator,General Manufacturing,Chris Patel,450243,12,Active
+CUST10271,Individual,David,Martinez,david.martinez692@email.com,(983) 875-6392,909 Tech Way,Boston,MI,89373,2023-09-09,Manufacturing,N/A,David Martinez,36589,1,Active
+CUST10272,Individual,John,Johnson,john.johnson42@email.com,(882) 918-7183,4060 Tech Dr,Detroit,TX,22766,2021-05-08,Warehouse/Logistics,N/A,Jessica Martinez,36988,2,Active
+CUST10273,Tech Assembly,Barbara,Brown,barbara.brown@techassembly.com,(246) 470-7801,4270 Commerce Blvd,Portland,OR,90616,2020-07-29,Individual,Food & Beverage,Jessica Martinez,368799,3,Active
+CUST10274,Smart Industries,Linda,Wilson,linda.wilson@smartindustries.com,(535) 220-4088,2667 Manufacturing Blvd,Minneapolis,IL,69589,2021-07-01,Manufacturing,General Manufacturing,Jessica Martinez,325846,12,Active
+CUST10275,Individual,Robert,Miller,robert.miller275@email.com,(935) 988-4203,7003 Commerce Blvd,Boston,MI,27106,2022-09-16,Manufacturing,N/A,Chris Patel,43361,1,Active
+CUST10276,Individual,John,Taylor,john.taylor804@email.com,(589) 353-9288,5736 Commerce Dr,Austin,MN,49808,2022-05-03,Individual,N/A,Chris Patel,45233,2,Active
+CUST10277,Individual,Richard,Jones,richard.jones908@email.com,(249) 375-1123,6537 Commerce Parkway,Austin,WA,47494,2021-03-14,Manufacturing,N/A,Chris Patel,20607,3,Active
+CUST10278,Smart Manufacturing,William,Rodriguez,william.rodriguez@smartmanufacturing.com,(521) 690-4592,7129 Manufacturing Parkway,Detroit,IL,59115,2021-07-24,System Integrator,Automotive,Jessica Martinez,379037,11,Active
+CUST10279,Industrial Manufacturing,Jessica,Taylor,jessica.taylor@industrialmanufacturing.com,(877) 948-3325,9941 Business Dr,Boston,MA,49106,2021-07-21,Warehouse/Logistics,Automotive,Chris Patel,96139,4,Active
+CUST10280,Elite Robotics,Barbara,Anderson,barbara.anderson@eliterobotics.com,(209) 337-7120,4354 Manufacturing Way,Austin,MN,50857,2021-01-12,Research,Aerospace,Jessica Martinez,325278,9,Active
+CUST10281,Advanced Systems,Michael,Anderson,michael.anderson@advancedsystems.com,(679) 646-2267,348 Business Way,Denver,IL,22104,2024-01-09,Individual,Automotive,David Martinez,243624,3,Active
+CUST10282,Smart Manufacturing,William,Thomas,william.thomas@smartmanufacturing.com,(372) 700-5631,1486 Manufacturing Blvd,Boston,IL,73283,2022-03-06,Manufacturing,Electronics,Chris Patel,335802,13,Active
+CUST10283,Individual,Linda,Martinez,linda.martinez461@email.com,(875) 639-9899,4722 Commerce Blvd,Boston,MI,41122,2021-07-21,Warehouse/Logistics,N/A,David Martinez,22224,3,Active
+CUST10284,Individual,Patricia,Lopez,patricia.lopez920@email.com,(223) 878-8701,2940 Business Parkway,Boston,MN,80153,2024-04-20,System Integrator,N/A,Jessica Martinez,49286,5,Active
+CUST10285,Auto Solutions,Elizabeth,Davis,elizabeth.davis@autosolutions.com,(993) 320-1799,722 Industrial Dr,Detroit,MA,41220,2020-01-31,Warehouse/Logistics,Aerospace,David Martinez,276093,1,Active
+CUST10286,Smart Technologies,Linda,Williams,linda.williams@smarttechnologies.com,(497) 350-4679,5058 Industrial Way,Portland,TX,13615,2022-07-22,Individual,Pharmaceuticals,Jessica Martinez,317751,15,Active
+CUST10287,Industrial Solutions,Jennifer,Brown,jennifer.brown@industrialsolutions.com,(380) 621-6447,1382 Industrial Parkway,Detroit,TX,95709,2021-03-29,Research,Pharmaceuticals,David Martinez,220907,11,Active
+CUST10288,Individual,Patricia,Taylor,patricia.taylor286@email.com,(503) 929-5368,4955 Business Blvd,Denver,TX,13009,2023-05-06,Individual,N/A,Jessica Martinez,28036,2,Active
+CUST10289,Innovative Manufacturing,Elizabeth,Martinez,elizabeth.martinez@innovativemanufacturing.com,(348) 497-1032,6670 Commerce Parkway,Seattle,MN,12189,2021-02-03,System Integrator,General Manufacturing,Jessica Martinez,446389,1,Active
+CUST10290,Individual,Mary,Hernandez,mary.hernandez939@email.com,(540) 570-7748,8514 Industrial Parkway,Austin,OR,92403,2021-05-12,System Integrator,N/A,Chris Patel,43411,4,Active
+CUST10291,Tech Systems,Michael,Rodriguez,michael.rodriguez@techsystems.com,(433) 939-8257,4639 Manufacturing Blvd,Chicago,MN,54026,2021-06-16,Research,Automotive,Chris Patel,379394,15,Active
+CUST10292,Industrial Technologies,Richard,Smith,richard.smith@industrialtechnologies.com,(932) 870-3248,8748 Business Way,Boston,OR,31382,2020-03-03,Manufacturing,Pharmaceuticals,David Martinez,400369,4,Active
+CUST10293,Smart Industries,Linda,Smith,linda.smith@smartindustries.com,(908) 819-4733,6504 Business Way,Boston,IL,29850,2020-02-20,Warehouse/Logistics,Aerospace,Chris Patel,446661,5,Active
+CUST10294,Individual,Robert,Martinez,robert.martinez870@email.com,(609) 586-5980,1513 Manufacturing Way,Minneapolis,IL,12870,2020-05-22,Manufacturing,N/A,Jessica Martinez,41586,2,Active
+CUST10295,Tech Robotics,John,Miller,john.miller@techrobotics.com,(246) 926-2718,2687 Commerce Dr,Minneapolis,OR,69195,2022-01-19,Manufacturing,Pharmaceuticals,Jessica Martinez,245123,7,Active
+CUST10296,Individual,Jennifer,Wilson,jennifer.wilson94@email.com,(732) 798-1222,7385 Commerce Blvd,Chicago,MN,72319,2023-08-05,Warehouse/Logistics,N/A,Jessica Martinez,12330,1,Active
+CUST10297,Global Robotics,Richard,Rodriguez,richard.rodriguez@globalrobotics.com,(270) 842-4112,4917 Commerce Way,Seattle,OR,81525,2021-11-11,Warehouse/Logistics,Pharmaceuticals,Jessica Martinez,97209,14,Active
+CUST10298,Elite Systems,Robert,Hernandez,robert.hernandez@elitesystems.com,(386) 733-1004,8240 Tech Way,Seattle,MI,23968,2020-02-17,Research,Electronics,Chris Patel,65414,3,Active
+CUST10299,Innovative Industries,John,Hernandez,john.hernandez@innovativeindustries.com,(215) 339-6947,9136 Commerce Way,Chicago,OR,76835,2020-06-07,Warehouse/Logistics,Automotive,Jessica Martinez,38809,4,Active
+CUST10300,Smart Solutions,Linda,Wilson,linda.wilson@smartsolutions.com,(302) 874-4313,161 Business Blvd,Minneapolis,CO,10738,2023-01-04,Research,General Manufacturing,David Martinez,314827,13,Active
+CUST10301,Individual,Jennifer,Davis,jennifer.davis461@email.com,(269) 245-2063,4798 Business Parkway,Boston,OR,66669,2021-07-06,Individual,N/A,David Martinez,26198,1,Active
+CUST10302,Innovative Manufacturing,Jessica,Brown,jessica.brown@innovativemanufacturing.com,(397) 852-6822,9399 Manufacturing Parkway,Minneapolis,MI,20717,2021-07-04,Manufacturing,Electronics,Chris Patel,101765,9,Active
+CUST10303,Advanced Automation,David,Smith,david.smith@advancedautomation.com,(819) 313-6218,1402 Tech Way,Austin,CO,46458,2021-02-18,System Integrator,Electronics,David Martinez,351474,10,Active
+CUST10304,Elite Manufacturing,Jessica,Taylor,jessica.taylor@elitemanufacturing.com,(570) 236-8024,6882 Commerce Way,Detroit,TX,83511,2020-03-29,Warehouse/Logistics,Aerospace,David Martinez,182718,7,Active
+CUST10305,Individual,Jessica,Wilson,jessica.wilson783@email.com,(859) 551-2169,9854 Commerce Blvd,Detroit,OR,91487,2021-08-10,Warehouse/Logistics,N/A,Jessica Martinez,37974,5,Active
+CUST10306,Quality Automation,Jessica,Brown,jessica.brown@qualityautomation.com,(282) 291-1250,9245 Manufacturing Way,Austin,WA,83487,2021-05-28,Individual,General Manufacturing,David Martinez,418753,1,Active
+CUST10307,Precision Assembly,David,Brown,david.brown@precisionassembly.com,(372) 721-6408,885 Business Blvd,Austin,WA,37264,2024-11-09,Research,Aerospace,Jessica Martinez,386298,5,Active
+CUST10308,Industrial Manufacturing,Linda,Williams,linda.williams@industrialmanufacturing.com,(887) 962-8153,7296 Business Parkway,Austin,MI,36351,2021-11-03,Research,Automotive,Chris Patel,68620,3,Active
+CUST10309,Precision Manufacturing,Michael,Rodriguez,michael.rodriguez@precisionmanufacturing.com,(508) 902-1048,4978 Industrial Dr,Austin,MI,14226,2024-09-29,Research,General Manufacturing,David Martinez,179181,15,Active
+CUST10310,Auto Robotics,Jennifer,Smith,jennifer.smith@autorobotics.com,(793) 624-9865,372 Business Blvd,Seattle,WA,84337,2023-12-08,Research,Aerospace,David Martinez,315671,5,Active
+CUST10311,Advanced Industries,Michael,Johnson,michael.johnson@advancedindustries.com,(325) 821-9655,8098 Manufacturing Parkway,Boston,MI,21765,2023-11-21,Individual,Automotive,David Martinez,495963,9,Active
+CUST10312,Advanced Technologies,Patricia,Davis,patricia.davis@advancedtechnologies.com,(431) 411-6466,2501 Commerce Dr,Austin,MI,88994,2023-12-25,Individual,Pharmaceuticals,Chris Patel,41342,5,Active
+CUST10313,Individual,James,Jones,james.jones90@email.com,(572) 240-9635,220 Tech Parkway,Denver,CO,12443,2023-08-22,System Integrator,N/A,David Martinez,32412,4,Active
+CUST10314,Tech Assembly,Mary,Davis,mary.davis@techassembly.com,(691) 877-6055,389 Business Dr,Denver,MN,54632,2020-05-20,Research,Pharmaceuticals,Jessica Martinez,269495,9,Active
+CUST10315,Individual,Barbara,Thomas,barbara.thomas4@email.com,(238) 339-3790,6370 Business Blvd,Portland,MI,22468,2021-06-28,System Integrator,N/A,Jessica Martinez,8322,2,Active
+CUST10316,Smart Robotics,Jennifer,Thomas,jennifer.thomas@smartrobotics.com,(698) 651-5377,769 Industrial Dr,Boston,WA,93276,2024-06-06,Individual,General Manufacturing,David Martinez,165195,3,Active
+CUST10317,Advanced Automation,James,Brown,james.brown@advancedautomation.com,(526) 830-7451,5212 Manufacturing Way,Austin,MA,10906,2023-02-17,Research,Electronics,Chris Patel,132258,14,Active
+CUST10318,Individual,Elizabeth,Brown,elizabeth.brown176@email.com,(285) 629-6441,5125 Commerce Parkway,Boston,TX,64704,2021-06-29,Individual,N/A,David Martinez,27801,1,Active
+CUST10319,Tech Robotics,Barbara,Brown,barbara.brown@techrobotics.com,(857) 681-7790,6251 Business Dr,Portland,CO,24706,2024-12-19,Individual,Aerospace,Chris Patel,371688,8,Active
+CUST10320,Individual,Jennifer,Williams,jennifer.williams923@email.com,(695) 419-6204,8112 Tech Way,Minneapolis,MI,98751,2021-01-26,Individual,N/A,David Martinez,10699,4,Active
+CUST10321,Individual,Richard,Jones,richard.jones292@email.com,(580) 927-1746,226 Commerce Dr,Detroit,CO,83203,2020-07-01,Individual,N/A,Chris Patel,35493,3,Active
+CUST10322,Industrial Technologies,Jennifer,Jones,jennifer.jones@industrialtechnologies.com,(700) 761-6302,2395 Industrial Parkway,Austin,MN,18451,2022-02-07,Warehouse/Logistics,General Manufacturing,Chris Patel,326463,13,Active
+CUST10323,Elite Technologies,Barbara,Williams,barbara.williams@elitetechnologies.com,(776) 477-4350,9113 Commerce Blvd,Chicago,MN,64734,2020-11-29,Manufacturing,General Manufacturing,David Martinez,58505,1,Active
+CUST10324,Precision Technologies,Linda,Lopez,linda.lopez@precisiontechnologies.com,(297) 342-4892,1734 Manufacturing Dr,Portland,MI,19704,2024-11-06,Research,Automotive,Jessica Martinez,358141,14,Active
+CUST10325,Industrial Technologies,Mary,Miller,mary.miller@industrialtechnologies.com,(423) 213-6937,3973 Commerce Dr,Portland,MA,35617,2024-06-21,Manufacturing,Aerospace,Jessica Martinez,47374,14,Active
+CUST10326,Precision Industries,Jennifer,Thomas,jennifer.thomas@precisionindustries.com,(929) 682-7053,8689 Tech Dr,Chicago,MI,55149,2024-12-27,System Integrator,Pharmaceuticals,Jessica Martinez,82969,2,Active
+CUST10327,Innovative Automation,James,Lopez,james.lopez@innovativeautomation.com,(536) 320-2814,7508 Business Blvd,Chicago,CO,25343,2022-07-29,System Integrator,Electronics,David Martinez,385770,7,Active
+CUST10328,Individual,Joseph,Williams,joseph.williams316@email.com,(842) 732-4145,9770 Tech Parkway,Austin,CO,91122,2023-09-03,System Integrator,N/A,Chris Patel,37102,3,Active
+CUST10329,Advanced Technologies,Jessica,Garcia,jessica.garcia@advancedtechnologies.com,(250) 495-2579,8288 Manufacturing Blvd,Chicago,TX,30050,2024-03-07,Research,Electronics,Jessica Martinez,39171,14,Active
+CUST10330,Individual,Elizabeth,Hernandez,elizabeth.hernandez78@email.com,(683) 855-6942,430 Tech Blvd,Minneapolis,MN,88105,2024-06-21,Warehouse/Logistics,N/A,David Martinez,11433,2,Active
+CUST10331,Elite Automation,Susan,Lopez,susan.lopez@eliteautomation.com,(638) 463-2699,6202 Manufacturing Blvd,Detroit,IL,76083,2024-04-05,Warehouse/Logistics,Automotive,Jessica Martinez,401889,9,Active
+CUST10332,Quality Solutions,Barbara,Smith,barbara.smith@qualitysolutions.com,(473) 674-3926,2412 Industrial Way,Seattle,CO,37034,2023-10-08,System Integrator,Aerospace,Chris Patel,181128,1,Active
+CUST10333,Tech Robotics,James,Jones,james.jones@techrobotics.com,(906) 905-4895,3340 Industrial Way,Minneapolis,MI,74103,2020-02-29,Manufacturing,Pharmaceuticals,Chris Patel,194416,13,Active
+CUST10334,Quality Industries,Barbara,Miller,barbara.miller@qualityindustries.com,(586) 908-8254,5552 Business Blvd,Detroit,OR,10655,2022-12-25,Manufacturing,Pharmaceuticals,David Martinez,235294,5,Active
+CUST10335,Quality Automation,Jessica,Johnson,jessica.johnson@qualityautomation.com,(644) 515-6276,1856 Manufacturing Dr,Chicago,CO,50184,2021-05-27,Research,General Manufacturing,David Martinez,241560,12,Active
+CUST10336,Tech Industries,Mary,Anderson,mary.anderson@techindustries.com,(832) 564-3741,4582 Tech Parkway,Minneapolis,MA,16722,2021-03-02,Manufacturing,Food & Beverage,David Martinez,292350,7,Active
+CUST10337,Individual,Michael,Taylor,michael.taylor243@email.com,(399) 313-8932,8861 Commerce Blvd,Boston,CO,77472,2024-05-18,System Integrator,N/A,David Martinez,43861,3,Active
+CUST10338,Innovative Automation,Jennifer,Anderson,jennifer.anderson@innovativeautomation.com,(694) 325-5398,9714 Tech Way,Boston,CO,32509,2023-08-10,Warehouse/Logistics,Food & Beverage,David Martinez,448346,15,Active
+CUST10339,Individual,Barbara,Martinez,barbara.martinez924@email.com,(621) 377-7258,8172 Industrial Dr,Austin,OR,75336,2022-07-30,Warehouse/Logistics,N/A,David Martinez,30599,2,Active
+CUST10340,Tech Industries,Jennifer,Garcia,jennifer.garcia@techindustries.com,(814) 966-1751,3200 Manufacturing Dr,Detroit,MI,85378,2022-04-25,Warehouse/Logistics,Aerospace,David Martinez,108094,1,Active
+CUST10341,Individual,Linda,Taylor,linda.taylor950@email.com,(220) 956-6420,7516 Business Dr,Portland,MI,13663,2020-07-18,System Integrator,N/A,Jessica Martinez,40839,3,Active
+CUST10342,Individual,William,Garcia,william.garcia52@email.com,(520) 567-4869,4542 Business Way,Denver,MN,68803,2022-11-01,Manufacturing,N/A,Jessica Martinez,35783,3,Active
+CUST10343,Smart Robotics,James,Hernandez,james.hernandez@smartrobotics.com,(922) 523-9621,9530 Tech Parkway,Boston,MA,44198,2021-09-11,Research,Aerospace,Jessica Martinez,232170,4,Active
+CUST10344,Tech Automation,Michael,Garcia,michael.garcia@techautomation.com,(955) 755-2699,7615 Commerce Dr,Portland,TX,19133,2022-07-15,Research,Pharmaceuticals,Jessica Martinez,416742,15,Active
+CUST10345,Industrial Solutions,Richard,Williams,richard.williams@industrialsolutions.com,(528) 266-4370,9030 Commerce Dr,Denver,TX,63209,2021-08-16,Warehouse/Logistics,Automotive,Jessica Martinez,280681,3,Active
+CUST10346,Global Automation,Robert,Martinez,robert.martinez@globalautomation.com,(253) 553-2972,5480 Business Blvd,Portland,MA,79855,2022-02-25,System Integrator,Food & Beverage,Chris Patel,424057,1,Active
+CUST10347,Individual,Linda,Jones,linda.jones582@email.com,(726) 434-9857,3356 Commerce Way,Portland,MI,47475,2020-08-25,Warehouse/Logistics,N/A,David Martinez,10153,2,Active
+CUST10348,Innovative Industries,Joseph,Martinez,joseph.martinez@innovativeindustries.com,(920) 336-8666,2116 Tech Blvd,Seattle,CO,36389,2024-02-14,System Integrator,General Manufacturing,David Martinez,323737,5,Active
+CUST10349,Tech Manufacturing,David,Brown,david.brown@techmanufacturing.com,(961) 388-5495,4817 Industrial Blvd,Minneapolis,MN,17520,2020-05-17,Warehouse/Logistics,Aerospace,David Martinez,443896,15,Active
+CUST10350,Individual,Richard,Miller,richard.miller582@email.com,(432) 974-7056,9573 Business Parkway,Chicago,WA,42704,2022-02-19,System Integrator,N/A,Chris Patel,32897,4,Active
+CUST10351,Innovative Industries,Elizabeth,Davis,elizabeth.davis@innovativeindustries.com,(727) 806-5957,533 Commerce Dr,Seattle,CO,13098,2021-12-29,Manufacturing,Electronics,David Martinez,492226,10,Active
+CUST10352,Smart Manufacturing,Susan,Smith,susan.smith@smartmanufacturing.com,(998) 303-8752,5067 Industrial Parkway,Minneapolis,WA,28696,2020-09-25,Manufacturing,Automotive,David Martinez,234229,3,Active
+CUST10353,Smart Assembly,Barbara,Davis,barbara.davis@smartassembly.com,(402) 782-8560,2476 Commerce Way,Detroit,WA,13720,2021-08-31,System Integrator,Pharmaceuticals,Chris Patel,476359,8,Active
+CUST10354,Smart Robotics,Elizabeth,Taylor,elizabeth.taylor@smartrobotics.com,(580) 349-8133,3724 Industrial Parkway,Seattle,MA,68344,2023-01-27,Manufacturing,Food & Beverage,Chris Patel,186473,8,Active
+CUST10355,Individual,Linda,Rodriguez,linda.rodriguez112@email.com,(312) 962-7172,8722 Business Dr,Portland,CO,66871,2023-05-06,Research,N/A,Jessica Martinez,47548,5,Active
+CUST10356,Innovative Solutions,Linda,Miller,linda.miller@innovativesolutions.com,(825) 383-5982,7892 Manufacturing Way,Austin,OR,96568,2024-07-13,Manufacturing,General Manufacturing,David Martinez,39744,7,Active
+CUST10357,Elite Automation,Joseph,Miller,joseph.miller@eliteautomation.com,(537) 544-9546,3917 Commerce Dr,Portland,CO,61690,2022-12-30,System Integrator,Electronics,David Martinez,185718,2,Active
+CUST10358,Industrial Robotics,Barbara,Johnson,barbara.johnson@industrialrobotics.com,(929) 672-2073,8684 Manufacturing Dr,Austin,MA,36495,2022-11-17,Warehouse/Logistics,Electronics,David Martinez,128322,3,Active
+CUST10359,Elite Assembly,Michael,Lopez,michael.lopez@eliteassembly.com,(926) 767-3431,9403 Business Blvd,Austin,CO,99611,2023-04-25,Manufacturing,Pharmaceuticals,Chris Patel,79424,12,Active
+CUST10360,Tech Industries,Susan,Rodriguez,susan.rodriguez@techindustries.com,(988) 928-5492,3435 Manufacturing Parkway,Detroit,OR,20186,2021-02-11,Research,Food & Beverage,Jessica Martinez,400856,8,Active
+CUST10361,Precision Assembly,David,Miller,david.miller@precisionassembly.com,(654) 323-1581,3605 Tech Way,Chicago,CO,79595,2020-01-07,Research,Electronics,Jessica Martinez,232396,11,Active
+CUST10362,Individual,Joseph,Brown,joseph.brown940@email.com,(871) 305-7776,1044 Business Blvd,Minneapolis,MN,93337,2021-07-23,Warehouse/Logistics,N/A,David Martinez,32109,3,Active
+CUST10363,Individual,Mary,Miller,mary.miller643@email.com,(305) 594-9234,5963 Manufacturing Dr,Seattle,MI,97631,2022-07-05,Research,N/A,David Martinez,9201,2,Active
+CUST10364,Individual,Michael,Miller,michael.miller387@email.com,(229) 767-6895,9442 Commerce Parkway,Seattle,MI,24067,2023-02-22,Individual,N/A,Jessica Martinez,7176,3,Active
+CUST10365,Quality Assembly,Susan,Taylor,susan.taylor@qualityassembly.com,(377) 588-6542,1159 Business Parkway,Boston,MA,11904,2024-08-06,System Integrator,Food & Beverage,David Martinez,211303,1,Active
+CUST10366,Individual,Richard,Jones,richard.jones169@email.com,(926) 234-4436,7648 Manufacturing Blvd,Denver,OR,47390,2024-12-27,Research,N/A,Jessica Martinez,44459,4,Active
+CUST10367,Precision Automation,Elizabeth,Miller,elizabeth.miller@precisionautomation.com,(908) 589-8876,3589 Commerce Dr,Denver,MN,28405,2020-09-17,Research,Aerospace,David Martinez,486241,10,Active
+CUST10368,Individual,Richard,Davis,richard.davis684@email.com,(683) 372-7768,2830 Tech Blvd,Detroit,OR,73116,2021-08-12,Manufacturing,N/A,David Martinez,25431,4,Active
+CUST10369,Quality Systems,James,Rodriguez,james.rodriguez@qualitysystems.com,(957) 270-6128,890 Business Way,Denver,IL,98373,2021-08-18,System Integrator,General Manufacturing,Jessica Martinez,363395,13,Active
+CUST10370,Individual,Barbara,Lopez,barbara.lopez80@email.com,(378) 223-2116,6513 Industrial Dr,Portland,WA,15525,2022-03-07,System Integrator,N/A,David Martinez,18036,4,Active
+CUST10371,Individual,Joseph,Rodriguez,joseph.rodriguez270@email.com,(885) 842-2137,9004 Business Blvd,Chicago,TX,79679,2022-01-01,Warehouse/Logistics,N/A,Chris Patel,24158,2,Active
+CUST10372,Advanced Solutions,Joseph,Johnson,joseph.johnson@advancedsolutions.com,(551) 869-5143,2859 Industrial Dr,Portland,MA,19854,2024-09-13,System Integrator,Aerospace,David Martinez,196996,10,Active
+CUST10373,Elite Solutions,Susan,Martinez,susan.martinez@elitesolutions.com,(565) 609-3326,9254 Business Blvd,Portland,WA,56937,2024-01-13,Individual,Electronics,David Martinez,269394,11,Active
+CUST10374,Elite Automation,Michael,Davis,michael.davis@eliteautomation.com,(885) 687-6900,1295 Manufacturing Parkway,Minneapolis,MI,88093,2023-08-15,Manufacturing,Food & Beverage,Chris Patel,59316,13,Active
+CUST10375,Elite Automation,Patricia,Jones,patricia.jones@eliteautomation.com,(288) 441-4847,7661 Manufacturing Parkway,Denver,IL,32289,2023-02-03,Individual,Electronics,Chris Patel,226195,4,Active
+CUST10376,Auto Automation,Barbara,Lopez,barbara.lopez@autoautomation.com,(391) 965-4515,1497 Commerce Parkway,Boston,IL,10892,2021-10-19,Research,Aerospace,Jessica Martinez,96920,4,Active
+CUST10377,Quality Solutions,Michael,Johnson,michael.johnson@qualitysolutions.com,(499) 786-8102,9700 Commerce Blvd,Minneapolis,OR,90930,2021-07-18,Research,Electronics,Chris Patel,424498,12,Active
+CUST10378,Individual,William,Martinez,william.martinez851@email.com,(365) 691-4378,2100 Industrial Way,Austin,IL,78590,2024-12-28,System Integrator,N/A,Jessica Martinez,27216,2,Active
+CUST10379,Individual,William,Johnson,william.johnson247@email.com,(648) 522-6225,3314 Industrial Way,Austin,MN,92989,2020-07-12,Manufacturing,N/A,Jessica Martinez,33030,1,Active
+CUST10380,Global Robotics,Susan,Davis,susan.davis@globalrobotics.com,(314) 944-7071,6485 Commerce Blvd,Chicago,WA,58293,2022-07-13,Warehouse/Logistics,General Manufacturing,Chris Patel,490764,6,Active
+CUST10381,Smart Technologies,Jessica,Thomas,jessica.thomas@smarttechnologies.com,(889) 853-4155,4413 Tech Dr,Portland,WA,28257,2022-02-06,Manufacturing,General Manufacturing,Chris Patel,459667,6,Active
+CUST10382,Tech Systems,James,Garcia,james.garcia@techsystems.com,(394) 476-5004,9202 Business Blvd,Boston,MA,34355,2022-05-17,Manufacturing,Food & Beverage,David Martinez,370229,1,Active
+CUST10383,Individual,James,Martinez,james.martinez691@email.com,(494) 987-4323,3029 Industrial Dr,Austin,MN,90060,2023-09-15,Warehouse/Logistics,N/A,Chris Patel,12654,4,Active
+CUST10384,Innovative Automation,Elizabeth,Rodriguez,elizabeth.rodriguez@innovativeautomation.com,(415) 971-7793,6671 Commerce Parkway,Seattle,OR,65816,2020-08-29,Warehouse/Logistics,Pharmaceuticals,Chris Patel,33023,13,Active
+CUST10385,Precision Solutions,William,Lopez,william.lopez@precisionsolutions.com,(515) 891-1341,7305 Commerce Parkway,Seattle,TX,88607,2023-09-09,Manufacturing,Automotive,David Martinez,154398,14,Active
+CUST10386,Advanced Technologies,Patricia,Davis,patricia.davis@advancedtechnologies.com,(416) 501-1725,153 Manufacturing Dr,Minneapolis,OR,87557,2020-09-03,System Integrator,General Manufacturing,David Martinez,368736,8,Active
+CUST10387,Individual,James,Hernandez,james.hernandez972@email.com,(242) 443-4251,7663 Industrial Parkway,Detroit,WA,64038,2020-04-25,Manufacturing,N/A,Chris Patel,45436,2,Active
+CUST10388,Elite Solutions,Patricia,Smith,patricia.smith@elitesolutions.com,(789) 261-2620,2668 Industrial Parkway,Detroit,TX,43236,2021-10-18,System Integrator,Automotive,Jessica Martinez,193503,10,Active
+CUST10389,Quality Assembly,Linda,Miller,linda.miller@qualityassembly.com,(670) 742-8711,686 Business Way,Minneapolis,MI,32496,2024-11-21,Research,Automotive,Jessica Martinez,244170,11,Active
+CUST10390,Individual,Susan,Miller,susan.miller169@email.com,(264) 732-7244,3806 Industrial Way,Seattle,TX,77172,2020-12-15,System Integrator,N/A,David Martinez,7568,3,Active
+CUST10391,Smart Robotics,Joseph,Hernandez,joseph.hernandez@smartrobotics.com,(793) 223-1816,2553 Tech Blvd,Boston,TX,21190,2020-08-25,Individual,General Manufacturing,David Martinez,191238,14,Active
+CUST10392,Individual,Joseph,Taylor,joseph.taylor263@email.com,(395) 363-8271,5376 Industrial Blvd,Seattle,MA,35733,2024-05-13,Individual,N/A,David Martinez,27013,3,Active
+CUST10393,Individual,John,Miller,john.miller421@email.com,(947) 383-9428,1737 Tech Way,Austin,MA,47338,2022-12-26,System Integrator,N/A,David Martinez,15048,4,Active
+CUST10394,Innovative Assembly,Robert,Anderson,robert.anderson@innovativeassembly.com,(453) 493-3482,2579 Tech Parkway,Denver,MI,94197,2020-10-29,Manufacturing,General Manufacturing,Jessica Martinez,443699,10,Active
+CUST10395,Individual,Elizabeth,Johnson,elizabeth.johnson302@email.com,(835) 880-1042,3888 Industrial Parkway,Minneapolis,OR,59029,2024-08-17,Research,N/A,Jessica Martinez,27312,4,Active
+CUST10396,Quality Automation,Jessica,Jones,jessica.jones@qualityautomation.com,(230) 557-9181,9010 Business Parkway,Boston,CO,55428,2021-01-01,Warehouse/Logistics,Electronics,David Martinez,141672,5,Active
+CUST10397,Tech Automation,Linda,Hernandez,linda.hernandez@techautomation.com,(258) 205-4925,1801 Industrial Parkway,Boston,CO,86697,2020-04-01,Manufacturing,Electronics,Jessica Martinez,337379,5,Active
+CUST10398,Individual,Joseph,Hernandez,joseph.hernandez624@email.com,(803) 966-5496,4776 Manufacturing Way,Minneapolis,MI,26535,2020-12-29,Manufacturing,N/A,Jessica Martinez,10978,3,Active
+CUST10399,Individual,Mary,Anderson,mary.anderson57@email.com,(442) 241-1205,2518 Commerce Way,Detroit,MN,42409,2020-10-24,System Integrator,N/A,Jessica Martinez,27480,1,Active
+CUST10400,Advanced Robotics,Mary,Wilson,mary.wilson@advancedrobotics.com,(413) 891-6964,1538 Manufacturing Parkway,Austin,OR,81007,2022-04-03,Research,Aerospace,Jessica Martinez,366498,4,Active
+CUST10401,Individual,Richard,Miller,richard.miller988@email.com,(986) 734-7799,721 Manufacturing Dr,Austin,MA,62018,2023-09-24,Research,N/A,Jessica Martinez,16507,3,Active
+CUST10402,Elite Assembly,Patricia,Jones,patricia.jones@eliteassembly.com,(513) 231-3869,7090 Tech Way,Portland,WA,53187,2020-03-04,System Integrator,General Manufacturing,Jessica Martinez,417549,2,Active
+CUST10403,Individual,James,Williams,james.williams56@email.com,(260) 452-1645,7451 Commerce Blvd,Chicago,MA,76565,2021-08-03,Warehouse/Logistics,N/A,Jessica Martinez,13306,5,Active
+CUST10404,Individual,Mary,Davis,mary.davis817@email.com,(696) 307-3430,7761 Business Blvd,Denver,IL,98238,2022-05-17,Warehouse/Logistics,N/A,Jessica Martinez,36207,2,Active
+CUST10405,Individual,Patricia,Martinez,patricia.martinez957@email.com,(938) 227-5162,4691 Tech Blvd,Chicago,IL,66747,2022-09-04,Manufacturing,N/A,Chris Patel,25766,3,Active
+CUST10406,Precision Solutions,Richard,Wilson,richard.wilson@precisionsolutions.com,(647) 635-6580,4795 Tech Way,Portland,WA,68533,2024-01-17,System Integrator,Food & Beverage,Jessica Martinez,328979,5,Active
+CUST10407,Tech Manufacturing,John,Thomas,john.thomas@techmanufacturing.com,(710) 913-6450,6509 Commerce Way,Boston,CO,44949,2024-12-23,Warehouse/Logistics,General Manufacturing,Chris Patel,312856,8,Active
+CUST10408,Industrial Systems,John,Davis,john.davis@industrialsystems.com,(792) 834-9223,7751 Business Blvd,Denver,IL,32573,2020-09-10,Individual,Food & Beverage,David Martinez,422053,9,Active
+CUST10409,Global Robotics,Patricia,Williams,patricia.williams@globalrobotics.com,(282) 676-5900,5625 Business Way,Detroit,MA,40161,2024-01-31,System Integrator,Electronics,Chris Patel,349896,11,Active
+CUST10410,Smart Systems,Jessica,Lopez,jessica.lopez@smartsystems.com,(863) 644-6821,4881 Commerce Blvd,Boston,OR,25767,2024-02-29,Individual,Pharmaceuticals,Chris Patel,377185,7,Active
+CUST10411,Industrial Assembly,Barbara,Anderson,barbara.anderson@industrialassembly.com,(755) 341-2649,5941 Commerce Way,Detroit,TX,22294,2021-12-24,Manufacturing,Food & Beverage,Chris Patel,450158,15,Active
+CUST10412,Industrial Robotics,Linda,Lopez,linda.lopez@industrialrobotics.com,(230) 558-2459,5519 Manufacturing Way,Boston,OR,23283,2024-02-05,Warehouse/Logistics,Aerospace,Chris Patel,260291,1,Active
+CUST10413,Individual,Robert,Garcia,robert.garcia440@email.com,(587) 483-4595,3156 Industrial Parkway,Boston,IL,38414,2023-05-01,Warehouse/Logistics,N/A,David Martinez,14742,5,Active
+CUST10414,Advanced Industries,Mary,Lopez,mary.lopez@advancedindustries.com,(963) 469-5741,9060 Tech Way,Portland,TX,84625,2024-02-03,Research,Aerospace,Chris Patel,472000,10,Active
+CUST10415,Elite Manufacturing,Robert,Smith,robert.smith@elitemanufacturing.com,(662) 552-1761,3176 Commerce Parkway,Detroit,IL,60785,2021-10-15,Research,Pharmaceuticals,David Martinez,347890,2,Active
+CUST10416,Smart Manufacturing,Mary,Garcia,mary.garcia@smartmanufacturing.com,(457) 362-1784,3609 Industrial Dr,Minneapolis,CO,71684,2024-10-04,System Integrator,Automotive,Chris Patel,456349,8,Active
+CUST10417,Individual,William,Jones,william.jones119@email.com,(632) 728-9291,8032 Business Parkway,Portland,TX,58642,2022-07-29,Individual,N/A,Jessica Martinez,26833,1,Active
+CUST10418,Quality Technologies,William,Taylor,william.taylor@qualitytechnologies.com,(328) 889-6984,8249 Industrial Parkway,Portland,MN,19495,2024-04-05,Individual,Pharmaceuticals,Jessica Martinez,166239,3,Active
+CUST10419,Global Robotics,Jennifer,Martinez,jennifer.martinez@globalrobotics.com,(343) 846-7687,8929 Commerce Parkway,Minneapolis,MN,55165,2020-04-11,Individual,Food & Beverage,David Martinez,183724,9,Active
+CUST10420,Tech Technologies,David,Rodriguez,david.rodriguez@techtechnologies.com,(355) 949-6385,3229 Commerce Blvd,Detroit,IL,20043,2021-03-16,Research,General Manufacturing,Jessica Martinez,448855,5,Active
+CUST10421,Industrial Robotics,David,Johnson,david.johnson@industrialrobotics.com,(848) 883-4999,2294 Manufacturing Dr,Chicago,MN,38570,2021-03-12,Manufacturing,Food & Beverage,Jessica Martinez,135519,6,Active
+CUST10422,Quality Systems,Jessica,Williams,jessica.williams@qualitysystems.com,(837) 634-5389,8326 Tech Dr,Detroit,CO,35222,2024-11-08,Individual,Pharmaceuticals,David Martinez,259535,5,Active
+CUST10423,Auto Robotics,Joseph,Williams,joseph.williams@autorobotics.com,(810) 309-6735,9475 Commerce Dr,Boston,MI,61601,2021-07-28,Individual,Electronics,David Martinez,252849,13,Active
+CUST10424,Smart Assembly,Joseph,Garcia,joseph.garcia@smartassembly.com,(254) 586-2578,3636 Commerce Way,Chicago,WA,87259,2022-03-11,Individual,Pharmaceuticals,David Martinez,458529,10,Active
+CUST10425,Advanced Robotics,Jessica,Davis,jessica.davis@advancedrobotics.com,(626) 710-3269,5717 Commerce Way,Detroit,MI,18290,2022-06-23,System Integrator,Food & Beverage,Jessica Martinez,41994,6,Active
+CUST10426,Industrial Solutions,David,Miller,david.miller@industrialsolutions.com,(698) 857-7247,2441 Business Dr,Portland,OR,13116,2024-09-18,System Integrator,Aerospace,Chris Patel,199789,8,Active
+CUST10427,Global Systems,Richard,Davis,richard.davis@globalsystems.com,(549) 494-2452,160 Industrial Way,Boston,WA,11140,2020-09-17,Warehouse/Logistics,Electronics,David Martinez,236142,12,Active
+CUST10428,Advanced Technologies,William,Hernandez,william.hernandez@advancedtechnologies.com,(958) 620-9042,3720 Commerce Parkway,Austin,MN,53308,2024-06-18,Manufacturing,Automotive,David Martinez,183813,2,Active
+CUST10429,Innovative Systems,Michael,Hernandez,michael.hernandez@innovativesystems.com,(222) 349-9127,4853 Tech Dr,Austin,MN,69791,2024-03-13,Warehouse/Logistics,Aerospace,Chris Patel,236275,4,Active
+CUST10430,Precision Manufacturing,Susan,Davis,susan.davis@precisionmanufacturing.com,(254) 748-6681,6676 Business Blvd,Chicago,CO,45392,2021-10-30,Warehouse/Logistics,Pharmaceuticals,Chris Patel,81405,8,Active
+CUST10431,Individual,William,Thomas,william.thomas369@email.com,(346) 227-4582,4373 Industrial Dr,Denver,TX,50223,2021-11-18,System Integrator,N/A,Chris Patel,14461,4,Active
+CUST10432,Elite Systems,Elizabeth,Garcia,elizabeth.garcia@elitesystems.com,(978) 879-2370,9600 Manufacturing Dr,Portland,MI,76104,2024-04-01,Research,Automotive,Jessica Martinez,263010,10,Active
+CUST10433,Individual,Robert,Rodriguez,robert.rodriguez545@email.com,(665) 401-3579,7562 Commerce Way,Detroit,WA,14427,2020-07-07,Individual,N/A,Jessica Martinez,23351,1,Active
+CUST10434,Innovative Technologies,Jessica,Thomas,jessica.thomas@innovativetechnologies.com,(478) 262-9705,5228 Manufacturing Way,Denver,OR,55942,2022-02-01,Research,Food & Beverage,Chris Patel,195539,7,Active
+CUST10435,Industrial Automation,William,Jones,william.jones@industrialautomation.com,(658) 225-3294,120 Business Parkway,Austin,MA,96621,2022-01-04,Manufacturing,Food & Beverage,Jessica Martinez,21257,15,Active
+CUST10436,Innovative Robotics,Michael,Taylor,michael.taylor@innovativerobotics.com,(638) 764-2279,487 Commerce Way,Austin,TX,53617,2021-04-10,Manufacturing,Aerospace,Jessica Martinez,425968,9,Active
+CUST10437,Quality Systems,David,Garcia,david.garcia@qualitysystems.com,(575) 531-9132,1779 Business Parkway,Seattle,CO,34696,2021-10-03,Manufacturing,Food & Beverage,David Martinez,492059,1,Active
+CUST10438,Precision Assembly,Robert,Wilson,robert.wilson@precisionassembly.com,(820) 650-7465,9819 Business Parkway,Austin,OR,18962,2021-07-16,Individual,Food & Beverage,Jessica Martinez,57426,4,Active
+CUST10439,Elite Automation,James,Davis,james.davis@eliteautomation.com,(484) 349-9742,7223 Manufacturing Parkway,Boston,OR,15486,2022-07-27,Research,Pharmaceuticals,David Martinez,116933,5,Active
+CUST10440,Auto Assembly,Richard,Davis,richard.davis@autoassembly.com,(418) 337-3524,4473 Tech Blvd,Portland,MN,24122,2023-08-07,Individual,Food & Beverage,Chris Patel,307588,8,Active
+CUST10441,Advanced Technologies,Susan,Williams,susan.williams@advancedtechnologies.com,(374) 369-9092,1879 Business Way,Austin,WA,49785,2024-10-03,Research,Electronics,Jessica Martinez,78435,15,Active
+CUST10442,Auto Manufacturing,Michael,Taylor,michael.taylor@automanufacturing.com,(975) 241-8119,2781 Manufacturing Blvd,Chicago,OR,41580,2023-09-23,System Integrator,Aerospace,Chris Patel,478678,15,Active
+CUST10443,Elite Solutions,Michael,Martinez,michael.martinez@elitesolutions.com,(605) 917-4771,8226 Commerce Blvd,Portland,MI,34984,2020-01-04,System Integrator,Food & Beverage,David Martinez,264631,14,Active
+CUST10444,Individual,William,Garcia,william.garcia412@email.com,(331) 930-6814,8621 Business Way,Denver,MN,42508,2024-04-07,Individual,N/A,David Martinez,10984,1,Active
+CUST10445,Individual,Jennifer,Williams,jennifer.williams671@email.com,(295) 353-6978,6496 Commerce Way,Seattle,MI,45809,2023-03-16,Individual,N/A,David Martinez,32620,1,Active
+CUST10446,Industrial Technologies,Jessica,Lopez,jessica.lopez@industrialtechnologies.com,(969) 723-1641,1147 Commerce Blvd,Portland,MN,93670,2024-10-30,Manufacturing,Electronics,Chris Patel,109915,6,Active
+CUST10447,Tech Manufacturing,Elizabeth,Hernandez,elizabeth.hernandez@techmanufacturing.com,(229) 911-9748,1176 Manufacturing Parkway,Minneapolis,MI,74998,2023-08-27,Individual,Aerospace,Jessica Martinez,167055,6,Active
+CUST10448,Global Solutions,Robert,Miller,robert.miller@globalsolutions.com,(827) 437-8065,6818 Industrial Blvd,Seattle,IL,84140,2022-11-15,System Integrator,Pharmaceuticals,Jessica Martinez,339481,3,Active
+CUST10449,Individual,Michael,Martinez,michael.martinez523@email.com,(774) 693-5580,1881 Commerce Blvd,Detroit,IL,36734,2022-02-08,Individual,N/A,David Martinez,49477,2,Active
+CUST10450,Individual,Jennifer,Davis,jennifer.davis451@email.com,(340) 726-5197,1163 Commerce Parkway,Detroit,CO,91930,2021-05-11,Warehouse/Logistics,N/A,David Martinez,29130,3,Active
+CUST10451,Innovative Automation,James,Smith,james.smith@innovativeautomation.com,(229) 620-3196,9180 Business Dr,Austin,MA,95866,2024-02-22,Manufacturing,Automotive,David Martinez,202580,5,Active
+CUST10452,Individual,Elizabeth,Garcia,elizabeth.garcia658@email.com,(353) 367-5193,9886 Industrial Way,Detroit,MN,29921,2024-06-13,Manufacturing,N/A,Jessica Martinez,11715,3,Active
+CUST10453,Individual,Jennifer,Brown,jennifer.brown979@email.com,(264) 880-4387,6490 Business Dr,Detroit,IL,74707,2020-11-04,Warehouse/Logistics,N/A,Chris Patel,12710,4,Active
+CUST10454,Global Automation,Richard,Miller,richard.miller@globalautomation.com,(719) 777-1382,9779 Industrial Way,Denver,MA,88017,2024-11-29,Research,Automotive,Jessica Martinez,342511,1,Active
+CUST10455,Elite Assembly,Elizabeth,Lopez,elizabeth.lopez@eliteassembly.com,(434) 726-8363,3365 Business Dr,Seattle,WA,19688,2023-01-04,Warehouse/Logistics,Automotive,Chris Patel,96289,13,Active
+CUST10456,Advanced Assembly,Barbara,Jones,barbara.jones@advancedassembly.com,(546) 686-3329,8131 Business Parkway,Detroit,WA,85915,2023-12-18,Individual,General Manufacturing,Chris Patel,498391,10,Active
+CUST10457,Tech Assembly,Patricia,Davis,patricia.davis@techassembly.com,(281) 749-9767,1140 Commerce Parkway,Seattle,MA,76458,2020-04-01,System Integrator,Electronics,Jessica Martinez,38137,2,Active
+CUST10458,Innovative Robotics,Richard,Thomas,richard.thomas@innovativerobotics.com,(777) 903-8018,189 Tech Dr,Portland,MA,46487,2023-07-31,Individual,Aerospace,David Martinez,14105,3,Active
+CUST10459,Precision Industries,Barbara,Anderson,barbara.anderson@precisionindustries.com,(208) 886-1942,2342 Industrial Parkway,Denver,CO,27951,2022-01-03,Research,Electronics,Chris Patel,73895,2,Active
+CUST10460,Global Solutions,Joseph,Garcia,joseph.garcia@globalsolutions.com,(222) 611-1715,7218 Business Parkway,Denver,OR,17713,2021-12-21,Manufacturing,Pharmaceuticals,Jessica Martinez,478994,2,Active
+CUST10461,Advanced Robotics,Susan,Hernandez,susan.hernandez@advancedrobotics.com,(596) 809-4475,2046 Manufacturing Blvd,Minneapolis,IL,56554,2024-10-09,Individual,Pharmaceuticals,David Martinez,408626,12,Active
+CUST10462,Tech Industries,Patricia,Smith,patricia.smith@techindustries.com,(525) 702-4627,8456 Industrial Blvd,Boston,TX,47297,2023-09-06,Individual,Electronics,Jessica Martinez,16730,13,Active
+CUST10463,Individual,Jessica,Wilson,jessica.wilson367@email.com,(902) 629-3377,2953 Tech Way,Detroit,CO,41064,2020-10-06,System Integrator,N/A,David Martinez,45416,2,Active
+CUST10464,Industrial Robotics,James,Hernandez,james.hernandez@industrialrobotics.com,(703) 974-7917,7984 Tech Dr,Seattle,MI,33039,2024-09-15,Warehouse/Logistics,Automotive,David Martinez,51445,6,Active
+CUST10465,Smart Industries,Robert,Smith,robert.smith@smartindustries.com,(816) 417-1756,9234 Industrial Parkway,Minneapolis,CO,16361,2023-12-10,System Integrator,Pharmaceuticals,Jessica Martinez,458066,4,Active
+CUST10466,Tech Solutions,Patricia,Davis,patricia.davis@techsolutions.com,(938) 691-3133,6771 Commerce Dr,Boston,MA,50034,2021-10-13,Warehouse/Logistics,Pharmaceuticals,David Martinez,388946,10,Active
+CUST10467,Individual,Patricia,Garcia,patricia.garcia4@email.com,(940) 517-9682,4753 Tech Way,Minneapolis,MN,92047,2021-05-21,System Integrator,N/A,David Martinez,38531,4,Active
+CUST10468,Individual,Jessica,Brown,jessica.brown876@email.com,(944) 924-7259,2869 Commerce Way,Seattle,MN,17196,2021-06-11,Manufacturing,N/A,Jessica Martinez,17897,5,Active
+CUST10469,Innovative Solutions,Richard,Miller,richard.miller@innovativesolutions.com,(276) 318-2198,8199 Manufacturing Dr,Chicago,OR,37316,2023-03-24,Warehouse/Logistics,Aerospace,Jessica Martinez,197915,12,Active
+CUST10470,Auto Assembly,Jessica,Smith,jessica.smith@autoassembly.com,(882) 295-6391,7914 Business Blvd,Denver,OR,31063,2021-02-20,Manufacturing,Electronics,David Martinez,150982,13,Active
+CUST10471,Advanced Systems,William,Wilson,william.wilson@advancedsystems.com,(652) 292-8128,7063 Commerce Parkway,Detroit,MA,52237,2024-02-24,Warehouse/Logistics,Food & Beverage,Chris Patel,196218,1,Active
+CUST10472,Industrial Technologies,James,Johnson,james.johnson@industrialtechnologies.com,(229) 759-5854,7849 Tech Dr,Detroit,CO,21557,2024-08-26,Individual,Pharmaceuticals,Jessica Martinez,203284,6,Active
+CUST10473,Individual,David,Davis,david.davis112@email.com,(640) 518-1178,6235 Tech Parkway,Denver,MA,46970,2020-12-22,System Integrator,N/A,David Martinez,8836,4,Active
+CUST10474,Individual,Jessica,Davis,jessica.davis249@email.com,(901) 529-6009,5736 Business Blvd,Seattle,MN,45551,2023-05-23,Manufacturing,N/A,Chris Patel,24601,3,Active
+CUST10475,Tech Solutions,James,Smith,james.smith@techsolutions.com,(302) 251-6299,9561 Business Dr,Minneapolis,CO,69786,2024-07-30,Research,Electronics,David Martinez,296299,7,Active
+CUST10476,Precision Manufacturing,Mary,Lopez,mary.lopez@precisionmanufacturing.com,(850) 333-5182,9287 Manufacturing Dr,Boston,MA,61149,2022-09-26,System Integrator,Pharmaceuticals,Chris Patel,152370,2,Active
+CUST10477,Individual,Jessica,Garcia,jessica.garcia355@email.com,(217) 839-4445,6866 Tech Dr,Seattle,MI,33991,2024-04-15,Individual,N/A,Chris Patel,49500,1,Active
+CUST10478,Precision Systems,Mary,Anderson,mary.anderson@precisionsystems.com,(330) 269-4593,5351 Tech Blvd,Detroit,TX,43511,2024-07-19,System Integrator,Automotive,Jessica Martinez,461923,3,Active
+CUST10479,Industrial Solutions,Richard,Rodriguez,richard.rodriguez@industrialsolutions.com,(368) 421-8161,8917 Business Blvd,Seattle,IL,32764,2021-07-31,Manufacturing,Electronics,David Martinez,292898,6,Active
+CUST10480,Individual,Jennifer,Thomas,jennifer.thomas721@email.com,(992) 205-2324,9499 Manufacturing Way,Minneapolis,MI,16016,2020-03-26,Manufacturing,N/A,Jessica Martinez,9344,5,Active
+CUST10481,Tech Systems,Susan,Hernandez,susan.hernandez@techsystems.com,(577) 483-6024,8211 Manufacturing Parkway,Seattle,MI,77990,2022-05-10,Warehouse/Logistics,General Manufacturing,David Martinez,356603,6,Active
+CUST10482,Individual,Elizabeth,Brown,elizabeth.brown69@email.com,(487) 943-3045,8075 Commerce Way,Seattle,CO,94301,2020-05-21,System Integrator,N/A,Chris Patel,47880,1,Active
+CUST10483,Individual,Richard,Lopez,richard.lopez45@email.com,(268) 707-7116,7507 Manufacturing Dr,Boston,IL,40408,2021-12-25,Warehouse/Logistics,N/A,David Martinez,8977,2,Active
+CUST10484,Advanced Manufacturing,Joseph,Brown,joseph.brown@advancedmanufacturing.com,(693) 620-1654,863 Tech Blvd,Seattle,OR,95457,2021-06-18,Research,Aerospace,Jessica Martinez,459988,5,Active
+CUST10485,Individual,Joseph,Taylor,joseph.taylor813@email.com,(317) 479-6781,9041 Business Blvd,Chicago,CO,54039,2024-03-10,Individual,N/A,David Martinez,15121,3,Active
+CUST10486,Industrial Assembly,James,Brown,james.brown@industrialassembly.com,(467) 735-6088,9772 Business Parkway,Denver,MA,77568,2023-05-29,Research,Electronics,Chris Patel,54811,8,Active
+CUST10487,Tech Industries,Barbara,Hernandez,barbara.hernandez@techindustries.com,(474) 250-3384,8662 Commerce Blvd,Detroit,MN,80436,2023-05-08,Warehouse/Logistics,Food & Beverage,Jessica Martinez,76590,8,Active
+CUST10488,Industrial Assembly,Elizabeth,Wilson,elizabeth.wilson@industrialassembly.com,(640) 728-7812,6549 Tech Dr,Chicago,IL,52016,2023-12-30,Manufacturing,Food & Beverage,David Martinez,403825,1,Active
+CUST10489,Global Systems,Robert,Thomas,robert.thomas@globalsystems.com,(540) 590-4685,3780 Manufacturing Parkway,Seattle,CO,37481,2020-08-15,System Integrator,Automotive,David Martinez,59596,5,Active
+CUST10490,Smart Automation,William,Smith,william.smith@smartautomation.com,(889) 865-2146,4788 Tech Blvd,Detroit,MA,97580,2020-03-21,Warehouse/Logistics,Automotive,Jessica Martinez,379012,14,Active
+CUST10491,Smart Solutions,David,Jones,david.jones@smartsolutions.com,(766) 829-2710,834 Tech Dr,Seattle,IL,74988,2021-03-23,Manufacturing,General Manufacturing,Jessica Martinez,472936,5,Active
+CUST10492,Precision Robotics,James,Smith,james.smith@precisionrobotics.com,(540) 935-3577,7931 Manufacturing Dr,Detroit,WA,92745,2024-09-06,Individual,Food & Beverage,Chris Patel,107362,2,Active
+CUST10493,Individual,Mary,Thomas,mary.thomas955@email.com,(891) 292-5279,7376 Business Blvd,Austin,OR,26803,2020-01-14,Manufacturing,N/A,David Martinez,21178,5,Active
+CUST10494,Advanced Systems,Patricia,Johnson,patricia.johnson@advancedsystems.com,(869) 693-6903,966 Commerce Blvd,Portland,IL,67718,2023-03-08,System Integrator,Aerospace,Jessica Martinez,415061,7,Active
+CUST10495,Individual,David,Rodriguez,david.rodriguez959@email.com,(338) 983-1445,3064 Commerce Parkway,Boston,MN,65880,2021-07-25,Individual,N/A,Chris Patel,31079,1,Active
+CUST10496,Industrial Technologies,Linda,Wilson,linda.wilson@industrialtechnologies.com,(845) 558-4350,1041 Industrial Way,Minneapolis,OR,13834,2024-01-09,Individual,Aerospace,Chris Patel,369290,5,Active
+CUST10497,Elite Solutions,Jessica,Anderson,jessica.anderson@elitesolutions.com,(266) 324-2250,735 Manufacturing Dr,Portland,MN,33309,2024-05-27,Research,Automotive,Chris Patel,80951,7,Active
+CUST10498,Smart Automation,Jessica,Johnson,jessica.johnson@smartautomation.com,(359) 329-4964,3816 Commerce Dr,Portland,TX,32125,2022-07-17,System Integrator,Electronics,David Martinez,75125,13,Active
+CUST10499,Global Industries,William,Miller,william.miller@globalindustries.com,(656) 813-4871,1956 Business Blvd,Austin,MA,56273,2022-08-20,Manufacturing,Aerospace,Chris Patel,358398,3,Active

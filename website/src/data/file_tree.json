@@ -1,0 +1,959 @@
+{
+  "name": "data",
+  "type": "directory",
+  "path": "",
+  "children": [
+    {
+      "name": "finance",
+      "type": "directory",
+      "path": "finance",
+      "children": [
+        {
+          "name": "invoices",
+          "type": "directory",
+          "path": "finance/invoices",
+          "children": [
+            {
+              "name": "invoices.csv",
+              "type": "file",
+              "path": "finance/invoices/invoices.csv",
+              "extension": ".csv",
+              "size": 25847
+            },
+            {
+              "name": "invoices.json",
+              "type": "file",
+              "path": "finance/invoices/invoices.json",
+              "extension": ".json",
+              "size": 77867
+            }
+          ]
+        },
+        {
+          "name": "memos",
+          "type": "directory",
+          "path": "finance/memos",
+          "children": [
+            {
+              "name": "Inventory-Turnover-Analysis---Q1-2024.md",
+              "type": "file",
+              "path": "finance/memos/Inventory-Turnover-Analysis---Q1-2024.md",
+              "extension": ".md",
+              "size": 3500
+            },
+            {
+              "name": "Inventory-Turnover-Analysis---Q2-2024.md",
+              "type": "file",
+              "path": "finance/memos/Inventory-Turnover-Analysis---Q2-2024.md",
+              "extension": ".md",
+              "size": 3699
+            },
+            {
+              "name": "Inventory-Turnover-Analysis---Q3-2024.md",
+              "type": "file",
+              "path": "finance/memos/Inventory-Turnover-Analysis---Q3-2024.md",
+              "extension": ".md",
+              "size": 3598
+            },
+            {
+              "name": "Inventory-Turnover-Analysis---Q4-2024.md",
+              "type": "file",
+              "path": "finance/memos/Inventory-Turnover-Analysis---Q4-2024.md",
+              "extension": ".md",
+              "size": 3753
+            }
+          ]
+        },
+        {
+          "name": "orders",
+          "type": "directory",
+          "path": "finance/orders",
+          "children": [
+            {
+              "name": "order_items.csv",
+              "type": "file",
+              "path": "finance/orders/order_items.csv",
+              "extension": ".csv",
+              "size": 247996
+            },
+            {
+              "name": "order_items.json",
+              "type": "file",
+              "path": "finance/orders/order_items.json",
+              "extension": ".json",
+              "size": 853401
+            },
+            {
+              "name": "orders.csv",
+              "type": "file",
+              "path": "finance/orders/orders.csv",
+              "extension": ".csv",
+              "size": 154048
+            },
+            {
+              "name": "orders.json",
+              "type": "file",
+              "path": "finance/orders/orders.json",
+              "extension": ".json",
+              "size": 514855
+            }
+          ]
+        },
+        {
+          "name": "reports",
+          "type": "directory",
+          "path": "finance/reports",
+          "children": [
+            {
+              "name": "budget-report---q1-2024.html",
+              "type": "file",
+              "path": "finance/reports/budget-report---q1-2024.html",
+              "extension": ".html",
+              "size": 5387
+            },
+            {
+              "name": "budget-report---q1-2025.html",
+              "type": "file",
+              "path": "finance/reports/budget-report---q1-2025.html",
+              "extension": ".html",
+              "size": 5946
+            },
+            {
+              "name": "budget-report---q2-2024.html",
+              "type": "file",
+              "path": "finance/reports/budget-report---q2-2024.html",
+              "extension": ".html",
+              "size": 5921
+            },
+            {
+              "name": "budget-report---q3-2024.html",
+              "type": "file",
+              "path": "finance/reports/budget-report---q3-2024.html",
+              "extension": ".html",
+              "size": 6032
+            },
+            {
+              "name": "budget-report---q4-2024.html",
+              "type": "file",
+              "path": "finance/reports/budget-report---q4-2024.html",
+              "extension": ".html",
+              "size": 5835
+            }
+          ]
+        },
+        {
+          "name": "statements",
+          "type": "directory",
+          "path": "finance/statements",
+          "children": [
+            {
+              "name": "PL-Statement-2022.md",
+              "type": "file",
+              "path": "finance/statements/PL-Statement-2022.md",
+              "extension": ".md",
+              "size": 3198
+            },
+            {
+              "name": "PL-Statement-2023.md",
+              "type": "file",
+              "path": "finance/statements/PL-Statement-2023.md",
+              "extension": ".md",
+              "size": 3556
+            },
+            {
+              "name": "PL-Statement-2024.md",
+              "type": "file",
+              "path": "finance/statements/PL-Statement-2024.md",
+              "extension": ".md",
+              "size": 3220
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hr-legal",
+      "type": "directory",
+      "path": "hr-legal",
+      "children": [
+        {
+          "name": "benefits",
+          "type": "directory",
+          "path": "hr-legal/benefits",
+          "children": [
+            {
+              "name": "financial-wellness-benefits-2025.html",
+              "type": "file",
+              "path": "hr-legal/benefits/financial-wellness-benefits-2025.html",
+              "extension": ".html",
+              "size": 7110
+            },
+            {
+              "name": "health-and-wellness-programs-2025.html",
+              "type": "file",
+              "path": "hr-legal/benefits/health-and-wellness-programs-2025.html",
+              "extension": ".html",
+              "size": 6954
+            },
+            {
+              "name": "professional-development-benefits-2025.html",
+              "type": "file",
+              "path": "hr-legal/benefits/professional-development-benefits-2025.html",
+              "extension": ".html",
+              "size": 6797
+            },
+            {
+              "name": "retirement-plans-guide-2025.html",
+              "type": "file",
+              "path": "hr-legal/benefits/retirement-plans-guide-2025.html",
+              "extension": ".html",
+              "size": 6560
+            },
+            {
+              "name": "work-life-balance-programs-2025.html",
+              "type": "file",
+              "path": "hr-legal/benefits/work-life-balance-programs-2025.html",
+              "extension": ".html",
+              "size": 6796
+            }
+          ]
+        },
+        {
+          "name": "employees",
+          "type": "directory",
+          "path": "hr-legal/employees",
+          "children": [
+            {
+              "name": "employees.csv",
+              "type": "file",
+              "path": "hr-legal/employees/employees.csv",
+              "extension": ".csv",
+              "size": 3409
+            },
+            {
+              "name": "employees.json",
+              "type": "file",
+              "path": "hr-legal/employees/employees.json",
+              "extension": ".json",
+              "size": 9451
+            }
+          ]
+        },
+        {
+          "name": "memos",
+          "type": "directory",
+          "path": "hr-legal/memos",
+          "children": [
+            {
+              "name": "Employee-Wellness-Program-Expansion-Announcement.md",
+              "type": "file",
+              "path": "hr-legal/memos/Employee-Wellness-Program-Expansion-Announcement.md",
+              "extension": ".md",
+              "size": 3979
+            },
+            {
+              "name": "IT-Security-Policy-Updates-and-Mandatory-Training.md",
+              "type": "file",
+              "path": "hr-legal/memos/IT-Security-Policy-Updates-and-Mandatory-Training.md",
+              "extension": ".md",
+              "size": 3788
+            },
+            {
+              "name": "Updated-Remote-Work-Policy.md",
+              "type": "file",
+              "path": "hr-legal/memos/Updated-Remote-Work-Policy.md",
+              "extension": ".md",
+              "size": 3932
+            }
+          ]
+        },
+        {
+          "name": "policies",
+          "type": "directory",
+          "path": "hr-legal/policies",
+          "children": [
+            {
+              "name": "benefits-overview-2024.html",
+              "type": "file",
+              "path": "hr-legal/policies/benefits-overview-2024.html",
+              "extension": ".html",
+              "size": 4541
+            },
+            {
+              "name": "employee-handbook-2024.html",
+              "type": "file",
+              "path": "hr-legal/policies/employee-handbook-2024.html",
+              "extension": ".html",
+              "size": 4755
+            },
+            {
+              "name": "privacy-policy.html",
+              "type": "file",
+              "path": "hr-legal/policies/privacy-policy.html",
+              "extension": ".html",
+              "size": 4581
+            },
+            {
+              "name": "remote-work-policy.html",
+              "type": "file",
+              "path": "hr-legal/policies/remote-work-policy.html",
+              "extension": ".html",
+              "size": 5005
+            },
+            {
+              "name": "warranty-and-return-policy.html",
+              "type": "file",
+              "path": "hr-legal/policies/warranty-and-return-policy.html",
+              "extension": ".html",
+              "size": 4947
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "metadata.json",
+      "type": "file",
+      "path": "metadata.json",
+      "extension": ".json",
+      "size": 3718
+    },
+    {
+      "name": "product",
+      "type": "directory",
+      "path": "product",
+      "children": [
+        {
+          "name": "meetings",
+          "type": "directory",
+          "path": "product/meetings",
+          "children": [
+            {
+              "name": "Customer-Advisory-Board---Product-Feedback-Session.md",
+              "type": "file",
+              "path": "product/meetings/Customer-Advisory-Board---Product-Feedback-Session.md",
+              "extension": ".md",
+              "size": 3380
+            },
+            {
+              "name": "Manufacturing-Automation-Investment-Discussion.md",
+              "type": "file",
+              "path": "product/meetings/Manufacturing-Automation-Investment-Discussion.md",
+              "extension": ".md",
+              "size": 3433
+            },
+            {
+              "name": "Q2-2024-Product-Planning-Meeting.md",
+              "type": "file",
+              "path": "product/meetings/Q2-2024-Product-Planning-Meeting.md",
+              "extension": ".md",
+              "size": 3044
+            },
+            {
+              "name": "Sales-Strategy-Session---Manufacturing-Sector-Growth.md",
+              "type": "file",
+              "path": "product/meetings/Sales-Strategy-Session---Manufacturing-Sector-Growth.md",
+              "extension": ".md",
+              "size": 3719
+            }
+          ]
+        },
+        {
+          "name": "memos",
+          "type": "directory",
+          "path": "product/memos",
+          "children": [
+            {
+              "name": "Manufacturing-Process-Improvement-Initiative.md",
+              "type": "file",
+              "path": "product/memos/Manufacturing-Process-Improvement-Initiative.md",
+              "extension": ".md",
+              "size": 3662
+            },
+            {
+              "name": "Sustainability-Initiative.md",
+              "type": "file",
+              "path": "product/memos/Sustainability-Initiative.md",
+              "extension": ".md",
+              "size": 3921
+            }
+          ]
+        },
+        {
+          "name": "projects",
+          "type": "directory",
+          "path": "product/projects",
+          "children": [
+            {
+              "name": "AI.md",
+              "type": "file",
+              "path": "product/projects/AI.md",
+              "extension": ".md",
+              "size": 3588
+            },
+            {
+              "name": "E.md",
+              "type": "file",
+              "path": "product/projects/E.md",
+              "extension": ".md",
+              "size": 3919
+            },
+            {
+              "name": "Manufacturing-Facility-Expansion.md",
+              "type": "file",
+              "path": "product/projects/Manufacturing-Facility-Expansion.md",
+              "extension": ".md",
+              "size": 3453
+            },
+            {
+              "name": "Next.md",
+              "type": "file",
+              "path": "product/projects/Next.md",
+              "extension": ".md",
+              "size": 3564
+            }
+          ]
+        },
+        {
+          "name": "support",
+          "type": "directory",
+          "path": "product/support",
+          "children": [
+            {
+              "name": "support_tickets.csv",
+              "type": "file",
+              "path": "product/support/support_tickets.csv",
+              "extension": ".csv",
+              "size": 32068
+            },
+            {
+              "name": "support_tickets.json",
+              "type": "file",
+              "path": "product/support/support_tickets.json",
+              "extension": ".json",
+              "size": 85979
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "type": "directory",
+      "path": "public",
+      "children": [
+        {
+          "name": "marketing-forms",
+          "type": "directory",
+          "path": "public/marketing-forms",
+          "children": [
+            {
+              "name": "customer-service-experience-survey.html",
+              "type": "file",
+              "path": "public/marketing-forms/customer-service-experience-survey.html",
+              "extension": ".html",
+              "size": 5325
+            },
+            {
+              "name": "post-purchase-feedback-form.html",
+              "type": "file",
+              "path": "public/marketing-forms/post-purchase-feedback-form.html",
+              "extension": ".html",
+              "size": 6453
+            },
+            {
+              "name": "product-satisfaction-survey.html",
+              "type": "file",
+              "path": "public/marketing-forms/product-satisfaction-survey.html",
+              "extension": ".html",
+              "size": 6985
+            }
+          ]
+        },
+        {
+          "name": "product-guides",
+          "type": "directory",
+          "path": "public/product-guides",
+          "children": [
+            {
+              "name": "autonav-agv-500---integration-guide.html",
+              "type": "file",
+              "path": "public/product-guides/autonav-agv-500---integration-guide.html",
+              "extension": ".html",
+              "size": 6633
+            },
+            {
+              "name": "cobot-precision-10kg---maintenance-best-practices-guide.html",
+              "type": "file",
+              "path": "public/product-guides/cobot-precision-10kg---maintenance-best-practices-guide.html",
+              "extension": ".html",
+              "size": 7246
+            },
+            {
+              "name": "precisionarm-6-axis---safety-and-compliance-guide.html",
+              "type": "file",
+              "path": "public/product-guides/precisionarm-6-axis---safety-and-compliance-guide.html",
+              "extension": ".html",
+              "size": 6946
+            },
+            {
+              "name": "smartcart-amr-1000---advanced-operations-guide.html",
+              "type": "file",
+              "path": "public/product-guides/smartcart-amr-1000---advanced-operations-guide.html",
+              "extension": ".html",
+              "size": 6720
+            },
+            {
+              "name": "welding-robot-pro---programming-quick-start-guide.html",
+              "type": "file",
+              "path": "public/product-guides/welding-robot-pro---programming-quick-start-guide.html",
+              "extension": ".html",
+              "size": 6789
+            }
+          ]
+        },
+        {
+          "name": "product-specs",
+          "type": "directory",
+          "path": "public/product-specs",
+          "children": [
+            {
+              "name": "6-axis-force-sensor---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/6-axis-force-sensor---technical-specification.html",
+              "extension": ".html",
+              "size": 4154
+            },
+            {
+              "name": "autonav-agv-500---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/autonav-agv-500---technical-specification.html",
+              "extension": ".html",
+              "size": 4743
+            },
+            {
+              "name": "autonav-agv-500---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/autonav-agv-500---user-guide.html",
+              "extension": ".html",
+              "size": 4051
+            },
+            {
+              "name": "cobot-assistant-5kg---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-assistant-5kg---technical-specification.html",
+              "extension": ".html",
+              "size": 4499
+            },
+            {
+              "name": "cobot-assistant-5kg---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-assistant-5kg---user-guide.html",
+              "extension": ".html",
+              "size": 4435
+            },
+            {
+              "name": "cobot-dual-arm-system---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-dual-arm-system---technical-specification.html",
+              "extension": ".html",
+              "size": 4584
+            },
+            {
+              "name": "cobot-dual-arm-system---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-dual-arm-system---user-guide.html",
+              "extension": ".html",
+              "size": 4289
+            },
+            {
+              "name": "cobot-mobile-platform---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-mobile-platform---technical-specification.html",
+              "extension": ".html",
+              "size": 4673
+            },
+            {
+              "name": "cobot-mobile-platform---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-mobile-platform---user-guide.html",
+              "extension": ".html",
+              "size": 4512
+            },
+            {
+              "name": "cobot-precision-10kg---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-precision-10kg---technical-specification.html",
+              "extension": ".html",
+              "size": 4943
+            },
+            {
+              "name": "cobot-precision-10kg---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/cobot-precision-10kg---user-guide.html",
+              "extension": ".html",
+              "size": 4626
+            },
+            {
+              "name": "end-effector-kit---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/end-effector-kit---technical-specification.html",
+              "extension": ".html",
+              "size": 4310
+            },
+            {
+              "name": "fleet-management-platform---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/fleet-management-platform---technical-specification.html",
+              "extension": ".html",
+              "size": 4640
+            },
+            {
+              "name": "heavyduty-articulated-robot---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/heavyduty-articulated-robot---technical-specification.html",
+              "extension": ".html",
+              "size": 4633
+            },
+            {
+              "name": "heavyduty-articulated-robot---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/heavyduty-articulated-robot---user-guide.html",
+              "extension": ".html",
+              "size": 4540
+            },
+            {
+              "name": "high-precision-gripper---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/high-precision-gripper---technical-specification.html",
+              "extension": ".html",
+              "size": 4421
+            },
+            {
+              "name": "highspeed-assembly-robot---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/highspeed-assembly-robot---technical-specification.html",
+              "extension": ".html",
+              "size": 5120
+            },
+            {
+              "name": "highspeed-assembly-robot---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/highspeed-assembly-robot---user-guide.html",
+              "extension": ".html",
+              "size": 4533
+            },
+            {
+              "name": "inspection-rover---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/inspection-rover---technical-specification.html",
+              "extension": ".html",
+              "size": 4455
+            },
+            {
+              "name": "inspection-rover---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/inspection-rover---user-guide.html",
+              "extension": ".html",
+              "size": 4309
+            },
+            {
+              "name": "palletmover-robot---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/palletmover-robot---technical-specification.html",
+              "extension": ".html",
+              "size": 4400
+            },
+            {
+              "name": "palletmover-robot---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/palletmover-robot---user-guide.html",
+              "extension": ".html",
+              "size": 4238
+            },
+            {
+              "name": "precisionarm-6-axis---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/precisionarm-6-axis---technical-specification.html",
+              "extension": ".html",
+              "size": 4535
+            },
+            {
+              "name": "precisionarm-6-axis---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/precisionarm-6-axis---user-guide.html",
+              "extension": ".html",
+              "size": 4574
+            },
+            {
+              "name": "predictive-maintenance-ai---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/predictive-maintenance-ai---technical-specification.html",
+              "extension": ".html",
+              "size": 4468
+            },
+            {
+              "name": "products.csv",
+              "type": "file",
+              "path": "public/product-specs/products.csv",
+              "extension": ".csv",
+              "size": 18813
+            },
+            {
+              "name": "products.json",
+              "type": "file",
+              "path": "public/product-specs/products.json",
+              "extension": ".json",
+              "size": 28055
+            },
+            {
+              "name": "robotos-control-suite---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/robotos-control-suite---technical-specification.html",
+              "extension": ".html",
+              "size": 4744
+            },
+            {
+              "name": "safety-scanner-system---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/safety-scanner-system---technical-specification.html",
+              "extension": ".html",
+              "size": 4219
+            },
+            {
+              "name": "simulation-and-programming-tool---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/simulation-and-programming-tool---technical-specification.html",
+              "extension": ".html",
+              "size": 4760
+            },
+            {
+              "name": "smartcart-amr-1000---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/smartcart-amr-1000---technical-specification.html",
+              "extension": ".html",
+              "size": 4690
+            },
+            {
+              "name": "smartcart-amr-1000---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/smartcart-amr-1000---user-guide.html",
+              "extension": ".html",
+              "size": 4319
+            },
+            {
+              "name": "vision-system-pro---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/vision-system-pro---technical-specification.html",
+              "extension": ".html",
+              "size": 4293
+            },
+            {
+              "name": "welding-robot-pro---technical-specification.html",
+              "type": "file",
+              "path": "public/product-specs/welding-robot-pro---technical-specification.html",
+              "extension": ".html",
+              "size": 5012
+            },
+            {
+              "name": "welding-robot-pro---user-guide.html",
+              "type": "file",
+              "path": "public/product-specs/welding-robot-pro---user-guide.html",
+              "extension": ".html",
+              "size": 4522
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sales-marketing",
+      "type": "directory",
+      "path": "sales-marketing",
+      "children": [
+        {
+          "name": "campaigns",
+          "type": "directory",
+          "path": "sales-marketing/campaigns",
+          "children": [
+            {
+              "name": "marketing_campaigns.csv",
+              "type": "file",
+              "path": "sales-marketing/campaigns/marketing_campaigns.csv",
+              "extension": ".csv",
+              "size": 9035
+            },
+            {
+              "name": "marketing_campaigns.json",
+              "type": "file",
+              "path": "sales-marketing/campaigns/marketing_campaigns.json",
+              "extension": ".json",
+              "size": 25555
+            }
+          ]
+        },
+        {
+          "name": "customers",
+          "type": "directory",
+          "path": "sales-marketing/customers",
+          "children": [
+            {
+              "name": "customers.csv",
+              "type": "file",
+              "path": "sales-marketing/customers/customers.csv",
+              "extension": ".csv",
+              "size": 97016
+            },
+            {
+              "name": "customers.json",
+              "type": "file",
+              "path": "sales-marketing/customers/customers.json",
+              "extension": ".json",
+              "size": 277329
+            }
+          ]
+        },
+        {
+          "name": "leads",
+          "type": "directory",
+          "path": "sales-marketing/leads",
+          "children": [
+            {
+              "name": "Lead-Tracking-Content-Downloads-March-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Content-Downloads-March-2025.md",
+              "extension": ".md",
+              "size": 3186
+            },
+            {
+              "name": "Lead-Tracking-Direct-Sales-May-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Direct-Sales-May-2025.md",
+              "extension": ".md",
+              "size": 3345
+            },
+            {
+              "name": "Lead-Tracking-Email-Campaigns-August-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Email-Campaigns-August-2025.md",
+              "extension": ".md",
+              "size": 3265
+            },
+            {
+              "name": "Lead-Tracking-Referrals-June-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Referrals-June-2025.md",
+              "extension": ".md",
+              "size": 3537
+            },
+            {
+              "name": "Lead-Tracking-Social-Media-July-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Social-Media-July-2025.md",
+              "extension": ".md",
+              "size": 3587
+            },
+            {
+              "name": "Lead-Tracking-Trade-Shows-January-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Trade-Shows-January-2025.md",
+              "extension": ".md",
+              "size": 3491
+            },
+            {
+              "name": "Lead-Tracking-Trade-Shows-September-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Trade-Shows-September-2025.md",
+              "extension": ".md",
+              "size": 3594
+            },
+            {
+              "name": "Lead-Tracking-Webinars-April-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Webinars-April-2025.md",
+              "extension": ".md",
+              "size": 3420
+            },
+            {
+              "name": "Lead-Tracking-Website-February-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Website-February-2025.md",
+              "extension": ".md",
+              "size": 3265
+            },
+            {
+              "name": "Lead-Tracking-Website-October-2025.md",
+              "type": "file",
+              "path": "sales-marketing/leads/Lead-Tracking-Website-October-2025.md",
+              "extension": ".md",
+              "size": 3460
+            }
+          ]
+        },
+        {
+          "name": "memos",
+          "type": "directory",
+          "path": "sales-marketing/memos",
+          "children": [
+            {
+              "name": "Customer-Satisfaction-Survey-Results.md",
+              "type": "file",
+              "path": "sales-marketing/memos/Customer-Satisfaction-Survey-Results.md",
+              "extension": ".md",
+              "size": 3324
+            },
+            {
+              "name": "NPS-Trends-and-Customer-Satisfaction---Q1-2024.md",
+              "type": "file",
+              "path": "sales-marketing/memos/NPS-Trends-and-Customer-Satisfaction---Q1-2024.md",
+              "extension": ".md",
+              "size": 4409
+            },
+            {
+              "name": "NPS-Trends-and-Customer-Satisfaction---Q2-2024.md",
+              "type": "file",
+              "path": "sales-marketing/memos/NPS-Trends-and-Customer-Satisfaction---Q2-2024.md",
+              "extension": ".md",
+              "size": 4136
+            },
+            {
+              "name": "NPS-Trends-and-Customer-Satisfaction---Q3-2024.md",
+              "type": "file",
+              "path": "sales-marketing/memos/NPS-Trends-and-Customer-Satisfaction---Q3-2024.md",
+              "extension": ".md",
+              "size": 3913
+            },
+            {
+              "name": "NPS-Trends-and-Customer-Satisfaction---Q4-2024.md",
+              "type": "file",
+              "path": "sales-marketing/memos/NPS-Trends-and-Customer-Satisfaction---Q4-2024.md",
+              "extension": ".md",
+              "size": 4091
+            },
+            {
+              "name": "New-CoBot-Product-Line-Launch-Announcement.md",
+              "type": "file",
+              "path": "sales-marketing/memos/New-CoBot-Product-Line-Launch-Announcement.md",
+              "extension": ".md",
+              "size": 3758
+            },
+            {
+              "name": "New-System-Integrator-Partnership-Program-Launch.md",
+              "type": "file",
+              "path": "sales-marketing/memos/New-System-Integrator-Partnership-Program-Launch.md",
+              "extension": ".md",
+              "size": 3979
+            },
+            {
+              "name": "Q1-2024-Sales-Performance-Summary.md",
+              "type": "file",
+              "path": "sales-marketing/memos/Q1-2024-Sales-Performance-Summary.md",
+              "extension": ".md",
+              "size": 3416
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

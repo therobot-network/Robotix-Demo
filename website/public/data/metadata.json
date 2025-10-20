@@ -1,0 +1,174 @@
+{
+  "generated_date": "2025-10-13 18:41:21",
+  "company": {
+    "name": "Robotix",
+    "tagline": "Automate Your Future",
+    "industry": "Robotics & Automation",
+    "founded": 1998,
+    "headquarters": "Bothell, Washington",
+    "employees": 290,
+    "revenue": "$42M (2024)",
+    "description": "Leading manufacturer and integrator of industrial robots, collaborative robots, and automation solutions."
+  },
+  "datasets": {
+    "employees": {
+      "record_count": 20,
+      "fields": [
+        "employee_id",
+        "first_name",
+        "last_name",
+        "full_name",
+        "email",
+        "title",
+        "department",
+        "hire_date",
+        "salary",
+        "location",
+        "employment_type",
+        "manager",
+        "performance_rating",
+        "years_of_service",
+        "status"
+      ]
+    },
+    "products": {
+      "record_count": 21,
+      "fields": [
+        "sku",
+        "product_name",
+        "category",
+        "description",
+        "msrp",
+        "cost",
+        "margin",
+        "margin_pct",
+        "weight_kg",
+        "payload_capacity",
+        "reach_mm",
+        "color_options",
+        "configurations_available",
+        "inventory_on_hand",
+        "inventory_location",
+        "reorder_point",
+        "supplier",
+        "lead_time_days",
+        "status",
+        "release_date",
+        "warranty_years"
+      ]
+    },
+    "customers": {
+      "record_count": 500,
+      "fields": [
+        "customer_id",
+        "company_name",
+        "contact_first_name",
+        "contact_last_name",
+        "email",
+        "phone",
+        "address",
+        "city",
+        "state",
+        "zip_code",
+        "signup_date",
+        "customer_type",
+        "industry",
+        "account_manager",
+        "lifetime_value",
+        "total_orders",
+        "status"
+      ]
+    },
+    "orders": {
+      "record_count": 1000,
+      "fields": [
+        "order_id",
+        "customer_id",
+        "order_date",
+        "subtotal",
+        "discount",
+        "tax",
+        "shipping",
+        "total",
+        "payment_method",
+        "payment_terms",
+        "order_status",
+        "shipping_address",
+        "shipping_city",
+        "shipping_state",
+        "shipping_zip",
+        "sales_channel",
+        "sales_rep"
+      ]
+    },
+    "order_items": {
+      "record_count": 3460,
+      "fields": [
+        "order_item_id",
+        "order_id",
+        "product_sku",
+        "product_name",
+        "quantity",
+        "unit_price",
+        "line_total",
+        "discount_applied"
+      ]
+    },
+    "support_tickets": {
+      "record_count": 200,
+      "fields": [
+        "ticket_id",
+        "customer_id",
+        "customer_email",
+        "company_name",
+        "subject",
+        "priority",
+        "status",
+        "created_date",
+        "resolved_date",
+        "assigned_to",
+        "category",
+        "satisfaction_rating"
+      ]
+    },
+    "invoices": {
+      "record_count": 200,
+      "fields": [
+        "invoice_id",
+        "customer_id",
+        "order_id",
+        "invoice_date",
+        "due_date",
+        "subtotal",
+        "tax",
+        "shipping",
+        "total",
+        "payment_status",
+        "payment_date",
+        "payment_method",
+        "notes"
+      ]
+    },
+    "marketing_campaigns": {
+      "record_count": 50,
+      "fields": [
+        "campaign_id",
+        "campaign_name",
+        "campaign_type",
+        "target_audience",
+        "start_date",
+        "end_date",
+        "budget",
+        "actual_spend",
+        "leads_generated",
+        "conversions",
+        "conversion_rate",
+        "revenue_generated",
+        "roi",
+        "status",
+        "owner",
+        "notes"
+      ]
+    }
+  }
+}

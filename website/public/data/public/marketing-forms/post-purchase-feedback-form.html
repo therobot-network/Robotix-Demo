@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Purchase Feedback Form - Robotix</title>
+</head>
+<body>
+    <h1>Post-Purchase Feedback Form</h1>
+    <p><strong>Category:</strong> Marketing | <strong>Type:</strong> Survey Template | <strong>Date:</strong> 2025-10-13 | <strong>Author:</strong> Chris Patel, Marketing Manager</p>
+    <hr>
+    <div class="feedback-container">
+    <h2>Robotix Post-Purchase Feedback Form</h2>
+    <p class="intro">Thank you for purchasing from Robotix. Please take a moment to share your experience with our products and services. Your feedback helps us improve.</p>
+
+    <form id="feedback-form">
+        <div class="section">
+            <h3>Product Information</h3>
+            <label>Product Model Purchased:</label>
+            <select name="product" required>
+                <option value="">Select Product</option>
+                <option value="RX-5000">RX-5000 Industrial Arm</option>
+                <option value="CR-2000">CR-2000 Collaborative Robot</option>
+                <option value="MR-100">MR-100 Mobile Platform</option>
+                <option value="AS-500">AutomationSuite Pro</option>
+            </select>
+
+            <label>Purchase Date:</label>
+            <input type="date" name="purchase_date" required>
+        </div>
+
+        <div class="section">
+            <h3>Product Quality Assessment</h3>
+            
+            <label>How would you rate the overall quality of the product?</label>
+            <div class="rating">
+                <input type="radio" name="quality" value="5"> Excellent
+                <input type="radio" name="quality" value="4"> Very Good
+                <input type="radio" name="quality" value="3"> Good
+                <input type="radio" name="quality" value="2"> Fair
+                <input type="radio" name="quality" value="1"> Poor
+            </div>
+
+            <label>Please rate the following aspects:</label>
+            <table class="rating-table">
+                <tr>
+                    <th>Aspect</th>
+                    <th>Excellent</th>
+                    <th>Good</th>
+                    <th>Fair</th>
+                    <th>Poor</th>
+                </tr>
+                <tr>
+                    <td>Ease of Installation</td>
+                    <td><input type="radio" name="installation" value="4"></td>
+                    <td><input type="radio" name="installation" value="3"></td>
+                    <td><input type="radio" name="installation" value="2"></td>
+                    <td><input type="radio" name="installation" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Performance Reliability</td>
+                    <td><input type="radio" name="reliability" value="4"></td>
+                    <td><input type="radio" name="reliability" value="3"></td>
+                    <td><input type="radio" name="reliability" value="2"></td>
+                    <td><input type="radio" name="reliability" value="1"></td>
+                </tr>
+                <tr>
+                    <td>Software Interface</td>
+                    <td><input type="radio" name="software" value="4"></td>
+                    <td><input type="radio" name="software" value="3"></td>
+                    <td><input type="radio" name="software" value="2"></td>
+                    <td><input type="radio" name="software" value="1"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h3>Service Experience</h3>
+            
+            <label>How satisfied were you with the technical support received?</label>
+            <select name="support_satisfaction">
+                <option value="5">Very Satisfied</option>
+                <option value="4">Satisfied</option>
+                <option value="3">Neutral</option>
+                <option value="2">Dissatisfied</option>
+                <option value="1">Very Dissatisfied</option>
+            </select>
+
+            <label>Did you receive adequate training and documentation?</label>
+            <div class="options">
+                <input type="checkbox" name="training" value="yes"> Yes
+                <input type="checkbox" name="training" value="no"> No
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Open Feedback</h3>
+            
+            <label>What improvements would you suggest for our products or services?</label>
+            <textarea name="improvements" rows="4"></textarea>
+
+            <label>Would you recommend Robotix to others?</label>
+            <select name="recommend">
+                <option value="5">Definitely Would</option>
+                <option value="4">Probably Would</option>
+                <option value="3">Might</option>
+                <option value="2">Probably Not</option>
+                <option value="1">Definitely Not</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="sample-responses">
+        <h3>Sample Response Examples</h3>
+        <div class="response">
+            <strong>Customer 1:</strong>
+            <p>Product: RX-5000 Industrial Arm<br>
+            Overall Rating: Excellent<br>
+            Comments: "The precision and reliability exceeded our expectations. Integration with existing systems was seamless. Technical support team was highly knowledgeable."</p>
+        </div>
+
+        <div class="response">
+            <strong>Customer 2:</strong>
+            <p>Product: CR-2000 Collaborative Robot<br>
+            Overall Rating: Good<br>
+            Comments: "Good product overall, but initial setup was challenging. Documentation could be more detailed. Support team was responsive but resolution took longer than expected."</p>
+        </div>
+    </div>
+
+    <div class="results-summary">
+        <h3>Aggregate Feedback Results (Last Quarter)</h3>
+        <ul>
+            <li>Average Product Quality Rating: 4.3/5.0</li>
+            <li>Technical Support Satisfaction: 87%</li>
+            <li>Would Recommend: 92%</li>
+            <li>Top Improvement Suggestions:
+                <ul>
+                    <li>Enhanced documentation (23%)</li>
+                    <li>Faster support response (18%)</li>
+                    <li>Additional training resources (15%)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
