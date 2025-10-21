@@ -17,22 +17,24 @@ load_dotenv()
 # AI Integration
 try:
     from langchain_anthropic import ChatAnthropic
+
     AI_AVAILABLE = True
 except ImportError:
     AI_AVAILABLE = False
     print("⚠️  LangChain not installed for unstructured data generation.")
 
+
 class UnstructuredDataGenerator:
-    
+
     def __init__(self, output_dir="data/unstructured", use_ai=True):
         self.output_dir = output_dir
         self.use_ai = use_ai and AI_AVAILABLE
-        
+
         os.makedirs(output_dir, exist_ok=True)
         os.makedirs(f"{output_dir}/memos", exist_ok=True)
         os.makedirs(f"{output_dir}/meetings", exist_ok=True)
         os.makedirs(f"{output_dir}/projects", exist_ok=True)
-        
+
         # Initialize AI model if available
         if self.use_ai:
             api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -40,31 +42,35 @@ class UnstructuredDataGenerator:
                 self.llm = ChatAnthropic(
                     model="claude-3-5-sonnet-20241022",
                     temperature=0.8,  # Higher for creative content
-                    max_tokens=6000
+                    max_tokens=6000,
                 )
-                print("✅ AI content generation enabled for unstructured docs (Claude 3.5 Sonnet)")
+                print(
+                    "✅ AI content generation enabled for unstructured docs (Claude 3.5 Sonnet)"
+                )
             else:
                 self.use_ai = False
                 print("⚠️  ANTHROPIC_API_KEY not found for unstructured generation.")
-    
+
     def _get_timestamp(self):
         """Get formatted timestamp"""
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     def _print_progress_bar(self, current, total, label="Progress", width=40):
         """Print a progress bar"""
         percent = current / total
         filled = int(width * percent)
         bar = "█" * filled + "░" * (width - filled)
-        print(f"   {label}: [{bar}] {int(percent * 100)}% ({current}/{total})", end='\r')
+        print(
+            f"   {label}: [{bar}] {int(percent * 100)}% ({current}/{total})", end="\r"
+        )
         if current == total:
             print()  # New line when complete
-    
+
     def _generate_ai_content(self, content_type, context):
         """Generate content using AI"""
         if not self.use_ai:
             return f"AI generation not available. {content_type} content would go here."
-        
+
         try:
             prompt = f"""Generate realistic business content for Robotix (robotics manufacturer, 290 employees, $42M revenue).
 
@@ -87,7 +93,7 @@ Generate ONLY the content body (I'll add the header separately)."""
         except Exception as e:
             print(f"   ⚠️  AI generation failed for {content_type}: {str(e)}")
             return f"Content generation failed. {content_type} content would go here."
-    
+
     def generate_internal_memo(self, subject, from_person, to_people, date, content):
         """Format an internal memo in markdown"""
         memo = f"""# INTERNAL MEMORANDUM
@@ -106,7 +112,7 @@ Generate ONLY the content body (I'll add the header separately)."""
 For questions regarding this memo, please contact {from_person['name']} at {from_person['email']}.
 """
         return memo
-    
+
     def generate_meeting_notes(self, meeting_title, attendees, date, content):
         """Format meeting notes in markdown"""
         meeting_doc = f"""# {meeting_title}
@@ -121,7 +127,7 @@ For questions regarding this memo, please contact {from_person['name']} at {from
 *Notes compiled by {random.choice(attendees)}*
 """
         return meeting_doc
-    
+
     def generate_project_document(self, project_name, owner, date, content):
         """Format project documentation"""
         doc = f"""# Project: {project_name}
@@ -133,11 +139,11 @@ For questions regarding this memo, please contact {from_person['name']} at {from
 {content}
 """
         return doc
-    
+
     def generate_all_memos(self):
         """Generate various internal memos using AI"""
         memos = []
-        
+
         # Define memo topics
         memo_topics = [
             {
@@ -151,7 +157,7 @@ For questions regarding this memo, please contact {from_person['name']} at {from
 - Top performing products
 - Major wins (large manufacturing clients, system integrations)
 - Q2 outlook and targets
-Include realistic metrics for robotics sales."""
+Include realistic metrics for robotics sales.""",
             },
             {
                 "subject": "New CoBot Product Line Launch Announcement",
@@ -165,7 +171,7 @@ Include realistic metrics for robotics sales."""
 - Manufacturing readiness
 - Competitive positioning in cobot market
 - Launch events and demonstrations
-Include technical details relevant to robotics."""
+Include technical details relevant to robotics.""",
             },
             {
                 "subject": "Updated Remote Work Policy - Effective April 1, 2024",
@@ -180,7 +186,7 @@ Include technical details relevant to robotics."""
 - Department-specific policies (Manufacturing/Production require on-site)
 - Implementation timeline
 - Employee feedback data supporting change
-Note: Robotics manufacturing roles require on-site presence."""
+Note: Robotics manufacturing roles require on-site presence.""",
             },
             {
                 "subject": "Manufacturing Process Improvement Initiative - Phase 1 Results",
@@ -195,7 +201,7 @@ Note: Robotics manufacturing roles require on-site presence."""
 - Equipment upgrades (automation in production)
 - Phase 2 plans (additional automation, capacity expansion)
 - Financial impact
-Include specific metrics for robot manufacturing facility."""
+Include specific metrics for robot manufacturing facility.""",
             },
             {
                 "subject": "Sustainability Initiative - Carbon Neutral Manufacturing Goal",
@@ -211,7 +217,7 @@ Include specific metrics for robot manufacturing facility."""
 - Employee engagement programs
 - Cost-benefit analysis
 - Industry leadership position
-Make it relevant to robotics/electronics manufacturing."""
+Make it relevant to robotics/electronics manufacturing.""",
             },
             {
                 "subject": "Customer Satisfaction Survey Results - Q1 2024",
@@ -226,7 +232,7 @@ Make it relevant to robotics/electronics manufacturing."""
 - Areas for improvement (documentation, response times)
 - Action plans based on feedback
 - Competitive benchmarking
-Focus on B2B robotics customers."""
+Focus on B2B robotics customers.""",
             },
             {
                 "subject": "IT Security Policy Updates and Mandatory Training",
@@ -242,7 +248,7 @@ Focus on B2B robotics customers."""
 - Incident reporting procedures
 - Mandatory security training (deadline, format)
 - Compliance requirements
-Include specifics for industrial IoT and connected robot systems."""
+Include specifics for industrial IoT and connected robot systems.""",
             },
             {
                 "subject": "New System Integrator Partnership Program Launch",
@@ -257,7 +263,7 @@ Include specifics for industrial IoT and connected robot systems."""
 - Target partner profile
 - Application process
 - Expected business impact
-- Competitive advantage in robotics integration market."""
+- Competitive advantage in robotics integration market.""",
             },
             {
                 "subject": "Employee Wellness Program Expansion Announcement",
@@ -272,51 +278,58 @@ Include specifics for industrial IoT and connected robot systems."""
 - Wellness challenges and incentives
 - Employee Assistance Program enhancements
 - Participation details and enrollment
-- Cost savings and ROI for employees."""
-            }
+- Cost savings and ROI for employees.""",
+            },
         ]
-        
+
         print(f"   [{self._get_timestamp()}] Generating AI-powered memos...")
         total = len(memo_topics)
         for idx, memo_def in enumerate(memo_topics, 1):
-            from_person = random.choice(get_employees_by_dept(memo_def['dept']))
+            from_person = random.choice(get_employees_by_dept(memo_def["dept"]))
             date = format_date(get_random_date(2024, 2024))
-            
+
             self._print_progress_bar(idx - 0.5, total, "Memo Progress")
             content = self._generate_ai_content(
-                f"Internal Memo - {memo_def['subject']}",
-                memo_def['context']
+                f"Internal Memo - {memo_def['subject']}", memo_def["context"]
             )
-            
+
             memo = self.generate_internal_memo(
-                subject=memo_def['subject'],
+                subject=memo_def["subject"],
                 from_person=from_person,
-                to_people=memo_def['to'],
+                to_people=memo_def["to"],
                 date=date,
-                content=content
+                content=content,
             )
-            
-            filename = memo_def['subject'].split('-')[0].strip().replace(' ', '-')[:50] + '.md'
+
+            filename = (
+                memo_def["subject"].split("-")[0].strip().replace(" ", "-")[:50] + ".md"
+            )
             memos.append((filename, memo))
             self._print_progress_bar(idx, total, "Memo Progress")
-        
+
         # Save all memos
         print(f"\n   [{self._get_timestamp()}] Saving memos to disk...")
         for filename, content in memos:
             filepath = f"{self.output_dir}/memos/{filename}"
-            with open(filepath, 'w', encoding='utf-8') as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
-        
+
         return memos
-    
+
     def generate_all_meeting_notes(self):
         """Generate various meeting notes using AI"""
         meetings = []
-        
+
         meeting_topics = [
             {
                 "title": "Q2 2024 Product Planning Meeting",
-                "attendees": ["Emily Thompson", "Nicole Sanders", "Marcus Johnson", "Rachel Green", "Sarah Chen"],
+                "attendees": [
+                    "Emily Thompson",
+                    "Nicole Sanders",
+                    "Marcus Johnson",
+                    "Rachel Green",
+                    "Sarah Chen",
+                ],
                 "context": """Generate product planning meeting notes covering:
 - Q1 product performance review (best sellers, challenges)
 - Q2 product launches (new cobot models, software updates)
@@ -325,11 +338,16 @@ Include specifics for industrial IoT and connected robot systems."""
 - Competitive landscape analysis (other robotics companies)
 - Supply chain updates (semiconductor availability, lead times)
 - Market opportunities (emerging applications, industries)
-Include action items and next steps."""
+Include action items and next steps.""",
             },
             {
                 "title": "Sales Strategy Session - Manufacturing Sector Growth",
-                "attendees": ["David Martinez", "Jessica Martinez", "Chris Patel", "Sarah Chen"],
+                "attendees": [
+                    "David Martinez",
+                    "Jessica Martinez",
+                    "Chris Patel",
+                    "Sarah Chen",
+                ],
                 "context": """Generate sales strategy meeting notes covering:
 - Current manufacturing sector penetration
 - Target industries (automotive, electronics, food processing)
@@ -340,11 +358,16 @@ Include action items and next steps."""
 - Demo and proof-of-concept programs
 - Sales training needs
 - Revenue targets and quotas
-Include specific action items for team members."""
+Include specific action items for team members.""",
             },
             {
                 "title": "Manufacturing Automation Investment Discussion",
-                "attendees": ["James Wilson", "Sarah Chen", "Michael Rodriguez", "Emily Thompson"],
+                "attendees": [
+                    "James Wilson",
+                    "Sarah Chen",
+                    "Michael Rodriguez",
+                    "Emily Thompson",
+                ],
                 "context": """Generate executive meeting notes covering:
 - Proposal for additional production automation
 - Capital investment requirements ($2M-$5M range)
@@ -354,11 +377,16 @@ Include specific action items for team members."""
 - Labor impact and retraining
 - Timeline for implementation
 - Risk assessment
-- Decision and next steps."""
+- Decision and next steps.""",
             },
             {
                 "title": "Customer Advisory Board - Product Feedback Session",
-                "attendees": ["David Martinez", "Emily Thompson", "Nicole Sanders", "Marcus Johnson"],
+                "attendees": [
+                    "David Martinez",
+                    "Emily Thompson",
+                    "Nicole Sanders",
+                    "Marcus Johnson",
+                ],
                 "context": """Generate customer advisory board meeting notes covering:
 - Customer feedback on current products
 - Feature requests and improvements
@@ -368,45 +396,44 @@ Include specific action items for team members."""
 - Future product direction input
 - Industry trends and needs
 - Competitive comparisons
-- Action items for product team."""
-            }
+- Action items for product team.""",
+            },
         ]
-        
+
         print(f"   [{self._get_timestamp()}] Generating AI-powered meeting notes...")
         total = len(meeting_topics)
         for idx, meeting_def in enumerate(meeting_topics, 1):
             date = format_date(get_random_date(2024, 2024))
-            
+
             self._print_progress_bar(idx - 0.5, total, "Meeting Progress")
             content = self._generate_ai_content(
-                f"Meeting Notes - {meeting_def['title']}",
-                meeting_def['context']
+                f"Meeting Notes - {meeting_def['title']}", meeting_def["context"]
             )
-            
+
             meeting_doc = self.generate_meeting_notes(
-                meeting_title=meeting_def['title'],
-                attendees=meeting_def['attendees'],
+                meeting_title=meeting_def["title"],
+                attendees=meeting_def["attendees"],
                 date=date,
-                content=content
+                content=content,
             )
-            
-            filename = meeting_def['title'].replace(' ', '-')[:60] + '.md'
+
+            filename = meeting_def["title"].replace(" ", "-")[:60] + ".md"
             meetings.append((filename, meeting_doc))
             self._print_progress_bar(idx, total, "Meeting Progress")
-        
+
         # Save all meeting notes
         print(f"\n   [{self._get_timestamp()}] Saving meeting notes to disk...")
         for filename, content in meetings:
             filepath = f"{self.output_dir}/meetings/{filename}"
-            with open(filepath, 'w', encoding='utf-8') as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
-        
+
         return meetings
-    
+
     def generate_project_docs(self):
         """Generate project documentation using AI"""
         projects = []
-        
+
         project_topics = [
             {
                 "name": "E-Commerce Platform Modernization (Phase 2)",
@@ -419,7 +446,7 @@ Include specific action items for team members."""
 - Team: IT team, external developers, UX agency, product liaisons
 - Resources: $350K budget, React/Node.js stack, integration with ERP
 - Success metrics: Conversion rate increase, quote generation efficiency, customer satisfaction
-- Risks and mitigation strategies."""
+- Risks and mitigation strategies.""",
             },
             {
                 "name": "Next-Generation Industrial Robot Development",
@@ -432,7 +459,7 @@ Include specific action items for team members."""
 - Team: Engineering team, software developers, manufacturing liaison
 - Resources: $3M R&D budget, simulation software, testing facilities
 - Technical milestones and deliverables
-- Market opportunity and competitive positioning."""
+- Market opportunity and competitive positioning.""",
             },
             {
                 "name": "Manufacturing Facility Expansion - Minneapolis",
@@ -445,7 +472,7 @@ Include specific action items for team members."""
 - Team: Facilities manager, manufacturing director, HR, finance
 - Resources: $8M capital investment, construction contractor, equipment vendors
 - Capacity analysis and production projections
-- Impact on delivery times and revenue."""
+- Impact on delivery times and revenue.""",
             },
             {
                 "name": "AI-Powered Predictive Maintenance Platform",
@@ -458,61 +485,64 @@ Include specific action items for team members."""
 - Team: Software engineers, data scientists, customer success
 - Resources: $500K budget, AWS infrastructure, ML tools
 - Technical architecture and data requirements
-- Revenue model (subscription SaaS) and business case."""
-            }
+- Revenue model (subscription SaaS) and business case.""",
+            },
         ]
-        
-        print(f"   [{self._get_timestamp()}] Generating AI-powered project documents...")
+
+        print(
+            f"   [{self._get_timestamp()}] Generating AI-powered project documents..."
+        )
         total = len(project_topics)
         for idx, project_def in enumerate(project_topics, 1):
-            owner = random.choice(get_employees_by_dept(project_def['owner_dept']))
+            owner = random.choice(get_employees_by_dept(project_def["owner_dept"]))
             date = format_date(get_random_date(2024, 2024))
-            
+
             self._print_progress_bar(idx - 0.5, total, "Project Progress")
             content = self._generate_ai_content(
-                f"Project Documentation - {project_def['name']}",
-                project_def['context']
+                f"Project Documentation - {project_def['name']}", project_def["context"]
             )
-            
+
             project_doc = self.generate_project_document(
-                project_name=project_def['name'],
+                project_name=project_def["name"],
                 owner=owner,
                 date=date,
-                content=content
+                content=content,
             )
-            
-            filename = project_def['name'].split('-')[0].strip().replace(' ', '-')[:50] + '.md'
+
+            filename = (
+                project_def["name"].split("-")[0].strip().replace(" ", "-")[:50] + ".md"
+            )
             projects.append((filename, project_doc))
             self._print_progress_bar(idx, total, "Project Progress")
-        
+
         # Save project docs
         print(f"\n   [{self._get_timestamp()}] Saving project documents to disk...")
         for filename, content in projects:
             filepath = f"{self.output_dir}/projects/{filename}"
-            with open(filepath, 'w', encoding='utf-8') as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
-        
+
         return projects
-    
+
     def generate_all(self):
         """Generate all unstructured content using AI"""
         print(f"\n[{self._get_timestamp()}] 📝 Generating unstructured documents...")
-        
+
         memos = self.generate_all_memos()
         print(f"  ✓ [{self._get_timestamp()}] Generated {len(memos)} internal memos\n")
-        
+
         meetings = self.generate_all_meeting_notes()
-        print(f"  ✓ [{self._get_timestamp()}] Generated {len(meetings)} meeting notes\n")
-        
+        print(
+            f"  ✓ [{self._get_timestamp()}] Generated {len(meetings)} meeting notes\n"
+        )
+
         projects = self.generate_project_docs()
-        print(f"  ✓ [{self._get_timestamp()}] Generated {len(projects)} project documents\n")
-        
+        print(
+            f"  ✓ [{self._get_timestamp()}] Generated {len(projects)} project documents\n"
+        )
+
         total = len(memos) + len(meetings) + len(projects)
         print(f"✅ Total unstructured documents: {total}")
         print(f"   Location: {self.output_dir}/")
-        
-        return {
-            "memos": memos,
-            "meetings": meetings,
-            "projects": projects
-        }
+
+        return {"memos": memos, "meetings": meetings, "projects": projects}

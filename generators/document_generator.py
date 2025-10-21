@@ -16,36 +16,40 @@ load_dotenv()
 # AI Integration
 try:
     from langchain_anthropic import ChatAnthropic
+
     AI_AVAILABLE = True
 except ImportError:
     AI_AVAILABLE = False
     print("⚠️  LangChain not installed for document generation.")
 
+
 class DocumentGenerator:
-    
+
     def __init__(self, use_ai=True):
         self.generated_docs = []
         self.use_ai = use_ai and AI_AVAILABLE
-        
+
         # Initialize AI model if available
         if self.use_ai:
             api_key = os.environ.get("ANTHROPIC_API_KEY")
             if api_key:
                 self.llm = ChatAnthropic(
-                    model="claude-3-5-sonnet-20241022",
-                    temperature=0.7,
-                    max_tokens=8000
+                    model="claude-3-5-sonnet-20241022", temperature=0.7, max_tokens=8000
                 )
-                print("✅ AI content generation enabled for HTML documents (Claude 3.5 Sonnet)")
+                print(
+                    "✅ AI content generation enabled for HTML documents (Claude 3.5 Sonnet)"
+                )
             else:
                 self.use_ai = False
                 print("⚠️  ANTHROPIC_API_KEY not found for document generation.")
-    
+
     def _generate_ai_document(self, doc_type, context):
         """Generate document using AI with structured context"""
         if not self.use_ai:
-            return f"<p>AI generation not available. {doc_type} content would go here.</p>"
-        
+            return (
+                f"<p>AI generation not available. {doc_type} content would go here.</p>"
+            )
+
         try:
             prompt = f"""Generate a comprehensive, realistic {doc_type} document for Robotix.
 
@@ -65,21 +69,23 @@ Generate ONLY the HTML content body (no document headers, no <html> or <body> ta
 
             response = self.llm.invoke(prompt)
             content = response.content.strip()
-            
+
             # Ensure no h1 tags in content
-            content = content.replace('<h1>', '<h2>').replace('</h1>', '</h2>')
-            
+            content = content.replace("<h1>", "<h2>").replace("</h1>", "</h2>")
+
             return content
         except Exception as e:
             print(f"   ⚠️  AI generation failed for {doc_type}: {str(e)}")
-            return f"<p>Content generation failed. {doc_type} content would go here.</p>"
-    
+            return (
+                f"<p>Content generation failed. {doc_type} content would go here.</p>"
+            )
+
     # ===== HR DOCUMENTS =====
-    
+
     def generate_employee_handbook(self):
         """Generate comprehensive employee handbook using AI"""
         author = get_employees_by_dept("Human Resources")[0]
-        
+
         context = f"""
 Company: {COMPANY['name']} - {COMPANY['tagline']}
 Industry: {COMPANY['industry']} (robotics manufacturing and sales)
@@ -106,24 +112,24 @@ Generate a comprehensive employee handbook covering:
 
 Include specific, realistic details for a robotics company.
 """
-        
+
         content = self._generate_ai_document("Employee Handbook", context)
-        
+
         doc = {
             "title": "Employee Handbook 2024",
             "category": "HR",
             "type": "Policy",
             "date": "January 1, 2024",
             "author": author["name"],
-            "content": f"<h1>Robotix Employee Handbook</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n\n{content}"
+            "content": f"<h1>Robotix Employee Handbook</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     def generate_remote_work_policy(self):
         """Generate remote work policy using AI"""
         author = get_employees_by_dept("Human Resources")[0]
-        
+
         context = f"""
 Company: {COMPANY['name']} - Robotics manufacturer
 Author: {author['name']}, {author['title']}
@@ -146,24 +152,24 @@ Generate a comprehensive remote work policy covering:
 
 Note: Manufacturing and hardware roles require on-site presence due to equipment.
 """
-        
+
         content = self._generate_ai_document("Remote Work Policy", context)
-        
+
         doc = {
             "title": "Remote Work Policy",
             "category": "HR",
             "type": "Policy",
             "date": "March 15, 2024",
             "author": author["name"],
-            "content": f"<h1>Remote Work Policy</h1>\n<p><em>Last Updated: March 15, 2024</em></p>\n<p><em>Policy Owner: {author['name']}, {author['title']}</em></p>\n\n{content}"
+            "content": f"<h1>Remote Work Policy</h1>\n<p><em>Last Updated: March 15, 2024</em></p>\n<p><em>Policy Owner: {author['name']}, {author['title']}</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     def generate_benefits_overview(self):
         """Generate benefits overview using AI"""
         author = get_employees_by_dept("Human Resources")[1]
-        
+
         context = f"""
 Company: {COMPANY['name']} - Robotics company
 Document Type: Employee Benefits Overview 2024
@@ -209,27 +215,27 @@ Additional Perks:
 
 Enrollment periods and contact information.
 """
-        
+
         content = self._generate_ai_document("Benefits Overview", context)
-        
+
         doc = {
             "title": "Benefits Overview 2024",
             "category": "HR",
             "type": "Benefits",
             "date": "January 1, 2024",
             "author": author["name"],
-            "content": f"<h1>Employee Benefits Overview 2024</h1>\n<p><em>Your Complete Guide to Robotix Benefits</em></p>\n\n{content}"
+            "content": f"<h1>Employee Benefits Overview 2024</h1>\n<p><em>Your Complete Guide to Robotix Benefits</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     # ===== PRODUCT DOCUMENTS =====
-    
+
     def generate_product_spec(self, product_name, category):
         """Generate product specification using AI"""
         pm = random.choice([e for e in EMPLOYEES if "Product Manager" in e["title"]])
         engineer = get_employees_by_dept("Product Development")[-1]
-        
+
         context = f"""
 Company: {COMPANY['name']} - Leading robotics manufacturer
 Product: {product_name}
@@ -291,23 +297,25 @@ Packaging:
 
 Include realistic technical specifications for a {category} robot.
 """
-        
-        content = self._generate_ai_document(f"Technical Specification for {product_name}", context)
-        
+
+        content = self._generate_ai_document(
+            f"Technical Specification for {product_name}", context
+        )
+
         doc = {
             "title": f"{product_name} - Technical Specification",
             "category": "Product",
             "type": "Technical Spec",
             "date": format_date(get_random_date(2024, 2024)),
             "author": pm["name"],
-            "content": f"<h1>{product_name}</h1>\n<h2>Technical Specification Document</h2>\n<p><em>Product Category: {category}</em></p>\n<p><em>Document Owner: {pm['name']}, {pm['title']}</em></p>\n<p><em>Technical Review: {engineer['name']}, {engineer['title']}</em></p>\n\n{content}"
+            "content": f"<h1>{product_name}</h1>\n<h2>Technical Specification Document</h2>\n<p><em>Product Category: {category}</em></p>\n<p><em>Document Owner: {pm['name']}, {pm['title']}</em></p>\n<p><em>Technical Review: {engineer['name']}, {engineer['title']}</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     def generate_product_user_guide(self, product_name):
         """Generate product user guide using AI"""
-        
+
         context = f"""
 Company: {COMPANY['name']} - Robotics manufacturer
 Product: {product_name}
@@ -402,26 +410,26 @@ Need Help:
 
 Include safety warnings and realistic technical details for a robotics system.
 """
-        
+
         content = self._generate_ai_document(f"User Guide for {product_name}", context)
-        
+
         doc = {
             "title": f"{product_name} - User Guide",
             "category": "Product",
             "type": "User Guide",
             "date": format_date(get_random_date(2024, 2024)),
             "author": "Product Documentation Team",
-            "content": f"<h1>{product_name}</h1>\n<h2>User Guide & Setup Instructions</h2>\n\n{content}"
+            "content": f"<h1>{product_name}</h1>\n<h2>User Guide & Setup Instructions</h2>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     # ===== LEGAL DOCUMENTS =====
-    
+
     def generate_privacy_policy(self):
         """Generate privacy policy using AI"""
         legal_counsel = get_employees_by_dept("Legal & Compliance")[0]
-        
+
         context = f"""
 Company: {COMPANY['name']} - Robotics manufacturer and retailer
 Location: {COMPANY['headquarters']}
@@ -507,23 +515,23 @@ Contact Information:
 
 Include realistic legal language for a robotics company with e-commerce and IoT devices.
 """
-        
+
         content = self._generate_ai_document("Privacy Policy", context)
-        
+
         doc = {
             "title": "Privacy Policy",
             "category": "Legal",
             "type": "Policy",
             "date": "January 1, 2024",
             "author": legal_counsel["name"],
-            "content": f"<h1>Privacy Policy</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n<p><em>Last Updated: January 1, 2024</em></p>\n\n{content}"
+            "content": f"<h1>Privacy Policy</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n<p><em>Last Updated: January 1, 2024</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc
-    
+
     def generate_warranty_policy(self):
         """Generate warranty and return policy using AI"""
-        
+
         context = f"""
 Company: {COMPANY['name']} - Robotics manufacturer
 Location: {COMPANY['headquarters']}
@@ -642,16 +650,16 @@ Contact Information:
 
 Include realistic legal language for industrial robotics equipment.
 """
-        
+
         content = self._generate_ai_document("Warranty and Return Policy", context)
-        
+
         doc = {
             "title": "Warranty and Return Policy",
             "category": "Legal",
             "type": "Policy",
             "date": "January 1, 2024",
             "author": "Legal Department",
-            "content": f"<h1>Warranty and Return Policy</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n\n{content}"
+            "content": f"<h1>Warranty and Return Policy</h1>\n<p><em>Effective Date: January 1, 2024</em></p>\n\n{content}",
         }
         self.generated_docs.append(doc)
         return doc

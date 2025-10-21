@@ -17,56 +17,58 @@ from company_data import COMPANY, EMPLOYEES
 # Load environment variables from project root
 script_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(script_dir)
-env_path = os.path.join(project_root, '.env')
+env_path = os.path.join(project_root, ".env")
 load_dotenv(env_path)
 
 # AI Integration
 try:
     from langchain_anthropic import ChatAnthropic
+
     AI_AVAILABLE = True
 except ImportError:
     AI_AVAILABLE = False
     print("⚠️  LangChain not installed. Run: pip install langchain langchain-anthropic")
 
+
 class AdditionalDocumentsGenerator:
-    
+
     def __init__(self, data_dir="../data", use_ai=True):
         self.data_dir = data_dir
         self.use_ai = use_ai and AI_AVAILABLE
         self.generated_docs = []
-        
+
         # Initialize AI model if available
         if self.use_ai:
             api_key = os.environ.get("ANTHROPIC_API_KEY")
             if api_key:
                 self.llm = ChatAnthropic(
-                    model="claude-3-5-sonnet-20241022",
-                    temperature=0.7,
-                    max_tokens=8000
+                    model="claude-3-5-sonnet-20241022", temperature=0.7, max_tokens=8000
                 )
                 print("✅ AI content generation enabled (Claude 3.5 Sonnet)")
             else:
                 self.use_ai = False
                 print("⚠️  ANTHROPIC_API_KEY not found. Set it for AI generation.")
-    
+
     def _get_timestamp(self):
         """Get formatted timestamp"""
         return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     def _print_progress_bar(self, current, total, label="Progress", width=40):
         """Print a progress bar"""
         percent = current / total
         filled = int(width * percent)
         bar = "█" * filled + "░" * (width - filled)
-        print(f"   {label}: [{bar}] {int(percent * 100)}% ({current}/{total})", end='\r')
+        print(
+            f"   {label}: [{bar}] {int(percent * 100)}% ({current}/{total})", end="\r"
+        )
         if current == total:
             print()
-    
+
     def _generate_ai_content(self, doc_type, context, word_count="800-1200"):
         """Generate content using AI"""
         if not self.use_ai:
             return f"# {doc_type}\n\nAI generation not available. {doc_type} content would go here."
-        
+
         try:
             prompt = f"""Generate a comprehensive, realistic {doc_type} document for Robotix.
 
@@ -90,38 +92,44 @@ Generate ONLY Markdown content (no HTML, no other formats)."""
         except Exception as e:
             print(f"   ⚠️  AI generation failed for {doc_type}: {str(e)}")
             return f"# {doc_type}\n\nContent generation failed. {doc_type} content would go here."
-    
+
     def _file_exists(self, filepath):
         """Check if a file already exists"""
         return os.path.exists(filepath)
-    
+
     # ===== MARKETING DOCUMENTS =====
-    
+
     def generate_nps_trend_reports(self, num_reports=4):
         """Generate NPS trends from customer surveys"""
-        print(f"[{self._get_timestamp()}] Generating {num_reports} NPS trend reports...")
-        
+        print(
+            f"[{self._get_timestamp()}] Generating {num_reports} NPS trend reports..."
+        )
+
         output_dir = os.path.join(self.data_dir, "sales-marketing/memos")
         os.makedirs(output_dir, exist_ok=True)
-        
+
         quarters = ["Q1 2024", "Q2 2024", "Q3 2024", "Q4 2024"]
-        marketing_manager = next((e for e in EMPLOYEES if "Marketing Manager" in e['title']), EMPLOYEES[0])
-        
+        marketing_manager = next(
+            (e for e in EMPLOYEES if "Marketing Manager" in e["title"]), EMPLOYEES[0]
+        )
+
         generated_count = 0
-        
+
         for i, quarter in enumerate(quarters[:num_reports]):
-            filename = f"NPS-Trends-and-Customer-Satisfaction---{quarter.replace(' ', '-')}.md"
+            filename = (
+                f"NPS-Trends-and-Customer-Satisfaction---{quarter.replace(' ', '-')}.md"
+            )
             filepath = os.path.join(output_dir, filename)
-            
+
             # Skip if already exists
             if self._file_exists(filepath):
                 print(f"  ⊘ Skipping {filename} (already exists)")
                 continue
-            
+
             # Determine NPS trend direction
             base_nps = 45 + (i * 3)  # Increasing trend
             previous_nps = base_nps - 3 if i > 0 else 42
-            
+
             context = f"""
 Company: {COMPANY['name']}
 Industry: {COMPANY['industry']}
@@ -179,52 +187,67 @@ Competitive Context:
 
 Use realistic B2B robotics metrics, include markdown tables with data, and show data-driven insights.
 """
-            
-            content = self._generate_ai_content(f"NPS Trends Report - {quarter}", context, "1200-1500")
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
+
+            content = self._generate_ai_content(
+                f"NPS Trends Report - {quarter}", context, "1200-1500"
+            )
+
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
-            
+
             generated_count += 1
-            self.generated_docs.append({
-                "type": "NPS Trends Report",
-                "quarter": quarter,
-                "filename": filename,
-                "path": filepath
-            })
-            
+            self.generated_docs.append(
+                {
+                    "type": "NPS Trends Report",
+                    "quarter": quarter,
+                    "filename": filename,
+                    "path": filepath,
+                }
+            )
+
             self._print_progress_bar(i + 1, num_reports, "Generating NPS reports")
-        
-        print(f"  ✓ Generated {generated_count} new NPS trend reports (skipped {num_reports - generated_count} existing)")
+
+        print(
+            f"  ✓ Generated {generated_count} new NPS trend reports (skipped {num_reports - generated_count} existing)"
+        )
         return generated_count
-    
+
     # ===== FINANCE DOCUMENTS =====
-    
+
     def generate_inventory_turnover_memos(self, num_memos=4):
         """Generate inventory turnover analysis memos"""
-        print(f"[{self._get_timestamp()}] Generating {num_memos} inventory turnover memos...")
-        
+        print(
+            f"[{self._get_timestamp()}] Generating {num_memos} inventory turnover memos..."
+        )
+
         output_dir = os.path.join(self.data_dir, "finance/memos")
         os.makedirs(output_dir, exist_ok=True)
-        
+
         quarters = ["Q1 2024", "Q2 2024", "Q3 2024", "Q4 2024"]
-        cfo = next((e for e in EMPLOYEES if "CFO" in e['title'] or "Chief Financial Officer" in e['title']), EMPLOYEES[0])
-        
+        cfo = next(
+            (
+                e
+                for e in EMPLOYEES
+                if "CFO" in e["title"] or "Chief Financial Officer" in e["title"]
+            ),
+            EMPLOYEES[0],
+        )
+
         generated_count = 0
-        
+
         for i, quarter in enumerate(quarters[:num_memos]):
             filename = f"Inventory-Turnover-Analysis---{quarter.replace(' ', '-')}.md"
             filepath = os.path.join(output_dir, filename)
-            
+
             # Skip if already exists
             if self._file_exists(filepath):
                 print(f"  ⊘ Skipping {filename} (already exists)")
                 continue
-            
+
             # Determine turnover metrics
             turnover_ratio = round(3.2 + (i * 0.15), 2)  # Improving trend
             days_inventory = round(365 / turnover_ratio, 1)
-            
+
             context = f"""
 Company: {COMPANY['name']}
 Industry: {COMPANY['industry']}
@@ -304,35 +327,50 @@ Action Items:
 
 Include realistic financial metrics, markdown tables with detailed data, and CFO-level strategic analysis.
 """
-            
-            content = self._generate_ai_content(f"Inventory Turnover Analysis - {quarter}", context, "1200-1500")
-            
-            with open(filepath, 'w', encoding='utf-8') as f:
+
+            content = self._generate_ai_content(
+                f"Inventory Turnover Analysis - {quarter}", context, "1200-1500"
+            )
+
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(content)
-            
+
             generated_count += 1
-            self.generated_docs.append({
-                "type": "Inventory Turnover Memo",
-                "quarter": quarter,
-                "filename": filename,
-                "path": filepath
-            })
-            
+            self.generated_docs.append(
+                {
+                    "type": "Inventory Turnover Memo",
+                    "quarter": quarter,
+                    "filename": filename,
+                    "path": filepath,
+                }
+            )
+
             self._print_progress_bar(i + 1, num_memos, "Generating inventory memos")
-        
-        print(f"  ✓ Generated {generated_count} new inventory turnover memos (skipped {num_memos - generated_count} existing)")
+
+        print(
+            f"  ✓ Generated {generated_count} new inventory turnover memos (skipped {num_memos - generated_count} existing)"
+        )
         return generated_count
-    
+
     def get_summary(self):
         """Return summary of generated documents"""
         return {
             "total_generated": len(self.generated_docs),
             "by_type": {
-                "NPS Trends Reports": len([d for d in self.generated_docs if d['type'] == 'NPS Trends Report']),
-                "Inventory Turnover Memos": len([d for d in self.generated_docs if d['type'] == 'Inventory Turnover Memo'])
+                "NPS Trends Reports": len(
+                    [d for d in self.generated_docs if d["type"] == "NPS Trends Report"]
+                ),
+                "Inventory Turnover Memos": len(
+                    [
+                        d
+                        for d in self.generated_docs
+                        if d["type"] == "Inventory Turnover Memo"
+                    ]
+                ),
             },
-            "documents": self.generated_docs
+            "documents": self.generated_docs,
         }
+
 
 def main():
     """Main execution function"""
@@ -341,33 +379,33 @@ def main():
     print("=" * 70)
     print(f"⏰ Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print()
-    
+
     # Determine data directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_dir = os.path.dirname(script_dir)
     data_dir = os.path.join(project_dir, "data")
-    
+
     gen = AdditionalDocumentsGenerator(data_dir=data_dir)
-    
+
     overall_start = time.time()
-    
+
     try:
         # Generate Marketing Documents
         print("\n" + "=" * 70)
         print("📊 GENERATING MARKETING DOCUMENTS".center(70))
         print("=" * 70)
         nps_count = gen.generate_nps_trend_reports(4)
-        
+
         # Generate Finance Documents
         print("\n" + "=" * 70)
         print("💰 GENERATING FINANCE DOCUMENTS".center(70))
         print("=" * 70)
         inventory_count = gen.generate_inventory_turnover_memos(4)
-        
+
         # Summary
         total_time = time.time() - overall_start
         summary = gen.get_summary()
-        
+
         print("\n" + "=" * 70)
         print("✅ GENERATION COMPLETE".center(70))
         print("=" * 70)
@@ -375,8 +413,12 @@ def main():
         print(f"⏱️  Total Time: {total_time:.1f} seconds")
         print()
         print("📊 Generated Files:")
-        print(f"   - NPS Trends Reports: {summary['by_type']['NPS Trends Reports']} new documents")
-        print(f"   - Inventory Turnover Memos: {summary['by_type']['Inventory Turnover Memos']} new documents")
+        print(
+            f"   - NPS Trends Reports: {summary['by_type']['NPS Trends Reports']} new documents"
+        )
+        print(
+            f"   - Inventory Turnover Memos: {summary['by_type']['Inventory Turnover Memos']} new documents"
+        )
         print(f"   - Total New Documents: {summary['total_generated']}")
         print()
         print("📁 File Locations:")
@@ -389,16 +431,18 @@ def main():
         print("   - Added Inventory turnover analysis to Finance")
         print("   - Expected boost to Tier 1 completeness: ~90%")
         print("\n" + "=" * 70)
-        
+
         return 0
-        
+
     except Exception as e:
         print(f"\n❌ Error: {str(e)}")
         import traceback
+
         traceback.print_exc()
         return 1
 
+
 if __name__ == "__main__":
     import sys
-    sys.exit(main())
 
+    sys.exit(main())

@@ -7,20 +7,21 @@ import json
 import os
 from datetime import datetime
 
+
 def update_metadata():
     """Update metadata.json with new financial and marketing datasets"""
-    
+
     # Path to metadata file
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_dir = os.path.dirname(script_dir)
     metadata_path = os.path.join(project_dir, "data", "metadata.json")
-    
+
     # Load existing metadata
-    with open(metadata_path, 'r', encoding='utf-8') as f:
+    with open(metadata_path, "r", encoding="utf-8") as f:
         metadata = json.load(f)
-    
+
     # Add new financial datasets
-    metadata['datasets']['invoices'] = {
+    metadata["datasets"]["invoices"] = {
         "record_count": 200,
         "fields": [
             "invoice_id",
@@ -35,12 +36,12 @@ def update_metadata():
             "payment_status",
             "payment_date",
             "payment_method",
-            "notes"
-        ]
+            "notes",
+        ],
     }
-    
+
     # Add marketing campaigns
-    metadata['datasets']['marketing_campaigns'] = {
+    metadata["datasets"]["marketing_campaigns"] = {
         "record_count": 50,
         "fields": [
             "campaign_id",
@@ -58,21 +59,21 @@ def update_metadata():
             "roi",
             "status",
             "owner",
-            "notes"
-        ]
+            "notes",
+        ],
     }
-    
+
     # Update generated date
-    metadata['generated_date'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+    metadata["generated_date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
     # Save updated metadata
-    with open(metadata_path, 'w', encoding='utf-8') as f:
+    with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=2)
-    
+
     print(f"✅ Updated {metadata_path}")
     print(f"   - Added 'invoices' dataset (200 records)")
     print(f"   - Added 'marketing_campaigns' dataset (50 records)")
 
+
 if __name__ == "__main__":
     update_metadata()
-

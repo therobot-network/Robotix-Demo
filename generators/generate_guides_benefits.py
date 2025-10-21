@@ -11,18 +11,20 @@ from pathlib import Path
 
 # Color scheme
 COLORS = {
-    'primary': '\033[94m',
-    'success': '\033[92m',
-    'warning': '\033[93m',
-    'error': '\033[91m',
-    'reset': '\033[0m',
-    'bold': '\033[1m'
+    "primary": "\033[94m",
+    "success": "\033[92m",
+    "warning": "\033[93m",
+    "error": "\033[91m",
+    "reset": "\033[0m",
+    "bold": "\033[1m",
 }
 
-def print_status(message, status='info'):
+
+def print_status(message, status="info"):
     """Print colored status message"""
-    color = COLORS.get(status, COLORS['reset'])
+    color = COLORS.get(status, COLORS["reset"])
     print(f"{color}{message}{COLORS['reset']}")
+
 
 # Product Guide Templates
 PRODUCT_GUIDE_TYPES = [
@@ -37,8 +39,8 @@ PRODUCT_GUIDE_TYPES = [
             "Emergency Procedures",
             "Lockout/Tagout Procedures",
             "Personal Protective Equipment",
-            "Safety Training Requirements"
-        ]
+            "Safety Training Requirements",
+        ],
     },
     {
         "title": "Maintenance Best Practices Guide",
@@ -51,8 +53,8 @@ PRODUCT_GUIDE_TYPES = [
             "Annual Inspections",
             "Troubleshooting Common Issues",
             "Spare Parts Recommendations",
-            "Service Contact Information"
-        ]
+            "Service Contact Information",
+        ],
     },
     {
         "title": "Integration Guide",
@@ -65,8 +67,8 @@ PRODUCT_GUIDE_TYPES = [
             "Communication Protocols",
             "Third-Party Software Integration",
             "API Reference",
-            "Integration Examples"
-        ]
+            "Integration Examples",
+        ],
     },
     {
         "title": "Programming Quick Start Guide",
@@ -79,8 +81,8 @@ PRODUCT_GUIDE_TYPES = [
             "Logic and Variables",
             "Subroutines and Functions",
             "Testing and Debugging",
-            "Program Optimization Tips"
-        ]
+            "Program Optimization Tips",
+        ],
     },
     {
         "title": "Advanced Operations Guide",
@@ -93,9 +95,9 @@ PRODUCT_GUIDE_TYPES = [
             "Multi-Robot Coordination",
             "Performance Tuning",
             "Advanced Diagnostics",
-            "Custom Application Development"
-        ]
-    }
+            "Custom Application Development",
+        ],
+    },
 ]
 
 BENEFITS_TEMPLATES = [
@@ -111,21 +113,21 @@ BENEFITS_TEMPLATES = [
                 "Investment options: 15 fund choices including target-date funds",
                 "Contribution limits: $23,500 annually (2025)",
                 "Catch-up contributions: $7,500 for age 50+ (2025)",
-                "Roth 401(k) option available"
+                "Roth 401(k) option available",
             ],
             "Retirement Planning Resources": [
                 "Free financial planning consultations",
                 "Online retirement calculators",
                 "Quarterly retirement planning webinars",
                 "One-on-one sessions with financial advisors",
-                "Access to Fidelity planning tools"
+                "Access to Fidelity planning tools",
             ],
             "Social Security Planning": [
                 "Educational workshops on Social Security optimization",
                 "Medicare enrollment assistance",
-                "Retirement transition planning support"
-            ]
-        }
+                "Retirement transition planning support",
+            ],
+        },
     },
     {
         "title": "Professional Development Benefits 2025",
@@ -136,28 +138,28 @@ BENEFITS_TEMPLATES = [
                 "Covers undergraduate and graduate courses",
                 "Must maintain B grade or better",
                 "Reimbursement upon course completion",
-                "Requires 1-year commitment after completion"
+                "Requires 1-year commitment after completion",
             ],
             "Professional Certifications": [
                 "100% coverage for job-related certifications",
                 "PMP, Six Sigma, Robotics certifications supported",
                 "Exam fees and study materials covered",
-                "Paid study time for approved certifications"
+                "Paid study time for approved certifications",
             ],
             "Conference and Training": [
                 "$2,500 annual budget for conferences",
                 "Internal training programs at no cost",
                 "Leadership development programs",
                 "Technical skills workshops",
-                "Soft skills training (communication, management)"
+                "Soft skills training (communication, management)",
             ],
             "LinkedIn Learning": [
                 "Free access to entire LinkedIn Learning platform",
                 "10,000+ courses available",
                 "Personalized learning paths",
-                "Progress tracking and certificates"
-            ]
-        }
+                "Progress tracking and certificates",
+            ],
+        },
     },
     {
         "title": "Work-Life Balance Programs 2025",
@@ -168,7 +170,7 @@ BENEFITS_TEMPLATES = [
                 "Flexible start times: 7 AM - 10 AM window",
                 "Compressed work week options (4x10)",
                 "Summer Fridays: Half-day Fridays June-August",
-                "Results-focused culture"
+                "Results-focused culture",
             ],
             "Paid Time Off": [
                 "15 days PTO (0-3 years of service)",
@@ -176,22 +178,22 @@ BENEFITS_TEMPLATES = [
                 "25 days PTO (8+ years of service)",
                 "11 paid holidays",
                 "Birthday day off",
-                "Volunteer time off: 2 days annually"
+                "Volunteer time off: 2 days annually",
             ],
             "Parental Leave": [
                 "12 weeks paid leave for primary caregiver",
                 "6 weeks paid leave for secondary caregiver",
                 "Adoption assistance: $5,000 reimbursement",
                 "Phased return-to-work program",
-                "Lactation rooms at all facilities"
+                "Lactation rooms at all facilities",
             ],
             "Sabbatical Program": [
                 "4-week paid sabbatical after 5 years",
                 "8-week paid sabbatical after 10 years",
                 "Sabbatical grant: $2,000 for approved purposes",
-                "No work contact during sabbatical"
-            ]
-        }
+                "No work contact during sabbatical",
+            ],
+        },
     },
     {
         "title": "Financial Wellness Benefits 2025",
@@ -202,36 +204,36 @@ BENEFITS_TEMPLATES = [
                 "Contribute up to 15% of salary",
                 "6-month offering periods",
                 "No holding period requirement",
-                "Immediate equity ownership"
+                "Immediate equity ownership",
             ],
             "Health Savings Account (HSA)": [
                 "Available with HDHP medical plan",
                 "Employer contribution: $1,500 (single) / $3,000 (family)",
                 "Tax-advantaged savings for medical expenses",
                 "Investment options after $2,000 balance",
-                "Portable account - take it with you"
+                "Portable account - take it with you",
             ],
             "Student Loan Repayment Assistance": [
                 "$200 monthly contribution to student loans",
                 "Up to $2,400 annually",
                 "5-year maximum benefit ($12,000 total)",
                 "No tax penalty (through 2025)",
-                "Direct payment to loan servicer"
+                "Direct payment to loan servicer",
             ],
             "Financial Planning Services": [
                 "Free financial planning consultations",
                 "Estate planning assistance",
                 "Tax preparation support",
                 "Debt management counseling",
-                "Home buying workshops"
+                "Home buying workshops",
             ],
             "Emergency Savings Fund": [
                 "Company-sponsored emergency savings account",
                 "Automatic payroll deductions",
                 "Employer match: $0.50 per $1 up to $500 annually",
-                "Access funds anytime without penalty"
-            ]
-        }
+                "Access funds anytime without penalty",
+            ],
+        },
     },
     {
         "title": "Health and Wellness Programs 2025",
@@ -243,7 +245,7 @@ BENEFITS_TEMPLATES = [
                 "Teletherapy options through Talkspace",
                 "Stress management workshops",
                 "Meditation app subscriptions (Calm, Headspace)",
-                "Mental health days included in PTO"
+                "Mental health days included in PTO",
             ],
             "Physical Wellness": [
                 "On-site fitness center (HQ location)",
@@ -251,7 +253,7 @@ BENEFITS_TEMPLATES = [
                 "Fitness class subsidies (yoga, CrossFit, etc.)",
                 "Annual fitness challenge with prizes",
                 "Standing desks available upon request",
-                "Ergonomic assessments and equipment"
+                "Ergonomic assessments and equipment",
             ],
             "Preventive Care": [
                 "Annual health screenings at no cost",
@@ -259,26 +261,31 @@ BENEFITS_TEMPLATES = [
                 "Biometric screening incentives",
                 "Health coaching programs",
                 "Chronic condition management support",
-                "Nutrition counseling"
+                "Nutrition counseling",
             ],
             "Wellness Incentives": [
                 "Up to $500 wellness rewards annually",
                 "Points for healthy behaviors",
                 "Quarterly wellness challenges",
                 "Team-based fitness competitions",
-                "Redeemable for gift cards, PTO, charitable donations"
-            ]
-        }
-    }
+                "Redeemable for gift cards, PTO, charitable donations",
+            ],
+        },
+    },
 ]
+
 
 def generate_product_guide(guide_type, product_name, output_dir):
     """Generate a product guide HTML document"""
-    
+
     date = datetime.now().strftime("%B %d, %Y")
-    authors = ["Product Documentation Team", "Technical Writing Team", "Engineering Team"]
+    authors = [
+        "Product Documentation Team",
+        "Technical Writing Team",
+        "Engineering Team",
+    ]
     author = random.choice(authors)
-    
+
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -394,22 +401,23 @@ def generate_product_guide(guide_type, product_name, output_dir):
 """
 
     # Generate content based on guide type
-    for i, section in enumerate(guide_type['sections'], 1):
+    for i, section in enumerate(guide_type["sections"], 1):
         html_content += f"\n    <h2>{i}. {section}</h2>\n"
-        
-        if guide_type['focus'] == 'safety':
+
+        if guide_type["focus"] == "safety":
             html_content += generate_safety_content(section)
-        elif guide_type['focus'] == 'maintenance':
+        elif guide_type["focus"] == "maintenance":
             html_content += generate_maintenance_content(section)
-        elif guide_type['focus'] == 'integration':
+        elif guide_type["focus"] == "integration":
             html_content += generate_integration_content(section)
-        elif guide_type['focus'] == 'programming':
+        elif guide_type["focus"] == "programming":
             html_content += generate_programming_content(section)
-        elif guide_type['focus'] == 'advanced':
+        elif guide_type["focus"] == "advanced":
             html_content += generate_advanced_content(section)
-    
+
     # Add footer
-    html_content += """
+    html_content += (
+        """
     <hr>
     
     <h2>Additional Resources</h2>
@@ -422,8 +430,12 @@ def generate_product_guide(guide_type, product_name, output_dir):
     
     <div class="info">
         <strong>Document Version:</strong> 1.0<br>
-        <strong>Last Updated:</strong> """ + date + """<br>
-        <strong>Next Review:</strong> """ + (datetime.now() + timedelta(days=365)).strftime("%B %Y") + """
+        <strong>Last Updated:</strong> """
+        + date
+        + """<br>
+        <strong>Next Review:</strong> """
+        + (datetime.now() + timedelta(days=365)).strftime("%B %Y")
+        + """
     </div>
     
     <p><em>© 2025 Robotix. All rights reserved. This document is proprietary and confidential.</em></p>
@@ -431,15 +443,17 @@ def generate_product_guide(guide_type, product_name, output_dir):
 </body>
 </html>
 """
-    
+    )
+
     # Save file
     filename = f"{product_name.lower().replace(' ', '-')}---{guide_type['title'].lower().replace(' ', '-')}.html"
     filepath = output_dir / filename
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
+
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(html_content)
-    
+
     return filename
+
 
 def generate_safety_content(section):
     """Generate safety-specific content"""
@@ -510,9 +524,10 @@ def generate_safety_content(section):
         <li><strong>Technical Support:</strong> 1-800-ROBOTIX (24/7)</li>
         <li><strong>Supervisor:</strong> Per facility directory</li>
     </ul>
-"""
+""",
     }
     return contents.get(section, f"    <p>Content for {section} section...</p>\n")
+
 
 def generate_maintenance_content(section):
     """Generate maintenance-specific content"""
@@ -599,9 +614,10 @@ def generate_maintenance_content(section):
         <li>Verify payload is within specifications</li>
         <li>Review acceleration/deceleration settings</li>
     </ul>
-"""
+""",
     }
     return contents.get(section, f"    <p>Content for {section} section...</p>\n")
+
 
 def generate_integration_content(section):
     """Generate integration-specific content"""
@@ -681,9 +697,10 @@ def generate_integration_content(section):
     
     <code>GET /api/v1/robot/io</code>
     <p>Read I/O status</p>
-"""
+""",
     }
     return contents.get(section, f"    <p>Content for {section} section...</p>\n")
+
 
 def generate_programming_content(section):
     """Generate programming-specific content"""
@@ -756,9 +773,10 @@ def generate_programming_content(section):
     <code>&nbsp;&nbsp;MoveL PlacePos[i], v100, fine</code><br>
     <code>&nbsp;&nbsp;GripperOpen()</code><br>
     <code>ENDFOR</code>
-"""
+""",
     }
     return contents.get(section, f"    <p>Content for {section} section...</p>\n")
+
 
 def generate_advanced_content(section):
     """Generate advanced operations content"""
@@ -832,17 +850,22 @@ def generate_advanced_content(section):
             <td>Increase for high precision, decrease if oscillating</td>
         </tr>
     </table>
-"""
+""",
     }
     return contents.get(section, f"    <p>Content for {section} section...</p>\n")
 
+
 def generate_benefits_document(benefit_template, output_dir):
     """Generate a benefits HTML document"""
-    
+
     date = datetime.now().strftime("%B %d, %Y")
-    authors = ["HR Benefits Team", "Amanda Foster - HR Director", "People Operations Team"]
+    authors = [
+        "HR Benefits Team",
+        "Amanda Foster - HR Director",
+        "People Operations Team",
+    ]
     author = random.choice(authors)
-    
+
     html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -951,17 +974,18 @@ def generate_benefits_document(benefit_template, output_dir):
 """
 
     # Generate sections
-    for section_title, section_items in benefit_template['sections'].items():
+    for section_title, section_items in benefit_template["sections"].items():
         html_content += f"\n    <h2>{section_title}</h2>\n"
-        html_content += "    <div class=\"benefit-box\">\n"
+        html_content += '    <div class="benefit-box">\n'
         html_content += "    <ul>\n"
         for item in section_items:
             html_content += f"        <li>{item}</li>\n"
         html_content += "    </ul>\n"
         html_content += "    </div>\n"
-    
+
     # Add enrollment information
-    html_content += """
+    html_content += (
+        """
     <hr>
     
     <h2>Enrollment Information</h2>
@@ -1023,8 +1047,12 @@ def generate_benefits_document(benefit_template, output_dir):
     <div class="info">
         <strong>Document Information:</strong><br>
         Version: 1.0<br>
-        Last Updated: """ + date + """<br>
-        Next Review: January """ + str(datetime.now().year + 1) + """
+        Last Updated: """
+        + date
+        + """<br>
+        Next Review: January """
+        + str(datetime.now().year + 1)
+        + """
     </div>
     
     <p><em>© 2025 Robotix. All rights reserved. This document contains confidential employee benefit information.</em></p>
@@ -1032,79 +1060,83 @@ def generate_benefits_document(benefit_template, output_dir):
 </body>
 </html>
 """
-    
+    )
+
     # Save file
-    filename = benefit_template['title'].lower().replace(' ', '-').replace('/', '-') + ".html"
+    filename = (
+        benefit_template["title"].lower().replace(" ", "-").replace("/", "-") + ".html"
+    )
     filepath = output_dir / filename
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
+
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(html_content)
-    
+
     return filename
+
 
 def main():
     """Main execution function"""
-    print_status("\n" + "="*60, 'primary')
-    print_status("  ROBOTIX - PRODUCT GUIDES & BENEFITS GENERATOR", 'bold')
-    print_status("="*60 + "\n", 'primary')
-    
+    print_status("\n" + "=" * 60, "primary")
+    print_status("  ROBOTIX - PRODUCT GUIDES & BENEFITS GENERATOR", "bold")
+    print_status("=" * 60 + "\n", "primary")
+
     # Define output directories
     base_dir = Path(__file__).parent.parent
-    product_guides_dir = base_dir / 'data' / 'public' / 'product-guides'
-    benefits_dir = base_dir / 'data' / 'hr-legal' / 'benefits'
-    
+    product_guides_dir = base_dir / "data" / "public" / "product-guides"
+    benefits_dir = base_dir / "data" / "hr-legal" / "benefits"
+
     # Create directories if they don't exist
     product_guides_dir.mkdir(parents=True, exist_ok=True)
     benefits_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # Product names for guides
     products = [
         "PrecisionArm 6-Axis",
         "CoBot Precision 10kg",
         "AutoNav AGV 500",
         "Welding Robot Pro",
-        "SmartCart AMR 1000"
+        "SmartCart AMR 1000",
     ]
-    
+
     # Generate Product Guides
-    print_status("📚 Generating Product Guides...\n", 'primary')
+    print_status("📚 Generating Product Guides...\n", "primary")
     product_files = []
-    
+
     for i, guide_type in enumerate(PRODUCT_GUIDE_TYPES, 1):
-        product = products[i-1]
-        print_status(f"  [{i}/5] Creating {product} - {guide_type['title']}...", 'info')
+        product = products[i - 1]
+        print_status(f"  [{i}/5] Creating {product} - {guide_type['title']}...", "info")
         filename = generate_product_guide(guide_type, product, product_guides_dir)
         product_files.append(filename)
-        print_status(f"        ✓ {filename}", 'success')
-    
+        print_status(f"        ✓ {filename}", "success")
+
     # Generate Benefits Documents
-    print_status("\n💼 Generating Benefits Documents...\n", 'primary')
+    print_status("\n💼 Generating Benefits Documents...\n", "primary")
     benefits_files = []
-    
+
     for i, benefit_template in enumerate(BENEFITS_TEMPLATES, 1):
-        print_status(f"  [{i}/5] Creating {benefit_template['title']}...", 'info')
+        print_status(f"  [{i}/5] Creating {benefit_template['title']}...", "info")
         filename = generate_benefits_document(benefit_template, benefits_dir)
         benefits_files.append(filename)
-        print_status(f"        ✓ {filename}", 'success')
-    
+        print_status(f"        ✓ {filename}", "success")
+
     # Summary
-    print_status("\n" + "="*60, 'primary')
-    print_status("  GENERATION COMPLETE!", 'bold')
-    print_status("="*60, 'primary')
-    print_status(f"\n✅ Generated {len(product_files)} Product Guides:", 'success')
+    print_status("\n" + "=" * 60, "primary")
+    print_status("  GENERATION COMPLETE!", "bold")
+    print_status("=" * 60, "primary")
+    print_status(f"\n✅ Generated {len(product_files)} Product Guides:", "success")
     for f in product_files:
-        print_status(f"   • {f}", 'info')
-    
-    print_status(f"\n✅ Generated {len(benefits_files)} Benefits Documents:", 'success')
+        print_status(f"   • {f}", "info")
+
+    print_status(f"\n✅ Generated {len(benefits_files)} Benefits Documents:", "success")
     for f in benefits_files:
-        print_status(f"   • {f}", 'info')
-    
-    print_status(f"\n📁 Output Directories:", 'primary')
-    print_status(f"   • Product Guides: {product_guides_dir}", 'info')
-    print_status(f"   • Benefits: {benefits_dir}", 'info')
-    
-    print_status("\n✨ All documents generated successfully!\n", 'success')
+        print_status(f"   • {f}", "info")
+
+    print_status(f"\n📁 Output Directories:", "primary")
+    print_status(f"   • Product Guides: {product_guides_dir}", "info")
+    print_status(f"   • Benefits: {benefits_dir}", "info")
+
+    print_status("\n✨ All documents generated successfully!\n", "success")
+
 
 if __name__ == "__main__":
     main()
-
