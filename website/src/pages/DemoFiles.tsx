@@ -66,7 +66,21 @@ function DemoFiles() {
   };
 
   const filterTree = (node: FileNode, query: string): FileNode | null => {
-    if (!query) return node;
+    // Filter out metadata.json file
+    if (node.type === 'file' && node.name === 'metadata.json') {
+      return null;
+    }
+    
+    if (!query) {
+      // Even without a search query, filter out metadata.json from children
+      if (node.type === 'directory' && node.children) {
+        const filteredChildren = node.children
+          .map(child => filterTree(child, query))
+          .filter(child => child !== null) as FileNode[];
+        return { ...node, children: filteredChildren };
+      }
+      return node;
+    }
     
     const lowerQuery = query.toLowerCase();
     
@@ -83,6 +97,21 @@ function DemoFiles() {
     }
     
     return node.name.toLowerCase().includes(lowerQuery) ? node : null;
+  };
+
+  // Count only files (not subfolders) in a directory
+  const countFilesInDirectory = (node: FileNode): number => {
+    if (!node.children) return 0;
+    
+    let count = 0;
+    for (const child of node.children) {
+      if (child.type === 'file') {
+        count++;
+      } else if (child.type === 'directory' && child.children) {
+        count += countFilesInDirectory(child);
+      }
+    }
+    return count;
   };
 
   const renderFileTree = (node: FileNode, level: number = 0) => {
@@ -113,7 +142,7 @@ function DemoFiles() {
             </span>
             {node.children && (
               <span className="text-xs text-text-subtle ml-auto">
-                {node.children.length} {node.children.length === 1 ? 'item' : 'items'}
+                {countFilesInDirectory(node)} {countFilesInDirectory(node) === 1 ? 'file' : 'files'}
               </span>
             )}
           </motion.div>
