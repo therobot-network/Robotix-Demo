@@ -1,0 +1,61 @@
+compliance_id,compliance_area,regulatory_body,last_review_date,next_review_date,status,num_findings,num_critical_findings,certification_status,responsible_party,last_audit_score,notes
+CMP-00001,SOX Financial Controls,SEC,2025-05-06,2025-08-04,Minor Issues,3,0,N/A,Sarah Chen,86.8,Remediation plan in progress
+CMP-00002,EPA Environmental,EPA,2025-01-28,2025-07-27,Action Required,2,1,Certified,Nicole Sanders,85.0,Remediation plan in progress
+CMP-00003,Employment Law,DOL/EEOC,2025-02-15,2025-05-16,Action Required,4,0,Certified,Daniel Wright,82.7,Remediation plan in progress
+CMP-00004,Export Control (ITAR/EAR),State Dept/Commerce,2025-02-18,2025-08-17,Compliant,0,0,Renewal Due,David Martinez,86.5,Regular compliance monitoring
+CMP-00005,ISO 9001 Quality,ISO,2024-11-06,2025-05-05,Compliant,0,0,In Progress,Rachel Green,99.6,Regular compliance monitoring
+CMP-00006,ISO 9001 Quality,ISO,2025-06-22,2025-12-19,Minor Issues,4,0,Certified,Diana Lopez,82.8,Remediation plan in progress
+CMP-00007,Employment Law,DOL/EEOC,2024-11-07,2025-11-07,Compliant,0,0,N/A,Tom Bradley,94.1,Regular compliance monitoring
+CMP-00008,ISO 14001 Environmental,ISO,2024-10-29,2025-04-27,Compliant,0,0,In Progress,Jennifer Park,81.6,Regular compliance monitoring
+CMP-00009,Export Control (ITAR/EAR),State Dept/Commerce,2025-02-06,2025-05-07,Compliant,0,0,Certified,Tom Bradley,85.3,Regular compliance monitoring
+CMP-00010,EPA Environmental,EPA,2025-02-24,2025-05-25,Compliant,0,0,Certified,Rachel Green,90.4,Regular compliance monitoring
+CMP-00011,GDPR Data Privacy,EU Commission,2025-05-08,2025-11-04,Action Required,4,0,N/A,David Martinez,78.8,Remediation plan in progress
+CMP-00012,ISO 9001 Quality,ISO,2025-10-03,2026-01-01,Compliant,0,0,N/A,Brian Cooper,99.1,Regular compliance monitoring
+CMP-00013,Product Safety (UL/CE),UL/CE Certification Bodies,2025-07-25,2026-07-25,Minor Issues,6,0,N/A,Nicole Sanders,87.5,Remediation plan in progress
+CMP-00014,ISO 9001 Quality,ISO,2025-06-03,2025-11-30,Compliant,0,0,Certified,Jessica Martinez,98.2,Regular compliance monitoring
+CMP-00015,ISO 14001 Environmental,ISO,2025-07-01,2026-07-01,Compliant,0,0,Renewal Due,Jessica Martinez,87.9,Regular compliance monitoring
+CMP-00016,CCPA Data Privacy,California AG,2025-08-01,2025-10-30,Compliant,0,0,Renewal Due,Kevin O'Brien,92.8,Regular compliance monitoring
+CMP-00017,Employment Law,DOL/EEOC,2024-12-07,2025-12-07,Compliant,0,0,Certified,Kevin O'Brien,93.8,Regular compliance monitoring
+CMP-00018,CCPA Data Privacy,California AG,2024-12-25,2025-03-25,Compliant,0,0,N/A,Tom Bradley,85.0,Regular compliance monitoring
+CMP-00019,CCPA Data Privacy,California AG,2025-01-08,2025-07-07,Minor Issues,4,0,In Progress,Robert Kim,76.4,Remediation plan in progress
+CMP-00020,Employment Law,DOL/EEOC,2024-11-16,2025-11-16,Compliant,0,0,Renewal Due,Emily Thompson,97.2,Regular compliance monitoring
+CMP-00021,CCPA Data Privacy,California AG,2025-06-30,2026-06-30,Compliant,0,0,N/A,Jennifer Park,96.6,Regular compliance monitoring
+CMP-00022,SOX Financial Controls,SEC,2025-10-17,2026-01-15,Under Review,1,0,Certified,Kevin O'Brien,60.8,Remediation plan in progress
+CMP-00023,GDPR Data Privacy,EU Commission,2025-08-22,2025-11-20,Compliant,0,0,Certified,Amanda Foster,83.4,Regular compliance monitoring
+CMP-00024,CCPA Data Privacy,California AG,2025-04-24,2026-04-24,Compliant,0,0,Renewal Due,Sophia Nguyen,82.6,Regular compliance monitoring
+CMP-00025,ISO 14001 Environmental,ISO,2024-11-28,2025-11-28,Compliant,0,0,N/A,James Wilson,85.5,Regular compliance monitoring
+CMP-00026,ISO 9001 Quality,ISO,2024-10-23,2025-01-21,Compliant,0,0,N/A,Tom Bradley,87.2,Regular compliance monitoring
+CMP-00027,EPA Environmental,EPA,2025-06-15,2025-09-13,Compliant,0,0,In Progress,Marcus Johnson,87.3,Regular compliance monitoring
+CMP-00028,Product Safety (UL/CE),UL/CE Certification Bodies,2025-06-09,2025-09-07,Compliant,0,0,Certified,David Martinez,84.9,Regular compliance monitoring
+CMP-00029,Export Control (ITAR/EAR),State Dept/Commerce,2025-10-07,2026-10-07,Compliant,0,0,Certified,Diana Lopez,76.8,Regular compliance monitoring
+CMP-00030,CCPA Data Privacy,California AG,2025-03-18,2026-03-18,Compliant,0,0,N/A,Jennifer Park,83.3,Regular compliance monitoring
+CMP-00031,CCPA Data Privacy,California AG,2025-01-30,2025-04-30,Under Review,3,0,Certified,Tom Bradley,72.8,Remediation plan in progress
+CMP-00032,EPA Environmental,EPA,2025-08-07,2026-02-03,Compliant,0,0,N/A,Marcus Johnson,98.3,Regular compliance monitoring
+CMP-00033,ISO 14001 Environmental,ISO,2025-02-02,2025-05-03,Compliant,0,0,N/A,Sarah Chen,94.2,Regular compliance monitoring
+CMP-00034,ISO 14001 Environmental,ISO,2025-02-17,2025-08-16,Compliant,0,0,Certified,Chris Patel,80.1,Regular compliance monitoring
+CMP-00035,Export Control (ITAR/EAR),State Dept/Commerce,2025-04-04,2025-10-01,Compliant,0,0,In Progress,Kevin O'Brien,97.9,Regular compliance monitoring
+CMP-00036,Product Safety (UL/CE),UL/CE Certification Bodies,2025-02-09,2025-05-10,Compliant,0,0,Renewal Due,Tom Bradley,75.1,Regular compliance monitoring
+CMP-00037,SOX Financial Controls,SEC,2024-11-08,2025-05-07,Minor Issues,8,0,Certified,Diana Lopez,92.4,Remediation plan in progress
+CMP-00038,OSHA Safety Standards,OSHA,2025-06-23,2025-12-20,Action Required,1,1,N/A,Rachel Green,72.7,Remediation plan in progress
+CMP-00039,EPA Environmental,EPA,2025-10-05,2026-04-03,Compliant,0,0,N/A,Tom Bradley,78.2,Regular compliance monitoring
+CMP-00040,Product Safety (UL/CE),UL/CE Certification Bodies,2025-10-01,2026-03-30,Compliant,0,0,Certified,Lisa Anderson,78.3,Regular compliance monitoring
+CMP-00041,SOX Financial Controls,SEC,2025-03-19,2025-09-15,Action Required,7,1,Renewal Due,Sophia Nguyen,73.0,Remediation plan in progress
+CMP-00042,CCPA Data Privacy,California AG,2024-11-07,2025-02-05,Minor Issues,3,0,Certified,Daniel Wright,90.7,Remediation plan in progress
+CMP-00043,EPA Environmental,EPA,2025-02-12,2025-08-11,Action Required,8,2,In Progress,Jennifer Park,73.2,Remediation plan in progress
+CMP-00044,OSHA Safety Standards,OSHA,2025-08-02,2025-10-31,Compliant,0,0,In Progress,Chris Patel,82.7,Regular compliance monitoring
+CMP-00045,Employment Law,DOL/EEOC,2025-03-09,2026-03-09,Compliant,0,0,In Progress,James Wilson,82.4,Regular compliance monitoring
+CMP-00046,SOX Financial Controls,SEC,2025-05-07,2025-11-03,Compliant,0,0,N/A,Amanda Foster,76.1,Regular compliance monitoring
+CMP-00047,ISO 9001 Quality,ISO,2025-07-03,2026-07-03,Compliant,0,0,N/A,Amanda Foster,88.5,Regular compliance monitoring
+CMP-00048,GDPR Data Privacy,EU Commission,2025-06-05,2025-12-02,Compliant,0,0,Certified,Diana Lopez,97.5,Regular compliance monitoring
+CMP-00049,ISO 9001 Quality,ISO,2025-05-02,2026-05-02,Compliant,0,0,N/A,James Wilson,85.5,Regular compliance monitoring
+CMP-00050,Product Safety (UL/CE),UL/CE Certification Bodies,2025-03-17,2025-06-15,Compliant,0,0,In Progress,Marcus Johnson,80.0,Regular compliance monitoring
+CMP-00051,SOX Financial Controls,SEC,2025-05-14,2025-08-12,Compliant,0,0,N/A,Amanda Foster,89.6,Regular compliance monitoring
+CMP-00052,GDPR Data Privacy,EU Commission,2025-04-22,2025-07-21,Minor Issues,6,0,Certified,Amanda Foster,95.4,Remediation plan in progress
+CMP-00053,ISO 14001 Environmental,ISO,2025-04-03,2025-07-02,Action Required,4,0,Certified,Emily Thompson,83.2,Remediation plan in progress
+CMP-00054,OSHA Safety Standards,OSHA,2024-11-10,2025-05-09,Compliant,0,0,N/A,Jennifer Park,80.6,Regular compliance monitoring
+CMP-00055,Product Safety (UL/CE),UL/CE Certification Bodies,2025-06-09,2025-12-06,Compliant,0,0,Certified,Sarah Chen,85.6,Regular compliance monitoring
+CMP-00056,ISO 9001 Quality,ISO,2025-05-19,2026-05-19,Compliant,0,0,N/A,Rachel Green,87.8,Regular compliance monitoring
+CMP-00057,ISO 9001 Quality,ISO,2025-04-08,2025-10-05,Compliant,0,0,In Progress,Jessica Martinez,96.1,Regular compliance monitoring
+CMP-00058,GDPR Data Privacy,EU Commission,2025-05-21,2025-11-17,Compliant,0,0,N/A,David Martinez,98.5,Regular compliance monitoring
+CMP-00059,Product Safety (UL/CE),UL/CE Certification Bodies,2025-04-12,2025-07-11,Compliant,0,0,N/A,Robert Kim,99.6,Regular compliance monitoring
+CMP-00060,SOX Financial Controls,SEC,2025-06-18,2025-09-16,Compliant,0,0,Certified,Daniel Wright,95.9,Regular compliance monitoring

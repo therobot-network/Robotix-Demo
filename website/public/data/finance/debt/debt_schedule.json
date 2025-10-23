@@ -1,0 +1,62 @@
+[
+  {
+    "loan_id": "LOAN-001",
+    "loan_type": "Term Loan",
+    "lender": "First National Bank",
+    "principal_amount": 5000000,
+    "outstanding_balance": 3200000,
+    "interest_rate": 5.25,
+    "monthly_payment": 47500,
+    "origination_date": "2022-03-15",
+    "maturity_date": "2027-03-15",
+    "payment_frequency": "Monthly",
+    "collateral": "Equipment and Inventory",
+    "covenants": "Debt Service Coverage Ratio > 1.25x",
+    "status": "Active"
+  },
+  {
+    "loan_id": "LOC-001",
+    "loan_type": "Line of Credit",
+    "lender": "Pacific Business Bank",
+    "principal_amount": 2000000,
+    "outstanding_balance": 800000,
+    "interest_rate": 6.75,
+    "monthly_payment": 0,
+    "origination_date": "2023-01-10",
+    "maturity_date": "2025-01-10",
+    "payment_frequency": "Interest Only Monthly",
+    "collateral": "Accounts Receivable",
+    "covenants": "Current Ratio > 1.5x",
+    "status": "Active"
+  },
+  {
+    "loan_id": "LOAN-002",
+    "loan_type": "Equipment Financing",
+    "lender": "Industrial Equipment Finance",
+    "principal_amount": 1200000,
+    "outstanding_balance": 650000,
+    "interest_rate": 4.95,
+    "monthly_payment": 18500,
+    "origination_date": "2023-06-01",
+    "maturity_date": "2028-06-01",
+    "payment_frequency": "Monthly",
+    "collateral": "Manufacturing Equipment",
+    "covenants": "None",
+    "status": "Active"
+  },
+  {
+    "loan_id": "SUMMARY",
+    "loan_type": "Total Outstanding",
+    "lender": "Multiple",
+    "principal_amount": 8200000,
+    "outstanding_balance": 4650000,
+    "interest_rate": 0,
+    "monthly_payment": 66000,
+    "origination_date": "",
+    "maturity_date": "",
+    "payment_frequency": "",
+    "collateral": "",
+    "covenants": "Debt-to-Equity: 0.39x",
+    "status": "Summary"
+  }
+]

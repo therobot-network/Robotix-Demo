@@ -9,6 +9,202 @@
       "path": "finance",
       "children": [
         {
+          "name": "ar_ap",
+          "type": "directory",
+          "path": "finance/ar_ap",
+          "children": [
+            {
+              "name": "accounts_payable_aging.csv",
+              "type": "file",
+              "path": "finance/ar_ap/accounts_payable_aging.csv",
+              "extension": ".csv",
+              "size": 19889
+            },
+            {
+              "name": "accounts_payable_aging.json",
+              "type": "file",
+              "path": "finance/ar_ap/accounts_payable_aging.json",
+              "extension": ".json",
+              "size": 62337
+            },
+            {
+              "name": "accounts_receivable_aging.csv",
+              "type": "file",
+              "path": "finance/ar_ap/accounts_receivable_aging.csv",
+              "extension": ".csv",
+              "size": 6512
+            },
+            {
+              "name": "accounts_receivable_aging.json",
+              "type": "file",
+              "path": "finance/ar_ap/accounts_receivable_aging.json",
+              "extension": ".json",
+              "size": 23042
+            }
+          ]
+        },
+        {
+          "name": "cash_flow",
+          "type": "directory",
+          "path": "finance/cash_flow",
+          "children": [
+            {
+              "name": "monthly_cash_flow.csv",
+              "type": "file",
+              "path": "finance/cash_flow/monthly_cash_flow.csv",
+              "extension": ".csv",
+              "size": 4155
+            },
+            {
+              "name": "monthly_cash_flow.json",
+              "type": "file",
+              "path": "finance/cash_flow/monthly_cash_flow.json",
+              "extension": ".json",
+              "size": 15541
+            }
+          ]
+        },
+        {
+          "name": "compensation",
+          "type": "directory",
+          "path": "finance/compensation",
+          "children": [
+            {
+              "name": "benefits_liability_schedule.csv",
+              "type": "file",
+              "path": "finance/compensation/benefits_liability_schedule.csv",
+              "extension": ".csv",
+              "size": 1908
+            },
+            {
+              "name": "benefits_liability_schedule.json",
+              "type": "file",
+              "path": "finance/compensation/benefits_liability_schedule.json",
+              "extension": ".json",
+              "size": 7610
+            },
+            {
+              "name": "compensation_accruals.csv",
+              "type": "file",
+              "path": "finance/compensation/compensation_accruals.csv",
+              "extension": ".csv",
+              "size": 25777
+            },
+            {
+              "name": "compensation_accruals.json",
+              "type": "file",
+              "path": "finance/compensation/compensation_accruals.json",
+              "extension": ".json",
+              "size": 107049
+            },
+            {
+              "name": "compensation_financial_analysis.md",
+              "type": "file",
+              "path": "finance/compensation/compensation_financial_analysis.md",
+              "extension": ".md",
+              "size": 1779
+            },
+            {
+              "name": "payroll_liability_ledger.csv",
+              "type": "file",
+              "path": "finance/compensation/payroll_liability_ledger.csv",
+              "extension": ".csv",
+              "size": 79342
+            },
+            {
+              "name": "payroll_liability_ledger.json",
+              "type": "file",
+              "path": "finance/compensation/payroll_liability_ledger.json",
+              "extension": ".json",
+              "size": 312312
+            },
+            {
+              "name": "payroll_tax_schedule.csv",
+              "type": "file",
+              "path": "finance/compensation/payroll_tax_schedule.csv",
+              "extension": ".csv",
+              "size": 3287
+            },
+            {
+              "name": "payroll_tax_schedule.json",
+              "type": "file",
+              "path": "finance/compensation/payroll_tax_schedule.json",
+              "extension": ".json",
+              "size": 11100
+            },
+            {
+              "name": "stock_compensation_schedule.csv",
+              "type": "file",
+              "path": "finance/compensation/stock_compensation_schedule.csv",
+              "extension": ".csv",
+              "size": 7073
+            },
+            {
+              "name": "stock_compensation_schedule.json",
+              "type": "file",
+              "path": "finance/compensation/stock_compensation_schedule.json",
+              "extension": ".json",
+              "size": 22608
+            },
+            {
+              "name": "workers_comp_claims.csv",
+              "type": "file",
+              "path": "finance/compensation/workers_comp_claims.csv",
+              "extension": ".csv",
+              "size": 16512
+            },
+            {
+              "name": "workers_comp_claims.json",
+              "type": "file",
+              "path": "finance/compensation/workers_comp_claims.json",
+              "extension": ".json",
+              "size": 54870
+            }
+          ]
+        },
+        {
+          "name": "debt",
+          "type": "directory",
+          "path": "finance/debt",
+          "children": [
+            {
+              "name": "debt_schedule.csv",
+              "type": "file",
+              "path": "finance/debt/debt_schedule.csv",
+              "extension": ".csv",
+              "size": 739
+            },
+            {
+              "name": "debt_schedule.json",
+              "type": "file",
+              "path": "finance/debt/debt_schedule.json",
+              "extension": ".json",
+              "size": 1763
+            }
+          ]
+        },
+        {
+          "name": "expenses",
+          "type": "directory",
+          "path": "finance/expenses",
+          "children": [
+            {
+              "name": "monthly_expenses.csv",
+              "type": "file",
+              "path": "finance/expenses/monthly_expenses.csv",
+              "extension": ".csv",
+              "size": 416327
+            },
+            {
+              "name": "monthly_expenses.json",
+              "type": "file",
+              "path": "finance/expenses/monthly_expenses.json",
+              "extension": ".json",
+              "size": 1228148
+            }
+          ]
+        },
+        {
           "name": "invoices",
           "type": "directory",
           "path": "finance/invoices",
@@ -168,6 +364,41 @@
               "size": 3220
             }
           ]
+        },
+        {
+          "name": "vendors",
+          "type": "directory",
+          "path": "finance/vendors",
+          "children": [
+            {
+              "name": "vendor_master.csv",
+              "type": "file",
+              "path": "finance/vendors/vendor_master.csv",
+              "extension": ".csv",
+              "size": 763
+            },
+            {
+              "name": "vendor_master.json",
+              "type": "file",
+              "path": "finance/vendors/vendor_master.json",
+              "extension": ".json",
+              "size": 1753
+            },
+            {
+              "name": "vendor_spend.csv",
+              "type": "file",
+              "path": "finance/vendors/vendor_spend.csv",
+              "extension": ".csv",
+              "size": 32686
+            },
+            {
+              "name": "vendor_spend.json",
+              "type": "file",
+              "path": "finance/vendors/vendor_spend.json",
+              "extension": ".json",
+              "size": 106012
+            }
+          ]
         }
       ]
     },
@@ -176,6 +407,27 @@
       "type": "directory",
       "path": "hr-legal",
       "children": [
+        {
+          "name": "attrition",
+          "type": "directory",
+          "path": "hr-legal/attrition",
+          "children": [
+            {
+              "name": "attrition_records.csv",
+              "type": "file",
+              "path": "hr-legal/attrition/attrition_records.csv",
+              "extension": ".csv",
+              "size": 10383
+            },
+            {
+              "name": "attrition_records.json",
+              "type": "file",
+              "path": "hr-legal/attrition/attrition_records.json",
+              "extension": ".json",
+              "size": 38177
+            }
+          ]
+        },
         {
           "name": "benefits",
           "type": "directory",
@@ -219,6 +471,62 @@
           ]
         },
         {
+          "name": "compensation",
+          "type": "directory",
+          "path": "hr-legal/compensation",
+          "children": [
+            {
+              "name": "compensation_analysis.csv",
+              "type": "file",
+              "path": "hr-legal/compensation/compensation_analysis.csv",
+              "extension": ".csv",
+              "size": 6722
+            },
+            {
+              "name": "compensation_analysis.json",
+              "type": "file",
+              "path": "hr-legal/compensation/compensation_analysis.json",
+              "extension": ".json",
+              "size": 24668
+            }
+          ]
+        },
+        {
+          "name": "diversity",
+          "type": "directory",
+          "path": "hr-legal/diversity",
+          "children": [
+            {
+              "name": "diversity_current.csv",
+              "type": "file",
+              "path": "hr-legal/diversity/diversity_current.csv",
+              "extension": ".csv",
+              "size": 1460
+            },
+            {
+              "name": "diversity_current.json",
+              "type": "file",
+              "path": "hr-legal/diversity/diversity_current.json",
+              "extension": ".json",
+              "size": 4617
+            },
+            {
+              "name": "diversity_trends.csv",
+              "type": "file",
+              "path": "hr-legal/diversity/diversity_trends.csv",
+              "extension": ".csv",
+              "size": 718
+            },
+            {
+              "name": "diversity_trends.json",
+              "type": "file",
+              "path": "hr-legal/diversity/diversity_trends.json",
+              "extension": ".json",
+              "size": 3506
+            }
+          ]
+        },
+        {
           "name": "employees",
           "type": "directory",
           "path": "hr-legal/employees",
@@ -236,6 +544,251 @@
               "path": "hr-legal/employees/employees.json",
               "extension": ".json",
               "size": 9451
+            }
+          ]
+        },
+        {
+          "name": "headcount",
+          "type": "directory",
+          "path": "hr-legal/headcount",
+          "children": [
+            {
+              "name": "historical_headcount.csv",
+              "type": "file",
+              "path": "hr-legal/headcount/historical_headcount.csv",
+              "extension": ".csv",
+              "size": 15334
+            },
+            {
+              "name": "historical_headcount.json",
+              "type": "file",
+              "path": "hr-legal/headcount/historical_headcount.json",
+              "extension": ".json",
+              "size": 65662
+            }
+          ]
+        },
+        {
+          "name": "hr",
+          "type": "directory",
+          "path": "hr-legal/hr",
+          "children": [
+            {
+              "name": "attrition",
+              "type": "directory",
+              "path": "hr-legal/hr/attrition",
+              "children": [
+                {
+                  "name": "attrition_records.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/attrition/attrition_records.csv",
+                  "extension": ".csv",
+                  "size": 10327
+                },
+                {
+                  "name": "attrition_records.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/attrition/attrition_records.json",
+                  "extension": ".json",
+                  "size": 38121
+                }
+              ]
+            },
+            {
+              "name": "compensation_analysis.csv",
+              "type": "file",
+              "path": "hr-legal/hr/compensation_analysis.csv",
+              "extension": ".csv",
+              "size": 6710
+            },
+            {
+              "name": "compensation_analysis.json",
+              "type": "file",
+              "path": "hr-legal/hr/compensation_analysis.json",
+              "extension": ".json",
+              "size": 24656
+            },
+            {
+              "name": "diversity",
+              "type": "directory",
+              "path": "hr-legal/hr/diversity",
+              "children": [
+                {
+                  "name": "diversity_current.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/diversity/diversity_current.csv",
+                  "extension": ".csv",
+                  "size": 1401
+                },
+                {
+                  "name": "diversity_current.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/diversity/diversity_current.json",
+                  "extension": ".json",
+                  "size": 4558
+                },
+                {
+                  "name": "diversity_trends.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/diversity/diversity_trends.csv",
+                  "extension": ".csv",
+                  "size": 718
+                },
+                {
+                  "name": "diversity_trends.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/diversity/diversity_trends.json",
+                  "extension": ".json",
+                  "size": 3506
+                }
+              ]
+            },
+            {
+              "name": "headcount",
+              "type": "directory",
+              "path": "hr-legal/hr/headcount",
+              "children": [
+                {
+                  "name": "historical_headcount.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/headcount/historical_headcount.csv",
+                  "extension": ".csv",
+                  "size": 15407
+                },
+                {
+                  "name": "historical_headcount.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/headcount/historical_headcount.json",
+                  "extension": ".json",
+                  "size": 65735
+                }
+              ]
+            },
+            {
+              "name": "recruiting",
+              "type": "directory",
+              "path": "hr-legal/hr/recruiting",
+              "children": [
+                {
+                  "name": "recruiting_pipeline.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/recruiting/recruiting_pipeline.csv",
+                  "extension": ".csv",
+                  "size": 15615
+                },
+                {
+                  "name": "recruiting_pipeline.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/recruiting/recruiting_pipeline.json",
+                  "extension": ".json",
+                  "size": 60209
+                }
+              ]
+            },
+            {
+              "name": "training",
+              "type": "directory",
+              "path": "hr-legal/hr/training",
+              "children": [
+                {
+                  "name": "training_records.csv",
+                  "type": "file",
+                  "path": "hr-legal/hr/training/training_records.csv",
+                  "extension": ".csv",
+                  "size": 41909
+                },
+                {
+                  "name": "training_records.json",
+                  "type": "file",
+                  "path": "hr-legal/hr/training/training_records.json",
+                  "extension": ".json",
+                  "size": 135621
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "legal",
+          "type": "directory",
+          "path": "hr-legal/legal",
+          "children": [
+            {
+              "name": "compliance",
+              "type": "directory",
+              "path": "hr-legal/legal/compliance",
+              "children": [
+                {
+                  "name": "compliance_register.csv",
+                  "type": "file",
+                  "path": "hr-legal/legal/compliance/compliance_register.csv",
+                  "extension": ".csv",
+                  "size": 8300
+                },
+                {
+                  "name": "compliance_register.json",
+                  "type": "file",
+                  "path": "hr-legal/legal/compliance/compliance_register.json",
+                  "extension": ".json",
+                  "size": 26417
+                }
+              ]
+            },
+            {
+              "name": "contracts",
+              "type": "directory",
+              "path": "hr-legal/legal/contracts",
+              "children": [
+                {
+                  "name": "contract_register.csv",
+                  "type": "file",
+                  "path": "hr-legal/legal/contracts/contract_register.csv",
+                  "extension": ".csv",
+                  "size": 23395
+                },
+                {
+                  "name": "contract_register.json",
+                  "type": "file",
+                  "path": "hr-legal/legal/contracts/contract_register.json",
+                  "extension": ".json",
+                  "size": 62676
+                }
+              ]
+            },
+            {
+              "name": "intellectual_property.csv",
+              "type": "file",
+              "path": "hr-legal/legal/intellectual_property.csv",
+              "extension": ".csv",
+              "size": 2717
+            },
+            {
+              "name": "intellectual_property.json",
+              "type": "file",
+              "path": "hr-legal/legal/intellectual_property.json",
+              "extension": ".json",
+              "size": 7145
+            },
+            {
+              "name": "litigation",
+              "type": "directory",
+              "path": "hr-legal/legal/litigation",
+              "children": [
+                {
+                  "name": "litigation_register.csv",
+                  "type": "file",
+                  "path": "hr-legal/legal/litigation/litigation_register.csv",
+                  "extension": ".csv",
+                  "size": 5877
+                },
+                {
+                  "name": "litigation_register.json",
+                  "type": "file",
+                  "path": "hr-legal/legal/litigation/litigation_register.json",
+                  "extension": ".json",
+                  "size": 14092
+                }
+              ]
             }
           ]
         },
@@ -308,6 +861,48 @@
               "size": 4947
             }
           ]
+        },
+        {
+          "name": "recruiting",
+          "type": "directory",
+          "path": "hr-legal/recruiting",
+          "children": [
+            {
+              "name": "recruiting_pipeline.csv",
+              "type": "file",
+              "path": "hr-legal/recruiting/recruiting_pipeline.csv",
+              "extension": ".csv",
+              "size": 15841
+            },
+            {
+              "name": "recruiting_pipeline.json",
+              "type": "file",
+              "path": "hr-legal/recruiting/recruiting_pipeline.json",
+              "extension": ".json",
+              "size": 60467
+            }
+          ]
+        },
+        {
+          "name": "training",
+          "type": "directory",
+          "path": "hr-legal/training",
+          "children": [
+            {
+              "name": "training_records.csv",
+              "type": "file",
+              "path": "hr-legal/training/training_records.csv",
+              "extension": ".csv",
+              "size": 41759
+            },
+            {
+              "name": "training_records.json",
+              "type": "file",
+              "path": "hr-legal/training/training_records.json",
+              "extension": ".json",
+              "size": 135483
+            }
+          ]
         }
       ]
     },
@@ -323,6 +918,69 @@
       "type": "directory",
       "path": "product",
       "children": [
+        {
+          "name": "bugs",
+          "type": "directory",
+          "path": "product/bugs",
+          "children": [
+            {
+              "name": "bug_tracker.csv",
+              "type": "file",
+              "path": "product/bugs/bug_tracker.csv",
+              "extension": ".csv",
+              "size": 67632
+            },
+            {
+              "name": "bug_tracker.json",
+              "type": "file",
+              "path": "product/bugs/bug_tracker.json",
+              "extension": ".json",
+              "size": 153919
+            }
+          ]
+        },
+        {
+          "name": "features",
+          "type": "directory",
+          "path": "product/features",
+          "children": [
+            {
+              "name": "feature_adoption.csv",
+              "type": "file",
+              "path": "product/features/feature_adoption.csv",
+              "extension": ".csv",
+              "size": 4930
+            },
+            {
+              "name": "feature_adoption.json",
+              "type": "file",
+              "path": "product/features/feature_adoption.json",
+              "extension": ".json",
+              "size": 18665
+            }
+          ]
+        },
+        {
+          "name": "feedback",
+          "type": "directory",
+          "path": "product/feedback",
+          "children": [
+            {
+              "name": "customer_feedback.csv",
+              "type": "file",
+              "path": "product/feedback/customer_feedback.csv",
+              "extension": ".csv",
+              "size": 37485
+            },
+            {
+              "name": "customer_feedback.json",
+              "type": "file",
+              "path": "product/feedback/customer_feedback.json",
+              "extension": ".json",
+              "size": 83401
+            }
+          ]
+        },
         {
           "name": "meetings",
           "type": "directory",
@@ -415,6 +1073,27 @@
           ]
         },
         {
+          "name": "releases",
+          "type": "directory",
+          "path": "product/releases",
+          "children": [
+            {
+              "name": "release_history.csv",
+              "type": "file",
+              "path": "product/releases/release_history.csv",
+              "extension": ".csv",
+              "size": 4051
+            },
+            {
+              "name": "release_history.json",
+              "type": "file",
+              "path": "product/releases/release_history.json",
+              "extension": ".json",
+              "size": 9597
+            }
+          ]
+        },
+        {
           "name": "support",
           "type": "directory",
           "path": "product/support",
@@ -432,6 +1111,27 @@
               "path": "product/support/support_tickets.json",
               "extension": ".json",
               "size": 85979
+            }
+          ]
+        },
+        {
+          "name": "user_metrics",
+          "type": "directory",
+          "path": "product/user_metrics",
+          "children": [
+            {
+              "name": "monthly_user_metrics.csv",
+              "type": "file",
+              "path": "product/user_metrics/monthly_user_metrics.csv",
+              "extension": ".csv",
+              "size": 5940
+            },
+            {
+              "name": "monthly_user_metrics.json",
+              "type": "file",
+              "path": "product/user_metrics/monthly_user_metrics.json",
+              "extension": ".json",
+              "size": 29052
             }
           ]
         }
@@ -891,6 +1591,89 @@
           ]
         },
         {
+          "name": "marketing",
+          "type": "directory",
+          "path": "sales-marketing/marketing",
+          "children": [
+            {
+              "name": "email_campaigns",
+              "type": "directory",
+              "path": "sales-marketing/marketing/email_campaigns",
+              "children": []
+            },
+            {
+              "name": "engagement",
+              "type": "directory",
+              "path": "sales-marketing/marketing/engagement",
+              "children": [
+                {
+                  "name": "email_engagement.csv",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/email_engagement.csv",
+                  "extension": ".csv",
+                  "size": 1316
+                },
+                {
+                  "name": "email_engagement.json",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/email_engagement.json",
+                  "extension": ".json",
+                  "size": 6397
+                },
+                {
+                  "name": "social_media_engagement.csv",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/social_media_engagement.csv",
+                  "extension": ".csv",
+                  "size": 1148
+                },
+                {
+                  "name": "social_media_engagement.json",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/social_media_engagement.json",
+                  "extension": ".json",
+                  "size": 5416
+                },
+                {
+                  "name": "website_engagement.csv",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/website_engagement.csv",
+                  "extension": ".csv",
+                  "size": 1334
+                },
+                {
+                  "name": "website_engagement.json",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/engagement/website_engagement.json",
+                  "extension": ".json",
+                  "size": 6476
+                }
+              ]
+            },
+            {
+              "name": "lead_scoring",
+              "type": "directory",
+              "path": "sales-marketing/marketing/lead_scoring",
+              "children": [
+                {
+                  "name": "lead_scores.csv",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/lead_scoring/lead_scores.csv",
+                  "extension": ".csv",
+                  "size": 54255
+                },
+                {
+                  "name": "lead_scores.json",
+                  "type": "file",
+                  "path": "sales-marketing/marketing/lead_scoring/lead_scores.json",
+                  "extension": ".json",
+                  "size": 225558
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "memos",
           "type": "directory",
           "path": "sales-marketing/memos",
@@ -950,6 +1733,97 @@
               "path": "sales-marketing/memos/Q1-2024-Sales-Performance-Summary.md",
               "extension": ".md",
               "size": 3416
+            }
+          ]
+        },
+        {
+          "name": "sales",
+          "type": "directory",
+          "path": "sales-marketing/sales",
+          "children": [
+            {
+              "name": "forecasts",
+              "type": "directory",
+              "path": "sales-marketing/sales/forecasts",
+              "children": [
+                {
+                  "name": "sales_forecasts.csv",
+                  "type": "file",
+                  "path": "sales-marketing/sales/forecasts/sales_forecasts.csv",
+                  "extension": ".csv",
+                  "size": 2652
+                },
+                {
+                  "name": "sales_forecasts.json",
+                  "type": "file",
+                  "path": "sales-marketing/sales/forecasts/sales_forecasts.json",
+                  "extension": ".json",
+                  "size": 9275
+                }
+              ]
+            },
+            {
+              "name": "pipeline",
+              "type": "directory",
+              "path": "sales-marketing/sales/pipeline",
+              "children": [
+                {
+                  "name": "sales_pipeline.csv",
+                  "type": "file",
+                  "path": "sales-marketing/sales/pipeline/sales_pipeline.csv",
+                  "extension": ".csv",
+                  "size": 52731
+                },
+                {
+                  "name": "sales_pipeline.json",
+                  "type": "file",
+                  "path": "sales-marketing/sales/pipeline/sales_pipeline.json",
+                  "extension": ".json",
+                  "size": 129067
+                }
+              ]
+            },
+            {
+              "name": "quotas",
+              "type": "directory",
+              "path": "sales-marketing/sales/quotas",
+              "children": [
+                {
+                  "name": "quota_attainment.csv",
+                  "type": "file",
+                  "path": "sales-marketing/sales/quotas/quota_attainment.csv",
+                  "extension": ".csv",
+                  "size": 1685
+                },
+                {
+                  "name": "quota_attainment.json",
+                  "type": "file",
+                  "path": "sales-marketing/sales/quotas/quota_attainment.json",
+                  "extension": ".json",
+                  "size": 5716
+                }
+              ]
+            },
+            {
+              "name": "quotes",
+              "type": "directory",
+              "path": "sales-marketing/sales/quotes",
+              "children": [
+                {
+                  "name": "sales_quotes.csv",
+                  "type": "file",
+                  "path": "sales-marketing/sales/quotes/sales_quotes.csv",
+                  "extension": ".csv",
+                  "size": 20376
+                },
+                {
+                  "name": "sales_quotes.json",
+                  "type": "file",
+                  "path": "sales-marketing/sales/quotes/sales_quotes.json",
+                  "extension": ".json",
+                  "size": 71410
+                }
+              ]
             }
           ]
         }

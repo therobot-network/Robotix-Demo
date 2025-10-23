@@ -1,0 +1,212 @@
+[
+  {
+    "department": "Executive Leadership",
+    "job_level_category": "Executive",
+    "gender": "Male",
+    "count": 18,
+    "percentage": 52.9
+  },
+  {
+    "department": "Executive Leadership",
+    "job_level_category": "Individual Contributor",
+    "gender": "Female",
+    "count": 13,
+    "percentage": 38.2
+  },
+  {
+    "department": "Executive Leadership",
+    "job_level_category": "Executive",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Human Resources",
+    "job_level_category": "Individual Contributor",
+    "gender": "Male",
+    "count": 20,
+    "percentage": 71.4
+  },
+  {
+    "department": "Human Resources",
+    "job_level_category": "Manager",
+    "gender": "Female",
+    "count": 8,
+    "percentage": 28.6
+  },
+  {
+    "department": "Human Resources",
+    "job_level_category": "Manager",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Sales & Marketing",
+    "job_level_category": "Executive",
+    "gender": "Male",
+    "count": 19,
+    "percentage": 51.4
+  },
+  {
+    "department": "Sales & Marketing",
+    "job_level_category": "Manager",
+    "gender": "Female",
+    "count": 11,
+    "percentage": 29.7
+  },
+  {
+    "department": "Sales & Marketing",
+    "job_level_category": "Manager",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Product Development",
+    "job_level_category": "Executive",
+    "gender": "Male",
+    "count": 23,
+    "percentage": 59.0
+  },
+  {
+    "department": "Product Development",
+    "job_level_category": "Individual Contributor",
+    "gender": "Female",
+    "count": 16,
+    "percentage": 41.0
+  },
+  {
+    "department": "Product Development",
+    "job_level_category": "Manager",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Manufacturing",
+    "job_level_category": "Manager",
+    "gender": "Male",
+    "count": 31,
+    "percentage": 56.4
+  },
+  {
+    "department": "Manufacturing",
+    "job_level_category": "Manager",
+    "gender": "Female",
+    "count": 21,
+    "percentage": 38.2
+  },
+  {
+    "department": "Manufacturing",
+    "job_level_category": "Manager",
+    "gender": "Non-binary",
+    "count": 1,
+    "percentage": 1.8
+  },
+  {
+    "department": "Quality Assurance",
+    "job_level_category": "Manager",
+    "gender": "Male",
+    "count": 25,
+    "percentage": 62.5
+  },
+  {
+    "department": "Quality Assurance",
+    "job_level_category": "Executive",
+    "gender": "Female",
+    "count": 17,
+    "percentage": 42.5
+  },
+  {
+    "department": "Quality Assurance",
+    "job_level_category": "Manager",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Customer Service",
+    "job_level_category": "Executive",
+    "gender": "Male",
+    "count": 10,
+    "percentage": 50.0
+  },
+  {
+    "department": "Customer Service",
+    "job_level_category": "Individual Contributor",
+    "gender": "Female",
+    "count": 7,
+    "percentage": 35.0
+  },
+  {
+    "department": "Customer Service",
+    "job_level_category": "Executive",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "Finance",
+    "job_level_category": "Individual Contributor",
+    "gender": "Male",
+    "count": 23,
+    "percentage": 51.1
+  },
+  {
+    "department": "Finance",
+    "job_level_category": "Manager",
+    "gender": "Female",
+    "count": 15,
+    "percentage": 33.3
+  },
+  {
+    "department": "Finance",
+    "job_level_category": "Executive",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  },
+  {
+    "department": "IT & Systems",
+    "job_level_category": "Manager",
+    "gender": "Male",
+    "count": 24,
+    "percentage": 53.3
+  },
+  {
+    "department": "IT & Systems",
+    "job_level_category": "Individual Contributor",
+    "gender": "Female",
+    "count": 14,
+    "percentage": 31.1
+  },
+  {
+    "department": "IT & Systems",
+    "job_level_category": "Individual Contributor",
+    "gender": "Non-binary",
+    "count": 1,
+    "percentage": 2.2
+  },
+  {
+    "department": "Legal & Compliance",
+    "job_level_category": "Manager",
+    "gender": "Male",
+    "count": 9,
+    "percentage": 50.0
+  },
+  {
+    "department": "Legal & Compliance",
+    "job_level_category": "Individual Contributor",
+    "gender": "Female",
+    "count": 6,
+    "percentage": 33.3
+  },
+  {
+    "department": "Legal & Compliance",
+    "job_level_category": "Executive",
+    "gender": "Non-binary",
+    "count": 0,
+    "percentage": 0.0
+  }
+]

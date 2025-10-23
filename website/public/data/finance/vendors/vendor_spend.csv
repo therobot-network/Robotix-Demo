@@ -1,0 +1,361 @@
+month,vendor_id,vendor_name,category,total_spend,num_invoices,avg_invoice_amount,payment_terms,on_time_payment_pct
+2023-11,VEN-001,Precision Components Inc,Component Supplier,236617.23,1,236617.23,Net 45,89.7
+2023-11,VEN-002,TechMotion Systems,Component Supplier,262616.09,3,87538.7,Net 45,94.4
+2023-11,VEN-003,Industrial Sensors Co,Component Supplier,104025.56,7,14860.79,Due on Receipt,94.9
+2023-11,VEN-004,Atlas Logistics,Logistics Provider,40428.22,3,13476.07,Due on Receipt,91.8
+2023-11,VEN-005,CloudSoft Solutions,Software Vendor,27364.66,4,6841.17,Due on Receipt,92.2
+2023-11,VEN-006,Enterprise Systems Inc,Software Vendor,19221.49,1,19221.49,Net 45,96.8
+2023-11,VEN-007,DataGuard Security,Software Vendor,33883.05,3,11294.35,Net 45,95.0
+2023-11,VEN-008,BuildRight Construction,Facility Services,58694.32,1,58694.32,Due on Receipt,92.9
+2023-11,VEN-009,Bright Marketing Group,Marketing Agency,30027.97,8,3753.5,Net 60,89.0
+2023-11,VEN-010,Strategic Advisors LLC,Consulting,34486.27,2,17243.14,Net 60,90.7
+2023-11,VEN-011,Premier Insurance Group,Insurance Provider,19559.95,7,2794.28,Net 30,92.5
+2023-11,VEN-012,Elite Equipment Supply,Equipment Supplier,39131.18,3,13043.73,Net 45,93.9
+2023-11,VEN-013,Global Freight Services,Logistics Provider,70127.47,4,17531.87,Net 30,99.5
+2023-11,VEN-014,Innovation Labs,Professional Services,37517.84,4,9379.46,Net 60,99.2
+2023-11,VEN-015,Metro Facilities Management,Facility Services,25725.42,2,12862.71,Net 60,99.9
+2023-12,VEN-001,Precision Components Inc,Component Supplier,296515.51,4,74128.88,Net 30,88.1
+2023-12,VEN-002,TechMotion Systems,Component Supplier,199359.54,1,199359.54,Due on Receipt,91.7
+2023-12,VEN-003,Industrial Sensors Co,Component Supplier,292621.26,4,73155.31,Due on Receipt,85.2
+2023-12,VEN-004,Atlas Logistics,Logistics Provider,49875.69,5,9975.14,Net 45,87.9
+2023-12,VEN-005,CloudSoft Solutions,Software Vendor,46086.91,8,5760.86,Net 60,95.7
+2023-12,VEN-006,Enterprise Systems Inc,Software Vendor,42725.16,6,7120.86,Net 60,85.3
+2023-12,VEN-007,DataGuard Security,Software Vendor,37318.04,1,37318.04,Net 60,90.8
+2023-12,VEN-008,BuildRight Construction,Facility Services,43770.03,6,7295.01,Net 60,98.2
+2023-12,VEN-009,Bright Marketing Group,Marketing Agency,48853.45,5,9770.69,Net 30,97.3
+2023-12,VEN-010,Strategic Advisors LLC,Consulting,32904.72,2,16452.36,Net 30,88.8
+2023-12,VEN-011,Premier Insurance Group,Insurance Provider,16742.97,5,3348.59,Due on Receipt,91.1
+2023-12,VEN-012,Elite Equipment Supply,Equipment Supplier,55570.2,6,9261.7,Net 60,99.2
+2023-12,VEN-013,Global Freight Services,Logistics Provider,71347.98,8,8918.5,Net 60,96.8
+2023-12,VEN-014,Innovation Labs,Professional Services,24031.74,5,4806.35,Net 60,97.7
+2023-12,VEN-015,Metro Facilities Management,Facility Services,44264.06,7,6323.44,Net 60,87.0
+2024-01,VEN-001,Precision Components Inc,Component Supplier,144374.4,5,28874.88,Net 60,88.0
+2024-01,VEN-002,TechMotion Systems,Component Supplier,213207.23,7,30458.18,Net 45,88.5
+2024-01,VEN-003,Industrial Sensors Co,Component Supplier,178863.68,7,25551.95,Net 30,89.1
+2024-01,VEN-004,Atlas Logistics,Logistics Provider,57626.52,7,8232.36,Net 30,87.3
+2024-01,VEN-005,CloudSoft Solutions,Software Vendor,38445.42,8,4805.68,Due on Receipt,95.4
+2024-01,VEN-006,Enterprise Systems Inc,Software Vendor,39947.84,2,19973.92,Due on Receipt,87.5
+2024-01,VEN-007,DataGuard Security,Software Vendor,39135.96,7,5590.85,Due on Receipt,89.9
+2024-01,VEN-008,BuildRight Construction,Facility Services,43224.2,2,21612.1,Net 30,97.0
+2024-01,VEN-009,Bright Marketing Group,Marketing Agency,36988.43,5,7397.69,Net 30,85.9
+2024-01,VEN-010,Strategic Advisors LLC,Consulting,31069.63,6,5178.27,Net 60,98.3
+2024-01,VEN-011,Premier Insurance Group,Insurance Provider,16633.46,2,8316.73,Net 45,89.2
+2024-01,VEN-012,Elite Equipment Supply,Equipment Supplier,10879.8,8,1359.97,Net 60,93.7
+2024-01,VEN-013,Global Freight Services,Logistics Provider,78462.28,4,19615.57,Due on Receipt,85.6
+2024-01,VEN-014,Innovation Labs,Professional Services,30609.68,5,6121.94,Net 60,99.9
+2024-01,VEN-015,Metro Facilities Management,Facility Services,50248.64,6,8374.77,Net 45,94.9
+2024-01,VEN-001,Precision Components Inc,Component Supplier,106432.3,3,35477.43,Net 45,93.8
+2024-01,VEN-002,TechMotion Systems,Component Supplier,243692.73,1,243692.73,Net 60,99.1
+2024-01,VEN-003,Industrial Sensors Co,Component Supplier,180175.31,7,25739.33,Net 30,99.9
+2024-01,VEN-004,Atlas Logistics,Logistics Provider,63100.51,5,12620.1,Net 30,90.9
+2024-01,VEN-005,CloudSoft Solutions,Software Vendor,16635.21,3,5545.07,Net 45,99.2
+2024-01,VEN-006,Enterprise Systems Inc,Software Vendor,42263.39,4,10565.85,Net 45,91.5
+2024-01,VEN-007,DataGuard Security,Software Vendor,19293.52,7,2756.22,Net 45,93.9
+2024-01,VEN-008,BuildRight Construction,Facility Services,38011.25,2,19005.62,Due on Receipt,95.1
+2024-01,VEN-009,Bright Marketing Group,Marketing Agency,48394.01,6,8065.67,Due on Receipt,89.4
+2024-01,VEN-010,Strategic Advisors LLC,Consulting,40477.39,7,5782.48,Net 30,85.3
+2024-01,VEN-011,Premier Insurance Group,Insurance Provider,29428.29,7,4204.04,Due on Receipt,93.7
+2024-01,VEN-012,Elite Equipment Supply,Equipment Supplier,48648.83,3,16216.28,Net 45,97.4
+2024-01,VEN-013,Global Freight Services,Logistics Provider,62226.35,6,10371.06,Net 60,89.1
+2024-01,VEN-014,Innovation Labs,Professional Services,35229.88,2,17614.94,Net 30,85.5
+2024-01,VEN-015,Metro Facilities Management,Facility Services,21201.08,4,5300.27,Net 45,89.0
+2024-03,VEN-001,Precision Components Inc,Component Supplier,138714.05,7,19816.29,Net 45,86.6
+2024-03,VEN-002,TechMotion Systems,Component Supplier,144031.52,1,144031.52,Net 30,98.6
+2024-03,VEN-003,Industrial Sensors Co,Component Supplier,286511.03,8,35813.88,Net 45,99.1
+2024-03,VEN-004,Atlas Logistics,Logistics Provider,39326.08,3,13108.69,Net 45,97.5
+2024-03,VEN-005,CloudSoft Solutions,Software Vendor,47992.99,1,47992.99,Due on Receipt,97.9
+2024-03,VEN-006,Enterprise Systems Inc,Software Vendor,49024.93,2,24512.46,Net 30,87.3
+2024-03,VEN-007,DataGuard Security,Software Vendor,40851.04,8,5106.38,Net 60,85.5
+2024-03,VEN-008,BuildRight Construction,Facility Services,37849.55,7,5407.08,Due on Receipt,95.4
+2024-03,VEN-009,Bright Marketing Group,Marketing Agency,16354.62,2,8177.31,Due on Receipt,92.8
+2024-03,VEN-010,Strategic Advisors LLC,Consulting,18094.12,3,6031.37,Net 45,91.6
+2024-03,VEN-011,Premier Insurance Group,Insurance Provider,18994.52,4,4748.63,Net 60,86.8
+2024-03,VEN-012,Elite Equipment Supply,Equipment Supplier,42563.66,4,10640.91,Due on Receipt,94.1
+2024-03,VEN-013,Global Freight Services,Logistics Provider,37708.01,6,6284.67,Net 45,88.9
+2024-03,VEN-014,Innovation Labs,Professional Services,21322.88,8,2665.36,Net 60,92.3
+2024-03,VEN-015,Metro Facilities Management,Facility Services,25273.89,6,4212.31,Net 45,89.1
+2024-03,VEN-001,Precision Components Inc,Component Supplier,105073.72,2,52536.86,Net 60,87.1
+2024-03,VEN-002,TechMotion Systems,Component Supplier,236794.02,5,47358.8,Due on Receipt,97.2
+2024-03,VEN-003,Industrial Sensors Co,Component Supplier,232687.86,8,29085.98,Net 45,96.7
+2024-03,VEN-004,Atlas Logistics,Logistics Provider,62711.01,3,20903.67,Net 45,98.9
+2024-03,VEN-005,CloudSoft Solutions,Software Vendor,40530.23,6,6755.04,Net 60,88.0
+2024-03,VEN-006,Enterprise Systems Inc,Software Vendor,18851.67,7,2693.1,Due on Receipt,89.1
+2024-03,VEN-007,DataGuard Security,Software Vendor,30317.4,3,10105.8,Net 45,85.8
+2024-03,VEN-008,BuildRight Construction,Facility Services,14673.83,3,4891.28,Due on Receipt,91.1
+2024-03,VEN-009,Bright Marketing Group,Marketing Agency,13536.72,5,2707.34,Due on Receipt,97.3
+2024-03,VEN-010,Strategic Advisors LLC,Consulting,27272.51,1,27272.51,Net 45,87.6
+2024-03,VEN-011,Premier Insurance Group,Insurance Provider,29326.66,2,14663.33,Net 45,85.5
+2024-03,VEN-012,Elite Equipment Supply,Equipment Supplier,33416.87,6,5569.48,Net 30,97.1
+2024-03,VEN-013,Global Freight Services,Logistics Provider,42644.95,3,14214.98,Due on Receipt,92.2
+2024-03,VEN-014,Innovation Labs,Professional Services,56181.7,2,28090.85,Net 30,87.6
+2024-03,VEN-015,Metro Facilities Management,Facility Services,10552.82,3,3517.61,Net 45,95.3
+2024-04,VEN-001,Precision Components Inc,Component Supplier,140005.08,1,140005.08,Net 45,85.3
+2024-04,VEN-002,TechMotion Systems,Component Supplier,183788.35,7,26255.48,Net 45,92.7
+2024-04,VEN-003,Industrial Sensors Co,Component Supplier,166705.26,6,27784.21,Net 30,99.8
+2024-04,VEN-004,Atlas Logistics,Logistics Provider,47912.93,2,23956.46,Net 45,89.9
+2024-04,VEN-005,CloudSoft Solutions,Software Vendor,44901.46,3,14967.15,Net 45,99.8
+2024-04,VEN-006,Enterprise Systems Inc,Software Vendor,23141.21,6,3856.87,Net 60,95.8
+2024-04,VEN-007,DataGuard Security,Software Vendor,21498.71,5,4299.74,Due on Receipt,99.5
+2024-04,VEN-008,BuildRight Construction,Facility Services,47071.98,2,23535.99,Net 60,94.8
+2024-04,VEN-009,Bright Marketing Group,Marketing Agency,23790.96,2,11895.48,Net 60,98.5
+2024-04,VEN-010,Strategic Advisors LLC,Consulting,21710.61,7,3101.52,Net 30,94.9
+2024-04,VEN-011,Premier Insurance Group,Insurance Provider,33585.21,8,4198.15,Net 30,98.8
+2024-04,VEN-012,Elite Equipment Supply,Equipment Supplier,18248.46,7,2606.92,Due on Receipt,96.2
+2024-04,VEN-013,Global Freight Services,Logistics Provider,78454.08,8,9806.76,Net 45,99.9
+2024-04,VEN-014,Innovation Labs,Professional Services,33726.71,6,5621.12,Net 30,92.9
+2024-04,VEN-015,Metro Facilities Management,Facility Services,26958.02,5,5391.6,Net 60,95.4
+2024-05,VEN-001,Precision Components Inc,Component Supplier,197284.41,8,24660.55,Net 60,94.5
+2024-05,VEN-002,TechMotion Systems,Component Supplier,153466.73,7,21923.82,Net 30,94.9
+2024-05,VEN-003,Industrial Sensors Co,Component Supplier,193780.26,7,27682.89,Net 60,99.6
+2024-05,VEN-004,Atlas Logistics,Logistics Provider,63100.66,1,63100.66,Due on Receipt,87.6
+2024-05,VEN-005,CloudSoft Solutions,Software Vendor,45192.52,2,22596.26,Due on Receipt,95.5
+2024-05,VEN-006,Enterprise Systems Inc,Software Vendor,16647.25,4,4161.81,Net 30,95.4
+2024-05,VEN-007,DataGuard Security,Software Vendor,32136.79,7,4590.97,Net 60,90.3
+2024-05,VEN-008,BuildRight Construction,Facility Services,19587.21,8,2448.4,Net 45,91.2
+2024-05,VEN-009,Bright Marketing Group,Marketing Agency,17602.25,8,2200.28,Net 30,92.9
+2024-05,VEN-010,Strategic Advisors LLC,Consulting,33522.05,1,33522.05,Net 30,87.5
+2024-05,VEN-011,Premier Insurance Group,Insurance Provider,54583.82,4,13645.95,Due on Receipt,85.6
+2024-05,VEN-012,Elite Equipment Supply,Equipment Supplier,50538.33,4,12634.58,Net 45,96.9
+2024-05,VEN-013,Global Freight Services,Logistics Provider,61298.79,3,20432.93,Net 45,90.2
+2024-05,VEN-014,Innovation Labs,Professional Services,32110.15,4,8027.54,Net 30,85.3
+2024-05,VEN-015,Metro Facilities Management,Facility Services,37666.14,6,6277.69,Net 30,99.4
+2024-06,VEN-001,Precision Components Inc,Component Supplier,235720.06,7,33674.29,Net 45,87.9
+2024-06,VEN-002,TechMotion Systems,Component Supplier,174702.19,1,174702.19,Net 30,92.3
+2024-06,VEN-003,Industrial Sensors Co,Component Supplier,214797.41,6,35799.57,Net 30,99.1
+2024-06,VEN-004,Atlas Logistics,Logistics Provider,43733.86,7,6247.69,Net 60,93.4
+2024-06,VEN-005,CloudSoft Solutions,Software Vendor,23604.58,4,5901.15,Net 45,88.5
+2024-06,VEN-006,Enterprise Systems Inc,Software Vendor,33087.09,6,5514.51,Due on Receipt,97.5
+2024-06,VEN-007,DataGuard Security,Software Vendor,38188.65,7,5455.52,Net 45,89.4
+2024-06,VEN-008,BuildRight Construction,Facility Services,51267.13,4,12816.78,Due on Receipt,86.6
+2024-06,VEN-009,Bright Marketing Group,Marketing Agency,50828.19,5,10165.64,Net 30,87.2
+2024-06,VEN-010,Strategic Advisors LLC,Consulting,31937.83,2,15968.92,Net 30,94.7
+2024-06,VEN-011,Premier Insurance Group,Insurance Provider,41260.85,4,10315.21,Net 30,86.0
+2024-06,VEN-012,Elite Equipment Supply,Equipment Supplier,45407.32,4,11351.83,Due on Receipt,86.8
+2024-06,VEN-013,Global Freight Services,Logistics Provider,48935.52,8,6116.94,Due on Receipt,85.8
+2024-06,VEN-014,Innovation Labs,Professional Services,44819.76,4,11204.94,Due on Receipt,87.8
+2024-06,VEN-015,Metro Facilities Management,Facility Services,35499.07,2,17749.54,Net 30,89.2
+2024-07,VEN-001,Precision Components Inc,Component Supplier,190135.45,2,95067.72,Due on Receipt,98.0
+2024-07,VEN-002,TechMotion Systems,Component Supplier,270033.92,3,90011.31,Net 30,94.1
+2024-07,VEN-003,Industrial Sensors Co,Component Supplier,122827.06,7,17546.72,Net 45,91.3
+2024-07,VEN-004,Atlas Logistics,Logistics Provider,63817.21,2,31908.61,Net 60,98.0
+2024-07,VEN-005,CloudSoft Solutions,Software Vendor,40513.53,1,40513.53,Due on Receipt,95.1
+2024-07,VEN-006,Enterprise Systems Inc,Software Vendor,34144.6,3,11381.53,Net 60,98.5
+2024-07,VEN-007,DataGuard Security,Software Vendor,26349.7,5,5269.94,Net 45,89.8
+2024-07,VEN-008,BuildRight Construction,Facility Services,22142.16,3,7380.72,Net 30,95.4
+2024-07,VEN-009,Bright Marketing Group,Marketing Agency,38580.87,8,4822.61,Due on Receipt,98.5
+2024-07,VEN-010,Strategic Advisors LLC,Consulting,55768.83,4,13942.21,Net 30,97.9
+2024-07,VEN-011,Premier Insurance Group,Insurance Provider,43722.03,7,6246.0,Net 45,93.8
+2024-07,VEN-012,Elite Equipment Supply,Equipment Supplier,45766.35,3,15255.45,Net 45,86.2
+2024-07,VEN-013,Global Freight Services,Logistics Provider,37712.88,2,18856.44,Net 60,86.2
+2024-07,VEN-014,Innovation Labs,Professional Services,45356.51,6,7559.42,Net 45,96.2
+2024-07,VEN-015,Metro Facilities Management,Facility Services,34257.46,8,4282.18,Due on Receipt,98.3
+2024-08,VEN-001,Precision Components Inc,Component Supplier,265554.1,3,88518.03,Net 30,88.9
+2024-08,VEN-002,TechMotion Systems,Component Supplier,143501.65,8,17937.71,Net 30,86.7
+2024-08,VEN-003,Industrial Sensors Co,Component Supplier,258876.86,4,64719.22,Net 45,91.7
+2024-08,VEN-004,Atlas Logistics,Logistics Provider,72960.51,6,12160.08,Net 60,86.3
+2024-08,VEN-005,CloudSoft Solutions,Software Vendor,36396.97,2,18198.48,Due on Receipt,97.9
+2024-08,VEN-006,Enterprise Systems Inc,Software Vendor,37047.65,3,12349.22,Net 30,88.2
+2024-08,VEN-007,DataGuard Security,Software Vendor,27987.41,3,9329.14,Net 60,94.0
+2024-08,VEN-008,BuildRight Construction,Facility Services,59769.49,8,7471.19,Net 45,85.4
+2024-08,VEN-009,Bright Marketing Group,Marketing Agency,57098.8,3,19032.93,Net 45,86.1
+2024-08,VEN-010,Strategic Advisors LLC,Consulting,27501.68,2,13750.84,Net 60,89.2
+2024-08,VEN-011,Premier Insurance Group,Insurance Provider,50441.89,2,25220.94,Due on Receipt,91.9
+2024-08,VEN-012,Elite Equipment Supply,Equipment Supplier,39335.98,1,39335.98,Net 30,96.9
+2024-08,VEN-013,Global Freight Services,Logistics Provider,73158.4,7,10451.2,Net 45,92.8
+2024-08,VEN-014,Innovation Labs,Professional Services,43223.82,1,43223.82,Net 45,99.5
+2024-08,VEN-015,Metro Facilities Management,Facility Services,13166.97,7,1881.0,Net 30,95.4
+2024-09,VEN-001,Precision Components Inc,Component Supplier,171522.49,1,171522.49,Net 30,85.5
+2024-09,VEN-002,TechMotion Systems,Component Supplier,250158.97,7,35737.0,Net 30,95.5
+2024-09,VEN-003,Industrial Sensors Co,Component Supplier,193181.3,4,48295.33,Net 60,94.5
+2024-09,VEN-004,Atlas Logistics,Logistics Provider,45861.9,7,6551.7,Net 45,86.3
+2024-09,VEN-005,CloudSoft Solutions,Software Vendor,21251.59,8,2656.45,Due on Receipt,97.1
+2024-09,VEN-006,Enterprise Systems Inc,Software Vendor,24279.72,2,12139.86,Net 45,89.5
+2024-09,VEN-007,DataGuard Security,Software Vendor,48688.25,6,8114.71,Net 30,95.5
+2024-09,VEN-008,BuildRight Construction,Facility Services,29309.05,6,4884.84,Net 60,90.1
+2024-09,VEN-009,Bright Marketing Group,Marketing Agency,49287.28,1,49287.28,Net 60,91.7
+2024-09,VEN-010,Strategic Advisors LLC,Consulting,24855.97,7,3550.85,Net 45,96.8
+2024-09,VEN-011,Premier Insurance Group,Insurance Provider,38264.4,8,4783.05,Due on Receipt,92.0
+2024-09,VEN-012,Elite Equipment Supply,Equipment Supplier,23992.61,7,3427.52,Net 30,86.8
+2024-09,VEN-013,Global Freight Services,Logistics Provider,63999.2,2,31999.6,Due on Receipt,93.7
+2024-09,VEN-014,Innovation Labs,Professional Services,48281.22,6,8046.87,Due on Receipt,88.0
+2024-09,VEN-015,Metro Facilities Management,Facility Services,34706.65,2,17353.33,Due on Receipt,96.3
+2024-10,VEN-001,Precision Components Inc,Component Supplier,153365.7,8,19170.71,Net 60,96.3
+2024-10,VEN-002,TechMotion Systems,Component Supplier,148973.08,2,74486.54,Net 45,96.1
+2024-10,VEN-003,Industrial Sensors Co,Component Supplier,144794.77,2,72397.39,Net 30,91.2
+2024-10,VEN-004,Atlas Logistics,Logistics Provider,42903.4,8,5362.92,Net 30,90.8
+2024-10,VEN-005,CloudSoft Solutions,Software Vendor,19699.97,1,19699.97,Net 30,88.8
+2024-10,VEN-006,Enterprise Systems Inc,Software Vendor,20125.59,2,10062.8,Net 60,87.9
+2024-10,VEN-007,DataGuard Security,Software Vendor,30857.53,2,15428.76,Net 60,99.6
+2024-10,VEN-008,BuildRight Construction,Facility Services,51897.77,2,25948.89,Net 60,90.5
+2024-10,VEN-009,Bright Marketing Group,Marketing Agency,24879.69,2,12439.84,Due on Receipt,96.3
+2024-10,VEN-010,Strategic Advisors LLC,Consulting,24822.99,7,3546.14,Net 45,90.6
+2024-10,VEN-011,Premier Insurance Group,Insurance Provider,21416.15,4,5354.04,Net 30,98.8
+2024-10,VEN-012,Elite Equipment Supply,Equipment Supplier,38950.66,1,38950.66,Net 30,85.1
+2024-10,VEN-013,Global Freight Services,Logistics Provider,32548.37,8,4068.55,Net 45,96.2
+2024-10,VEN-014,Innovation Labs,Professional Services,46916.66,4,11729.17,Net 60,98.7
+2024-10,VEN-015,Metro Facilities Management,Facility Services,46407.83,7,6629.69,Due on Receipt,88.2
+2024-11,VEN-001,Precision Components Inc,Component Supplier,145225.43,1,145225.43,Net 60,99.4
+2024-11,VEN-002,TechMotion Systems,Component Supplier,173279.52,3,57759.84,Due on Receipt,96.8
+2024-11,VEN-003,Industrial Sensors Co,Component Supplier,264382.95,6,44063.82,Net 45,89.5
+2024-11,VEN-004,Atlas Logistics,Logistics Provider,45026.54,8,5628.32,Net 30,88.5
+2024-11,VEN-005,CloudSoft Solutions,Software Vendor,27409.13,1,27409.13,Net 45,97.8
+2024-11,VEN-006,Enterprise Systems Inc,Software Vendor,20064.96,8,2508.12,Net 60,87.9
+2024-11,VEN-007,DataGuard Security,Software Vendor,15049.96,4,3762.49,Due on Receipt,85.2
+2024-11,VEN-008,BuildRight Construction,Facility Services,51233.76,6,8538.96,Net 30,97.9
+2024-11,VEN-009,Bright Marketing Group,Marketing Agency,31874.03,7,4553.43,Net 45,99.4
+2024-11,VEN-010,Strategic Advisors LLC,Consulting,33472.15,1,33472.15,Net 60,87.5
+2024-11,VEN-011,Premier Insurance Group,Insurance Provider,59968.14,3,19989.38,Net 45,89.4
+2024-11,VEN-012,Elite Equipment Supply,Equipment Supplier,43799.09,5,8759.82,Net 60,94.2
+2024-11,VEN-013,Global Freight Services,Logistics Provider,48189.21,7,6884.17,Due on Receipt,87.1
+2024-11,VEN-014,Innovation Labs,Professional Services,16132.98,8,2016.62,Net 30,96.7
+2024-11,VEN-015,Metro Facilities Management,Facility Services,29096.15,7,4156.59,Net 60,94.2
+2024-12,VEN-001,Precision Components Inc,Component Supplier,246537.28,2,123268.64,Net 45,88.7
+2024-12,VEN-002,TechMotion Systems,Component Supplier,210806.79,7,30115.26,Net 30,99.9
+2024-12,VEN-003,Industrial Sensors Co,Component Supplier,166709.04,7,23815.58,Net 60,87.8
+2024-12,VEN-004,Atlas Logistics,Logistics Provider,66385.76,6,11064.29,Net 60,88.7
+2024-12,VEN-005,CloudSoft Solutions,Software Vendor,45260.46,7,6465.78,Due on Receipt,94.9
+2024-12,VEN-006,Enterprise Systems Inc,Software Vendor,21005.01,1,21005.01,Due on Receipt,98.0
+2024-12,VEN-007,DataGuard Security,Software Vendor,24982.26,3,8327.42,Net 30,98.7
+2024-12,VEN-008,BuildRight Construction,Facility Services,38359.6,4,9589.9,Net 30,96.3
+2024-12,VEN-009,Bright Marketing Group,Marketing Agency,35954.88,6,5992.48,Due on Receipt,97.8
+2024-12,VEN-010,Strategic Advisors LLC,Consulting,41769.9,1,41769.9,Due on Receipt,99.7
+2024-12,VEN-011,Premier Insurance Group,Insurance Provider,56908.73,8,7113.59,Net 45,88.9
+2024-12,VEN-012,Elite Equipment Supply,Equipment Supplier,47129.49,8,5891.19,Due on Receipt,90.2
+2024-12,VEN-013,Global Freight Services,Logistics Provider,48709.43,5,9741.89,Due on Receipt,96.3
+2024-12,VEN-014,Innovation Labs,Professional Services,31035.31,5,6207.06,Net 60,93.4
+2024-12,VEN-015,Metro Facilities Management,Facility Services,21175.62,7,3025.09,Due on Receipt,93.5
+2025-01,VEN-001,Precision Components Inc,Component Supplier,155658.32,6,25943.05,Due on Receipt,91.8
+2025-01,VEN-002,TechMotion Systems,Component Supplier,205535.01,7,29362.14,Net 60,88.5
+2025-01,VEN-003,Industrial Sensors Co,Component Supplier,198065.44,2,99032.72,Net 30,94.9
+2025-01,VEN-004,Atlas Logistics,Logistics Provider,67067.0,1,67067.0,Net 30,99.0
+2025-01,VEN-005,CloudSoft Solutions,Software Vendor,48311.13,5,9662.23,Net 30,89.3
+2025-01,VEN-006,Enterprise Systems Inc,Software Vendor,49770.55,6,8295.09,Net 45,98.6
+2025-01,VEN-007,DataGuard Security,Software Vendor,49693.38,8,6211.67,Net 30,97.3
+2025-01,VEN-008,BuildRight Construction,Facility Services,33602.9,4,8400.73,Net 45,92.9
+2025-01,VEN-009,Bright Marketing Group,Marketing Agency,56650.17,2,28325.08,Net 60,94.7
+2025-01,VEN-010,Strategic Advisors LLC,Consulting,45972.19,3,15324.06,Due on Receipt,85.4
+2025-01,VEN-011,Premier Insurance Group,Insurance Provider,11943.57,8,1492.95,Due on Receipt,99.5
+2025-01,VEN-012,Elite Equipment Supply,Equipment Supplier,11821.94,3,3940.65,Due on Receipt,96.0
+2025-01,VEN-013,Global Freight Services,Logistics Provider,38530.86,1,38530.86,Net 30,98.0
+2025-01,VEN-014,Innovation Labs,Professional Services,59815.01,6,9969.17,Due on Receipt,86.9
+2025-01,VEN-015,Metro Facilities Management,Facility Services,43193.68,6,7198.95,Net 30,89.2
+2025-02,VEN-001,Precision Components Inc,Component Supplier,183604.61,8,22950.58,Net 45,95.7
+2025-02,VEN-002,TechMotion Systems,Component Supplier,137312.98,3,45770.99,Net 60,96.4
+2025-02,VEN-003,Industrial Sensors Co,Component Supplier,290585.63,8,36323.2,Net 45,93.5
+2025-02,VEN-004,Atlas Logistics,Logistics Provider,70103.91,6,11683.98,Net 60,96.0
+2025-02,VEN-005,CloudSoft Solutions,Software Vendor,41439.55,3,13813.18,Net 45,86.6
+2025-02,VEN-006,Enterprise Systems Inc,Software Vendor,47358.59,6,7893.1,Net 45,90.5
+2025-02,VEN-007,DataGuard Security,Software Vendor,34453.62,7,4921.95,Net 30,88.6
+2025-02,VEN-008,BuildRight Construction,Facility Services,27576.02,6,4596.0,Net 60,93.4
+2025-02,VEN-009,Bright Marketing Group,Marketing Agency,55044.39,7,7863.48,Net 45,95.2
+2025-02,VEN-010,Strategic Advisors LLC,Consulting,42709.79,6,7118.3,Due on Receipt,93.6
+2025-02,VEN-011,Premier Insurance Group,Insurance Provider,30277.84,6,5046.31,Net 60,88.5
+2025-02,VEN-012,Elite Equipment Supply,Equipment Supplier,51651.45,7,7378.78,Net 45,93.3
+2025-02,VEN-013,Global Freight Services,Logistics Provider,32732.1,1,32732.1,Due on Receipt,87.2
+2025-02,VEN-014,Innovation Labs,Professional Services,19597.96,8,2449.75,Net 45,94.5
+2025-02,VEN-015,Metro Facilities Management,Facility Services,38722.5,4,9680.63,Due on Receipt,86.1
+2025-03,VEN-001,Precision Components Inc,Component Supplier,241015.67,2,120507.83,Due on Receipt,96.0
+2025-03,VEN-002,TechMotion Systems,Component Supplier,100765.82,2,50382.91,Net 60,87.5
+2025-03,VEN-003,Industrial Sensors Co,Component Supplier,254887.81,4,63721.95,Net 60,89.2
+2025-03,VEN-004,Atlas Logistics,Logistics Provider,67220.03,1,67220.03,Net 45,85.7
+2025-03,VEN-005,CloudSoft Solutions,Software Vendor,19482.11,1,19482.11,Net 60,94.7
+2025-03,VEN-006,Enterprise Systems Inc,Software Vendor,31189.89,7,4455.7,Due on Receipt,95.4
+2025-03,VEN-007,DataGuard Security,Software Vendor,25471.49,4,6367.87,Net 30,93.6
+2025-03,VEN-008,BuildRight Construction,Facility Services,54962.13,3,18320.71,Net 45,95.4
+2025-03,VEN-009,Bright Marketing Group,Marketing Agency,38148.98,3,12716.33,Net 45,98.5
+2025-03,VEN-010,Strategic Advisors LLC,Consulting,35432.81,1,35432.81,Due on Receipt,90.6
+2025-03,VEN-011,Premier Insurance Group,Insurance Provider,14052.99,4,3513.25,Net 30,99.8
+2025-03,VEN-012,Elite Equipment Supply,Equipment Supplier,21057.1,5,4211.42,Net 30,97.4
+2025-03,VEN-013,Global Freight Services,Logistics Provider,38958.1,4,9739.53,Due on Receipt,99.9
+2025-03,VEN-014,Innovation Labs,Professional Services,47196.88,7,6742.41,Net 60,96.6
+2025-03,VEN-015,Metro Facilities Management,Facility Services,50755.1,7,7250.73,Net 60,98.1
+2025-04,VEN-001,Precision Components Inc,Component Supplier,106887.13,2,53443.57,Net 30,88.2
+2025-04,VEN-002,TechMotion Systems,Component Supplier,109239.15,8,13654.89,Net 45,96.4
+2025-04,VEN-003,Industrial Sensors Co,Component Supplier,286701.02,3,95567.01,Net 60,98.1
+2025-04,VEN-004,Atlas Logistics,Logistics Provider,78686.48,2,39343.24,Net 60,92.0
+2025-04,VEN-005,CloudSoft Solutions,Software Vendor,46227.15,1,46227.15,Net 45,95.2
+2025-04,VEN-006,Enterprise Systems Inc,Software Vendor,24509.61,8,3063.7,Due on Receipt,92.0
+2025-04,VEN-007,DataGuard Security,Software Vendor,26165.13,2,13082.57,Net 45,87.1
+2025-04,VEN-008,BuildRight Construction,Facility Services,47747.43,6,7957.9,Due on Receipt,99.4
+2025-04,VEN-009,Bright Marketing Group,Marketing Agency,51433.48,2,25716.74,Net 60,85.8
+2025-04,VEN-010,Strategic Advisors LLC,Consulting,43503.02,4,10875.76,Due on Receipt,90.1
+2025-04,VEN-011,Premier Insurance Group,Insurance Provider,41017.47,1,41017.47,Due on Receipt,89.7
+2025-04,VEN-012,Elite Equipment Supply,Equipment Supplier,35461.88,4,8865.47,Net 60,94.1
+2025-04,VEN-013,Global Freight Services,Logistics Provider,37580.66,4,9395.16,Net 60,93.0
+2025-04,VEN-014,Innovation Labs,Professional Services,15662.87,1,15662.87,Due on Receipt,92.6
+2025-04,VEN-015,Metro Facilities Management,Facility Services,21280.38,2,10640.19,Net 45,98.4
+2025-05,VEN-001,Precision Components Inc,Component Supplier,230542.6,6,38423.77,Net 60,86.0
+2025-05,VEN-002,TechMotion Systems,Component Supplier,243270.6,6,40545.1,Due on Receipt,99.9
+2025-05,VEN-003,Industrial Sensors Co,Component Supplier,114304.6,4,28576.15,Due on Receipt,92.6
+2025-05,VEN-004,Atlas Logistics,Logistics Provider,58335.77,5,11667.15,Net 30,92.2
+2025-05,VEN-005,CloudSoft Solutions,Software Vendor,18927.96,7,2703.99,Net 45,95.0
+2025-05,VEN-006,Enterprise Systems Inc,Software Vendor,42234.88,4,10558.72,Net 60,92.7
+2025-05,VEN-007,DataGuard Security,Software Vendor,24784.54,5,4956.91,Net 60,95.1
+2025-05,VEN-008,BuildRight Construction,Facility Services,26305.94,2,13152.97,Net 45,89.1
+2025-05,VEN-009,Bright Marketing Group,Marketing Agency,58294.29,8,7286.79,Net 45,97.0
+2025-05,VEN-010,Strategic Advisors LLC,Consulting,53496.29,7,7642.33,Net 45,94.3
+2025-05,VEN-011,Premier Insurance Group,Insurance Provider,38278.55,4,9569.64,Net 45,90.8
+2025-05,VEN-012,Elite Equipment Supply,Equipment Supplier,40547.67,8,5068.46,Net 45,97.3
+2025-05,VEN-013,Global Freight Services,Logistics Provider,30743.94,8,3842.99,Due on Receipt,89.1
+2025-05,VEN-014,Innovation Labs,Professional Services,59741.02,8,7467.63,Net 30,95.0
+2025-05,VEN-015,Metro Facilities Management,Facility Services,59398.56,3,19799.52,Due on Receipt,96.8
+2025-06,VEN-001,Precision Components Inc,Component Supplier,267543.8,8,33442.98,Net 45,97.3
+2025-06,VEN-002,TechMotion Systems,Component Supplier,280000.35,5,56000.07,Due on Receipt,88.5
+2025-06,VEN-003,Industrial Sensors Co,Component Supplier,104444.14,8,13055.52,Net 45,86.8
+2025-06,VEN-004,Atlas Logistics,Logistics Provider,54497.43,7,7785.35,Due on Receipt,87.3
+2025-06,VEN-005,CloudSoft Solutions,Software Vendor,44268.91,1,44268.91,Net 30,91.6
+2025-06,VEN-006,Enterprise Systems Inc,Software Vendor,49253.41,2,24626.7,Due on Receipt,94.1
+2025-06,VEN-007,DataGuard Security,Software Vendor,42493.71,6,7082.28,Due on Receipt,95.5
+2025-06,VEN-008,BuildRight Construction,Facility Services,12319.67,3,4106.56,Net 30,90.8
+2025-06,VEN-009,Bright Marketing Group,Marketing Agency,28467.29,4,7116.82,Due on Receipt,93.5
+2025-06,VEN-010,Strategic Advisors LLC,Consulting,45454.37,6,7575.73,Net 45,88.0
+2025-06,VEN-011,Premier Insurance Group,Insurance Provider,27732.74,7,3961.82,Net 30,94.1
+2025-06,VEN-012,Elite Equipment Supply,Equipment Supplier,41561.43,2,20780.71,Net 60,93.6
+2025-06,VEN-013,Global Freight Services,Logistics Provider,78335.64,8,9791.95,Due on Receipt,88.6
+2025-06,VEN-014,Innovation Labs,Professional Services,48409.96,1,48409.96,Net 45,99.5
+2025-06,VEN-015,Metro Facilities Management,Facility Services,23720.71,5,4744.14,Net 30,91.6
+2025-07,VEN-001,Precision Components Inc,Component Supplier,191615.19,5,38323.04,Net 60,87.9
+2025-07,VEN-002,TechMotion Systems,Component Supplier,170608.94,1,170608.94,Net 45,90.1
+2025-07,VEN-003,Industrial Sensors Co,Component Supplier,222152.41,8,27769.05,Net 30,98.3
+2025-07,VEN-004,Atlas Logistics,Logistics Provider,58002.71,2,29001.35,Net 45,93.3
+2025-07,VEN-005,CloudSoft Solutions,Software Vendor,35291.96,8,4411.49,Net 45,97.8
+2025-07,VEN-006,Enterprise Systems Inc,Software Vendor,49840.08,8,6230.01,Net 60,87.0
+2025-07,VEN-007,DataGuard Security,Software Vendor,42165.83,1,42165.83,Due on Receipt,88.4
+2025-07,VEN-008,BuildRight Construction,Facility Services,55705.18,2,27852.59,Due on Receipt,90.1
+2025-07,VEN-009,Bright Marketing Group,Marketing Agency,44908.67,6,7484.78,Due on Receipt,86.4
+2025-07,VEN-010,Strategic Advisors LLC,Consulting,42296.28,1,42296.28,Net 60,91.9
+2025-07,VEN-011,Premier Insurance Group,Insurance Provider,10848.72,6,1808.12,Net 30,97.5
+2025-07,VEN-012,Elite Equipment Supply,Equipment Supplier,55401.14,1,55401.14,Due on Receipt,89.8
+2025-07,VEN-013,Global Freight Services,Logistics Provider,35548.12,1,35548.12,Net 30,96.0
+2025-07,VEN-014,Innovation Labs,Professional Services,39784.04,2,19892.02,Net 30,96.3
+2025-07,VEN-015,Metro Facilities Management,Facility Services,28387.78,2,14193.89,Net 60,94.8
+2025-08,VEN-001,Precision Components Inc,Component Supplier,157118.22,8,19639.78,Net 60,86.6
+2025-08,VEN-002,TechMotion Systems,Component Supplier,235824.41,3,78608.14,Net 45,91.9
+2025-08,VEN-003,Industrial Sensors Co,Component Supplier,286281.17,6,47713.53,Net 30,92.7
+2025-08,VEN-004,Atlas Logistics,Logistics Provider,64787.9,7,9255.41,Due on Receipt,98.9
+2025-08,VEN-005,CloudSoft Solutions,Software Vendor,24859.28,6,4143.21,Due on Receipt,92.5
+2025-08,VEN-006,Enterprise Systems Inc,Software Vendor,36813.76,5,7362.75,Due on Receipt,88.7
+2025-08,VEN-007,DataGuard Security,Software Vendor,39030.75,1,39030.75,Net 60,94.6
+2025-08,VEN-008,BuildRight Construction,Facility Services,40849.9,1,40849.9,Net 45,89.8
+2025-08,VEN-009,Bright Marketing Group,Marketing Agency,34878.48,6,5813.08,Net 45,94.2
+2025-08,VEN-010,Strategic Advisors LLC,Consulting,39577.71,8,4947.21,Net 45,86.5
+2025-08,VEN-011,Premier Insurance Group,Insurance Provider,21952.94,4,5488.24,Due on Receipt,94.5
+2025-08,VEN-012,Elite Equipment Supply,Equipment Supplier,11453.32,1,11453.32,Net 30,86.1
+2025-08,VEN-013,Global Freight Services,Logistics Provider,55210.83,7,7887.26,Net 30,86.2
+2025-08,VEN-014,Innovation Labs,Professional Services,13155.88,2,6577.94,Net 45,88.7
+2025-08,VEN-015,Metro Facilities Management,Facility Services,16632.43,3,5544.14,Due on Receipt,99.0
+2025-09,VEN-001,Precision Components Inc,Component Supplier,231873.44,3,77291.15,Net 30,93.4
+2025-09,VEN-002,TechMotion Systems,Component Supplier,295049.72,6,49174.95,Net 60,93.5
+2025-09,VEN-003,Industrial Sensors Co,Component Supplier,175589.02,7,25084.15,Net 30,91.8
+2025-09,VEN-004,Atlas Logistics,Logistics Provider,49017.73,7,7002.53,Due on Receipt,85.1
+2025-09,VEN-005,CloudSoft Solutions,Software Vendor,20384.26,6,3397.38,Due on Receipt,89.9
+2025-09,VEN-006,Enterprise Systems Inc,Software Vendor,42423.7,5,8484.74,Net 45,87.4
+2025-09,VEN-007,DataGuard Security,Software Vendor,49715.75,7,7102.25,Net 60,88.6
+2025-09,VEN-008,BuildRight Construction,Facility Services,57097.44,3,19032.48,Net 45,94.0
+2025-09,VEN-009,Bright Marketing Group,Marketing Agency,19943.83,8,2492.98,Due on Receipt,94.4
+2025-09,VEN-010,Strategic Advisors LLC,Consulting,21374.24,6,3562.37,Due on Receipt,92.4
+2025-09,VEN-011,Premier Insurance Group,Insurance Provider,54227.02,4,13556.75,Net 60,97.1
+2025-09,VEN-012,Elite Equipment Supply,Equipment Supplier,14351.79,8,1793.97,Net 60,87.1
+2025-09,VEN-013,Global Freight Services,Logistics Provider,76509.95,3,25503.32,Due on Receipt,86.3
+2025-09,VEN-014,Innovation Labs,Professional Services,39445.68,2,19722.84,Net 30,95.3
+2025-09,VEN-015,Metro Facilities Management,Facility Services,46113.04,7,6587.58,Net 30,95.4

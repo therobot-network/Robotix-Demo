@@ -1,0 +1,165 @@
+contract_id,contract_type,counterparty,effective_date,expiration_date,contract_value,auto_renew,notice_period_days,status,has_indemnity_clause,has_liability_limitation,has_termination_clause,governing_law,key_terms,owner,risk_level
+CTR-00001,Software License Agreement,Healthcare Provider #710,2023-08-13,2026-07-28,69538.2,No,90,Active,No,Yes,No,Washington,"LICENSE TERMS AND OBLIGATIONS
+
+Robotix grants University a non-exclusive, non-transferable license to use RoboControl Pro software for research and educational purposes at its Engineering Department f",Amanda Foster,Low
+CTR-00002,Master Service Agreement,Tech Startup #837,2025-03-15,2029-02-22,322066.44,No,90,Active,Yes,No,Yes,Washington,Standard Master Service Agreement terms apply,Jennifer Park,Low
+CTR-00003,Master Service Agreement,Government Agency #275,2023-09-25,2025-09-14,455480.94,Yes,60,Renewed,Yes,Yes,Yes,Washington,Standard Master Service Agreement terms apply,Jennifer Park,Medium
+CTR-00004,Distribution Agreement,Government Agency #785,2023-07-12,2024-07-06,209261.41,Yes,90,Expired,Yes,Yes,Yes,New York,Standard Distribution Agreement terms apply,Amanda Foster,High
+CTR-00005,Software License Agreement,Retail Chain #495,2024-12-25,2026-12-15,38961.43,Yes,30,Active,No,Yes,Yes,Washington,Standard Software License Agreement terms apply,Sophia Nguyen,Medium
+CTR-00006,Lease Agreement,Government Agency #289,2024-05-14,2026-05-04,286123.08,No,60,Active,Yes,Yes,Yes,Washington,"LEASE AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix (""Lessor"") agrees to lease twelve (12) RX-750 autonomous security robots to the Department of Homeland Security (""Lessee"") for a period of 36 month",Amanda Foster,Low
+CTR-00007,Consulting Services Agreement,Retail Chain #869,2025-05-11,2029-04-20,86474.23,No,90,Active,Yes,No,Yes,New York,Standard Consulting Services Agreement terms apply,Sophia Nguyen,High
+CTR-00008,Supply Agreement,Government Agency #329,2023-10-07,2026-09-21,1640491.72,Yes,90,Active,Yes,Yes,No,California,Standard Supply Agreement terms apply,Michael Rodriguez,Low
+CTR-00009,Equipment Purchase Agreement,Logistics Company #137,2025-08-01,2027-07-22,667855.79,No,30,Active,Yes,No,Yes,Washington,"EQUIPMENT PURCHASE AND DELIVERY TERMS
+
+Robotix (""Seller"") agrees to manufacture, deliver, and install six (6) RX-3000 autonomous warehouse robots (""Units"") to Client's Chicago distribution facility wi",Amanda Foster,Medium
+CTR-00010,Non-Disclosure Agreement (NDA),Consulting Firm #815,2023-01-15,2025-01-04,0,Yes,60,Expired,Yes,Yes,Yes,Washington,Standard Non-Disclosure Agreement (NDA) terms apply,Sophia Nguyen,High
+CTR-00011,Consulting Services Agreement,University #980,2025-04-13,2029-03-23,317801.93,No,90,Active,Yes,Yes,Yes,Delaware,Standard Consulting Services Agreement terms apply,Jennifer Park,Medium
+CTR-00012,Supply Agreement,Government Agency #232,2024-02-21,2028-01-31,1771897.85,No,90,Active,Yes,Yes,Yes,California,Standard Supply Agreement terms apply,Michael Rodriguez,High
+CTR-00013,Distribution Agreement,Government Agency #501,2024-06-19,2026-06-09,464813.42,Yes,30,Active,Yes,Yes,Yes,New York,Standard Distribution Agreement terms apply,Amanda Foster,Medium
+CTR-00014,Partnership Agreement,Retail Chain #307,2025-08-07,2029-07-17,444509.64,No,60,Active,No,Yes,Yes,Delaware,Standard Partnership Agreement terms apply,Sarah Chen,Low
+CTR-00015,Partnership Agreement,Automotive Manufacturer #525,2024-11-12,2026-11-02,457474.35,No,30,Active,Yes,No,Yes,Delaware,"PARTNERSHIP AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix agrees to deliver and maintain 12 autonomous security robots for deployment at designated government facilities over a 24-month period commen",Sophia Nguyen,Low
+CTR-00016,Employment Agreement,Healthcare Provider #846,2023-10-01,At-Will,66430.36,Yes,60,Active,Yes,Yes,Yes,Washington,"CONTRACT TERMS AND OBLIGATIONS - ROBOTIX
+
+Robotix agrees to provide the following:
+1. Installation and configuration of three (3) RX-2000 surgical assistance robots within 90 days of contract executio",Jennifer Park,Low
+CTR-00017,Lease Agreement,University #946,2022-11-16,2026-10-26,39558.43,Yes,60,Active,Yes,No,Yes,New York,Standard Lease Agreement terms apply,Amanda Foster,Medium
+CTR-00018,Distribution Agreement,Automotive Manufacturer #817,2023-02-14,2025-02-03,432874.38,Yes,60,Expired,No,No,Yes,California,Standard Distribution Agreement terms apply,Sarah Chen,Low
+CTR-00019,Employment Agreement,Government Agency #888,2025-08-14,At-Will,312776.96,Yes,30,Active,No,Yes,Yes,California,Standard Employment Agreement terms apply,Michael Rodriguez,Low
+CTR-00020,Employment Agreement,Tech Startup #493,2024-05-02,At-Will,407879.52,No,60,Active,No,Yes,Yes,Delaware,Standard Employment Agreement terms apply,Michael Rodriguez,Medium
+CTR-00021,Non-Disclosure Agreement (NDA),Logistics Company #901,2024-11-20,2026-11-10,0,No,60,Active,Yes,Yes,No,New York,Standard Non-Disclosure Agreement (NDA) terms apply,Michael Rodriguez,Low
+CTR-00022,Supply Agreement,Healthcare Provider #363,2025-07-07,2026-07-02,784267.76,No,60,Active,Yes,Yes,Yes,Delaware,Standard Supply Agreement terms apply,Sarah Chen,Medium
+CTR-00023,Consulting Services Agreement,Tech Startup #183,2023-08-25,2024-08-19,223171.11,Yes,90,Terminated,No,Yes,Yes,California,"SERVICES AND DELIVERABLES
+Robotix shall provide automated inventory management consulting services, including:
+- Implementation of robotic stock monitoring systems across 12 retail locations
+- Integra",Sarah Chen,Medium
+CTR-00024,Partnership Agreement,Tech Startup #704,2022-12-13,2025-11-27,104597.12,No,60,Expiring Soon,Yes,Yes,Yes,California,Standard Partnership Agreement terms apply,Sarah Chen,Low
+CTR-00025,Supply Agreement,Healthcare Provider #648,2025-01-20,2028-12-30,1732643.15,Yes,30,Active,Yes,No,Yes,California,Standard Supply Agreement terms apply,Amanda Foster,Low
+CTR-00026,Distribution Agreement,Retail Chain #703,2024-05-04,2027-04-19,227887.26,Yes,30,Active,No,Yes,Yes,New York,Standard Distribution Agreement terms apply,Michael Rodriguez,Low
+CTR-00027,Lease Agreement,Healthcare Provider #440,2023-06-17,2027-05-27,49228.65,Yes,90,Active,Yes,No,Yes,New York,"LEASE AGREEMENT - KEY TERMS AND CONDITIONS
+
+Term: 36-month lease period commencing January 15, 2024
+
+Equipment: Two (2) RX-750 Autonomous Inspection Robots with standard sensor packages and navigation",Sarah Chen,Low
+CTR-00028,Distribution Agreement,Tech Startup #847,2025-03-20,2029-02-27,489246.26,Yes,60,Active,No,Yes,Yes,California,Standard Distribution Agreement terms apply,Amanda Foster,Low
+CTR-00029,Consulting Services Agreement,Consulting Firm #977,2023-10-19,2027-09-28,226425.71,Yes,90,Active,No,Yes,Yes,California,Standard Consulting Services Agreement terms apply,Sarah Chen,Medium
+CTR-00030,Partnership Agreement,Retail Chain #675,2025-05-27,2027-05-17,483397.48,Yes,60,Active,Yes,Yes,Yes,Washington,Standard Partnership Agreement terms apply,Jennifer Park,Medium
+CTR-00031,Equipment Purchase Agreement,Automotive Manufacturer #402,2024-06-15,2028-05-25,1585349.12,No,30,Active,Yes,Yes,No,California,Standard Equipment Purchase Agreement terms apply,Michael Rodriguez,Medium
+CTR-00032,Lease Agreement,Consulting Firm #351,2023-03-21,2026-03-05,174747.69,Yes,90,Active,Yes,No,Yes,Washington,"LEASE AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix (""Lessor"") agrees to lease two (2) RX-3000 industrial robotic arms and one (1) vision guidance system to Client (""Lessee"") for a 36-month term at $",Sarah Chen,Medium
+CTR-00033,Equipment Purchase Agreement,Manufacturing Company #982,2022-11-09,2023-11-04,1972861.85,No,60,Expired,Yes,Yes,Yes,New York,Standard Equipment Purchase Agreement terms apply,Sarah Chen,High
+CTR-00034,Distribution Agreement,Automotive Manufacturer #819,2025-06-16,2026-06-11,82672.22,Yes,30,Active,Yes,Yes,Yes,Washington,Standard Distribution Agreement terms apply,Sarah Chen,Medium
+CTR-00035,Partnership Agreement,Healthcare Provider #907,2023-02-08,2024-02-03,453038.54,Yes,60,Terminated,Yes,Yes,Yes,Delaware,Standard Partnership Agreement terms apply,Amanda Foster,Medium
+CTR-00036,Distribution Agreement,Consulting Firm #903,2025-04-07,2028-03-22,482624.23,No,30,Active,Yes,Yes,Yes,Delaware,"KEY TERMS AND OBLIGATIONS
+
+Robotix (""Supplier"") shall provide 24 RX-2000 industrial robotic arms and 12 RX-3500 automated conveyor systems to Client within 120 days of contract execution. Delivery sch",Sophia Nguyen,Medium
+CTR-00037,Software License Agreement,Manufacturing Company #247,2025-07-16,2027-07-06,18775.31,No,90,Active,Yes,No,Yes,New York,Standard Software License Agreement terms apply,Amanda Foster,Low
+CTR-00038,Distribution Agreement,University #217,2023-02-19,2025-02-08,471732.86,No,90,Expired,Yes,No,Yes,Delaware,Standard Distribution Agreement terms apply,Michael Rodriguez,Medium
+CTR-00039,Distribution Agreement,Manufacturing Company #613,2024-01-09,2027-12-19,474653.66,Yes,90,Active,Yes,Yes,Yes,Delaware,"CONTRACT TERMS AND OBLIGATIONS
+
+Robotix (""Supplier"") shall deliver 12 autonomous surveillance robots (Model RS-450) to the Department of Homeland Security (""Client"") within 180 days of contract execut",Amanda Foster,Low
+CTR-00040,Supply Agreement,Retail Chain #216,2023-06-25,2026-06-09,1353487.9,No,60,Active,No,No,Yes,Washington,Standard Supply Agreement terms apply,Sophia Nguyen,Low
+CTR-00041,Distribution Agreement,Government Agency #211,2024-01-16,2025-01-10,433664.03,Yes,60,Expired,No,Yes,Yes,New York,Standard Distribution Agreement terms apply,Michael Rodriguez,Medium
+CTR-00042,Software License Agreement,Consulting Firm #899,2024-06-27,2025-06-22,69570.05,No,60,Renewed,No,Yes,Yes,California,Standard Software License Agreement terms apply,Amanda Foster,Medium
+CTR-00043,Consulting Services Agreement,Logistics Company #515,2025-09-14,2026-09-09,429260.47,No,30,Active,No,Yes,Yes,Delaware,Standard Consulting Services Agreement terms apply,Amanda Foster,Medium
+CTR-00044,Consulting Services Agreement,Healthcare Provider #166,2024-10-19,2028-09-28,112066.15,Yes,30,Active,Yes,Yes,Yes,Delaware,Standard Consulting Services Agreement terms apply,Amanda Foster,Low
+CTR-00045,Master Service Agreement,Tech Startup #100,2023-06-16,2025-06-05,291280.42,No,30,Expired,Yes,Yes,Yes,California,"KEY TERMS AND OBLIGATIONS
+
+Robotix (""Provider"") shall deliver robotic automation consulting services to Client as outlined in subsequent Statements of Work, including system architecture design, progr",Sophia Nguyen,Low
+CTR-00046,Employment Agreement,Automotive Manufacturer #510,2023-04-06,At-Will,297945.46,Yes,90,Active,Yes,Yes,Yes,California,Standard Employment Agreement terms apply,Sophia Nguyen,Low
+CTR-00047,Distribution Agreement,Healthcare Provider #149,2023-02-22,2026-02-06,315986.64,Yes,60,Active,No,Yes,Yes,Washington,Standard Distribution Agreement terms apply,Sarah Chen,Medium
+CTR-00048,Lease Agreement,Retail Chain #617,2025-08-01,2028-07-16,312629.62,Yes,60,Active,Yes,No,No,California,Standard Lease Agreement terms apply,Amanda Foster,Medium
+CTR-00049,Consulting Services Agreement,Manufacturing Company #382,2025-04-01,2029-03-11,368819.11,No,90,Active,Yes,Yes,Yes,Washington,Standard Consulting Services Agreement terms apply,Jennifer Park,High
+CTR-00050,Partnership Agreement,University #929,2023-08-11,2026-07-26,65529.49,Yes,90,Active,Yes,Yes,Yes,New York,Standard Partnership Agreement terms apply,Sophia Nguyen,Low
+CTR-00051,Equipment Purchase Agreement,Manufacturing Company #441,2025-08-07,2029-07-17,955672.78,No,90,Active,Yes,Yes,Yes,Washington,"KEY TERMS AND OBLIGATIONS - EQUIPMENT PURCHASE AGREEMENT
+
+Robotix (""Seller"") agrees to supply five (5) RX-3000 Surgical Assistance Robots to Client (""Buyer"") for a total purchase price of $955,673, pa",Amanda Foster,High
+CTR-00052,Lease Agreement,Healthcare Provider #659,2023-09-27,2025-09-16,254413.02,No,90,Renewed,No,Yes,Yes,Delaware,"LEASE AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix (""Lessor"") agrees to lease six (6) RX-3000 robotic assembly arms to Client (""Lessee"") for a term of 36 months, commencing January 15, 2024.
+
+Paymen",Michael Rodriguez,Low
+CTR-00053,Distribution Agreement,Tech Startup #657,2025-09-08,2026-09-03,50953.79,No,60,Active,Yes,Yes,No,Delaware,"CONTRACT TERMS AND OBLIGATIONS
+
+Robotix agrees to supply AI-enabled robotic systems according to the following terms:
+
+Delivery: Robotix shall deliver 3 industrial robotic units within 90 days of cont",Sarah Chen,Low
+CTR-00054,Employment Agreement,Logistics Company #501,2023-12-06,At-Will,214145.07,Yes,90,Active,No,Yes,No,Delaware,"EMPLOYMENT TERMS AND OBLIGATIONS
+
+Employee agrees to serve as Senior Robotics Engineer at Robotix for an initial term of 24 months, with an annual base salary of $214,145, paid bi-weekly. Position is ",Amanda Foster,High
+CTR-00055,Supply Agreement,Retail Chain #341,2024-07-30,2028-07-09,1326892.95,No,60,Active,Yes,Yes,Yes,Delaware,Standard Supply Agreement terms apply,Jennifer Park,High
+CTR-00056,Equipment Purchase Agreement,Consulting Firm #204,2024-12-08,2025-12-03,1986648.16,No,60,Expiring Soon,No,Yes,Yes,California,Standard Equipment Purchase Agreement terms apply,Jennifer Park,High
+CTR-00057,Partnership Agreement,University #512,2024-09-09,2025-09-04,374325.05,Yes,90,Terminated,Yes,Yes,Yes,Washington,Standard Partnership Agreement terms apply,Sophia Nguyen,High
+CTR-00058,Employment Agreement,Automotive Manufacturer #877,2024-07-09,At-Will,36806.82,No,90,Active,Yes,Yes,Yes,California,Standard Employment Agreement terms apply,Amanda Foster,Low
+CTR-00059,Equipment Purchase Agreement,Logistics Company #192,2024-08-07,2028-07-17,968372.1,Yes,90,Active,Yes,Yes,Yes,Washington,Standard Equipment Purchase Agreement terms apply,Sophia Nguyen,High
+CTR-00060,Partnership Agreement,University #745,2023-04-17,2024-04-11,491601.6,No,90,Terminated,Yes,Yes,Yes,California,Standard Partnership Agreement terms apply,Michael Rodriguez,High
+CTR-00061,Consulting Services Agreement,Logistics Company #204,2023-01-04,2025-12-19,311723.12,Yes,30,Expiring Soon,Yes,Yes,Yes,Washington,Standard Consulting Services Agreement terms apply,Sophia Nguyen,Medium
+CTR-00062,Non-Disclosure Agreement (NDA),Logistics Company #383,2025-04-11,2028-03-26,0,No,90,Active,Yes,Yes,No,New York,Standard Non-Disclosure Agreement (NDA) terms apply,Michael Rodriguez,Low
+CTR-00063,Non-Disclosure Agreement (NDA),University #416,2023-11-15,2028-10-19,0,No,30,Active,No,Yes,Yes,Delaware,Standard Non-Disclosure Agreement (NDA) terms apply,Sarah Chen,Low
+CTR-00064,Partnership Agreement,Manufacturing Company #941,2024-03-10,2026-02-28,260992.78,Yes,30,Active,Yes,No,Yes,New York,Standard Partnership Agreement terms apply,Amanda Foster,Medium
+CTR-00065,Consulting Services Agreement,Manufacturing Company #362,2024-08-31,2026-08-21,315904.55,No,30,Active,Yes,No,Yes,Delaware,Standard Consulting Services Agreement terms apply,Sophia Nguyen,Medium
+CTR-00066,Software License Agreement,Logistics Company #891,2025-01-20,2028-01-05,63152.75,Yes,90,Active,Yes,Yes,Yes,Delaware,Standard Software License Agreement terms apply,Amanda Foster,High
+CTR-00067,Partnership Agreement,Retail Chain #263,2023-02-22,2024-02-17,486857.5,Yes,30,Expired,No,No,Yes,New York,Standard Partnership Agreement terms apply,Jennifer Park,Medium
+CTR-00068,Non-Disclosure Agreement (NDA),Tech Startup #670,2023-04-13,2025-04-02,0,No,90,Terminated,Yes,Yes,Yes,Delaware,Standard Non-Disclosure Agreement (NDA) terms apply,Sarah Chen,High
+CTR-00069,Software License Agreement,Automotive Manufacturer #315,2024-02-05,2027-01-20,167869.7,Yes,30,Active,Yes,Yes,No,California,Standard Software License Agreement terms apply,Michael Rodriguez,Medium
+CTR-00070,Supply Agreement,Retail Chain #234,2024-08-20,2026-08-10,1894425.56,Yes,60,Active,No,No,Yes,Delaware,"SUPPLY AGREEMENT KEY TERMS AND OBLIGATIONS
+
+Robotix (""Supplier"") shall deliver 12 autonomous surveillance robots (Model RS-450) to the Department of Defense (""Client"") within 180 days of contract exec",Jennifer Park,Medium
+CTR-00071,Equipment Purchase Agreement,University #590,2024-05-03,2026-04-23,1957396.8,No,30,Active,Yes,No,Yes,Delaware,Standard Equipment Purchase Agreement terms apply,Amanda Foster,High
+CTR-00072,Distribution Agreement,Consulting Firm #484,2024-01-07,2025-01-01,246894.17,Yes,90,Terminated,No,No,Yes,Washington,"KEY TERMS AND OBLIGATIONS
+
+Robotix (""Supplier"") agrees to supply industrial robotic systems and components to ABC Consulting (""Distributor"") under the following terms:
+
+1. Supplier will provide a mini",Jennifer Park,Medium
+CTR-00073,Employment Agreement,University #208,2023-12-01,At-Will,112900.63,No,60,Active,No,Yes,Yes,Washington,"CONTRACT TERMS AND OBLIGATIONS
+
+Robotix agrees to provide the following services and meet these obligations:
+
+1. Design, manufacture and deliver 12 robotic assembly arms (Model RAX-2000) for integrati",Sophia Nguyen,Medium
+CTR-00074,Partnership Agreement,Consulting Firm #844,2023-09-19,2024-09-13,458003.15,Yes,30,Renewed,Yes,Yes,No,Delaware,Standard Partnership Agreement terms apply,Jennifer Park,Low
+CTR-00075,Employment Agreement,Consulting Firm #118,2024-02-19,At-Will,274236.05,No,60,Active,No,Yes,No,Delaware,Standard Employment Agreement terms apply,Michael Rodriguez,Low
+CTR-00076,Supply Agreement,Manufacturing Company #700,2023-10-06,2026-09-20,1727018.34,No,90,Active,No,No,Yes,New York,"SUPPLY AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix agrees to supply 12 autonomous warehouse robots (Model AWR-350) and associated control systems to Client within 120 days of contract execution. De",Michael Rodriguez,High
+CTR-00077,Lease Agreement,Healthcare Provider #157,2024-02-05,2025-01-30,100061.77,Yes,60,Terminated,Yes,Yes,No,Delaware,"LEASE AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix (""Lessor"") shall provide three (3) RX-750 autonomous security robots to the Department of Homeland Security (""Lessee"") for a period of 24 months, c",Sarah Chen,Medium
+CTR-00078,Non-Disclosure Agreement (NDA),Healthcare Provider #873,2024-02-10,2027-01-25,0,No,60,Active,Yes,No,Yes,New York,Standard Non-Disclosure Agreement (NDA) terms apply,Michael Rodriguez,Medium
+CTR-00079,Distribution Agreement,Retail Chain #803,2024-12-26,2026-12-16,95250.86,No,30,Active,Yes,Yes,Yes,Delaware,Standard Distribution Agreement terms apply,Jennifer Park,Low
+CTR-00080,Non-Disclosure Agreement (NDA),Manufacturing Company #790,2023-06-29,2025-06-18,0,Yes,60,Expired,Yes,Yes,Yes,Washington,"CONFIDENTIALITY OBLIGATIONS
+The Recipient (Healthcare Provider) agrees to maintain strict confidentiality of all proprietary information disclosed by Robotix, including but not limited to: robotic sur",Michael Rodriguez,Low
+CTR-00081,Master Service Agreement,Consulting Firm #874,2025-08-08,2028-07-23,261070.11,Yes,90,Active,Yes,Yes,Yes,California,Standard Master Service Agreement terms apply,Michael Rodriguez,Medium
+CTR-00082,Equipment Purchase Agreement,Retail Chain #740,2025-08-26,2027-08-16,1189232.74,No,60,Active,No,No,Yes,California,Standard Equipment Purchase Agreement terms apply,Amanda Foster,Medium
+CTR-00083,Master Service Agreement,Logistics Company #675,2022-12-15,2023-12-10,214040.22,No,90,Terminated,No,No,No,California,Standard Master Service Agreement terms apply,Michael Rodriguez,High
+CTR-00084,Non-Disclosure Agreement (NDA),Logistics Company #284,2024-11-10,2027-10-26,0,No,90,Active,No,Yes,No,Delaware,Standard Non-Disclosure Agreement (NDA) terms apply,Michael Rodriguez,Low
+CTR-00085,Software License Agreement,Automotive Manufacturer #613,2025-07-09,2029-06-18,161802.4,No,90,Active,Yes,Yes,Yes,New York,"LICENSE AND SERVICE TERMS:
+Robotix grants Client a non-exclusive, non-transferable license to use RobotiCore v4.2 software across 50 retail locations for a period of 36 months. Annual maintenance fee ",Jennifer Park,Low
+CTR-00086,Employment Agreement,Consulting Firm #172,2023-09-13,At-Will,391251.9,Yes,30,Active,Yes,Yes,No,California,"CONTRACT TERMS AND OBLIGATIONS
+
+Robotix shall provide the following deliverables and services to the Department of Defense:
+
+1. Design and manufacture 12 autonomous surveillance robots according to sp",Sophia Nguyen,Low
+CTR-00087,Master Service Agreement,Consulting Firm #447,2024-09-30,2026-09-20,244485.14,No,60,Active,Yes,Yes,Yes,California,Standard Master Service Agreement terms apply,Sophia Nguyen,High
+CTR-00088,Distribution Agreement,Consulting Firm #551,2024-11-09,2026-10-30,56047.93,No,90,Active,Yes,Yes,Yes,Delaware,Standard Distribution Agreement terms apply,Jennifer Park,Medium
+CTR-00089,Equipment Purchase Agreement,Government Agency #951,2022-11-04,2025-10-19,695214.88,No,90,Terminated,Yes,No,Yes,New York,Standard Equipment Purchase Agreement terms apply,Sophia Nguyen,Medium
+CTR-00090,Equipment Purchase Agreement,Healthcare Provider #741,2025-04-28,2029-04-07,788374.59,Yes,60,Active,Yes,Yes,No,California,Standard Equipment Purchase Agreement terms apply,Sarah Chen,Medium
+CTR-00091,Lease Agreement,Logistics Company #162,2023-06-19,2026-06-03,295122.39,No,60,Active,Yes,No,Yes,California,"LEASE AGREEMENT - KEY TERMS AND OBLIGATIONS
+
+Robotix (""Lessor"") agrees to lease three (3) RX-2000 Educational Robotics Systems to State University (""Lessee"") for a period of 36 months, commencing Janu",Michael Rodriguez,High
+CTR-00092,Non-Disclosure Agreement (NDA),Government Agency #846,2022-12-16,2025-11-30,0,Yes,90,Expiring Soon,No,Yes,Yes,California,Standard Non-Disclosure Agreement (NDA) terms apply,Jennifer Park,Low
+CTR-00093,Equipment Purchase Agreement,Automotive Manufacturer #110,2024-10-01,2028-09-10,1114186.65,Yes,60,Active,Yes,Yes,No,Washington,"KEY TERMS AND CONDITIONS - ROBOTIX EQUIPMENT PURCHASE AGREEMENT
+
+Delivery: Robotix shall deliver and install 12 RX-3000 robotic arms and associated control systems within 120 days of contract executio",Sarah Chen,Low
+CTR-00094,Software License Agreement,Logistics Company #341,2023-04-23,2026-04-07,138277.54,No,30,Active,Yes,Yes,Yes,New York,Standard Software License Agreement terms apply,Amanda Foster,Medium
+CTR-00095,Consulting Services Agreement,Government Agency #762,2025-05-01,2029-04-10,46449.21,No,90,Active,Yes,Yes,Yes,New York,Standard Consulting Services Agreement terms apply,Amanda Foster,High
+CTR-00096,Consulting Services Agreement,Manufacturing Company #110,2024-11-18,2028-10-28,388561.31,Yes,60,Active,Yes,Yes,Yes,New York,"KEY TERMS AND OBLIGATIONS
+
+Robotix (""Consultant"") shall provide robotics consulting services to Client for a 12-month term commencing January 15, 2024, with an option to extend for two additional 6-mo",Jennifer Park,Medium
+CTR-00097,Distribution Agreement,Automotive Manufacturer #435,2024-08-20,2025-08-15,476884.17,No,30,Expired,Yes,No,Yes,California,Standard Distribution Agreement terms apply,Michael Rodriguez,High
+CTR-00098,Equipment Purchase Agreement,Automotive Manufacturer #675,2025-05-09,2029-04-18,1952967.36,No,60,Active,Yes,No,Yes,Washington,Standard Equipment Purchase Agreement terms apply,Michael Rodriguez,Low
+CTR-00099,Consulting Services Agreement,Automotive Manufacturer #948,2023-04-22,2025-04-11,400338.97,No,30,Renewed,No,Yes,Yes,California,Standard Consulting Services Agreement terms apply,Michael Rodriguez,High
+CTR-00100,Equipment Purchase Agreement,Healthcare Provider #742,2025-09-03,2027-08-24,203951.66,No,90,Active,Yes,Yes,Yes,Washington,Standard Equipment Purchase Agreement terms apply,Sarah Chen,Medium

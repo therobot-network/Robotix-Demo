@@ -1,0 +1,301 @@
+training_id,employee_name,course_name,training_type,training_date,duration_hours,cost,provider,delivery_method,status,completion_date,score,certification_earned,mandatory
+TRN-000001,Chris Patel,Emergency Procedures,Safety Training,2025-06-09,24,2454.93,Industry Association,In-Person,Completed,2025-07-03,94.6,No,No
+TRN-000002,Emily Thompson,OSHA Safety,Compliance Training,2025-01-27,40,5498.54,External Vendor,Virtual,Completed,2025-03-08,97.7,Yes,Yes
+TRN-000003,James Wilson,Ethics Training,Compliance Training,2024-03-15,40,4812.33,Coursera,Virtual,Completed,2024-04-24,95.5,No,Yes
+TRN-000004,Diana Lopez,General Training,Onboarding,2024-02-20,2,236.83,LinkedIn Learning,In-Person,Completed,2024-02-22,89.7,No,No
+TRN-000005,Chris Patel,Equipment Safety,Safety Training,2024-01-26,4,725.27,Coursera,Virtual,Completed,2024-01-30,94.0,No,No
+TRN-000006,Marcus Johnson,First Aid/CPR,Safety Training,2025-06-08,2,186.55,Internal,Self-Paced Online,Completed,2025-06-10,70.7,No,No
+TRN-000007,Jennifer Park,General Training,Onboarding,2025-01-12,4,467.06,External Vendor,Virtual,Completed,2025-01-16,70.9,No,No
+TRN-000008,Sophia Nguyen,Data Privacy,Compliance Training,2024-12-25,2,122.47,Coursera,In-Person,Completed,2024-12-27,93.2,Yes,Yes
+TRN-000009,Sophia Nguyen,Six Sigma Green Belt,Industry Certification,2024-02-23,16,1862.37,External Vendor,Self-Paced Online,Completed,2024-03-10,90.8,Yes,No
+TRN-000010,Amanda Foster,Presentation Skills,Communication Skills,2023-11-19,24,1288.66,LinkedIn Learning,Virtual,Completed,2023-12-13,83.4,No,No
+TRN-000011,David Martinez,Salesforce Basics,Software Tools,2024-12-13,24,1308.83,Internal,Virtual,Completed,2025-01-06,77.7,Yes,No
+TRN-000012,Tom Bradley,OSHA Safety,Compliance Training,2025-06-14,40,3401.58,Industry Association,Virtual,Completed,2025-07-24,95.5,No,Yes
+TRN-000013,Michael Rodriguez,General Training,Onboarding,2024-08-06,8,1348.41,Industry Association,In-Person,Completed,2024-08-14,83.5,No,No
+TRN-000014,Sophia Nguyen,First Aid/CPR,Safety Training,2024-09-13,24,1809.7,LinkedIn Learning,In-Person,Completed,2024-10-07,98.1,No,No
+TRN-000015,Lisa Anderson,Scrum Master Training,Project Management,2024-08-26,4,609.94,External Vendor,In-Person,Completed,2024-08-30,84.1,No,No
+TRN-000016,Sophia Nguyen,Emergency Procedures,Safety Training,2024-10-29,24,2007.28,External Vendor,In-Person,Completed,2024-11-22,75.8,Yes,No
+TRN-000017,James Wilson,Executive Leadership,Leadership Development,2024-08-17,40,7317.74,LinkedIn Learning,Virtual,Completed,2024-09-26,87.7,No,No
+TRN-000018,Diana Lopez,Robot Programming,Technical Skills,2024-12-26,40,7518.2,External Vendor,Hybrid,Completed,2025-02-04,85.4,No,No
+TRN-000019,Rachel Green,Six Sigma Green Belt,Industry Certification,2025-07-02,24,4096.4,Industry Association,Hybrid,Completed,2025-07-26,92.7,No,No
+TRN-000020,Marcus Johnson,Customer Communication,Communication Skills,2024-11-29,24,3425.16,LinkedIn Learning,Virtual,Scheduled,,,No,No
+TRN-000021,Sophia Nguyen,Agile Methodology,Project Management,2024-04-13,4,538.75,Internal,Self-Paced Online,Completed,2024-04-17,79.5,Yes,No
+TRN-000022,Sophia Nguyen,Excel Advanced,Software Tools,2025-03-24,40,4925.56,External Vendor,Self-Paced Online,Completed,2025-05-03,85.9,Yes,No
+TRN-000023,David Martinez,Technical Writing,Communication Skills,2024-07-31,4,248.22,External Vendor,Hybrid,Completed,2024-08-04,96.0,Yes,No
+TRN-000024,Jessica Martinez,Robotics Certification,Industry Certification,2024-08-22,8,1157.12,External Vendor,Hybrid,Completed,2024-08-30,78.6,Yes,No
+TRN-000025,Jessica Martinez,Customer Communication,Communication Skills,2025-02-05,4,479.05,Industry Association,In-Person,Completed,2025-02-09,94.2,No,No
+TRN-000026,Nicole Sanders,Technical Writing,Communication Skills,2023-11-01,40,3003.76,LinkedIn Learning,Virtual,Completed,2023-12-11,70.3,No,No
+TRN-000027,Amanda Foster,General Training,Onboarding,2024-10-25,2,173.27,LinkedIn Learning,Hybrid,Completed,2024-10-27,97.0,Yes,No
+TRN-000028,Marcus Johnson,General Training,Onboarding,2024-05-19,24,3180.16,External Vendor,Virtual,Completed,2024-06-12,70.1,No,No
+TRN-000029,Michael Rodriguez,Conflict Resolution,Leadership Development,2025-07-05,40,4387.48,Coursera,Virtual,In Progress,,,No,No
+TRN-000030,Kevin O'Brien,Scrum Master Training,Project Management,2025-03-20,8,479.78,Coursera,Self-Paced Online,Completed,2025-03-28,72.2,Yes,No
+TRN-000031,Chris Patel,Conflict Resolution,Leadership Development,2024-08-21,8,848.56,External Vendor,Self-Paced Online,Completed,2024-08-29,98.7,No,No
+TRN-000032,Sophia Nguyen,Presentation Skills,Communication Skills,2023-11-10,8,468.73,External Vendor,Hybrid,Completed,2023-11-18,96.4,No,No
+TRN-000033,Diana Lopez,Data Privacy,Compliance Training,2024-02-11,4,433.23,External Vendor,Hybrid,Completed,2024-02-15,72.0,Yes,Yes
+TRN-000034,Chris Patel,Six Sigma Green Belt,Industry Certification,2025-01-19,2,354.41,External Vendor,Virtual,Scheduled,,,No,No
+TRN-000035,Jennifer Park,General Training,Onboarding,2025-10-01,16,924.02,Internal,In-Person,In Progress,,,No,No
+TRN-000036,Rachel Green,Anti-Harassment,Compliance Training,2025-06-24,4,773.81,Internal,Self-Paced Online,Completed,2025-06-28,89.0,No,Yes
+TRN-000037,Nicole Sanders,Technical Writing,Communication Skills,2024-12-31,16,2472.91,External Vendor,Self-Paced Online,In Progress,,,No,No
+TRN-000038,Jennifer Park,Manager Training 101,Leadership Development,2024-01-27,16,1550.06,Coursera,In-Person,Completed,2024-02-12,79.2,Yes,No
+TRN-000039,Marcus Johnson,Salesforce Basics,Software Tools,2024-01-24,16,1172.02,Industry Association,In-Person,Scheduled,,,No,No
+TRN-000040,James Wilson,Manager Training 101,Leadership Development,2024-06-23,40,7146.14,External Vendor,Self-Paced Online,Completed,2024-08-02,76.1,Yes,No
+TRN-000041,Diana Lopez,Advanced Python,Technical Skills,2025-07-07,40,7374.66,Coursera,Self-Paced Online,Scheduled,,,No,No
+TRN-000042,Amanda Foster,Six Sigma Green Belt,Industry Certification,2023-12-26,24,1369.54,Coursera,Virtual,Completed,2024-01-19,91.9,No,No
+TRN-000043,Daniel Wright,CAD Design,Technical Skills,2023-11-01,2,337.38,Industry Association,Hybrid,Completed,2023-11-03,86.6,No,No
+TRN-000044,James Wilson,General Training,Onboarding,2024-10-03,40,3109.28,External Vendor,Self-Paced Online,Completed,2024-11-12,92.7,No,No
+TRN-000045,Jennifer Park,Quality Management,Industry Certification,2025-06-26,4,711.7,Internal,Hybrid,Completed,2025-06-30,82.0,No,No
+TRN-000046,Emily Thompson,Scrum Master Training,Project Management,2025-04-20,16,2415.41,External Vendor,In-Person,Completed,2025-05-06,78.3,No,No
+TRN-000047,Jessica Martinez,Agile Methodology,Project Management,2023-11-29,16,1225.71,Coursera,Virtual,Completed,2023-12-15,95.6,Yes,No
+TRN-000048,Kevin O'Brien,Data Analysis,Technical Skills,2024-12-22,4,495.52,LinkedIn Learning,Virtual,Completed,2024-12-26,88.2,Yes,No
+TRN-000049,David Martinez,Team Building,Leadership Development,2024-07-14,40,5718.38,LinkedIn Learning,Self-Paced Online,Completed,2024-08-23,75.9,No,No
+TRN-000050,Jennifer Park,Six Sigma Green Belt,Industry Certification,2024-04-23,2,213.49,Coursera,Self-Paced Online,Scheduled,,,No,No
+TRN-000051,James Wilson,Quality Management,Industry Certification,2025-08-26,4,752.19,Internal,Hybrid,Completed,2025-08-30,96.4,No,No
+TRN-000052,Marcus Johnson,PMP Certification Prep,Project Management,2025-01-01,8,682.12,Internal,Hybrid,Completed,2025-01-09,77.7,No,No
+TRN-000053,Jessica Martinez,Technical Writing,Communication Skills,2024-04-18,4,765.09,Coursera,Hybrid,Completed,2024-04-22,85.2,No,No
+TRN-000054,Daniel Wright,Agile Methodology,Project Management,2025-06-20,40,5498.97,External Vendor,Self-Paced Online,Completed,2025-07-30,76.8,No,No
+TRN-000055,Amanda Foster,Agile Methodology,Project Management,2025-04-14,2,125.29,Coursera,Self-Paced Online,Completed,2025-04-16,88.8,No,No
+TRN-000056,Sophia Nguyen,Six Sigma Green Belt,Industry Certification,2025-06-24,40,6693.76,Coursera,Virtual,Completed,2025-08-03,76.1,No,No
+TRN-000057,Tom Bradley,First Aid/CPR,Safety Training,2023-10-26,2,370.33,Industry Association,Self-Paced Online,Scheduled,,,No,No
+TRN-000058,Brian Cooper,PMP Certification Prep,Project Management,2025-01-05,40,3357.68,External Vendor,Hybrid,Completed,2025-02-14,94.8,No,No
+TRN-000059,Chris Patel,Six Sigma Green Belt,Industry Certification,2024-12-10,4,533.21,LinkedIn Learning,In-Person,Completed,2024-12-14,82.2,No,No
+TRN-000060,Jennifer Park,Six Sigma Green Belt,Industry Certification,2024-10-01,4,736.22,Industry Association,Virtual,Completed,2024-10-05,70.1,Yes,No
+TRN-000061,Amanda Foster,Excel Advanced,Software Tools,2024-12-08,40,4594.87,LinkedIn Learning,In-Person,Completed,2025-01-17,96.4,No,No
+TRN-000062,Jennifer Park,Scrum Master Training,Project Management,2024-04-02,40,3904.47,External Vendor,In-Person,Completed,2024-05-12,96.0,Yes,No
+TRN-000063,David Martinez,OSHA Safety,Compliance Training,2024-01-10,2,268.14,Internal,Virtual,Completed,2024-01-12,72.5,No,Yes
+TRN-000064,Jessica Martinez,Ethics Training,Compliance Training,2023-12-31,24,2082.35,Coursera,Hybrid,In Progress,,,No,Yes
+TRN-000065,Nicole Sanders,Project Management Software,Software Tools,2025-03-11,16,1431.59,LinkedIn Learning,In-Person,In Progress,,,No,No
+TRN-000066,Jennifer Park,General Training,Onboarding,2024-09-12,24,3291.59,Coursera,Virtual,Completed,2024-10-06,87.0,Yes,No
+TRN-000067,Tom Bradley,Robotics Certification,Industry Certification,2025-10-18,8,1386.89,Coursera,In-Person,Scheduled,,,No,No
+TRN-000068,Sophia Nguyen,Salesforce Basics,Software Tools,2024-07-10,2,243.05,Industry Association,Self-Paced Online,Completed,2024-07-12,85.5,No,No
+TRN-000069,Nicole Sanders,Advanced Python,Technical Skills,2024-02-02,40,7530.67,Coursera,Hybrid,Completed,2024-03-13,95.5,Yes,No
+TRN-000070,Robert Kim,Robot Programming,Technical Skills,2025-07-09,8,878.82,LinkedIn Learning,Hybrid,Completed,2025-07-17,76.8,Yes,No
+TRN-000071,Daniel Wright,Project Management Software,Software Tools,2025-03-04,4,521.0,Coursera,In-Person,Completed,2025-03-08,93.6,Yes,No
+TRN-000072,Robert Kim,Customer Communication,Communication Skills,2024-03-20,40,7706.42,External Vendor,In-Person,Completed,2024-04-29,73.8,Yes,No
+TRN-000073,Marcus Johnson,Excel Advanced,Software Tools,2025-03-30,2,248.26,Coursera,Virtual,Completed,2025-04-01,78.1,Yes,No
+TRN-000074,Marcus Johnson,Scrum Master Training,Project Management,2025-01-08,8,571.07,LinkedIn Learning,Hybrid,Completed,2025-01-16,87.3,No,No
+TRN-000075,Daniel Wright,Customer Communication,Communication Skills,2024-12-13,16,2120.39,Coursera,Hybrid,In Progress,,,No,No
+TRN-000076,Chris Patel,CAD Design,Technical Skills,2024-09-05,4,607.83,LinkedIn Learning,Hybrid,Completed,2024-09-09,82.1,No,No
+TRN-000077,Jennifer Park,Conflict Resolution,Leadership Development,2025-03-20,4,582.4,Internal,In-Person,Completed,2025-03-24,97.8,No,No
+TRN-000078,Jessica Martinez,Project Management Software,Software Tools,2025-05-10,4,422.65,LinkedIn Learning,Self-Paced Online,In Progress,,,No,No
+TRN-000079,Kevin O'Brien,Agile Methodology,Project Management,2024-09-11,2,111.95,LinkedIn Learning,In-Person,Completed,2024-09-13,73.1,No,No
+TRN-000080,Brian Cooper,Data Privacy,Compliance Training,2024-09-08,8,1355.75,Coursera,Virtual,Completed,2024-09-16,74.3,No,Yes
+TRN-000081,Marcus Johnson,Robot Programming,Technical Skills,2024-08-23,8,1072.62,Internal,Virtual,Completed,2024-08-31,90.3,No,No
+TRN-000082,Diana Lopez,Data Analysis,Technical Skills,2024-04-01,8,674.58,Internal,Hybrid,Completed,2024-04-09,83.0,No,No
+TRN-000083,Lisa Anderson,Customer Communication,Communication Skills,2025-07-07,8,465.85,Coursera,Hybrid,Scheduled,,,No,No
+TRN-000084,Kevin O'Brien,General Training,Onboarding,2024-10-06,16,1775.14,Internal,In-Person,Completed,2024-10-22,76.3,Yes,No
+TRN-000085,Marcus Johnson,Agile Methodology,Project Management,2025-01-22,40,7919.77,Internal,Hybrid,Completed,2025-03-03,71.5,No,No
+TRN-000086,Diana Lopez,Excel Advanced,Software Tools,2025-02-16,16,1521.95,Coursera,Self-Paced Online,Completed,2025-03-04,87.3,Yes,No
+TRN-000087,Robert Kim,OSHA Safety,Compliance Training,2023-12-18,16,2203.63,Internal,Virtual,Completed,2024-01-03,71.2,No,Yes
+TRN-000088,Kevin O'Brien,Data Analysis,Technical Skills,2024-08-24,8,950.81,Internal,Self-Paced Online,In Progress,,,No,No
+TRN-000089,Jennifer Park,Advanced Python,Technical Skills,2024-02-27,40,6199.29,LinkedIn Learning,Self-Paced Online,In Progress,,,No,No
+TRN-000090,Sarah Chen,General Training,Onboarding,2025-03-23,40,6943.66,Internal,Self-Paced Online,Completed,2025-05-02,76.2,No,No
+TRN-000091,Michael Rodriguez,Excel Advanced,Software Tools,2024-11-03,4,256.56,LinkedIn Learning,Self-Paced Online,Completed,2024-11-07,83.4,No,No
+TRN-000092,Marcus Johnson,Data Privacy,Compliance Training,2024-09-08,8,718.19,LinkedIn Learning,Self-Paced Online,Completed,2024-09-16,77.1,No,Yes
+TRN-000093,Nicole Sanders,Excel Advanced,Software Tools,2024-11-04,24,2355.78,Industry Association,In-Person,Completed,2024-11-28,85.4,Yes,No
+TRN-000094,James Wilson,Equipment Safety,Safety Training,2025-09-25,4,579.45,Coursera,Hybrid,Completed,2025-09-29,88.2,Yes,No
+TRN-000095,Sophia Nguyen,Conflict Resolution,Leadership Development,2025-02-02,2,370.53,Internal,Self-Paced Online,Completed,2025-02-04,85.9,No,No
+TRN-000096,Daniel Wright,Scrum Master Training,Project Management,2024-06-20,8,598.24,Coursera,Hybrid,Completed,2024-06-28,94.1,Yes,No
+TRN-000097,Nicole Sanders,Scrum Master Training,Project Management,2025-01-21,24,4608.07,Coursera,Virtual,Completed,2025-02-14,75.5,No,No
+TRN-000098,Brian Cooper,OSHA Safety,Compliance Training,2023-12-28,8,948.56,Coursera,Self-Paced Online,Completed,2024-01-05,76.2,No,Yes
+TRN-000099,Nicole Sanders,Robotics Certification,Industry Certification,2025-07-02,16,2598.33,External Vendor,Hybrid,Completed,2025-07-18,84.5,No,No
+TRN-000100,Diana Lopez,Salesforce Basics,Software Tools,2024-05-07,24,3225.68,External Vendor,Hybrid,Completed,2024-05-31,87.6,No,No
+TRN-000101,Jennifer Park,PMP Certification Prep,Project Management,2024-02-06,8,1176.19,LinkedIn Learning,Virtual,Completed,2024-02-14,95.0,No,No
+TRN-000102,Nicole Sanders,Quality Management,Industry Certification,2025-02-10,2,150.72,Industry Association,Self-Paced Online,Completed,2025-02-12,72.7,No,No
+TRN-000103,Rachel Green,Technical Writing,Communication Skills,2024-08-05,2,392.47,Industry Association,In-Person,Completed,2024-08-07,95.6,No,No
+TRN-000104,Jessica Martinez,OSHA Safety,Compliance Training,2024-05-21,40,3861.25,Internal,Hybrid,Completed,2024-06-30,77.4,No,Yes
+TRN-000105,Brian Cooper,General Training,Onboarding,2024-09-14,4,603.52,LinkedIn Learning,In-Person,Completed,2024-09-18,99.0,No,No
+TRN-000106,Amanda Foster,Salesforce Basics,Software Tools,2025-06-11,8,1305.29,External Vendor,Self-Paced Online,Completed,2025-06-19,82.0,No,No
+TRN-000107,Daniel Wright,General Training,Onboarding,2024-03-15,4,614.16,LinkedIn Learning,Virtual,Completed,2024-03-19,98.4,No,No
+TRN-000108,Michael Rodriguez,Conflict Resolution,Leadership Development,2025-02-28,40,7734.18,Coursera,Virtual,Completed,2025-04-09,95.2,Yes,No
+TRN-000109,Marcus Johnson,OSHA Safety,Compliance Training,2024-08-28,16,1452.4,Internal,In-Person,Completed,2024-09-13,88.8,No,Yes
+TRN-000110,Chris Patel,General Training,Onboarding,2024-09-04,4,630.32,Coursera,Hybrid,Completed,2024-09-08,70.8,Yes,No
+TRN-000111,Diana Lopez,Scrum Master Training,Project Management,2025-06-05,24,2485.17,Internal,Hybrid,Completed,2025-06-29,89.9,No,No
+TRN-000112,Jessica Martinez,General Training,Onboarding,2025-02-18,24,3350.22,Industry Association,Hybrid,Completed,2025-03-14,71.9,No,No
+TRN-000113,James Wilson,PMP Certification Prep,Project Management,2024-09-29,24,2942.32,LinkedIn Learning,Hybrid,Completed,2024-10-23,82.3,Yes,No
+TRN-000114,Chris Patel,Scrum Master Training,Project Management,2025-02-06,40,6498.35,Internal,Self-Paced Online,In Progress,,,No,No
+TRN-000115,Jessica Martinez,General Training,Onboarding,2024-11-02,4,637.66,Internal,Hybrid,In Progress,,,No,No
+TRN-000116,Jennifer Park,Advanced Python,Technical Skills,2023-12-20,24,3717.86,Coursera,In-Person,Completed,2024-01-13,78.3,Yes,No
+TRN-000117,Michael Rodriguez,Robot Programming,Technical Skills,2024-10-06,8,825.25,Coursera,In-Person,Completed,2024-10-14,98.2,No,No
+TRN-000118,Chris Patel,General Training,Onboarding,2025-03-03,2,185.73,Coursera,Self-Paced Online,Completed,2025-03-05,98.2,No,No
+TRN-000119,Sophia Nguyen,Equipment Safety,Safety Training,2025-06-11,8,1552.86,Industry Association,Virtual,Completed,2025-06-19,81.5,No,No
+TRN-000120,Chris Patel,Manager Training 101,Leadership Development,2025-05-23,8,803.72,External Vendor,In-Person,Completed,2025-05-31,85.8,Yes,No
+TRN-000121,Diana Lopez,Agile Methodology,Project Management,2024-03-18,24,1697.92,Internal,Virtual,Scheduled,,,No,No
+TRN-000122,Tom Bradley,Equipment Safety,Safety Training,2025-02-09,24,1900.02,LinkedIn Learning,Self-Paced Online,Completed,2025-03-05,75.7,No,No
+TRN-000123,Marcus Johnson,Presentation Skills,Communication Skills,2023-11-07,40,3188.93,Industry Association,Hybrid,Completed,2023-12-17,98.4,No,No
+TRN-000124,Chris Patel,Anti-Harassment,Compliance Training,2024-06-06,24,1372.72,LinkedIn Learning,Self-Paced Online,In Progress,,,No,Yes
+TRN-000125,Jennifer Park,PMP Certification Prep,Project Management,2025-10-06,24,2327.07,LinkedIn Learning,Self-Paced Online,Completed,2025-10-30,89.1,Yes,No
+TRN-000126,Sarah Chen,Data Analysis,Technical Skills,2024-12-23,4,671.45,Coursera,Hybrid,Completed,2024-12-27,80.3,No,No
+TRN-000127,James Wilson,Quality Management,Industry Certification,2024-03-22,2,208.51,External Vendor,Virtual,Completed,2024-03-24,87.4,No,No
+TRN-000128,Robert Kim,Quality Management,Industry Certification,2024-01-28,24,3871.26,Industry Association,Virtual,Completed,2024-02-21,72.8,No,No
+TRN-000129,Diana Lopez,PMP Certification Prep,Project Management,2024-10-26,16,2729.17,LinkedIn Learning,In-Person,Completed,2024-11-11,83.3,Yes,No
+TRN-000130,Brian Cooper,ERP Training,Software Tools,2024-11-11,2,205.0,Internal,In-Person,Completed,2024-11-13,83.4,Yes,No
+TRN-000131,Nicole Sanders,Executive Leadership,Leadership Development,2023-11-28,8,1490.02,Coursera,In-Person,Scheduled,,,No,No
+TRN-000132,Tom Bradley,First Aid/CPR,Safety Training,2025-08-07,4,658.26,Coursera,Virtual,Completed,2025-08-11,77.8,Yes,No
+TRN-000133,Brian Cooper,General Training,Onboarding,2024-07-16,8,641.03,External Vendor,Self-Paced Online,Completed,2024-07-24,71.0,No,No
+TRN-000134,Emily Thompson,Six Sigma Green Belt,Industry Certification,2024-07-18,40,7113.61,Internal,Virtual,Completed,2024-08-27,91.4,No,No
+TRN-000135,Sophia Nguyen,Technical Writing,Communication Skills,2025-05-20,4,668.26,Internal,Hybrid,Completed,2025-05-24,92.1,No,No
+TRN-000136,Emily Thompson,Conflict Resolution,Leadership Development,2023-10-25,8,1470.5,External Vendor,In-Person,Completed,2023-11-02,86.3,No,No
+TRN-000137,Tom Bradley,Technical Writing,Communication Skills,2024-04-05,2,261.14,Industry Association,Hybrid,Completed,2024-04-07,74.8,No,No
+TRN-000138,Daniel Wright,Presentation Skills,Communication Skills,2024-04-19,4,343.51,Coursera,Self-Paced Online,Completed,2024-04-23,94.1,No,No
+TRN-000139,David Martinez,Salesforce Basics,Software Tools,2025-02-25,2,280.85,External Vendor,Self-Paced Online,Completed,2025-02-27,94.2,No,No
+TRN-000140,Daniel Wright,Quality Management,Industry Certification,2025-07-09,16,2151.61,External Vendor,In-Person,Completed,2025-07-25,77.9,Yes,No
+TRN-000141,David Martinez,Team Building,Leadership Development,2025-08-01,8,602.39,Coursera,Hybrid,Completed,2025-08-09,76.1,Yes,No
+TRN-000142,Diana Lopez,Data Analysis,Technical Skills,2023-11-14,40,4947.17,External Vendor,Hybrid,Completed,2023-12-24,89.3,No,No
+TRN-000143,Kevin O'Brien,Project Management Software,Software Tools,2025-10-16,24,1978.44,Industry Association,Virtual,Completed,2025-11-09,82.1,Yes,No
+TRN-000144,Robert Kim,Advanced Python,Technical Skills,2023-11-14,40,4999.29,LinkedIn Learning,Hybrid,Completed,2023-12-24,82.0,Yes,No
+TRN-000145,Daniel Wright,ERP Training,Software Tools,2025-08-15,4,440.38,Industry Association,In-Person,Completed,2025-08-19,97.7,No,No
+TRN-000146,Sarah Chen,ERP Training,Software Tools,2024-07-14,24,2770.7,External Vendor,Self-Paced Online,Completed,2024-08-07,90.8,Yes,No
+TRN-000147,Lisa Anderson,Agile Methodology,Project Management,2025-04-01,24,2930.6,LinkedIn Learning,In-Person,Completed,2025-04-25,78.7,No,No
+TRN-000148,Chris Patel,Robotics Certification,Industry Certification,2024-08-12,24,3474.22,External Vendor,Self-Paced Online,Completed,2024-09-05,86.9,Yes,No
+TRN-000149,Nicole Sanders,Advanced Python,Technical Skills,2025-10-01,24,2248.35,Coursera,Self-Paced Online,Completed,2025-10-25,90.5,Yes,No
+TRN-000150,David Martinez,Executive Leadership,Leadership Development,2023-11-14,4,602.6,Industry Association,In-Person,Completed,2023-11-18,95.9,No,No
+TRN-000151,Michael Rodriguez,Scrum Master Training,Project Management,2024-12-09,16,1244.14,External Vendor,Self-Paced Online,Completed,2024-12-25,91.3,No,No
+TRN-000152,Jessica Martinez,Scrum Master Training,Project Management,2024-10-28,40,5134.91,External Vendor,Hybrid,Completed,2024-12-07,90.6,No,No
+TRN-000153,Michael Rodriguez,OSHA Safety,Compliance Training,2024-05-15,2,120.21,External Vendor,Virtual,In Progress,,,No,Yes
+TRN-000154,David Martinez,Robotics Certification,Industry Certification,2024-06-14,40,3984.96,LinkedIn Learning,In-Person,Completed,2024-07-24,84.7,No,No
+TRN-000155,Rachel Green,Excel Advanced,Software Tools,2024-06-29,8,1179.47,External Vendor,Virtual,Completed,2024-07-07,87.7,No,No
+TRN-000156,Marcus Johnson,Quality Management,Industry Certification,2025-07-24,24,2197.59,LinkedIn Learning,Virtual,Completed,2025-08-17,89.2,No,No
+TRN-000157,Rachel Green,General Training,Onboarding,2024-10-05,2,328.24,External Vendor,Self-Paced Online,Completed,2024-10-07,70.8,No,No
+TRN-000158,Jessica Martinez,First Aid/CPR,Safety Training,2024-09-21,8,413.02,Internal,In-Person,Completed,2024-09-29,73.3,No,No
+TRN-000159,Emily Thompson,Scrum Master Training,Project Management,2024-03-01,4,790.15,Internal,Self-Paced Online,Completed,2024-03-05,74.7,Yes,No
+TRN-000160,Diana Lopez,Manager Training 101,Leadership Development,2024-03-02,24,4301.05,Industry Association,Virtual,Scheduled,,,No,No
+TRN-000161,James Wilson,Excel Advanced,Software Tools,2024-05-01,4,515.39,Coursera,Hybrid,Completed,2024-05-05,92.2,No,No
+TRN-000162,Sarah Chen,OSHA Safety,Compliance Training,2025-04-30,2,213.59,External Vendor,Hybrid,Scheduled,,,No,Yes
+TRN-000163,Emily Thompson,Project Management Software,Software Tools,2025-03-17,40,2271.55,LinkedIn Learning,Hybrid,Scheduled,,,No,No
+TRN-000164,Sarah Chen,General Training,Onboarding,2024-09-01,16,2825.35,Internal,Self-Paced Online,Completed,2024-09-17,99.3,No,No
+TRN-000165,James Wilson,Six Sigma Green Belt,Industry Certification,2025-01-30,8,574.17,Industry Association,Hybrid,Completed,2025-02-07,83.6,No,No
+TRN-000166,Sophia Nguyen,Advanced Python,Technical Skills,2025-07-02,8,1247.45,Coursera,In-Person,Completed,2025-07-10,84.5,No,No
+TRN-000167,Michael Rodriguez,Manager Training 101,Leadership Development,2024-06-22,24,3210.3,LinkedIn Learning,In-Person,Completed,2024-07-16,81.9,No,No
+TRN-000168,Emily Thompson,Robot Programming,Technical Skills,2025-08-11,2,113.81,Coursera,Hybrid,Completed,2025-08-13,73.2,Yes,No
+TRN-000169,Sarah Chen,Conflict Resolution,Leadership Development,2025-08-11,4,668.64,Internal,Self-Paced Online,Completed,2025-08-15,72.6,No,No
+TRN-000170,Kevin O'Brien,Presentation Skills,Communication Skills,2024-12-23,40,6886.06,Industry Association,Hybrid,In Progress,,,No,No
+TRN-000171,Chris Patel,Anti-Harassment,Compliance Training,2025-02-02,2,227.12,Internal,Hybrid,Completed,2025-02-04,72.9,Yes,Yes
+TRN-000172,Daniel Wright,Team Building,Leadership Development,2024-08-18,16,1525.92,Industry Association,Hybrid,Completed,2024-09-03,81.0,Yes,No
+TRN-000173,Tom Bradley,Salesforce Basics,Software Tools,2025-06-05,24,1415.58,Coursera,Self-Paced Online,Completed,2025-06-29,95.4,No,No
+TRN-000174,Daniel Wright,First Aid/CPR,Safety Training,2024-12-20,2,267.33,Industry Association,Hybrid,Completed,2024-12-22,80.7,No,No
+TRN-000175,Lisa Anderson,Executive Leadership,Leadership Development,2025-05-13,2,377.08,Industry Association,Hybrid,Scheduled,,,No,No
+TRN-000176,Tom Bradley,General Training,Onboarding,2025-10-11,2,283.34,Coursera,Self-Paced Online,Completed,2025-10-13,84.4,Yes,No
+TRN-000177,Chris Patel,Scrum Master Training,Project Management,2025-05-31,24,3214.25,Industry Association,Self-Paced Online,Completed,2025-06-24,83.9,No,No
+TRN-000178,Kevin O'Brien,Robotics Certification,Industry Certification,2024-07-01,4,737.63,LinkedIn Learning,In-Person,In Progress,,,No,No
+TRN-000179,Michael Rodriguez,Manager Training 101,Leadership Development,2025-05-30,4,714.49,External Vendor,Self-Paced Online,In Progress,,,No,No
+TRN-000180,Amanda Foster,OSHA Safety,Compliance Training,2025-01-18,8,1365.55,External Vendor,Self-Paced Online,Completed,2025-01-26,84.9,No,Yes
+TRN-000181,David Martinez,OSHA Safety,Compliance Training,2024-11-30,2,321.6,LinkedIn Learning,Hybrid,Completed,2024-12-02,85.1,No,Yes
+TRN-000182,Emily Thompson,Anti-Harassment,Compliance Training,2024-05-24,2,136.2,LinkedIn Learning,Hybrid,Completed,2024-05-26,95.2,No,Yes
+TRN-000183,Marcus Johnson,Team Building,Leadership Development,2024-08-26,24,1494.5,Internal,Hybrid,Completed,2024-09-19,92.8,Yes,No
+TRN-000184,Kevin O'Brien,PLC Programming,Technical Skills,2023-11-21,2,386.75,Industry Association,In-Person,Completed,2023-11-23,92.9,No,No
+TRN-000185,Emily Thompson,Technical Writing,Communication Skills,2024-06-30,16,2638.98,LinkedIn Learning,In-Person,Completed,2024-07-16,87.8,No,No
+TRN-000186,Rachel Green,Scrum Master Training,Project Management,2025-01-02,40,4468.31,Coursera,In-Person,Completed,2025-02-11,91.7,No,No
+TRN-000187,Daniel Wright,Ethics Training,Compliance Training,2024-04-15,40,6459.74,External Vendor,Self-Paced Online,Completed,2024-05-25,83.4,No,Yes
+TRN-000188,Kevin O'Brien,OSHA Safety,Compliance Training,2024-03-26,24,1335.91,LinkedIn Learning,Self-Paced Online,Completed,2024-04-19,91.7,No,Yes
+TRN-000189,Sophia Nguyen,OSHA Safety,Compliance Training,2024-03-23,40,2358.22,Industry Association,Virtual,Completed,2024-05-02,92.9,Yes,Yes
+TRN-000190,Emily Thompson,Data Privacy,Compliance Training,2024-09-08,8,888.12,Industry Association,In-Person,Completed,2024-09-16,81.8,No,Yes
+TRN-000191,Emily Thompson,Salesforce Basics,Software Tools,2024-04-17,24,3921.44,LinkedIn Learning,Self-Paced Online,Completed,2024-05-11,70.7,No,No
+TRN-000192,Jessica Martinez,Conflict Resolution,Leadership Development,2025-01-01,2,321.86,Internal,Hybrid,In Progress,,,No,No
+TRN-000193,Marcus Johnson,Scrum Master Training,Project Management,2025-02-02,24,1359.27,Coursera,Hybrid,Completed,2025-02-26,98.8,No,No
+TRN-000194,Lisa Anderson,PLC Programming,Technical Skills,2025-09-15,24,1367.27,Industry Association,Hybrid,Completed,2025-10-09,91.9,No,No
+TRN-000195,Nicole Sanders,Hazmat Handling,Safety Training,2024-09-28,24,3420.05,External Vendor,Hybrid,Completed,2024-10-22,99.8,Yes,No
+TRN-000196,Brian Cooper,Manager Training 101,Leadership Development,2024-10-08,16,859.88,LinkedIn Learning,Hybrid,Completed,2024-10-24,90.4,No,No
+TRN-000197,Lisa Anderson,Advanced Python,Technical Skills,2025-06-08,2,311.52,Coursera,Virtual,Completed,2025-06-10,91.6,No,No
+TRN-000198,Tom Bradley,OSHA Safety,Compliance Training,2024-02-04,8,1364.37,Industry Association,Virtual,In Progress,,,No,Yes
+TRN-000199,Amanda Foster,Ethics Training,Compliance Training,2025-10-13,16,2320.9,Coursera,Hybrid,Completed,2025-10-29,92.8,Yes,Yes
+TRN-000200,Jessica Martinez,Manager Training 101,Leadership Development,2025-01-20,2,277.23,Coursera,Hybrid,Completed,2025-01-22,70.3,No,No
+TRN-000201,Diana Lopez,Scrum Master Training,Project Management,2025-02-05,4,379.62,LinkedIn Learning,In-Person,In Progress,,,No,No
+TRN-000202,Jennifer Park,General Training,Onboarding,2024-01-21,16,1678.34,Industry Association,Virtual,Completed,2024-02-06,88.8,No,No
+TRN-000203,Brian Cooper,PLC Programming,Technical Skills,2025-06-15,8,1339.36,Internal,Self-Paced Online,Scheduled,,,No,No
+TRN-000204,Emily Thompson,Scrum Master Training,Project Management,2024-06-13,4,713.99,External Vendor,Hybrid,Completed,2024-06-17,88.6,Yes,No
+TRN-000205,Marcus Johnson,Conflict Resolution,Leadership Development,2024-12-09,2,260.39,LinkedIn Learning,In-Person,Completed,2024-12-11,91.6,Yes,No
+TRN-000206,Nicole Sanders,Emergency Procedures,Safety Training,2025-02-21,2,292.69,External Vendor,Self-Paced Online,Completed,2025-02-23,89.0,Yes,No
+TRN-000207,Sarah Chen,Six Sigma Green Belt,Industry Certification,2023-12-11,4,664.12,LinkedIn Learning,Hybrid,Completed,2023-12-15,75.3,No,No
+TRN-000208,Rachel Green,ERP Training,Software Tools,2023-12-02,8,1030.9,External Vendor,Self-Paced Online,Completed,2023-12-10,89.9,Yes,No
+TRN-000209,Nicole Sanders,Agile Methodology,Project Management,2025-04-20,8,1048.6,LinkedIn Learning,In-Person,Completed,2025-04-28,77.3,No,No
+TRN-000210,Tom Bradley,Technical Writing,Communication Skills,2025-03-25,24,4671.08,LinkedIn Learning,Self-Paced Online,Completed,2025-04-18,98.9,No,No
+TRN-000211,Amanda Foster,Executive Leadership,Leadership Development,2023-10-30,16,2110.54,External Vendor,In-Person,Completed,2023-11-15,71.4,No,No
+TRN-000212,Jessica Martinez,OSHA Safety,Compliance Training,2025-03-14,40,6550.89,Industry Association,Self-Paced Online,Completed,2025-04-23,79.6,No,Yes
+TRN-000213,Robert Kim,Project Management Software,Software Tools,2025-04-06,40,6475.12,LinkedIn Learning,In-Person,Completed,2025-05-16,89.2,No,No
+TRN-000214,Brian Cooper,Six Sigma Green Belt,Industry Certification,2024-06-10,16,2605.47,Industry Association,In-Person,In Progress,,,No,No
+TRN-000215,Jennifer Park,General Training,Onboarding,2024-08-27,2,217.43,External Vendor,Hybrid,Completed,2024-08-29,75.2,No,No
+TRN-000216,Jennifer Park,Scrum Master Training,Project Management,2024-12-18,16,1310.63,LinkedIn Learning,Virtual,Scheduled,,,No,No
+TRN-000217,Amanda Foster,General Training,Onboarding,2023-11-13,16,2545.89,Coursera,Virtual,Completed,2023-11-29,95.2,No,No
+TRN-000218,Nicole Sanders,Equipment Safety,Safety Training,2025-07-08,24,3718.39,External Vendor,Virtual,In Progress,,,No,No
+TRN-000219,Diana Lopez,Technical Writing,Communication Skills,2024-09-13,2,353.48,Industry Association,Hybrid,Completed,2024-09-15,78.9,Yes,No
+TRN-000220,Tom Bradley,First Aid/CPR,Safety Training,2025-01-18,2,367.73,LinkedIn Learning,Self-Paced Online,Completed,2025-01-20,95.1,No,No
+TRN-000221,Rachel Green,Equipment Safety,Safety Training,2024-08-31,4,754.53,Internal,Virtual,Completed,2024-09-04,99.1,No,No
+TRN-000222,Amanda Foster,General Training,Onboarding,2024-04-28,40,7271.18,LinkedIn Learning,Virtual,Completed,2024-06-07,97.1,No,No
+TRN-000223,Chris Patel,Robot Programming,Technical Skills,2024-09-19,8,860.07,External Vendor,Virtual,Completed,2024-09-27,90.3,No,No
+TRN-000224,Jennifer Park,Manager Training 101,Leadership Development,2025-09-18,8,883.57,LinkedIn Learning,Virtual,Completed,2025-09-26,88.2,No,No
+TRN-000225,Sophia Nguyen,Robotics Certification,Industry Certification,2024-05-15,40,4241.18,Coursera,Hybrid,Completed,2024-06-24,76.8,No,No
+TRN-000226,Emily Thompson,Equipment Safety,Safety Training,2025-09-05,2,323.91,Internal,In-Person,Completed,2025-09-07,88.2,Yes,No
+TRN-000227,Robert Kim,Anti-Harassment,Compliance Training,2024-06-17,24,3625.55,Coursera,Hybrid,Completed,2024-07-11,81.5,Yes,Yes
+TRN-000228,Diana Lopez,CAD Design,Technical Skills,2025-03-01,16,2335.59,Coursera,Hybrid,Completed,2025-03-17,96.4,No,No
+TRN-000229,Daniel Wright,Project Management Software,Software Tools,2025-08-01,4,577.55,Internal,In-Person,Completed,2025-08-05,91.2,Yes,No
+TRN-000230,Chris Patel,Robotics Certification,Industry Certification,2025-01-30,16,1350.63,External Vendor,Hybrid,Completed,2025-02-15,95.5,No,No
+TRN-000231,Marcus Johnson,Manager Training 101,Leadership Development,2024-11-20,2,168.67,Coursera,Self-Paced Online,Completed,2024-11-22,86.0,No,No
+TRN-000232,Emily Thompson,Conflict Resolution,Leadership Development,2025-08-28,8,1207.84,Industry Association,Virtual,Completed,2025-09-05,73.3,Yes,No
+TRN-000233,Emily Thompson,Agile Methodology,Project Management,2023-12-09,40,7086.51,Coursera,Self-Paced Online,Completed,2024-01-18,95.0,No,No
+TRN-000234,James Wilson,Customer Communication,Communication Skills,2025-04-04,4,427.92,Coursera,In-Person,Completed,2025-04-08,76.2,Yes,No
+TRN-000235,Diana Lopez,Customer Communication,Communication Skills,2024-03-11,16,1859.5,Industry Association,Self-Paced Online,Completed,2024-03-27,76.9,No,No
+TRN-000236,Sophia Nguyen,General Training,Onboarding,2025-01-15,8,708.05,Internal,Self-Paced Online,Completed,2025-01-23,87.0,No,No
+TRN-000237,David Martinez,Quality Management,Industry Certification,2024-10-01,4,490.25,Industry Association,In-Person,Completed,2024-10-05,73.0,Yes,No
+TRN-000238,Marcus Johnson,CAD Design,Technical Skills,2024-08-22,40,7486.33,LinkedIn Learning,Virtual,Completed,2024-10-01,70.5,No,No
+TRN-000239,Diana Lopez,General Training,Onboarding,2024-10-07,8,697.98,Coursera,In-Person,Scheduled,,,No,No
+TRN-000240,James Wilson,PMP Certification Prep,Project Management,2023-12-19,40,4343.22,LinkedIn Learning,Hybrid,Completed,2024-01-28,82.4,No,No
+TRN-000241,Tom Bradley,Team Building,Leadership Development,2025-05-19,16,2692.26,Coursera,In-Person,Completed,2025-06-04,81.6,No,No
+TRN-000242,Chris Patel,ERP Training,Software Tools,2023-11-02,24,2946.76,Industry Association,In-Person,Completed,2023-11-26,73.4,Yes,No
+TRN-000243,Kevin O'Brien,Salesforce Basics,Software Tools,2024-05-21,2,388.62,LinkedIn Learning,Self-Paced Online,Completed,2024-05-23,71.7,No,No
+TRN-000244,Nicole Sanders,First Aid/CPR,Safety Training,2024-07-15,8,965.1,Coursera,Hybrid,Completed,2024-07-23,96.7,No,No
+TRN-000245,Sophia Nguyen,Team Building,Leadership Development,2024-04-27,16,3134.51,LinkedIn Learning,Self-Paced Online,In Progress,,,No,No
+TRN-000246,Rachel Green,Team Building,Leadership Development,2024-12-01,16,3037.16,LinkedIn Learning,Hybrid,Completed,2024-12-17,97.9,No,No
+TRN-000247,Diana Lopez,Presentation Skills,Communication Skills,2025-06-30,24,3985.04,External Vendor,Virtual,Scheduled,,,No,No
+TRN-000248,Marcus Johnson,Technical Writing,Communication Skills,2025-06-03,16,984.01,Internal,Self-Paced Online,Completed,2025-06-19,78.1,Yes,No
+TRN-000249,Emily Thompson,Quality Management,Industry Certification,2024-10-25,40,3079.43,LinkedIn Learning,In-Person,Completed,2024-12-04,83.3,No,No
+TRN-000250,Chris Patel,General Training,Onboarding,2025-04-26,2,126.0,Industry Association,Virtual,Completed,2025-04-28,90.6,Yes,No
+TRN-000251,Sarah Chen,Manager Training 101,Leadership Development,2025-05-04,2,268.79,External Vendor,Hybrid,Completed,2025-05-06,78.1,No,No
+TRN-000252,Rachel Green,Emergency Procedures,Safety Training,2023-11-05,4,629.96,External Vendor,Self-Paced Online,Completed,2023-11-09,94.3,No,No
+TRN-000253,Rachel Green,CAD Design,Technical Skills,2025-01-24,2,124.8,Industry Association,In-Person,In Progress,,,No,No
+TRN-000254,Daniel Wright,Data Privacy,Compliance Training,2023-10-25,4,683.19,Internal,In-Person,In Progress,,,No,Yes
+TRN-000255,Rachel Green,OSHA Safety,Compliance Training,2025-05-10,2,161.55,Industry Association,Hybrid,Completed,2025-05-12,83.8,No,Yes
+TRN-000256,Sophia Nguyen,General Training,Onboarding,2024-12-17,2,244.84,Internal,In-Person,Scheduled,,,No,No
+TRN-000257,Diana Lopez,Data Privacy,Compliance Training,2025-04-17,40,3995.89,External Vendor,Self-Paced Online,Completed,2025-05-27,77.4,No,Yes
+TRN-000258,Robert Kim,OSHA Safety,Compliance Training,2024-04-26,40,3185.28,Coursera,Hybrid,Completed,2024-06-05,94.0,No,Yes
+TRN-000259,Emily Thompson,Emergency Procedures,Safety Training,2025-09-14,40,3938.14,Coursera,Self-Paced Online,Completed,2025-10-24,78.1,Yes,No
+TRN-000260,Nicole Sanders,Data Privacy,Compliance Training,2024-07-30,16,1045.83,Internal,Self-Paced Online,Completed,2024-08-15,97.0,No,Yes
+TRN-000261,Kevin O'Brien,Advanced Python,Technical Skills,2025-03-25,8,1165.54,Industry Association,Self-Paced Online,Completed,2025-04-02,92.0,Yes,No
+TRN-000262,Jennifer Park,PMP Certification Prep,Project Management,2024-12-16,24,4260.62,External Vendor,In-Person,Completed,2025-01-09,83.9,No,No
+TRN-000263,Amanda Foster,General Training,Onboarding,2025-03-25,24,1478.34,Coursera,Hybrid,Completed,2025-04-18,85.3,Yes,No
+TRN-000264,Sarah Chen,Agile Methodology,Project Management,2024-01-06,4,672.33,LinkedIn Learning,Virtual,Completed,2024-01-10,71.0,Yes,No
+TRN-000265,Robert Kim,Ethics Training,Compliance Training,2025-08-04,24,4205.62,Internal,Hybrid,Completed,2025-08-28,87.8,Yes,Yes
+TRN-000266,Emily Thompson,Conflict Resolution,Leadership Development,2024-12-15,4,208.05,Internal,In-Person,Completed,2024-12-19,70.5,No,No
+TRN-000267,Brian Cooper,PMP Certification Prep,Project Management,2025-01-18,4,312.23,Coursera,Self-Paced Online,Completed,2025-01-22,95.3,No,No
+TRN-000268,Kevin O'Brien,Project Management Software,Software Tools,2024-09-20,16,1574.74,External Vendor,In-Person,Completed,2024-10-06,86.4,Yes,No
+TRN-000269,Sophia Nguyen,Ethics Training,Compliance Training,2023-12-30,4,619.62,Coursera,In-Person,Completed,2024-01-03,71.1,No,Yes
+TRN-000270,Sarah Chen,Scrum Master Training,Project Management,2024-02-06,4,622.12,LinkedIn Learning,Self-Paced Online,Completed,2024-02-10,86.7,Yes,No
+TRN-000271,Daniel Wright,Scrum Master Training,Project Management,2023-10-31,24,4595.03,Internal,Self-Paced Online,Completed,2023-11-24,81.2,No,No
+TRN-000272,Emily Thompson,Six Sigma Green Belt,Industry Certification,2024-06-06,40,3020.37,Industry Association,Virtual,Completed,2024-07-16,79.3,No,No
+TRN-000273,Brian Cooper,Executive Leadership,Leadership Development,2024-09-14,8,1541.1,LinkedIn Learning,Self-Paced Online,Completed,2024-09-22,76.3,Yes,No
+TRN-000274,Brian Cooper,General Training,Onboarding,2025-05-22,4,444.85,Internal,Virtual,Completed,2025-05-26,91.0,No,No
+TRN-000275,Sophia Nguyen,Technical Writing,Communication Skills,2024-03-20,16,1491.67,External Vendor,In-Person,Completed,2024-04-05,83.6,No,No
+TRN-000276,Daniel Wright,Six Sigma Green Belt,Industry Certification,2025-09-22,40,7868.62,LinkedIn Learning,Virtual,Completed,2025-11-01,70.7,Yes,No
+TRN-000277,Sophia Nguyen,Advanced Python,Technical Skills,2023-12-08,2,181.99,Internal,In-Person,Completed,2023-12-10,98.7,Yes,No
+TRN-000278,David Martinez,Six Sigma Green Belt,Industry Certification,2024-04-03,40,4444.06,Industry Association,Hybrid,Completed,2024-05-13,73.9,No,No
+TRN-000279,James Wilson,Robot Programming,Technical Skills,2025-04-25,16,1574.61,External Vendor,Hybrid,Completed,2025-05-11,89.2,Yes,No
+TRN-000280,Diana Lopez,First Aid/CPR,Safety Training,2024-09-20,16,2904.97,External Vendor,Self-Paced Online,Completed,2024-10-06,99.7,No,No
+TRN-000281,Kevin O'Brien,PMP Certification Prep,Project Management,2024-02-02,2,136.73,Coursera,In-Person,Completed,2024-02-04,70.5,No,No
+TRN-000282,Chris Patel,CAD Design,Technical Skills,2023-11-13,8,903.93,External Vendor,In-Person,Scheduled,,,No,No
+TRN-000283,Marcus Johnson,General Training,Onboarding,2024-12-29,24,2580.29,External Vendor,Hybrid,Completed,2025-01-22,91.6,No,No
+TRN-000284,Jessica Martinez,Quality Management,Industry Certification,2024-06-07,2,105.18,Industry Association,In-Person,Completed,2024-06-09,78.5,No,No
+TRN-000285,Chris Patel,Scrum Master Training,Project Management,2025-08-20,40,2584.05,Coursera,Hybrid,Completed,2025-09-29,98.7,Yes,No
+TRN-000286,Tom Bradley,Customer Communication,Communication Skills,2024-02-10,8,818.89,Industry Association,Self-Paced Online,Completed,2024-02-18,96.8,No,No
+TRN-000287,Emily Thompson,Scrum Master Training,Project Management,2025-03-31,16,1909.28,Coursera,Virtual,Completed,2025-04-16,74.3,No,No
+TRN-000288,Nicole Sanders,Emergency Procedures,Safety Training,2025-03-31,2,140.33,Industry Association,Hybrid,Completed,2025-04-02,93.4,Yes,No
+TRN-000289,Tom Bradley,Presentation Skills,Communication Skills,2024-06-25,2,220.65,External Vendor,Virtual,Completed,2024-06-27,99.6,No,No
+TRN-000290,Jennifer Park,Quality Management,Industry Certification,2025-07-01,24,2344.84,Coursera,Hybrid,Completed,2025-07-25,90.9,Yes,No
+TRN-000291,Daniel Wright,Emergency Procedures,Safety Training,2024-06-19,40,3283.78,Industry Association,Self-Paced Online,Completed,2024-07-29,96.6,No,No
+TRN-000292,Emily Thompson,Technical Writing,Communication Skills,2024-09-09,2,192.23,Coursera,Hybrid,Completed,2024-09-11,84.9,No,No
+TRN-000293,Marcus Johnson,General Training,Onboarding,2025-01-13,24,1878.64,External Vendor,In-Person,In Progress,,,No,No
+TRN-000294,David Martinez,ERP Training,Software Tools,2024-04-27,8,471.56,External Vendor,Virtual,Completed,2024-05-05,85.7,No,No
+TRN-000295,Marcus Johnson,Presentation Skills,Communication Skills,2024-05-18,24,1407.65,Industry Association,Self-Paced Online,Scheduled,,,No,No
+TRN-000296,Lisa Anderson,Salesforce Basics,Software Tools,2024-06-27,24,2843.71,Coursera,Virtual,Completed,2024-07-21,95.1,No,No
+TRN-000297,Michael Rodriguez,Robot Programming,Technical Skills,2025-10-17,4,219.33,External Vendor,Virtual,In Progress,,,No,No
+TRN-000298,Robert Kim,Anti-Harassment,Compliance Training,2025-04-23,2,280.09,Coursera,Hybrid,Completed,2025-04-25,96.1,No,Yes
+TRN-000299,Jennifer Park,Equipment Safety,Safety Training,2024-03-02,4,715.13,LinkedIn Learning,Virtual,Completed,2024-03-06,98.7,No,No
+TRN-000300,Emily Thompson,Robot Programming,Technical Skills,2023-11-28,4,276.25,Coursera,Hybrid,Completed,2023-12-02,79.1,No,No

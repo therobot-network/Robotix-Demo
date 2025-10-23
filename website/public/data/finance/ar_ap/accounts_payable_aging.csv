@@ -1,0 +1,151 @@
+ap_id,vendor_id,vendor_name,invoice_number,invoice_date,due_date,amount,days_outstanding,days_overdue,aging_bucket,payment_status,payment_terms,category
+AP-00001,VEN-005,CloudSoft Solutions,VINV-98040,2025-09-28,2025-11-27,104101.01,24,0,0-30 days,Scheduled,Net 60,Software Vendor
+AP-00002,VEN-014,Innovation Labs,VINV-38189,2025-10-21,2025-12-05,121690.02,1,0,0-30 days,Scheduled,Net 45,Professional Services
+AP-00003,VEN-006,Enterprise Systems Inc,VINV-60554,2025-09-07,2025-10-22,56747.02,45,0,31-60 days,Scheduled,Net 45,Software Vendor
+AP-00004,VEN-006,Enterprise Systems Inc,VINV-22093,2025-09-21,2025-11-20,9323.69,31,0,31-60 days,Scheduled,Net 60,Software Vendor
+AP-00005,VEN-008,BuildRight Construction,VINV-42044,2025-07-13,2025-08-12,11963.3,101,71,90+ days,Overdue,Net 30,Facility Services
+AP-00006,VEN-007,DataGuard Security,VINV-71447,2025-08-15,2025-09-14,130100.18,68,38,61-90 days,Overdue,Net 30,Software Vendor
+AP-00007,VEN-003,Industrial Sensors Co,VINV-99831,2025-08-26,2025-09-25,141364.83,57,27,31-60 days,Overdue,Net 30,Component Supplier
+AP-00008,VEN-015,Metro Facilities Management,VINV-33903,2025-10-01,2025-11-30,131501.79,21,0,0-30 days,Scheduled,Net 60,Facility Services
+AP-00009,VEN-001,Precision Components Inc,VINV-74269,2025-10-21,2025-12-20,122653.23,1,0,0-30 days,Scheduled,Net 60,Component Supplier
+AP-00010,VEN-008,BuildRight Construction,VINV-34210,2025-08-12,2025-09-26,88288.54,71,26,61-90 days,Overdue,Net 45,Facility Services
+AP-00011,VEN-006,Enterprise Systems Inc,VINV-14006,2025-10-02,2025-11-16,59026.04,20,0,0-30 days,Scheduled,Net 45,Software Vendor
+AP-00012,VEN-014,Innovation Labs,VINV-34769,2025-07-30,2025-09-13,86972.78,84,39,61-90 days,Overdue,Net 45,Professional Services
+AP-00013,VEN-011,Premier Insurance Group,VINV-95633,2025-07-16,2025-08-30,38209.58,98,53,90+ days,Overdue,Net 45,Insurance Provider
+AP-00014,VEN-015,Metro Facilities Management,VINV-48864,2025-09-25,2025-11-09,27996.67,27,0,0-30 days,Scheduled,Net 45,Facility Services
+AP-00015,VEN-003,Industrial Sensors Co,VINV-51506,2025-08-18,2025-10-02,33588.21,65,20,61-90 days,Overdue,Net 45,Component Supplier
+AP-00016,VEN-012,Elite Equipment Supply,VINV-25007,2025-10-13,2025-11-12,149199.69,9,0,0-30 days,Scheduled,Net 30,Equipment Supplier
+AP-00017,VEN-014,Innovation Labs,VINV-35866,2025-08-10,2025-10-09,135315.61,73,13,61-90 days,Overdue,Net 60,Professional Services
+AP-00018,VEN-004,Atlas Logistics,VINV-86177,2025-09-02,2025-10-02,21697.12,50,20,31-60 days,Overdue,Net 30,Logistics Provider
+AP-00019,VEN-010,Strategic Advisors LLC,VINV-82663,2025-08-09,2025-09-08,49346.87,74,44,61-90 days,Overdue,Net 30,Consulting
+AP-00020,VEN-008,BuildRight Construction,VINV-92652,2025-09-10,2025-11-09,87661.1,42,0,31-60 days,Scheduled,Net 60,Facility Services
+AP-00021,VEN-013,Global Freight Services,VINV-65091,2025-09-26,2025-11-10,43181.64,26,0,0-30 days,Scheduled,Net 45,Logistics Provider
+AP-00022,VEN-012,Elite Equipment Supply,VINV-78695,2025-10-10,2025-11-24,52989.25,12,0,0-30 days,Scheduled,Net 45,Equipment Supplier
+AP-00023,VEN-002,TechMotion Systems,VINV-23137,2025-09-13,2025-11-12,122857.42,39,0,31-60 days,Scheduled,Net 60,Component Supplier
+AP-00024,VEN-008,BuildRight Construction,VINV-66507,2025-10-12,2025-12-11,109069.17,10,0,0-30 days,Scheduled,Net 60,Facility Services
+AP-00025,VEN-004,Atlas Logistics,VINV-85657,2025-09-24,2025-11-08,96174.82,28,0,0-30 days,Scheduled,Net 45,Logistics Provider
+AP-00026,VEN-015,Metro Facilities Management,VINV-90065,2025-09-27,2025-11-11,146681.03,25,0,0-30 days,Scheduled,Net 45,Facility Services
+AP-00027,VEN-005,CloudSoft Solutions,VINV-35937,2025-08-01,2025-08-31,65744.31,82,52,61-90 days,Overdue,Net 30,Software Vendor
+AP-00028,VEN-010,Strategic Advisors LLC,VINV-94553,2025-06-30,2025-08-14,136579.26,114,69,90+ days,Overdue,Net 45,Consulting
+AP-00029,VEN-004,Atlas Logistics,VINV-74082,2025-08-31,2025-09-30,107152.87,52,22,31-60 days,Overdue,Net 30,Logistics Provider
+AP-00030,VEN-012,Elite Equipment Supply,VINV-32289,2025-09-28,2025-11-27,5464.98,24,0,0-30 days,Scheduled,Net 60,Equipment Supplier
+AP-00031,VEN-009,Bright Marketing Group,VINV-37271,2025-09-11,2025-10-11,76513.74,41,11,31-60 days,Overdue,Net 30,Marketing Agency
+AP-00032,VEN-010,Strategic Advisors LLC,VINV-73087,2025-10-08,2025-11-07,87135.73,14,0,0-30 days,Scheduled,Net 30,Consulting
+AP-00033,VEN-007,DataGuard Security,VINV-78523,2025-07-13,2025-09-11,74337.59,101,41,90+ days,Overdue,Net 60,Software Vendor
+AP-00034,VEN-015,Metro Facilities Management,VINV-70425,2025-07-12,2025-08-26,54667.55,102,57,90+ days,Overdue,Net 45,Facility Services
+AP-00035,VEN-012,Elite Equipment Supply,VINV-34505,2025-08-16,2025-09-30,90905.94,67,22,61-90 days,Overdue,Net 45,Equipment Supplier
+AP-00036,VEN-005,CloudSoft Solutions,VINV-18584,2025-08-03,2025-10-02,110665.28,80,20,61-90 days,Overdue,Net 60,Software Vendor
+AP-00037,VEN-011,Premier Insurance Group,VINV-94685,2025-10-11,2025-12-10,122938.96,11,0,0-30 days,Scheduled,Net 60,Insurance Provider
+AP-00038,VEN-006,Enterprise Systems Inc,VINV-99455,2025-07-30,2025-08-29,128882.84,84,54,61-90 days,Overdue,Net 30,Software Vendor
+AP-00039,VEN-004,Atlas Logistics,VINV-29823,2025-10-01,2025-10-31,135510.51,21,0,0-30 days,Scheduled,Net 30,Logistics Provider
+AP-00040,VEN-003,Industrial Sensors Co,VINV-87123,2025-10-02,2025-12-01,71556.15,20,0,0-30 days,Scheduled,Net 60,Component Supplier
+AP-00041,VEN-013,Global Freight Services,VINV-23753,2025-07-17,2025-08-16,106178.5,97,67,90+ days,Overdue,Net 30,Logistics Provider
+AP-00042,VEN-007,DataGuard Security,VINV-60674,2025-06-28,2025-07-28,117514.87,116,86,90+ days,Overdue,Net 30,Software Vendor
+AP-00043,VEN-003,Industrial Sensors Co,VINV-42121,2025-08-25,2025-09-24,33531.45,58,28,31-60 days,Overdue,Net 30,Component Supplier
+AP-00044,VEN-014,Innovation Labs,VINV-33081,2025-09-09,2025-11-08,141767.85,43,0,31-60 days,Scheduled,Net 60,Professional Services
+AP-00045,VEN-007,DataGuard Security,VINV-73844,2025-10-05,2025-11-19,85714.16,17,0,0-30 days,Scheduled,Net 45,Software Vendor
+AP-00046,VEN-007,DataGuard Security,VINV-30908,2025-09-23,2025-11-22,84741.76,29,0,0-30 days,Scheduled,Net 60,Software Vendor
+AP-00047,VEN-013,Global Freight Services,VINV-47006,2025-09-22,2025-11-06,108171.34,30,0,0-30 days,Scheduled,Net 45,Logistics Provider
+AP-00048,VEN-002,TechMotion Systems,VINV-26276,2025-10-03,2025-11-02,144331.92,19,0,0-30 days,Scheduled,Net 30,Component Supplier
+AP-00049,VEN-001,Precision Components Inc,VINV-46203,2025-07-26,2025-09-09,21803.03,88,43,61-90 days,Overdue,Net 45,Component Supplier
+AP-00050,VEN-006,Enterprise Systems Inc,VINV-22350,2025-08-09,2025-09-08,26765.75,74,44,61-90 days,Overdue,Net 30,Software Vendor
+AP-00051,VEN-011,Premier Insurance Group,VINV-95910,2025-10-06,2025-12-05,12996.41,16,0,0-30 days,Scheduled,Net 60,Insurance Provider
+AP-00052,VEN-005,CloudSoft Solutions,VINV-71828,2025-06-27,2025-08-26,101052.88,117,57,90+ days,Overdue,Net 60,Software Vendor
+AP-00053,VEN-001,Precision Components Inc,VINV-39374,2025-07-10,2025-08-24,126465.34,104,59,90+ days,Overdue,Net 45,Component Supplier
+AP-00054,VEN-008,BuildRight Construction,VINV-65462,2025-07-06,2025-09-04,52377.31,108,48,90+ days,Overdue,Net 60,Facility Services
+AP-00055,VEN-006,Enterprise Systems Inc,VINV-16056,2025-10-08,2025-11-07,134383.75,14,0,0-30 days,Scheduled,Net 30,Software Vendor
+AP-00056,VEN-015,Metro Facilities Management,VINV-28460,2025-06-27,2025-07-27,121426.11,117,87,90+ days,Overdue,Net 30,Facility Services
+AP-00057,VEN-008,BuildRight Construction,VINV-94726,2025-07-17,2025-08-16,106025.07,97,67,90+ days,Overdue,Net 30,Facility Services
+AP-00058,VEN-012,Elite Equipment Supply,VINV-58412,2025-07-09,2025-08-08,26146.89,105,75,90+ days,Overdue,Net 30,Equipment Supplier
+AP-00059,VEN-013,Global Freight Services,VINV-33594,2025-08-27,2025-10-26,39421.91,56,0,31-60 days,Scheduled,Net 60,Logistics Provider
+AP-00060,VEN-008,BuildRight Construction,VINV-99958,2025-08-01,2025-09-15,141509.67,82,37,61-90 days,Overdue,Net 45,Facility Services
+AP-00061,VEN-003,Industrial Sensors Co,VINV-97020,2025-08-04,2025-09-18,101860.82,79,34,61-90 days,Overdue,Net 45,Component Supplier
+AP-00062,VEN-002,TechMotion Systems,VINV-36466,2025-09-20,2025-10-20,84185.31,32,2,31-60 days,Overdue,Net 30,Component Supplier
+AP-00063,VEN-006,Enterprise Systems Inc,VINV-86343,2025-07-16,2025-08-30,87313.1,98,53,90+ days,Overdue,Net 45,Software Vendor
+AP-00064,VEN-013,Global Freight Services,VINV-69005,2025-09-17,2025-10-17,37437.71,35,5,31-60 days,Overdue,Net 30,Logistics Provider
+AP-00065,VEN-006,Enterprise Systems Inc,VINV-49913,2025-08-28,2025-09-27,66457.93,55,25,31-60 days,Overdue,Net 30,Software Vendor
+AP-00066,VEN-010,Strategic Advisors LLC,VINV-53566,2025-08-28,2025-10-12,131782.94,55,10,31-60 days,Overdue,Net 45,Consulting
+AP-00067,VEN-002,TechMotion Systems,VINV-51078,2025-08-19,2025-09-18,48410.85,64,34,61-90 days,Overdue,Net 30,Component Supplier
+AP-00068,VEN-013,Global Freight Services,VINV-29781,2025-10-06,2025-11-05,136120.94,16,0,0-30 days,Scheduled,Net 30,Logistics Provider
+AP-00069,VEN-004,Atlas Logistics,VINV-58187,2025-10-18,2025-12-02,127967.41,4,0,0-30 days,Scheduled,Net 45,Logistics Provider
+AP-00070,VEN-010,Strategic Advisors LLC,VINV-78899,2025-09-28,2025-10-28,26958.98,24,0,0-30 days,Scheduled,Net 30,Consulting
+AP-00071,VEN-013,Global Freight Services,VINV-92187,2025-08-17,2025-09-16,48347.26,66,36,61-90 days,Overdue,Net 30,Logistics Provider
+AP-00072,VEN-007,DataGuard Security,VINV-50426,2025-06-28,2025-08-12,130951.59,116,71,90+ days,Overdue,Net 45,Software Vendor
+AP-00073,VEN-007,DataGuard Security,VINV-26623,2025-06-30,2025-08-29,138467.01,114,54,90+ days,Overdue,Net 60,Software Vendor
+AP-00074,VEN-004,Atlas Logistics,VINV-55209,2025-10-17,2025-12-16,113079.6,5,0,0-30 days,Scheduled,Net 60,Logistics Provider
+AP-00075,VEN-014,Innovation Labs,VINV-50118,2025-07-16,2025-08-30,127355.49,98,53,90+ days,Overdue,Net 45,Professional Services
+AP-00076,VEN-011,Premier Insurance Group,VINV-42355,2025-09-09,2025-10-09,148218.82,43,13,31-60 days,Overdue,Net 30,Insurance Provider
+AP-00077,VEN-009,Bright Marketing Group,VINV-86773,2025-09-13,2025-10-13,6247.7,39,9,31-60 days,Overdue,Net 30,Marketing Agency
+AP-00078,VEN-009,Bright Marketing Group,VINV-13409,2025-08-02,2025-09-16,10999.55,81,36,61-90 days,Overdue,Net 45,Marketing Agency
+AP-00079,VEN-007,DataGuard Security,VINV-49406,2025-08-12,2025-09-26,26388.39,71,26,61-90 days,Overdue,Net 45,Software Vendor
+AP-00080,VEN-011,Premier Insurance Group,VINV-71017,2025-06-30,2025-08-14,6196.18,114,69,90+ days,Overdue,Net 45,Insurance Provider
+AP-00081,VEN-001,Precision Components Inc,VINV-15787,2025-08-10,2025-09-24,115219.13,73,28,61-90 days,Overdue,Net 45,Component Supplier
+AP-00082,VEN-013,Global Freight Services,VINV-43917,2025-10-06,2025-11-20,99152.65,16,0,0-30 days,Scheduled,Net 45,Logistics Provider
+AP-00083,VEN-007,DataGuard Security,VINV-14702,2025-07-30,2025-09-28,129608.84,84,24,61-90 days,Overdue,Net 60,Software Vendor
+AP-00084,VEN-011,Premier Insurance Group,VINV-36393,2025-07-13,2025-09-11,132355.22,101,41,90+ days,Overdue,Net 60,Insurance Provider
+AP-00085,VEN-010,Strategic Advisors LLC,VINV-65303,2025-07-11,2025-08-25,134637.25,103,58,90+ days,Overdue,Net 45,Consulting
+AP-00086,VEN-011,Premier Insurance Group,VINV-54513,2025-07-03,2025-08-02,90181.9,111,81,90+ days,Overdue,Net 30,Insurance Provider
+AP-00087,VEN-014,Innovation Labs,VINV-46904,2025-08-19,2025-09-18,138082.62,64,34,61-90 days,Overdue,Net 30,Professional Services
+AP-00088,VEN-010,Strategic Advisors LLC,VINV-55875,2025-06-29,2025-08-13,99545.27,115,70,90+ days,Overdue,Net 45,Consulting
+AP-00089,VEN-012,Elite Equipment Supply,VINV-37618,2025-09-16,2025-11-15,89653.45,36,0,31-60 days,Scheduled,Net 60,Equipment Supplier
+AP-00090,VEN-010,Strategic Advisors LLC,VINV-93620,2025-07-16,2025-08-30,139279.24,98,53,90+ days,Overdue,Net 45,Consulting
+AP-00091,VEN-009,Bright Marketing Group,VINV-32593,2025-07-19,2025-08-18,114164.42,95,65,90+ days,Overdue,Net 30,Marketing Agency
+AP-00092,VEN-006,Enterprise Systems Inc,VINV-25004,2025-08-11,2025-09-25,16223.9,72,27,61-90 days,Overdue,Net 45,Software Vendor
+AP-00093,VEN-013,Global Freight Services,VINV-61479,2025-09-12,2025-10-12,120359.52,40,10,31-60 days,Overdue,Net 30,Logistics Provider
+AP-00094,VEN-001,Precision Components Inc,VINV-29833,2025-10-12,2025-11-11,22182.81,10,0,0-30 days,Scheduled,Net 30,Component Supplier
+AP-00095,VEN-010,Strategic Advisors LLC,VINV-30525,2025-08-27,2025-10-26,66710.98,56,0,31-60 days,Scheduled,Net 60,Consulting
+AP-00096,VEN-006,Enterprise Systems Inc,VINV-14914,2025-09-07,2025-10-07,136306.7,45,15,31-60 days,Overdue,Net 30,Software Vendor
+AP-00097,VEN-015,Metro Facilities Management,VINV-20540,2025-10-12,2025-11-26,107727.5,10,0,0-30 days,Scheduled,Net 45,Facility Services
+AP-00098,VEN-002,TechMotion Systems,VINV-76708,2025-08-27,2025-10-11,94502.55,56,11,31-60 days,Overdue,Net 45,Component Supplier
+AP-00099,VEN-006,Enterprise Systems Inc,VINV-88549,2025-08-22,2025-10-06,69827.42,61,16,61-90 days,Overdue,Net 45,Software Vendor
+AP-00100,VEN-004,Atlas Logistics,VINV-62456,2025-08-07,2025-09-21,5672.86,76,31,61-90 days,Overdue,Net 45,Logistics Provider
+AP-00101,VEN-013,Global Freight Services,VINV-53325,2025-08-07,2025-09-06,98169.52,76,46,61-90 days,Overdue,Net 30,Logistics Provider
+AP-00102,VEN-008,BuildRight Construction,VINV-84465,2025-07-26,2025-09-24,106091.54,88,28,61-90 days,Overdue,Net 60,Facility Services
+AP-00103,VEN-012,Elite Equipment Supply,VINV-44825,2025-07-25,2025-09-23,64251.84,89,29,61-90 days,Overdue,Net 60,Equipment Supplier
+AP-00104,VEN-015,Metro Facilities Management,VINV-42549,2025-07-27,2025-08-26,141685.77,87,57,61-90 days,Overdue,Net 30,Facility Services
+AP-00105,VEN-006,Enterprise Systems Inc,VINV-57261,2025-10-05,2025-11-19,42196.87,17,0,0-30 days,Scheduled,Net 45,Software Vendor
+AP-00106,VEN-004,Atlas Logistics,VINV-42191,2025-08-25,2025-09-24,66826.36,58,28,31-60 days,Overdue,Net 30,Logistics Provider
+AP-00107,VEN-008,BuildRight Construction,VINV-43340,2025-08-20,2025-10-19,17306.92,63,3,61-90 days,Overdue,Net 60,Facility Services
+AP-00108,VEN-007,DataGuard Security,VINV-75124,2025-07-26,2025-08-25,102671.38,88,58,61-90 days,Overdue,Net 30,Software Vendor
+AP-00109,VEN-011,Premier Insurance Group,VINV-11736,2025-07-03,2025-08-17,28565.43,111,66,90+ days,Overdue,Net 45,Insurance Provider
+AP-00110,VEN-001,Precision Components Inc,VINV-63953,2025-10-12,2025-11-11,121460.76,10,0,0-30 days,Scheduled,Net 30,Component Supplier
+AP-00111,VEN-005,CloudSoft Solutions,VINV-71061,2025-09-03,2025-10-03,120101.14,49,19,31-60 days,Overdue,Net 30,Software Vendor
+AP-00112,VEN-014,Innovation Labs,VINV-89682,2025-10-18,2025-12-02,72874.46,4,0,0-30 days,Scheduled,Net 45,Professional Services
+AP-00113,VEN-002,TechMotion Systems,VINV-44281,2025-08-31,2025-09-30,138006.98,52,22,31-60 days,Overdue,Net 30,Component Supplier
+AP-00114,VEN-009,Bright Marketing Group,VINV-63048,2025-07-09,2025-08-23,15360.37,105,60,90+ days,Overdue,Net 45,Marketing Agency
+AP-00115,VEN-008,BuildRight Construction,VINV-81693,2025-09-28,2025-11-12,13887.48,24,0,0-30 days,Scheduled,Net 45,Facility Services
+AP-00116,VEN-005,CloudSoft Solutions,VINV-68363,2025-07-13,2025-08-12,14952.76,101,71,90+ days,Overdue,Net 30,Software Vendor
+AP-00117,VEN-003,Industrial Sensors Co,VINV-49508,2025-09-01,2025-10-01,26013.11,51,21,31-60 days,Overdue,Net 30,Component Supplier
+AP-00118,VEN-012,Elite Equipment Supply,VINV-18423,2025-07-11,2025-08-10,53424.85,103,73,90+ days,Overdue,Net 30,Equipment Supplier
+AP-00119,VEN-004,Atlas Logistics,VINV-62595,2025-10-18,2025-12-17,34142.86,4,0,0-30 days,Scheduled,Net 60,Logistics Provider
+AP-00120,VEN-011,Premier Insurance Group,VINV-31954,2025-07-03,2025-09-01,61697.58,111,51,90+ days,Overdue,Net 60,Insurance Provider
+AP-00121,VEN-012,Elite Equipment Supply,VINV-52949,2025-10-21,2025-11-20,26599.47,1,0,0-30 days,Scheduled,Net 30,Equipment Supplier
+AP-00122,VEN-004,Atlas Logistics,VINV-66724,2025-09-03,2025-10-18,146155.27,49,4,31-60 days,Overdue,Net 45,Logistics Provider
+AP-00123,VEN-014,Innovation Labs,VINV-79671,2025-08-31,2025-10-15,52782.59,52,7,31-60 days,Overdue,Net 45,Professional Services
+AP-00124,VEN-011,Premier Insurance Group,VINV-67256,2025-07-08,2025-08-07,78127.21,106,76,90+ days,Overdue,Net 30,Insurance Provider
+AP-00125,VEN-012,Elite Equipment Supply,VINV-43540,2025-10-10,2025-12-09,45957.52,12,0,0-30 days,Scheduled,Net 60,Equipment Supplier
+AP-00126,VEN-011,Premier Insurance Group,VINV-81413,2025-09-29,2025-11-28,29446.8,23,0,0-30 days,Scheduled,Net 60,Insurance Provider
+AP-00127,VEN-004,Atlas Logistics,VINV-49904,2025-09-13,2025-10-28,88466.18,39,0,31-60 days,Scheduled,Net 45,Logistics Provider
+AP-00128,VEN-005,CloudSoft Solutions,VINV-42074,2025-09-06,2025-10-21,103827.81,46,1,31-60 days,Overdue,Net 45,Software Vendor
+AP-00129,VEN-001,Precision Components Inc,VINV-69695,2025-09-06,2025-10-21,79843.83,46,1,31-60 days,Overdue,Net 45,Component Supplier
+AP-00130,VEN-012,Elite Equipment Supply,VINV-12161,2025-10-01,2025-10-31,32086.36,21,0,0-30 days,Scheduled,Net 30,Equipment Supplier
+AP-00131,VEN-009,Bright Marketing Group,VINV-20594,2025-09-16,2025-10-16,117960.91,36,6,31-60 days,Overdue,Net 30,Marketing Agency
+AP-00132,VEN-005,CloudSoft Solutions,VINV-19550,2025-07-11,2025-09-09,120819.91,103,43,90+ days,Overdue,Net 60,Software Vendor
+AP-00133,VEN-008,BuildRight Construction,VINV-84830,2025-07-08,2025-08-07,15922.07,106,76,90+ days,Overdue,Net 30,Facility Services
+AP-00134,VEN-015,Metro Facilities Management,VINV-52092,2025-08-07,2025-09-21,84119.54,76,31,61-90 days,Overdue,Net 45,Facility Services
+AP-00135,VEN-014,Innovation Labs,VINV-88774,2025-08-14,2025-10-13,22202.57,69,9,61-90 days,Overdue,Net 60,Professional Services
+AP-00136,VEN-006,Enterprise Systems Inc,VINV-62752,2025-10-03,2025-11-02,29370.04,19,0,0-30 days,Scheduled,Net 30,Software Vendor
+AP-00137,VEN-002,TechMotion Systems,VINV-82612,2025-10-03,2025-12-02,6159.99,19,0,0-30 days,Scheduled,Net 60,Component Supplier
+AP-00138,VEN-001,Precision Components Inc,VINV-36359,2025-07-25,2025-09-08,50990.54,89,44,61-90 days,Overdue,Net 45,Component Supplier
+AP-00139,VEN-004,Atlas Logistics,VINV-17358,2025-09-29,2025-11-28,21392.61,23,0,0-30 days,Scheduled,Net 60,Logistics Provider
+AP-00140,VEN-014,Innovation Labs,VINV-36358,2025-08-03,2025-09-02,35030.35,80,50,61-90 days,Overdue,Net 30,Professional Services
+AP-00141,VEN-004,Atlas Logistics,VINV-76301,2025-08-25,2025-10-24,91815.79,58,0,31-60 days,Scheduled,Net 60,Logistics Provider
+AP-00142,VEN-011,Premier Insurance Group,VINV-35474,2025-07-11,2025-08-25,112062.54,103,58,90+ days,Overdue,Net 45,Insurance Provider
+AP-00143,VEN-008,BuildRight Construction,VINV-22579,2025-10-18,2025-12-02,80339.79,4,0,0-30 days,Scheduled,Net 45,Facility Services
+AP-00144,VEN-003,Industrial Sensors Co,VINV-72631,2025-10-06,2025-12-05,92398.69,16,0,0-30 days,Scheduled,Net 60,Component Supplier
+AP-00145,VEN-005,CloudSoft Solutions,VINV-88414,2025-10-06,2025-11-20,72227.5,16,0,0-30 days,Scheduled,Net 45,Software Vendor
+AP-00146,VEN-011,Premier Insurance Group,VINV-35345,2025-08-04,2025-09-18,84253.66,79,34,61-90 days,Overdue,Net 45,Insurance Provider
+AP-00147,VEN-003,Industrial Sensors Co,VINV-40722,2025-09-17,2025-10-17,15955.8,35,5,31-60 days,Overdue,Net 30,Component Supplier
+AP-00148,VEN-012,Elite Equipment Supply,VINV-61156,2025-10-08,2025-12-07,33982.74,14,0,0-30 days,Scheduled,Net 60,Equipment Supplier
+AP-00149,VEN-014,Innovation Labs,VINV-81173,2025-08-25,2025-09-24,63577.46,58,28,31-60 days,Overdue,Net 30,Professional Services
+AP-00150,VEN-007,DataGuard Security,VINV-92888,2025-07-29,2025-09-27,93894.24,85,25,61-90 days,Overdue,Net 60,Software Vendor
