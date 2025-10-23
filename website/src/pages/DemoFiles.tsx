@@ -277,7 +277,7 @@ function DemoFiles() {
                   </div>
                 </div>
 
-                <div className="overflow-y-auto max-h-[calc(100vh-300px)] scrollbar-thin scrollbar-thumb-border scrollbar-track-transparent">
+                <div className="overflow-y-auto max-h-[calc(100vh-300px)] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                   {filteredTree ? renderFileTree(filteredTree) : (
                     <div className="text-center py-8 text-text-muted">
                       No files found
