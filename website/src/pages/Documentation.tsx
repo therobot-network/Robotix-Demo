@@ -203,19 +203,6 @@ function Documentation() {
                   </div>
                 </motion.div>
 
-                {/* Results */}
-                <motion.div 
-                  className="mb-6 flex items-center gap-2 px-4 py-2 bg-surface-elevated/50 rounded-[12px] border border-border/50 w-fit"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.3 }}
-                >
-                  <FileText className="w-4 h-4 text-primary-400" />
-                  <span className="text-text-muted text-sm">
-                    Showing <span className="font-bold text-primary-300">{filteredDocs.length}</span> documents
-                  </span>
-                </motion.div>
-
                 <motion.div 
                   key={selectedCategory}
                   className="space-y-4"
