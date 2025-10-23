@@ -1,0 +1,134 @@
+[
+  {
+    "quarter": "Q4 2022",
+    "total_employees": 259,
+    "female_pct": 37.8,
+    "male_pct": 62.9,
+    "underrepresented_minority_pct": 20.9,
+    "veterans_pct": 5.2,
+    "employees_with_disabilities_pct": 3.6,
+    "female_leadership_pct": 28.6,
+    "minority_leadership_pct": 20.3
+  },
+  {
+    "quarter": "Q1 2023",
+    "total_employees": 273,
+    "female_pct": 34.1,
+    "male_pct": 63.5,
+    "underrepresented_minority_pct": 18.2,
+    "veterans_pct": 3.1,
+    "employees_with_disabilities_pct": 2.3,
+    "female_leadership_pct": 28.5,
+    "minority_leadership_pct": 16.3
+  },
+  {
+    "quarter": "Q2 2023",
+    "total_employees": 262,
+    "female_pct": 36.6,
+    "male_pct": 61.4,
+    "underrepresented_minority_pct": 22.5,
+    "veterans_pct": 4.3,
+    "employees_with_disabilities_pct": 3.4,
+    "female_leadership_pct": 30.8,
+    "minority_leadership_pct": 20.6
+  },
+  {
+    "quarter": "Q3 2023",
+    "total_employees": 248,
+    "female_pct": 36.1,
+    "male_pct": 62.7,
+    "underrepresented_minority_pct": 20.6,
+    "veterans_pct": 3.8,
+    "employees_with_disabilities_pct": 2.6,
+    "female_leadership_pct": 31.9,
+    "minority_leadership_pct": 15.8
+  },
+  {
+    "quarter": "Q4 2023",
+    "total_employees": 286,
+    "female_pct": 35.2,
+    "male_pct": 60.6,
+    "underrepresented_minority_pct": 20.5,
+    "veterans_pct": 4.8,
+    "employees_with_disabilities_pct": 2.1,
+    "female_leadership_pct": 34.4,
+    "minority_leadership_pct": 19.3
+  },
+  {
+    "quarter": "Q1 2024",
+    "total_employees": 225,
+    "female_pct": 35.9,
+    "male_pct": 62.5,
+    "underrepresented_minority_pct": 19.3,
+    "veterans_pct": 3.4,
+    "employees_with_disabilities_pct": 4.0,
+    "female_leadership_pct": 31.7,
+    "minority_leadership_pct": 18.3
+  },
+  {
+    "quarter": "Q2 2024",
+    "total_employees": 233,
+    "female_pct": 34.8,
+    "male_pct": 62.5,
+    "underrepresented_minority_pct": 22.3,
+    "veterans_pct": 4.6,
+    "employees_with_disabilities_pct": 3.0,
+    "female_leadership_pct": 30.8,
+    "minority_leadership_pct": 15.6
+  },
+  {
+    "quarter": "Q3 2024",
+    "total_employees": 276,
+    "female_pct": 35.1,
+    "male_pct": 60.2,
+    "underrepresented_minority_pct": 19.2,
+    "veterans_pct": 3.9,
+    "employees_with_disabilities_pct": 2.7,
+    "female_leadership_pct": 30.5,
+    "minority_leadership_pct": 15.5
+  },
+  {
+    "quarter": "Q4 2024",
+    "total_employees": 276,
+    "female_pct": 37.3,
+    "male_pct": 60.1,
+    "underrepresented_minority_pct": 21.1,
+    "veterans_pct": 4.3,
+    "employees_with_disabilities_pct": 2.4,
+    "female_leadership_pct": 29.8,
+    "minority_leadership_pct": 17.4
+  },
+  {
+    "quarter": "Q1 2025",
+    "total_employees": 236,
+    "female_pct": 36.8,
+    "male_pct": 62.1,
+    "underrepresented_minority_pct": 20.7,
+    "veterans_pct": 3.2,
+    "employees_with_disabilities_pct": 2.7,
+    "female_leadership_pct": 28.5,
+    "minority_leadership_pct": 15.1
+  },
+  {
+    "quarter": "Q2 2025",
+    "total_employees": 274,
+    "female_pct": 36.5,
+    "male_pct": 62.0,
+    "underrepresented_minority_pct": 21.2,
+    "veterans_pct": 5.5,
+    "employees_with_disabilities_pct": 3.2,
+    "female_leadership_pct": 33.7,
+    "minority_leadership_pct": 18.1
+  },
+  {
+    "quarter": "Q3 2025",
+    "total_employees": 247,
+    "female_pct": 35.5,
+    "male_pct": 62.7,
+    "underrepresented_minority_pct": 22.3,
+    "veterans_pct": 3.7,
+    "employees_with_disabilities_pct": 2.4,
+    "female_leadership_pct": 28.6,
+    "minority_leadership_pct": 20.8
+  }
+]

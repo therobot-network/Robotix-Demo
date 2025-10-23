@@ -1,0 +1,53 @@
+release_id,product_name,version,release_type,release_date,num_features,num_bugs_fixed,num_breaking_changes,release_notes,status,adoption_rate_pct,rollback_required
+REL-0009,Simulation & Programming Tool,5.13.10,Minor,2023-10-24,14,24,0,Minor release with 14 features and 24 bug fixes,Released,73.8,No
+REL-0020,Simulation & Programming Tool,5.10.19,Patch,2023-10-25,0,10,0,Patch release with 0 features and 10 bug fixes,Released,88.4,No
+REL-0008,Vision System Pro,2.6.1,Minor,2024-01-28,7,30,0,"ROBOTIX VISION SYSTEM PRO - VERSION 2.6.1
+Release Date: February 15, 2024
+
+This minor release introduces several productivity improvements and stability enhancements to Vision System Pro.
+
+NEW FEATURES:
+• Advanced Pattern Recognition (APR) algorithm now supports multi-angle detection up to 175 degre",Released,89.0,No
+REL-0003,RobotOS Control Suite,5.14.6,Hotfix,2024-02-01,3,7,0,Hotfix release with 3 features and 7 bug fixes,Released,66.0,No
+REL-0002,RobotOS Control Suite,3.12.13,Patch,2024-02-24,0,11,0,Patch release with 0 features and 11 bug fixes,Released,93.7,No
+REL-0001,Vision System Pro,5.9.18,Minor,2024-03-29,10,27,0,"RELEASE NOTES
+Vision System Pro v5.9.18
+Released: March 15, 2024
+
+This minor release introduces several productivity enhancements and stability improvements to our machine vision platform.
+
+KEY FEATURES:
+• Enhanced Deep Learning Model Training
+- Added support for synthetic data augmentation
+- Reduce",Released,79.8,No
+REL-0016,Vision System Pro,2.1.11,Patch,2024-05-18,2,18,0,Patch release with 2 features and 18 bug fixes,Released,67.7,No
+REL-0015,Predictive Maintenance AI,3.9.14,Patch,2024-06-18,1,12,0,Patch release with 1 features and 12 bug fixes,Released,79.7,No
+REL-0019,RobotOS Control Suite,1.15.5,Minor,2024-06-25,3,20,0,"RobotOS Control Suite - Version 1.15.5 Release Notes
+Released: March 15, 2024
+
+New Features:
+• Introduced Dynamic Path Optimization (DPO) allowing real-time trajectory adjustments based on environmental feedback, resulting in up to 23% faster cycle times for pick-and-place operations
+• Added support",Released,96.9,No
+REL-0011,Simulation & Programming Tool,3.2.0,Minor,2024-08-12,4,26,0,Minor release with 4 features and 26 bug fixes,Released,84.1,No
+REL-0007,Fleet Management Platform,5.0.18,Patch,2024-10-18,0,26,0,Patch release with 0 features and 26 bug fixes,Released,85.5,No
+REL-0018,RobotOS Control Suite,5.1.0,Minor,2024-10-24,10,10,0,Minor release with 10 features and 10 bug fixes,Released,66.4,No
+REL-0010,Fleet Management Platform,4.3.16,Minor,2024-11-18,14,28,0,Minor release with 14 features and 28 bug fixes,Released,85.5,No
+REL-0017,Predictive Maintenance AI,2.5.9,Minor,2025-02-07,8,10,0,"Robotix Predictive Maintenance AI - Version 2.5.9 Release Notes
+Released: March 15, 2024
+
+New Features:
+• Introduced multi-sensor fusion algorithm to combine data from vibration, temperature, and acoustic sensors for more accurate failure predictions
+• Added support for custom maintenance schedules ",Released,96.9,No
+REL-0006,Predictive Maintenance AI,1.10.11,Major,2025-05-06,13,23,1,Major release with 13 features and 23 bug fixes,Released,93.7,No
+REL-0014,RobotOS Control Suite,2.12.4,Patch,2025-05-11,0,14,0,Patch release with 0 features and 14 bug fixes,Released,92.7,No
+REL-0004,RobotOS Control Suite,2.3.18,Patch,2025-06-06,3,11,0,Patch release with 3 features and 11 bug fixes,Released,94.4,No
+REL-0012,Vision System Pro,1.12.7,Minor,2025-08-24,9,16,0,"ROBOTIX VISION SYSTEM PRO - VERSION 1.12.7 RELEASE NOTES
+
+Release Date: November 15, 2023
+
+NEW FEATURES:
+• Added support for multi-camera synchronization with up to 8 cameras
+• Implemented advanced edge detection algorithms with sub-pixel accuracy
+• Introduced customizable inspection templates for a",Released,73.9,No
+REL-0005,Predictive Maintenance AI,2.0.10,Minor,2025-09-15,7,30,0,Minor release with 7 features and 30 bug fixes,Released,83.7,No
+REL-0013,Simulation & Programming Tool,4.6.5,Patch,2025-09-27,0,13,0,Patch release with 0 features and 13 bug fixes,Released,81.2,No

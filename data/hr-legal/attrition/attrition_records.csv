@@ -1,0 +1,81 @@
+attrition_id,employee_id,department,job_level,hire_date,termination_date,tenure_months,termination_type,termination_reason,regrettable,exit_interview_completed,eligible_for_rehire,notice_period_days,quarter
+ATR-00001,EMP5848,Manufacturing,VP,2024-10-25,2025-09-13,10.8,Voluntary,Voluntary - Better Opportunity,No,Yes,Yes,30,Q3 2025
+ATR-00002,EMP1604,IT & Systems,Entry,2021-12-27,2023-09-21,21.1,Voluntary,Voluntary - Better Opportunity,No,Yes,Yes,30,Q3 2023
+ATR-00003,EMP9440,Manufacturing,Senior,2022-02-17,2024-04-19,26.4,Involuntary,End of Contract,No,No,Yes,0,Q2 2024
+ATR-00004,EMP3236,Legal & Compliance,Mid,2023-03-31,2024-01-29,10.1,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,30,Q1 2024
+ATR-00005,EMP8384,Legal & Compliance,Mid,2024-07-03,2025-05-23,10.8,Voluntary,Voluntary - Retirement,Yes,Yes,Yes,30,Q2 2025
+ATR-00006,EMP7614,Legal & Compliance,Manager,2023-06-08,2025-02-04,20.2,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q1 2025
+ATR-00007,EMP6905,Human Resources,VP,2020-03-25,2021-10-09,18.8,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q4 2021
+ATR-00008,EMP2922,Quality Assurance,Senior,2024-11-29,2025-08-17,8.7,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,30,Q3 2025
+ATR-00009,EMP7609,Human Resources,Executive,2023-11-10,2025-03-04,16.0,Involuntary,Involuntary - Performance,No,No,No,0,Q1 2025
+ATR-00010,EMP1803,Executive Leadership,Senior,2022-10-13,2025-05-20,31.7,Voluntary,Voluntary - Better Opportunity,Yes,No,Yes,14,Q2 2025
+ATR-00011,EMP5254,IT & Systems,Manager,2022-08-20,2024-06-18,22.3,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,0,Q2 2024
+ATR-00012,EMP7997,Sales & Marketing,Manager,2023-01-21,2023-05-27,4.2,Voluntary,Voluntary - Better Opportunity,No,Yes,Yes,0,Q2 2023
+ATR-00013,EMP4168,Human Resources,Director,2020-02-09,2020-10-22,8.5,Voluntary,Voluntary - Relocation,No,Yes,Yes,0,Q4 2020
+ATR-00014,EMP9445,Executive Leadership,Entry,2019-10-26,2023-12-04,50.0,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,0,Q4 2023
+ATR-00015,EMP4615,Customer Service,Director,2025-06-10,2025-09-29,3.7,Voluntary,Voluntary - Career Change,Yes,Yes,Yes,14,Q3 2025
+ATR-00016,EMP5212,Sales & Marketing,Entry,2023-05-02,2025-09-29,29.4,Involuntary,End of Contract,No,No,Yes,0,Q3 2025
+ATR-00017,EMP1290,Customer Service,Executive,2024-02-05,2025-05-18,15.6,Involuntary,Involuntary - Restructuring,No,No,No,0,Q2 2025
+ATR-00018,EMP7381,Product Development,Senior,2024-12-20,2025-04-20,4.0,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,14,Q2 2025
+ATR-00019,EMP5514,Quality Assurance,Director,2020-04-22,2023-10-14,42.3,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,0,Q4 2023
+ATR-00020,EMP1638,Executive Leadership,Senior,2022-11-02,2024-05-23,18.9,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,14,Q2 2024
+ATR-00021,EMP5772,Customer Service,Manager,2025-05-23,2025-06-22,1.0,Involuntary,Involuntary - Restructuring,No,No,No,0,Q2 2025
+ATR-00022,EMP7321,IT & Systems,Senior,2020-06-14,2024-04-06,46.4,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q2 2024
+ATR-00023,EMP6934,Quality Assurance,Director,2021-04-03,2025-10-13,55.1,Involuntary,Involuntary - Performance,No,No,No,0,Q4 2025
+ATR-00024,EMP8225,Sales & Marketing,Director,2020-11-25,2021-11-15,11.8,Voluntary,Voluntary - Relocation,Yes,No,Yes,14,Q4 2021
+ATR-00025,EMP1453,Sales & Marketing,VP,2022-11-04,2024-11-14,24.7,Voluntary,Voluntary - Retirement,No,No,Yes,0,Q4 2024
+ATR-00026,EMP7347,Quality Assurance,Executive,2024-09-23,2025-05-04,7.4,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,14,Q2 2025
+ATR-00027,EMP4758,Legal & Compliance,VP,2022-03-05,2025-10-06,43.7,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,30,Q4 2025
+ATR-00028,EMP3385,IT & Systems,Entry,2021-07-18,2025-01-27,43.0,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q1 2025
+ATR-00029,EMP3523,Customer Service,Manager,2020-04-30,2024-06-18,50.3,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,14,Q2 2024
+ATR-00030,EMP3411,Quality Assurance,Director,2025-05-21,2025-08-15,2.9,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,14,Q3 2025
+ATR-00031,EMP6010,Legal & Compliance,VP,2023-09-05,2024-07-05,10.1,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,0,Q3 2024
+ATR-00032,EMP9874,Customer Service,Lead,2020-06-23,2024-08-19,50.6,Voluntary,Voluntary - Retirement,Yes,Yes,Yes,14,Q3 2024
+ATR-00033,EMP2867,Human Resources,Senior,2024-03-10,2025-09-17,18.5,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q3 2025
+ATR-00034,EMP7144,Sales & Marketing,Senior,2024-04-19,2025-01-04,8.7,Involuntary,Involuntary - Performance,No,No,No,0,Q1 2025
+ATR-00035,EMP2751,Product Development,Manager,2020-08-22,2021-08-15,11.9,Involuntary,Involuntary - Performance,No,No,No,0,Q3 2021
+ATR-00036,EMP7679,Legal & Compliance,Lead,2020-12-07,2025-10-19,59.2,Involuntary,End of Contract,No,No,Yes,0,Q4 2025
+ATR-00037,EMP5326,Human Resources,Senior,2023-02-11,2025-09-19,31.7,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,0,Q3 2025
+ATR-00038,EMP6595,Sales & Marketing,Lead,2023-07-09,2025-05-03,22.1,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,30,Q2 2025
+ATR-00039,EMP5521,Finance,Mid,2024-06-06,2025-06-07,12.2,Involuntary,Involuntary - Restructuring,No,No,No,0,Q2 2025
+ATR-00040,EMP3888,Executive Leadership,Executive,2025-05-14,2025-06-14,1.0,Voluntary,Voluntary - Retirement,No,Yes,Yes,0,Q2 2025
+ATR-00041,EMP9567,Quality Assurance,Entry,2024-10-14,2025-07-29,9.6,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q3 2025
+ATR-00042,EMP6409,Finance,Senior,2024-11-06,2025-10-01,11.0,Voluntary,Voluntary - Retirement,No,Yes,Yes,30,Q4 2025
+ATR-00043,EMP2459,Human Resources,Entry,2024-06-30,2025-10-01,15.3,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q4 2025
+ATR-00044,EMP6128,Sales & Marketing,VP,2024-04-26,2024-08-07,3.4,Involuntary,End of Contract,No,No,Yes,0,Q3 2024
+ATR-00045,EMP2388,Sales & Marketing,Mid,2024-02-26,2025-09-17,19.0,Involuntary,Involuntary - Performance,No,No,No,0,Q3 2025
+ATR-00046,EMP1606,Customer Service,Lead,2021-04-04,2023-09-24,30.1,Involuntary,Involuntary - Restructuring,No,No,No,0,Q3 2023
+ATR-00047,EMP8538,Sales & Marketing,Director,2025-03-08,2025-09-19,6.5,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q3 2025
+ATR-00048,EMP3278,IT & Systems,Director,2022-03-14,2024-02-16,23.5,Voluntary,Voluntary - Better Opportunity,No,Yes,Yes,0,Q1 2024
+ATR-00049,EMP7106,Executive Leadership,Director,2024-11-04,2025-06-08,7.2,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,14,Q2 2025
+ATR-00050,EMP3634,Product Development,Entry,2021-01-22,2022-07-19,18.1,Involuntary,End of Contract,No,No,Yes,0,Q3 2022
+ATR-00051,EMP3715,Human Resources,Manager,2020-10-09,2025-04-02,54.5,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,14,Q2 2025
+ATR-00052,EMP1421,Manufacturing,Manager,2024-07-02,2025-07-05,12.3,Voluntary,Voluntary - Career Change,Yes,Yes,Yes,0,Q3 2025
+ATR-00053,EMP3850,Manufacturing,Executive,2019-12-31,2024-10-26,58.7,Involuntary,Involuntary - Restructuring,No,No,No,0,Q4 2024
+ATR-00054,EMP6188,Product Development,Manager,2020-05-09,2021-09-09,16.3,Involuntary,End of Contract,No,No,Yes,0,Q3 2021
+ATR-00055,EMP5146,Manufacturing,Senior,2023-08-16,2025-09-07,25.1,Voluntary,Voluntary - Relocation,Yes,Yes,Yes,30,Q3 2025
+ATR-00056,EMP6737,Executive Leadership,Manager,2024-06-06,2025-09-15,15.5,Voluntary,Voluntary - Retirement,Yes,Yes,Yes,0,Q3 2025
+ATR-00057,EMP6646,IT & Systems,Mid,2023-12-25,2025-08-19,20.1,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q3 2025
+ATR-00058,EMP7977,Legal & Compliance,VP,2021-06-24,2022-05-24,11.1,Voluntary,Voluntary - Personal Reasons,No,Yes,Yes,14,Q2 2022
+ATR-00059,EMP6019,Customer Service,Manager,2024-01-30,2025-05-08,15.5,Involuntary,End of Contract,No,No,Yes,0,Q2 2025
+ATR-00060,EMP2469,Quality Assurance,Director,2022-07-13,2025-10-07,39.4,Involuntary,Involuntary - Performance,No,No,No,0,Q4 2025
+ATR-00061,EMP8070,Human Resources,Manager,2022-07-01,2025-05-09,34.8,Voluntary,Voluntary - Retirement,Yes,Yes,Yes,14,Q2 2025
+ATR-00062,EMP8133,Human Resources,VP,2024-02-14,2024-09-19,7.3,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,14,Q3 2024
+ATR-00063,EMP8121,Manufacturing,Mid,2023-04-24,2025-08-29,28.6,Involuntary,Involuntary - Restructuring,No,No,No,0,Q3 2025
+ATR-00064,EMP7725,Quality Assurance,Senior,2021-09-22,2023-11-03,25.7,Involuntary,Involuntary - Performance,No,No,No,0,Q4 2023
+ATR-00065,EMP2523,Customer Service,Director,2021-03-06,2024-03-07,36.6,Voluntary,Voluntary - Career Change,No,Yes,Yes,30,Q1 2024
+ATR-00066,EMP1606,Human Resources,Senior,2023-07-07,2024-01-24,6.7,Voluntary,Voluntary - Relocation,No,Yes,Yes,0,Q1 2024
+ATR-00067,EMP8476,Executive Leadership,Executive,2021-04-15,2024-03-08,35.3,Voluntary,Voluntary - Personal Reasons,Yes,Yes,Yes,0,Q1 2024
+ATR-00068,EMP4579,Quality Assurance,Director,2022-10-30,2025-07-02,32.5,Voluntary,Voluntary - Career Change,No,Yes,Yes,0,Q3 2025
+ATR-00069,EMP6535,Executive Leadership,VP,2023-08-01,2025-07-06,23.5,Involuntary,End of Contract,No,No,Yes,0,Q3 2025
+ATR-00070,EMP2173,Legal & Compliance,Lead,2025-02-17,2025-07-22,5.2,Involuntary,Involuntary - Restructuring,No,No,No,0,Q3 2025
+ATR-00071,EMP3173,Executive Leadership,Senior,2021-10-07,2025-07-30,46.4,Involuntary,Involuntary - Position Eliminated,No,No,No,0,Q3 2025
+ATR-00072,EMP8378,IT & Systems,Lead,2022-03-20,2025-09-11,42.4,Voluntary,Voluntary - Personal Reasons,No,Yes,Yes,14,Q3 2025
+ATR-00073,EMP2709,Finance,Director,2023-06-16,2025-06-07,24.1,Voluntary,Voluntary - Personal Reasons,No,Yes,Yes,0,Q2 2025
+ATR-00074,EMP2350,Finance,Senior,2020-12-22,2025-05-12,53.4,Voluntary,Voluntary - Retirement,Yes,Yes,Yes,14,Q2 2025
+ATR-00075,EMP9127,Product Development,Lead,2023-01-11,2025-06-16,29.6,Voluntary,Voluntary - Better Opportunity,Yes,Yes,Yes,14,Q2 2025
+ATR-00076,EMP4807,Manufacturing,Director,2022-09-03,2023-11-26,15.0,Involuntary,End of Contract,No,No,Yes,0,Q4 2023
+ATR-00077,EMP7069,Human Resources,Mid,2025-04-04,2025-09-13,5.4,Involuntary,End of Contract,No,No,Yes,0,Q3 2025
+ATR-00078,EMP6253,Finance,Director,2024-10-07,2025-06-09,8.2,Voluntary,Voluntary - Career Change,Yes,Yes,Yes,30,Q2 2025
+ATR-00079,EMP6104,Customer Service,Manager,2020-09-26,2024-05-31,44.8,Involuntary,End of Contract,No,No,Yes,0,Q2 2024
+ATR-00080,EMP8872,Finance,Senior,2024-01-23,2025-06-07,16.7,Voluntary,Voluntary - Retirement,No,Yes,Yes,0,Q2 2025

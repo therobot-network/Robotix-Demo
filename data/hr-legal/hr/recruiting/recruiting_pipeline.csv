@@ -1,0 +1,121 @@
+req_id,job_title,department,job_level,posted_date,status,current_stage,num_applicants,num_screened,num_phone_interviews,num_onsite_interviews,num_offers,days_to_hire,days_open,source,hiring_manager,priority
+REQ-00001,Accountant,Customer Service,Manager,2025-09-01,Open,Technical Interview,129,67,16,9,0,,51,Recruiter,Marcus Johnson,Medium
+REQ-00002,Robotics Engineer,Manufacturing,Senior,2025-05-29,Closed,Accepted,42,20,8,4,1,58,146,Referral,Nicole Sanders,Low
+REQ-00003,Marketing Manager,Sales & Marketing,Director,2025-05-16,Open,Final Interview,63,34,15,9,0,,159,Indeed,Amanda Foster,High
+REQ-00004,Robotics Engineer,Human Resources,Mid,2025-05-24,Open,Sourcing,98,29,9,5,0,,151,Career Fair,Jennifer Park,Medium
+REQ-00005,Customer Support Specialist,Product Development,Lead,2025-06-23,Open,Sourcing,133,57,25,15,0,,121,LinkedIn,Chris Patel,High
+REQ-00006,Software Engineer,Finance,Executive,2025-06-15,Open,Offer,55,21,9,5,1,,129,LinkedIn,Chris Patel,Medium
+REQ-00007,Operations Manager,Quality Assurance,Director,2025-10-02,Open,Final Interview,128,39,15,9,0,,20,Referral,Nicole Sanders,Low
+REQ-00008,Financial Analyst,IT & Systems,Mid,2025-06-23,Closed,Accepted,136,80,17,10,1,33,121,Company Website,Kevin O'Brien,Low
+REQ-00009,Software Engineer,Customer Service,VP,2025-10-08,Open,Technical Interview,77,35,8,4,0,,14,Indeed,Kevin O'Brien,Low
+REQ-00010,Robotics Engineer,Quality Assurance,Executive,2025-04-26,Open,Sourcing,129,64,22,13,0,,179,LinkedIn,Marcus Johnson,Medium
+REQ-00011,Quality Engineer,Manufacturing,Lead,2025-07-16,Closed,Accepted,57,18,8,4,1,62,98,Career Fair,Kevin O'Brien,Medium
+REQ-00012,Operations Manager,Manufacturing,Executive,2025-06-22,Open,Screening,60,25,9,5,0,,122,Company Website,Nicole Sanders,High
+REQ-00013,Robotics Engineer,Executive Leadership,Mid,2025-06-03,Open,Final Interview,57,21,8,4,0,,141,Recruiter,Chris Patel,High
+REQ-00014,Production Supervisor,IT & Systems,Director,2025-06-24,Open,Final Interview,123,56,20,12,0,,120,Indeed,Chris Patel,Low
+REQ-00015,Account Executive,Product Development,Manager,2025-10-21,Closed,Accepted,125,42,20,12,1,49,1,Recruiter,Kevin O'Brien,High
+REQ-00016,Robotics Engineer,Human Resources,Mid,2025-08-30,Open,Screening,75,44,17,10,0,,53,Referral,Amanda Foster,Low
+REQ-00017,Senior Software Engineer,Sales & Marketing,Senior,2025-06-12,Open,Screening,39,12,5,3,0,,132,Indeed,Sophia Nguyen,Medium
+REQ-00018,Sales Manager,Finance,Entry,2025-08-21,Open,Phone Interview,87,38,12,7,0,,62,Referral,Nicole Sanders,Medium
+REQ-00019,HR Coordinator,Product Development,Entry,2025-06-11,Open,Sourcing,73,35,15,9,0,,133,Company Website,Nicole Sanders,High
+REQ-00020,Content Writer,Finance,Manager,2025-08-19,Closed,Accepted,92,54,26,15,1,49,64,Referral,Kevin O'Brien,High
+REQ-00021,Robotics Engineer,Legal & Compliance,VP,2025-06-13,Open,Offer,96,35,16,9,1,,131,Career Fair,Chris Patel,High
+REQ-00022,Robotics Engineer,Product Development,Executive,2025-05-17,Open,Sourcing,59,34,12,7,0,,158,Referral,Nicole Sanders,High
+REQ-00023,Account Executive,Legal & Compliance,Director,2025-06-22,Closed,Rejected,136,59,25,15,0,,122,Recruiter,Amanda Foster,Medium
+REQ-00024,Senior Software Engineer,Finance,Manager,2025-08-26,Open,Technical Interview,98,37,8,4,0,,57,Recruiter,Jennifer Park,High
+REQ-00025,Marketing Specialist,IT & Systems,Entry,2025-10-06,Open,Phone Interview,116,48,17,10,0,,16,Indeed,Sophia Nguyen,High
+REQ-00026,Operations Manager,Executive Leadership,Senior,2025-07-29,Open,Screening,76,22,10,6,0,,85,Indeed,Chris Patel,Medium
+REQ-00027,Marketing Manager,Manufacturing,Entry,2025-07-03,Closed,Withdrawn,35,16,5,3,0,,111,LinkedIn,Chris Patel,High
+REQ-00028,Marketing Manager,Quality Assurance,Entry,2025-06-30,Open,Final Interview,20,8,2,1,0,,114,LinkedIn,Marcus Johnson,High
+REQ-00029,Technical Support Engineer,Legal & Compliance,Entry,2025-09-15,Closed,Withdrawn,77,45,9,5,0,,37,Indeed,Kevin O'Brien,High
+REQ-00030,Marketing Manager,Customer Service,Lead,2025-10-07,Closed,Rejected,48,22,6,3,0,,15,Company Website,Marcus Johnson,High
+REQ-00031,Operations Manager,Customer Service,Manager,2025-05-06,Open,Sourcing,28,13,4,2,0,,169,Company Website,Amanda Foster,High
+REQ-00032,Marketing Manager,Manufacturing,Director,2025-08-06,Open,Sourcing,128,53,15,9,0,,77,Company Website,Jennifer Park,High
+REQ-00033,Software Engineer,IT & Systems,Lead,2025-08-12,Closed,Rejected,146,60,12,7,0,,71,Recruiter,Jennifer Park,Medium
+REQ-00034,Software Engineer,Product Development,VP,2025-10-06,Closed,Rejected,61,20,9,5,0,,16,LinkedIn,Nicole Sanders,High
+REQ-00035,Customer Support Specialist,Product Development,VP,2025-08-22,Open,Offer,120,50,16,9,1,,61,LinkedIn,Chris Patel,Low
+REQ-00036,Senior Software Engineer,Legal & Compliance,Manager,2025-07-12,Open,Screening,115,42,14,8,0,,102,Referral,Sophia Nguyen,Low
+REQ-00037,Operations Manager,Executive Leadership,Senior,2025-06-11,Open,Phone Interview,117,62,17,10,0,,133,Company Website,Amanda Foster,Medium
+REQ-00038,Sales Manager,Sales & Marketing,Mid,2025-05-07,Open,Phone Interview,76,25,8,4,0,,168,Career Fair,Chris Patel,Low
+REQ-00039,Software Engineer,IT & Systems,Lead,2025-07-28,Open,Final Interview,41,16,6,3,0,,86,LinkedIn,Nicole Sanders,Low
+REQ-00040,Account Executive,IT & Systems,Executive,2025-07-28,Open,Phone Interview,145,75,30,18,0,,86,Referral,Sophia Nguyen,Low
+REQ-00041,Accountant,Product Development,Executive,2025-04-26,Open,Screening,134,60,21,12,0,,179,Indeed,Amanda Foster,Medium
+REQ-00042,Content Writer,Executive Leadership,VP,2025-06-22,Closed,Accepted,84,45,11,6,1,43,122,LinkedIn,Sophia Nguyen,Medium
+REQ-00043,Marketing Manager,Human Resources,Senior,2025-07-16,Open,Offer,126,41,12,7,1,,98,Career Fair,Jennifer Park,Low
+REQ-00044,Production Supervisor,Human Resources,Mid,2025-05-20,Open,Phone Interview,39,19,7,4,0,,155,LinkedIn,Chris Patel,Low
+REQ-00045,Financial Analyst,Product Development,Mid,2025-05-19,Closed,Withdrawn,43,21,10,6,0,,156,Indeed,Chris Patel,Medium
+REQ-00046,Robotics Engineer,Sales & Marketing,Senior,2025-08-05,Closed,Accepted,68,20,5,3,1,59,78,Indeed,Chris Patel,Low
+REQ-00047,Financial Analyst,Quality Assurance,Mid,2025-07-09,Open,Final Interview,145,63,24,14,0,,105,LinkedIn,Chris Patel,High
+REQ-00048,Robotics Engineer,Executive Leadership,Entry,2025-09-16,Closed,Accepted,74,24,5,3,1,30,36,Indeed,Kevin O'Brien,Medium
+REQ-00049,Robotics Engineer,Legal & Compliance,Senior,2025-05-08,Open,Phone Interview,103,37,8,4,0,,167,Company Website,Amanda Foster,High
+REQ-00050,Software Engineer,Manufacturing,Senior,2025-09-27,Closed,Withdrawn,81,47,21,12,0,,25,Indeed,Amanda Foster,Low
+REQ-00051,Financial Analyst,Product Development,Executive,2025-07-04,Open,Final Interview,84,28,8,4,0,,110,LinkedIn,Chris Patel,High
+REQ-00052,Software Engineer,Finance,Manager,2025-05-07,Open,Offer,88,49,22,13,1,,168,LinkedIn,Chris Patel,Medium
+REQ-00053,Content Writer,Product Development,Manager,2025-09-02,Closed,Rejected,35,17,5,3,0,,50,LinkedIn,Kevin O'Brien,High
+REQ-00054,Content Writer,Sales & Marketing,Entry,2025-05-04,Closed,Accepted,23,7,1,0,1,70,171,Recruiter,Jennifer Park,High
+REQ-00055,Senior Software Engineer,Human Resources,Director,2025-06-09,Open,Sourcing,136,60,17,10,0,,135,Company Website,Chris Patel,High
+REQ-00056,Quality Engineer,Manufacturing,Senior,2025-06-27,Open,Phone Interview,18,6,1,0,0,,117,Indeed,Marcus Johnson,Low
+REQ-00057,Financial Analyst,IT & Systems,Manager,2025-05-29,Closed,Rejected,148,71,15,9,0,,146,Recruiter,Nicole Sanders,Medium
+REQ-00058,Quality Engineer,Quality Assurance,Director,2025-06-22,Open,Sourcing,42,18,8,4,0,,122,LinkedIn,Kevin O'Brien,High
+REQ-00059,Operations Manager,Quality Assurance,Mid,2025-09-22,Closed,Rejected,116,48,23,13,0,,30,Company Website,Marcus Johnson,Medium
+REQ-00060,Technical Support Engineer,Human Resources,Entry,2025-05-18,Open,Phone Interview,50,26,6,3,0,,157,LinkedIn,Jennifer Park,High
+REQ-00061,HR Coordinator,Product Development,VP,2025-06-25,Open,Offer,136,46,12,7,1,,119,Career Fair,Jennifer Park,High
+REQ-00062,Content Writer,Customer Service,Manager,2025-08-10,Open,Phone Interview,20,10,3,1,0,,73,Referral,Jennifer Park,Medium
+REQ-00063,Software Engineer,Executive Leadership,Executive,2025-06-21,Open,Final Interview,48,19,7,4,0,,123,Indeed,Amanda Foster,High
+REQ-00064,Operations Manager,Quality Assurance,Lead,2025-05-03,Open,Sourcing,150,62,25,15,0,,172,Referral,Nicole Sanders,Low
+REQ-00065,Content Writer,Human Resources,Director,2025-09-01,Open,Final Interview,59,29,12,7,0,,51,Referral,Kevin O'Brien,High
+REQ-00066,Robotics Engineer,Human Resources,Executive,2025-05-29,Closed,Accepted,114,54,16,9,1,58,146,Career Fair,Amanda Foster,High
+REQ-00067,Software Engineer,Sales & Marketing,Lead,2025-09-07,Closed,Accepted,80,25,5,3,1,43,45,Recruiter,Kevin O'Brien,Medium
+REQ-00068,Software Engineer,Legal & Compliance,Senior,2025-05-05,Closed,Rejected,42,24,10,6,0,,170,Company Website,Jennifer Park,Low
+REQ-00069,Account Executive,Product Development,Manager,2025-07-05,Open,Technical Interview,57,21,7,4,0,,109,Company Website,Chris Patel,Medium
+REQ-00070,Sales Manager,Executive Leadership,Manager,2025-06-03,Closed,Withdrawn,102,52,19,11,0,,141,LinkedIn,Jennifer Park,Medium
+REQ-00071,Marketing Manager,Product Development,Director,2025-08-05,Closed,Rejected,86,29,5,3,0,,78,Recruiter,Chris Patel,Low
+REQ-00072,Robotics Engineer,IT & Systems,Executive,2025-09-01,Closed,Accepted,15,5,1,0,1,39,51,LinkedIn,Chris Patel,High
+REQ-00073,Senior Software Engineer,IT & Systems,VP,2025-08-11,Open,Technical Interview,133,50,20,12,0,,72,LinkedIn,Jennifer Park,Medium
+REQ-00074,Technical Support Engineer,Legal & Compliance,VP,2025-09-18,Open,Phone Interview,75,36,16,9,0,,34,Recruiter,Sophia Nguyen,Low
+REQ-00075,Accountant,Legal & Compliance,Mid,2025-09-21,Open,Final Interview,90,34,12,7,0,,31,Company Website,Amanda Foster,Low
+REQ-00076,Software Engineer,Product Development,VP,2025-09-22,Closed,Withdrawn,63,25,7,4,0,,30,Company Website,Jennifer Park,Low
+REQ-00077,Technical Support Engineer,Customer Service,Lead,2025-08-31,Open,Final Interview,38,18,7,4,0,,52,Career Fair,Nicole Sanders,Medium
+REQ-00078,Sales Representative,Quality Assurance,Manager,2025-09-10,Closed,Accepted,69,39,13,7,1,48,42,LinkedIn,Chris Patel,Medium
+REQ-00079,Account Executive,Human Resources,Executive,2025-08-28,Open,Sourcing,93,45,18,10,0,,55,Career Fair,Jennifer Park,Low
+REQ-00080,HR Coordinator,IT & Systems,Senior,2025-09-07,Closed,Rejected,45,13,4,2,0,,45,Career Fair,Chris Patel,High
+REQ-00081,Customer Support Specialist,Product Development,Mid,2025-07-18,Open,Offer,145,57,18,10,1,,96,LinkedIn,Chris Patel,High
+REQ-00082,Senior Software Engineer,Customer Service,Entry,2025-07-10,Closed,Accepted,85,44,8,4,1,63,104,Referral,Jennifer Park,Low
+REQ-00083,Content Writer,Product Development,Director,2025-05-23,Open,Technical Interview,81,27,11,6,0,,152,Company Website,Marcus Johnson,Low
+REQ-00084,Operations Manager,Legal & Compliance,Manager,2025-06-24,Open,Offer,72,39,17,10,1,,120,Career Fair,Jennifer Park,Low
+REQ-00085,Sales Representative,Finance,Senior,2025-05-15,Open,Phone Interview,88,46,16,9,0,,160,Career Fair,Chris Patel,Low
+REQ-00086,Software Engineer,Manufacturing,Senior,2025-08-08,Closed,Rejected,66,20,6,3,0,,75,Company Website,Nicole Sanders,High
+REQ-00087,Senior Software Engineer,Finance,Mid,2025-07-05,Closed,Rejected,69,23,11,6,0,,109,Referral,Nicole Sanders,High
+REQ-00088,Customer Support Specialist,Manufacturing,Mid,2025-04-25,Open,Sourcing,86,26,11,6,0,,180,LinkedIn,Chris Patel,Low
+REQ-00089,Software Engineer,Customer Service,Entry,2025-10-19,Open,Offer,109,62,19,11,1,,3,Referral,Chris Patel,High
+REQ-00090,Marketing Specialist,Human Resources,VP,2025-09-06,Open,Final Interview,108,51,21,12,0,,46,Referral,Chris Patel,High
+REQ-00091,Content Writer,Quality Assurance,Executive,2025-08-27,Closed,Accepted,113,65,31,18,1,42,56,Indeed,Kevin O'Brien,Low
+REQ-00092,Account Executive,Product Development,Entry,2025-06-01,Open,Technical Interview,29,14,4,2,0,,143,Company Website,Jennifer Park,Medium
+REQ-00093,Customer Support Specialist,IT & Systems,Entry,2025-04-25,Open,Final Interview,25,10,4,2,0,,180,Referral,Chris Patel,High
+REQ-00094,Content Writer,Customer Service,Executive,2025-10-14,Closed,Withdrawn,46,18,3,1,0,,8,Recruiter,Sophia Nguyen,High
+REQ-00095,Operations Manager,Human Resources,Senior,2025-08-26,Open,Final Interview,79,44,16,9,0,,57,Company Website,Nicole Sanders,Low
+REQ-00096,Account Executive,Human Resources,Executive,2025-06-21,Open,Offer,113,38,10,6,1,,123,Indeed,Marcus Johnson,Low
+REQ-00097,Marketing Specialist,Product Development,VP,2025-08-04,Closed,Accepted,36,19,9,5,1,44,79,Referral,Kevin O'Brien,Low
+REQ-00098,Financial Analyst,Legal & Compliance,Entry,2025-10-03,Closed,Accepted,28,9,3,1,1,78,19,Indeed,Marcus Johnson,Low
+REQ-00099,Account Executive,Manufacturing,VP,2025-07-26,Open,Phone Interview,134,67,31,18,0,,88,Referral,Amanda Foster,Low
+REQ-00100,Marketing Specialist,Product Development,Entry,2025-08-18,Open,Phone Interview,98,47,20,12,0,,65,Career Fair,Kevin O'Brien,Medium
+REQ-00101,Software Engineer,Legal & Compliance,Entry,2025-09-30,Open,Offer,66,28,7,4,1,,22,Referral,Kevin O'Brien,Low
+REQ-00102,HR Coordinator,Customer Service,VP,2025-10-19,Open,Screening,95,30,11,6,0,,3,Recruiter,Sophia Nguyen,Low
+REQ-00103,Marketing Specialist,Sales & Marketing,VP,2025-05-02,Closed,Accepted,42,16,6,3,1,45,173,LinkedIn,Marcus Johnson,Medium
+REQ-00104,HR Coordinator,IT & Systems,Manager,2025-07-25,Open,Offer,100,43,12,7,1,,89,Career Fair,Nicole Sanders,High
+REQ-00105,Software Engineer,Sales & Marketing,Lead,2025-09-07,Closed,Rejected,132,74,25,15,0,,45,Company Website,Kevin O'Brien,High
+REQ-00106,Software Engineer,IT & Systems,Lead,2025-05-05,Open,Offer,23,9,2,1,1,,170,Referral,Sophia Nguyen,Medium
+REQ-00107,Software Engineer,IT & Systems,Director,2025-07-17,Open,Screening,132,76,34,20,0,,97,Referral,Marcus Johnson,Low
+REQ-00108,Marketing Specialist,Manufacturing,Senior,2025-10-09,Open,Technical Interview,124,72,30,18,0,,13,Indeed,Nicole Sanders,Medium
+REQ-00109,Operations Manager,Quality Assurance,Mid,2025-04-26,Open,Technical Interview,120,68,18,10,0,,179,Recruiter,Kevin O'Brien,Medium
+REQ-00110,Content Writer,Manufacturing,Manager,2025-05-07,Open,Sourcing,96,37,17,10,0,,168,Company Website,Amanda Foster,Medium
+REQ-00111,Content Writer,IT & Systems,VP,2025-06-02,Open,Phone Interview,108,62,20,12,0,,142,Recruiter,Chris Patel,Low
+REQ-00112,Accountant,IT & Systems,Senior,2025-07-13,Open,Phone Interview,112,58,14,8,0,,101,LinkedIn,Nicole Sanders,Low
+REQ-00113,HR Coordinator,Product Development,Director,2025-09-26,Closed,Withdrawn,42,14,6,3,0,,26,Referral,Kevin O'Brien,High
+REQ-00114,Content Writer,IT & Systems,Entry,2025-08-31,Closed,Rejected,26,14,3,1,0,,52,Referral,Marcus Johnson,Low
+REQ-00115,Robotics Engineer,Sales & Marketing,Senior,2025-08-24,Open,Sourcing,105,37,7,4,0,,59,Indeed,Sophia Nguyen,High
+REQ-00116,Sales Representative,Manufacturing,Senior,2025-07-10,Open,Technical Interview,49,16,7,4,0,,104,LinkedIn,Jennifer Park,Medium
+REQ-00117,Technical Support Engineer,Human Resources,Mid,2025-10-10,Closed,Accepted,141,72,16,9,1,69,12,Indeed,Sophia Nguyen,High
+REQ-00118,Software Engineer,Product Development,Senior,2025-07-15,Open,Sourcing,118,66,14,8,0,,99,Referral,Jennifer Park,Low
+REQ-00119,Operations Manager,Legal & Compliance,Mid,2025-06-25,Open,Technical Interview,73,36,10,6,0,,119,LinkedIn,Nicole Sanders,High
+REQ-00120,Accountant,IT & Systems,Senior,2025-07-16,Closed,Accepted,48,27,5,3,1,75,98,Company Website,Sophia Nguyen,High

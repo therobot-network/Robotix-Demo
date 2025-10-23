@@ -1,0 +1,77 @@
+[
+  {
+    "vendor_id": "VEN-001",
+    "vendor_name": "Precision Components Inc",
+    "category": "Component Supplier"
+  },
+  {
+    "vendor_id": "VEN-002",
+    "vendor_name": "TechMotion Systems",
+    "category": "Component Supplier"
+  },
+  {
+    "vendor_id": "VEN-003",
+    "vendor_name": "Industrial Sensors Co",
+    "category": "Component Supplier"
+  },
+  {
+    "vendor_id": "VEN-004",
+    "vendor_name": "Atlas Logistics",
+    "category": "Logistics Provider"
+  },
+  {
+    "vendor_id": "VEN-005",
+    "vendor_name": "CloudSoft Solutions",
+    "category": "Software Vendor"
+  },
+  {
+    "vendor_id": "VEN-006",
+    "vendor_name": "Enterprise Systems Inc",
+    "category": "Software Vendor"
+  },
+  {
+    "vendor_id": "VEN-007",
+    "vendor_name": "DataGuard Security",
+    "category": "Software Vendor"
+  },
+  {
+    "vendor_id": "VEN-008",
+    "vendor_name": "BuildRight Construction",
+    "category": "Facility Services"
+  },
+  {
+    "vendor_id": "VEN-009",
+    "vendor_name": "Bright Marketing Group",
+    "category": "Marketing Agency"
+  },
+  {
+    "vendor_id": "VEN-010",
+    "vendor_name": "Strategic Advisors LLC",
+    "category": "Consulting"
+  },
+  {
+    "vendor_id": "VEN-011",
+    "vendor_name": "Premier Insurance Group",
+    "category": "Insurance Provider"
+  },
+  {
+    "vendor_id": "VEN-012",
+    "vendor_name": "Elite Equipment Supply",
+    "category": "Equipment Supplier"
+  },
+  {
+    "vendor_id": "VEN-013",
+    "vendor_name": "Global Freight Services",
+    "category": "Logistics Provider"
+  },
+  {
+    "vendor_id": "VEN-014",
+    "vendor_name": "Innovation Labs",
+    "category": "Professional Services"
+  },
+  {
+    "vendor_id": "VEN-015",
+    "vendor_name": "Metro Facilities Management",
+    "category": "Facility Services"
+  }
+]

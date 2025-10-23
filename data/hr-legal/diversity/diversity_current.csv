@@ -1,0 +1,31 @@
+department,job_level_category,gender,count,percentage
+Executive Leadership,Individual Contributor,Male,33,67.3
+Executive Leadership,Manager,Female,15,30.6
+Executive Leadership,Executive,Non-binary,0,0.0
+Human Resources,Individual Contributor,Male,11,47.8
+Human Resources,Executive,Female,8,34.8
+Human Resources,Individual Contributor,Non-binary,0,0.0
+Sales & Marketing,Individual Contributor,Male,19,67.9
+Sales & Marketing,Executive,Female,10,35.7
+Sales & Marketing,Executive,Non-binary,0,0.0
+Product Development,Individual Contributor,Male,21,56.8
+Product Development,Executive,Female,12,32.4
+Product Development,Individual Contributor,Non-binary,0,0.0
+Manufacturing,Executive,Male,6,60.0
+Manufacturing,Manager,Female,3,30.0
+Manufacturing,Manager,Non-binary,0,0.0
+Quality Assurance,Individual Contributor,Male,10,66.7
+Quality Assurance,Individual Contributor,Female,4,26.7
+Quality Assurance,Manager,Non-binary,0,0.0
+Customer Service,Manager,Male,13,56.5
+Customer Service,Manager,Female,6,26.1
+Customer Service,Executive,Non-binary,0,0.0
+Finance,Individual Contributor,Male,9,47.4
+Finance,Manager,Female,7,36.8
+Finance,Individual Contributor,Non-binary,0,0.0
+IT & Systems,Individual Contributor,Male,19,52.8
+IT & Systems,Executive,Female,12,33.3
+IT & Systems,Manager,Non-binary,0,0.0
+Legal & Compliance,Executive,Male,22,53.7
+Legal & Compliance,Executive,Female,16,39.0
+Legal & Compliance,Individual Contributor,Non-binary,0,0.0

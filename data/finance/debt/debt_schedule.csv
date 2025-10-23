@@ -1,0 +1,5 @@
+loan_id,loan_type,lender,principal_amount,outstanding_balance,interest_rate,monthly_payment,origination_date,maturity_date,payment_frequency,collateral,covenants,status
+LOAN-001,Term Loan,First National Bank,5000000,3200000,5.25,47500,2022-03-15,2027-03-15,Monthly,Equipment and Inventory,Debt Service Coverage Ratio > 1.25x,Active
+LOC-001,Line of Credit,Pacific Business Bank,2000000,800000,6.75,0,2023-01-10,2025-01-10,Interest Only Monthly,Accounts Receivable,Current Ratio > 1.5x,Active
+LOAN-002,Equipment Financing,Industrial Equipment Finance,1200000,650000,4.95,18500,2023-06-01,2028-06-01,Monthly,Manufacturing Equipment,None,Active
+SUMMARY,Total Outstanding,Multiple,8200000,4650000,0,66000,,,,,Debt-to-Equity: 0.39x,Summary

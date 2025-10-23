@@ -1,0 +1,14 @@
+benefit_id,benefit_type,category,eligible_employees,participating_employees,participation_rate,monthly_cost_per_employee,monthly_employer_cost,monthly_employee_contribution,annual_employer_cost,annual_employee_contribution,total_annual_cost,accrued_liability,vendor,payment_frequency,renewal_month,status
+BEN-001,Health Insurance,Medical,275,242,88.0,550,133100,36300,1597200,435600,2032800,246871.64,Premera Blue Cross,Monthly,January,Active
+BEN-002,Dental Insurance,Medical,275,225,82.0,45,10125,3375,121500,40500,162000,10292.78,Delta Dental,Monthly,January,Active
+BEN-003,Vision Insurance,Medical,275,206,75.0,18,3708,1648,44496,19776,64272,4582.39,VSP Vision Care,Monthly,July,Active
+BEN-004,401(k) Employer Match,Retirement,290,226,78.0,350,79100,0,949200,0,949200,130817.45,Fidelity Investments,Monthly,July,Active
+BEN-005,Life Insurance,Insurance,290,290,100.0,35,10150,0,121800,0,121800,13466.56,MetLife,Monthly,January,Active
+BEN-006,Short-Term Disability,Insurance,290,290,100.0,22,6380,0,76560,0,76560,11127.11,MetLife,Monthly,July,Active
+BEN-007,Long-Term Disability,Insurance,290,290,100.0,28,8120,0,97440,0,97440,9477.14,MetLife,Monthly,January,Active
+BEN-008,Flexible Spending Account (FSA),Wellness,275,123,45.0,5,615,0,7380,0,7380,617.53,WageWorks,Monthly,July,Active
+BEN-009,Employee Assistance Program (EAP),Wellness,290,290,100.0,8,2320,0,27840,0,27840,4109.8,ComPsych,Monthly,July,Active
+BEN-010,Tuition Reimbursement,Development,232,27,12.0,85,2295,0,27540,0,27540,3810.4,Internal,Monthly,January,Active
+BEN-011,Commuter Benefits,Wellness,203,71,35.0,75,5325,0,63900,0,63900,5548.93,WageWorks,Monthly,July,Active
+BEN-012,Gym Membership Subsidy,Wellness,290,121,42.0,50,6050,3025,72600,36300,108900,10438.03,Various Providers,Monthly,July,Active
+SUMMARY,Total All Benefits,Summary,290,290,100.0,921.68,267288,0,3207456,0,3207456,451159.76,Multiple,Various,Various,Summary

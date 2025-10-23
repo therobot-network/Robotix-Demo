@@ -1,0 +1,3242 @@
+[
+  {
+    "month": "2022-11",
+    "department": "Executive Leadership",
+    "headcount": 5,
+    "fte": 4.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Human Resources",
+    "headcount": 8,
+    "fte": 7.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Sales & Marketing",
+    "headcount": 35,
+    "fte": 34.82,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Product Development",
+    "headcount": 55,
+    "fte": 53.72,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 43.4,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.88,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 11.11
+  },
+  {
+    "month": "2022-11",
+    "department": "Customer Service",
+    "headcount": 25,
+    "fte": 24.56,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Finance",
+    "headcount": 11,
+    "fte": 10.99,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -8.33
+  },
+  {
+    "month": "2022-11",
+    "department": "IT & Systems",
+    "headcount": 15,
+    "fte": 14.54,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-11",
+    "department": "Legal & Compliance",
+    "headcount": 14,
+    "fte": 13.7,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -6.67
+  },
+  {
+    "month": "2022-12",
+    "department": "Executive Leadership",
+    "headcount": 5,
+    "fte": 4.87,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Human Resources",
+    "headcount": 8,
+    "fte": 7.62,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Sales & Marketing",
+    "headcount": 35,
+    "fte": 33.71,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Product Development",
+    "headcount": 55,
+    "fte": 53.26,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.89,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.22
+  },
+  {
+    "month": "2022-12",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.96,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Customer Service",
+    "headcount": 25,
+    "fte": 23.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Finance",
+    "headcount": 11,
+    "fte": 10.75,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "IT & Systems",
+    "headcount": 15,
+    "fte": 14.29,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2022-12",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.44,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 14.29
+  },
+  {
+    "month": "2023-01",
+    "department": "Executive Leadership",
+    "headcount": 5,
+    "fte": 4.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.89,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -12.5
+  },
+  {
+    "month": "2023-01",
+    "department": "Sales & Marketing",
+    "headcount": 36,
+    "fte": 35.73,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.86
+  },
+  {
+    "month": "2023-01",
+    "department": "Product Development",
+    "headcount": 55,
+    "fte": 53.53,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 44.74,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Quality Assurance",
+    "headcount": 22,
+    "fte": 21.89,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 10.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Customer Service",
+    "headcount": 26,
+    "fte": 25.86,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 4.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Finance",
+    "headcount": 13,
+    "fte": 12.79,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 18.18
+  },
+  {
+    "month": "2023-01",
+    "department": "IT & Systems",
+    "headcount": 15,
+    "fte": 14.73,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-01",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.58,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Executive Leadership",
+    "headcount": 5,
+    "fte": 4.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.77,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Sales & Marketing",
+    "headcount": 36,
+    "fte": 35.61,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Product Development",
+    "headcount": 55,
+    "fte": 53.45,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 44.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Quality Assurance",
+    "headcount": 22,
+    "fte": 21.69,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.62,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 7.69
+  },
+  {
+    "month": "2023-02",
+    "department": "Finance",
+    "headcount": 13,
+    "fte": 12.65,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-02",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.53,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -6.67
+  },
+  {
+    "month": "2023-02",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.52,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.84,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 20.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.8,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Sales & Marketing",
+    "headcount": 37,
+    "fte": 36.91,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.78
+  },
+  {
+    "month": "2023-03",
+    "department": "Product Development",
+    "headcount": 56,
+    "fte": 54.79,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 1.82
+  },
+  {
+    "month": "2023-03",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 42.87,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.17
+  },
+  {
+    "month": "2023-03",
+    "department": "Quality Assurance",
+    "headcount": 22,
+    "fte": 21.57,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.84,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Finance",
+    "headcount": 13,
+    "fte": 12.9,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.61,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-03",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.99,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -6.25
+  },
+  {
+    "month": "2023-04",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.8,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.86,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Sales & Marketing",
+    "headcount": 37,
+    "fte": 35.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Product Development",
+    "headcount": 56,
+    "fte": 54.81,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 43.95,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.22
+  },
+  {
+    "month": "2023-04",
+    "department": "Quality Assurance",
+    "headcount": 22,
+    "fte": 21.47,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.08,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Finance",
+    "headcount": 12,
+    "fte": 11.72,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -7.69
+  },
+  {
+    "month": "2023-04",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-04",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.91,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.71,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.9,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Sales & Marketing",
+    "headcount": 38,
+    "fte": 36.52,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.7
+  },
+  {
+    "month": "2023-05",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 57.79,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 3.57
+  },
+  {
+    "month": "2023-05",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.15,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Quality Assurance",
+    "headcount": 22,
+    "fte": 21.51,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.01,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Finance",
+    "headcount": 12,
+    "fte": 11.93,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.87,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-05",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.42,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.8,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Sales & Marketing",
+    "headcount": 38,
+    "fte": 36.19,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 57.25,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 46.84,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.17
+  },
+  {
+    "month": "2023-06",
+    "department": "Quality Assurance",
+    "headcount": 21,
+    "fte": 20.8,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -4.55
+  },
+  {
+    "month": "2023-06",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.66,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Finance",
+    "headcount": 14,
+    "fte": 13.97,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 16.67
+  },
+  {
+    "month": "2023-06",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.95,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-06",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.29,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Sales & Marketing",
+    "headcount": 38,
+    "fte": 37.69,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 56.7,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.35,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Quality Assurance",
+    "headcount": 21,
+    "fte": 20.39,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 28.82,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 7.14
+  },
+  {
+    "month": "2023-07",
+    "department": "Finance",
+    "headcount": 14,
+    "fte": 13.49,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "IT & Systems",
+    "headcount": 14,
+    "fte": 13.58,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-07",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.39,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.78,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.73,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Sales & Marketing",
+    "headcount": 38,
+    "fte": 37.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 57.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 46.45,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Quality Assurance",
+    "headcount": 21,
+    "fte": 20.12,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 29.5,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "Finance",
+    "headcount": 14,
+    "fte": 13.58,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-08",
+    "department": "IT & Systems",
+    "headcount": 15,
+    "fte": 14.47,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 7.14
+  },
+  {
+    "month": "2023-08",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.86,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.87,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.94,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Sales & Marketing",
+    "headcount": 38,
+    "fte": 36.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 56.4,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.48,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Quality Assurance",
+    "headcount": 21,
+    "fte": 20.22,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 28.95,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-09",
+    "department": "Finance",
+    "headcount": 15,
+    "fte": 14.31,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 7.14
+  },
+  {
+    "month": "2023-09",
+    "department": "IT & Systems",
+    "headcount": 17,
+    "fte": 16.54,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 13.33
+  },
+  {
+    "month": "2023-09",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-10",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.78,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-10",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.88,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -14.29
+  },
+  {
+    "month": "2023-10",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 38.53,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.63
+  },
+  {
+    "month": "2023-10",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 56.23,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-10",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 46.34,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-10",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.04,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -4.76
+  },
+  {
+    "month": "2023-10",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 29.01,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-10",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.55,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 13.33
+  },
+  {
+    "month": "2023-10",
+    "department": "IT & Systems",
+    "headcount": 18,
+    "fte": 17.44,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 5.88
+  },
+  {
+    "month": "2023-10",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.5,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 13.33
+  },
+  {
+    "month": "2023-11",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.82,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.78,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 38.38,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Product Development",
+    "headcount": 58,
+    "fte": 57.81,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.22,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.13
+  },
+  {
+    "month": "2023-11",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.22,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 29.06,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.64,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "IT & Systems",
+    "headcount": 18,
+    "fte": 17.4,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-11",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.95,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.97,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Human Resources",
+    "headcount": 8,
+    "fte": 7.88,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 33.33
+  },
+  {
+    "month": "2023-12",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.09,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Product Development",
+    "headcount": 59,
+    "fte": 58.73,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 1.72
+  },
+  {
+    "month": "2023-12",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.45,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.17
+  },
+  {
+    "month": "2023-12",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.1,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Customer Service",
+    "headcount": 30,
+    "fte": 28.73,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.54,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "IT & Systems",
+    "headcount": 18,
+    "fte": 17.93,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2023-12",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.97,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Human Resources",
+    "headcount": 8,
+    "fte": 7.9,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.41,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Product Development",
+    "headcount": 59,
+    "fte": 57.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.93,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.13
+  },
+  {
+    "month": "2024-01",
+    "department": "Quality Assurance",
+    "headcount": 20,
+    "fte": 19.5,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 27.85,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -3.33
+  },
+  {
+    "month": "2024-01",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "IT & Systems",
+    "headcount": 18,
+    "fte": 17.53,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.57,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Human Resources",
+    "headcount": 8,
+    "fte": 7.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.42,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Product Development",
+    "headcount": 59,
+    "fte": 57.7,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.11,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.17
+  },
+  {
+    "month": "2024-01",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.59,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.32,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.75,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-01",
+    "department": "IT & Systems",
+    "headcount": 19,
+    "fte": 18.56,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 5.56
+  },
+  {
+    "month": "2024-01",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.28,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.88
+  },
+  {
+    "month": "2024-03",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.93,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.97,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -12.5
+  },
+  {
+    "month": "2024-03",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 38.96,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Product Development",
+    "headcount": 60,
+    "fte": 59.4,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 1.69
+  },
+  {
+    "month": "2024-03",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 44.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.2,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 27.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.61,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "IT & Systems",
+    "headcount": 21,
+    "fte": 20.25,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 10.53
+  },
+  {
+    "month": "2024-03",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.36,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.67,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.26,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Product Development",
+    "headcount": 62,
+    "fte": 60.35,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 3.33
+  },
+  {
+    "month": "2024-03",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 46.99,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.64,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Finance",
+    "headcount": 17,
+    "fte": 16.38,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "IT & Systems",
+    "headcount": 21,
+    "fte": 20.54,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-03",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.32,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Executive Leadership",
+    "headcount": 6,
+    "fte": 5.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 7.0,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.18,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Product Development",
+    "headcount": 62,
+    "fte": 59.25,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 46.32,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.51,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.36,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-04",
+    "department": "Finance",
+    "headcount": 19,
+    "fte": 18.55,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 11.76
+  },
+  {
+    "month": "2024-04",
+    "department": "IT & Systems",
+    "headcount": 22,
+    "fte": 21.87,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 4.76
+  },
+  {
+    "month": "2024-04",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.25,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.74,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 33.33
+  },
+  {
+    "month": "2024-05",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.78,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.97,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "Product Development",
+    "headcount": 63,
+    "fte": 61.35,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 1.61
+  },
+  {
+    "month": "2024-05",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.4,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.67,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.72,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -3.45
+  },
+  {
+    "month": "2024-05",
+    "department": "Finance",
+    "headcount": 19,
+    "fte": 18.6,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-05",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 22.98,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 9.09
+  },
+  {
+    "month": "2024-05",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.16,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 6.25
+  },
+  {
+    "month": "2024-06",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.74,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -14.29
+  },
+  {
+    "month": "2024-06",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 38.39,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Product Development",
+    "headcount": 63,
+    "fte": 61.96,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 45.58,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.5,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.26
+  },
+  {
+    "month": "2024-06",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.12,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Finance",
+    "headcount": 19,
+    "fte": 18.29,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 23.27,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-06",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.62,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.88
+  },
+  {
+    "month": "2024-07",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.75,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.78,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.53,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.56
+  },
+  {
+    "month": "2024-07",
+    "department": "Product Development",
+    "headcount": 64,
+    "fte": 61.87,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 1.59
+  },
+  {
+    "month": "2024-07",
+    "department": "Manufacturing",
+    "headcount": 47,
+    "fte": 44.79,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.21,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.08,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.76,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 5.26
+  },
+  {
+    "month": "2024-07",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 23.65,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-07",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.54,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -6.25
+  },
+  {
+    "month": "2024-08",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.97,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 38.74,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "Product Development",
+    "headcount": 64,
+    "fte": 62.72,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.92,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.13
+  },
+  {
+    "month": "2024-08",
+    "department": "Quality Assurance",
+    "headcount": 17,
+    "fte": 16.41,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.56
+  },
+  {
+    "month": "2024-08",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.19,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-08",
+    "department": "IT & Systems",
+    "headcount": 25,
+    "fte": 24.51,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 4.17
+  },
+  {
+    "month": "2024-08",
+    "department": "Legal & Compliance",
+    "headcount": 15,
+    "fte": 14.69,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-09",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.9,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-09",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-09",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.58,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.5
+  },
+  {
+    "month": "2024-09",
+    "department": "Product Development",
+    "headcount": 64,
+    "fte": 63.51,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-09",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 43.7,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -2.17
+  },
+  {
+    "month": "2024-09",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.2,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 11.76
+  },
+  {
+    "month": "2024-09",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.12,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 3.57
+  },
+  {
+    "month": "2024-09",
+    "department": "Finance",
+    "headcount": 21,
+    "fte": 20.84,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 5.0
+  },
+  {
+    "month": "2024-09",
+    "department": "IT & Systems",
+    "headcount": 25,
+    "fte": 24.79,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-09",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.83,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 6.67
+  },
+  {
+    "month": "2024-10",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.73,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.1,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Product Development",
+    "headcount": 64,
+    "fte": 62.0,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 44.53,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.21,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.82,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.54,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -4.76
+  },
+  {
+    "month": "2024-10",
+    "department": "IT & Systems",
+    "headcount": 25,
+    "fte": 23.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-10",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.63,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.77,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 38.92,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Product Development",
+    "headcount": 66,
+    "fte": 65.74,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 3.12
+  },
+  {
+    "month": "2024-11",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 44.22,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.13,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.07,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.51,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-11",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 23.17,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -4.0
+  },
+  {
+    "month": "2024-11",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.96,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.75,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.48,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Product Development",
+    "headcount": 66,
+    "fte": 65.93,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 43.3,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.42,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.26
+  },
+  {
+    "month": "2024-12",
+    "department": "Customer Service",
+    "headcount": 29,
+    "fte": 28.47,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.56,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 23.26,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2024-12",
+    "department": "Legal & Compliance",
+    "headcount": 16,
+    "fte": 15.21,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.84,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Sales & Marketing",
+    "headcount": 39,
+    "fte": 37.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Product Development",
+    "headcount": 66,
+    "fte": 64.42,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 43.38,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.1,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.99,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -3.45
+  },
+  {
+    "month": "2025-01",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.28,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "IT & Systems",
+    "headcount": 24,
+    "fte": 23.75,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-01",
+    "department": "Legal & Compliance",
+    "headcount": 18,
+    "fte": 17.57,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 12.5
+  },
+  {
+    "month": "2025-02",
+    "department": "Executive Leadership",
+    "headcount": 8,
+    "fte": 7.99,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.88,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.56
+  },
+  {
+    "month": "2025-02",
+    "department": "Product Development",
+    "headcount": 66,
+    "fte": 63.51,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Manufacturing",
+    "headcount": 45,
+    "fte": 43.88,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.85,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.72,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-02",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.27,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 8.33
+  },
+  {
+    "month": "2025-02",
+    "department": "Legal & Compliance",
+    "headcount": 18,
+    "fte": 17.25,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Executive Leadership",
+    "headcount": 9,
+    "fte": 8.91,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 12.5
+  },
+  {
+    "month": "2025-03",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.97,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 38.89,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Product Development",
+    "headcount": 66,
+    "fte": 62.79,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.8,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 2.22
+  },
+  {
+    "month": "2025-03",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.62,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 5.56
+  },
+  {
+    "month": "2025-03",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.7,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.5,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.49,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-03",
+    "department": "Legal & Compliance",
+    "headcount": 18,
+    "fte": 17.55,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Executive Leadership",
+    "headcount": 10,
+    "fte": 9.65,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 11.11
+  },
+  {
+    "month": "2025-04",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.91,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.11,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Product Development",
+    "headcount": 65,
+    "fte": 64.66,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -1.52
+  },
+  {
+    "month": "2025-04",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 43.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Quality Assurance",
+    "headcount": 19,
+    "fte": 18.58,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.47,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.8,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.41,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-04",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.29,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.56
+  },
+  {
+    "month": "2025-05",
+    "department": "Executive Leadership",
+    "headcount": 10,
+    "fte": 9.69,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.9,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.98,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Product Development",
+    "headcount": 65,
+    "fte": 61.81,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 44.09,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.7,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -5.26
+  },
+  {
+    "month": "2025-05",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.45,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.71,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.52,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-05",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Executive Leadership",
+    "headcount": 10,
+    "fte": 9.72,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.63,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Product Development",
+    "headcount": 65,
+    "fte": 61.77,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 43.95,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.49,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.29,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.3,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.57,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-06",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.72,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Executive Leadership",
+    "headcount": 10,
+    "fte": 9.95,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Human Resources",
+    "headcount": 5,
+    "fte": 4.81,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -16.67
+  },
+  {
+    "month": "2025-07",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 38.62,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Product Development",
+    "headcount": 67,
+    "fte": 65.73,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 3.08
+  },
+  {
+    "month": "2025-07",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.53,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 26.84,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.43,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.24,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-07",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.55,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Executive Leadership",
+    "headcount": 10,
+    "fte": 9.84,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Human Resources",
+    "headcount": 7,
+    "fte": 6.97,
+    "contractors": 0,
+    "month_change": 2,
+    "month_change_pct": 40.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.13,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Product Development",
+    "headcount": 67,
+    "fte": 66.83,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 43.93,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.55,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.96,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.24,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.41,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-08",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.64,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Executive Leadership",
+    "headcount": 11,
+    "fte": 10.56,
+    "contractors": 0,
+    "month_change": 1,
+    "month_change_pct": 10.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Human Resources",
+    "headcount": 6,
+    "fte": 5.81,
+    "contractors": 0,
+    "month_change": -1,
+    "month_change_pct": -14.29
+  },
+  {
+    "month": "2025-09",
+    "department": "Sales & Marketing",
+    "headcount": 40,
+    "fte": 39.28,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Product Development",
+    "headcount": 67,
+    "fte": 65.81,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Manufacturing",
+    "headcount": 46,
+    "fte": 45.63,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Quality Assurance",
+    "headcount": 18,
+    "fte": 17.91,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Customer Service",
+    "headcount": 28,
+    "fte": 27.65,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Finance",
+    "headcount": 20,
+    "fte": 19.36,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "IT & Systems",
+    "headcount": 26,
+    "fte": 25.76,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  },
+  {
+    "month": "2025-09",
+    "department": "Legal & Compliance",
+    "headcount": 17,
+    "fte": 16.16,
+    "contractors": 0,
+    "month_change": 0,
+    "month_change_pct": 0.0
+  }
+]

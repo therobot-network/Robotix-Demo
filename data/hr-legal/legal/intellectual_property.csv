@@ -1,0 +1,20 @@
+ip_id,ip_type,title,filing_date,grant_date,expiration_date,status,jurisdiction,inventors,maintenance_cost_annual,value_estimate
+PAT-001,Patent,Robotic System Innovation 1,2021-08-24,2023-12-13,2041-08-19,Granted,International (PCT),"Nicole Sanders, Rachel Green",8662.91,482353.1
+PAT-002,Patent,Robotic System Innovation 2,2021-09-25,2024-01-14,2041-09-20,Abandoned,International (PCT),"Marcus Johnson, Nicole Sanders",8996.98,167803.13
+PAT-003,Patent,Robotic System Innovation 3,2021-07-22,2023-09-12,2041-07-17,Abandoned,CN,"Emily Thompson, Rachel Green",9404.12,467713.27
+PAT-004,Patent,Robotic System Innovation 4,2023-12-13,2026-09-06,2043-12-08,Pending,JP,"Rachel Green, Nicole Sanders",2150.98,485743.91
+PAT-005,Patent,Robotic System Innovation 5,2023-12-28,2026-11-17,2043-12-23,Abandoned,JP,"Nicole Sanders, Marcus Johnson",2065.18,250243.72
+PAT-006,Patent,Robotic System Innovation 6,2024-02-22,2026-05-25,2044-02-17,Granted,EU,Marcus Johnson,8087.3,182159.18
+PAT-007,Patent,Robotic System Innovation 7,2022-09-05,2024-11-28,2042-08-31,Abandoned,JP,"Emily Thompson, Nicole Sanders, Rachel Green",4518.31,461652.65
+PAT-008,Patent,Robotic System Innovation 8,2020-07-17,2022-12-10,2040-07-12,Granted,CN,"Nicole Sanders, Marcus Johnson",8616.31,210291.03
+PAT-009,Patent,Robotic System Innovation 9,2023-03-31,2025-11-14,2043-03-26,Pending,US,"Emily Thompson, Marcus Johnson",1608.92,481059.73
+PAT-010,Patent,Robotic System Innovation 10,2020-02-16,2022-11-15,2040-02-11,Pending,CN,"Emily Thompson, Marcus Johnson",9937.52,126011.01
+PAT-011,Patent,Robotic System Innovation 11,2024-01-21,2026-04-07,2044-01-16,Pending,US,Nicole Sanders,2960.48,282626.06
+PAT-012,Patent,Robotic System Innovation 12,2024-07-27,2027-05-21,2044-07-22,Granted,JP,"Emily Thompson, Nicole Sanders",5070.71,335126.11
+PAT-013,Patent,Robotic System Innovation 13,2022-06-17,2024-08-16,2042-06-12,Granted,International (PCT),"Marcus Johnson, Rachel Green, Nicole Sanders",7363.88,104510.01
+PAT-014,Patent,Robotic System Innovation 14,2021-10-13,2024-04-16,2041-10-08,Granted,JP,"Marcus Johnson, Rachel Green, Nicole Sanders",8013.06,74515.77
+PAT-015,Patent,Robotic System Innovation 15,2023-04-23,2026-01-08,2043-04-18,Pending,EU,Marcus Johnson,5560.31,424377.75
+TM-001,Trademark,Robotix,2022-07-02,2018-05-17,2031-06-14,Registered,US,Robotix Legal Team,631.81,377472.85
+TM-002,Trademark,RoboTech Solutions,2020-01-16,2019-10-30,2032-09-01,Registered,US,Robotix Legal Team,681.38,721650.43
+TM-003,Trademark,AutoMate Pro,2018-08-29,2018-07-28,2032-09-08,Registered,US,Robotix Legal Team,644.1,747678.88
+TM-004,Trademark,SmartBot Series,2022-01-22,2021-06-29,2032-10-07,Registered,US,Robotix Legal Team,1061.9,758975.79

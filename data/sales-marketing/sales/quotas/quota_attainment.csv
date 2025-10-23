@@ -1,0 +1,19 @@
+quarter,sales_rep,team,quota,actual_revenue,attainment_pct,deals_closed,avg_deal_size,commission_earned,rank,performance_rating
+Q2 2024,David Martinez,Channel,480764.31,468776.18,97.5,32,23438.81,36016.8,3,Meets
+Q2 2024,Chris Patel,Enterprise,874906.56,1078411.35,123.3,13,56758.49,42770.3,2,Exceeds
+Q2 2024,Jessica Martinez,Enterprise,953263.94,1017703.07,106.8,20,56539.06,58837.4,1,Meets
+Q3 2024,David Martinez,SMB,942808.02,1048500.44,111.2,35,52425.02,61336.63,1,Exceeds
+Q3 2024,Chris Patel,Channel,687770.74,618947.98,90.0,20,28134.0,40893.18,3,Below
+Q3 2024,Jessica Martinez,Channel,832448.68,500619.38,60.1,9,21766.06,37258.09,1,Below
+Q4 2024,David Martinez,Channel,410566.38,417328.72,101.6,18,20866.44,24404.39,1,Meets
+Q4 2024,Chris Patel,Channel,778426.1,1028911.17,132.2,23,57161.73,80440.43,2,Exceeds
+Q4 2024,Jessica Martinez,Enterprise,527298.26,555790.76,105.4,33,23157.95,35848.23,2,Meets
+Q1 2025,David Martinez,SMB,925031.29,1228516.63,132.8,23,153564.58,81104.37,1,Exceeds
+Q1 2025,Chris Patel,Channel,768343.75,930730.02,121.1,17,93073.0,35547.06,2,Exceeds
+Q1 2025,Jessica Martinez,SMB,961177.59,1050831.43,109.3,21,61813.61,78604.45,1,Meets
+Q2 2025,David Martinez,SMB,719044.47,650384.5,90.5,14,34230.76,44814.8,1,Meets
+Q2 2025,Chris Patel,Enterprise,840643.42,577981.85,68.8,31,52543.8,43212.27,3,Below
+Q2 2025,Jessica Martinez,Enterprise,645815.83,843056.09,130.5,20,33722.24,52504.3,1,Exceeds
+Q3 2025,David Martinez,SMB,951332.16,698956.63,73.5,20,53765.89,48553.51,1,Below
+Q3 2025,Chris Patel,SMB,676370.11,533758.61,78.9,25,38125.62,28616.91,2,Below
+Q3 2025,Jessica Martinez,Enterprise,581569.45,803432.67,138.1,34,33476.36,25311.4,2,Exceeds

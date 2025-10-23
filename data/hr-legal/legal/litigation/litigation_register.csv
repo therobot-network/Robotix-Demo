@@ -1,0 +1,43 @@
+case_id,case_type,filed_date,closed_date,status,plaintiff,description,external_counsel,legal_costs_to_date,settlement_amount,potential_exposure,insurance_coverage,priority,internal_contact
+LIT-0001,Patent Infringement,2023-07-26,2023-10-16,Settled,Robotix,Patent Infringement matter filed on 2023-07-26,Davis Wright Tremaine,57209.45,199888.74,,Yes,High,Sarah Chen
+LIT-0002,Patent Infringement,2023-12-06,2024-08-09,Settled,Third Party,Patent Infringement matter filed on 2023-12-06,K&L Gates,41790.86,67984.09,,Yes,Medium,Amanda Foster
+LIT-0003,Regulatory Compliance,2024-12-27,2025-05-10,Closed,Third Party,Regulatory Compliance matter filed on 2024-12-27,Perkins Coie,186608.95,,,No,High,Sarah Chen
+LIT-0004,Customer Complaint,2024-07-07,,Active,Third Party,Customer Complaint matter filed on 2024-07-07,Perkins Coie,184649.27,,50617.18,Partial,High,Michael Rodriguez
+LIT-0005,Customer Complaint,2023-10-28,,Active,Third Party,Customer Complaint matter filed on 2023-10-28,Morrison & Foerster LLP,905234.08,,1623224.56,No,Medium,Jennifer Park
+LIT-0006,Patent Infringement,2024-10-19,,Active,Robotix,Patent Infringement matter filed on 2024-10-19,Perkins Coie,287523.79,,1110937.7,Yes,Medium,Amanda Foster
+LIT-0007,Product Liability,2025-07-13,2025-12-24,Closed,Robotix,"Johnson v. Robotix Industries, Inc.
+Case No. 25-CV-4872
+
+Plaintiff Sarah Johnson filed suit against Robotix Industries after sustaining severe injuries when a Robotix SR-200 industrial robotic arm malfunctioned at Maxwell Manufacturing facility. The ",Wilson Sonsini,145103.21,,,Yes,Medium,Michael Rodriguez
+LIT-0008,Employment Dispute,2025-04-17,2026-02-20,Settled,Third Party,Employment Dispute matter filed on 2025-04-17,Wilson Sonsini,191153.35,361054.92,,No,Medium,Jennifer Park
+LIT-0009,Customer Complaint,2024-08-08,,Active,Robotix,Customer Complaint matter filed on 2024-08-08,Wilson Sonsini,468025.84,,1052343.08,Yes,Low,Jennifer Park
+LIT-0010,Employment Dispute,2024-03-29,2024-09-01,Settled,Third Party,Employment Dispute matter filed on 2024-03-29,Wilson Sonsini,107851.93,449681.19,,Partial,High,Sarah Chen
+LIT-0011,Customer Complaint,2024-08-04,2024-11-13,Dismissed,Third Party,Customer Complaint matter filed on 2024-08-04,Morrison & Foerster LLP,45946.41,,,Yes,Low,Jennifer Park
+LIT-0012,Vendor Dispute,2023-05-17,2023-09-22,Settled,Robotix,Vendor Dispute matter filed on 2023-05-17,Wilson Sonsini,87267.95,106676.74,,Yes,Medium,Amanda Foster
+LIT-0013,Product Liability,2025-01-05,,Active,Robotix,Robotix Inc. faces a class action lawsuit following multiple incidents involving their RX-3000 industrial robotic arms malfunctioning at manufacturing facilities across North America. Plaintiffs allege that a software defect in the robot's collision ,Perkins Coie,257612.68,,497944.95,Partial,Low,Jennifer Park
+LIT-0014,Vendor Dispute,2024-06-25,,Active,Robotix,Vendor Dispute matter filed on 2024-06-25,K&L Gates,761200.68,,813017.95,Partial,High,Jennifer Park
+LIT-0015,Patent Infringement,2023-11-14,,Active,Third Party,"Robotix Inc. v. Advanced Automation Systems LLC
+Case No. 2:23-cv-89741
+
+Robotix alleges that Advanced Automation Systems (AAS) infringed on its U.S. Patent No. 9,847,256 covering proprietary robotic arm joint technology used in medical surgery assist",Morrison & Foerster LLP,527994.75,,1680721.79,Yes,High,Michael Rodriguez
+LIT-0016,Intellectual Property,2023-12-15,,Active,Third Party,Intellectual Property matter filed on 2023-12-15,Davis Wright Tremaine,375392.94,,1785270.34,Partial,High,Sarah Chen
+LIT-0017,Contract Dispute,2025-06-21,,Active,Third Party,"Robotix Inc. v. MediCare Solutions LLC
+Case No. 2025-CV-4872
+
+MediCare Solutions contracted Robotix to develop and deliver 50 surgical assistance robots for their hospital network by March 2025. After delivering 30 units, Robotix encountered critical",Davis Wright Tremaine,112381.04,,1644742.13,Partial,High,Sarah Chen
+LIT-0018,Product Liability,2025-05-26,,Active,Robotix,Product Liability matter filed on 2025-05-26,Morrison & Foerster LLP,83199.25,,1604872.27,Yes,High,Sarah Chen
+LIT-0019,Customer Complaint,2023-12-20,2024-08-08,Settled,Third Party,"Johnson Manufacturing v. Robotix Technologies, Inc.
+Filed December 20, 2023
+
+Case Description:
+Plaintiff Johnson Manufacturing filed suit against Robotix Technologies regarding the failure of three AR-750 robotic assembly units purchased for $2.1M. T",Perkins Coie,380810.63,158812.34,,Partial,High,Michael Rodriguez
+LIT-0020,Intellectual Property,2024-10-26,2025-03-27,Dismissed,Robotix,Intellectual Property matter filed on 2024-10-26,Wilson Sonsini,191050.85,,,Yes,High,Amanda Foster
+LIT-0021,Regulatory Compliance,2024-03-12,,Active,Robotix,Regulatory Compliance matter filed on 2024-03-12,Davis Wright Tremaine,326003.14,,211231.11,Yes,Low,Sarah Chen
+LIT-0022,Vendor Dispute,2025-02-23,2025-05-26,Closed,Robotix,Vendor Dispute matter filed on 2025-02-23,K&L Gates,91900.47,,,Yes,High,Amanda Foster
+LIT-0023,Customer Complaint,2023-09-07,,Active,Third Party,"CASE DESCRIPTION:
+Customer Meridian Healthcare filed a complaint against Robotix regarding alleged malfunctions of three SR-750 surgical assistance robots purchased in March 2023 for $2.1M. During two separate procedures in August 2023, the robots re",Wilson Sonsini,275653.15,,1454448.32,Yes,High,Jennifer Park
+LIT-0024,Contract Dispute,2025-08-14,2026-08-15,Closed,Robotix,Contract Dispute matter filed on 2025-08-14,Morrison & Foerster LLP,439908.44,,,No,Low,Sarah Chen
+LIT-0025,Product Liability,2024-09-10,2024-12-21,Settled,Robotix,"Thompson v. Robotix Technologies, Inc.
+Case No. 24-CV-7391
+
+Plaintiff Sarah Thompson filed suit against Robotix Technologies following injuries sustained when a Robotix SR-200 industrial robotic arm malfunctioned at ABC Manufacturing's facility in De",Morrison & Foerster LLP,131386.17,386914.06,,Partial,Medium,Sarah Chen

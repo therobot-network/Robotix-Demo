@@ -1,0 +1,501 @@
+lead_id,company_name,created_date,lead_source,email_engagement_score,website_score,content_score,demo_score,demographic_score,total_score,grade,status,last_activity_date,assigned_to,lifecycle_stage
+LEAD-000001,Company 2075,2025-06-11,Referral,8,20,16,0,30,74,B,New,2025-09-30,David Martinez,Opportunity
+LEAD-000002,Company 2366,2025-06-01,Content Download,22,10,20,25,30,107,A,New,2025-09-29,David Martinez,MQL
+LEAD-000003,Company 8732,2025-07-02,Website,22,0,11,25,30,88,A,Converted,2025-09-29,Chris Patel,SQL
+LEAD-000004,Company 6423,2025-08-19,Cold Call,30,25,17,25,50,147,A,New,2025-10-04,Chris Patel,Lead
+LEAD-000005,Company 9098,2025-05-28,Trade Show,17,4,19,0,40,80,A,Working,2025-10-13,David Martinez,MQL
+LEAD-000006,Company 5924,2025-08-17,Website,7,18,12,25,25,87,A,New,2025-10-03,Jessica Martinez,Subscriber
+LEAD-000007,Company 2128,2025-10-05,Content Download,21,24,19,25,25,114,A,New,2025-10-18,Chris Patel,SQL
+LEAD-000008,Company 6199,2025-08-04,Cold Call,5,15,18,0,30,68,B,New,2025-09-24,David Martinez,Subscriber
+LEAD-000009,Company 4490,2025-10-08,Content Download,18,25,18,0,45,106,A,New,2025-10-07,Chris Patel,MQL
+LEAD-000010,Company 5068,2025-08-13,Content Download,26,17,8,0,45,96,A,Converted,2025-09-26,Jessica Martinez,SQL
+LEAD-000011,Company 5441,2025-08-08,Referral,29,17,6,0,30,82,A,Working,2025-10-18,Jessica Martinez,Lead
+LEAD-000012,Company 2983,2025-08-26,Content Download,13,8,6,0,20,47,C,Qualified,2025-10-20,Chris Patel,Subscriber
+LEAD-000013,Company 3673,2025-07-14,Trade Show,12,3,7,25,15,62,B,Converted,2025-10-18,Jessica Martinez,Opportunity
+LEAD-000014,Company 2982,2025-09-01,Referral,24,25,2,0,25,76,B,Converted,2025-10-06,David Martinez,Opportunity
+LEAD-000015,Company 9770,2025-06-17,Referral,10,21,7,0,55,93,A,Unqualified,2025-10-21,David Martinez,Lead
+LEAD-000016,Company 3871,2025-08-20,Cold Call,26,7,2,25,45,105,A,New,2025-10-01,Chris Patel,Opportunity
+LEAD-000017,Company 2695,2025-07-03,Cold Call,17,9,18,25,30,99,A,New,2025-10-11,Jessica Martinez,Lead
+LEAD-000018,Company 5533,2025-07-04,Content Download,30,6,14,0,40,90,A,Unqualified,2025-10-06,David Martinez,Lead
+LEAD-000019,Company 1294,2025-09-06,Cold Call,10,6,17,25,55,113,A,Working,2025-09-23,David Martinez,SQL
+LEAD-000020,Company 5710,2025-08-01,Cold Call,9,25,14,25,35,108,A,New,2025-10-22,Chris Patel,Subscriber
+LEAD-000021,Company 2494,2025-10-07,Cold Call,19,12,2,0,25,58,C,Converted,2025-10-14,Jessica Martinez,Subscriber
+LEAD-000022,Company 1248,2025-10-19,Content Download,8,11,15,0,35,69,B,New,2025-10-03,Chris Patel,Subscriber
+LEAD-000023,Company 5803,2025-09-13,Trade Show,1,7,20,25,45,98,A,Unqualified,2025-09-29,David Martinez,Opportunity
+LEAD-000024,Company 6017,2025-07-30,Referral,23,15,17,0,15,70,B,Unqualified,2025-10-20,Chris Patel,Lead
+LEAD-000025,Company 8745,2025-10-09,Trade Show,6,18,1,25,25,75,B,Converted,2025-10-15,David Martinez,Lead
+LEAD-000026,Company 3381,2025-07-19,Website,21,24,9,25,30,109,A,Working,2025-10-20,Jessica Martinez,Lead
+LEAD-000027,Company 8842,2025-08-08,Cold Call,12,19,8,0,35,74,B,Qualified,2025-09-23,Jessica Martinez,MQL
+LEAD-000028,Company 1679,2025-04-28,Content Download,20,16,12,25,25,98,A,Unqualified,2025-10-06,David Martinez,Opportunity
+LEAD-000029,Company 9262,2025-10-15,Website,19,6,10,25,45,105,A,Unqualified,2025-10-10,Jessica Martinez,Subscriber
+LEAD-000030,Company 9553,2025-04-26,Referral,3,9,6,0,25,43,C,New,2025-10-21,Jessica Martinez,MQL
+LEAD-000031,Company 1383,2025-05-06,Referral,19,22,12,0,30,83,A,New,2025-09-27,David Martinez,MQL
+LEAD-000032,Company 2263,2025-07-19,Website,25,8,7,0,40,80,A,Qualified,2025-10-14,Chris Patel,Subscriber
+LEAD-000033,Company 4446,2025-09-09,Website,23,17,13,25,50,128,A,Qualified,2025-09-28,Chris Patel,Lead
+LEAD-000034,Company 8056,2025-05-06,Cold Call,28,10,13,0,10,61,B,Converted,2025-10-07,David Martinez,Lead
+LEAD-000035,Company 3534,2025-09-05,Referral,25,24,10,0,45,104,A,Working,2025-09-22,David Martinez,Opportunity
+LEAD-000036,Company 7323,2025-06-28,Content Download,27,15,5,25,25,97,A,Unqualified,2025-10-09,David Martinez,Subscriber
+LEAD-000037,Company 6582,2025-05-15,Website,28,5,7,25,45,110,A,Converted,2025-10-06,Chris Patel,Lead
+LEAD-000038,Company 9769,2025-08-23,Cold Call,30,23,4,0,20,77,B,Working,2025-10-07,Jessica Martinez,Subscriber
+LEAD-000039,Company 5290,2025-08-11,Content Download,28,12,4,0,45,89,A,Working,2025-10-17,Chris Patel,Lead
+LEAD-000040,Company 3164,2025-05-19,Website,25,11,1,25,40,102,A,Qualified,2025-10-07,Chris Patel,Opportunity
+LEAD-000041,Company 1727,2025-08-26,Referral,8,9,12,25,40,94,A,Qualified,2025-10-07,Chris Patel,Subscriber
+LEAD-000042,Company 2623,2025-08-07,Referral,30,11,8,25,20,94,A,New,2025-09-30,Jessica Martinez,Subscriber
+LEAD-000043,Company 7904,2025-09-11,Cold Call,20,11,1,25,40,97,A,Working,2025-10-08,Chris Patel,MQL
+LEAD-000044,Company 1884,2025-08-16,Website,24,14,4,0,40,82,A,Working,2025-10-13,David Martinez,Opportunity
+LEAD-000045,Company 8800,2025-07-09,Content Download,28,15,4,0,20,67,B,Working,2025-10-08,Chris Patel,Subscriber
+LEAD-000046,Company 7116,2025-05-06,Website,13,0,20,0,25,58,C,Converted,2025-09-23,Chris Patel,MQL
+LEAD-000047,Company 4964,2025-08-13,Referral,4,10,1,0,50,65,B,Working,2025-10-17,David Martinez,MQL
+LEAD-000048,Company 2095,2025-08-13,Content Download,4,14,20,25,25,88,A,Converted,2025-10-12,David Martinez,Subscriber
+LEAD-000049,Company 6669,2025-05-19,Content Download,30,8,4,25,20,87,A,Working,2025-10-12,David Martinez,Lead
+LEAD-000050,Company 7179,2025-07-08,Referral,17,0,4,25,40,86,A,New,2025-10-15,Jessica Martinez,MQL
+LEAD-000051,Company 3739,2025-08-05,Referral,25,14,4,0,30,73,B,New,2025-10-10,Chris Patel,Lead
+LEAD-000052,Company 8935,2025-07-10,Content Download,30,15,10,25,15,95,A,Qualified,2025-10-04,Jessica Martinez,SQL
+LEAD-000053,Company 3771,2025-04-30,Referral,4,17,19,25,45,110,A,Qualified,2025-09-25,David Martinez,MQL
+LEAD-000054,Company 8352,2025-05-12,Content Download,24,16,11,25,35,111,A,New,2025-09-23,David Martinez,SQL
+LEAD-000055,Company 8513,2025-08-20,Cold Call,0,9,9,25,40,83,A,Converted,2025-09-30,David Martinez,MQL
+LEAD-000056,Company 4398,2025-08-04,Content Download,0,14,4,25,55,98,A,New,2025-10-09,David Martinez,MQL
+LEAD-000057,Company 3906,2025-05-20,Content Download,27,23,9,25,45,129,A,Qualified,2025-10-10,David Martinez,Subscriber
+LEAD-000058,Company 7209,2025-10-21,Website,9,15,6,25,30,85,A,New,2025-10-01,David Martinez,MQL
+LEAD-000059,Company 9766,2025-04-27,Website,16,5,2,25,25,73,B,Unqualified,2025-10-17,David Martinez,MQL
+LEAD-000060,Company 9096,2025-10-18,Cold Call,15,23,10,25,40,113,A,Converted,2025-10-17,Jessica Martinez,Lead
+LEAD-000061,Company 1239,2025-05-15,Cold Call,19,21,18,0,40,98,A,Converted,2025-10-13,Jessica Martinez,MQL
+LEAD-000062,Company 2601,2025-09-01,Referral,29,13,9,25,30,106,A,Qualified,2025-09-26,Chris Patel,Lead
+LEAD-000063,Company 7513,2025-08-22,Cold Call,18,9,14,25,20,86,A,Converted,2025-10-15,Jessica Martinez,SQL
+LEAD-000064,Company 3947,2025-07-04,Referral,18,18,19,25,10,90,A,Converted,2025-10-06,Jessica Martinez,SQL
+LEAD-000065,Company 6774,2025-09-08,Content Download,0,0,15,25,25,65,B,Converted,2025-10-11,Chris Patel,Lead
+LEAD-000066,Company 8421,2025-06-10,Content Download,22,10,10,0,30,72,B,Qualified,2025-10-16,Jessica Martinez,Subscriber
+LEAD-000067,Company 8543,2025-05-31,Referral,8,25,19,25,50,127,A,Unqualified,2025-09-29,David Martinez,SQL
+LEAD-000068,Company 5534,2025-05-31,Content Download,28,17,15,0,25,85,A,Converted,2025-09-24,Chris Patel,Lead
+LEAD-000069,Company 9210,2025-08-08,Trade Show,19,9,16,0,40,84,A,Qualified,2025-10-05,David Martinez,Subscriber
+LEAD-000070,Company 7311,2025-07-24,Website,29,6,12,0,30,77,B,Converted,2025-10-03,Chris Patel,SQL
+LEAD-000071,Company 6624,2025-08-02,Trade Show,1,0,20,25,55,101,A,Working,2025-09-28,Jessica Martinez,MQL
+LEAD-000072,Company 2376,2025-05-08,Content Download,11,13,3,25,10,62,B,Qualified,2025-10-21,Chris Patel,SQL
+LEAD-000073,Company 9070,2025-06-28,Website,18,3,17,25,40,103,A,Working,2025-10-06,David Martinez,MQL
+LEAD-000074,Company 9543,2025-09-01,Cold Call,20,17,3,25,30,95,A,Unqualified,2025-10-21,Chris Patel,Opportunity
+LEAD-000075,Company 8843,2025-07-27,Cold Call,13,25,20,25,35,118,A,Unqualified,2025-09-30,David Martinez,Lead
+LEAD-000076,Company 1594,2025-07-21,Referral,23,13,20,25,45,126,A,Working,2025-10-04,Chris Patel,SQL
+LEAD-000077,Company 2838,2025-09-24,Referral,19,7,13,25,30,94,A,Working,2025-10-12,Jessica Martinez,Lead
+LEAD-000078,Company 4234,2025-10-03,Website,0,15,6,0,45,66,B,Working,2025-09-22,Jessica Martinez,Opportunity
+LEAD-000079,Company 8671,2025-07-17,Trade Show,12,7,12,0,30,61,B,Working,2025-10-11,Jessica Martinez,Opportunity
+LEAD-000080,Company 1556,2025-07-10,Cold Call,7,7,8,25,55,102,A,New,2025-10-22,Chris Patel,Opportunity
+LEAD-000081,Company 6958,2025-07-27,Website,2,17,17,25,45,106,A,Converted,2025-10-12,David Martinez,Subscriber
+LEAD-000082,Company 8291,2025-09-12,Cold Call,23,9,20,0,50,102,A,Converted,2025-10-20,Chris Patel,SQL
+LEAD-000083,Company 3144,2025-06-25,Trade Show,28,10,10,25,45,118,A,New,2025-10-08,David Martinez,Opportunity
+LEAD-000084,Company 3842,2025-08-03,Referral,7,16,1,0,50,74,B,Qualified,2025-09-25,David Martinez,Subscriber
+LEAD-000085,Company 8231,2025-09-16,Referral,5,21,19,25,40,110,A,Qualified,2025-09-27,Jessica Martinez,SQL
+LEAD-000086,Company 6238,2025-07-22,Referral,3,0,18,0,20,41,C,Working,2025-09-30,Chris Patel,Subscriber
+LEAD-000087,Company 9368,2025-07-10,Website,15,17,9,0,55,96,A,Converted,2025-10-21,Jessica Martinez,Opportunity
+LEAD-000088,Company 4668,2025-08-04,Referral,11,7,20,25,45,108,A,New,2025-10-19,Chris Patel,Opportunity
+LEAD-000089,Company 7468,2025-10-13,Trade Show,5,25,7,0,35,72,B,Qualified,2025-10-12,Chris Patel,Opportunity
+LEAD-000090,Company 5953,2025-05-31,Cold Call,21,7,7,25,55,115,A,New,2025-10-21,David Martinez,SQL
+LEAD-000091,Company 5576,2025-10-09,Website,3,25,11,0,25,64,B,Converted,2025-09-22,Jessica Martinez,Subscriber
+LEAD-000092,Company 1540,2025-08-10,Content Download,4,10,9,25,35,83,A,Unqualified,2025-10-09,Chris Patel,SQL
+LEAD-000093,Company 1617,2025-06-22,Trade Show,17,6,6,0,25,54,C,Qualified,2025-10-02,Chris Patel,Lead
+LEAD-000094,Company 9997,2025-06-20,Website,19,24,9,0,35,87,A,Qualified,2025-09-27,Chris Patel,Opportunity
+LEAD-000095,Company 1769,2025-04-28,Website,2,20,7,25,40,94,A,Unqualified,2025-10-04,Jessica Martinez,Subscriber
+LEAD-000096,Company 2502,2025-08-16,Trade Show,3,1,12,0,30,46,C,Converted,2025-10-03,David Martinez,Lead
+LEAD-000097,Company 9262,2025-06-28,Website,18,7,20,25,30,100,A,Unqualified,2025-10-01,Jessica Martinez,MQL
+LEAD-000098,Company 7683,2025-09-08,Content Download,27,11,12,25,20,95,A,Qualified,2025-10-15,David Martinez,Opportunity
+LEAD-000099,Company 7700,2025-06-25,Trade Show,14,23,8,25,30,100,A,New,2025-10-13,David Martinez,Lead
+LEAD-000100,Company 6642,2025-04-27,Referral,13,4,9,0,25,51,C,Working,2025-10-19,Chris Patel,SQL
+LEAD-000101,Company 1557,2025-08-10,Website,19,17,3,0,25,64,B,Qualified,2025-09-27,Jessica Martinez,Opportunity
+LEAD-000102,Company 6438,2025-05-13,Referral,29,8,17,25,30,109,A,Converted,2025-09-24,Jessica Martinez,SQL
+LEAD-000103,Company 5030,2025-10-05,Website,9,20,2,25,50,106,A,Qualified,2025-10-10,Chris Patel,Opportunity
+LEAD-000104,Company 9077,2025-08-08,Referral,21,23,8,0,45,97,A,Qualified,2025-10-10,Chris Patel,Lead
+LEAD-000105,Company 8574,2025-07-29,Cold Call,11,23,14,0,45,93,A,New,2025-09-28,Jessica Martinez,MQL
+LEAD-000106,Company 7186,2025-06-02,Content Download,17,13,9,0,35,74,B,Qualified,2025-10-09,Jessica Martinez,Subscriber
+LEAD-000107,Company 6903,2025-06-30,Referral,8,21,19,0,20,68,B,New,2025-09-24,Chris Patel,Subscriber
+LEAD-000108,Company 1430,2025-05-23,Cold Call,21,11,8,25,30,95,A,Working,2025-10-14,Chris Patel,SQL
+LEAD-000109,Company 5718,2025-07-16,Trade Show,14,21,6,25,25,91,A,New,2025-09-28,Chris Patel,Subscriber
+LEAD-000110,Company 6138,2025-05-15,Content Download,10,14,4,25,60,113,A,Working,2025-10-11,Chris Patel,Opportunity
+LEAD-000111,Company 7641,2025-06-24,Website,3,0,2,25,35,65,B,Unqualified,2025-10-05,Jessica Martinez,Opportunity
+LEAD-000112,Company 7395,2025-05-13,Trade Show,6,19,8,0,10,43,C,Qualified,2025-09-24,David Martinez,Subscriber
+LEAD-000113,Company 2064,2025-10-19,Referral,17,5,13,0,20,55,C,Unqualified,2025-10-02,Chris Patel,Lead
+LEAD-000114,Company 6698,2025-08-28,Content Download,5,5,7,0,45,62,B,Working,2025-10-05,Chris Patel,MQL
+LEAD-000115,Company 1045,2025-05-25,Referral,25,22,9,25,20,101,A,Working,2025-10-12,Chris Patel,MQL
+LEAD-000116,Company 5912,2025-08-28,Website,19,14,18,25,20,96,A,New,2025-10-05,Jessica Martinez,Lead
+LEAD-000117,Company 5753,2025-09-10,Cold Call,19,3,10,0,25,57,C,Unqualified,2025-09-28,Jessica Martinez,Lead
+LEAD-000118,Company 8721,2025-06-12,Referral,18,22,2,25,35,102,A,Working,2025-10-05,Jessica Martinez,MQL
+LEAD-000119,Company 2487,2025-05-18,Website,23,14,18,25,50,130,A,Converted,2025-09-29,Jessica Martinez,Lead
+LEAD-000120,Company 7832,2025-09-03,Content Download,28,18,6,25,30,107,A,Qualified,2025-10-01,David Martinez,Opportunity
+LEAD-000121,Company 8650,2025-10-08,Cold Call,8,18,20,0,40,86,A,Converted,2025-10-10,Chris Patel,MQL
+LEAD-000122,Company 8597,2025-10-06,Trade Show,11,6,5,25,25,72,B,Unqualified,2025-10-05,David Martinez,Opportunity
+LEAD-000123,Company 8602,2025-04-26,Content Download,28,14,6,25,35,108,A,Unqualified,2025-10-15,Jessica Martinez,SQL
+LEAD-000124,Company 2440,2025-05-13,Website,14,14,14,0,45,87,A,Qualified,2025-09-26,David Martinez,Subscriber
+LEAD-000125,Company 5112,2025-08-14,Website,24,7,13,0,35,79,B,Converted,2025-10-20,David Martinez,Opportunity
+LEAD-000126,Company 7221,2025-06-21,Trade Show,4,18,12,25,40,99,A,New,2025-10-20,David Martinez,Lead
+LEAD-000127,Company 4673,2025-07-28,Referral,11,6,12,0,40,69,B,Qualified,2025-10-22,Chris Patel,SQL
+LEAD-000128,Company 3771,2025-08-03,Referral,21,0,13,25,55,114,A,New,2025-10-07,David Martinez,Lead
+LEAD-000129,Company 4254,2025-10-02,Trade Show,15,12,8,25,40,100,A,New,2025-10-06,Jessica Martinez,Subscriber
+LEAD-000130,Company 7900,2025-08-14,Website,19,5,17,0,40,81,A,Unqualified,2025-09-27,Jessica Martinez,Subscriber
+LEAD-000131,Company 3745,2025-07-04,Cold Call,20,5,3,25,35,88,A,Qualified,2025-10-15,Jessica Martinez,Lead
+LEAD-000132,Company 8653,2025-05-19,Trade Show,25,8,7,0,45,85,A,Working,2025-10-14,Jessica Martinez,Opportunity
+LEAD-000133,Company 5797,2025-07-29,Referral,3,4,19,0,30,56,C,Working,2025-10-19,Chris Patel,SQL
+LEAD-000134,Company 7876,2025-08-11,Referral,29,5,19,0,35,88,A,Working,2025-10-07,David Martinez,Subscriber
+LEAD-000135,Company 2618,2025-05-26,Cold Call,8,0,3,25,25,61,B,New,2025-09-28,David Martinez,Opportunity
+LEAD-000136,Company 6132,2025-08-27,Content Download,29,9,20,25,25,108,A,New,2025-10-07,Jessica Martinez,Lead
+LEAD-000137,Company 1950,2025-10-11,Referral,19,13,11,0,25,68,B,Qualified,2025-09-26,David Martinez,MQL
+LEAD-000138,Company 2305,2025-07-08,Referral,14,7,8,0,35,64,B,Working,2025-10-15,Jessica Martinez,MQL
+LEAD-000139,Company 7827,2025-05-31,Referral,7,8,18,25,40,98,A,Converted,2025-09-23,David Martinez,Lead
+LEAD-000140,Company 1234,2025-08-13,Website,15,18,14,0,20,67,B,Qualified,2025-10-09,Chris Patel,Subscriber
+LEAD-000141,Company 7669,2025-09-22,Website,0,6,11,25,30,72,B,Qualified,2025-10-09,David Martinez,Subscriber
+LEAD-000142,Company 8413,2025-09-01,Trade Show,14,14,11,0,50,89,A,New,2025-10-19,Jessica Martinez,Subscriber
+LEAD-000143,Company 2888,2025-08-23,Referral,11,3,13,0,50,77,B,Converted,2025-10-12,Chris Patel,Lead
+LEAD-000144,Company 9502,2025-06-11,Content Download,11,5,12,0,30,58,C,Converted,2025-09-22,David Martinez,Opportunity
+LEAD-000145,Company 5713,2025-07-16,Cold Call,28,11,8,0,40,87,A,Converted,2025-10-03,Jessica Martinez,SQL
+LEAD-000146,Company 5803,2025-10-06,Referral,19,6,5,25,55,110,A,Qualified,2025-10-12,David Martinez,Opportunity
+LEAD-000147,Company 7026,2025-05-11,Website,12,15,11,25,40,103,A,Qualified,2025-10-08,Chris Patel,Opportunity
+LEAD-000148,Company 5987,2025-09-07,Cold Call,10,9,7,0,35,61,B,Working,2025-09-25,Jessica Martinez,MQL
+LEAD-000149,Company 2239,2025-07-29,Referral,3,10,18,0,40,71,B,Converted,2025-10-16,Chris Patel,Subscriber
+LEAD-000150,Company 8685,2025-07-01,Cold Call,23,16,14,0,25,78,B,New,2025-10-08,David Martinez,SQL
+LEAD-000151,Company 5405,2025-07-01,Trade Show,18,6,12,25,25,86,A,New,2025-10-11,David Martinez,Subscriber
+LEAD-000152,Company 6801,2025-05-11,Referral,23,22,0,25,40,110,A,Working,2025-10-09,David Martinez,Subscriber
+LEAD-000153,Company 9437,2025-05-05,Trade Show,28,21,2,0,25,76,B,Converted,2025-10-16,Jessica Martinez,Opportunity
+LEAD-000154,Company 3807,2025-09-14,Content Download,4,5,5,25,50,89,A,Qualified,2025-09-27,David Martinez,Opportunity
+LEAD-000155,Company 9902,2025-10-12,Referral,7,6,6,0,50,69,B,Unqualified,2025-10-14,Jessica Martinez,Subscriber
+LEAD-000156,Company 2335,2025-10-15,Website,13,13,0,25,20,71,B,Unqualified,2025-10-09,Chris Patel,Subscriber
+LEAD-000157,Company 7457,2025-08-24,Referral,0,2,15,25,55,97,A,New,2025-10-07,Jessica Martinez,Opportunity
+LEAD-000158,Company 9542,2025-09-07,Website,0,19,14,25,40,98,A,New,2025-10-01,Jessica Martinez,Opportunity
+LEAD-000159,Company 9815,2025-05-02,Website,9,3,0,25,20,57,C,Working,2025-10-07,David Martinez,MQL
+LEAD-000160,Company 3013,2025-09-12,Content Download,6,12,16,0,20,54,C,Working,2025-10-18,Jessica Martinez,Lead
+LEAD-000161,Company 2088,2025-10-07,Referral,12,9,1,0,35,57,C,Converted,2025-09-24,Chris Patel,Opportunity
+LEAD-000162,Company 7797,2025-08-21,Cold Call,24,6,13,25,35,103,A,Qualified,2025-10-21,Jessica Martinez,Subscriber
+LEAD-000163,Company 8714,2025-08-30,Website,21,10,3,25,30,89,A,Unqualified,2025-10-07,Jessica Martinez,Subscriber
+LEAD-000164,Company 4300,2025-07-15,Referral,9,18,19,0,35,81,A,New,2025-09-28,David Martinez,SQL
+LEAD-000165,Company 2925,2025-08-22,Referral,27,24,18,25,25,119,A,Converted,2025-09-27,Jessica Martinez,Lead
+LEAD-000166,Company 1728,2025-07-28,Trade Show,23,17,17,25,25,107,A,New,2025-09-25,Chris Patel,Lead
+LEAD-000167,Company 2907,2025-10-21,Referral,4,0,15,25,35,79,B,Working,2025-09-23,Chris Patel,MQL
+LEAD-000168,Company 3253,2025-10-17,Content Download,19,16,19,25,30,109,A,Working,2025-09-28,David Martinez,MQL
+LEAD-000169,Company 7675,2025-06-30,Referral,3,19,15,0,50,87,A,Unqualified,2025-10-02,David Martinez,SQL
+LEAD-000170,Company 5074,2025-05-20,Content Download,28,12,2,25,40,107,A,Working,2025-10-11,Jessica Martinez,SQL
+LEAD-000171,Company 6304,2025-05-13,Content Download,30,3,10,0,35,78,B,Qualified,2025-10-09,Chris Patel,MQL
+LEAD-000172,Company 5513,2025-08-21,Trade Show,9,19,4,0,45,77,B,Qualified,2025-10-17,David Martinez,Opportunity
+LEAD-000173,Company 2081,2025-08-01,Website,23,19,8,25,20,95,A,Unqualified,2025-09-22,Jessica Martinez,Lead
+LEAD-000174,Company 8270,2025-10-03,Trade Show,17,18,8,25,30,98,A,Converted,2025-10-18,David Martinez,Lead
+LEAD-000175,Company 1848,2025-05-09,Trade Show,9,3,0,0,45,57,C,Converted,2025-09-25,David Martinez,MQL
+LEAD-000176,Company 9371,2025-07-07,Referral,2,4,17,0,15,38,D,New,2025-09-25,David Martinez,MQL
+LEAD-000177,Company 5351,2025-07-03,Cold Call,3,13,15,25,30,86,A,Working,2025-09-26,Chris Patel,Opportunity
+LEAD-000178,Company 9558,2025-10-03,Referral,25,6,5,0,45,81,A,Converted,2025-10-16,David Martinez,MQL
+LEAD-000179,Company 9719,2025-09-05,Referral,18,24,2,25,25,94,A,Working,2025-09-25,Jessica Martinez,SQL
+LEAD-000180,Company 7013,2025-07-30,Cold Call,17,21,2,25,45,110,A,New,2025-10-20,Jessica Martinez,Subscriber
+LEAD-000181,Company 9718,2025-06-15,Referral,3,17,5,25,55,105,A,Working,2025-10-20,Jessica Martinez,Subscriber
+LEAD-000182,Company 3853,2025-08-16,Trade Show,9,12,17,0,40,78,B,Converted,2025-10-06,Jessica Martinez,Subscriber
+LEAD-000183,Company 9693,2025-10-16,Referral,11,17,4,25,40,97,A,Converted,2025-10-10,Jessica Martinez,Opportunity
+LEAD-000184,Company 8259,2025-06-09,Trade Show,1,21,20,25,35,102,A,Working,2025-09-25,Jessica Martinez,Opportunity
+LEAD-000185,Company 5136,2025-08-26,Referral,7,12,10,0,45,74,B,Converted,2025-10-09,Chris Patel,Subscriber
+LEAD-000186,Company 5734,2025-07-06,Trade Show,26,11,20,25,20,102,A,Qualified,2025-10-18,Jessica Martinez,Lead
+LEAD-000187,Company 8933,2025-08-01,Trade Show,22,25,10,25,10,92,A,New,2025-10-06,Chris Patel,Lead
+LEAD-000188,Company 4324,2025-07-20,Referral,17,7,8,0,50,82,A,Working,2025-09-26,Jessica Martinez,Lead
+LEAD-000189,Company 4103,2025-08-19,Cold Call,6,22,7,0,50,85,A,Unqualified,2025-10-17,Jessica Martinez,Lead
+LEAD-000190,Company 1473,2025-05-02,Referral,0,12,16,0,45,73,B,Converted,2025-10-14,Jessica Martinez,Lead
+LEAD-000191,Company 3358,2025-09-07,Website,5,2,8,25,15,55,C,Unqualified,2025-09-30,David Martinez,SQL
+LEAD-000192,Company 8193,2025-05-16,Content Download,20,9,1,25,15,70,B,New,2025-09-29,Jessica Martinez,Lead
+LEAD-000193,Company 9986,2025-05-23,Trade Show,15,10,9,0,50,84,A,Converted,2025-09-27,Chris Patel,SQL
+LEAD-000194,Company 1489,2025-07-27,Cold Call,24,11,15,25,50,125,A,Unqualified,2025-09-26,Jessica Martinez,Lead
+LEAD-000195,Company 8140,2025-07-04,Content Download,1,0,4,0,30,35,D,Unqualified,2025-10-12,David Martinez,MQL
+LEAD-000196,Company 2095,2025-09-01,Referral,25,3,4,25,40,97,A,Converted,2025-10-03,Jessica Martinez,Opportunity
+LEAD-000197,Company 2929,2025-05-09,Cold Call,23,3,10,0,50,86,A,Converted,2025-10-13,David Martinez,Opportunity
+LEAD-000198,Company 4645,2025-05-07,Trade Show,5,21,16,25,35,102,A,New,2025-10-19,Chris Patel,Lead
+LEAD-000199,Company 4793,2025-09-23,Cold Call,13,3,13,0,40,69,B,New,2025-10-07,Chris Patel,Lead
+LEAD-000200,Company 9946,2025-09-09,Referral,17,18,19,25,45,124,A,New,2025-10-05,Chris Patel,Opportunity
+LEAD-000201,Company 2202,2025-09-07,Website,21,15,19,25,40,120,A,New,2025-10-10,Chris Patel,Subscriber
+LEAD-000202,Company 6981,2025-10-12,Trade Show,29,23,14,25,30,121,A,New,2025-10-20,David Martinez,Subscriber
+LEAD-000203,Company 9937,2025-08-19,Trade Show,13,11,14,25,40,103,A,Qualified,2025-10-06,Jessica Martinez,Subscriber
+LEAD-000204,Company 7724,2025-05-26,Referral,8,0,8,25,55,96,A,Working,2025-10-02,David Martinez,SQL
+LEAD-000205,Company 3305,2025-08-27,Referral,3,3,10,0,25,41,C,Converted,2025-09-26,Chris Patel,SQL
+LEAD-000206,Company 5909,2025-08-02,Website,1,7,17,25,40,90,A,Unqualified,2025-10-08,Chris Patel,SQL
+LEAD-000207,Company 2421,2025-07-23,Referral,7,12,19,0,40,78,B,Converted,2025-10-12,Chris Patel,MQL
+LEAD-000208,Company 1686,2025-08-04,Referral,5,23,1,0,20,49,C,Converted,2025-10-17,Chris Patel,Lead
+LEAD-000209,Company 2592,2025-07-14,Website,4,22,1,25,20,72,B,Unqualified,2025-10-13,Chris Patel,Lead
+LEAD-000210,Company 5554,2025-05-14,Referral,30,19,16,0,30,95,A,Working,2025-10-04,Jessica Martinez,SQL
+LEAD-000211,Company 5379,2025-09-28,Cold Call,7,22,17,0,40,86,A,New,2025-10-16,Chris Patel,Lead
+LEAD-000212,Company 2071,2025-08-07,Referral,4,17,16,0,35,72,B,Converted,2025-09-28,David Martinez,SQL
+LEAD-000213,Company 5553,2025-08-28,Cold Call,6,9,16,25,20,76,B,Qualified,2025-10-18,Chris Patel,Lead
+LEAD-000214,Company 6412,2025-05-05,Cold Call,29,17,19,0,40,105,A,Qualified,2025-10-12,David Martinez,Lead
+LEAD-000215,Company 1389,2025-09-01,Cold Call,11,3,18,25,20,77,B,New,2025-09-29,Jessica Martinez,Lead
+LEAD-000216,Company 4642,2025-08-29,Website,3,2,3,25,40,73,B,Converted,2025-10-02,Chris Patel,Opportunity
+LEAD-000217,Company 5343,2025-07-27,Trade Show,5,0,9,25,45,84,A,New,2025-09-25,David Martinez,Lead
+LEAD-000218,Company 9875,2025-08-21,Trade Show,7,0,2,0,50,59,C,Working,2025-10-17,Chris Patel,Opportunity
+LEAD-000219,Company 1962,2025-05-17,Website,27,18,0,0,40,85,A,New,2025-10-05,Chris Patel,Opportunity
+LEAD-000220,Company 9912,2025-05-21,Referral,30,14,0,25,45,114,A,Unqualified,2025-09-23,Chris Patel,Subscriber
+LEAD-000221,Company 7319,2025-09-30,Website,11,9,1,0,45,66,B,Qualified,2025-09-24,David Martinez,Opportunity
+LEAD-000222,Company 5033,2025-07-30,Cold Call,26,9,15,0,40,90,A,Qualified,2025-10-07,Jessica Martinez,SQL
+LEAD-000223,Company 5373,2025-08-30,Content Download,28,16,19,25,30,118,A,Converted,2025-09-29,David Martinez,Opportunity
+LEAD-000224,Company 2928,2025-09-07,Cold Call,17,19,13,25,40,114,A,Unqualified,2025-09-28,Jessica Martinez,SQL
+LEAD-000225,Company 8358,2025-06-28,Trade Show,5,6,0,0,40,51,C,Qualified,2025-10-17,Chris Patel,Lead
+LEAD-000226,Company 5318,2025-10-07,Content Download,27,4,19,0,25,75,B,Working,2025-10-06,Jessica Martinez,Opportunity
+LEAD-000227,Company 9685,2025-04-29,Referral,1,25,14,0,25,65,B,Working,2025-10-16,David Martinez,Lead
+LEAD-000228,Company 4585,2025-06-05,Referral,21,4,16,0,35,76,B,New,2025-10-16,Jessica Martinez,MQL
+LEAD-000229,Company 9364,2025-10-09,Website,30,14,15,0,15,74,B,New,2025-10-09,Chris Patel,Opportunity
+LEAD-000230,Company 3697,2025-10-07,Website,25,5,4,25,30,89,A,New,2025-10-12,Jessica Martinez,SQL
+LEAD-000231,Company 2731,2025-10-13,Website,21,14,14,0,30,79,B,Qualified,2025-10-15,Jessica Martinez,Opportunity
+LEAD-000232,Company 4614,2025-09-16,Referral,5,7,17,25,30,84,A,Unqualified,2025-10-14,Chris Patel,Lead
+LEAD-000233,Company 3868,2025-06-02,Trade Show,8,15,10,25,30,88,A,Working,2025-09-25,Jessica Martinez,Lead
+LEAD-000234,Company 1476,2025-07-19,Website,18,20,12,0,30,80,A,Unqualified,2025-10-15,Chris Patel,SQL
+LEAD-000235,Company 9288,2025-09-28,Trade Show,2,2,13,0,45,62,B,Converted,2025-09-27,Chris Patel,MQL
+LEAD-000236,Company 3546,2025-06-02,Cold Call,4,7,15,0,10,36,D,Qualified,2025-09-22,David Martinez,Subscriber
+LEAD-000237,Company 8124,2025-08-22,Website,17,7,12,25,25,86,A,Working,2025-10-06,Jessica Martinez,SQL
+LEAD-000238,Company 8338,2025-08-23,Website,0,6,15,25,55,101,A,Unqualified,2025-10-12,Chris Patel,Opportunity
+LEAD-000239,Company 3524,2025-05-25,Website,22,22,19,0,20,83,A,Unqualified,2025-10-06,Chris Patel,Lead
+LEAD-000240,Company 8953,2025-07-19,Cold Call,1,13,2,25,35,76,B,New,2025-09-23,David Martinez,Lead
+LEAD-000241,Company 8362,2025-05-14,Website,8,22,4,0,35,69,B,Working,2025-10-20,David Martinez,SQL
+LEAD-000242,Company 5932,2025-10-07,Content Download,30,23,7,25,30,115,A,Working,2025-10-13,Chris Patel,Subscriber
+LEAD-000243,Company 8955,2025-05-03,Website,27,14,3,25,50,119,A,Unqualified,2025-09-30,Chris Patel,MQL
+LEAD-000244,Company 9346,2025-05-15,Cold Call,0,10,16,0,30,56,C,Converted,2025-10-14,David Martinez,Subscriber
+LEAD-000245,Company 1093,2025-09-22,Content Download,17,21,19,0,55,112,A,Qualified,2025-10-03,Chris Patel,Subscriber
+LEAD-000246,Company 5050,2025-08-14,Cold Call,4,20,9,0,50,83,A,Qualified,2025-10-08,David Martinez,Subscriber
+LEAD-000247,Company 8882,2025-06-07,Content Download,3,25,20,25,25,98,A,Unqualified,2025-09-25,Chris Patel,MQL
+LEAD-000248,Company 4041,2025-08-18,Cold Call,1,24,6,0,40,71,B,New,2025-09-26,David Martinez,Lead
+LEAD-000249,Company 3857,2025-09-18,Content Download,15,11,4,25,30,85,A,Converted,2025-10-01,Jessica Martinez,Opportunity
+LEAD-000250,Company 6472,2025-07-23,Referral,10,19,18,0,45,92,A,Working,2025-10-03,Chris Patel,Opportunity
+LEAD-000251,Company 9090,2025-08-13,Content Download,3,1,5,25,35,69,B,Qualified,2025-10-11,Chris Patel,MQL
+LEAD-000252,Company 7602,2025-06-10,Website,4,2,17,0,40,63,B,Working,2025-10-10,David Martinez,Lead
+LEAD-000253,Company 5845,2025-07-17,Content Download,8,0,8,0,50,66,B,Working,2025-09-29,Chris Patel,SQL
+LEAD-000254,Company 1817,2025-07-18,Trade Show,23,17,4,25,30,99,A,Working,2025-10-19,Jessica Martinez,Subscriber
+LEAD-000255,Company 2839,2025-05-15,Referral,13,2,20,0,40,75,B,Working,2025-10-02,David Martinez,MQL
+LEAD-000256,Company 2823,2025-06-10,Trade Show,19,23,19,25,25,111,A,Working,2025-10-06,Chris Patel,Subscriber
+LEAD-000257,Company 2122,2025-07-23,Cold Call,13,10,0,0,40,63,B,New,2025-10-13,David Martinez,MQL
+LEAD-000258,Company 9507,2025-05-08,Website,13,17,2,25,25,82,A,Working,2025-10-18,David Martinez,Subscriber
+LEAD-000259,Company 1269,2025-09-05,Trade Show,27,12,20,25,10,94,A,Working,2025-10-06,Jessica Martinez,MQL
+LEAD-000260,Company 1023,2025-06-08,Content Download,23,11,8,25,35,102,A,Converted,2025-10-04,Chris Patel,Subscriber
+LEAD-000261,Company 2742,2025-04-26,Content Download,22,17,4,25,25,93,A,Unqualified,2025-09-24,David Martinez,Subscriber
+LEAD-000262,Company 5760,2025-10-14,Referral,0,16,15,25,25,81,A,Working,2025-10-01,Chris Patel,Opportunity
+LEAD-000263,Company 7589,2025-08-18,Referral,8,11,14,0,50,83,A,Converted,2025-10-09,David Martinez,SQL
+LEAD-000264,Company 2644,2025-07-10,Cold Call,19,5,3,25,60,112,A,Unqualified,2025-09-26,Chris Patel,SQL
+LEAD-000265,Company 4238,2025-06-18,Cold Call,6,3,9,25,25,68,B,Qualified,2025-10-02,Jessica Martinez,Lead
+LEAD-000266,Company 2431,2025-10-20,Referral,28,12,1,25,20,86,A,Qualified,2025-10-14,Chris Patel,Subscriber
+LEAD-000267,Company 2632,2025-10-06,Cold Call,13,23,0,25,50,111,A,Qualified,2025-10-06,Jessica Martinez,MQL
+LEAD-000268,Company 7579,2025-07-09,Content Download,22,0,4,0,25,51,C,Working,2025-10-08,Jessica Martinez,Lead
+LEAD-000269,Company 7627,2025-05-14,Referral,21,19,10,25,40,115,A,New,2025-10-07,Chris Patel,Lead
+LEAD-000270,Company 1798,2025-06-23,Trade Show,17,3,17,25,45,107,A,Working,2025-10-11,David Martinez,Opportunity
+LEAD-000271,Company 9764,2025-05-05,Website,28,12,11,25,25,101,A,Qualified,2025-10-03,David Martinez,SQL
+LEAD-000272,Company 9547,2025-07-28,Trade Show,4,0,16,25,45,90,A,Qualified,2025-10-17,David Martinez,MQL
+LEAD-000273,Company 7151,2025-09-25,Content Download,6,11,11,0,35,63,B,Converted,2025-10-08,Chris Patel,Lead
+LEAD-000274,Company 8551,2025-05-25,Content Download,8,15,19,0,25,67,B,Working,2025-09-27,Chris Patel,Opportunity
+LEAD-000275,Company 3432,2025-07-16,Website,15,15,12,25,30,97,A,Working,2025-10-07,Chris Patel,MQL
+LEAD-000276,Company 2849,2025-08-23,Content Download,6,21,4,0,25,56,C,Working,2025-10-09,Chris Patel,Lead
+LEAD-000277,Company 7901,2025-08-01,Content Download,13,15,20,0,35,83,A,Converted,2025-10-12,David Martinez,Subscriber
+LEAD-000278,Company 4647,2025-07-07,Cold Call,19,21,19,0,40,99,A,Converted,2025-10-20,David Martinez,SQL
+LEAD-000279,Company 8094,2025-07-23,Content Download,2,17,20,25,35,99,A,Qualified,2025-10-10,Chris Patel,MQL
+LEAD-000280,Company 4438,2025-08-19,Website,12,14,20,0,45,91,A,New,2025-09-26,Chris Patel,Opportunity
+LEAD-000281,Company 4039,2025-08-17,Referral,7,11,9,25,30,82,A,Converted,2025-10-14,Chris Patel,Lead
+LEAD-000282,Company 6362,2025-05-07,Cold Call,12,11,18,0,45,86,A,Working,2025-10-02,Jessica Martinez,MQL
+LEAD-000283,Company 1443,2025-08-13,Referral,15,13,1,25,30,84,A,New,2025-10-17,David Martinez,Opportunity
+LEAD-000284,Company 4300,2025-09-16,Website,7,21,17,25,20,90,A,Unqualified,2025-09-28,David Martinez,Opportunity
+LEAD-000285,Company 6005,2025-10-03,Referral,7,25,12,0,25,69,B,New,2025-09-24,Chris Patel,SQL
+LEAD-000286,Company 8650,2025-10-13,Referral,19,14,18,25,50,126,A,Converted,2025-10-04,David Martinez,Opportunity
+LEAD-000287,Company 8616,2025-07-12,Content Download,6,3,3,0,35,47,C,Working,2025-10-07,Jessica Martinez,Lead
+LEAD-000288,Company 3699,2025-04-28,Cold Call,0,5,0,25,60,90,A,Converted,2025-10-12,Jessica Martinez,Subscriber
+LEAD-000289,Company 6272,2025-05-31,Cold Call,16,2,2,25,60,105,A,New,2025-10-04,Chris Patel,MQL
+LEAD-000290,Company 8067,2025-05-25,Content Download,23,23,2,25,45,118,A,Unqualified,2025-10-02,Jessica Martinez,SQL
+LEAD-000291,Company 1852,2025-05-29,Trade Show,9,2,6,0,20,37,D,Unqualified,2025-09-28,Jessica Martinez,Subscriber
+LEAD-000292,Company 6428,2025-06-13,Content Download,15,13,17,25,10,80,A,Converted,2025-09-28,Jessica Martinez,Lead
+LEAD-000293,Company 6876,2025-06-20,Referral,6,11,6,25,45,93,A,Qualified,2025-10-09,Jessica Martinez,SQL
+LEAD-000294,Company 9726,2025-09-26,Content Download,19,1,14,25,25,84,A,Working,2025-09-22,Jessica Martinez,Lead
+LEAD-000295,Company 5085,2025-06-30,Content Download,26,17,15,0,40,98,A,Working,2025-10-17,David Martinez,Opportunity
+LEAD-000296,Company 2487,2025-05-12,Referral,30,9,17,0,40,96,A,Working,2025-10-21,Jessica Martinez,SQL
+LEAD-000297,Company 9163,2025-08-05,Content Download,22,20,10,0,40,92,A,New,2025-10-01,Chris Patel,Lead
+LEAD-000298,Company 7169,2025-05-30,Referral,27,15,7,25,40,114,A,Unqualified,2025-10-06,Chris Patel,MQL
+LEAD-000299,Company 7112,2025-08-23,Website,22,22,14,0,30,88,A,New,2025-10-04,David Martinez,Subscriber
+LEAD-000300,Company 7875,2025-09-26,Cold Call,26,19,0,25,20,90,A,Unqualified,2025-09-25,David Martinez,Lead
+LEAD-000301,Company 3481,2025-07-15,Content Download,28,4,2,0,50,84,A,Working,2025-10-22,Jessica Martinez,SQL
+LEAD-000302,Company 4738,2025-09-27,Referral,4,1,16,0,25,46,C,Unqualified,2025-10-04,Jessica Martinez,Lead
+LEAD-000303,Company 5497,2025-10-16,Content Download,28,3,13,25,35,104,A,Unqualified,2025-10-08,David Martinez,SQL
+LEAD-000304,Company 4354,2025-10-12,Content Download,15,14,19,0,40,88,A,Working,2025-09-22,Jessica Martinez,MQL
+LEAD-000305,Company 3722,2025-04-29,Referral,3,21,18,0,35,77,B,Unqualified,2025-10-21,Chris Patel,SQL
+LEAD-000306,Company 5927,2025-05-10,Content Download,19,17,20,25,50,131,A,Converted,2025-10-01,Chris Patel,Subscriber
+LEAD-000307,Company 4738,2025-07-24,Content Download,26,25,0,0,35,86,A,Unqualified,2025-10-17,Chris Patel,Subscriber
+LEAD-000308,Company 5198,2025-07-05,Referral,25,12,7,25,35,104,A,Working,2025-09-26,David Martinez,SQL
+LEAD-000309,Company 1647,2025-07-20,Trade Show,10,6,1,0,40,57,C,Converted,2025-09-30,David Martinez,Subscriber
+LEAD-000310,Company 3944,2025-06-03,Referral,14,20,9,25,45,113,A,Working,2025-10-03,Jessica Martinez,Opportunity
+LEAD-000311,Company 1356,2025-05-29,Cold Call,11,22,0,0,30,63,B,New,2025-10-07,Jessica Martinez,Lead
+LEAD-000312,Company 8108,2025-07-17,Content Download,19,25,9,0,45,98,A,New,2025-10-03,David Martinez,Lead
+LEAD-000313,Company 7971,2025-08-07,Trade Show,16,18,11,25,25,95,A,Working,2025-10-16,David Martinez,MQL
+LEAD-000314,Company 4348,2025-08-08,Website,17,0,20,25,50,112,A,New,2025-10-08,Jessica Martinez,MQL
+LEAD-000315,Company 2644,2025-08-22,Website,19,19,11,25,35,109,A,Converted,2025-10-16,Chris Patel,Subscriber
+LEAD-000316,Company 3229,2025-10-04,Content Download,11,25,2,25,25,88,A,Working,2025-09-28,Jessica Martinez,Opportunity
+LEAD-000317,Company 3193,2025-05-17,Website,21,18,0,25,45,109,A,Qualified,2025-10-10,Jessica Martinez,MQL
+LEAD-000318,Company 4022,2025-06-17,Referral,28,22,20,25,35,130,A,Working,2025-09-24,Chris Patel,MQL
+LEAD-000319,Company 5127,2025-10-03,Trade Show,14,18,12,25,25,94,A,Converted,2025-09-23,David Martinez,Subscriber
+LEAD-000320,Company 4245,2025-08-05,Trade Show,0,22,3,0,15,40,C,Converted,2025-09-28,David Martinez,MQL
+LEAD-000321,Company 8157,2025-07-12,Referral,16,18,20,25,40,119,A,New,2025-10-01,Jessica Martinez,Opportunity
+LEAD-000322,Company 3258,2025-06-16,Cold Call,28,25,1,0,50,104,A,Working,2025-10-10,Chris Patel,Opportunity
+LEAD-000323,Company 4556,2025-09-26,Cold Call,12,21,4,0,20,57,C,Unqualified,2025-10-22,David Martinez,Opportunity
+LEAD-000324,Company 5660,2025-06-05,Trade Show,20,10,2,25,55,112,A,Working,2025-10-05,Chris Patel,Opportunity
+LEAD-000325,Company 4326,2025-06-04,Website,1,15,10,25,30,81,A,New,2025-09-27,David Martinez,Subscriber
+LEAD-000326,Company 7434,2025-07-25,Website,16,19,16,0,30,81,A,Working,2025-09-29,Chris Patel,Lead
+LEAD-000327,Company 4529,2025-07-13,Website,18,16,19,0,25,78,B,Working,2025-10-05,Chris Patel,Lead
+LEAD-000328,Company 3432,2025-09-04,Website,7,3,9,0,25,44,C,New,2025-09-22,Chris Patel,SQL
+LEAD-000329,Company 4468,2025-08-09,Content Download,9,16,17,0,30,72,B,New,2025-10-19,Jessica Martinez,Lead
+LEAD-000330,Company 1207,2025-05-23,Trade Show,26,21,1,0,30,78,B,Working,2025-09-26,Jessica Martinez,SQL
+LEAD-000331,Company 3804,2025-08-06,Content Download,22,12,16,0,25,75,B,Unqualified,2025-10-17,Jessica Martinez,Subscriber
+LEAD-000332,Company 8632,2025-08-20,Website,12,22,5,25,40,104,A,Unqualified,2025-09-27,Jessica Martinez,Subscriber
+LEAD-000333,Company 6930,2025-10-13,Content Download,16,7,14,0,45,82,A,New,2025-10-02,Jessica Martinez,MQL
+LEAD-000334,Company 7439,2025-08-22,Referral,13,15,10,25,15,78,B,Working,2025-10-20,Chris Patel,Lead
+LEAD-000335,Company 5401,2025-09-23,Website,20,6,18,25,30,99,A,Working,2025-10-06,Jessica Martinez,Lead
+LEAD-000336,Company 8734,2025-08-19,Website,28,25,3,25,20,101,A,Unqualified,2025-10-11,Jessica Martinez,Lead
+LEAD-000337,Company 9891,2025-08-31,Cold Call,11,19,5,0,35,70,B,Working,2025-10-03,Chris Patel,MQL
+LEAD-000338,Company 3050,2025-07-10,Content Download,4,20,4,0,15,43,C,Converted,2025-10-17,Jessica Martinez,Lead
+LEAD-000339,Company 1402,2025-05-25,Content Download,19,18,7,0,40,84,A,Working,2025-10-06,Chris Patel,Lead
+LEAD-000340,Company 8560,2025-06-11,Trade Show,3,6,6,25,30,70,B,Qualified,2025-10-17,Jessica Martinez,MQL
+LEAD-000341,Company 2955,2025-08-31,Content Download,7,3,16,0,35,61,B,Converted,2025-09-27,Jessica Martinez,Opportunity
+LEAD-000342,Company 7718,2025-07-28,Referral,10,0,0,25,25,60,B,Working,2025-10-19,Jessica Martinez,Lead
+LEAD-000343,Company 7393,2025-08-03,Trade Show,8,16,10,0,20,54,C,Converted,2025-10-01,Jessica Martinez,Lead
+LEAD-000344,Company 2729,2025-10-08,Trade Show,21,19,17,25,30,112,A,Qualified,2025-09-26,Chris Patel,Opportunity
+LEAD-000345,Company 6872,2025-09-07,Website,7,7,20,25,40,99,A,Converted,2025-10-16,Jessica Martinez,SQL
+LEAD-000346,Company 9089,2025-08-21,Website,22,5,5,25,20,77,B,Working,2025-10-14,David Martinez,Subscriber
+LEAD-000347,Company 3777,2025-10-06,Trade Show,26,6,13,0,35,80,A,New,2025-10-02,Chris Patel,Opportunity
+LEAD-000348,Company 5516,2025-08-16,Content Download,7,12,6,25,45,95,A,Converted,2025-10-20,Jessica Martinez,Subscriber
+LEAD-000349,Company 6500,2025-05-19,Website,7,23,19,25,40,114,A,Qualified,2025-10-07,Chris Patel,Subscriber
+LEAD-000350,Company 9958,2025-05-17,Trade Show,23,0,10,0,20,53,C,Working,2025-09-23,Jessica Martinez,SQL
+LEAD-000351,Company 7202,2025-09-02,Cold Call,1,16,14,25,45,101,A,Unqualified,2025-10-07,David Martinez,Subscriber
+LEAD-000352,Company 5140,2025-09-28,Trade Show,10,21,17,25,35,108,A,Qualified,2025-10-20,Chris Patel,SQL
+LEAD-000353,Company 4185,2025-07-06,Trade Show,15,2,10,0,20,47,C,Converted,2025-10-13,David Martinez,Opportunity
+LEAD-000354,Company 8327,2025-06-02,Referral,26,23,8,25,50,132,A,Working,2025-10-09,Jessica Martinez,SQL
+LEAD-000355,Company 1592,2025-08-25,Referral,12,4,11,25,35,87,A,Working,2025-10-09,Chris Patel,Subscriber
+LEAD-000356,Company 4565,2025-09-03,Content Download,13,14,12,25,30,94,A,Working,2025-09-23,Jessica Martinez,SQL
+LEAD-000357,Company 5999,2025-09-30,Website,25,7,6,0,45,83,A,Converted,2025-10-19,Chris Patel,MQL
+LEAD-000358,Company 6322,2025-05-25,Trade Show,18,6,3,25,45,97,A,Unqualified,2025-10-13,David Martinez,Subscriber
+LEAD-000359,Company 4669,2025-05-27,Content Download,4,14,12,25,50,105,A,New,2025-10-17,Jessica Martinez,SQL
+LEAD-000360,Company 4625,2025-07-09,Cold Call,27,3,2,0,35,67,B,New,2025-10-07,Jessica Martinez,Opportunity
+LEAD-000361,Company 5850,2025-06-30,Trade Show,5,24,9,25,40,103,A,Working,2025-10-15,David Martinez,Opportunity
+LEAD-000362,Company 9410,2025-05-25,Content Download,26,25,2,0,40,93,A,New,2025-10-16,Jessica Martinez,Lead
+LEAD-000363,Company 1308,2025-04-25,Referral,22,10,15,25,30,102,A,Unqualified,2025-10-12,David Martinez,Subscriber
+LEAD-000364,Company 4793,2025-05-18,Trade Show,20,16,12,25,30,103,A,Converted,2025-10-12,Jessica Martinez,Opportunity
+LEAD-000365,Company 4754,2025-07-08,Referral,23,11,0,25,30,89,A,New,2025-10-04,David Martinez,Lead
+LEAD-000366,Company 8614,2025-06-30,Website,29,22,6,25,35,117,A,Qualified,2025-10-15,Jessica Martinez,SQL
+LEAD-000367,Company 7724,2025-06-26,Trade Show,9,4,13,0,45,71,B,Working,2025-10-10,David Martinez,Subscriber
+LEAD-000368,Company 1144,2025-05-21,Content Download,30,9,9,0,45,93,A,Qualified,2025-10-03,David Martinez,Opportunity
+LEAD-000369,Company 3455,2025-06-26,Cold Call,22,12,4,0,35,73,B,Qualified,2025-10-04,David Martinez,Subscriber
+LEAD-000370,Company 1410,2025-05-03,Cold Call,22,13,6,0,35,76,B,Qualified,2025-10-18,Jessica Martinez,SQL
+LEAD-000371,Company 1567,2025-05-14,Website,15,20,18,25,15,93,A,Converted,2025-10-05,Chris Patel,MQL
+LEAD-000372,Company 4186,2025-09-20,Website,2,7,1,0,40,50,C,New,2025-10-16,Jessica Martinez,Lead
+LEAD-000373,Company 3936,2025-06-08,Content Download,28,25,9,25,60,147,A,Unqualified,2025-10-11,David Martinez,Lead
+LEAD-000374,Company 7354,2025-09-29,Content Download,13,11,13,0,20,57,C,Qualified,2025-09-22,David Martinez,Subscriber
+LEAD-000375,Company 5073,2025-09-17,Content Download,1,13,5,0,20,39,D,Unqualified,2025-10-19,Jessica Martinez,SQL
+LEAD-000376,Company 9514,2025-07-11,Referral,7,25,0,0,35,67,B,Working,2025-09-25,Chris Patel,MQL
+LEAD-000377,Company 9239,2025-06-15,Referral,3,13,19,0,45,80,A,Qualified,2025-09-25,David Martinez,Lead
+LEAD-000378,Company 1473,2025-09-04,Content Download,16,15,7,25,25,88,A,Qualified,2025-10-17,Chris Patel,MQL
+LEAD-000379,Company 1415,2025-06-07,Trade Show,19,10,0,25,55,109,A,Converted,2025-10-11,David Martinez,Subscriber
+LEAD-000380,Company 1080,2025-05-26,Trade Show,1,9,0,25,55,90,A,Converted,2025-10-19,Jessica Martinez,MQL
+LEAD-000381,Company 5497,2025-09-30,Cold Call,11,4,9,25,40,89,A,Qualified,2025-09-22,David Martinez,MQL
+LEAD-000382,Company 8578,2025-06-16,Trade Show,22,16,9,25,45,117,A,Working,2025-10-15,Jessica Martinez,Lead
+LEAD-000383,Company 7059,2025-05-07,Referral,29,2,18,25,30,104,A,Qualified,2025-10-12,Jessica Martinez,Lead
+LEAD-000384,Company 7935,2025-10-04,Content Download,2,2,8,25,35,72,B,Working,2025-10-08,Chris Patel,Subscriber
+LEAD-000385,Company 6049,2025-10-06,Referral,7,8,8,25,20,68,B,Qualified,2025-09-26,Jessica Martinez,Subscriber
+LEAD-000386,Company 1664,2025-05-09,Cold Call,13,7,18,25,40,103,A,New,2025-09-27,Chris Patel,SQL
+LEAD-000387,Company 1710,2025-07-22,Referral,8,9,16,0,25,58,C,Converted,2025-10-15,Jessica Martinez,Opportunity
+LEAD-000388,Company 3035,2025-09-10,Referral,13,10,18,25,40,106,A,Converted,2025-10-15,David Martinez,MQL
+LEAD-000389,Company 6750,2025-06-04,Trade Show,29,7,8,0,25,69,B,Qualified,2025-09-27,Jessica Martinez,SQL
+LEAD-000390,Company 3805,2025-07-18,Trade Show,21,13,20,0,45,99,A,Working,2025-10-15,Jessica Martinez,Subscriber
+LEAD-000391,Company 6041,2025-09-09,Trade Show,5,14,19,25,45,108,A,Qualified,2025-10-12,David Martinez,Lead
+LEAD-000392,Company 2722,2025-09-23,Trade Show,16,19,2,25,30,92,A,Qualified,2025-10-02,David Martinez,Lead
+LEAD-000393,Company 5147,2025-10-20,Referral,30,1,8,0,20,59,C,Working,2025-10-06,Chris Patel,Opportunity
+LEAD-000394,Company 3293,2025-08-26,Cold Call,14,3,17,0,25,59,C,Qualified,2025-10-04,Chris Patel,MQL
+LEAD-000395,Company 5570,2025-09-14,Referral,16,23,8,0,50,97,A,Working,2025-10-12,Jessica Martinez,SQL
+LEAD-000396,Company 1156,2025-07-04,Cold Call,25,9,6,0,35,75,B,Qualified,2025-09-30,David Martinez,Opportunity
+LEAD-000397,Company 5512,2025-06-22,Content Download,24,20,15,25,30,114,A,New,2025-10-20,Chris Patel,Opportunity
+LEAD-000398,Company 4087,2025-07-06,Referral,18,25,4,25,45,117,A,Qualified,2025-09-25,Jessica Martinez,Lead
+LEAD-000399,Company 1403,2025-07-09,Referral,30,8,11,25,40,114,A,Converted,2025-09-29,David Martinez,Opportunity
+LEAD-000400,Company 5897,2025-08-04,Trade Show,4,0,7,25,25,61,B,Working,2025-09-26,Chris Patel,Opportunity
+LEAD-000401,Company 5354,2025-10-21,Content Download,1,0,5,25,30,61,B,Qualified,2025-10-13,David Martinez,Lead
+LEAD-000402,Company 7721,2025-07-19,Trade Show,26,25,11,25,45,132,A,Converted,2025-09-30,Chris Patel,Subscriber
+LEAD-000403,Company 4563,2025-05-27,Referral,3,0,15,0,25,43,C,Qualified,2025-09-28,Jessica Martinez,SQL
+LEAD-000404,Company 3874,2025-06-24,Website,28,1,14,0,45,88,A,Working,2025-10-12,Jessica Martinez,Opportunity
+LEAD-000405,Company 5213,2025-07-31,Website,25,14,6,0,50,95,A,Qualified,2025-10-10,Jessica Martinez,MQL
+LEAD-000406,Company 6603,2025-05-09,Content Download,11,7,0,0,35,53,C,New,2025-10-10,Jessica Martinez,MQL
+LEAD-000407,Company 3846,2025-07-30,Referral,8,11,3,25,20,67,B,New,2025-10-20,Chris Patel,SQL
+LEAD-000408,Company 2696,2025-07-20,Website,8,22,10,0,25,65,B,Converted,2025-09-27,Chris Patel,MQL
+LEAD-000409,Company 2243,2025-05-15,Website,4,0,6,0,30,40,C,New,2025-10-19,Chris Patel,Lead
+LEAD-000410,Company 7496,2025-04-25,Trade Show,1,1,14,0,20,36,D,Converted,2025-10-17,Jessica Martinez,MQL
+LEAD-000411,Company 3312,2025-06-24,Trade Show,24,1,0,25,35,85,A,New,2025-10-20,Jessica Martinez,Subscriber
+LEAD-000412,Company 4899,2025-07-24,Referral,3,7,3,25,40,78,B,Working,2025-10-16,Jessica Martinez,Lead
+LEAD-000413,Company 5604,2025-04-27,Content Download,3,0,16,0,25,44,C,Qualified,2025-10-06,Jessica Martinez,Lead
+LEAD-000414,Company 1062,2025-05-15,Content Download,24,15,8,25,20,92,A,Working,2025-10-05,Chris Patel,Opportunity
+LEAD-000415,Company 7338,2025-07-18,Referral,9,15,1,0,45,70,B,Working,2025-09-25,Jessica Martinez,MQL
+LEAD-000416,Company 9761,2025-05-31,Content Download,24,2,16,0,15,57,C,New,2025-10-10,David Martinez,Subscriber
+LEAD-000417,Company 7484,2025-08-04,Cold Call,13,21,10,25,50,119,A,Unqualified,2025-10-19,Jessica Martinez,Lead
+LEAD-000418,Company 5478,2025-06-28,Referral,8,23,19,25,35,110,A,Converted,2025-10-07,Jessica Martinez,MQL
+LEAD-000419,Company 6804,2025-09-29,Trade Show,17,4,6,25,45,97,A,Qualified,2025-09-25,David Martinez,Lead
+LEAD-000420,Company 1314,2025-10-09,Trade Show,13,8,19,0,35,75,B,Working,2025-09-27,Jessica Martinez,MQL
+LEAD-000421,Company 3089,2025-06-14,Trade Show,12,4,11,0,35,62,B,Qualified,2025-10-07,Chris Patel,MQL
+LEAD-000422,Company 3004,2025-10-21,Content Download,4,14,1,0,30,49,C,New,2025-10-14,David Martinez,Subscriber
+LEAD-000423,Company 4868,2025-06-24,Referral,13,11,10,25,30,89,A,New,2025-10-09,Chris Patel,Opportunity
+LEAD-000424,Company 5503,2025-07-08,Website,21,10,15,25,40,111,A,Working,2025-10-20,Chris Patel,SQL
+LEAD-000425,Company 8740,2025-07-23,Content Download,16,23,20,25,45,129,A,Unqualified,2025-10-20,Chris Patel,Lead
+LEAD-000426,Company 6560,2025-06-28,Website,21,8,8,0,40,77,B,Converted,2025-10-21,Jessica Martinez,Subscriber
+LEAD-000427,Company 1755,2025-07-27,Referral,23,10,0,0,20,53,C,Working,2025-09-28,Jessica Martinez,SQL
+LEAD-000428,Company 9347,2025-09-02,Website,18,5,7,25,55,110,A,Working,2025-10-05,Chris Patel,MQL
+LEAD-000429,Company 4989,2025-07-05,Content Download,8,22,12,0,35,77,B,Qualified,2025-09-23,Chris Patel,Lead
+LEAD-000430,Company 6105,2025-05-06,Cold Call,18,8,20,25,25,96,A,New,2025-10-07,Jessica Martinez,MQL
+LEAD-000431,Company 7942,2025-05-01,Trade Show,26,1,8,25,25,85,A,Converted,2025-10-22,Chris Patel,Opportunity
+LEAD-000432,Company 3004,2025-08-26,Trade Show,11,6,1,25,25,68,B,New,2025-09-29,Jessica Martinez,Subscriber
+LEAD-000433,Company 2029,2025-08-19,Referral,1,4,11,25,25,66,B,New,2025-09-22,Chris Patel,Opportunity
+LEAD-000434,Company 3863,2025-08-23,Trade Show,11,22,14,0,50,97,A,New,2025-10-10,David Martinez,MQL
+LEAD-000435,Company 6650,2025-09-19,Content Download,0,4,0,0,55,59,C,New,2025-09-27,Chris Patel,SQL
+LEAD-000436,Company 3384,2025-09-04,Cold Call,30,11,14,0,35,90,A,Qualified,2025-10-19,David Martinez,SQL
+LEAD-000437,Company 1396,2025-08-23,Content Download,27,7,0,25,40,99,A,Converted,2025-10-13,David Martinez,MQL
+LEAD-000438,Company 2483,2025-08-17,Cold Call,4,6,11,25,40,86,A,Unqualified,2025-09-29,David Martinez,Subscriber
+LEAD-000439,Company 4448,2025-05-25,Trade Show,26,16,16,0,20,78,B,Converted,2025-10-11,Chris Patel,Subscriber
+LEAD-000440,Company 2766,2025-05-21,Trade Show,8,24,2,0,45,79,B,New,2025-09-28,David Martinez,Subscriber
+LEAD-000441,Company 2639,2025-09-06,Content Download,28,5,14,0,50,97,A,Qualified,2025-09-29,Jessica Martinez,SQL
+LEAD-000442,Company 6907,2025-05-25,Trade Show,1,10,2,25,45,83,A,Qualified,2025-09-22,Chris Patel,MQL
+LEAD-000443,Company 2187,2025-05-22,Website,21,5,0,0,40,66,B,Qualified,2025-10-07,Jessica Martinez,Subscriber
+LEAD-000444,Company 6447,2025-08-27,Website,16,15,13,0,45,89,A,Qualified,2025-10-03,Chris Patel,Subscriber
+LEAD-000445,Company 6682,2025-07-03,Content Download,23,5,10,25,30,93,A,New,2025-10-08,David Martinez,Subscriber
+LEAD-000446,Company 2230,2025-06-04,Content Download,16,1,3,25,55,100,A,New,2025-09-28,David Martinez,SQL
+LEAD-000447,Company 4982,2025-06-12,Cold Call,30,21,15,25,30,121,A,New,2025-10-01,Jessica Martinez,Lead
+LEAD-000448,Company 3487,2025-09-22,Website,19,2,11,25,40,97,A,Converted,2025-09-22,Chris Patel,Subscriber
+LEAD-000449,Company 3392,2025-04-26,Trade Show,11,20,12,25,15,83,A,Converted,2025-10-04,Chris Patel,SQL
+LEAD-000450,Company 9047,2025-06-22,Cold Call,30,4,2,0,15,51,C,Qualified,2025-10-07,David Martinez,MQL
+LEAD-000451,Company 3684,2025-05-08,Referral,24,11,5,0,35,75,B,Working,2025-10-09,Chris Patel,Lead
+LEAD-000452,Company 8805,2025-07-03,Cold Call,16,6,17,25,50,114,A,Converted,2025-10-12,Chris Patel,Subscriber
+LEAD-000453,Company 2198,2025-05-04,Website,22,21,2,25,20,90,A,New,2025-09-25,Chris Patel,Lead
+LEAD-000454,Company 4402,2025-07-18,Trade Show,20,16,17,25,40,118,A,Working,2025-10-02,Chris Patel,Subscriber
+LEAD-000455,Company 9296,2025-06-13,Referral,27,21,12,0,25,85,A,Working,2025-10-10,Chris Patel,Lead
+LEAD-000456,Company 3185,2025-10-13,Content Download,10,3,6,25,50,94,A,Qualified,2025-10-21,Chris Patel,MQL
+LEAD-000457,Company 4550,2025-09-02,Trade Show,3,12,3,25,45,88,A,Unqualified,2025-09-27,David Martinez,Subscriber
+LEAD-000458,Company 1359,2025-08-04,Cold Call,20,7,13,0,15,55,C,Working,2025-10-18,Jessica Martinez,SQL
+LEAD-000459,Company 4521,2025-08-20,Cold Call,6,5,17,25,35,88,A,Qualified,2025-10-13,Jessica Martinez,Lead
+LEAD-000460,Company 7562,2025-06-18,Website,30,7,16,25,40,118,A,New,2025-09-23,Chris Patel,Opportunity
+LEAD-000461,Company 4687,2025-06-25,Cold Call,24,16,5,0,30,75,B,Converted,2025-09-26,Chris Patel,Subscriber
+LEAD-000462,Company 6372,2025-05-11,Website,22,24,14,25,25,110,A,Working,2025-09-29,David Martinez,Lead
+LEAD-000463,Company 4855,2025-06-25,Referral,28,15,10,25,20,98,A,Unqualified,2025-09-30,David Martinez,MQL
+LEAD-000464,Company 2729,2025-05-11,Website,29,24,16,25,25,119,A,Unqualified,2025-10-16,Jessica Martinez,MQL
+LEAD-000465,Company 7826,2025-07-23,Referral,24,24,6,25,25,104,A,New,2025-10-19,Jessica Martinez,Subscriber
+LEAD-000466,Company 9636,2025-08-23,Content Download,12,6,9,0,20,47,C,New,2025-10-22,Chris Patel,Opportunity
+LEAD-000467,Company 9992,2025-09-11,Content Download,24,11,2,0,10,47,C,Qualified,2025-10-06,Jessica Martinez,Lead
+LEAD-000468,Company 2184,2025-06-27,Cold Call,1,17,14,0,55,87,A,Converted,2025-10-06,Chris Patel,SQL
+LEAD-000469,Company 7177,2025-07-15,Content Download,5,13,16,25,45,104,A,New,2025-09-28,Chris Patel,Opportunity
+LEAD-000470,Company 6657,2025-10-09,Content Download,4,9,14,25,45,97,A,Unqualified,2025-10-15,Chris Patel,Opportunity
+LEAD-000471,Company 1344,2025-09-08,Website,3,12,5,0,25,45,C,New,2025-10-08,Chris Patel,MQL
+LEAD-000472,Company 9280,2025-08-18,Content Download,15,20,15,0,35,85,A,New,2025-09-27,Jessica Martinez,MQL
+LEAD-000473,Company 6635,2025-06-22,Referral,0,7,8,0,45,60,B,Converted,2025-09-24,Chris Patel,SQL
+LEAD-000474,Company 6232,2025-09-12,Referral,17,9,1,25,30,82,A,Converted,2025-10-02,Chris Patel,Opportunity
+LEAD-000475,Company 5387,2025-10-12,Trade Show,3,23,6,25,45,102,A,Qualified,2025-09-23,Jessica Martinez,Subscriber
+LEAD-000476,Company 7607,2025-06-23,Cold Call,4,25,6,25,30,90,A,Converted,2025-09-24,David Martinez,SQL
+LEAD-000477,Company 4860,2025-10-02,Trade Show,22,11,8,0,35,76,B,Qualified,2025-10-11,Jessica Martinez,MQL
+LEAD-000478,Company 1089,2025-07-06,Trade Show,18,7,4,0,45,74,B,Qualified,2025-10-14,David Martinez,Opportunity
+LEAD-000479,Company 5141,2025-08-03,Cold Call,20,18,3,25,20,86,A,Unqualified,2025-10-14,Chris Patel,Subscriber
+LEAD-000480,Company 5994,2025-10-13,Trade Show,18,5,20,0,35,78,B,Qualified,2025-09-28,Jessica Martinez,MQL
+LEAD-000481,Company 5166,2025-10-16,Cold Call,29,21,14,0,35,99,A,New,2025-10-04,Chris Patel,MQL
+LEAD-000482,Company 7327,2025-05-12,Cold Call,14,2,11,25,40,92,A,Unqualified,2025-09-30,Chris Patel,Opportunity
+LEAD-000483,Company 3781,2025-08-26,Cold Call,26,15,16,0,40,97,A,Qualified,2025-10-09,David Martinez,MQL
+LEAD-000484,Company 3360,2025-07-22,Referral,14,4,8,25,20,71,B,New,2025-10-11,David Martinez,SQL
+LEAD-000485,Company 8832,2025-04-25,Content Download,1,10,19,0,20,50,C,Unqualified,2025-10-16,Chris Patel,SQL
+LEAD-000486,Company 5264,2025-05-13,Content Download,4,25,9,25,30,93,A,Working,2025-09-22,Chris Patel,Opportunity
+LEAD-000487,Company 8067,2025-09-20,Website,9,21,5,0,60,95,A,Unqualified,2025-10-11,David Martinez,SQL
+LEAD-000488,Company 3189,2025-10-16,Trade Show,19,15,16,25,35,110,A,Working,2025-10-15,David Martinez,MQL
+LEAD-000489,Company 2659,2025-05-09,Trade Show,22,13,1,25,55,116,A,Unqualified,2025-09-26,Chris Patel,Opportunity
+LEAD-000490,Company 2144,2025-10-01,Referral,5,19,3,0,50,77,B,Qualified,2025-09-24,Chris Patel,SQL
+LEAD-000491,Company 1182,2025-10-21,Cold Call,11,22,5,0,25,63,B,Working,2025-10-04,Jessica Martinez,Subscriber
+LEAD-000492,Company 4607,2025-07-09,Content Download,12,0,12,25,35,84,A,Unqualified,2025-10-14,Chris Patel,Opportunity
+LEAD-000493,Company 2654,2025-10-08,Cold Call,5,8,19,0,50,82,A,New,2025-10-18,Chris Patel,Lead
+LEAD-000494,Company 1784,2025-06-20,Trade Show,28,1,1,25,35,90,A,Working,2025-09-27,Jessica Martinez,SQL
+LEAD-000495,Company 3503,2025-09-06,Website,26,22,15,25,15,103,A,Unqualified,2025-10-14,David Martinez,Opportunity
+LEAD-000496,Company 9870,2025-06-01,Referral,25,6,20,25,30,106,A,Working,2025-10-21,David Martinez,Opportunity
+LEAD-000497,Company 6423,2025-10-10,Referral,12,15,1,0,40,68,B,New,2025-10-04,David Martinez,MQL
+LEAD-000498,Company 9900,2025-09-01,Cold Call,6,15,19,25,40,105,A,New,2025-10-11,David Martinez,Opportunity
+LEAD-000499,Company 7561,2025-09-22,Trade Show,15,21,20,25,30,111,A,Converted,2025-10-09,David Martinez,Subscriber
+LEAD-000500,Company 2526,2025-08-13,Referral,9,23,5,25,40,102,A,Qualified,2025-09-30,David Martinez,Subscriber

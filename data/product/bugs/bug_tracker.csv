@@ -1,0 +1,522 @@
+bug_id,product_name,title,description,category,priority,severity,status,created_date,resolved_date,days_to_fix,assigned_to,reported_by,reproducible,version_affected,fix_version
+BUG-000001,Predictive Maintenance AI,Feature Malfunction - Problem #1,"Bug Report: Inconsistent Vibration Threshold Alerts
+
+Description:
+The Predictive Maintenance AI system is generating false positive alerts for equipment vibration thresholds on conveyor belt system CB-231. The AI model appears to be misinterpreting n",Feature Malfunction,Medium,Critical,In Progress,2023-12-28,,,Rachel Green,Customer,Yes,3.6.8,
+BUG-000002,Fleet Management Platform,Performance - Error #2,Performance issue in Fleet Management Platform,Performance,Medium,Critical,In Progress,2024-02-24,,,Emily Thompson,Customer,Yes,4.3.17,
+BUG-000003,Simulation Tool,Performance - Issue #3,Performance issue in Predictive Maintenance AI,Performance,Low,Trivial,Open,2024-12-02,,,Nicole Sanders,Support,Sometimes,2.8.1,
+BUG-000004,Fleet Management Platform,Data Integrity - Problem #4,"Bug Report: Inconsistent Sensor Data Persistence After Emergency Stop
+
+Description:
+When executing an emergency stop (E-stop) during a robotic arm simulation, sensor data from the force/torque sensors is not properly preserved in the log files. After",Data Integrity,Medium,Trivial,Fixed,2025-03-24,2025-05-05,42,Rachel Green,Support,Yes,1.2.5,3.13.9
+BUG-000005,Fleet Management Platform,Security - Defect #5,Security issue in Vision System Pro,Security,Low,Major,Fixed,2025-10-13,2025-11-08,26,Emily Thompson,Engineering,Yes,2.5.3,5.15.15
+BUG-000006,Vision System Pro,Crash/Stability - Error #6,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,Low,Critical,Fixed,2025-06-16,2025-06-25,9,Nicole Sanders,Engineering,Yes,4.1.2,1.15.2
+BUG-000007,Fleet Management Platform,Data Integrity - Error #7,Data Integrity issue in Fleet Management Platform,Data Integrity,Low,Major,Wont Fix,2024-10-07,,,Emily Thompson,Customer,Yes,3.6.11,
+BUG-000008,Simulation Tool,UI/UX Issue - Problem #8,UI/UX Issue issue in Predictive Maintenance AI,UI/UX Issue,Medium,Major,In Progress,2025-08-24,,,Nicole Sanders,Engineering,Yes,1.5.15,
+BUG-000009,Simulation Tool,Integration - Issue #9,Integration issue in RobotOS Control Suite,Integration,Medium,Trivial,In Progress,2024-09-15,,,Nicole Sanders,Customer,Yes,4.13.1,
+BUG-000010,Fleet Management Platform,Integration - Defect #10,Integration issue in Simulation Tool,Integration,Medium,Major,Fixed,2023-12-22,2024-02-01,41,Nicole Sanders,Engineering,Sometimes,3.14.10,4.11.3
+BUG-000011,Fleet Management Platform,Integration - Error #11,"Bug Report: Inconsistent API Response for Sensor Health Status
+
+Description:
+The Predictive Maintenance AI system is intermittently returning incorrect sensor health status codes when queried through the REST API endpoint /api/v1/sensor-health. The r",Integration,Medium,Trivial,Closed,2024-07-25,2024-09-11,48,Marcus Johnson,QA,Sometimes,4.3.1,5.14.5
+BUG-000012,Fleet Management Platform,Security - Defect #12,Security issue in Vision System Pro,Security,High,Critical,In Progress,2024-12-16,,,Nicole Sanders,Customer,Yes,3.3.5,
+BUG-000013,Simulation Tool,Feature Malfunction - Problem #13,Feature Malfunction issue in Fleet Management Platform,Feature Malfunction,Medium,Trivial,Closed,2025-07-27,2025-09-07,42,Nicole Sanders,Customer,Sometimes,1.3.3,2.7.18
+BUG-000014,Fleet Management Platform,Security - Issue #14,"Bug Report: Unauthorized Access to Robot Control Interface After Session Timeout
+
+Description:
+During security testing, discovered that expired user sessions are not being properly terminated in RobotOS Control Suite v2.4.3. After the 30-minute timeo",Security,High,Trivial,In Progress,2023-12-09,,,Emily Thompson,Engineering,Yes,2.0.4,
+BUG-000015,Predictive Maintenance AI,UI/UX Issue - Problem #15,UI/UX Issue issue in Vision System Pro,UI/UX Issue,Medium,Trivial,In Progress,2025-05-30,,,Emily Thompson,Support,Sometimes,2.8.13,
+BUG-000016,RobotOS Control Suite,Documentation - Defect #16,Documentation issue in RobotOS Control Suite,Documentation,High,Trivial,Fixed,2025-01-25,2025-02-01,7,Rachel Green,Support,Yes,5.6.2,4.11.11
+BUG-000017,RobotOS Control Suite,Documentation - Issue #17,Documentation issue in Simulation Tool,Documentation,Medium,Critical,Fixed,2024-11-12,2024-11-25,13,Rachel Green,Support,Yes,3.8.7,3.15.0
+BUG-000018,RobotOS Control Suite,Crash/Stability - Issue #18,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Critical,Critical,Open,2024-01-06,,,Emily Thompson,QA,Yes,4.15.16,
+BUG-000019,Vision System Pro,Data Integrity - Error #19,Data Integrity issue in Predictive Maintenance AI,Data Integrity,Medium,Trivial,In Progress,2024-08-10,,,Nicole Sanders,Customer,Yes,4.12.4,
+BUG-000020,RobotOS Control Suite,Data Integrity - Error #20,"Bug Report: RobotOS Control Suite v2.4.3
+Issue: Historical motion data corruption after emergency stop
+
+Description:
+When executing an emergency stop during multi-axis movement sequences, the system occasionally corrupts historical motion data in the",Data Integrity,Low,Minor,Fixed,2024-06-13,2024-08-10,58,Nicole Sanders,Customer,Yes,4.2.5,3.0.14
+BUG-000021,RobotOS Control Suite,Feature Malfunction - Issue #21,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Low,Trivial,Open,2024-04-26,,,Rachel Green,QA,Yes,1.5.11,
+BUG-000022,RobotOS Control Suite,Security - Issue #22,Security issue in Predictive Maintenance AI,Security,Medium,Major,In Progress,2023-11-14,,,Rachel Green,Engineering,No,2.13.10,
+BUG-000023,Vision System Pro,Performance - Issue #23,Performance issue in Fleet Management Platform,Performance,Low,Minor,Open,2024-01-15,,,Rachel Green,Customer,Yes,3.11.13,
+BUG-000024,Simulation Tool,Feature Malfunction - Error #24,Feature Malfunction issue in Simulation Tool,Feature Malfunction,High,Critical,Fixed,2025-03-06,2025-03-09,3,Marcus Johnson,Customer,Yes,5.0.1,3.15.18
+BUG-000025,Fleet Management Platform,Data Integrity - Problem #25,Data Integrity issue in Vision System Pro,Data Integrity,Low,Minor,Closed,2024-08-18,2024-09-26,39,Nicole Sanders,Customer,Yes,1.5.12,4.14.0
+BUG-000026,Vision System Pro,Documentation - Problem #26,"Bug Report: Inconsistent Joint Angle Documentation in Simulation Tool
+
+Description:
+The joint angle conventions documented in the user manual (v2.4.3) do not match the actual behavior in the simulation environment. When programming robot arm movement",Documentation,Medium,Minor,Fixed,2025-04-28,2025-05-14,16,Rachel Green,Engineering,Sometimes,5.3.15,2.0.6
+BUG-000027,Vision System Pro,Integration - Defect #27,Integration issue in Predictive Maintenance AI,Integration,Medium,Critical,Fixed,2023-11-22,2024-01-02,41,Rachel Green,QA,Yes,4.12.11,2.7.6
+BUG-000028,RobotOS Control Suite,Data Integrity - Issue #28,"Bug Report: Inconsistent Sensor Data Persistence After Emergency Stop
+
+Description:
+When executing an emergency stop (E-stop) during a robotic arm simulation, sensor data from the force/torque sensors is not being properly saved to the simulation his",Data Integrity,Medium,Trivial,Fixed,2025-10-07,2025-11-06,30,Emily Thompson,QA,Sometimes,1.11.20,4.2.4
+BUG-000029,Predictive Maintenance AI,Crash/Stability - Issue #29,Crash/Stability issue in Vision System Pro,Crash/Stability,Medium,Minor,Closed,2025-09-14,2025-09-30,16,Emily Thompson,Support,Yes,2.10.10,2.6.6
+BUG-000030,RobotOS Control Suite,Performance - Error #30,Performance issue in Fleet Management Platform,Performance,Low,Critical,Fixed,2025-09-22,2025-11-05,44,Nicole Sanders,Engineering,Yes,1.13.14,4.12.1
+BUG-000031,Predictive Maintenance AI,Integration - Defect #31,Integration issue in RobotOS Control Suite,Integration,High,Minor,Fixed,2025-10-04,2025-10-15,11,Nicole Sanders,Customer,Yes,3.4.7,4.13.18
+BUG-000032,Predictive Maintenance AI,Integration - Issue #32,Integration issue in Predictive Maintenance AI,Integration,Medium,Major,Open,2024-12-24,,,Emily Thompson,Engineering,Yes,2.14.9,
+BUG-000033,Predictive Maintenance AI,Security - Error #33,Security issue in Simulation Tool,Security,Medium,Major,Closed,2024-04-05,2024-05-18,43,Nicole Sanders,Engineering,Yes,5.12.15,4.3.7
+BUG-000034,RobotOS Control Suite,UI/UX Issue - Defect #34,"Bug Report: Inconsistent Robot Arm Position Display in Control Panel
+
+Description:
+When operating the robotic arm through RobotOS Control Suite v2.4.1, the displayed joint angles in the GUI do not match the actual physical position of the robot. The ",UI/UX Issue,Medium,Minor,Fixed,2025-09-10,2025-09-21,11,Rachel Green,Engineering,Sometimes,5.12.12,4.9.18
+BUG-000035,Predictive Maintenance AI,Crash/Stability - Problem #35,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Low,Major,Closed,2024-06-24,2024-07-12,18,Marcus Johnson,Customer,Sometimes,5.14.19,4.7.13
+BUG-000036,RobotOS Control Suite,Integration - Defect #36,"Bug Report: Inconsistent Robot Path Generation in Multi-Node Setup
+
+Description:
+When running path planning simulations with multiple robot nodes (3+) in version 2.4.1 of the Simulation Tool, the generated paths occasionally show unexpected deviation",Integration,Medium,Trivial,Closed,2024-07-30,2024-09-17,49,Marcus Johnson,QA,Sometimes,4.14.12,4.7.8
+BUG-000037,Fleet Management Platform,Performance - Problem #37,"Bug Report: Inconsistent Vibration Analysis in PM-AI Module
+
+Description:
+The Predictive Maintenance AI system is showing inconsistent vibration analysis results for identical motor configurations. When monitoring two identical AC motors (Model: ABB ",Performance,Medium,Critical,Fixed,2025-01-19,2025-03-19,59,Nicole Sanders,Support,No,4.11.7,3.14.11
+BUG-000038,Predictive Maintenance AI,Data Integrity - Error #38,Data Integrity issue in Predictive Maintenance AI,Data Integrity,High,Major,In Progress,2025-03-06,,,Nicole Sanders,Customer,Sometimes,4.10.18,
+BUG-000039,RobotOS Control Suite,Feature Malfunction - Error #39,Feature Malfunction issue in RobotOS Control Suite,Feature Malfunction,Low,Trivial,Closed,2024-10-27,2024-11-22,26,Marcus Johnson,Customer,Yes,5.4.16,4.10.15
+BUG-000040,RobotOS Control Suite,UI/UX Issue - Defect #40,UI/UX Issue issue in Vision System Pro,UI/UX Issue,Medium,Major,Wont Fix,2025-08-05,,,Emily Thompson,Customer,Sometimes,5.1.4,
+BUG-000041,RobotOS Control Suite,Integration - Error #41,Integration issue in Vision System Pro,Integration,Medium,Trivial,In Progress,2025-06-28,,,Rachel Green,Engineering,Yes,4.11.11,
+BUG-000042,Vision System Pro,Integration - Error #42,"Bug Report: Fleet Management Platform
+Integration Issue: Robot Status Sync Failure
+
+Description:
+Multiple instances of robot status not synchronizing correctly between field units and the central dashboard. Affected robots appear ""Active"" in local co",Integration,High,Trivial,Fixed,2024-04-20,2024-05-03,13,Rachel Green,Customer,No,1.4.7,3.15.0
+BUG-000043,Predictive Maintenance AI,Crash/Stability - Error #43,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,High,Major,In Progress,2024-02-25,,,Emily Thompson,Support,Yes,1.9.0,
+BUG-000044,Vision System Pro,Data Integrity - Defect #44,"Bug Report: Vision System Pro - Inconsistent Object Detection Counts
+
+Description:
+The Vision System Pro is reporting inconsistent object count totals when processing identical batches of components on Production Line A. During repeated runs of the s",Data Integrity,Medium,Critical,Closed,2024-09-17,2024-10-02,15,Rachel Green,Engineering,Yes,5.14.17,4.13.11
+BUG-000045,RobotOS Control Suite,Data Integrity - Error #45,"Bug Report: Sensor Data Corruption in Multi-Robot Simulation
+
+Description:
+When running simulations with 3+ robots in the same workspace, sensor data from the secondary robots becomes corrupted after approximately 15 minutes of runtime. The LIDAR rea",Data Integrity,High,Trivial,Open,2025-01-25,,,Emily Thompson,Customer,No,5.11.14,
+BUG-000046,Vision System Pro,Performance - Problem #46,Performance issue in Simulation Tool,Performance,Medium,Critical,Open,2024-05-16,,,Nicole Sanders,Customer,Sometimes,2.15.16,
+BUG-000047,Fleet Management Platform,Integration - Error #47,Integration issue in RobotOS Control Suite,Integration,High,Major,Open,2024-03-05,,,Rachel Green,Support,Yes,3.8.13,
+BUG-000048,Vision System Pro,Security - Problem #48,"Bug Report: Unauthorized Access to Robot Status Data After User Session Timeout
+
+Description:
+When a user's session times out after 30 minutes of inactivity, the real-time robot status dashboard remains accessible through the browser's back button, e",Security,Medium,Minor,Fixed,2025-10-06,2025-10-28,22,Marcus Johnson,QA,Yes,3.7.11,3.14.1
+BUG-000049,RobotOS Control Suite,Crash/Stability - Defect #49,Crash/Stability issue in Fleet Management Platform,Crash/Stability,High,Minor,Fixed,2024-12-11,2024-12-23,12,Marcus Johnson,Customer,Sometimes,4.11.10,2.15.1
+BUG-000050,Vision System Pro,Documentation - Problem #50,"Bug Report: Inconsistent Sensor Data Logging in Predictive Maintenance Dashboard
+
+Description:
+The maintenance history graph in the Predictive Maintenance AI dashboard is displaying inconsistent temperature sensor readings for Robot Arm Unit #A-237. ",Documentation,Medium,Trivial,Wont Fix,2024-06-04,,,Marcus Johnson,Customer,No,2.7.17,
+BUG-000051,Vision System Pro,Documentation - Error #51,Documentation issue in Fleet Management Platform,Documentation,High,Minor,Open,2024-02-03,,,Rachel Green,Support,Yes,1.0.1,
+BUG-000052,Predictive Maintenance AI,Integration - Problem #52,"Bug Report: Fleet Management Platform
+Issue: Intermittent API connection failures between third-party charging stations and fleet dashboard
+
+Description:
+When multiple autonomous robots attempt to connect to charging stations simultaneously, the flee",Integration,Low,Major,In Progress,2024-02-19,,,Marcus Johnson,Customer,No,4.15.11,
+BUG-000053,Predictive Maintenance AI,Integration - Issue #53,"Bug Report: Simulation Tool Integration Failure
+
+Description:
+The simulation tool crashes when attempting to import custom robot arm configurations through the XML interface. After loading a valid XML file containing joint parameters and motion seque",Integration,High,Trivial,Open,2025-10-01,,,Emily Thompson,Customer,No,2.11.14,
+BUG-000054,Fleet Management Platform,Performance - Problem #54,"Bug Report: Inconsistent Vibration Analysis Results
+
+Description:
+The predictive maintenance AI is producing inconsistent vibration analysis readings for motor bearings when ambient temperature exceeds 35°C. System shows significant variance (>15%) i",Performance,Medium,Trivial,Wont Fix,2024-06-04,,,Emily Thompson,Customer,Yes,2.0.11,
+BUG-000055,Simulation Tool,Documentation - Defect #55,Documentation issue in RobotOS Control Suite,Documentation,Medium,Major,Fixed,2023-11-04,2023-12-01,27,Emily Thompson,Engineering,Yes,4.3.5,3.3.5
+BUG-000056,RobotOS Control Suite,Feature Malfunction - Error #56,"Bug Report: Vision System Pro - Object Detection Calibration Drift
+
+Description:
+The Vision System Pro's object detection accuracy deteriorates significantly after approximately 4 hours of continuous operation. Initial calibration shows 99.8% accurac",Feature Malfunction,Medium,Trivial,Closed,2025-04-21,2025-05-07,16,Nicole Sanders,Engineering,No,4.1.16,1.12.19
+BUG-000057,Predictive Maintenance AI,Feature Malfunction - Error #57,Feature Malfunction issue in Vision System Pro,Feature Malfunction,High,Major,In Progress,2025-06-13,,,Rachel Green,Engineering,Yes,1.9.1,
+BUG-000058,Predictive Maintenance AI,Data Integrity - Issue #58,Data Integrity issue in Fleet Management Platform,Data Integrity,Medium,Trivial,Fixed,2024-06-21,2024-07-31,40,Emily Thompson,QA,No,3.15.20,2.12.6
+BUG-000059,RobotOS Control Suite,Security - Problem #59,Security issue in Fleet Management Platform,Security,Medium,Trivial,In Progress,2024-11-28,,,Marcus Johnson,Customer,No,4.12.0,
+BUG-000060,Predictive Maintenance AI,Documentation - Error #60,"Bug Report: Inconsistent Robot Status Documentation
+
+Description:
+The Fleet Management Platform documentation contains conflicting information regarding robot status codes. In section 3.2 ""Robot States and Transitions,"" the status code ""PAUSE_004"" is",Documentation,Low,Trivial,Closed,2024-01-28,2024-02-26,29,Marcus Johnson,Engineering,Sometimes,3.7.18,2.1.16
+BUG-000061,Predictive Maintenance AI,Performance - Issue #61,"Bug Report: Intermittent Delay in Robot Status Updates
+
+Description:
+When monitoring multiple robots (10+) in the Fleet Management dashboard, status updates occasionally experience delays of 15-20 seconds, particularly for robots operating in Zone B ",Performance,Low,Minor,Fixed,2024-03-23,2024-05-08,46,Rachel Green,Customer,Yes,1.0.17,4.4.9
+BUG-000062,Predictive Maintenance AI,Crash/Stability - Error #62,"Bug Report: Intermittent System Freeze During Vibration Analysis
+
+Description:
+The Predictive Maintenance AI module sporadically freezes when processing multiple vibration sensor inputs simultaneously. System becomes unresponsive for 45-60 seconds be",Crash/Stability,Medium,Trivial,In Progress,2025-07-07,,,Marcus Johnson,Support,No,2.12.10,
+BUG-000063,RobotOS Control Suite,Data Integrity - Error #63,Data Integrity issue in Vision System Pro,Data Integrity,High,Critical,Open,2025-01-26,,,Emily Thompson,QA,Yes,4.14.18,
+BUG-000064,Simulation Tool,Integration - Problem #64,Integration issue in Predictive Maintenance AI,Integration,Medium,Major,In Progress,2024-03-31,,,Rachel Green,Customer,No,4.5.9,
+BUG-000065,Fleet Management Platform,UI/UX Issue - Defect #65,UI/UX Issue issue in Predictive Maintenance AI,UI/UX Issue,Medium,Major,Fixed,2024-11-07,2024-11-27,20,Emily Thompson,QA,Yes,1.2.5,1.1.19
+BUG-000066,Simulation Tool,Feature Malfunction - Defect #66,Feature Malfunction issue in RobotOS Control Suite,Feature Malfunction,Medium,Minor,Open,2024-12-10,,,Nicole Sanders,Customer,Sometimes,5.13.7,
+BUG-000067,Simulation Tool,Documentation - Issue #67,"Bug Report: Incorrect Robot Status Documentation in Fleet Management API Guide
+
+Description:
+The API documentation for robot status codes in section 4.2 of the Fleet Management Platform guide contains inconsistent information regarding the ""PAUSED"" s",Documentation,Low,Major,Fixed,2024-08-22,2024-10-13,52,Rachel Green,Customer,No,4.2.20,2.12.10
+BUG-000068,Simulation Tool,Security - Problem #68,"Bug Report: Unauthorized Access to Robot Status Page After Session Timeout
+
+Description:
+When a user's session expires after the 30-minute timeout period, clicking the browser's back button allows access to the previously loaded Robot Status page (/f",Security,Medium,Minor,Wont Fix,2024-03-11,,,Nicole Sanders,QA,Yes,2.13.14,
+BUG-000069,Fleet Management Platform,UI/UX Issue - Error #69,UI/UX Issue issue in Predictive Maintenance AI,UI/UX Issue,Medium,Trivial,Open,2025-06-25,,,Marcus Johnson,Support,Yes,4.3.15,
+BUG-000070,Simulation Tool,UI/UX Issue - Error #70,"Bug Report: Inconsistent Tool Selection Behavior in RobotOS Control Suite v2.4.1
+
+Description:
+When attempting to switch between different robot control tools in the main workspace, the cursor occasionally remains in the previous tool's state despite",UI/UX Issue,Low,Minor,Wont Fix,2023-10-27,,,Rachel Green,Customer,Yes,4.3.20,
+BUG-000071,Simulation Tool,Crash/Stability - Problem #71,Crash/Stability issue in Vision System Pro,Crash/Stability,High,Major,In Progress,2024-03-23,,,Emily Thompson,Engineering,Yes,3.6.11,
+BUG-000072,RobotOS Control Suite,Crash/Stability - Defect #72,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,Medium,Critical,In Progress,2024-12-19,,,Emily Thompson,Engineering,Yes,4.11.5,
+BUG-000073,RobotOS Control Suite,UI/UX Issue - Defect #73,"Bug Report: Inconsistent Sensor Status Display in Dashboard
+
+Description:
+The real-time sensor status indicators in the Predictive Maintenance dashboard occasionally display conflicting information between the main overview panel and detailed compone",UI/UX Issue,Medium,Major,Fixed,2025-03-08,2025-04-15,38,Emily Thompson,Support,No,5.14.19,2.13.13
+BUG-000074,Fleet Management Platform,Performance - Problem #74,"Bug Report: Intermittent Motor Response Delay in RobotOS Control Suite v2.4.1
+
+Description:
+When operating robotic arms through the Control Suite interface, there is an inconsistent delay between command input and motor execution. The delay ranges fr",Performance,Medium,Trivial,Fixed,2025-03-19,2025-04-13,25,Rachel Green,Support,Sometimes,1.15.20,4.15.8
+BUG-000075,Simulation Tool,Crash/Stability - Problem #75,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Medium,Major,Closed,2025-09-19,2025-10-07,18,Rachel Green,Customer,Yes,2.9.17,4.14.20
+BUG-000076,Predictive Maintenance AI,Crash/Stability - Issue #76,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Medium,Critical,Wont Fix,2024-08-13,,,Marcus Johnson,Support,Yes,3.1.0,
+BUG-000077,Fleet Management Platform,Integration - Defect #77,"Bug Report: RobotOS Control Suite
+Title: Motion Planning Module Fails to Resume After E-Stop Release
+
+Description:
+When executing multi-axis movement sequences, the motion planning module fails to properly resume operation after an emergency stop is ",Integration,Medium,Trivial,In Progress,2024-12-18,,,Marcus Johnson,Support,Yes,5.15.12,
+BUG-000078,Vision System Pro,Performance - Defect #78,Performance issue in RobotOS Control Suite,Performance,Medium,Trivial,Wont Fix,2024-03-25,,,Emily Thompson,Customer,Yes,3.9.18,
+BUG-000079,Predictive Maintenance AI,Performance - Error #79,Performance issue in Fleet Management Platform,Performance,Medium,Trivial,Closed,2025-01-09,2025-02-24,46,Rachel Green,Engineering,Yes,5.8.4,3.4.10
+BUG-000080,Fleet Management Platform,Security - Defect #80,Security issue in Simulation Tool,Security,Low,Trivial,Fixed,2023-10-26,2023-11-14,19,Rachel Green,Customer,Yes,4.13.0,2.5.6
+BUG-000081,RobotOS Control Suite,Crash/Stability - Problem #81,"Bug Report: Vision System Pro - Camera Feed Freeze
+Priority: Medium
+Category: Crash/Stability
+
+Description:
+During extended operation (>4 hours), the Vision System Pro camera feed intermittently freezes while maintaining active connection status. Sys",Crash/Stability,Medium,Major,In Progress,2024-04-14,,,Rachel Green,QA,Yes,2.11.11,
+BUG-000082,RobotOS Control Suite,Feature Malfunction - Problem #82,"Bug Report: Simulation Tool Motion Path Desynchronization
+
+Description:
+During multi-axis robot simulation, the virtual controller loses synchronization with the programmed motion path when executing curved movements (arc/circular) at speeds above 12",Feature Malfunction,Critical,Critical,In Progress,2025-01-05,,,Emily Thompson,QA,Yes,3.13.17,
+BUG-000083,Simulation Tool,Feature Malfunction - Error #83,Feature Malfunction issue in RobotOS Control Suite,Feature Malfunction,Medium,Minor,Fixed,2024-04-23,2024-05-25,32,Rachel Green,Support,Yes,3.8.8,4.3.10
+BUG-000084,Vision System Pro,UI/UX Issue - Error #84,UI/UX Issue issue in Vision System Pro,UI/UX Issue,Medium,Trivial,Closed,2025-01-28,2025-02-15,18,Emily Thompson,Customer,Yes,1.4.17,3.9.2
+BUG-000085,Predictive Maintenance AI,Feature Malfunction - Issue #85,"Bug Report: Inconsistent Robot Status Updates in Fleet Dashboard
+
+Description:
+When monitoring multiple robots through the Fleet Management Platform, the status indicators for individual robots occasionally freeze or display outdated information. The",Feature Malfunction,Low,Minor,Fixed,2024-06-24,2024-08-18,55,Marcus Johnson,Engineering,Yes,2.14.8,1.9.6
+BUG-000086,Simulation Tool,Data Integrity - Error #86,"Bug Report: Vision System Pro - Data Mismatch in CSV Export
+
+Description:
+When exporting inspection results to CSV format from Vision System Pro v2.4.1, decimal values in the measurement data occasionally show inconsistent decimal places compared to ",Data Integrity,Low,Critical,Open,2025-07-30,,,Emily Thompson,QA,Sometimes,5.3.7,
+BUG-000087,Vision System Pro,Documentation - Problem #87,Documentation issue in RobotOS Control Suite,Documentation,Low,Minor,Wont Fix,2024-12-22,,,Nicole Sanders,QA,Yes,2.14.11,
+BUG-000088,Simulation Tool,Feature Malfunction - Defect #88,Feature Malfunction issue in Predictive Maintenance AI,Feature Malfunction,Medium,Trivial,Closed,2024-10-21,2024-10-30,9,Nicole Sanders,Customer,Yes,3.1.10,4.1.2
+BUG-000089,Predictive Maintenance AI,Feature Malfunction - Problem #89,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Medium,Trivial,Fixed,2024-12-05,2025-01-10,36,Emily Thompson,Customer,Sometimes,1.12.0,1.13.6
+BUG-000090,Simulation Tool,Crash/Stability - Problem #90,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Medium,Critical,Closed,2025-01-18,2025-02-17,30,Nicole Sanders,Customer,Sometimes,4.2.4,4.7.18
+BUG-000091,Simulation Tool,Crash/Stability - Issue #91,"Bug Report: RobotOS Control Suite - Task Sequence Crash
+
+Description:
+When executing multiple sequential pick-and-place operations using the RobotOS Control Suite v2.4.1, the system intermittently crashes after completing approximately 15-20 cycles. ",Crash/Stability,Medium,Major,Closed,2024-02-20,2024-04-02,42,Rachel Green,Customer,Sometimes,2.6.5,5.1.10
+BUG-000092,RobotOS Control Suite,Performance - Defect #92,Performance issue in Simulation Tool,Performance,Medium,Major,Fixed,2023-11-06,2023-12-02,26,Rachel Green,Support,No,3.1.17,3.1.6
+BUG-000093,Fleet Management Platform,UI/UX Issue - Problem #93,UI/UX Issue issue in Vision System Pro,UI/UX Issue,Medium,Major,Closed,2025-08-03,2025-09-18,46,Nicole Sanders,Customer,No,4.10.5,5.0.0
+BUG-000094,Simulation Tool,Security - Issue #94,Security issue in Predictive Maintenance AI,Security,Medium,Trivial,Open,2025-06-16,,,Rachel Green,Support,No,1.0.8,
+BUG-000095,Vision System Pro,Performance - Problem #95,"Bug Report: Excessive CPU Usage During Sensor Data Processing
+Priority: High
+Category: Performance
+
+Description:
+The Predictive Maintenance AI system is experiencing severe performance degradation when processing multiple sensor data streams simultan",Performance,High,Minor,Fixed,2024-12-24,2025-01-02,9,Marcus Johnson,Customer,Yes,3.11.2,4.7.13
+BUG-000096,Vision System Pro,Integration - Defect #96,"Bug Report: RobotOS Control Suite v2.4.3
+Issue: Robot arm position desynchronization after emergency stop
+
+Description:
+When executing multi-axis movement sequences, the physical robot arm position becomes desynchronized from the software position tr",Integration,High,Trivial,Fixed,2025-05-12,2025-05-18,6,Rachel Green,Customer,Yes,2.4.4,1.2.20
+BUG-000097,Predictive Maintenance AI,Documentation - Issue #97,"Bug Report: Incorrect Robot Status Documentation in Fleet Management API Guide
+
+Description:
+The API documentation for robot status codes in section 4.2 of the Fleet Management Platform guide contains inconsistent information regarding the ""PAUSED"" s",Documentation,Low,Major,Closed,2024-05-21,2024-07-17,57,Marcus Johnson,Customer,No,5.10.13,1.2.6
+BUG-000098,Simulation Tool,Performance - Defect #98,Performance issue in RobotOS Control Suite,Performance,Low,Minor,In Progress,2025-02-07,,,Nicole Sanders,Customer,Yes,3.7.10,
+BUG-000099,Vision System Pro,Documentation - Problem #99,"Bug Report: Incorrect Joint Angle Documentation in Simulation Export
+
+Description:
+When exporting joint angle data from the simulation environment to CSV format, the documented angle conventions do not match the actual output values. The documentatio",Documentation,High,Minor,In Progress,2024-03-10,,,Nicole Sanders,Customer,Yes,4.11.4,
+BUG-000100,Predictive Maintenance AI,Performance - Error #100,Performance issue in Fleet Management Platform,Performance,Medium,Trivial,Fixed,2024-12-27,2025-02-21,56,Marcus Johnson,Customer,Yes,5.6.13,5.4.15
+BUG-000101,Fleet Management Platform,Integration - Issue #101,"Bug Report: Vision System Pro - Camera Feed Desynchronization
+
+Description:
+During multi-camera inspection sequences, the Vision System Pro occasionally experiences desynchronization between camera feeds when running continuous inspection cycles for ",Integration,Medium,Major,Fixed,2024-12-29,2025-02-06,39,Nicole Sanders,Customer,Yes,2.11.0,5.13.7
+BUG-000102,Simulation Tool,Data Integrity - Defect #102,Data Integrity issue in Simulation Tool,Data Integrity,Medium,Major,Open,2025-09-18,,,Marcus Johnson,Customer,Sometimes,4.1.2,
+BUG-000103,Simulation Tool,UI/UX Issue - Defect #103,UI/UX Issue issue in Fleet Management Platform,UI/UX Issue,Medium,Minor,Closed,2025-05-13,2025-07-12,60,Marcus Johnson,Engineering,Yes,5.12.0,5.6.20
+BUG-000104,Vision System Pro,Documentation - Problem #104,Documentation issue in Fleet Management Platform,Documentation,High,Major,Closed,2025-10-15,2025-10-22,7,Nicole Sanders,Engineering,Yes,2.0.8,3.4.14
+BUG-000105,RobotOS Control Suite,Integration - Issue #105,Integration issue in Vision System Pro,Integration,Medium,Minor,Fixed,2023-12-09,2024-01-31,53,Marcus Johnson,Customer,No,5.5.8,3.12.1
+BUG-000106,Predictive Maintenance AI,Integration - Error #106,"Bug Report: Inconsistent Robot Arm Positioning After E-Stop Recovery
+
+Description:
+When recovering from an emergency stop (E-Stop) activation, the RB-2000 robotic arm occasionally fails to return to its pre-E-Stop position coordinates. The position o",Integration,Medium,Major,Open,2025-04-14,,,Marcus Johnson,Customer,Yes,1.12.19,
+BUG-000107,RobotOS Control Suite,Data Integrity - Defect #107,Data Integrity issue in Fleet Management Platform,Data Integrity,High,Critical,Wont Fix,2024-10-04,,,Rachel Green,Engineering,No,3.4.9,
+BUG-000108,RobotOS Control Suite,Integration - Issue #108,Integration issue in RobotOS Control Suite,Integration,High,Major,Closed,2025-02-22,2025-02-27,5,Emily Thompson,Customer,Sometimes,1.14.2,5.6.15
+BUG-000109,Fleet Management Platform,Security - Error #109,Security issue in Fleet Management Platform,Security,Medium,Major,Fixed,2024-11-10,2024-12-13,33,Emily Thompson,Engineering,No,3.6.0,2.8.9
+BUG-000110,Fleet Management Platform,Feature Malfunction - Defect #110,"Bug Report: Anomaly Detection False Positives on Motor Vibration Analysis
+
+Description:
+The predictive maintenance AI is generating excessive false positive alerts for motor bearing failures on production line #3. System is flagging normal operationa",Feature Malfunction,High,Minor,In Progress,2023-11-26,,,Emily Thompson,Engineering,Yes,2.1.18,
+BUG-000111,Vision System Pro,UI/UX Issue - Defect #111,UI/UX Issue issue in Predictive Maintenance AI,UI/UX Issue,Low,Critical,Fixed,2025-10-20,2025-12-04,45,Marcus Johnson,Customer,Yes,4.9.3,3.11.11
+BUG-000112,Vision System Pro,UI/UX Issue - Problem #112,"Bug Report: Inconsistent Robot Path Preview Rendering
+
+Description:
+When using the path preview feature in the simulation environment, the projected robot trajectory line becomes intermittently invisible when rotating the 3D view between 45-90 degree",UI/UX Issue,Medium,Trivial,Fixed,2025-06-06,2025-07-02,26,Marcus Johnson,Engineering,No,2.11.9,4.6.10
+BUG-000113,Simulation Tool,Documentation - Issue #113,"Bug Report: Inconsistent Sensor Reading Notifications in Predictive Maintenance Dashboard
+
+Description:
+The predictive maintenance dashboard is failing to consistently display real-time sensor reading notifications for manufacturing robots in Zone B.",Documentation,Medium,Minor,In Progress,2024-03-12,,,Marcus Johnson,Customer,Yes,5.2.1,
+BUG-000114,Predictive Maintenance AI,Crash/Stability - Error #114,Crash/Stability issue in Vision System Pro,Crash/Stability,Low,Critical,Fixed,2024-03-20,2024-05-06,47,Emily Thompson,Engineering,No,2.14.6,1.13.18
+BUG-000115,Predictive Maintenance AI,UI/UX Issue - Error #115,UI/UX Issue issue in Simulation Tool,UI/UX Issue,Medium,Major,Closed,2023-12-26,2024-01-05,10,Emily Thompson,QA,No,2.10.12,5.14.3
+BUG-000116,Predictive Maintenance AI,Performance - Problem #116,"Bug Report: Intermittent Latency in Robot Status Updates
+
+Description:
+When monitoring multiple robots (10+) in the Fleet Management Platform, robot status updates are experiencing delayed synchronization. Status indicators (battery, position, task p",Performance,Medium,Trivial,Open,2024-11-08,,,Nicole Sanders,Customer,Yes,1.6.12,
+BUG-000117,Fleet Management Platform,Documentation - Defect #117,Documentation issue in RobotOS Control Suite,Documentation,Medium,Minor,In Progress,2024-12-08,,,Emily Thompson,Engineering,Yes,2.14.18,
+BUG-000118,Predictive Maintenance AI,Documentation - Defect #118,"Bug Report: Incorrect Joint Angle Documentation in Simulation Export
+
+Description:
+When exporting joint angle data from the robot simulation to CSV format, the documented angle conventions don't match the actual output values. The user manual states ",Documentation,Medium,Critical,Fixed,2023-12-28,2024-02-17,51,Nicole Sanders,Customer,Yes,4.9.1,3.11.13
+BUG-000119,Simulation Tool,Integration - Problem #119,Integration issue in Simulation Tool,Integration,Low,Trivial,Closed,2025-09-28,2025-11-04,37,Marcus Johnson,QA,Yes,5.0.17,1.4.7
+BUG-000120,Simulation Tool,Feature Malfunction - Defect #120,"Bug Report: Inconsistent Vibration Threshold Alerts
+
+Description:
+The predictive maintenance AI system is generating false positive alerts for equipment vibration thresholds on production line B. When monitoring CNC machines, the system triggers main",Feature Malfunction,Medium,Critical,Closed,2024-07-05,2024-07-27,22,Emily Thompson,Customer,Yes,3.3.15,3.3.20
+BUG-000121,Predictive Maintenance AI,Documentation - Defect #121,Documentation issue in Vision System Pro,Documentation,Medium,Trivial,Closed,2025-09-05,2025-10-18,43,Nicole Sanders,QA,Sometimes,5.7.9,1.2.6
+BUG-000122,Simulation Tool,Integration - Problem #122,"Bug Report: Inconsistent Joint Movement in Multi-Robot Simulation
+
+Description:
+When running a multi-robot simulation with more than three robotic arms, the fourth robot's joint movements become erratic and don't follow the programmed trajectory. The",Integration,Medium,Minor,Closed,2024-02-14,2024-04-12,58,Emily Thompson,Customer,Sometimes,2.13.6,4.10.2
+BUG-000123,Predictive Maintenance AI,Performance - Error #123,Performance issue in Fleet Management Platform,Performance,High,Minor,In Progress,2025-03-18,,,Rachel Green,Engineering,Yes,3.5.14,
+BUG-000124,Fleet Management Platform,Performance - Defect #124,Performance issue in Predictive Maintenance AI,Performance,Low,Trivial,In Progress,2025-03-25,,,Nicole Sanders,Customer,Yes,3.9.9,
+BUG-000125,RobotOS Control Suite,Performance - Defect #125,Performance issue in RobotOS Control Suite,Performance,Medium,Major,Closed,2024-01-17,2024-03-17,60,Rachel Green,Engineering,No,3.6.12,2.12.11
+BUG-000126,Fleet Management Platform,Performance - Issue #126,Performance issue in Vision System Pro,Performance,Medium,Minor,Open,2025-07-28,,,Marcus Johnson,Support,Sometimes,1.7.4,
+BUG-000127,Vision System Pro,Integration - Defect #127,Integration issue in Fleet Management Platform,Integration,Medium,Critical,In Progress,2025-01-30,,,Emily Thompson,Engineering,Yes,4.2.10,
+BUG-000128,Predictive Maintenance AI,Feature Malfunction - Problem #128,"Bug Report: Inconsistent Robot Status Updates in Fleet Dashboard
+
+Description:
+The fleet management dashboard is displaying incorrect real-time status for multiple AGVs (Automated Guided Vehicles). When robots transition between ""In Operation"" and ""C",Feature Malfunction,Medium,Major,In Progress,2024-01-19,,,Rachel Green,Customer,Yes,3.12.19,
+BUG-000129,RobotOS Control Suite,Data Integrity - Defect #129,Data Integrity issue in Simulation Tool,Data Integrity,High,Critical,Closed,2024-06-12,2024-06-20,8,Rachel Green,Customer,Yes,3.15.1,4.15.7
+BUG-000130,Predictive Maintenance AI,Data Integrity - Issue #130,Data Integrity issue in Simulation Tool,Data Integrity,Low,Critical,In Progress,2024-03-12,,,Marcus Johnson,Customer,Yes,5.14.17,
+BUG-000131,Vision System Pro,Feature Malfunction - Problem #131,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Medium,Major,In Progress,2023-11-01,,,Rachel Green,Support,No,2.4.17,
+BUG-000132,Predictive Maintenance AI,Data Integrity - Error #132,Data Integrity issue in Predictive Maintenance AI,Data Integrity,High,Minor,Closed,2025-03-11,2025-03-20,9,Nicole Sanders,Customer,Yes,3.5.3,1.9.1
+BUG-000133,RobotOS Control Suite,Integration - Defect #133,Integration issue in RobotOS Control Suite,Integration,Medium,Major,Fixed,2023-12-23,2024-01-28,36,Nicole Sanders,Engineering,Sometimes,1.0.7,1.1.4
+BUG-000134,RobotOS Control Suite,Security - Issue #134,Security issue in Fleet Management Platform,Security,High,Minor,Open,2024-10-07,,,Emily Thompson,Customer,Yes,5.6.9,
+BUG-000135,RobotOS Control Suite,Data Integrity - Error #135,Data Integrity issue in Vision System Pro,Data Integrity,Low,Critical,Open,2023-12-08,,,Nicole Sanders,Customer,No,5.10.19,
+BUG-000136,RobotOS Control Suite,Performance - Problem #136,Performance issue in Fleet Management Platform,Performance,Low,Trivial,Open,2024-05-18,,,Rachel Green,QA,Yes,2.10.2,
+BUG-000137,Predictive Maintenance AI,Feature Malfunction - Defect #137,Feature Malfunction issue in Vision System Pro,Feature Malfunction,Medium,Major,In Progress,2023-11-17,,,Rachel Green,Customer,Sometimes,4.11.15,
+BUG-000138,Vision System Pro,Documentation - Problem #138,"Bug Report: Inconsistent Sensor Data Logging in Predictive Maintenance Dashboard
+
+Description:
+The maintenance history graph in the PM-AI dashboard occasionally displays gaps in sensor data logging for connected robotic arms, specifically for tempera",Documentation,Medium,Trivial,Wont Fix,2025-01-29,,,Nicole Sanders,Customer,Sometimes,3.3.8,
+BUG-000139,Simulation Tool,Performance - Error #139,Performance issue in RobotOS Control Suite,Performance,Medium,Major,Closed,2025-08-28,2025-10-09,42,Nicole Sanders,Customer,Yes,5.14.2,3.14.18
+BUG-000140,RobotOS Control Suite,Data Integrity - Problem #140,Data Integrity issue in Fleet Management Platform,Data Integrity,High,Minor,Open,2023-11-22,,,Marcus Johnson,Engineering,Yes,4.7.8,
+BUG-000141,Predictive Maintenance AI,Integration - Defect #141,Integration issue in Simulation Tool,Integration,Medium,Major,Open,2025-08-25,,,Marcus Johnson,Customer,Yes,1.9.1,
+BUG-000142,Predictive Maintenance AI,Security - Problem #142,"Bug Report: Vision System Pro - Camera Authentication Bypass
+
+Description:
+The Vision System Pro's authentication mechanism can be bypassed when connecting new IP cameras to the network. During testing, we discovered that after a brief network interr",Security,High,Minor,Closed,2025-01-15,2025-01-30,15,Nicole Sanders,QA,No,3.6.0,4.5.1
+BUG-000143,Predictive Maintenance AI,Security - Problem #143,Security issue in Predictive Maintenance AI,Security,Medium,Trivial,Fixed,2024-01-10,2024-02-12,33,Nicole Sanders,Support,Sometimes,1.2.20,3.4.4
+BUG-000144,Fleet Management Platform,Feature Malfunction - Problem #144,Feature Malfunction issue in Fleet Management Platform,Feature Malfunction,High,Major,Closed,2024-03-22,2024-03-28,6,Rachel Green,Customer,Yes,3.4.13,5.1.19
+BUG-000145,Predictive Maintenance AI,Performance - Error #145,"Bug Report: Simulation Tool Memory Leak During Multi-Robot Scenarios
+
+Description:
+Critical memory leak detected in Simulation Tool v2.4.3 when running multi-robot scenarios for extended periods (>30 minutes). RAM usage increases approximately 500MB ",Performance,Critical,Major,In Progress,2024-01-20,,,Emily Thompson,QA,Sometimes,2.13.9,
+BUG-000146,Predictive Maintenance AI,UI/UX Issue - Error #146,UI/UX Issue issue in RobotOS Control Suite,UI/UX Issue,Medium,Critical,In Progress,2024-01-21,,,Rachel Green,Support,No,4.0.20,
+BUG-000147,Vision System Pro,Performance - Defect #147,"Bug Report: Intermittent Motion Control Latency
+
+Description:
+When operating multiple robotic arms simultaneously through RobotOS Control Suite v2.4.1, significant control latency occurs after approximately 45-60 minutes of continuous operation. The ",Performance,Medium,Major,Closed,2024-11-17,2024-12-07,20,Emily Thompson,Customer,Yes,3.8.14,5.3.5
+BUG-000148,Vision System Pro,Crash/Stability - Problem #148,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,High,Major,In Progress,2024-10-01,,,Emily Thompson,Engineering,Yes,5.6.8,
+BUG-000149,Vision System Pro,Crash/Stability - Error #149,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,High,Trivial,Fixed,2025-09-16,2025-09-20,4,Marcus Johnson,Engineering,Sometimes,3.11.10,4.14.14
+BUG-000150,Predictive Maintenance AI,UI/UX Issue - Problem #150,"Bug Report: Inconsistent Sensor Status Display in Dashboard
+
+Description:
+The real-time sensor status indicators in the Predictive Maintenance dashboard occasionally display conflicting information between the main overview panel and detailed compone",UI/UX Issue,Medium,Critical,In Progress,2024-12-16,,,Marcus Johnson,QA,Yes,2.3.12,
+BUG-000151,Vision System Pro,Data Integrity - Issue #151,"Bug Report: Data Corruption in Simulation Export
+Priority: High
+Category: Data Integrity
+
+Description:
+When exporting simulation results containing multiple robot arm trajectories to CSV format, the angular values for Joint 3 and Joint 4 are incorrec",Data Integrity,High,Minor,In Progress,2024-08-04,,,Rachel Green,Support,Yes,5.15.20,
+BUG-000152,Simulation Tool,Data Integrity - Issue #152,Data Integrity issue in RobotOS Control Suite,Data Integrity,High,Trivial,In Progress,2024-06-21,,,Rachel Green,Customer,Yes,2.2.4,
+BUG-000153,RobotOS Control Suite,UI/UX Issue - Defect #153,UI/UX Issue issue in RobotOS Control Suite,UI/UX Issue,Medium,Trivial,Closed,2025-06-16,2025-07-03,17,Emily Thompson,Support,Yes,5.4.5,3.11.19
+BUG-000154,RobotOS Control Suite,UI/UX Issue - Issue #154,UI/UX Issue issue in Simulation Tool,UI/UX Issue,High,Trivial,Fixed,2025-10-14,2025-10-20,6,Emily Thompson,Customer,Yes,4.3.2,3.2.8
+BUG-000155,Simulation Tool,Crash/Stability - Issue #155,Crash/Stability issue in Simulation Tool,Crash/Stability,Medium,Critical,In Progress,2024-12-21,,,Rachel Green,Support,Sometimes,5.4.7,
+BUG-000156,Fleet Management Platform,Documentation - Issue #156,Documentation issue in RobotOS Control Suite,Documentation,High,Major,In Progress,2023-12-24,,,Emily Thompson,QA,Yes,2.2.19,
+BUG-000157,Vision System Pro,Security - Defect #157,"Bug Report: Unauthorized Access to Robot Controls After Session Timeout
+Priority: High
+Category: Security
+
+Description:
+During penetration testing, we discovered that expired user sessions on RobotOS Control Suite v2.4.3 remain partially active, allo",Security,High,Trivial,Fixed,2025-01-20,2025-01-24,4,Rachel Green,QA,No,2.10.14,3.3.12
+BUG-000158,Fleet Management Platform,Feature Malfunction - Issue #158,"Bug Report: Vision System Pro - Object Detection Inconsistency
+
+Description:
+The Vision System Pro's object detection algorithm occasionally fails to recognize cylindrical objects when they are positioned at angles between 60-75 degrees relative to t",Feature Malfunction,Low,Major,Closed,2025-02-03,2025-02-15,12,Nicole Sanders,Support,Sometimes,5.4.11,2.11.3
+BUG-000159,Vision System Pro,Security - Error #159,Security issue in Fleet Management Platform,Security,Medium,Trivial,Fixed,2023-12-22,2024-02-03,43,Marcus Johnson,QA,Yes,1.14.16,5.5.18
+BUG-000160,RobotOS Control Suite,Data Integrity - Issue #160,Data Integrity issue in RobotOS Control Suite,Data Integrity,Medium,Minor,Closed,2024-12-04,2024-12-22,18,Emily Thompson,QA,No,1.0.19,2.5.4
+BUG-000161,Fleet Management Platform,Crash/Stability - Error #161,"Bug Report: Intermittent AI Model Crash During Multi-Sensor Data Processing
+
+Description:
+The Predictive Maintenance AI system intermittently crashes when processing concurrent data streams from multiple vibration sensors. The crash occurs specifical",Crash/Stability,Medium,Critical,Fixed,2024-08-01,2024-09-19,49,Emily Thompson,Customer,No,5.4.8,2.4.0
+BUG-000162,Vision System Pro,Integration - Issue #162,Integration issue in Vision System Pro,Integration,High,Major,Closed,2024-04-13,2024-04-24,11,Rachel Green,Customer,Yes,3.11.1,4.1.1
+BUG-000163,Simulation Tool,Crash/Stability - Problem #163,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,Medium,Trivial,Fixed,2024-09-22,2024-10-22,30,Emily Thompson,Engineering,No,5.5.16,3.7.1
+BUG-000164,Simulation Tool,UI/UX Issue - Problem #164,UI/UX Issue issue in Fleet Management Platform,UI/UX Issue,Critical,Major,Fixed,2024-11-01,2024-11-03,2,Emily Thompson,Support,No,4.7.15,5.7.1
+BUG-000165,Vision System Pro,Crash/Stability - Error #165,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Medium,Major,Closed,2024-12-12,2025-01-29,48,Nicole Sanders,Customer,Sometimes,3.13.6,4.11.1
+BUG-000166,Predictive Maintenance AI,Crash/Stability - Issue #166,"Bug Report: Predictive Maintenance AI System Crash During Multi-Sensor Data Processing
+
+Description:
+The Predictive Maintenance AI system crashes unexpectedly when processing concurrent data streams from multiple vibration sensors. This occurs specif",Crash/Stability,High,Major,In Progress,2024-09-02,,,Marcus Johnson,Customer,Yes,4.1.15,
+BUG-000167,Predictive Maintenance AI,Performance - Error #167,Performance issue in Vision System Pro,Performance,Low,Minor,Open,2025-03-12,,,Emily Thompson,Engineering,Sometimes,3.4.2,
+BUG-000168,RobotOS Control Suite,Feature Malfunction - Error #168,"Bug Report: Inconsistent Joint Rotation Values in Robot Arm Simulation
+
+Description:
+When simulating the UR10e robotic arm model, the wrist_3_joint rotation values displayed in the simulation UI do not match the actual joint positions during path exe",Feature Malfunction,Low,Minor,Wont Fix,2023-12-17,,,Emily Thompson,Support,Yes,5.13.16,
+BUG-000169,Vision System Pro,Data Integrity - Defect #169,"Bug Report: Data Corruption in Simulation Export Files
+Priority: High
+Category: Data Integrity
+
+Description:
+When exporting simulation results containing multiple robot arm trajectories to CSV format, the angular values for Joint 3 and Joint 4 are in",Data Integrity,High,Minor,Closed,2024-04-23,2024-05-01,8,Rachel Green,Support,Yes,1.11.20,3.5.3
+BUG-000170,Vision System Pro,UI/UX Issue - Error #170,UI/UX Issue issue in Fleet Management Platform,UI/UX Issue,Low,Minor,Fixed,2024-01-08,2024-02-17,40,Emily Thompson,Support,Sometimes,2.13.10,2.15.18
+BUG-000171,Vision System Pro,Data Integrity - Defect #171,Data Integrity issue in Fleet Management Platform,Data Integrity,Medium,Critical,Closed,2024-05-21,2024-07-18,58,Nicole Sanders,Customer,Sometimes,2.8.13,4.2.16
+BUG-000172,RobotOS Control Suite,Feature Malfunction - Issue #172,"Bug Report: Incorrect Robot Status After Emergency Stop Recovery
+
+Description:
+When a robot recovers from an emergency stop (E-stop), the Fleet Management Platform occasionally displays an incorrect operational status. The robot physically resumes no",Feature Malfunction,Medium,Minor,Closed,2024-01-11,2024-01-30,19,Rachel Green,Customer,No,2.9.0,4.3.5
+BUG-000173,Simulation Tool,Crash/Stability - Defect #173,"Bug Report: Simulation Tool Crash During Multi-Robot Path Planning
+
+Description:
+The simulation environment crashes intermittently when attempting to calculate collision-free paths for multiple robots (4+ units) in the same workspace. The crash occur",Crash/Stability,Medium,Major,Open,2025-01-10,,,Emily Thompson,Customer,Sometimes,4.5.3,
+BUG-000174,Predictive Maintenance AI,Feature Malfunction - Defect #174,"Bug Report: Inconsistent Vibration Threshold Alerts
+
+Description:
+The Predictive Maintenance AI is generating false positives for bearing failure alerts on Production Line B's robotic arms. System logs show vibration threshold alerts triggering at 2.",Feature Malfunction,Medium,Major,Open,2024-08-06,,,Nicole Sanders,Customer,Yes,1.0.5,
+BUG-000175,RobotOS Control Suite,Data Integrity - Error #175,Data Integrity issue in Fleet Management Platform,Data Integrity,Medium,Trivial,Open,2024-01-05,,,Marcus Johnson,Customer,Yes,2.9.20,
+BUG-000176,Vision System Pro,Crash/Stability - Problem #176,Crash/Stability issue in Vision System Pro,Crash/Stability,High,Trivial,Closed,2024-10-19,2024-10-30,11,Nicole Sanders,Support,Sometimes,2.14.14,1.13.12
+BUG-000177,Simulation Tool,Integration - Issue #177,"Bug Report: Fleet Management Platform
+Integration Error When Connecting Multiple AGVs
+
+Description:
+When attempting to integrate more than 8 Automated Guided Vehicles (AGVs) simultaneously into the Fleet Management Platform, the system becomes unresp",Integration,High,Trivial,Open,2023-11-29,,,Marcus Johnson,QA,No,2.6.1,
+BUG-000178,Simulation Tool,Crash/Stability - Issue #178,"Bug Report: Intermittent Fleet Dashboard Crash During Multi-Robot Status Updates
+
+Description:
+The Fleet Management Dashboard intermittently crashes when multiple robots (>5) simultaneously update their status within a 2-second window. The crash occu",Crash/Stability,Medium,Trivial,Open,2025-04-07,,,Nicole Sanders,Support,Yes,1.13.11,
+BUG-000179,Simulation Tool,Crash/Stability - Error #179,"Bug Report: Intermittent Control Panel Freeze After Extended Operation
+
+Description:
+RobotOS Control Suite v2.4.3 occasionally becomes unresponsive after running continuous automation sequences for 8+ hours. The main control panel interface freezes w",Crash/Stability,Low,Minor,Fixed,2025-05-29,2025-07-25,57,Rachel Green,Customer,Yes,5.0.13,5.12.9
+BUG-000180,Simulation Tool,Crash/Stability - Error #180,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,Medium,Minor,Wont Fix,2024-04-13,,,Rachel Green,Engineering,Sometimes,2.9.20,
+BUG-000181,Predictive Maintenance AI,Documentation - Defect #181,Documentation issue in RobotOS Control Suite,Documentation,Low,Trivial,Fixed,2025-07-08,2025-07-31,23,Emily Thompson,Support,Yes,4.14.8,1.13.1
+BUG-000182,Fleet Management Platform,Integration - Error #182,Integration issue in Vision System Pro,Integration,Medium,Critical,Closed,2023-12-20,2024-01-27,38,Marcus Johnson,QA,Sometimes,4.6.6,1.2.18
+BUG-000183,Fleet Management Platform,Feature Malfunction - Issue #183,Feature Malfunction issue in Vision System Pro,Feature Malfunction,Medium,Trivial,Closed,2024-09-05,2024-09-24,19,Nicole Sanders,Customer,Yes,4.6.1,1.12.14
+BUG-000184,Fleet Management Platform,Documentation - Defect #184,"Bug Report: Incorrect Robot Arm Kinematics Documentation
+
+Description:
+The forward kinematics documentation for the RT-5000 robotic arm contains incorrect Denavit-Hartenberg parameters in Section 3.2. The documented values for joint 3's alpha paramet",Documentation,Critical,Critical,In Progress,2023-11-09,,,Nicole Sanders,QA,Sometimes,1.6.11,
+BUG-000185,Fleet Management Platform,Documentation - Defect #185,Documentation issue in Fleet Management Platform,Documentation,Medium,Minor,Fixed,2024-08-21,2024-10-12,52,Emily Thompson,QA,Yes,3.5.7,2.5.15
+BUG-000186,Fleet Management Platform,UI/UX Issue - Issue #186,UI/UX Issue issue in Simulation Tool,UI/UX Issue,High,Critical,Fixed,2024-06-25,2024-07-06,11,Rachel Green,QA,Yes,3.14.12,4.13.10
+BUG-000187,RobotOS Control Suite,Crash/Stability - Error #187,Crash/Stability issue in Vision System Pro,Crash/Stability,High,Trivial,Fixed,2025-03-23,2025-03-27,4,Marcus Johnson,Customer,Sometimes,2.11.10,4.10.13
+BUG-000188,RobotOS Control Suite,Integration - Error #188,"Bug Report: Failed Integration Sync Between AGV Units and Central Dashboard
+
+Description:
+Multiple AGV (Automated Guided Vehicle) units are not properly syncing their status updates with the Fleet Management Platform's central dashboard. Status updat",Integration,High,Trivial,Open,2025-10-20,,,Marcus Johnson,Engineering,Yes,4.4.20,
+BUG-000189,Fleet Management Platform,UI/UX Issue - Defect #189,"Bug Report: Simulation Tool Control Panel Unresponsive After Multiple Workspace Switches
+
+Description:
+The simulation control panel becomes unresponsive after switching between multiple robot workspace configurations. When users toggle between 3+ dif",UI/UX Issue,Medium,Minor,Fixed,2024-07-13,2024-07-23,10,Nicole Sanders,QA,Yes,3.15.0,3.8.7
+BUG-000190,Fleet Management Platform,Crash/Stability - Error #190,"Bug Report: Vision System Pro - Camera Feed Freeze During Multi-Point Inspection
+
+Description:
+During automated multi-point inspection sequences, the Vision System Pro camera feed occasionally freezes when switching between inspection points. The sys",Crash/Stability,Medium,Trivial,Closed,2025-03-01,2025-03-29,28,Marcus Johnson,Customer,No,5.11.0,3.9.0
+BUG-000191,Vision System Pro,Documentation - Problem #191,Documentation issue in Vision System Pro,Documentation,Medium,Minor,In Progress,2025-09-02,,,Emily Thompson,Customer,Sometimes,2.0.18,
+BUG-000192,Simulation Tool,Security - Defect #192,Security issue in RobotOS Control Suite,Security,Low,Minor,Closed,2025-06-29,2025-07-19,20,Marcus Johnson,Engineering,Sometimes,1.5.3,5.9.17
+BUG-000193,Predictive Maintenance AI,Crash/Stability - Problem #193,Crash/Stability issue in Vision System Pro,Crash/Stability,Critical,Minor,Fixed,2024-11-30,2024-12-05,5,Emily Thompson,QA,Yes,1.6.13,4.15.12
+BUG-000194,Predictive Maintenance AI,Security - Defect #194,Security issue in Fleet Management Platform,Security,Low,Major,Closed,2025-01-07,2025-01-28,21,Marcus Johnson,Engineering,Yes,4.6.0,1.3.16
+BUG-000195,RobotOS Control Suite,Integration - Problem #195,Integration issue in Vision System Pro,Integration,High,Trivial,Closed,2023-11-30,2023-12-12,12,Rachel Green,Customer,Sometimes,5.1.19,2.1.13
+BUG-000196,Vision System Pro,Data Integrity - Error #196,Data Integrity issue in Fleet Management Platform,Data Integrity,High,Trivial,Open,2025-02-10,,,Emily Thompson,QA,Sometimes,4.10.7,
+BUG-000197,Vision System Pro,Feature Malfunction - Problem #197,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Low,Minor,Fixed,2024-06-29,2024-07-26,27,Rachel Green,Support,No,5.14.5,1.6.1
+BUG-000198,Predictive Maintenance AI,Crash/Stability - Problem #198,Crash/Stability issue in Vision System Pro,Crash/Stability,Medium,Trivial,Closed,2024-08-25,2024-09-11,17,Marcus Johnson,Support,Yes,1.6.0,4.8.11
+BUG-000199,Vision System Pro,Performance - Issue #199,Performance issue in Simulation Tool,Performance,High,Minor,Fixed,2024-03-29,2024-04-09,11,Marcus Johnson,Customer,No,5.9.19,3.3.13
+BUG-000200,Fleet Management Platform,Feature Malfunction - Defect #200,Feature Malfunction issue in Fleet Management Platform,Feature Malfunction,Low,Minor,Open,2024-10-01,,,Marcus Johnson,Customer,Yes,1.0.13,
+BUG-000201,Simulation Tool,Integration - Issue #201,"Bug Report: Vision System Pro - Camera Calibration Failure
+
+Description:
+During multi-camera calibration process, Vision System Pro v2.4.1 intermittently fails to complete the calibration sequence when using more than 3 cameras simultaneously. The sy",Integration,High,Minor,In Progress,2024-11-24,,,Emily Thompson,QA,No,4.1.1,
+BUG-000202,Predictive Maintenance AI,Feature Malfunction - Defect #202,Feature Malfunction issue in Vision System Pro,Feature Malfunction,High,Trivial,Closed,2024-02-15,2024-02-29,14,Marcus Johnson,QA,Yes,5.0.16,3.15.16
+BUG-000203,Fleet Management Platform,Performance - Error #203,Performance issue in Fleet Management Platform,Performance,Critical,Trivial,Fixed,2025-10-01,2025-10-06,5,Marcus Johnson,Customer,No,3.6.1,5.10.1
+BUG-000204,RobotOS Control Suite,Performance - Issue #204,Performance issue in RobotOS Control Suite,Performance,Medium,Minor,Fixed,2024-04-15,2024-05-18,33,Emily Thompson,Customer,Sometimes,3.0.16,5.4.20
+BUG-000205,Predictive Maintenance AI,Integration - Defect #205,"Bug Report: Inconsistent Robot Path Generation in Multi-Axis Simulation
+
+Description:
+When importing custom robot paths from CAM files (.rpf format) into the simulation environment, the tool occasionally generates incorrect trajectories for 6-axis ro",Integration,Medium,Minor,In Progress,2024-08-19,,,Nicole Sanders,Customer,No,5.15.6,
+BUG-000206,Vision System Pro,Feature Malfunction - Defect #206,Feature Malfunction issue in RobotOS Control Suite,Feature Malfunction,Medium,Trivial,Closed,2025-06-25,2025-07-24,29,Rachel Green,Customer,Yes,2.0.18,5.1.4
+BUG-000207,Fleet Management Platform,Feature Malfunction - Error #207,"Bug Report: Inconsistent Robot Arm Position After E-Stop Recovery
+
+Description:
+When recovering from an emergency stop, the RX-2000 robotic arm occasionally fails to return to its last known position before resuming programmed operations. The arm ins",Feature Malfunction,Medium,Major,Fixed,2025-10-08,2025-11-21,44,Emily Thompson,QA,Sometimes,2.3.0,3.0.16
+BUG-000208,Vision System Pro,Data Integrity - Defect #208,Data Integrity issue in Fleet Management Platform,Data Integrity,Low,Critical,In Progress,2025-08-07,,,Emily Thompson,Support,Sometimes,3.9.4,
+BUG-000209,Simulation Tool,Performance - Issue #209,Performance issue in Simulation Tool,Performance,Critical,Trivial,Fixed,2024-04-23,2024-04-27,4,Emily Thompson,Engineering,Sometimes,1.11.15,2.12.13
+BUG-000210,Predictive Maintenance AI,Crash/Stability - Error #210,Crash/Stability issue in Fleet Management Platform,Crash/Stability,Medium,Trivial,In Progress,2024-11-19,,,Emily Thompson,Customer,Sometimes,2.13.8,
+BUG-000211,RobotOS Control Suite,Security - Error #211,Security issue in Vision System Pro,Security,High,Trivial,Fixed,2025-09-01,2025-09-04,3,Nicole Sanders,Customer,No,3.14.8,5.10.12
+BUG-000212,RobotOS Control Suite,Feature Malfunction - Error #212,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Medium,Minor,Fixed,2025-07-17,2025-08-30,44,Rachel Green,QA,Sometimes,5.7.4,2.1.14
+BUG-000213,Simulation Tool,UI/UX Issue - Error #213,UI/UX Issue issue in Fleet Management Platform,UI/UX Issue,Low,Minor,Closed,2025-01-29,2025-03-14,44,Rachel Green,Engineering,No,4.3.15,4.4.10
+BUG-000214,Vision System Pro,Data Integrity - Issue #214,"Bug Report: Data Desynchronization in Multi-Robot Task Assignment
+
+Description:
+When running multiple robots (3+) in collaborative mode, task assignment data becomes desynchronized between the master controller and robot nodes after approximately 4 h",Data Integrity,Medium,Critical,Closed,2024-07-21,2024-09-15,56,Nicole Sanders,Customer,No,1.8.6,5.4.17
+BUG-000215,RobotOS Control Suite,Performance - Defect #215,Performance issue in Fleet Management Platform,Performance,Low,Major,Closed,2024-12-12,2024-12-25,13,Marcus Johnson,Support,No,2.10.13,4.3.9
+BUG-000216,RobotOS Control Suite,Feature Malfunction - Error #216,"Bug Report: Inconsistent Robot Status Updates in Fleet Dashboard
+
+Description:
+The fleet management dashboard is displaying incorrect real-time status for automated guided vehicles (AGVs). When multiple AGVs transition between ""In Operation"" and ""Cha",Feature Malfunction,Medium,Minor,Open,2025-03-30,,,Emily Thompson,Customer,No,5.5.7,
+BUG-000217,Fleet Management Platform,Documentation - Defect #217,"Bug Report: Inconsistent Sensor Data Logging in Predictive Maintenance Dashboard
+
+Description:
+The maintenance history graph in the dashboard occasionally displays gaps in sensor data collection for the robotic arm temperature readings. When monitori",Documentation,Medium,Critical,Fixed,2025-01-06,2025-02-19,44,Marcus Johnson,Customer,Sometimes,5.2.20,3.3.16
+BUG-000218,Vision System Pro,Feature Malfunction - Error #218,"Bug Report: RobotOS Control Suite v2.4.3
+Issue: Robotic Arm Position Drift During Repeated Pick-and-Place Operations
+
+Description:
+During extended production runs, the robotic arm experiences gradual position drift when performing repetitive pick-and",Feature Malfunction,High,Critical,Wont Fix,2025-02-14,,,Nicole Sanders,Support,Sometimes,2.3.12,
+BUG-000219,Predictive Maintenance AI,Feature Malfunction - Issue #219,"Bug Report: Vision System Pro - Object Detection Calibration Drift
+
+Description:
+The Vision System Pro's object detection accuracy deteriorates significantly after approximately 4 hours of continuous operation. Initial calibration shows 99.8% accurac",Feature Malfunction,Medium,Trivial,Fixed,2025-09-04,2025-10-21,47,Rachel Green,QA,Sometimes,5.0.12,4.8.7
+BUG-000220,Predictive Maintenance AI,Integration - Issue #220,Integration issue in RobotOS Control Suite,Integration,Medium,Minor,Open,2024-02-03,,,Rachel Green,Support,Yes,4.8.14,
+BUG-000221,Predictive Maintenance AI,Documentation - Defect #221,Documentation issue in Simulation Tool,Documentation,High,Major,Closed,2024-10-08,2024-10-22,14,Nicole Sanders,QA,No,5.0.3,2.10.1
+BUG-000222,Vision System Pro,Documentation - Problem #222,Documentation issue in Vision System Pro,Documentation,Medium,Major,Closed,2024-04-20,2024-04-27,7,Marcus Johnson,QA,Sometimes,4.3.19,1.8.6
+BUG-000223,Vision System Pro,Security - Problem #223,Security issue in Vision System Pro,Security,High,Critical,Fixed,2023-12-21,2024-01-01,11,Marcus Johnson,Engineering,Yes,5.15.10,5.11.18
+BUG-000224,Fleet Management Platform,UI/UX Issue - Error #224,UI/UX Issue issue in Predictive Maintenance AI,UI/UX Issue,Low,Trivial,In Progress,2024-03-24,,,Marcus Johnson,Customer,No,5.10.17,
+BUG-000225,Vision System Pro,Crash/Stability - Issue #225,Crash/Stability issue in Predictive Maintenance AI,Crash/Stability,High,Critical,Open,2024-04-23,,,Emily Thompson,Support,Yes,3.2.8,
+BUG-000226,Simulation Tool,Performance - Error #226,"Bug Report: Vision System Pro - Image Processing Delay
+
+Description:
+When processing multiple objects (8+ items) simultaneously in the inspection queue, Vision System Pro exhibits significant latency between image capture and analysis results. The de",Performance,Medium,Major,In Progress,2023-11-16,,,Emily Thompson,Support,No,3.1.8,
+BUG-000227,Predictive Maintenance AI,Security - Problem #227,Security issue in Predictive Maintenance AI,Security,Low,Trivial,Closed,2024-05-17,2024-07-14,58,Nicole Sanders,Customer,Yes,1.13.18,1.4.18
+BUG-000228,Fleet Management Platform,Documentation - Issue #228,Documentation issue in Predictive Maintenance AI,Documentation,Medium,Critical,Closed,2025-08-29,2025-09-16,18,Marcus Johnson,Customer,Sometimes,5.8.17,2.10.16
+BUG-000229,Predictive Maintenance AI,Feature Malfunction - Problem #229,Feature Malfunction issue in Simulation Tool,Feature Malfunction,Low,Minor,Closed,2025-01-09,2025-02-25,47,Marcus Johnson,Customer,Yes,1.6.4,1.1.4
+BUG-000230,Simulation Tool,Performance - Error #230,Performance issue in Predictive Maintenance AI,Performance,Low,Trivial,Closed,2025-07-15,2025-09-04,51,Nicole Sanders,Support,No,5.9.18,3.15.11
+BUG-000231,Vision System Pro,Feature Malfunction - Defect #231,"Bug Report: Inconsistent Vibration Threshold Alerts
+
+Description:
+The predictive maintenance AI system is generating false positives for vibration threshold alerts on conveyor belt unit CB-231. When operating within normal parameters (15-25 Hz), the ",Feature Malfunction,Low,Minor,Fixed,2025-06-17,2025-07-30,43,Emily Thompson,Customer,Yes,5.8.2,1.8.11
+BUG-000232,Simulation Tool,Crash/Stability - Error #232,Crash/Stability issue in RobotOS Control Suite,Crash/Stability,Medium,Critical,In Progress,2024-06-24,,,Nicole Sanders,Customer,Yes,1.14.18,
+BUG-000233,Simulation Tool,Documentation - Problem #233,"Bug Report: Incorrect Robot Status After Network Interruption
+
+Description:
+When a network interruption occurs during robot operation, the Fleet Management Platform displays incorrect status information after connectivity is restored. The web interfa",Documentation,Medium,Trivial,In Progress,2023-12-07,,,Rachel Green,Engineering,Yes,4.11.9,
+BUG-000234,Simulation Tool,UI/UX Issue - Problem #234,UI/UX Issue issue in RobotOS Control Suite,UI/UX Issue,Medium,Minor,Closed,2025-07-16,2025-07-30,14,Marcus Johnson,Engineering,Sometimes,1.6.9,2.9.7
+BUG-000235,Predictive Maintenance AI,Performance - Error #235,Performance issue in Fleet Management Platform,Performance,High,Major,Fixed,2025-04-16,2025-04-23,7,Rachel Green,QA,Yes,3.4.6,2.5.13
+BUG-000236,Vision System Pro,Documentation - Issue #236,Documentation issue in Vision System Pro,Documentation,Medium,Trivial,Fixed,2025-06-28,2025-07-29,31,Nicole Sanders,QA,Yes,2.2.9,2.4.2
+BUG-000237,Vision System Pro,Data Integrity - Defect #237,Data Integrity issue in Fleet Management Platform,Data Integrity,Medium,Minor,Closed,2024-03-29,2024-04-18,20,Nicole Sanders,QA,Yes,4.4.4,3.6.17
+BUG-000238,RobotOS Control Suite,Data Integrity - Problem #238,Data Integrity issue in RobotOS Control Suite,Data Integrity,High,Major,Closed,2025-07-20,2025-07-28,8,Rachel Green,Support,Yes,3.14.8,2.10.16
+BUG-000239,RobotOS Control Suite,Data Integrity - Problem #239,Data Integrity issue in RobotOS Control Suite,Data Integrity,Low,Major,Closed,2025-05-27,2025-06-13,17,Marcus Johnson,QA,Sometimes,4.1.12,1.2.3
+BUG-000240,Fleet Management Platform,Feature Malfunction - Problem #240,Feature Malfunction issue in RobotOS Control Suite,Feature Malfunction,Medium,Trivial,Closed,2025-03-28,2025-05-15,48,Nicole Sanders,Support,Yes,1.1.15,2.11.9
+BUG-000241,Fleet Management Platform,Integration - Problem #241,"Bug Report: Simulation Tool Integration Error with OPC UA Server
+
+Description:
+When attempting to connect the simulation environment to an external OPC UA server, the tool intermittently fails to maintain a stable connection, resulting in data synchr",Integration,Medium,Trivial,Fixed,2025-08-05,2025-08-18,13,Emily Thompson,QA,Yes,3.0.19,1.4.12
+BUG-000242,Fleet Management Platform,Performance - Defect #242,Performance issue in Simulation Tool,Performance,High,Major,Closed,2024-07-24,2024-08-03,10,Emily Thompson,Customer,No,3.10.6,2.8.10
+BUG-000243,RobotOS Control Suite,Data Integrity - Defect #243,Data Integrity issue in Fleet Management Platform,Data Integrity,High,Critical,Open,2025-09-05,,,Nicole Sanders,QA,Yes,4.14.14,
+BUG-000244,Vision System Pro,Performance - Problem #244,Performance issue in Simulation Tool,Performance,High,Trivial,Fixed,2025-10-14,2025-10-27,13,Emily Thompson,Customer,No,1.1.16,5.2.0
+BUG-000245,Vision System Pro,Crash/Stability - Issue #245,"Bug Report: Simulation Tool Crash During Multi-Robot Path Planning
+
+Description:
+The simulation environment crashes intermittently when attempting to calculate collision-free paths for multiple robots (4+ units) in a densely populated workspace. The ",Crash/Stability,Low,Trivial,In Progress,2024-09-11,,,Marcus Johnson,Customer,Yes,3.10.17,
+BUG-000246,RobotOS Control Suite,UI/UX Issue - Error #246,"Bug Report: Inconsistent Tool Tip Behavior in Simulation Workspace
+
+Description:
+When hovering over robotic arm joint controls in the simulation workspace, tool tips either fail to appear or display with a 3-4 second delay. This behavior is inconsist",UI/UX Issue,Low,Critical,Closed,2024-08-05,2024-09-21,47,Emily Thompson,Support,Sometimes,2.10.0,5.7.10
+BUG-000247,Vision System Pro,Performance - Issue #247,Performance issue in Predictive Maintenance AI,Performance,High,Critical,In Progress,2023-11-27,,,Nicole Sanders,Customer,Sometimes,2.3.0,
+BUG-000248,Vision System Pro,Performance - Defect #248,Performance issue in Fleet Management Platform,Performance,High,Major,Closed,2025-10-20,2025-10-26,6,Rachel Green,Customer,Sometimes,2.1.15,3.5.7
+BUG-000249,Simulation Tool,Integration - Error #249,Integration issue in Fleet Management Platform,Integration,Medium,Major,Wont Fix,2023-11-09,,,Rachel Green,Customer,Yes,2.14.8,
+BUG-000250,RobotOS Control Suite,Crash/Stability - Error #250,"Bug Report: Fleet Management Platform
+Priority: Critical
+Category: Crash/Stability
+
+Description:
+The Fleet Management Platform unexpectedly terminates when attempting to synchronize multiple robot statuses simultaneously. This occurs specifically whe",Crash/Stability,Critical,Minor,Fixed,2024-12-01,2024-12-03,2,Rachel Green,QA,Yes,5.0.5,3.3.4

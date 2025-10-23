@@ -1,0 +1,88 @@
+claim_id,incident_date,report_date,employee_dept,injury_type,severity,body_part,days_away_from_work,medical_costs,lost_wages_paid,rehabilitation_costs,administrative_costs,total_claim_cost,reserve_amount,claim_status,incident_description,return_to_work_date,restrictions
+WC-00001,2019-11-16,2019-11-17,IT & Systems,Repetitive Strain Injury,Minor,Head,0,3179.99,0,0,500,3679.99,0,Closed,Repetitive Strain Injury while performing work duties,,None
+WC-00002,2020-01-20,2020-01-21,Product Development,Chemical Exposure,Moderate,Knee,11,10653.41,11488.88,0,500,22642.29,0,Closed,Chemical Exposure while performing work duties,2020-01-31,Light duty
+WC-00003,2020-03-16,2020-03-17,Finance,Slip and Fall,Moderate,Head,18,8487.4,3502.69,0,500,12490.08,0,Closed,Slip and Fall while performing work duties,2020-04-03,Light duty
+WC-00004,2020-04-05,2020-04-05,Sales & Marketing,Chemical Exposure,Moderate,Head,12,14977.06,6710.03,0,500,22187.09,0,Closed,Chemical Exposure while performing work duties,2020-04-17,Light duty
+WC-00005,2020-05-13,2020-05-14,Sales & Marketing,Repetitive Strain Injury,Minor,Knee,2,3918.51,0,0,500,4418.51,0,Closed,Repetitive Strain Injury while performing work duties,2020-05-15,None
+WC-00006,2020-06-27,2020-06-29,Sales & Marketing,Repetitive Strain Injury,Minor,Knee,1,3220.43,0,0,500,3720.43,0,Closed,Repetitive Strain Injury while performing work duties,2020-06-28,None
+WC-00007,2020-04-28,2020-04-28,Quality Assurance,Fracture,Serious,Hand/Wrist,103,24923.28,13891.98,1128.16,500,40443.42,0,Closed,Fracture while performing work duties,2020-08-09,Light duty
+WC-00008,2020-05-15,2020-05-17,Human Resources,Crush Injury,Serious,Knee,30,35975.32,14795.7,2330.47,500,53601.49,0,Closed,Crush Injury while performing work duties,2020-06-14,Light duty
+WC-00009,2020-05-21,2020-05-22,Finance,Equipment Injury,Moderate,Shoulder,21,14039.91,14250.15,0,500,28790.06,0,Settled,Equipment Injury while performing work duties,2020-06-11,Light duty
+WC-00010,2020-08-31,2020-08-31,Legal & Compliance,Lifting Injury,Moderate,Shoulder,16,8358.88,4156.5,0,500,13015.37,0,Closed,Lifting Injury while performing work duties,2020-09-16,Light duty
+WC-00011,2020-08-14,2020-08-14,Human Resources,Fracture,Serious,Hand/Wrist,21,17724.66,4165.41,4172.18,500,26562.25,0,Closed,Fracture while performing work duties,2020-09-04,Light duty
+WC-00012,2020-09-30,2020-10-02,Sales & Marketing,Laceration,Minor,Knee,2,2847.6,0,0,500,3347.6,0,Closed,Laceration while performing work duties,2020-10-02,None
+WC-00013,2020-10-13,2020-10-13,IT & Systems,Crush Injury,Serious,Back,31,32748.96,5056.01,1060.37,500,39365.34,0,Closed,Crush Injury while performing work duties,2020-11-13,Light duty
+WC-00014,2020-08-29,2020-08-30,Legal & Compliance,Fracture,Serious,Shoulder,112,30754.67,5697.92,1927.46,500,38880.05,0,Settled,Fracture while performing work duties,2020-12-19,Light duty
+WC-00015,2021-01-14,2021-01-14,Sales & Marketing,Chemical Exposure,Moderate,Back,10,13304.26,14354.94,0,500,28159.2,0,Closed,Chemical Exposure while performing work duties,2021-01-24,Light duty
+WC-00016,2020-12-28,2020-12-30,Manufacturing,Crush Injury,Serious,Knee,65,32872.88,10994.54,2226.58,500,46594.0,0,Closed,Crush Injury while performing work duties,2021-03-03,Light duty
+WC-00017,2020-12-04,2020-12-06,Finance,Slip and Fall,Moderate,Back,19,8163.86,14116.18,0,500,22780.04,0,Closed,Slip and Fall while performing work duties,2020-12-23,Light duty
+WC-00018,2020-12-11,2020-12-11,Customer Service,Crush Injury,Serious,Knee,39,53372.9,9398.44,2191.91,500,65463.25,0,Closed,Crush Injury while performing work duties,2021-01-19,Light duty
+WC-00019,2021-02-07,2021-02-09,Manufacturing,Lifting Injury,Moderate,Back,19,9999.6,13957.42,0,500,24457.01,0,Settled,Lifting Injury while performing work duties,2021-02-26,Light duty
+WC-00020,2021-04-02,2021-04-04,Sales & Marketing,Lifting Injury,Moderate,Knee,13,10770.2,13758.03,0,500,25028.23,0,Settled,Lifting Injury while performing work duties,2021-04-15,Light duty
+WC-00021,2021-04-11,2021-04-12,Manufacturing,Equipment Injury,Moderate,Head,15,12015.11,8634.33,0,500,21149.44,0,Settled,Equipment Injury while performing work duties,2021-04-26,Light duty
+WC-00022,2021-03-19,2021-03-21,Human Resources,Lifting Injury,Moderate,Knee,11,6928.74,14832.6,0,500,22261.33,0,Closed,Lifting Injury while performing work duties,2021-03-30,Light duty
+WC-00023,2021-01-20,2021-01-20,Executive Leadership,Equipment Injury,Moderate,Foot/Ankle,19,15115.85,5501.54,0,500,21117.39,0,Settled,Equipment Injury while performing work duties,2021-02-08,Light duty
+WC-00024,2021-07-14,2021-07-15,Sales & Marketing,Fracture,Serious,Shoulder,69,31648.81,5819.0,3923.88,500,41891.69,0,Settled,Fracture while performing work duties,2021-09-21,Light duty
+WC-00025,2021-05-14,2021-05-15,Quality Assurance,Chemical Exposure,Moderate,Hand/Wrist,14,12917.88,12550.05,0,500,25967.94,0,Closed,Chemical Exposure while performing work duties,2021-05-28,Light duty
+WC-00026,2021-10-06,2021-10-06,Product Development,Repetitive Strain Injury,Minor,Foot/Ankle,3,3927.89,0,0,500,4427.89,0,Closed,Repetitive Strain Injury while performing work duties,2021-10-09,None
+WC-00027,2021-09-12,2021-09-14,Sales & Marketing,Chemical Exposure,Moderate,Knee,19,18995.05,14512.15,0,500,34007.21,0,Closed,Chemical Exposure while performing work duties,2021-10-01,Light duty
+WC-00028,2021-12-04,2021-12-05,Executive Leadership,Repetitive Strain Injury,Minor,Hand/Wrist,0,3605.59,0,0,500,4105.59,0,Closed,Repetitive Strain Injury while performing work duties,,None
+WC-00029,2021-12-15,2021-12-17,Human Resources,Chemical Exposure,Moderate,Knee,16,16668.01,8849.32,0,500,26017.33,0,Closed,Chemical Exposure while performing work duties,2021-12-31,Light duty
+WC-00030,2021-12-04,2021-12-04,Sales & Marketing,Slip and Fall,Moderate,Knee,7,8780.02,14662.64,0,500,23942.66,0,Closed,Slip and Fall while performing work duties,2021-12-11,None
+WC-00031,2021-11-12,2021-11-14,Executive Leadership,Repetitive Strain Injury,Minor,Back,0,3527.88,0,0,500,4027.88,0,Closed,Repetitive Strain Injury while performing work duties,,None
+WC-00032,2021-10-26,2021-10-26,Product Development,Lifting Injury,Moderate,Back,11,11373.85,2202.8,0,500,14076.65,0,Closed,Lifting Injury while performing work duties,2021-11-06,Light duty
+WC-00033,2022-03-04,2022-03-04,Manufacturing,Fracture,Serious,Shoulder,107,17908.2,4398.57,2436.41,500,25243.18,0,Settled,Fracture while performing work duties,2022-06-19,Light duty
+WC-00034,2022-03-11,2022-03-12,Product Development,Repetitive Strain Injury,Minor,Knee,0,3898.89,0,0,500,4398.89,0,Closed,Repetitive Strain Injury while performing work duties,,None
+WC-00035,2022-01-29,2022-01-31,IT & Systems,Fracture,Serious,Shoulder,113,31129.81,12926.48,3721.31,500,48277.6,0,Settled,Fracture while performing work duties,2022-05-22,Light duty
+WC-00036,2022-05-29,2022-05-31,IT & Systems,Fracture,Serious,Hand/Wrist,39,19626.05,8232.04,1831.03,500,30189.12,0,Closed,Fracture while performing work duties,2022-07-07,Light duty
+WC-00037,2022-04-29,2022-05-01,Executive Leadership,Slip and Fall,Moderate,Knee,5,7361.49,5853.53,0,500,13715.02,0,Closed,Slip and Fall while performing work duties,2022-05-04,None
+WC-00038,2022-06-19,2022-06-19,Human Resources,Equipment Injury,Moderate,Head,5,14854.03,4740.79,0,500,20094.82,0,Closed,Equipment Injury while performing work duties,2022-06-24,None
+WC-00039,2022-07-21,2022-07-23,Legal & Compliance,Laceration,Minor,Shoulder,2,2520.4,0,0,500,3020.4,0,Closed,Laceration while performing work duties,2022-07-23,None
+WC-00040,2022-07-19,2022-07-21,Manufacturing,Fracture,Serious,Back,73,21649.16,12397.58,4021.31,500,38568.05,0,Closed,Fracture while performing work duties,2022-09-30,Light duty
+WC-00041,2022-07-31,2022-08-01,Finance,Equipment Injury,Moderate,Head,14,14817.66,6048.35,0,500,21366.01,0,Closed,Equipment Injury while performing work duties,2022-08-14,Light duty
+WC-00042,2022-10-24,2022-10-25,Manufacturing,Lifting Injury,Moderate,Shoulder,3,6655.19,10049.12,0,500,17204.31,0,Settled,Lifting Injury while performing work duties,2022-10-27,None
+WC-00043,2022-12-23,2022-12-24,Customer Service,Chemical Exposure,Moderate,Knee,10,13458.58,6960.09,0,500,20918.67,0,Closed,Chemical Exposure while performing work duties,2023-01-02,Light duty
+WC-00044,2023-01-04,2023-01-04,Customer Service,Crush Injury,Serious,Head,99,53522.28,14361.22,1519.54,500,69903.04,0,Settled,Crush Injury while performing work duties,2023-04-13,Light duty
+WC-00045,2023-01-02,2023-01-02,Human Resources,Chemical Exposure,Moderate,Knee,10,16904.24,9512.39,0,500,26916.63,0,Closed,Chemical Exposure while performing work duties,2023-01-12,Light duty
+WC-00046,2022-12-14,2022-12-16,Sales & Marketing,Slip and Fall,Moderate,Foot/Ankle,7,5990.77,8450.89,0,500,14941.66,0,Closed,Slip and Fall while performing work duties,2022-12-21,None
+WC-00047,2023-04-03,2023-04-03,IT & Systems,Crush Injury,Serious,Hand/Wrist,47,33980.95,10930.03,4165.9,500,49576.88,0,Closed,Crush Injury while performing work duties,2023-05-20,Light duty
+WC-00048,2023-02-15,2023-02-17,Product Development,Chemical Exposure,Moderate,Knee,15,16719.2,10577.58,0,500,27796.78,0,Closed,Chemical Exposure while performing work duties,2023-03-02,Light duty
+WC-00049,2023-01-06,2023-01-06,Product Development,Crush Injury,Serious,Hand/Wrist,89,45791.56,5187.16,2838.66,500,54317.37,0,Closed,Crush Injury while performing work duties,2023-04-05,Light duty
+WC-00050,2023-05-13,2023-05-15,Legal & Compliance,Fracture,Serious,Hand/Wrist,118,32452.92,4669.57,2198.14,500,39820.64,0,Closed,Fracture while performing work duties,2023-09-08,Light duty
+WC-00051,2023-06-18,2023-06-19,Customer Service,Slip and Fall,Moderate,Knee,11,8499.94,11324.86,0,500,20324.8,0,Settled,Slip and Fall while performing work duties,2023-06-29,Light duty
+WC-00052,2023-06-28,2023-06-30,Executive Leadership,Slip and Fall,Moderate,Foot/Ankle,12,6626.49,12608.94,0,500,19735.43,0,Closed,Slip and Fall while performing work duties,2023-07-10,Light duty
+WC-00053,2023-06-04,2023-06-05,Executive Leadership,Chemical Exposure,Moderate,Knee,13,14933.35,6044.61,0,500,21477.97,0,Closed,Chemical Exposure while performing work duties,2023-06-17,Light duty
+WC-00054,2023-05-16,2023-05-18,Executive Leadership,Equipment Injury,Moderate,Foot/Ankle,7,14691.11,6350.16,0,500,21541.27,0,Closed,Equipment Injury while performing work duties,2023-05-23,None
+WC-00055,2023-08-28,2023-08-30,Finance,Repetitive Strain Injury,Minor,Knee,3,2475.47,0,0,500,2975.47,0,Closed,Repetitive Strain Injury while performing work duties,2023-08-31,None
+WC-00056,2023-09-28,2023-09-29,Finance,Crush Injury,Serious,Knee,23,55220.35,3629.73,2426.14,500,61776.23,0,Closed,Crush Injury while performing work duties,2023-10-21,Light duty
+WC-00057,2023-12-31,2024-01-02,Finance,Fracture,Serious,Head,51,26785.26,9679.8,2180.17,500,39145.23,0,Closed,Fracture while performing work duties,2024-02-20,Light duty
+WC-00058,2023-11-29,2023-11-30,Human Resources,Fracture,Serious,Head,71,29930.11,7751.8,4102.16,500,42284.07,0,Settled,Fracture while performing work duties,2024-02-08,Light duty
+WC-00059,2023-10-06,2023-10-07,Finance,Crush Injury,Serious,Knee,39,36317.31,14904.85,2662.72,500,54384.88,0,Closed,Crush Injury while performing work duties,2023-11-14,Light duty
+WC-00060,2024-02-01,2024-02-02,Sales & Marketing,Lifting Injury,Moderate,Hand/Wrist,6,10072.2,14461.93,0,500,25034.13,0,Closed,Lifting Injury while performing work duties,2024-02-07,None
+WC-00061,2024-03-30,2024-03-30,Product Development,Equipment Injury,Moderate,Hand/Wrist,18,15479.9,11149.04,0,500,27128.95,0,Closed,Equipment Injury while performing work duties,2024-04-17,Light duty
+WC-00062,2024-03-29,2024-03-29,Customer Service,Fracture,Serious,Head,40,22307.42,7697.24,1626.85,500,32131.5,0,Closed,Fracture while performing work duties,2024-05-08,Light duty
+WC-00063,2024-02-06,2024-02-08,Product Development,Laceration,Minor,Head,2,1969.85,0,0,500,2469.85,0,Closed,Laceration while performing work duties,2024-02-08,None
+WC-00064,2024-03-02,2024-03-04,Product Development,Repetitive Strain Injury,Minor,Hand/Wrist,1,3690.9,0,0,500,4190.9,0,Closed,Repetitive Strain Injury while performing work duties,2024-03-03,None
+WC-00065,2024-04-17,2024-04-19,Product Development,Fracture,Serious,Hand/Wrist,48,19992.86,5405.9,3381.47,500,29280.23,0,Closed,Fracture while performing work duties,2024-06-04,Light duty
+WC-00066,2024-04-09,2024-04-09,Executive Leadership,Chemical Exposure,Moderate,Foot/Ankle,15,12546.02,3085.39,0,500,16131.41,0,Closed,Chemical Exposure while performing work duties,2024-04-24,Light duty
+WC-00067,2024-05-16,2024-05-17,Quality Assurance,Lifting Injury,Moderate,Head,13,8548.61,2010.35,0,500,11058.96,0,Settled,Lifting Injury while performing work duties,2024-05-29,Light duty
+WC-00068,2024-04-01,2024-04-01,Customer Service,Slip and Fall,Moderate,Back,19,8519.18,3357.31,0,500,12376.49,0,Closed,Slip and Fall while performing work duties,2024-04-20,Light duty
+WC-00069,2024-05-10,2024-05-12,Legal & Compliance,Lifting Injury,Moderate,Back,8,12265.14,12187.11,0,500,24952.25,0,Closed,Lifting Injury while performing work duties,2024-05-18,Light duty
+WC-00070,2024-07-25,2024-07-27,Product Development,Lifting Injury,Moderate,Shoulder,6,10912.96,6565.7,0,500,17978.66,0,Settled,Lifting Injury while performing work duties,2024-07-31,None
+WC-00071,2024-09-05,2024-09-05,Executive Leadership,Laceration,Minor,Back,0,2654.51,0,0,500,3154.51,0,Settled,Laceration while performing work duties,,None
+WC-00072,2024-09-05,2024-09-06,Quality Assurance,Laceration,Minor,Hand/Wrist,0,2624.96,0,0,500,3124.96,0,Closed,Laceration while performing work duties,,None
+WC-00073,2024-08-05,2024-08-05,Quality Assurance,Fracture,Serious,Hand/Wrist,25,26362.1,3395.12,4276.75,500,34533.97,0,Settled,Fracture while performing work duties,2024-08-30,Light duty
+WC-00074,2024-09-19,2024-09-21,Legal & Compliance,Laceration,Minor,Shoulder,0,2472.22,0,0,500,2972.22,0,Closed,Laceration while performing work duties,,None
+WC-00075,2024-11-01,2024-11-01,Human Resources,Fracture,Serious,Head,119,31975.0,13643.64,4004.94,500,50123.58,0,Settled,Fracture while performing work duties,2025-02-28,Light duty
+WC-00076,2024-10-24,2024-10-24,Product Development,Slip and Fall,Moderate,Back,4,7686.38,2479.98,0,500,10666.36,0,Closed,Slip and Fall while performing work duties,2024-10-28,None
+WC-00077,2024-12-06,2024-12-07,Quality Assurance,Slip and Fall,Moderate,Knee,5,6553.68,9614.72,0,500,16668.4,0,Settled,Slip and Fall while performing work duties,2024-12-11,None
+WC-00078,2025-02-21,2025-02-22,Executive Leadership,Lifting Injury,Moderate,Shoulder,6,9593.1,6393.05,0,500,16486.15,0,Closed,Lifting Injury while performing work duties,2025-02-27,None
+WC-00079,2025-03-13,2025-03-13,Executive Leadership,Chemical Exposure,Moderate,Hand/Wrist,11,12295.73,5204.4,0,500,18000.12,0,Closed,Chemical Exposure while performing work duties,2025-03-24,Light duty
+WC-00080,2025-04-28,2025-04-29,Legal & Compliance,Slip and Fall,Moderate,Hand/Wrist,19,9865.42,10769.32,0,500,21134.74,0,Under Review,Slip and Fall while performing work duties,2025-05-17,Light duty
+WC-00081,2025-05-19,2025-05-20,Finance,Slip and Fall,Moderate,Hand/Wrist,18,9302.02,12155.12,0,500,21957.15,24152.86,Open,Slip and Fall while performing work duties,2025-06-06,Light duty
+WC-00082,2025-04-08,2025-04-08,Executive Leadership,Lifting Injury,Moderate,Hand/Wrist,19,11169.31,7733.9,0,500,19403.21,0,Closed,Lifting Injury while performing work duties,2025-04-27,Light duty
+WC-00083,2025-03-26,2025-03-27,Legal & Compliance,Chemical Exposure,Moderate,Hand/Wrist,10,12212.95,11497.81,0,500,24210.76,0,Closed,Chemical Exposure while performing work duties,2025-04-05,Light duty
+WC-00084,2025-04-13,2025-04-14,Finance,Repetitive Strain Injury,Minor,Back,0,2742.62,0,0,500,3242.62,0,Settled,Repetitive Strain Injury while performing work duties,,None
+WC-00085,2025-08-22,2025-08-22,Human Resources,Crush Injury,Serious,Shoulder,27,51993.83,7040.74,3373.04,500,62907.6,69198.36,Open,Crush Injury while performing work duties,2025-09-18,Light duty
+WC-00086,2025-06-26,2025-06-28,Quality Assurance,Fracture,Serious,Back,48,17900.17,10869.58,3607.14,500,32876.88,0,Under Review,Fracture while performing work duties,2025-08-13,Light duty
+WC-00087,2025-07-13,2025-07-13,Manufacturing,Fracture,Serious,Knee,107,18512.8,7041.78,2668.99,500,28723.57,31595.92,Open,Fracture while performing work duties,2025-10-28,Light duty
