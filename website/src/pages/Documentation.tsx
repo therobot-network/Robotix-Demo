@@ -77,7 +77,7 @@ function Documentation() {
       variants={pageVariants}
     >
       {/* Hero Header - Enhanced */}
-      <section className="relative pt-16 pb-6 overflow-hidden">
+      <section className="relative pt-32 pb-8 overflow-hidden">
         {/* Background Layer */}
         <div className="absolute inset-0 bg-black">
           {/* Subtle accent lines */}
