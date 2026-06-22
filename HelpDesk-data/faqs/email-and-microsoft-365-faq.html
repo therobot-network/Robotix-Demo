@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Email &amp; Microsoft 365 FAQ — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> FAQ-05</span><span><b>Category:</b> FAQ</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> faq, email, outlook, microsoft-365, teams, onedrive, sharepoint, m365</span></div>
+<h1>Email &amp; Microsoft 365 FAQ</h1>
+<p>Common questions about Outlook, Microsoft Teams, OneDrive, SharePoint, and other Microsoft 365 applications used at Summit IT.</p>
+<hr />
+<h3>How do I access my work email?</h3>
+<p>Your work email is available in <strong>Microsoft Outlook</strong> on your laptop (pre-installed on all Summit IT devices), via the web at <a href="https://outlook.office.com">https://outlook.office.com</a>, or on the Outlook mobile app (iPhone/Android). Sign in with your <code>firstname.lastname@summitit.com</code> address — Okta SSO handles authentication.</p>
+<h3>How large is my email mailbox?</h3>
+<p>Summit IT Microsoft 365 accounts include a <strong>100 GB mailbox</strong>. If you are approaching your limit, archive older emails to your <strong>Online Archive</strong> (enabled by default in Outlook) or move large file attachments to OneDrive and share links instead of attaching files directly.</p>
+<h3>How do I set up an out-of-office auto-reply in Outlook?</h3>
+<p>In Outlook (desktop or web), go to <strong>File &gt; Automatic Replies</strong> (desktop) or click the gear icon and search for <strong>Automatic replies</strong> (web). Set your date range, enter your message for internal and external senders, and click <strong>OK</strong> or <strong>Save</strong>. Your out-of-office will activate automatically within the scheduled window.</p>
+<h3>How do I access Microsoft Teams?</h3>
+<p>Teams is pre-installed on all Summit IT laptops. You can also access it via browser at <a href="https://teams.microsoft.com">https://teams.microsoft.com</a> or the Teams mobile app. Sign in with your <code>summitit.com</code> Okta credentials. Teams is used for real-time chat, video meetings, and collaboration channels — note that Slack is also supported for messaging (see Slack in the standard app catalogue).</p>
+<h3>How much storage do I have in OneDrive?</h3>
+<p>Each user has <strong>1 TB of OneDrive storage</strong> for work files. OneDrive syncs files to your laptop automatically via the OneDrive sync client (pre-installed). Store all work documents in OneDrive or SharePoint rather than locally on your laptop to ensure files are backed up and accessible from any device.</p>
+<h3>How do I share a file from OneDrive instead of attaching it to an email?</h3>
+<p>Right-click the file in OneDrive (File Explorer on Windows, Finder on Mac) and select <strong>Share</strong>. Choose whether to share with specific people, anyone with the link, or people in your organization. Copy the link and paste it into your email. This avoids large attachment sizes and ensures recipients always have the latest version.</p>
+<h3>My Outlook keeps asking me to sign in repeatedly — what should I do?</h3>
+<p>This is often caused by an expired Okta session or a cached credential issue. First, approve the sign-in prompt through Okta Verify. If it persists, open <strong>Credential Manager</strong> (Windows) or <strong>Keychain Access</strong> (Mac), remove any stored <code>outlook.com</code> or <code>office365.com</code> credentials, and restart Outlook. If the issue continues, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>.</p>
+<h3>Can I install Microsoft 365 on my personal devices?</h3>
+<p>Yes. Your Summit IT Microsoft 365 license allows installation on up to <strong>5 personal devices</strong> (Windows, Mac, iOS, Android). Visit <a href="https://portal.office.com">https://portal.office.com</a>, sign in with your work account, go to <strong>My Account &gt; Apps &amp; devices</strong>, and download the installer. Note that company policies and CrowdStrike are not applied to personal devices — use them for convenience, not as a replacement for your managed work laptop for sensitive work.</p>
+<h3>How do I recover a deleted email?</h3>
+<p>Deleted emails go to the <strong>Deleted Items</strong> folder. Items deleted from Deleted Items are moved to <strong>Recoverable Items</strong> and are retained for <strong>30 days</strong>. In Outlook, right-click Deleted Items and select <strong>Recover Deleted Items</strong> to restore messages within this window. After 30 days, emails cannot be recovered — contact the Service Desk if you need an extended recovery.</p>
+<h3>A colleague sent me a SharePoint link but I get an "Access Denied" error — what do I do?</h3>
+<p>Access to SharePoint sites and document libraries is controlled by the site owner. Contact the colleague who shared the link and ask them to grant you access through the SharePoint site settings. If you need access to a shared team site for your role, submit a service request at <a href="https://help.summitit.com">https://help.summitit.com</a> with the site URL and your business justification.</p>
+<h3>How do I join a Zoom meeting from a meeting invite in Outlook?</h3>
+<p>Click the Zoom link in the calendar invite — this will open the Zoom desktop client or prompt you to install it. Zoom is pre-installed on all Summit IT laptops. You can also use Microsoft Teams for video meetings; both are supported. Zoom is typically used for external meetings and large webinars, while Teams is used for internal collaboration.</p>
+<h3>What do I do if I accidentally sent an email with confidential information to the wrong person?</h3>
+<p>Act quickly: in Outlook, go to your Sent Items, open the email, and select <strong>Actions &gt; Recall This Message</strong>. This only works if the recipient is within the Summit IT Microsoft 365 tenant and has not yet opened the email. Regardless of whether the recall succeeds, report the incident to your manager and to <a href="mailto:soc@summitit.com">soc@summitit.com</a>, as this may constitute a data incident.</p>
+<h3>How do I set up email on my iPhone or Android?</h3>
+<p>Download the <strong>Microsoft Outlook</strong> mobile app from the App Store or Google Play. Open the app, tap <strong>Add Account</strong>, enter your <code>firstname.lastname@summitit.com</code> address, and authenticate via Okta SSO. You may be prompted to enroll in mobile device management (Intune) — follow the prompts to complete enrollment, which is required for corporate email access on mobile devices.</p>
+<h3>Why is my Outlook calendar not syncing with Teams?</h3>
+<p>Outlook and Teams share the same Microsoft 365 calendar — they should always be in sync. If you see a discrepancy, close and reopen Teams. If the issue persists, sign out of Teams, restart it, and sign back in via Okta. If calendar items are still missing or duplicated after these steps, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>.</p>
+<h3>How do I get a distribution list or shared mailbox created?</h3>
+<p>Submit a service request at <a href="https://help.summitit.com">https://help.summitit.com</a> under the <strong>Microsoft 365 &gt; Email</strong> category. Include the desired display name, email address, list of initial members or mailbox delegates, and your manager's name for approval. New distribution lists and shared mailboxes are typically provisioned within <strong>2 business days</strong>.</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

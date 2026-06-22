@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Safe Use of USB Drives and Removable Media — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0706</span><span><b>Category:</b> Security</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-12-05</span><span><b>Tags:</b> usb, removable media, data loss, crowdstrike, endpoint, storage, dlp</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Safe Use of USB Drives and Removable Media</h1>
+<h2>Summary</h2>
+<p>USB drives, external hard drives, SD cards, and other removable media can introduce malware or cause data loss if used carelessly. This article explains Summit IT's policy on removable media and the steps to use it safely when a business need exists.</p>
+<h2>Why This Matters</h2>
+<p>Removable media is a common vector for malware delivery and accidental data loss. An attacker may leave an infected USB drive in a parking lot or common area hoping someone will plug it in out of curiosity. Even a trusted colleague's personal USB drive may unknowingly carry malware from a home computer. CrowdStrike Falcon monitors all USB activity on managed devices and will alert the SOC if restricted or suspicious devices are connected.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Personal USB drives and external storage devices are <strong>not approved</strong> for use with Summit IT-managed computers without prior authorization from your manager and the IT Security team.</li>
+<li>If you need to transfer large files, use approved channels: <strong>OneDrive</strong>, <strong>SharePoint</strong>, or <strong>Microsoft Teams</strong>. These are available from any device and do not require physical media.</li>
+<li>If you have a legitimate business requirement for removable media (e.g., transferring files to a client site without network access), open a request at https://help.summitit.com before using any external storage device.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Using an Approved Summit IT USB Drive</h3>
+<p>Summit IT issues approved, encrypted USB drives (Kingston IronKey or equivalent) for roles with documented need. If you have been issued one:</p>
+<ol>
+<li>Connect the drive to your Summit IT managed laptop only.</li>
+<li>When prompted, enter the drive's PIN or password. Never share this PIN.</li>
+<li>Copy only the minimum necessary files required for your task.</li>
+<li>Safely eject the drive when done:
+   - <strong>Windows:</strong> Click the <strong>Safely Remove Hardware</strong> icon in the system tray and select the drive.
+   - <strong>macOS:</strong> Click the eject icon next to the drive in Finder.</li>
+<li>Store the drive in a secure location when not in use. Do not leave it in a laptop bag in an unlocked car or unattended in public.</li>
+<li>Report a lost or stolen IT-issued drive immediately to the SOC at <code>soc@summitit.com</code>.</li>
+</ol>
+<h3>What to Do If You Find a USB Drive</h3>
+<p>If you find a USB drive in a parking lot, elevator, conference room, or common area:</p>
+<ol>
+<li><strong>Do not plug it in.</strong> Even if it has a company logo or appears to belong to a colleague.</li>
+<li>Bring it to your office manager, reception, or an IT staff member.</li>
+<li>Submit a report at https://help.summitit.com or email <code>soc@summitit.com</code> describing where and when you found it.</li>
+<li>The SOC will examine the device safely in an isolated environment.</li>
+</ol>
+<h3>Receiving Removable Media from Clients or Vendors</h3>
+<ol>
+<li>Do not connect vendor-supplied USB drives directly to your laptop.</li>
+<li>Contact the Service Desk at https://help.summitit.com and open a request for the SOC or Desktop team to inspect the drive before use.</li>
+<li>For routine file transfers from external parties, request that they use a secure file-sharing method instead: Summit IT can provide access to SharePoint or a secure file transfer link.</li>
+</ol>
+<h3>Connecting Personal Devices (Phones, Tablets)</h3>
+<ul>
+<li>Connecting a personal phone or tablet via USB cable for charging is permitted.</li>
+<li>Do <strong>not</strong> allow your laptop to access the phone's storage when prompted ("Allow access to phone data?" or "Trust this computer?"). Always select <strong>Deny</strong> or <strong>Charge only</strong>.</li>
+<li>Enabling phone storage access on a managed laptop may violate data handling policy and can trigger a CrowdStrike alert.</li>
+</ul>
+<h2>Troubleshooting / Warning Signs</h2>
+<ul>
+<li><strong>CrowdStrike Falcon blocked or flagged the USB device:</strong> Do not attempt to override the block. Contact the SOC at <code>soc@summitit.com</code> to explain your business need; they can grant a temporary exception if justified.</li>
+<li><strong>A USB drive I plugged in is running software automatically (autorun):</strong> Disconnect immediately and contact the SOC — this is a sign of a potentially malicious device.</li>
+<li><strong>I accidentally connected an unapproved USB drive:</strong> Disconnect it and contact the SOC to document the event. Do not copy any files from the drive. Early disclosure is important for a clean incident report.</li>
+<li><strong>I need to destroy a USB drive or hard drive containing company data:</strong> Do not throw it in the trash. Submit a hardware disposal request at https://help.summitit.com. IT will arrange secure destruction.</li>
+</ul>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0703: Report Suspected Malware or a Virus on Your Device</li>
+<li>KB-0708: Understand Data Classification and Handling</li>
+<li>KB-0709: Report a Lost Laptop or Possible Data Breach</li>
+<li>KB-0707: Secure Your Home Office and Wi-Fi</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help — for security incidents, contact soc@summitit.com immediately.</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

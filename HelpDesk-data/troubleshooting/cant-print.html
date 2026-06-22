@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I Can&#x27;t Print — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> TS-06</span><span><b>Category:</b> Troubleshooting</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> troubleshooting, printing, papercut, printer, hp, xerox, mfp, driver, queue</span></div>
+<h1>I Can't Print</h1>
+<p>Use this guide to diagnose and resolve printing issues with Summit IT-managed HP and Xerox multifunction printers (MFPs), managed through PaperCut.</p>
+<hr />
+<h2>Start Here</h2>
+<p>Summit IT printing is managed through <strong>PaperCut</strong>, which handles print job routing, authentication, and quota management. Printers are HP and Xerox MFPs located throughout Summit IT offices.</p>
+<p>Identify the situation:
+- <strong>Are you trying to print from an office printer or a home printer?</strong> (IT supports only office printers.)
+- <strong>Is the printer showing in your list of available printers?</strong>
+- <strong>What happens when you try to print?</strong> (Error message, job sits in queue, "printer offline" shown, job silently disappears?)
+- <strong>Are you on the corporate network or VPN?</strong> (Printing to office printers requires being on-site or connected via GlobalProtect VPN with PaperCut access.)</p>
+<hr />
+<h2>Step-by-Step Diagnostic Flow</h2>
+<h3>1. Is the printer physically powered on and showing a ready status on its front panel?</h3>
+<p><strong>If no or the panel shows an error (paper jam, toner low, door open, etc.) →</strong>
+- Clear the paper jam following the on-screen instructions on the printer panel — open all indicated doors and remove any jammed paper gently.
+- Replace the toner cartridge if the toner-low warning is active (spares are in the supply cabinet near the printer or can be requested via <a href="https://help.summitit.com">https://help.summitit.com</a>).
+- Close any open doors securely and wait for the printer to return to "Ready" before retrying.</p>
+<p><strong>If yes, printer panel shows "Ready" →</strong> Proceed to Step 2.</p>
+<hr />
+<h3>2. Is the printer listed on your laptop as an available printer?</h3>
+<p><strong>Windows:</strong> Go to <strong>Settings &gt; Bluetooth &amp; devices &gt; Printers &amp; scanners</strong> and look for the printer by name.</p>
+<p><strong>Mac:</strong> Go to <strong>System Settings &gt; Printers &amp; Scanners</strong> and check the list.</p>
+<p><strong>If the printer is not listed →</strong> Proceed to Step 3 to add it.</p>
+<p><strong>If the printer is listed →</strong> Proceed to Step 4.</p>
+<hr />
+<h3>3. Add the printer to your laptop.</h3>
+<p><strong>Windows:</strong>
+1. Open <strong>Company Portal</strong> and search for "Print" — Intune may have a pre-configured printer package for your office. Install if available.
+2. Alternatively, go to <strong>Settings &gt; Bluetooth &amp; devices &gt; Printers &amp; scanners &gt; Add a printer or scanner</strong>. Wait for your office printer to appear and click <strong>Add device</strong>.
+3. If the printer does not appear automatically, click <strong>The printer that I want isn't listed</strong> and enter the printer's hostname or IP address (available from the label on the printer or from the Service Desk).</p>
+<p><strong>Mac:</strong>
+1. Open <strong>Self Service</strong> and search for the printer — Jamf may have a pre-configured printer profile for your office. Install if available.
+2. Alternatively, go to <strong>System Settings &gt; Printers &amp; Scanners</strong>, click the <strong>+</strong> button, and select the printer from the list or enter its IP address.</p>
+<p><strong>After adding, try printing a test page. Did the print succeed?</strong></p>
+<p><strong>If yes →</strong> Printer is now installed and working.</p>
+<p><strong>If no →</strong> Proceed to Step 4.</p>
+<hr />
+<h3>4. Is the printer showing as "Offline" in your printer list?</h3>
+<p><strong>Windows:</strong> Right-click the printer in <strong>Settings &gt; Printers &amp; scanners</strong> and select <strong>See what's printing</strong>. In the menu, go to <strong>Printer</strong> and check whether "Use Printer Offline" is ticked. If so, uncheck it.</p>
+<p><strong>Mac:</strong> Open the print queue for the printer (click the printer name in <strong>Printers &amp; Scanners</strong>) and look for an "offline" status. Click <strong>Resume</strong> if it is paused.</p>
+<p><strong>Did taking it offline resolve the issue?</strong></p>
+<p><strong>If yes →</strong> Issue was a software-level "offline" flag. Monitor for recurrence.</p>
+<p><strong>If no →</strong> Proceed to Step 5.</p>
+<hr />
+<h3>5. Clear the print queue.</h3>
+<p>A stuck print job can block all subsequent jobs. Clear the queue before sending a new job.</p>
+<p><strong>Windows:</strong>
+1. Open <strong>Settings &gt; Printers &amp; scanners</strong>, click the printer, and select <strong>Open print queue</strong>.
+2. Right-click each job in the queue and select <strong>Cancel</strong>. If jobs cannot be cancelled:
+3. Stop the Print Spooler: open <strong>Services</strong> (search in Start), find <strong>Print Spooler</strong>, right-click it, and select <strong>Stop</strong>.
+4. Delete all files in <code>C:\Windows\System32\spool\PRINTERS\</code>.
+5. Restart the Print Spooler service.</p>
+<p><strong>Mac:</strong>
+1. Open <strong>Printers &amp; Scanners</strong>, click the printer, and click <strong>Open Print Queue</strong>.
+2. Click the <strong>X</strong> next to each job to cancel it.
+3. If a job is stuck, pause the printer first, delete the jobs, then resume.</p>
+<p><strong>After clearing the queue, retry printing. Did it work?</strong></p>
+<p><strong>If yes →</strong> A stuck job was blocking the queue.</p>
+<p><strong>If no →</strong> Proceed to Step 6.</p>
+<hr />
+<h3>6. Can you reach the printer over the network?</h3>
+<p><strong>Windows:</strong> Open Command Prompt and type <code>ping &lt;printer-IP-address&gt;</code>. The printer's IP is on the label on the device or available from the Service Desk.</p>
+<p><strong>Mac:</strong> Open Terminal and type <code>ping -c 4 &lt;printer-IP-address&gt;</code>.</p>
+<p><strong>If ping fails (Request timed out / 100% packet loss) →</strong> You cannot reach the printer on the network. Proceed to Step 7.</p>
+<p><strong>If ping succeeds but printing still fails →</strong> The printer driver or PaperCut configuration may be the issue. Proceed to Step 8.</p>
+<hr />
+<h3>7. Verify network and VPN connectivity.</h3>
+<p><strong>If you are in the office:</strong> Ensure your laptop is connected to <strong>Summit-Corp</strong> Wi-Fi or the wired network via your docking station. If connected to <strong>Summit-Guest</strong> (guest Wi-Fi), office printers are not accessible — connect to Summit-Corp instead.</p>
+<p><strong>If you are remote:</strong> Ensure <strong>GlobalProtect VPN</strong> is connected. Printing to office printers from off-site requires VPN. If VPN is connected and ping still fails, the printer may be down — contact the Service Desk.</p>
+<p><strong>After correcting network connectivity, retry printing. Did it work?</strong></p>
+<p><strong>If yes →</strong> Network was the issue.</p>
+<p><strong>If no →</strong> Proceed to Step 8.</p>
+<hr />
+<h3>8. Is PaperCut prompting you for authentication or showing a quota error?</h3>
+<p>PaperCut requires you to authenticate with your <code>firstname.lastname@summitit.com</code> credentials when prompted.</p>
+<p><strong>If you see a login prompt:</strong> Enter your Okta credentials. If it does not accept them, your PaperCut account may not be provisioned — submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>.</p>
+<p><strong>If you see a quota or balance error:</strong> Your print quota may be exhausted. Contact the Service Desk to review or increase your quota.</p>
+<p><strong>If PaperCut is not appearing at all and jobs vanish silently:</strong> The PaperCut client may not be installed. Check <strong>Company Portal</strong> (Windows) or <strong>Self Service</strong> (Mac) for the PaperCut print client and install it.</p>
+<hr />
+<h3>9. Reinstall the printer driver.</h3>
+<p><strong>Windows:</strong> Go to <strong>Settings &gt; Printers &amp; scanners</strong>, select the printer, click <strong>Remove device</strong>. Then re-add the printer following Step 3. If a specific driver is needed, the Service Desk can push it via Intune.</p>
+<p><strong>Mac:</strong> Go to <strong>System Settings &gt; Printers &amp; Scanners</strong>, select the printer, click the <strong>–</strong> button to remove it. Re-add it following Step 3. Jamf can push the correct PPD/driver if needed.</p>
+<hr />
+<h2>Quick Checklist</h2>
+<p>Before calling the Service Desk, confirm you have tried:</p>
+<ul>
+<li>[ ] Verified the printer's front panel shows "Ready" (no paper jam, toner, or door errors)</li>
+<li>[ ] Confirmed the printer is installed on your laptop (listed in printers)</li>
+<li>[ ] Confirmed the printer is not showing as "Offline"</li>
+<li>[ ] Cleared the print queue (including stopping/restarting Print Spooler on Windows)</li>
+<li>[ ] Pinged the printer to verify network reachability</li>
+<li>[ ] Confirmed you are on Summit-Corp Wi-Fi (in office) or GlobalProtect VPN (remote), not Summit-Guest</li>
+<li>[ ] Authenticated in PaperCut with Okta credentials and checked quota</li>
+<li>[ ] Tried removing and re-adding the printer</li>
+</ul>
+<hr />
+<h2>When to Contact the Service Desk</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Printer hardware failure (not a software issue)</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>All office printers on a floor are down (multiple users affected)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>PaperCut account not provisioned or quota issues</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Printer driver not deploying via Intune/Jamf</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Single user cannot print after all self-service steps</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contact options:</strong>
+- Portal: <a href="https://help.summitit.com">https://help.summitit.com</a>
+- Email: <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a>
+- Phone: <strong>+1 (800) 555-7866</strong>
+- Slack: <strong>#it-help</strong></p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

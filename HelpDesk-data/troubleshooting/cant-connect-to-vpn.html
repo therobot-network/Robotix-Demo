@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I Can&#x27;t Connect to the VPN — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> TS-07</span><span><b>Category:</b> Troubleshooting</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> troubleshooting, vpn, globalprotect, palo-alto, remote-access, okta-verify, mfa, network</span></div>
+<h1>I Can't Connect to the VPN</h1>
+<p>Use this guide to diagnose and resolve issues connecting to the <strong>Palo Alto GlobalProtect</strong> VPN, which is required for accessing Summit IT internal resources from outside a Summit IT office.</p>
+<hr />
+<h2>Start Here</h2>
+<p>Before working through this guide, confirm:
+- You are using a <strong>Summit IT-managed laptop</strong> (Dell Latitude 7440 or MacBook Pro 14"). Personal devices cannot connect to GlobalProtect.
+- You have an active internet connection (test by loading <a href="https://google.com">https://google.com</a> or another public site).
+- The <strong>GlobalProtect</strong> client is installed on your laptop (look for the globe icon in your system tray or menu bar).
+- Your VPN gateway address is <code>vpn.summitit.com</code>.</p>
+<p>Identify the symptom: What exactly happens when you click Connect?</p>
+<hr />
+<h2>Step-by-Step Diagnostic Flow</h2>
+<h3>1. Is the GlobalProtect client installed?</h3>
+<p><strong>Windows:</strong> Look for the GlobalProtect globe icon in the system tray (bottom-right taskbar). If not visible, search <strong>Start</strong> for "GlobalProtect."</p>
+<p><strong>Mac:</strong> Look for the GlobalProtect icon in the menu bar (top-right). If not visible, check <strong>Applications</strong> for GlobalProtect.</p>
+<p><strong>If not installed →</strong> Open <strong>Company Portal</strong> (Windows) or <strong>Self Service</strong> (Mac) and search for "GlobalProtect." Install and restart your laptop. If GlobalProtect is not available in the catalogue, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> for IT to push the client to your device.</p>
+<p><strong>If installed →</strong> Proceed to Step 2.</p>
+<hr />
+<h3>2. Is the gateway configured as <code>vpn.summitit.com</code>?</h3>
+<p>Open the GlobalProtect client and check the gateway field.</p>
+<p><strong>If blank or showing a different address →</strong> Click the gear icon (Settings) in the GlobalProtect client, enter <code>vpn.summitit.com</code> as the portal/gateway address, and click Connect.</p>
+<p><strong>If already set to <code>vpn.summitit.com</code> →</strong> Proceed to Step 3.</p>
+<hr />
+<h3>3. Do you have an active internet connection?</h3>
+<p>GlobalProtect needs internet access before it can establish the VPN tunnel.</p>
+<p><strong>Test:</strong> Open a browser and load <a href="https://google.com">https://google.com</a>. If the page does not load, resolve your internet issue first — see <strong>TS-03: Wi-Fi or Internet Isn't Working</strong>. Your home router, ISP, or office Wi-Fi may need troubleshooting.</p>
+<p><strong>If internet is working →</strong> Proceed to Step 4.</p>
+<hr />
+<h3>4. What error does GlobalProtect display when you try to connect?</h3>
+<p>Match your error to the relevant step below:</p>
+<ul>
+<li><strong>"Invalid username or password" / "Authentication failed" →</strong> Proceed to Step 5.</li>
+<li><strong>"Unable to connect to the portal" / "Cannot reach the VPN gateway" →</strong> Proceed to Step 6.</li>
+<li><strong>"SSL Error" / "Certificate error" / "Untrusted site" →</strong> Proceed to Step 7.</li>
+<li><strong>Okta Verify push is not arriving →</strong> Proceed to Step 8.</li>
+<li><strong>Connection initiates but drops immediately or after a few seconds →</strong> Proceed to Step 9.</li>
+<li><strong>No error — client spins and eventually times out →</strong> Proceed to Step 6.</li>
+</ul>
+<hr />
+<h3>5. "Authentication failed" — are you using the correct Okta credentials?</h3>
+<p>Your GlobalProtect login uses the same credentials as your Okta account: <code>firstname.lastname@summitit.com</code> as the username, and your current Okta password.</p>
+<ul>
+<li>Ensure Caps Lock is off.</li>
+<li>Confirm your Okta password has not expired. Test by logging in at <a href="https://summit.okta.com">https://summit.okta.com</a> from a browser. If Okta prompts you to change your password, do so first — the new password must be used for GlobalProtect as well.</li>
+<li>If your account is locked, unlock it via Okta self-service or contact the Service Desk at <strong>+1 (800) 555-7866</strong> before retrying VPN.</li>
+</ul>
+<p><strong>Did correcting credentials resolve the issue?</strong></p>
+<p><strong>If yes →</strong> Issue was an incorrect or expired password. Update your password in 1Password.</p>
+<p><strong>If no →</strong> Proceed to Step 8 (MFA issue) or contact the Service Desk.</p>
+<hr />
+<h3>6. "Cannot reach gateway" — is the VPN gateway reachable from your network?</h3>
+<p><strong>Windows:</strong> Open Command Prompt and run: <code>ping vpn.summitit.com</code></p>
+<p><strong>Mac:</strong> Open Terminal and run: <code>ping -c 4 vpn.summitit.com</code></p>
+<p><strong>If ping fails (no response / "Request timed out") →</strong>
+- Your current network may be blocking VPN traffic (some hotels, coffee shops, and enterprise guest Wi-Fi block UDP 4501 and IPSEC).
+- Try switching to your <strong>mobile phone hotspot</strong> and reconnecting. If GlobalProtect connects on the hotspot, the original network is blocking VPN.
+- If on a corporate guest network at a customer site, VPN blocking is common — use your hotspot as the workaround.
+- If this is your home network, try restarting your router and modem.</p>
+<p><strong>If ping succeeds but VPN still fails →</strong> The issue is not network reachability — proceed to Step 9 or contact the Service Desk.</p>
+<hr />
+<h3>7. "SSL Error" or "Certificate error" when connecting.</h3>
+<p>Do not dismiss or click through certificate warnings. These may indicate:
+- You are on a network with a captive portal (hotel Wi-Fi) that intercepts SSL before you have accepted the portal terms.
+- A man-in-the-middle network condition.</p>
+<p><strong>For captive portals:</strong> Open a browser first and connect to the captive portal (accept the terms or log in to the hotel/venue Wi-Fi). Once your browser can load a public website, try GlobalProtect again.</p>
+<p><strong>If the certificate error persists on a trusted network:</strong> This may indicate a corrupted GlobalProtect certificate store. Submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> — do not continue trying to bypass the error.</p>
+<hr />
+<h3>8. Okta Verify push is not arriving.</h3>
+<p>GlobalProtect uses Okta for authentication, which requires an Okta Verify push approval.</p>
+<ol>
+<li>Ensure your <strong>phone has an active internet connection</strong> (Wi-Fi or cellular data). Okta Verify cannot receive pushes without internet.</li>
+<li>Open the <strong>Okta Verify</strong> app manually. If a push is waiting, it will appear in the app even if the notification did not arrive.</li>
+<li>In the GlobalProtect authentication screen, look for a <strong>"Use code instead"</strong> or <strong>"Enter code"</strong> option. Open Okta Verify, tap your Summit IT account, and use the displayed <strong>6-digit time-based code</strong> (TOTP) as an alternative to the push.</li>
+<li>Ensure notifications are enabled for Okta Verify in your phone's settings (<strong>Settings &gt; Notifications &gt; Okta Verify</strong> — enable and allow sounds/banners).</li>
+</ol>
+<p><strong>Did using the TOTP code allow the VPN to connect?</strong></p>
+<p><strong>If yes →</strong> Push notifications may be delayed or blocked on your phone. Check notification settings and report the issue to the Service Desk for MFA troubleshooting.</p>
+<p><strong>If no, code also fails →</strong> Your Okta Verify enrollment may be corrupted. Contact the Service Desk at <strong>+1 (800) 555-7866</strong> for an MFA reset.</p>
+<hr />
+<h3>9. VPN connects but drops immediately or after a short period.</h3>
+<p><strong>Restart GlobalProtect:</strong>
+1. <strong>Windows:</strong> Right-click the GlobalProtect icon in the system tray, select <strong>Disconnect</strong>, wait 30 seconds, then select <strong>Connect</strong> again.
+2. <strong>Mac:</strong> Click the GlobalProtect menu bar icon, select <strong>Disconnect</strong>, wait 30 seconds, then <strong>Connect</strong>.</p>
+<p><strong>Check for conflicting software:</strong>
+- Other VPN clients (e.g., Cisco AnyConnect, OpenVPN) running simultaneously can conflict with GlobalProtect. Disconnect and close any other VPN clients before connecting to GlobalProtect.</p>
+<p><strong>Test on mobile hotspot:</strong>
+- If drops are frequent on your home network but not on a hotspot, your home router may have an issue with long-lived VPN connections (some routers have aggressive NAT timeout settings). Try updating your router firmware or adjusting the NAT timeout settings (contact your router manufacturer for guidance).</p>
+<p><strong>Did any of the above resolve the dropping connection?</strong></p>
+<p><strong>If yes →</strong> Note which fix resolved it for future reference.</p>
+<p><strong>If no →</strong> Collect the GlobalProtect connection log (Windows: <code>%AppData%\Palo Alto Networks\GlobalProtect\PanGPA.log</code>; Mac: <code>/Library/Logs/PaloAltoNetworks/GlobalProtect/PanGPA.log</code>) and submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>, attaching the log file.</p>
+<hr />
+<h3>10. Reinstall the GlobalProtect client.</h3>
+<p>If all above steps fail, a corrupt installation may be the cause.</p>
+<p><strong>Windows:</strong> Go to <strong>Settings &gt; Apps</strong>, uninstall GlobalProtect, restart your laptop, open <strong>Company Portal</strong>, and reinstall GlobalProtect.</p>
+<p><strong>Mac:</strong> Drag GlobalProtect from Applications to Trash. Also remove <code>/Library/Application Support/Palo Alto Networks/</code> if present (requires admin access — contact Service Desk if needed). Restart, then reinstall via <strong>Self Service</strong>.</p>
+<hr />
+<h2>Quick Checklist</h2>
+<p>Before calling the Service Desk, confirm you have tried:</p>
+<ul>
+<li>[ ] Verified GlobalProtect is installed and configured with gateway <code>vpn.summitit.com</code></li>
+<li>[ ] Confirmed internet is working (can load google.com)</li>
+<li>[ ] Verified Okta password is not expired (tested at https://summit.okta.com)</li>
+<li>[ ] Tried authenticating with 6-digit TOTP code from Okta Verify (not just push)</li>
+<li>[ ] Checked that phone has internet access for Okta Verify</li>
+<li>[ ] Tested connection using mobile phone hotspot to rule out network blocking</li>
+<li>[ ] Closed all other VPN clients before connecting</li>
+<li>[ ] Tried disconnecting/reconnecting GlobalProtect</li>
+<li>[ ] Checked for a captive portal if connecting from a hotel or venue</li>
+</ul>
+<hr />
+<h2>When to Contact the Service Desk</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VPN is down for all remote users (global outage)</td>
+<td><strong>P1 – Critical</strong></td>
+</tr>
+<tr>
+<td>VPN is the only way to work and no connection method succeeds</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>Okta Verify MFA cannot be completed (no recovery options)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>VPN connects but drops every few minutes</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Single user cannot connect after all self-service steps</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>GlobalProtect not available in Company Portal / Self Service</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contact options:</strong>
+- Portal: <a href="https://help.summitit.com">https://help.summitit.com</a>
+- Email: <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a>
+- Phone: <strong>+1 (800) 555-7866</strong>
+- Slack: <strong>#it-help</strong></p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

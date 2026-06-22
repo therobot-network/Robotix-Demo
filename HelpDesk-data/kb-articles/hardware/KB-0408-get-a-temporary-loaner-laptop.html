@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get a Temporary Loaner Laptop — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0408</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-07-22</span><span><b>Tags:</b> loaner, laptop, temporary, hardware, repair, dell latitude, macbook pro</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Get a Temporary Loaner Laptop</h1>
+<h2>Summary</h2>
+<p>This article explains how to request a temporary loaner laptop when your primary Summit IT-issued device is unavailable due to repair, replacement, loss investigation, or an RMA in progress. Loaner devices are pre-configured with the standard software stack and are intended for short-term use only — typically up to 10 business days.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Loaner laptops are available <strong>at office locations only</strong>. Remote employees may request a loaner to be shipped to their home address, subject to stock availability; allow an additional 2 business days for shipping.</li>
+<li>Loaner devices are configured with the standard software stack (Windows 11 + Microsoft 365, Okta, GlobalProtect, CrowdStrike). Non-standard applications are <strong>not</strong> installed on loaners. If you require specific licensed software, note this in your ticket and IT will assess feasibility.</li>
+<li>You must have an <strong>open repair or RMA ticket</strong> (format: <code>INC-######</code>) before requesting a loaner — loaners are not issued without an associated fault ticket.</li>
+<li>Loaners are tracked by asset tag and assigned to you personally for the duration. You are responsible for keeping the device secure and returning it in the same condition it was issued.</li>
+</ul>
+<h2>Steps</h2>
+<ol>
+<li>Open the Summit Service Desk portal at <strong>https://help.summitit.com</strong> and sign in with your Okta credentials.</li>
+<li>Click <strong>Request a Service</strong> and select <strong>Hardware &amp; Equipment &gt; Loaner Laptop Request</strong>.</li>
+<li>Complete the required fields:
+   - <strong>Associated repair ticket</strong>: Enter the existing <code>INC-######</code> ticket number for the repair or RMA.
+   - <strong>Platform needed</strong>: Windows (Dell Latitude 7440) or Mac (MacBook Pro 14"). Select the same platform as your primary device where possible — your Okta and OneDrive/Microsoft 365 accounts will work on either platform.
+   - <strong>Location or shipping address</strong>: Office location for same-day or next-day pickup, or full home address for shipping.
+   - <strong>Required by date</strong>: Enter the date your primary device is expected to be unavailable.
+   - <strong>Estimated return date</strong>: Enter the expected duration. Extensions can be requested if the repair takes longer than anticipated.
+   - <strong>Special software requirements</strong>: List any applications beyond the standard suite.</li>
+<li>Click <strong>Submit</strong>. You will receive a loaner request confirmation (format: <code>REQ-######</code>).</li>
+<li>IT will confirm availability and contact you to arrange handoff:
+   - <strong>In-office</strong>: IT will bring the loaner to your desk or request you collect it from the IT office. Allow up to 4 business hours on the day of your request.
+   - <strong>Remote/ship</strong>: IT will dispatch the loaner within 1 business day of ticket submission.</li>
+<li>When you collect the loaner:
+   - IT will ask you to sign a <strong>Loaner Agreement</strong> acknowledging responsibility for the device during the loan period.
+   - Note the loaner's asset tag (label on device base, format <code>SUM-LT-#####</code> or <code>SUM-MB-#####</code>) — keep this for reference.</li>
+<li>Sign in to the loaner using your standard Okta credentials. Your Microsoft 365, Slack, Zoom, and other cloud applications will be available after sign-in and Okta Verify authentication.</li>
+<li>If your primary device used <strong>OneDrive sync</strong>, your files will be accessible via OneDrive (web or the synced OneDrive folder) on the loaner. Do not save files locally on the loaner device — use OneDrive or SharePoint exclusively.</li>
+<li>When your primary device is repaired and returned to you, return the loaner to IT within <strong>1 business day</strong>. Reply to your loaner ticket or contact the service desk to arrange the return.</li>
+<li>Sign out of all applications on the loaner before returning it. IT will wipe and re-provision the device after return.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Loaner requested but no response after 4 business hours</td>
+<td>Contact the service desk by phone (+1 (800) 555-7866) or Slack (#it-help) to confirm stock availability and escalate</td>
+</tr>
+<tr>
+<td>Loaner does not have the same platform as your primary device</td>
+<td>Note this in the loaner ticket. IT will source a matching platform if stock permits; otherwise advise on cross-platform access to your files</td>
+</tr>
+<tr>
+<td>Okta Verify not set up on loaner</td>
+<td>Open the Okta Verify app on your phone — your existing enrollment covers the loaner. No new Okta enrollment is needed</td>
+</tr>
+<tr>
+<td>Non-standard application needed on loaner</td>
+<td>IT will evaluate on a case-by-case basis; approval may take 1–2 business days for licensed software</td>
+</tr>
+<tr>
+<td>Loaner needs to be kept longer than originally agreed</td>
+<td>Reply to the loaner ticket to request an extension before the agreed return date; extensions require manager approval if over 10 business days</td>
+</tr>
+<tr>
+<td>Primary device returned to you but loaner pickup not yet scheduled</td>
+<td>Do not use both devices simultaneously — contact IT to schedule immediate loaner return</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0407: Request a Hardware Repair or Warranty Replacement (RMA)</li>
+<li>KB-0400: Request a New or Replacement Laptop</li>
+<li>KB-0409: Return or Dispose of Old IT Equipment</li>
+<li>KB-0401: Laptop Won't Power On</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

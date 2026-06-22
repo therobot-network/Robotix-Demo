@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Email Stuck in Outbox / Messages Won&#x27;t Send — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0202</span><span><b>Category:</b> Email &amp; Microsoft 365</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-01-18</span><span><b>Tags:</b> outlook, email, outbox, send, stuck, troubleshooting</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>Email Stuck in Outbox / Messages Won't Send</h1>
+<h2>Summary</h2>
+<p>When an email gets stuck in your Outbox, Outlook keeps trying to send it but fails — often preventing other messages from going out as well. This article covers the most common causes and step-by-step fixes for Outlook on Windows, macOS, and Outlook on the Web.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Check that you have an active internet connection. If you are off-campus, confirm GlobalProtect VPN is connected if you are trying to reach internal resources.</li>
+<li>Try opening https://outlook.office.com in a browser to confirm your account is otherwise accessible. If this also fails, the issue may be account-wide — contact the Summit Service Desk.</li>
+<li>Note whether the stuck message has a large attachment (over 25 MB). Microsoft 365 enforces a 25 MB per-message limit.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Step 1 — Work Offline to Release the Stuck Message</h3>
+<p>Attempting to edit or delete a stuck message while Outlook is actively trying to send it can cause errors. Working offline first prevents that.</p>
+<p><strong>Windows:</strong>
+1. In Outlook, click the <strong>Send / Receive</strong> tab on the ribbon.
+2. Click <strong>Work Offline</strong>. A checkmark appears and the status bar shows "Working Offline."
+3. Go to your <strong>Outbox</strong> folder in the left pane.
+4. Right-click the stuck message and choose <strong>Delete</strong> to discard it, or double-click to open and edit it.
+5. If editing, make your changes and click <strong>Save</strong> (not Send) to move it to Drafts.
+6. Click <strong>Send / Receive &gt; Work Offline</strong> again to go back online.
+7. Open the message from <strong>Drafts</strong>, review it, and click <strong>Send</strong>.</p>
+<p><strong>macOS:</strong>
+1. In Outlook, go to <strong>Outlook &gt; Work Offline</strong> from the menu bar.
+2. Open the <strong>Outbox</strong> in the left sidebar.
+3. Right-click the stuck message and choose <strong>Delete</strong> or <strong>Open</strong> to edit.
+4. Save to Drafts if editing, then go back to <strong>Outlook &gt; Work Offline</strong> to toggle back online.
+5. Open and send the message from Drafts.</p>
+<h3>Step 2 — Check Attachment Size</h3>
+<p>If the email has an attachment larger than 25 MB:
+1. Delete the stuck message from Outbox (use the Work Offline method above).
+2. Upload the file to <strong>OneDrive</strong> instead: open OneDrive, drag the file in, right-click it, and choose <strong>Share &gt; Copy Link</strong>.
+3. Compose a new email and paste the OneDrive sharing link in the body.</p>
+<h3>Step 3 — Repair Your Outlook Profile (Windows)</h3>
+<p>If the message is deleted but email still won't send:
+1. Close Outlook completely.
+2. Open <strong>Control Panel &gt; Mail (Microsoft Outlook)</strong> (search "Mail" in the Start menu).
+3. Click <strong>Show Profiles</strong>, select your profile (usually your email address), and click <strong>Properties</strong>.
+4. Click <strong>Email Accounts</strong>, select your account, and click <strong>Repair</strong>.
+5. Follow the repair wizard, signing in with your Okta credentials when prompted.
+6. Reopen Outlook and attempt to send a test message.</p>
+<h3>Step 4 — Use Outlook on the Web as a Workaround</h3>
+<p>While troubleshooting the desktop app, you can send email at https://outlook.office.com. Sign in with your Summit IT credentials via Okta SSO. Messages sent here are not affected by local Outlook configuration issues.</p>
+<h3>Step 5 — Clear the Outlook Cache (macOS)</h3>
+<ol>
+<li>Quit Outlook.</li>
+<li>Open <strong>Finder &gt; Go &gt; Go to Folder</strong> and enter: <code>~/Library/Group Containers/UBF8T346G9.Office/Outlook/Outlook 15 Profiles/</code></li>
+<li>Move the <strong>Main Profile</strong> folder to your Desktop as a backup.</li>
+<li>Reopen Outlook — it will rebuild the profile and prompt you to sign in via Okta.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outbox shows (1) but no message is visible</td>
+<td>The message may be corrupted. Use MFCMAPI (Windows, L2 only) or contact the Service Desk.</td>
+</tr>
+<tr>
+<td>All new emails also get stuck</td>
+<td>Likely an authentication issue — sign out and back in to your Microsoft 365 account in Outlook settings.</td>
+</tr>
+<tr>
+<td>Repeated "Your server does not support the connection encryption type" error</td>
+<td>Contact the Service Desk; your account's security policy may have changed.</td>
+</tr>
+<tr>
+<td>Large attachment sent successfully in web but not desktop</td>
+<td>Desktop Outlook has a local send limit; confirm your add-ins are not blocking sends via <strong>File &gt; Manage Add-ins</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Set Up Outlook on Windows and Mac (KB-0200)</li>
+<li>Your Mailbox Is Full — Clean Up and Archive (KB-0203)</li>
+<li>Open and Use a Shared Mailbox in Outlook (KB-0208)</li>
+<li>Recover a Deleted Email or Calendar Item (KB-0207)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

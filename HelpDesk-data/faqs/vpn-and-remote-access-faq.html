@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VPN &amp; Remote Access FAQ — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> FAQ-04</span><span><b>Category:</b> FAQ</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> faq, vpn, globalprotect, remote-access, network, palo-alto</span></div>
+<h1>VPN &amp; Remote Access FAQ</h1>
+<p>Common questions about connecting to Summit IT systems remotely using GlobalProtect VPN.</p>
+<hr />
+<h3>What VPN does Summit IT use?</h3>
+<p>Summit IT uses <strong>Palo Alto GlobalProtect</strong> as its VPN solution. The GlobalProtect client is pre-installed on all managed laptops (Dell Latitude and MacBook Pro). The VPN gateway address is <code>vpn.summitit.com</code>.</p>
+<h3>When do I need to use the VPN?</h3>
+<p>You must connect to GlobalProtect VPN whenever you are working from a location that is not a Summit IT office — this includes home, hotels, coffee shops, co-working spaces, and all other non-corporate networks. VPN is required to access internal applications, shared file servers, internal websites, and any system not available through the public internet.</p>
+<h3>How do I connect to the VPN?</h3>
+<p>Click the <strong>GlobalProtect</strong> icon in your system tray (Windows) or menu bar (Mac). If the gateway field is blank, enter <code>vpn.summitit.com</code>. Click <strong>Connect</strong>, enter your Okta username and password, then approve the <strong>Okta Verify</strong> push notification on your phone. The VPN icon will show a connected shield when established.</p>
+<h3>How do I disconnect from the VPN?</h3>
+<p>Click the <strong>GlobalProtect</strong> icon in your system tray or menu bar and click <strong>Disconnect</strong>. Disconnect when you are done with internal work to allow direct internet routing for non-work traffic, improving performance on personal activities.</p>
+<h3>The GlobalProtect client is missing from my laptop — what do I do?</h3>
+<p>On Windows, open <strong>Company Portal</strong> and search for "GlobalProtect" to reinstall it. On Mac, open <strong>Self Service</strong> and locate GlobalProtect in the catalogue. If neither option works, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> and a technician will push the installer to your device remotely.</p>
+<h3>I can connect to VPN but still cannot reach an internal resource — what should I check?</h3>
+<p>First confirm the VPN is showing a connected status in GlobalProtect. If connected, the issue may be with permissions to the specific resource, a DNS resolution problem, or the internal service being down. Submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> with the name of the resource, the URL or path you are trying to reach, and any error messages you see.</p>
+<h3>My VPN connection keeps dropping — what should I do?</h3>
+<p>Unstable VPN connections are usually caused by a poor underlying internet connection. Test your home internet by temporarily disconnecting from VPN and running a speed test. Also try connecting to your phone's hotspot to rule out your home router. If the issue persists on multiple networks, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> with details of when the drops occur.</p>
+<h3>Can I use a personal device to connect to the VPN?</h3>
+<p>GlobalProtect VPN access is restricted to Summit IT-managed devices (enrolled in Intune or Jamf). Personal laptops, tablets, and phones cannot connect to the corporate VPN. If you require temporary access from a non-managed device in an emergency, contact the Service Desk at <strong>+1 (800) 555-7866</strong> to discuss options — this requires manager approval and is handled case-by-case.</p>
+<h3>I'm traveling internationally — will the VPN still work?</h3>
+<p>GlobalProtect is designed to work globally. However, some countries restrict or block VPN usage — check your travel destination's local regulations before traveling. The Service Desk can advise on known connectivity issues for specific countries. Contact <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a> before international travel to ensure your access is configured correctly.</p>
+<h3>Does the VPN slow down my internet speed?</h3>
+<p>VPN connections add some latency due to encryption overhead, but the impact is typically minor on a modern broadband connection. If you experience significant slowdowns, ensure your home internet connection is performing normally first. Split tunneling is configured by IT so that general internet traffic (e.g., video streaming) does not route through the VPN, minimizing the performance impact.</p>
+<h3>I get a "certificate error" or "untrusted gateway" warning when connecting — what do I do?</h3>
+<p>Do not click through or dismiss certificate errors from GlobalProtect — they can indicate a man-in-the-middle attack or a misconfigured network (e.g., hotel captive portal). Disconnect from the current network, connect to a trusted network or your mobile hotspot, and try again. If the error persists on trusted networks, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> immediately.</p>
+<h3>What is the difference between Summit-Corp Wi-Fi and VPN?</h3>
+<p><strong>Summit-Corp</strong> is the corporate Wi-Fi network available in Summit IT offices. When connected to Summit-Corp, you are already on the corporate network and VPN is not required. <strong>GlobalProtect VPN</strong> is for all non-office locations, creating an encrypted tunnel from your remote location back to the corporate network.</p>
+<h3>Can I access Microsoft 365 (Outlook, Teams, OneDrive) without VPN?</h3>
+<p>Yes. Microsoft 365 applications are cloud-based and accessible directly from any internet connection without VPN, authenticated through Okta SSO. VPN is only required for internal on-premises systems, shared file servers, and applications not available on the public internet.</p>
+<h3>My Okta Verify app is not receiving push notifications when I try to connect to VPN — what should I do?</h3>
+<p>Ensure your phone has an active internet connection (cellular or Wi-Fi) and that notifications are enabled for the Okta Verify app. Try opening the Okta Verify app manually and entering the one-time code displayed instead of waiting for the push. If the problem persists, contact the Service Desk at <strong>+1 (800) 555-7866</strong> to check your MFA configuration.</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

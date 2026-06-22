@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>New Employee IT FAQ — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> FAQ-02</span><span><b>Category:</b> FAQ</span><span><b>Audience:</b> New Employees</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> faq, onboarding, new-hire, setup, okta, equipment</span></div>
+<h1>New Employee IT FAQ</h1>
+<p>Everything you need to know about getting set up with Summit IT tools and services on your first day and first week.</p>
+<hr />
+<h3>When will I receive my laptop and IT credentials?</h3>
+<p>Your laptop will be shipped to your home address (for remote employees) or available for pickup at your office location on or before your first day. IT credentials — including your Okta account and email — are provisioned the morning of your start date. Your manager and IT will coordinate delivery timing.</p>
+<h3>What is my username and email address?</h3>
+<p>Your username and email follow the format <code>firstname.lastname@summitit.com</code>. If you have a name collision with an existing employee, a middle initial or number may be added — IT will notify you of any variation before your start date.</p>
+<h3>How do I activate my Okta account?</h3>
+<p>You will receive an activation email from Okta at your personal email address (provided during onboarding) on your first day. Click the activation link, set a strong password, and enroll in Okta Verify MFA by scanning the QR code with the Okta Verify app on your smartphone. Complete this step before attempting to log in to any Summit IT systems.</p>
+<h3>What is Okta and why do I need it?</h3>
+<p>Okta is Summit IT's Single Sign-On (SSO) platform. It is your central login hub for nearly all business applications — Microsoft 365, Slack, Zoom, SummitDesk, 1Password, and more. Once you log in to Okta, you can launch applications from your Okta dashboard without re-entering credentials for each one.</p>
+<h3>What is Okta Verify and how do I set it up?</h3>
+<p>Okta Verify is the multi-factor authentication (MFA) app used at Summit IT. Download <strong>Okta Verify</strong> from the App Store (iPhone) or Google Play (Android), then follow the enrollment prompts during your Okta account activation. When you sign in to Okta-protected apps, you will receive a push notification to approve. Do not share or approve push notifications you did not initiate.</p>
+<h3>What is 1Password and how do I get access?</h3>
+<p>1Password Business is Summit IT's company-wide password manager. You will receive an invitation to join the Summit IT 1Password account via your new work email once your account is provisioned. Install the 1Password app on your laptop and mobile device and use it to store all work-related passwords securely. Never store passwords in your browser or in plain text.</p>
+<h3>What applications are pre-installed on my laptop?</h3>
+<p>All Summit IT laptops come pre-loaded with: Microsoft 365 (Outlook, Teams, Word, Excel, PowerPoint, OneDrive), Slack, Zoom, GlobalProtect VPN client, CrowdStrike Falcon (endpoint security), 1Password, and Okta Verify. Windows laptops include Company Portal (Intune) for software installs; Macs include Self Service (Jamf) for the same purpose.</p>
+<h3>How do I connect to the corporate Wi-Fi network?</h3>
+<p>Connect to the <strong>Summit-Corp</strong> Wi-Fi network and enter your Okta username and password when prompted. This network uses WPA2-Enterprise (802.1X) authentication — no separate network password is needed. Visitor and personal devices should use <strong>Summit-Guest</strong>, which requires a daily code available from reception.</p>
+<h3>How do I set up my email in Outlook?</h3>
+<p>On Windows, open Microsoft Outlook — it should auto-configure with your <code>firstname.lastname@summitit.com</code> account. On Mac, open Outlook, select <strong>Add Account</strong>, and enter your full email address; Okta SSO will handle authentication. If auto-configuration fails, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> and the Service Desk will assist.</p>
+<h3>How do I install additional software I need for my role?</h3>
+<p>On Windows, open <strong>Company Portal</strong> and browse or search for approved software. On Mac, open <strong>Self Service</strong> for the same catalogue. If you need software not listed in those catalogues, submit a service request at <a href="https://help.summitit.com">https://help.summitit.com</a> — your manager's approval will be required for non-standard applications.</p>
+<h3>How do I connect to the VPN when working remotely?</h3>
+<p>Open the <strong>GlobalProtect</strong> VPN client on your laptop (it should be in your taskbar or menu bar), enter <code>vpn.summitit.com</code> as the gateway if prompted, and sign in with your Okta credentials. Approve the Okta Verify push notification. VPN is required to access internal applications and shared drives from outside a Summit IT office.</p>
+<h3>My laptop arrived but won't turn on — what do I do?</h3>
+<p>Ensure the laptop is connected to the power adapter and charging. Hold the power button for 3–5 seconds. If it still does not turn on, contact the Service Desk at <strong>+1 (800) 555-7866</strong> or via <a href="https://help.summitit.com">https://help.summitit.com</a> and we will arrange a replacement or hands-on setup assistance.</p>
+<h3>What is my employee ID and where do I find it?</h3>
+<p>Your Employee ID is in the format <code>SUM-#####</code> and can be found in your onboarding welcome email, your Workday profile, or by contacting HR. You will need this ID when submitting IT support tickets.</p>
+<h3>I did not receive my activation email — what should I do?</h3>
+<p>Check your personal email spam/junk folder first. If it is not there, contact the Service Desk at <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a> or call <strong>+1 (800) 555-7866</strong> — your IT onboarding contact can resend the activation link or verify your provisioning status.</p>
+<h3>Who do I contact for IT-related questions after my first week?</h3>
+<p>Reach the Service Desk any time via the self-service portal <a href="https://help.summitit.com">https://help.summitit.com</a>, email <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a>, phone <strong>+1 (800) 555-7866</strong>, or Slack <strong>#it-help</strong>. Your manager and IT buddy (assigned during onboarding) are also good first points of contact for quick questions.</p>
+<h3>How do I find the IT knowledge base?</h3>
+<p>The knowledge base is built into SummitDesk at <a href="https://help.summitit.com">https://help.summitit.com</a>. Click <strong>Browse Knowledge Base</strong> from the home page to search articles, how-to guides, and FAQs covering all Summit IT tools and processes.</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

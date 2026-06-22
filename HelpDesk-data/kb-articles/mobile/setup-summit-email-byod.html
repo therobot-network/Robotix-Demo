@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Set Up Summit Email on a Personal Phone (BYOD) — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0606</span><span><b>Category:</b> Mobile Devices</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-12-11</span><span><b>Tags:</b> byod, email, outlook, mobile, ios, android, intune, exchange</span><span><b>Applies to:</b> iOS, Android</span></div>
+<h1>Set Up Summit Email on a Personal Phone (BYOD)</h1>
+<h2>Summary</h2>
+<p>You can access your Summit IT email, calendar, and contacts on your personal iPhone or Android phone using Microsoft Outlook. Because Summit IT uses Microsoft Intune for mobile management, your device must be enrolled before the Outlook app can connect to corporate mail. This article walks you through the complete setup.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Your device must be enrolled in Intune via the Company Portal app. If you have not done this yet, complete KB-0605 first and then return here.</li>
+<li>Download <strong>Microsoft Outlook</strong> from the App Store (iOS) or Google Play (Android) before starting. The free Outlook app supports full Summit email, calendar, and contacts sync.</li>
+<li>You will need your Summit credentials (<code>firstname.lastname@summitit.com</code>) and your Okta Verify app ready.</li>
+<li>Summit IT requires a <strong>6-digit PIN or biometric lock</strong> on BYOD devices accessing corporate email. You will be prompted to set one if your device does not already have it.</li>
+</ul>
+<h2>Steps</h2>
+<h3>iOS (iPhone / iPad)</h3>
+<ol>
+<li>Open <strong>Microsoft Outlook</strong> on your iPhone or iPad.</li>
+<li>Tap <strong>Add Account</strong> (or <strong>Get Started</strong> if this is your first account).</li>
+<li>Enter your Summit email address: <code>firstname.lastname@summitit.com</code>. Tap <strong>Add Account</strong>.</li>
+<li>Outlook detects the Summit Microsoft 365 configuration automatically. You are redirected to the Okta sign-in page.</li>
+<li>Enter your Summit password and approve the <strong>Okta Verify</strong> push notification when it appears.</li>
+<li>If your device does not have a PIN or Face ID/Touch ID configured, you are prompted to set one now. Follow the on-screen steps to enable device security.</li>
+<li>Tap <strong>Maybe Later</strong> when asked to add another account (unless you need to).</li>
+<li>Outlook begins syncing your inbox, calendar, and contacts. Initial sync for large mailboxes may take 5–10 minutes.</li>
+<li>Verify you can see your Summit emails and that your calendar shows meetings.</li>
+</ol>
+<h3>Android</h3>
+<ol>
+<li>Open <strong>Microsoft Outlook</strong> on your Android device.</li>
+<li>Tap <strong>Add Account</strong> and enter <code>firstname.lastname@summitit.com</code>. Tap <strong>Continue</strong>.</li>
+<li>On the authentication screen, enter your Summit password and complete the Okta Verify push challenge.</li>
+<li>If Intune requires additional device protection, you may be prompted to set a PIN or enable encryption. Follow those prompts — this is required for compliance.</li>
+<li>Outlook will display a <strong>"Activate Device Administrator"</strong> (or Intune App Protection) prompt — tap <strong>Activate</strong> to allow the app to enforce corporate security policies on Outlook data only (this does not affect your personal apps).</li>
+<li>Tap <strong>Maybe Later</strong> if prompted to add another account.</li>
+<li>Wait for the initial sync to complete. Your Summit inbox, calendar, and contacts will appear.</li>
+</ol>
+<h3>What Syncs with Outlook on Mobile</h3>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Synced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Email (inbox, sent, folders)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Calendar events and invites</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Contacts (Summit Global Address List)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Tasks (Microsoft To Do / Planner)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>OneDrive / SharePoint files</td>
+<td>Yes (via Files tab)</td>
+</tr>
+</tbody>
+</table>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>What to try</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Account not found" or "Sign-in failed"</td>
+<td>Confirm your device is enrolled in Intune (KB-0605). Try signing out and back into Company Portal first.</td>
+</tr>
+<tr>
+<td>Outlook prompts for password repeatedly</td>
+<td>Your password may have changed or your Okta session expired. Sign in to https://okta.summitit.com in a browser to reset your session, then reopen Outlook.</td>
+</tr>
+<tr>
+<td>Calendar events not syncing</td>
+<td>Tap the <strong>Calendar</strong> icon in Outlook, then pull down to refresh. Allow up to 10 minutes for initial calendar sync.</td>
+</tr>
+<tr>
+<td>"Need to update device settings" banner</td>
+<td>Tap the banner and follow the prompts to bring your device into compliance (usually a PIN requirement or OS update).</td>
+</tr>
+<tr>
+<td>Outlook crashes on open</td>
+<td>Force-close and reopen the app. If it continues, delete and reinstall Outlook from the App Store or Play Store — your account data is stored server-side and will resync.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0605 — Enroll a Device in Intune with the Company Portal App</li>
+<li>KB-0608 — Move Okta Verify to a New Phone</li>
+<li>KB-0609 — Install Summit Company Apps on Your Mobile Device</li>
+<li>KB-0610 — Understand What IT Can and Can't See on Your BYOD Phone</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

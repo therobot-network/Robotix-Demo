@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Register a YubiKey Security Key — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0105</span><span><b>Category:</b> Accounts &amp; Access</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-03-05</span><span><b>Tags:</b> yubikey, security key, mfa, hardware token, privileged access, fido2</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>Register a YubiKey Security Key</h1>
+<h2>Summary</h2>
+<p>YubiKeys are FIDO2 hardware security keys required for all Summit IT employees with privileged or administrator-level access. A YubiKey generates a phishing-resistant cryptographic authentication that is stronger than a phone-based push. This article explains how to register your YubiKey in Okta once it has been issued to you by the Service Desk.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You must have been issued a YubiKey by the Summit Service Desk. YubiKeys are not self-provisioned — open a request if you need one (see KB-0110, Request Elevated / Administrator Access).</li>
+<li>Your YubiKey will have a Summit asset tag on the back (format <code>SUM-YK-#####</code>). Keep this for your records.</li>
+<li>You need your current Summit credentials and Okta Verify MFA to authenticate before registering the key.</li>
+<li>Supported connection types: USB-A, USB-C (depending on key model issued). USB-C to USB-A adapters are available from the Service Desk if your laptop only has USB-C ports (Dell Latitude 7440 has both).</li>
+<li>WebAuthn registration requires a supported browser: Microsoft Edge, Chrome, or Firefox. Safari is supported on macOS 16+ only.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Part 1 — Register the YubiKey in Okta</h3>
+<ol>
+<li>Plug your YubiKey into a USB port on your computer.</li>
+<li>Open a browser and navigate to <a href="https://summitit.okta.com">https://summitit.okta.com</a>.</li>
+<li>Sign in with your email and password, then approve the Okta Verify MFA push.</li>
+<li>Click your name in the top-right corner and select <strong>Settings</strong>.</li>
+<li>Scroll to <strong>Extra Verification</strong> and find the <strong>Security Key or Biometric</strong> section. Click <strong>Set up</strong>.<blockquote>
+<p>If you do not see this option, your Okta admin profile may not have YubiKey enabled. Contact the Service Desk to confirm your account is configured for hardware key enrollment.</p>
+</blockquote>
+</li>
+<li>Okta displays a <strong>Register Security Key</strong> dialog. Click <strong>Set up security key</strong>.</li>
+<li>Your browser displays a <strong>"Use your security key"</strong> prompt from the OS. Click <strong>OK</strong> or <strong>Allow</strong>.</li>
+<li>Touch the <strong>gold contact</strong> (the disk or button) on your YubiKey when the gold circle starts pulsing on screen. Do not press and hold — a single touch is enough.</li>
+<li>If prompted by the browser, give the key a friendly name such as <code>YubiKey-Primary</code> or <code>SUM-YK-12345</code>. Click <strong>Save</strong>.</li>
+<li>Okta confirms: <strong>"Security Key registered successfully."</strong> The key now appears in your Extra Verification list with its name and registration date.</li>
+</ol>
+<h3>Part 2 — Test the YubiKey</h3>
+<ol start="11">
+<li>Sign out of Okta (click your name → <strong>Sign out</strong>).</li>
+<li>Sign back in with your email and password.</li>
+<li>When Okta prompts for MFA, click <strong>Use security key</strong> (or select it from the factor chooser if you have multiple factors).</li>
+<li>Touch the gold contact on the YubiKey when prompted.</li>
+<li>You should reach the Okta dashboard — YubiKey authentication is working.</li>
+</ol>
+<h3>Part 3 — Register a Backup YubiKey (Recommended)</h3>
+<p>If you were issued two YubiKeys (standard for admin accounts), register the second one as a backup:</p>
+<ol start="16">
+<li>Return to <strong>Settings → Extra Verification → Security Key or Biometric</strong> and click <strong>Set up another</strong>.</li>
+<li>Repeat Steps 6–9 with the second key, naming it <code>YubiKey-Backup</code>.</li>
+<li>Store the backup YubiKey in a secure location separate from your primary (e.g., your desk drawer, not your laptop bag).</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Browser does not prompt for security key touch</td>
+<td>WebAuthn not supported in this browser</td>
+<td>Switch to Edge or Chrome; ensure browser is up to date</td>
+</tr>
+<tr>
+<td>Key not recognized by USB port</td>
+<td>Driver issue or port is USB 2.0-only</td>
+<td>Try a different USB port; on Mac, ensure macOS is Sonoma 14 or Sequoia 15</td>
+</tr>
+<tr>
+<td>"Security key not recognized" during sign-in</td>
+<td>Wrong key plugged in (using backup when primary is registered for this session)</td>
+<td>Try the other key; both should work if both were enrolled</td>
+</tr>
+<tr>
+<td>Touch registering too early or not at all</td>
+<td>Touching too quickly before the pulsing indicator appears</td>
+<td>Wait for the pulsing gold circle, then touch briefly</td>
+</tr>
+<tr>
+<td>YubiKey works on laptop but not on docking station</td>
+<td>USB passthrough issue on Dell WD19 dock</td>
+<td>Plug YubiKey directly into the laptop USB port, not the dock</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Set Up Okta Verify Multi-Factor Authentication (KB-0102)</li>
+<li>Request Elevated / Administrator Access (KB-0110)</li>
+<li>Add Okta Verify to a New Phone or Move MFA to a New Device (KB-0103)</li>
+<li>What to Do If Your MFA Isn't Working or You Lost Your Phone (KB-0111)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

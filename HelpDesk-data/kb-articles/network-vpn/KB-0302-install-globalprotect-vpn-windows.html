@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Install and Connect GlobalProtect VPN on Windows — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0302</span><span><b>Category:</b> Network &amp; VPN</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-01-22</span><span><b>Tags:</b> vpn, globalprotect, palo-alto, windows, remote-access, install</span><span><b>Applies to:</b> Windows 11</span></div>
+<h1>Install and Connect GlobalProtect VPN on Windows</h1>
+<h2>Summary</h2>
+<p>Summit IT uses <strong>Palo Alto GlobalProtect</strong> as its VPN solution. You must be connected to GlobalProtect when working off the corporate network to access internal websites, shared drives, and business applications. This article covers downloading, installing, and making your first connection on Windows 11.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You need an active Summit IT account (<code>firstname.lastname@summitit.com</code>) with Okta credentials.</li>
+<li>Okta Verify must be installed and enrolled on your phone — GlobalProtect triggers an MFA push during authentication.</li>
+<li>If your device was issued by Summit IT and is enrolled in Microsoft Intune, GlobalProtect may already be installed via <strong>Company Portal</strong>. Check by searching for "GlobalProtect" in the Start menu before proceeding with a manual install.</li>
+<li>You do not need GlobalProtect when you are already on the Summit-Corp Wi-Fi network at the office.</li>
+</ul>
+<hr />
+<h2>Steps</h2>
+<h3>Part 1 — Install GlobalProtect</h3>
+<p><strong>Option A: Install via Company Portal (recommended for corporate devices)</strong></p>
+<ol>
+<li>Click <strong>Start</strong> and open <strong>Company Portal</strong>.</li>
+<li>Search for <strong>GlobalProtect</strong> in the search bar.</li>
+<li>Click <strong>GlobalProtect</strong> in the results and select <strong>Install</strong>.</li>
+<li>Wait for the installation to complete (typically 2–3 minutes).</li>
+<li>Proceed to Part 2.</li>
+</ol>
+<p><strong>Option B: Download directly from the IT portal</strong></p>
+<ol>
+<li>From a machine with internet access, open a browser and go to <strong>https://help.summitit.com</strong>.</li>
+<li>Sign in with your Okta credentials.</li>
+<li>Navigate to <strong>Software Downloads</strong> &gt; <strong>VPN</strong> &gt; <strong>GlobalProtect — Windows 64-bit</strong>.</li>
+<li>Download the <code>.msi</code> installer file.</li>
+<li>Double-click the downloaded file to launch the installer.</li>
+<li>Click <strong>Next</strong> on the welcome screen.</li>
+<li>Accept the license agreement and click <strong>Next</strong>.</li>
+<li>Leave the installation path at the default (<code>C:\Program Files\Palo Alto Networks\GlobalProtect</code>) and click <strong>Next</strong>.</li>
+<li>Click <strong>Install</strong>. If prompted by User Account Control, click <strong>Yes</strong>.</li>
+<li>Click <strong>Finish</strong> when the installer completes.</li>
+</ol>
+<h3>Part 2 — Connect for the First Time</h3>
+<ol>
+<li>Click the <strong>GlobalProtect icon</strong> in the system tray (it looks like a globe). If you don't see it, search for <strong>GlobalProtect</strong> in the Start menu and open the app.</li>
+<li>In the GlobalProtect panel, the <strong>Portal</strong> field should already be pre-filled with <code>vpn.summitit.com</code>. If it is blank, type <code>vpn.summitit.com</code> and press <strong>Enter</strong>.</li>
+<li>Click <strong>Connect</strong>.</li>
+<li>A browser window opens for Okta authentication. Enter your <strong>Summit IT email address</strong> and <strong>Okta password</strong>, then click <strong>Sign In</strong>.</li>
+<li>Approve the <strong>Okta Verify push notification</strong> on your phone.</li>
+<li>The browser will close and GlobalProtect will finish connecting. The globe icon in the system tray turns green and displays <strong>Connected</strong>.</li>
+</ol>
+<h3>Part 3 — Disconnect</h3>
+<ol>
+<li>Click the <strong>GlobalProtect icon</strong> in the system tray.</li>
+<li>Click <strong>Disconnect</strong>.</li>
+<li>The icon returns to grey when disconnected.</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> GlobalProtect is configured to reconnect automatically when you open your laptop away from the office. You generally do not need to manually initiate a connection each time.</p>
+</blockquote>
+<hr />
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portal field is blank after install</td>
+<td>Pre-config not yet applied</td>
+<td>Type <code>vpn.summitit.com</code> manually and press Enter</td>
+</tr>
+<tr>
+<td>Okta login page doesn't open</td>
+<td>Browser pop-up blocked</td>
+<td>Allow pop-ups from <code>vpn.summitit.com</code> in your browser settings</td>
+</tr>
+<tr>
+<td>"Authentication failed"</td>
+<td>Wrong Okta password</td>
+<td>Reset at https://help.summitit.com or contact the Service Desk</td>
+</tr>
+<tr>
+<td>MFA push not received</td>
+<td>Phone offline or Okta Verify issue</td>
+<td>Check phone connectivity; open Okta Verify and tap Refresh; use the OTP code instead</td>
+</tr>
+<tr>
+<td>Stuck on "Connecting…"</td>
+<td>Network or firewall issue</td>
+<td>See KB-0304 — GlobalProtect VPN Won't Connect</td>
+</tr>
+<tr>
+<td>Globe icon is grey after connecting</td>
+<td>VPN tunnel dropped</td>
+<td>Click the icon and select Reconnect</td>
+</tr>
+<tr>
+<td>GlobalProtect not found in Company Portal</td>
+<td>Device not enrolled in Intune</td>
+<td>Contact the Service Desk to enroll your device (REQ ticket)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0303 — Install and Connect GlobalProtect VPN on Mac</li>
+<li>KB-0304 — GlobalProtect VPN Won't Connect — Troubleshooting</li>
+<li>KB-0305 — You Can't Reach an Internal Site or Application</li>
+<li>KB-0300 — Connect to the Summit-Corp Corporate Wi-Fi</li>
+</ul>
+<hr />
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: <a href="https://help.summitit.com">https://help.summitit.com</a> · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

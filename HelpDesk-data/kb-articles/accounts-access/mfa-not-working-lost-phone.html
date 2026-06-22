@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What to Do If Your MFA Isn&#x27;t Working or You Lost Your Phone — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0111</span><span><b>Category:</b> Accounts &amp; Access</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-05-20</span><span><b>Tags:</b> mfa, okta verify, lost phone, broken phone, locked out, emergency access</span><span><b>Applies to:</b> iOS, Android, Windows 11, macOS, Web</span></div>
+<h1>What to Do If Your MFA Isn't Working or You Lost Your Phone</h1>
+<h2>Summary</h2>
+<p>If you cannot approve your Okta Verify push notification — because your phone is lost, broken, replaced, or simply not working — you may be unable to sign in to Summit systems. This article covers every option available to you, from quick self-service workarounds to the emergency account recovery process.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Work through the options below in order. Option 1 is fastest; Option 4 requires calling the Service Desk and verifying your identity.</li>
+<li>If you suspect your phone was <strong>stolen</strong> along with your Summit credentials, go directly to Option 4 and inform the agent so the Security team can review your recent sign-in activity.</li>
+<li>The Service Desk can perform emergency MFA resets during staffed hours (7 AM – 7 PM ET, Mon–Fri). For after-hours P1 emergencies, call the main number and follow the on-call prompt.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Option 1 — Use the TOTP Code in the Okta Verify App</h3>
+<p>If the push notification is not arriving but you still have your phone and the Okta Verify app:</p>
+<ol>
+<li>Open the <strong>Okta Verify</strong> app on your phone.</li>
+<li>Tap your Summit account (<code>firstname.lastname@summitit.com</code>).</li>
+<li>A <strong>6-digit one-time code</strong> is displayed and refreshes every 30 seconds.</li>
+<li>On your computer's Okta sign-in screen, click <strong>Enter a code instead</strong> below the push notification waiting message.</li>
+<li>Type the 6-digit code and click <strong>Verify</strong>. You are signed in.</li>
+</ol>
+<p>Common reasons push notifications fail: phone is in airplane mode, Do Not Disturb is on, the Okta Verify app needs an update, or your phone's internet connection is unstable.</p>
+<h3>Option 2 — Use Your Registered YubiKey</h3>
+<p>If you have a registered YubiKey (required for admin accounts, optional for standard accounts):</p>
+<ol>
+<li>Plug the YubiKey into your computer's USB port.</li>
+<li>On the Okta sign-in page, when prompted for MFA, click <strong>Use security key</strong>.</li>
+<li>Touch the gold contact on the YubiKey when the pulsing circle appears.</li>
+<li>You are signed in without needing your phone at all.</li>
+</ol>
+<h3>Option 3 — Use a One-Time Bypass Code (If Previously Generated)</h3>
+<p>If you generated a one-time bypass code in advance (IT recommends doing this before traveling):</p>
+<ol>
+<li>On the Okta MFA screen, click <strong>Enter a code instead</strong>.</li>
+<li>Enter your bypass code. These are single-use and expire after 7 days.</li>
+</ol>
+<p>To generate future bypass codes while you have working MFA:
+1. Sign in to Okta at https://summitit.okta.com.
+2. Click your name → <strong>Settings → Extra Verification → Okta Verify → Generate a bypass code</strong>.
+3. Store this code somewhere secure and separate from your phone (e.g., 1Password, printed and locked away).</p>
+<h3>Option 4 — Service Desk Emergency MFA Reset</h3>
+<p>If none of the above options are available:</p>
+<ol>
+<li>Contact the Summit Service Desk:
+   - <strong>Phone (fastest):</strong> +1 (800) 555-7866
+   - <strong>Slack:</strong> #it-help (if you can access Slack without MFA on another device)
+   - <strong>Email:</strong> servicedesk@summitit.com (note: email alone is not sufficient for identity verification)</li>
+<li>Tell the agent: "I am locked out due to an MFA issue and need an emergency bypass."</li>
+<li>The agent will verify your identity using one or more of the following:
+   - Manager confirmation (agent calls your manager directly)
+   - Video call with government-issued photo ID
+   - Employee ID number (<code>SUM-#####</code>) plus answers to security questions on file</li>
+<li>Once verified, the agent issues a <strong>temporary one-time bypass code</strong> valid for 30 minutes.</li>
+<li>You use the bypass code to sign in, and then immediately re-enroll a new MFA device (see KB-0103 for moving MFA to a new device).</li>
+<li>The agent documents the reset in your ticket for the security audit trail.</li>
+</ol>
+<blockquote>
+<p><strong>Security reminder:</strong> The Service Desk will NEVER reset MFA based solely on an email. Do not respond to any email claiming to be IT and requesting that you approve a new device. Report suspicious requests to soc@summitit.com.</p>
+</blockquote>
+<h3>After Recovery — Re-Enroll Your MFA</h3>
+<p>Once you regain access, re-enroll your MFA as soon as possible:
+- New phone setup: see KB-0103 (Add Okta Verify to a New Phone)
+- First-time MFA setup: see KB-0102 (Set Up Okta Verify MFA)
+- Consider registering a YubiKey as a backup: see KB-0105</p>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Okta Verify app shows "Account removed"</td>
+<td>Device was wiped, or app was reinstalled without re-enrollment</td>
+<td>Contact the Service Desk for an emergency reset, then re-enroll</td>
+</tr>
+<tr>
+<td>TOTP code says "Invalid code"</td>
+<td>Clock on phone is out of sync (TOTP is time-based)</td>
+<td>On iOS: Settings → General → Date &amp; Time → enable Set Automatically; on Android: Settings → General Management → Date and Time → enable Automatic</td>
+</tr>
+<tr>
+<td>Push says "Approve" is greyed out</td>
+<td>Push already expired (60-second window)</td>
+<td>Click "Send push again" on the Okta page</td>
+</tr>
+<tr>
+<td>Bypass code says "Invalid or already used"</td>
+<td>Code was already used or expired (7 days)</td>
+<td>Request a new code from Okta settings or contact the Service Desk</td>
+</tr>
+<tr>
+<td>Service Desk cannot verify my identity</td>
+<td>Cannot reach manager; no ID available</td>
+<td>Your manager can email servicedesk@summitit.com from their Summit address to confirm your identity</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Add Okta Verify to a New Phone or Move MFA to a New Device (KB-0103)</li>
+<li>Set Up Okta Verify Multi-Factor Authentication (KB-0102)</li>
+<li>Register a YubiKey Security Key (KB-0105)</li>
+<li>Unlock a Locked Account (KB-0101)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

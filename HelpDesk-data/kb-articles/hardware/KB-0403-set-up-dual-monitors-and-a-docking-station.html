@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Set Up Dual Monitors and a Docking Station — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0403</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-10-05</span><span><b>Tags:</b> monitors, docking station, dual monitor, dell wd19, display, setup, hardware</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Set Up Dual Monitors and a Docking Station</h1>
+<h2>Summary</h2>
+<p>This article explains how to connect and configure your Dell WD19 docking station with up to two Dell 24" or 27" USB-C monitors. It covers cable connections, display arrangement in Windows 11 and macOS, and common issues such as blank screens or monitors not being detected.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Confirm you have the following equipment (all issued by IT):</li>
+<li>Dell WD19 docking station with its <strong>130 W power adapter</strong> (the large rectangular brick with a barrel connector)</li>
+<li>One USB-C cable to connect the dock to your laptop (included with the dock)</li>
+<li>Up to two Dell 24"/27" monitors with their <strong>DisplayPort</strong> or <strong>HDMI</strong> cables</li>
+<li>Your laptop: Dell Latitude 7440 or MacBook Pro 14"</li>
+<li>The Dell WD19 requires its own power adapter to charge your laptop through the dock. If the adapter is missing, the dock will not function correctly.</li>
+<li>Do not connect the dock power adapter to a power strip rated under 15 A — use a surge-protected power bar or wall outlet directly.</li>
+</ul>
+<h2>Steps</h2>
+<h3>1. Connect the Docking Station</h3>
+<ol>
+<li>Place the Dell WD19 dock on your desk in an accessible location with at least 2 inches of clearance around the vents.</li>
+<li>Connect the <strong>dock's power adapter</strong> barrel connector to the dock's DC-in port on the back. Plug the other end into a wall outlet or power bar. The dock's power LED (front) should turn solid white.</li>
+<li>Connect your <strong>monitors to the dock</strong>:
+   - Monitor 1: Use a DisplayPort cable from the dock's DisplayPort 1 port to the monitor's DisplayPort input.
+   - Monitor 2: Use a DisplayPort cable from the dock's DisplayPort 2 port (or HDMI port if one monitor uses HDMI) to the second monitor.</li>
+<li>Power on both monitors.</li>
+<li>Connect the <strong>USB-C cable</strong> from the dock's upstream USB-C port to your laptop. Use the cable labeled <strong>"To Laptop"</strong> if provided.</li>
+</ol>
+<h3>2. Verify Detection (Windows 11 — Dell Latitude 7440)</h3>
+<ol start="6">
+<li>Windows should detect the monitors automatically within 30 seconds. If not, press <strong>Windows + P</strong> and select <strong>Extend</strong> to trigger display detection.</li>
+<li>Right-click the desktop and select <strong>Display settings</strong>.</li>
+<li>Under <strong>Rearrange your displays</strong>, you should see three display boxes (laptop screen + 2 monitors). Click <strong>Identify</strong> to see which number corresponds to each physical screen.</li>
+<li>Drag the display boxes to match your physical monitor layout (e.g., laptop in the center, monitors to the left and right).</li>
+<li>Select your primary display from the list and check <strong>Make this my main display</strong>.</li>
+<li>Set resolution for each monitor: Dell 24" monitors run best at <strong>1920 × 1200</strong> and Dell 27" monitors at <strong>2560 × 1440</strong>. Select each display and set resolution under <strong>Display resolution</strong>.</li>
+<li>Click <strong>Keep changes</strong> when prompted.</li>
+</ol>
+<h3>3. Verify Detection (macOS — MacBook Pro 14")</h3>
+<ol start="6">
+<li>macOS detects monitors automatically when the USB-C cable is connected. If a monitor is blank, go to <strong>Apple menu &gt; System Settings &gt; Displays</strong> and click <strong>Detect Displays</strong> in the lower-right corner.</li>
+<li>In <strong>Displays</strong>, you will see thumbnails for each connected screen. Drag them to match your physical layout.</li>
+<li>To set a primary display (where the menu bar lives), drag the white menu bar strip from one thumbnail to another.</li>
+<li>Click <strong>Use as Extended Display</strong> for each external monitor if prompted to choose between mirroring and extending.</li>
+<li>Set resolution: click each display thumbnail, select <strong>More Space</strong> or click the specific resolution matching the monitor's native resolution (1920 × 1200 for 24", 2560 × 1440 for 27").</li>
+</ol>
+<h3>4. Connect Peripherals Through the Dock</h3>
+<ol start="11">
+<li>Plug your <strong>Logitech keyboard and mouse</strong> USB receivers (or cable) into the USB-A ports on the front or back of the dock.</li>
+<li>Connect your <strong>Jabra or Logitech headset</strong> to the dock's USB port or 3.5 mm audio jack.</li>
+<li>Connect a network cable to the dock's <strong>RJ-45 (Ethernet) port</strong> if you are in an office. This will be your primary network connection — faster and more reliable than Wi-Fi.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>One or both monitors show no signal</td>
+<td>Reseat all DisplayPort/HDMI cables at both ends. Try pressing <strong>Windows + Ctrl + Shift + B</strong> (Windows) to reset the graphics driver. On Mac, go to System Settings &gt; Displays &gt; Detect Displays.</td>
+</tr>
+<tr>
+<td>Only one monitor detected, not two</td>
+<td>Ensure both cables are fully seated in the dock. Check that each monitor is powered on and set to the correct input (DisplayPort or HDMI).</td>
+</tr>
+<tr>
+<td>Laptop is not charging through the dock</td>
+<td>Verify the dock's 130 W power adapter is connected and the dock's power LED is white. Try the USB-C cable directly from the laptop to the adapter as a test.</td>
+</tr>
+<tr>
+<td>Monitors flicker or go blank intermittently</td>
+<td>Replace the DisplayPort cable — intermittent flicker is almost always a faulty cable. Contact IT for a replacement.</td>
+</tr>
+<tr>
+<td>macOS only mirrors instead of extending</td>
+<td>Go to System Settings &gt; Displays, select the external display thumbnail, and change the drop-down from "Mirror" to "Extend Display."</td>
+</tr>
+<tr>
+<td>External display resolution looks blurry</td>
+<td>Open Display settings and set the resolution to the monitor's native resolution (see Step 11 / Step 10 above).</td>
+</tr>
+<tr>
+<td>Keyboard/mouse not working through the dock</td>
+<td>Plug the peripheral directly into the laptop USB port to confirm it works, then reconnect to the dock. Try a different USB port on the dock.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0404: Keyboard or Mouse Isn't Working</li>
+<li>KB-0401: Laptop Won't Power On</li>
+<li>KB-0402: Battery Won't Charge or Drains Quickly</li>
+<li>KB-0405: Webcam Not Detected in Teams or Zoom</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

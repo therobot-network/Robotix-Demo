@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Can&#x27;t Print — Printer Troubleshooting — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0602</span><span><b>Category:</b> Printing</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-11-20</span><span><b>Tags:</b> printing, troubleshooting, papercut, hp, xerox, print queue, stuck job</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Can't Print — Printer Troubleshooting</h1>
+<h2>Summary</h2>
+<p>If your print job does not reach the printer, stays stuck in the queue, or produces an error, use this guide to diagnose and resolve the most common printing problems on Summit-managed HP and Xerox MFPs with PaperCut.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Confirm the printer is powered on and its front panel does not show a critical error (red indicator light or error message on screen).</li>
+<li>Check that you are connected to <strong>Summit-Corp</strong> Wi-Fi or GlobalProtect VPN — printing is unavailable on Summit-Guest or off-network without VPN.</li>
+<li>Know the printer's name or location (displayed on the label on the device).</li>
+</ul>
+<h2>Steps</h2>
+<h3>Step 1 — Check the print queue on your computer</h3>
+<p><strong>Windows 11:</strong>
+1. Open <strong>Settings &gt; Bluetooth &amp; devices &gt; Printers &amp; scanners</strong>.
+2. Click the printer you used.
+3. Click <strong>Open print queue</strong>.
+4. If a job shows <strong>Error</strong> or <strong>Deleting</strong>, right-click it and choose <strong>Cancel</strong>. Then right-click the same job and choose <strong>Restart</strong> if the option is available.</p>
+<p><strong>macOS:</strong>
+1. Open <strong>System Settings &gt; Printers &amp; Scanners</strong>.
+2. Click the printer, then click <strong>Open Print Queue…</strong>
+3. If a job is paused or shows an error icon, click the <strong>Resume</strong> button or delete the job and reprint.</p>
+<h3>Step 2 — Restart the PaperCut client</h3>
+<p><strong>Windows 11:</strong>
+1. Right-click the <strong>PaperCut</strong> icon in the system tray.
+2. Select <strong>About</strong> and confirm the client shows <strong>Connected</strong>.
+3. If it shows <strong>Disconnected</strong>, right-click and choose <strong>Restart PaperCut Client</strong>, then try printing again.</p>
+<p><strong>macOS:</strong>
+1. Click the PaperCut menu bar icon.
+2. If status reads <strong>Disconnected</strong>, select <strong>Quit PaperCut Client</strong>.
+3. Reopen PaperCut from <strong>Applications &gt; PaperCut</strong> or <strong>Launchpad</strong>.</p>
+<h3>Step 3 — Verify the correct print queue is selected</h3>
+<ol>
+<li>When printing, open the <strong>Printer</strong> dropdown in the print dialog.</li>
+<li>Select the queue named <strong>Summit-FollowMe</strong> for Follow-Me secure printing, or select the named printer (e.g., <strong>Denver-Floor3-HP-MFP</strong>) for direct printing.</li>
+<li>Avoid using queues labelled <strong>(offline)</strong> — these indicate the printer is unreachable.</li>
+</ol>
+<h3>Step 4 — Restart the printer (if you have physical access)</h3>
+<ol>
+<li>Press and hold the power button on the printer's front panel for 5 seconds.</li>
+<li>Wait for the printer to fully power off (all lights off).</li>
+<li>Press the power button again and wait up to 90 seconds for the printer to boot.</li>
+<li>Retry your print job.</li>
+</ol>
+<h3>Step 5 — Reinstall the printer on your computer</h3>
+<p>If none of the above resolves the issue:</p>
+<p><strong>Windows 11:</strong>
+1. Open <strong>Settings &gt; Bluetooth &amp; devices &gt; Printers &amp; scanners</strong>.
+2. Click the printer and select <strong>Remove</strong>.
+3. Use PaperCut (system tray &gt; <strong>Find a Printer</strong>) to re-add the printer. See KB-0600 for full steps.</p>
+<p><strong>macOS:</strong>
+1. Open <strong>System Settings &gt; Printers &amp; Scanners</strong>.
+2. Select the printer and click the <strong>–</strong> (minus) button to remove it.
+3. Re-add via the PaperCut menu bar icon.</p>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Queue is stuck and jobs won't cancel</td>
+<td>Print spooler issue</td>
+<td><strong>Windows:</strong> Run <code>services.msc</code>, find <strong>Print Spooler</strong>, right-click &gt; Restart. <strong>macOS:</strong> Run <code>sudo launchctl stop org.cups.cupsd</code> in Terminal.</td>
+</tr>
+<tr>
+<td>"Driver unavailable" error</td>
+<td>Corrupt or missing driver</td>
+<td>Remove the printer and re-add via PaperCut; the correct HP/Xerox driver installs automatically.</td>
+</tr>
+<tr>
+<td>Print job disappears but nothing prints</td>
+<td>PaperCut held-job timeout</td>
+<td>Job may have expired (4-hour limit). Reprint and release at the MFP promptly.</td>
+</tr>
+<tr>
+<td>Printer shows "Offline" in Windows</td>
+<td>Network path changed</td>
+<td>Remove and re-add the printer. Confirm you are on Summit-Corp Wi-Fi or VPN.</td>
+</tr>
+<tr>
+<td>Job prints to wrong printer</td>
+<td>Wrong queue selected</td>
+<td>Check the Printer dropdown; select the correct named queue or Follow-Me.</td>
+</tr>
+<tr>
+<td>Pages come out blank</td>
+<td>Toner low or unseated</td>
+<td>Check printer front panel; see KB-0604 to report supply issues.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0600 — Add a Printer with PaperCut</li>
+<li>KB-0601 — Release a Held Print Job (Follow-Me / Secure Printing)</li>
+<li>KB-0603 — Scan to Email from a Multifunction Printer</li>
+<li>KB-0604 — Replace Toner or Report Printer Supply Issues</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

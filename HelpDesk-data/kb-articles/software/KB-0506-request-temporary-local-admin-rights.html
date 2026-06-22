@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request Temporary Local Administrator Rights — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0506</span><span><b>Category:</b> Software</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-03-27</span><span><b>Tags:</b> admin rights, local admin, elevated privileges, windows, macos, security</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Request Temporary Local Administrator Rights</h1>
+<h2>Summary</h2>
+<p>Summit IT follows a least-privilege security model — standard user accounts do not have local administrator rights. In some cases, such as installing a vendor agent, running a legacy installer, or troubleshooting a complex issue with IT, temporary elevated privileges are needed. This article explains how to request a time-limited grant of local administrator rights and how to use them responsibly.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Temporary administrator rights are granted for a maximum of <strong>4 hours</strong> on Windows (via Intune) and <strong>8 hours</strong> on macOS (via Jamf). The privilege is automatically revoked when the window expires.</li>
+<li>Requests must include a business justification. Requests without justification will be placed on hold.</li>
+<li>Your manager does not need to approve standard temporary admin requests; however, all grants are logged and reviewed by the IT Security team. Misuse of elevated privileges may result in access revocation.</li>
+<li>If you need administrator rights regularly as part of your role (e.g., you are a developer who frequently builds or deploys software), consider requesting a permanent exception reviewed by IT Security — this is separate from the temporary grant process.</li>
+<li>You cannot grant yourself administrator rights. The grant is applied remotely by the Service Desk or an automated policy.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Submit the Request</h3>
+<ol>
+<li>Go to <strong>https://help.summitit.com</strong> and sign in with your Okta credentials.</li>
+<li>Click <strong>Service Catalog</strong> &gt; <strong>Access &amp; Permissions</strong>.</li>
+<li>Click <strong>Request Temporary Local Administrator Rights</strong>.</li>
+<li>Complete the form:
+   - <strong>Device Asset Tag:</strong> Found on the sticker on your laptop (format: <code>SUM-LT-#####</code> for Windows, <code>SUM-MB-#####</code> for Mac). You can also find it in Company Portal (Windows) under <strong>Devices</strong> or in Self Service (Mac) under <strong>Support</strong>.
+   - <strong>Operating System:</strong> Select Windows 11 or macOS.
+   - <strong>Duration Needed:</strong> Select 1 hour, 2 hours, 4 hours (Windows max), or 8 hours (macOS max).
+   - <strong>Start Time:</strong> Specify when you need the rights active (immediately or a future time/date).
+   - <strong>Business Justification:</strong> Describe exactly what you need to do with administrator rights (e.g., "Installing XYZ vendor agent for the client engagement starting Monday. Installer requires admin rights and is not available in Company Portal.").</li>
+<li>Click <strong>Submit</strong>. A ticket will be created with the reference number <code>REQ-######</code>.</li>
+</ol>
+<h3>Receiving and Using the Elevated Rights</h3>
+<p><strong>Windows:</strong>
+- Once the Service Desk approves and applies the grant (typically within 2 business hours for standard requests, or 30 minutes if marked urgent), you will receive a Slack and email notification.
+- When the grant is active, a banner may appear in Company Portal confirming elevated status.
+- To perform an action that requires administrator rights, right-click the application or installer and select <strong>Run as administrator</strong>. Enter your Summit IT password when prompted.
+- The grant expires automatically. You will receive a 15-minute advance notification via Slack.</p>
+<p><strong>macOS:</strong>
+- When the Jamf policy is applied, you will receive a macOS system notification and a Slack message confirming the grant.
+- Actions requiring elevated rights (such as running an installer from a <code>.pkg</code> or <code>.dmg</code> file) will prompt you for your macOS login password, which will now succeed.
+- You do not need to restart your Mac. The privilege is applied to your user account for the duration of the grant.</p>
+<h2>Troubleshooting</h2>
+<p><strong>My request was submitted but I have not heard back after 2 hours.</strong>
+Check https://help.summitit.com under <strong>My Requests</strong> to confirm the ticket was created. If the status shows <strong>Pending Approval</strong>, message the Service Desk via Slack <code>#it-help</code> with your ticket number (<code>REQ-######</code>) to check the queue.</p>
+<p><strong>I received notification that the grant is active, but I am still being prompted for an admin password and it is failing.</strong>
+On Windows, try locking your screen and logging back in — group policy changes sometimes require a re-authentication to take effect. On macOS, open <strong>System Settings</strong> &gt; <strong>Users &amp; Groups</strong> and verify your account shows as <strong>Admin</strong>. If not, contact the Service Desk immediately.</p>
+<p><strong>The grant expired before I finished my task.</strong>
+Submit a new request for an additional time block. Include your previous ticket number in the justification to speed up approval.</p>
+<p><strong>I need admin rights for a task that takes more than 8 hours.</strong>
+For longer tasks, work with the Service Desk to plan the work in segments, or request a temporary exception through IT Security. Contact servicedesk@summitit.com with your use case.</p>
+<p><strong>I accidentally installed software I should not have while admin rights were active.</strong>
+Contact the Service Desk immediately. Unauthorized software must be reviewed for security risk and may be remotely removed by IT. The sooner you report it, the simpler the remediation.</p>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0500: Install Approved Software Using Company Portal or Self Service</li>
+<li>KB-0501: Request New Software or a Paid License</li>
+<li>KB-0509: Uninstall Software Safely</li>
+<li>KB-0508: Keep Your Computer Updated</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

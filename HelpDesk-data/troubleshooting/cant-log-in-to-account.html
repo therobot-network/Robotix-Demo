@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>I Can&#x27;t Log In to My Account — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> TS-02</span><span><b>Category:</b> Troubleshooting</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> troubleshooting, login, okta, sso, mfa, okta-verify, account-lockout, password, credentials</span></div>
+<h1>I Can't Log In to My Account</h1>
+<p>Use this guide to diagnose login failures for Okta SSO and any application that uses it — including Microsoft 365, SummitDesk, Slack, Zoom, and GlobalProtect VPN.</p>
+<hr />
+<h2>Start Here</h2>
+<p>Identify what you are trying to log in to and exactly what you see:</p>
+<ul>
+<li>The Okta dashboard at <a href="https://summit.okta.com">https://summit.okta.com</a></li>
+<li>A specific application (Outlook, Teams, Slack, VPN, etc.)</li>
+<li>Your Windows or macOS login screen</li>
+</ul>
+<p>Then note the exact error message or symptom (e.g., "Invalid username or password," "Account is locked," "MFA push not arriving," "spinning wheel / no response").</p>
+<hr />
+<h2>Step-by-Step Diagnostic Flow</h2>
+<h3>1. Are you seeing an error message on the Okta login page?</h3>
+<p><strong>If "Account is locked" →</strong> Your account was locked after too many failed attempts. Proceed to Step 2.</p>
+<p><strong>If "Invalid username or password" →</strong> You may have the wrong password or username. Proceed to Step 3.</p>
+<p><strong>If "You do not have permission to access this application" →</strong> Your account is fine, but access to the specific app is not provisioned. Proceed to Step 9.</p>
+<p><strong>If no error — page is blank or loading indefinitely →</strong> Proceed to Step 7.</p>
+<hr />
+<h3>2. Account is locked — can you unlock it via self-service?</h3>
+<p>Go to <a href="https://summit.okta.com">https://summit.okta.com</a> and click <strong>Need help signing in? &gt; Unlock account</strong>. Follow the prompts, which will send a verification code to your registered recovery email or phone.</p>
+<p><strong>If self-service unlock succeeds →</strong> Log in with your current password and verify your access is restored. If you are still prompted to change your password, complete the change.</p>
+<p><strong>If self-service unlock is unavailable or fails →</strong> Proceed to Step 8 (contact Service Desk for assisted unlock).</p>
+<hr />
+<h3>3. Are you certain you are typing the correct username?</h3>
+<p>Your username is <code>firstname.lastname@summitit.com</code>. Common mistakes: using only the first part without <code>@summitit.com</code>, a typo in the name, using a nickname instead of your legal first name.</p>
+<p><strong>If you are unsure of your exact username →</strong> Check your original IT onboarding welcome email, or contact the Service Desk to confirm.</p>
+<p><strong>If you are certain the username is correct →</strong> Proceed to Step 4.</p>
+<hr />
+<h3>4. Do you know your current Okta password?</h3>
+<p><strong>If yes →</strong> Try entering it again, ensuring Caps Lock is off and you are not auto-filling an old password from your browser. Clear the password field completely and retype.</p>
+<p><strong>If no, or you think it may have expired →</strong> Proceed to Step 5.</p>
+<hr />
+<h3>5. Reset your Okta password via self-service.</h3>
+<p>Go to <a href="https://summit.okta.com">https://summit.okta.com</a> and click <strong>Forgot password?</strong>. Enter your <code>firstname.lastname@summitit.com</code> email. You will be prompted to verify your identity using Okta Verify (push) or a code sent to your registered recovery email/phone.</p>
+<p><strong>If the reset succeeds and you can log in →</strong> Log in and check that your other applications are accessible. Update your password in 1Password immediately.</p>
+<p><strong>If you cannot complete the reset (e.g., no access to recovery phone or email) →</strong> Proceed to Step 8 (contact Service Desk).</p>
+<hr />
+<h3>6. Have you enrolled in Okta Verify (MFA)?</h3>
+<p>After entering the correct username and password, Okta will send a push notification to the Okta Verify app on your enrolled phone.</p>
+<p><strong>If you have not enrolled →</strong> You cannot complete login without MFA enrollment. Contact the Service Desk at <strong>+1 (800) 555-7866</strong> to complete enrollment setup.</p>
+<p><strong>If you are enrolled but not receiving the push →</strong> Proceed to Step 6a.</p>
+<hr />
+<h4>Step 6a. Is your phone connected to the internet?</h4>
+<p>Okta Verify push notifications require an active mobile data or Wi-Fi connection on your phone.</p>
+<p><strong>If no →</strong> Enable mobile data or connect to Wi-Fi on your phone, then click <strong>Send push</strong> again in the Okta login flow.</p>
+<p><strong>If yes, but the push still does not arrive →</strong> Open the Okta Verify app manually and use the <strong>6-digit time-based code</strong> displayed in the app as an alternative to the push. Enter this code when prompted.</p>
+<p><strong>If neither push nor code works →</strong> The Okta Verify enrollment may be corrupted or the app may have been uninstalled. Proceed to Step 8.</p>
+<hr />
+<h3>7. The login page is not loading — is there an internet connection?</h3>
+<p><strong>If no internet →</strong> Troubleshoot your network connection first (see TS-03: Wi-Fi or Internet Isn't Working). Once internet is restored, retry the Okta login.</p>
+<p><strong>If internet is working but okta.com is unreachable →</strong> This may be a service outage. Check the Okta Status page at <a href="https://status.okta.com">https://status.okta.com</a> and the Summit IT service status board in SummitDesk. If an outage is confirmed, wait for resolution. If no outage is listed, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>.</p>
+<hr />
+<h3>8. Are you trying to log in to a specific application (not the Okta dashboard itself)?</h3>
+<p><strong>If yes, the Okta dashboard works but one app does not →</strong> The Okta session is valid, but the application may have a provisioning issue, a separate MFA requirement, or an app-level error. Note the exact error message and the application name, then proceed to Step 9.</p>
+<p><strong>If no, the Okta dashboard itself won't load →</strong> Proceed to Step 8 (contact Service Desk — this is an account-level issue).</p>
+<hr />
+<h3>9. Provisioning or access issue with a specific application.</h3>
+<p>Access to individual applications within Okta is controlled by IT and sometimes by your manager. If you see "You do not have permission" or "Access Denied":</p>
+<ul>
+<li>Confirm that the application is part of your role's standard access by checking with your manager.</li>
+<li>Submit a service request at <a href="https://help.summitit.com">https://help.summitit.com</a> under <strong>Access &amp; Accounts &gt; Application Access</strong>, specifying the application name and your business reason for needing access.</li>
+</ul>
+<hr />
+<h3>10. Are you trying to log in to your Windows or macOS device itself (not a web app)?</h3>
+<p><strong>Windows login issues:</strong></p>
+<ul>
+<li>If you see "The username or password is incorrect": your Windows login is tied to your Okta credentials via Entra ID. Ensure you are using <code>firstname.lastname@summitit.com</code> as your username.</li>
+<li>If offline (no internet), Windows may not be able to authenticate against Entra ID. Connect to a network and retry.</li>
+</ul>
+<p><strong>Mac login issues:</strong></p>
+<ul>
+<li>Mac laptops use your Okta password (synced via Jamf). If your Okta password was recently changed, use the new password at the Mac login screen. If the Mac does not accept the new password yet, contact the Service Desk.</li>
+</ul>
+<hr />
+<h2>Quick Checklist</h2>
+<p>Before calling the Service Desk, confirm you have tried:</p>
+<ul>
+<li>[ ] Verifying your username is <code>firstname.lastname@summitit.com</code> with no typos</li>
+<li>[ ] Confirmed Caps Lock is off when typing your password</li>
+<li>[ ] Tried self-service password reset at <a href="https://summit.okta.com">https://summit.okta.com</a></li>
+<li>[ ] Tried self-service account unlock if locked</li>
+<li>[ ] Checked that your phone has an active internet connection for Okta Verify</li>
+<li>[ ] Tried the 6-digit TOTP code in the Okta Verify app as an alternative to push</li>
+<li>[ ] Checked <a href="https://status.okta.com">https://status.okta.com</a> for a service outage</li>
+</ul>
+<hr />
+<h2>When to Contact the Service Desk</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account locked and self-service unlock is unavailable</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>Cannot receive or use Okta Verify MFA (phone lost, app deleted, no recovery options)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>All credentials are correct but login still fails (possible account issue)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>Need access to a new or additional application</td>
+<td><strong>P4 – Low</strong></td>
+</tr>
+<tr>
+<td>Okta login works but a single non-critical application fails</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contact options:</strong>
+- Portal: <a href="https://help.summitit.com">https://help.summitit.com</a>
+- Email: <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a>
+- Phone: <strong>+1 (800) 555-7866</strong>
+- Slack: <strong>#it-help</strong></p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

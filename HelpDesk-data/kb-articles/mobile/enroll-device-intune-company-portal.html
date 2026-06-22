@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Enroll a Device in Intune with the Company Portal App — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0605</span><span><b>Category:</b> Mobile Devices</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-10-03</span><span><b>Tags:</b> intune, company portal, enrollment, mdm, ios, android, mobile management</span><span><b>Applies to:</b> iOS, Android</span></div>
+<h1>Enroll a Device in Intune with the Company Portal App</h1>
+<h2>Summary</h2>
+<p>Microsoft Intune is Summit IT's mobile device management (MDM) platform. Enrolling your device registers it with Summit IT so you can access corporate resources like email, Teams, and SharePoint from your phone or tablet. This article covers enrollment for both company-issued devices and personal BYOD devices.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You need your Summit IT credentials: <code>firstname.lastname@summitit.com</code> and your password.</li>
+<li>Okta Verify must be installed and configured on your device before enrollment. See KB-0608 if you need to set up Okta Verify.</li>
+<li>For <strong>company-issued</strong> devices, IT may have pre-enrolled the device. Check whether Microsoft Intune already appears under Settings before starting.</li>
+<li>For <strong>personal (BYOD) devices</strong>, enrollment uses a work profile that keeps personal and work data separate. See KB-0610 to understand what IT can and cannot see.</li>
+<li>Enrollment requires a stable Wi-Fi connection. Using cellular is possible but not recommended for the initial enrollment.</li>
+</ul>
+<h2>Steps</h2>
+<h3>iOS (iPhone / iPad)</h3>
+<ol>
+<li>Open the <strong>App Store</strong> and search for <strong>Company Portal</strong> (publisher: Microsoft Corporation). Install the app.</li>
+<li>Open <strong>Company Portal</strong> and tap <strong>Sign in</strong>.</li>
+<li>Enter your Summit email address (<code>firstname.lastname@summitit.com</code>) and tap <strong>Next</strong>.</li>
+<li>You are redirected to the Okta sign-in page. Enter your Summit password and complete the Okta Verify push notification on your device.</li>
+<li>Tap <strong>Begin</strong> on the "Set up access" screen, then tap <strong>Continue</strong> through the information screens.</li>
+<li>When prompted, tap <strong>Allow</strong> to install the Summit MDM configuration profile.</li>
+<li>Open the <strong>Settings</strong> app and navigate to <strong>General &gt; VPN &amp; Device Management</strong>. Tap the <strong>Summit IT Services</strong> profile and tap <strong>Install</strong>. Enter your device passcode if prompted, then tap <strong>Install</strong> again to confirm.</li>
+<li>Return to <strong>Company Portal</strong> and tap <strong>Continue</strong>. The app verifies compliance (this takes up to 2 minutes).</li>
+<li>Enrollment is complete when you see the <strong>"You're all set!"</strong> screen. Tap <strong>Done</strong>.</li>
+</ol>
+<h3>Android</h3>
+<ol>
+<li>Open the <strong>Google Play Store</strong>, search for <strong>Intune Company Portal</strong> (publisher: Microsoft Corporation), and install it.</li>
+<li>Open <strong>Company Portal</strong> and tap <strong>Sign in</strong>.</li>
+<li>Enter your Summit email address and tap <strong>Next</strong>. Complete Okta authentication including the push notification.</li>
+<li>Tap <strong>Begin</strong> and follow the on-screen prompts.</li>
+<li>When asked to set up a <strong>Work Profile</strong>, tap <strong>Next</strong> and then <strong>Accept</strong> to allow Company Portal to create the work profile. This installs a separate work container — your personal apps and data remain untouched.</li>
+<li>Tap <strong>Continue</strong> to activate the work profile. Your device may ask for your PIN or biometric.</li>
+<li>The Company Portal app moves into the work profile. Re-open it from the work profile section of your app drawer (indicated by a briefcase icon).</li>
+<li>Sign in again within the work profile when prompted. Compliance verification runs automatically.</li>
+<li>Tap <strong>Done</strong> when enrollment completes. Work apps will appear in your work profile.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>What to try</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign-in fails with "Not enrolled in Okta"</td>
+<td>Set up Okta Verify first (KB-0608), then retry enrollment.</td>
+</tr>
+<tr>
+<td>iOS profile fails to install</td>
+<td>Make sure you go to <strong>Settings &gt; General &gt; VPN &amp; Device Management</strong> immediately after tapping Allow — the profile download times out after a few minutes.</td>
+</tr>
+<tr>
+<td>Android work profile setup fails</td>
+<td>Ensure your Android version is 8.0 or later. Go to <strong>Settings &gt; Apps &gt; Company Portal &gt; Uninstall</strong>, reinstall from the Play Store, and retry.</td>
+</tr>
+<tr>
+<td>Compliance check runs indefinitely</td>
+<td>Restart Company Portal. If the issue persists after 10 minutes, restart your device.</td>
+</tr>
+<tr>
+<td>"Device limit reached" error</td>
+<td>Summit allows up to 5 enrolled devices per user. Submit a request at https://help.summitit.com to remove an old device.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0606 — Set Up Summit Email on a Personal Phone (BYOD)</li>
+<li>KB-0608 — Move Okta Verify to a New Phone</li>
+<li>KB-0609 — Install Summit Company Apps on Your Mobile Device</li>
+<li>KB-0610 — Understand What IT Can and Can't See on Your BYOD Phone</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Summit Service Desk: https://help.summitit.com · servicedesk@summitit.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wi-Fi or Internet Isn&#x27;t Working — Summit IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> TS-03</span><span><b>Category:</b> Troubleshooting</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> troubleshooting, wifi, network, internet, summit-corp, vpn, connectivity, globalprotect</span></div>
+<h1>Wi-Fi or Internet Isn't Working</h1>
+<p>Use this guide to diagnose and resolve Wi-Fi and internet connectivity issues, whether you are in a Summit IT office or working remotely.</p>
+<hr />
+<h2>Start Here</h2>
+<p>Determine where you are and what you are connected to:</p>
+<ul>
+<li><strong>In a Summit IT office:</strong> You should be on the <code>Summit-Corp</code> Wi-Fi network (WPA2-Enterprise, Okta credentials) or wired Ethernet via your docking station.</li>
+<li><strong>At home or remote:</strong> You are on your personal internet connection, and should be connected to GlobalProtect VPN for internal resources.</li>
+<li><strong>Unknown/guest network:</strong> Confirm which Wi-Fi network your device shows as connected.</li>
+</ul>
+<p>Check the Wi-Fi icon in your taskbar (Windows) or menu bar (Mac) to see your current connection status.</p>
+<hr />
+<h2>Step-by-Step Diagnostic Flow</h2>
+<h3>1. Is Wi-Fi turned on on your laptop?</h3>
+<p><strong>If no →</strong> Enable Wi-Fi via the taskbar (Windows: click the network icon, toggle Wi-Fi on) or menu bar (Mac: click the Wi-Fi icon, enable). Then attempt to connect to the correct network.</p>
+<p><strong>If yes →</strong> Proceed to Step 2.</p>
+<hr />
+<h3>2. Are you connected to a Wi-Fi network (shows a network name, not "Not Connected")?</h3>
+<p><strong>If no →</strong> Proceed to Step 3 to connect to the correct network.</p>
+<p><strong>If yes →</strong> Proceed to Step 4 to verify the connection is working.</p>
+<hr />
+<h3>3. Connect to the correct Wi-Fi network.</h3>
+<p><strong>In a Summit IT office:</strong>
+- Select <code>Summit-Corp</code> from the available networks list.
+- When prompted, enter your <code>firstname.lastname@summitit.com</code> username and Okta password.
+- If <code>Summit-Corp</code> does not appear in the list, proceed to Step 8.</p>
+<p><strong>At home or in a non-Summit location:</strong>
+- Connect to your home Wi-Fi using your home network password.
+- Once connected, launch <strong>GlobalProtect</strong> VPN (see FAQ-04 for VPN setup instructions).</p>
+<p><strong>Did connecting resolve the issue?</strong></p>
+<p><strong>If yes →</strong> You are connected. No further action needed.</p>
+<p><strong>If no →</strong> Proceed to Step 4.</p>
+<hr />
+<h3>4. Can you load a basic website (e.g., https://google.com or https://help.summitit.com)?</h3>
+<p><strong>If yes →</strong> Basic internet is working. If the issue is with a specific internal tool or resource, you may need to connect to GlobalProtect VPN. See Step 10.</p>
+<p><strong>If no →</strong> The connection is present but internet is not reaching your browser. Proceed to Step 5.</p>
+<hr />
+<h3>5. Is GlobalProtect VPN connected?</h3>
+<p><strong>If yes and you cannot reach the internet →</strong> Try disconnecting from GlobalProtect. Sometimes VPN routing issues can block general internet access. Disconnect, test internet again without VPN, then reconnect VPN.</p>
+<p><strong>If no VPN and still no internet →</strong> Proceed to Step 6.</p>
+<hr />
+<h3>6. Flush DNS and renew your IP address.</h3>
+<p><strong>Windows:</strong>
+1. Open Command Prompt as Administrator.
+2. Run: <code>ipconfig /flushdns</code>
+3. Run: <code>ipconfig /release</code> then <code>ipconfig /renew</code>
+4. Test internet again.</p>
+<p><strong>Mac:</strong>
+1. Open Terminal.
+2. Run: <code>sudo killall -HUP mDNSResponder</code>
+3. Run: <code>sudo ipconfig set en0 DHCP</code>
+4. Test internet again.</p>
+<p><strong>Did this resolve the issue?</strong></p>
+<p><strong>If yes →</strong> Issue was a stale DNS or IP lease. Monitor for recurrence.</p>
+<p><strong>If no →</strong> Proceed to Step 7.</p>
+<hr />
+<h3>7. Restart your laptop's network adapter.</h3>
+<p><strong>Windows:</strong> Go to <strong>Settings &gt; Network &amp; Internet &gt; Advanced network settings &gt; Network adapters</strong>, right-click your Wi-Fi adapter, and select <strong>Disable</strong>, then <strong>Enable</strong> after 10 seconds.</p>
+<p><strong>Mac:</strong> Go to <strong>System Settings &gt; Wi-Fi</strong>, turn Wi-Fi off, wait 10 seconds, then turn it back on and reconnect.</p>
+<p><strong>Did this resolve the issue?</strong></p>
+<p><strong>If yes →</strong> Adapter was in a bad state. Monitor for recurrence. If it happens often, submit a ticket for a persistent connectivity investigation.</p>
+<p><strong>If no →</strong> Proceed to Step 8.</p>
+<hr />
+<h3>8. Are other devices on the same network able to access the internet?</h3>
+<p><strong>If yes (other devices work fine) →</strong> The issue is specific to your laptop. Restart your laptop and retry. If the issue persists after a restart, submit a ticket at <a href="https://help.summitit.com">https://help.summitit.com</a> — there may be a driver or configuration issue.</p>
+<p><strong>If no (other devices also cannot connect) →</strong> The issue is with the network itself, not your laptop. Proceed to Step 9.</p>
+<hr />
+<h3>9. Is this in a Summit IT office?</h3>
+<p><strong>If yes →</strong> This is a network infrastructure issue. Contact the Service Desk immediately at <strong>+1 (800) 555-7866</strong> — if multiple users are affected, this may be a P1 or P2 incident. While waiting, use your mobile phone hotspot as a temporary workaround.</p>
+<p><strong>If no (home/remote network) →</strong>
+- Restart your home router and modem: unplug both from power, wait 30 seconds, plug the modem back in first, wait for it to fully start, then plug in the router. Wait 2 minutes, then test.
+- Contact your home internet service provider (ISP) if the issue persists. Summit IT cannot troubleshoot your home ISP connection, but can advise on using a mobile hotspot as a backup.</p>
+<hr />
+<h3>10. Are you trying to access a resource that requires VPN (an internal tool, file server, or internal website)?</h3>
+<p><strong>If yes →</strong> Ensure GlobalProtect is connected. Open the GlobalProtect icon in your system tray (Windows) or menu bar (Mac), and verify the status shows "Connected." If not connected, click <strong>Connect</strong> and authenticate with your Okta credentials. Approve the Okta Verify push notification.</p>
+<p><strong>If VPN connects but the resource is still unreachable →</strong> The issue may be with the resource itself rather than your network. Check with colleagues to see if others can access it. If no one can, submit a P2 ticket at <a href="https://help.summitit.com">https://help.summitit.com</a>.</p>
+<hr />
+<h3>11. Is the <code>Summit-Corp</code> SSID visible in the Wi-Fi list but you cannot connect?</h3>
+<p>This often indicates an authentication failure with the 802.1X network (Okta credentials rejected or certificate issue).</p>
+<ul>
+<li>Forget the <code>Summit-Corp</code> network and reconnect, re-entering your Okta username and password carefully.</li>
+<li>Ensure your Okta password has not expired. If it has, reset it first at <a href="https://summit.okta.com">https://summit.okta.com</a> using mobile data or a different device.</li>
+<li>If you still cannot join, submit a ticket — the Service Desk may need to re-push the Wi-Fi profile via Intune or Jamf.</li>
+</ul>
+<hr />
+<h2>Quick Checklist</h2>
+<p>Before calling the Service Desk, confirm you have tried:</p>
+<ul>
+<li>[ ] Verified Wi-Fi is enabled on your laptop</li>
+<li>[ ] Confirmed you are connected to <code>Summit-Corp</code> (office) or your home network (remote)</li>
+<li>[ ] Tested a basic website (google.com) to confirm general internet</li>
+<li>[ ] Flushed DNS and renewed IP address</li>
+<li>[ ] Restarted your laptop's Wi-Fi adapter</li>
+<li>[ ] Checked whether other devices on the same network are affected</li>
+<li>[ ] Restarted home router and modem if working remotely (wait 2 min after restart)</li>
+<li>[ ] Verified GlobalProtect VPN is connected if trying to access internal tools</li>
+</ul>
+<hr />
+<h2>When to Contact the Service Desk</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Office Wi-Fi / wired network is down for multiple users</td>
+<td><strong>P1 – Critical</strong></td>
+</tr>
+<tr>
+<td>No internet and no workaround available (blocking all work)</td>
+<td><strong>P1 – Critical</strong></td>
+</tr>
+<tr>
+<td>Single user cannot connect to <code>Summit-Corp</code> after all self-service steps</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Intermittent connectivity drops (multiple times per day)</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Slow Wi-Fi impacting productivity but workaround available</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>One specific internal resource unreachable via VPN</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contact options:</strong>
+- Portal: <a href="https://help.summitit.com">https://help.summitit.com</a>
+- Email: <a href="mailto:servicedesk@summitit.com">servicedesk@summitit.com</a>
+- Phone: <strong>+1 (800) 555-7866</strong>
+- Slack: <strong>#it-help</strong></p>
+<div class="footer">Summit IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>
