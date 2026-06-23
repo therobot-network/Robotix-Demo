@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Update Your Name or Profile in Okta and Microsoft 365 — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0112</span><span><b>Category:</b> Accounts &amp; Access</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-11-03</span><span><b>Tags:</b> name change, profile, okta, microsoft 365, display name, legal name, teams, outlook</span><span><b>Applies to:</b> Windows 11, macOS, Web, iOS, Android</span></div>
+<h1>Update Your Name or Profile in Okta and Microsoft 365</h1>
+<h2>Summary</h2>
+<p>If your legal name has changed (e.g., due to marriage, divorce, or court order), or you want to update your preferred display name or profile photo across Robotix systems, this article explains what you can update yourself and what requires a formal IT request. Legal name changes in particular must be processed by HR before IT can make the change in the system.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li><strong>Legal name changes</strong> (first name, last name, or UPN) must be initiated through HR first. IT cannot process these without an HR ticket confirmation number.</li>
+<li><strong>Display name / preferred name</strong> changes (what people see in Teams, Outlook, and Slack) can often be requested directly through IT once manager-approved.</li>
+<li><strong>Profile photos</strong> are self-service in Microsoft 365 and will sync to Teams and Outlook automatically.</li>
+<li>Your <strong>Okta username</strong> (UPN) is always <code>firstname.lastname@robotix.com</code>. A legal last name change will result in a new UPN. Existing email aliases are preserved for 90 days after a name change.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Update Your Profile Photo (Self-Service)</h3>
+<p>Profile photos can be set yourself in Microsoft 365 and sync to Teams and Outlook within a few minutes.</p>
+<ol>
+<li>Go to <a href="https://myaccount.microsoft.com">https://myaccount.microsoft.com</a> and sign in with your Robotix credentials.</li>
+<li>Click the profile circle in the top-right corner, then click <strong>My Microsoft Account</strong>.</li>
+<li>Under your name, click the camera icon or your existing photo.</li>
+<li>Click <strong>Upload new photo</strong>, select an image from your device (JPG or PNG, recommended 200×200 px minimum, max 4 MB), and click <strong>Save</strong>.</li>
+<li>The new photo propagates to Outlook, Teams, and SharePoint within 30 minutes. In Teams specifically, sign out and back in if the photo does not update.</li>
+</ol>
+<h3>Update Your Preferred (Display) Name</h3>
+<p>A preferred name is the name shown in Teams, Outlook, and Slack without changing your legal records or email address.</p>
+<ol>
+<li>Submit a <strong>Display Name Change</strong> request at <a href="https://help.robotix.com">https://help.robotix.com</a> → <strong>Service Catalog → Accounts &amp; Access → Profile Update</strong>.</li>
+<li>Fill in:
+   - <strong>Current Display Name</strong> (as it appears in Teams/Outlook today)
+   - <strong>Requested Display Name</strong> (e.g., "Alex" instead of "Alexander," or a new last name)
+   - <strong>Reason</strong> (optional, e.g., "I go by my middle name")</li>
+<li>Manager approval is required. The form sends an automated approval email to your manager.</li>
+<li>Once approved, IT updates the display name in Okta (which syncs to Microsoft Entra ID, Teams, Outlook, and Slack) within 1 business day.</li>
+<li>You receive a confirmation email when the change is live.</li>
+</ol>
+<h3>Legal Name Change</h3>
+<p>A legal name change updates your full name, email address, and all associated systems. Complete these steps in order.</p>
+<h4>Step 1 — Notify HR</h4>
+<ol>
+<li>Submit your legal name change to HR with supporting documentation (court order, updated government ID, or marriage certificate as required by policy).</li>
+<li>HR updates your record in the HRIS system and issues a confirmation email with a reference number.</li>
+<li>Keep this reference number — you will need it in Step 2.</li>
+</ol>
+<h4>Step 2 — Submit an IT Name Change Request</h4>
+<ol start="4">
+<li>Go to <a href="https://help.robotix.com">https://help.robotix.com</a> → <strong>Service Catalog → Accounts &amp; Access → Legal Name Change</strong>.</li>
+<li>Fill in:
+   - <strong>Current Legal Name</strong> (as it appears in IT systems today)
+   - <strong>New Legal Name</strong>
+   - <strong>HR Confirmation Number</strong> from Step 1
+   - <strong>Requested New Email Address</strong> (e.g., <code>alex.johnson@robotix.com</code> if your name changed to Alex Johnson). IT will confirm availability.
+   - <strong>Effective Date:</strong> When you would like the change to take effect.</li>
+<li>Submit. Changes of this scope are treated as P3 and target 2 business days.</li>
+</ol>
+<h4>Step 3 — What Changes and When</h4>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Change</th>
+<th>Timeline</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Okta username (UPN)</td>
+<td>New UPN created; old UPN becomes an alias for 90 days</td>
+<td>1–2 business days</td>
+</tr>
+<tr>
+<td>Microsoft 365 email</td>
+<td>New address active; old address forwards for 90 days</td>
+<td>1–2 business days</td>
+</tr>
+<tr>
+<td>Teams display name</td>
+<td>Updated automatically via Entra ID sync</td>
+<td>Within 1 hour of Okta update</td>
+</tr>
+<tr>
+<td>Outlook Global Address List</td>
+<td>New name and address visible</td>
+<td>Within 2 hours</td>
+</tr>
+<tr>
+<td>Slack</td>
+<td>Updated manually by IT</td>
+<td>Same day as Okta update</td>
+</tr>
+<tr>
+<td>1Password</td>
+<td>Display name updated</td>
+<td>Same day as Okta update</td>
+</tr>
+<tr>
+<td>Laptop login (Windows/macOS)</td>
+<td>Still uses existing local account; IT may need to update if name is in the account path</td>
+<td>Notify IT if local account issues arise</td>
+</tr>
+<tr>
+<td>ID badge / physical access</td>
+<td>Contact Facilities/HR — IT does not manage physical badge names</td>
+<td>Separate process</td>
+</tr>
+</tbody>
+</table>
+<h4>Step 4 — Update Saved Passwords and Bookmarks</h4>
+<ol start="7">
+<li>After your UPN changes, update any saved passwords in 1Password that reference your old email address.</li>
+<li>Inform colleagues and external contacts of your new email address — IT can configure an auto-reply on your old address for 90 days upon request.</li>
+<li>Update any services that use your Robotix email as a login (e.g., vendor portals) to use your new address.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Profile photo updated in M365 but not in Teams</td>
+<td>Teams caches profile photos</td>
+<td>In Teams, click your profile picture → Sign out → sign back in</td>
+</tr>
+<tr>
+<td>Old name still showing in Outlook's "From" field</td>
+<td>Exchange address book cache not updated</td>
+<td>In Outlook for Windows: File → Account Settings → Download Address Book → Download Now</td>
+</tr>
+<tr>
+<td>Sign-in fails after legal name change with new UPN</td>
+<td>Old UPN is still in browser's saved credentials</td>
+<td>Clear saved passwords for <code>robotix.okta.com</code> in your browser and re-authenticate</td>
+</tr>
+<tr>
+<td>Email sent to old address bouncing</td>
+<td>90-day forwarding alias expired or was not set up</td>
+<td>Contact IT to configure or renew the alias</td>
+</tr>
+<tr>
+<td>Display name change reflected in Okta but not Slack</td>
+<td>Slack sync from Okta can take up to 2 hours</td>
+<td>Wait 2 hours; if still not updated, contact IT</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Sign In to Robotix Apps with Single Sign-On (SSO) (KB-0104)</li>
+<li>Reset Your Robotix Password (Okta Self-Service Reset) (KB-0100)</li>
+<li>Set Up Okta Verify Multi-Factor Authentication (KB-0102)</li>
+<li>Request a New User Account (for Managers) (KB-0106)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Restore Previous Versions or Deleted Files in OneDrive — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0210</span><span><b>Category:</b> Email &amp; Microsoft 365</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-10-15</span><span><b>Tags:</b> onedrive, version history, restore, deleted files, recovery, sharepoint</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>Restore Previous Versions or Deleted Files in OneDrive</h1>
+<h2>Summary</h2>
+<p>OneDrive for Business automatically saves version history for files and retains deleted files in the OneDrive Recycle Bin for 93 days. This article explains how to restore a previous version of a file and how to recover deleted files or folders from the OneDrive Recycle Bin.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Version history is available for all file types stored in OneDrive for Business and SharePoint. It is not available for files stored only on your local device outside the OneDrive folder.</li>
+<li>The OneDrive Recycle Bin retains deleted items for <strong>93 days</strong>. After that, items are permanently removed.</li>
+<li>SharePoint document libraries have their own separate Recycle Bin — see the SharePoint-specific steps below.</li>
+<li>If you need to restore a large number of files after an accidental mass-deletion or ransomware event, the Service Desk can use the <strong>OneDrive Files Restore</strong> feature to roll back an entire OneDrive to a point in time (up to 30 days). Contact the Service Desk immediately in that scenario.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Restore a Previous Version of a File</h3>
+<p><strong>Using Outlook on the Web / OneDrive web (Recommended):</strong></p>
+<ol>
+<li>Go to https://robotix-my.sharepoint.com (your OneDrive) or navigate to the file in the OneDrive folder on your device and right-click.</li>
+<li>On the OneDrive website: select the file (click the circle checkbox next to it), then click <strong>...</strong> (More options) in the toolbar and choose <strong>Version history</strong>.
+   - From File Explorer (Windows): right-click the file &gt; <strong>Show more options</strong> &gt; <strong>Version History</strong>.
+   - From Finder (macOS): right-click the file &gt; <strong>Version History</strong> (requires OneDrive sync client).</li>
+<li>A panel opens on the right listing all saved versions with timestamps and the person who modified each version.</li>
+<li>To preview a version, click on the date/time link — it opens a read-only copy.</li>
+<li>To restore a version: click <strong>...</strong> next to the version you want and choose <strong>Restore</strong>. This makes that version the current file without deleting newer versions (they are retained in history).</li>
+<li>To download a specific version as a copy: click <strong>...</strong> &gt; <strong>Download</strong>.</li>
+</ol>
+<p><strong>From within Microsoft 365 Apps (Word, Excel, PowerPoint):</strong></p>
+<ol>
+<li>Open the file from OneDrive.</li>
+<li>Click the file name in the title bar at the top of the app.</li>
+<li>Select <strong>Version History</strong> from the dropdown menu.</li>
+<li>The version history panel opens on the right. Browse, preview, and restore as needed.</li>
+</ol>
+<h3>Recover Deleted Files from the OneDrive Recycle Bin</h3>
+<p><strong>OneDrive on the Web:</strong></p>
+<ol>
+<li>Go to https://robotix-my.sharepoint.com.</li>
+<li>In the left pane, click <strong>Recycle bin</strong>.</li>
+<li>Browse or search for the deleted file or folder.</li>
+<li>Select the item(s) by clicking the checkboxes.</li>
+<li>Click <strong>Restore</strong> at the top of the page. The item returns to its original location.</li>
+<li>If the original folder was also deleted, OneDrive recreates it automatically.</li>
+</ol>
+<p><strong>From File Explorer (Windows) or Finder (macOS):</strong></p>
+<p>The OneDrive Recycle Bin is separate from the Windows Recycle Bin or macOS Trash. Files deleted from your OneDrive folder go to the <strong>OneDrive Recycle Bin</strong>, not the local recycle bin.</p>
+<ol>
+<li>Right-click the OneDrive icon in the system tray (Windows) or menu bar (macOS).</li>
+<li>Select <strong>View online</strong> to open OneDrive on the web.</li>
+<li>Follow the web steps above to recover from the Recycle Bin.</li>
+</ol>
+<h3>Recover Deleted Files from a SharePoint Document Library Recycle Bin</h3>
+<p>If the file was in a SharePoint library (a Teams channel file, a shared site document library, etc.):</p>
+<ol>
+<li>Go to the SharePoint site (e.g., via the Teams channel &gt; Files &gt; Open in SharePoint).</li>
+<li>In the lower-left of the SharePoint site, click <strong>Recycle bin</strong>.</li>
+<li>Select the item and click <strong>Restore</strong>.</li>
+<li>If the Recycle Bin is empty but the file was deleted recently, it may be in the <strong>Second-Stage Recycle Bin</strong> (admin only) — contact the Service Desk.</li>
+</ol>
+<h3>Restore an Entire OneDrive to a Point in Time (Large-Scale Recovery)</h3>
+<p>If a large number of files were accidentally deleted or modified (e.g., mass overwrite or ransomware):</p>
+<ol>
+<li>Do not make any further changes to your OneDrive.</li>
+<li>Submit an urgent ticket at https://help.robotix.com marked <strong>P2 – High</strong>.</li>
+<li>The Service Desk will use <strong>OneDrive Files Restore</strong> to roll back your entire OneDrive to a specific date and time (available for up to 30 days).</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Version History" option is not available</td>
+<td>The file must be saved in OneDrive or SharePoint. Files saved locally (e.g., Desktop, Documents outside OneDrive) do not have version history.</td>
+</tr>
+<tr>
+<td>Restored version is not the content you expected</td>
+<td>Check the version list more carefully — the timestamps are in UTC by default. Adjust for your time zone when selecting.</td>
+</tr>
+<tr>
+<td>Recycle Bin is empty but file was deleted recently</td>
+<td>If deleted from a shared library, check the SharePoint site Recycle Bin separately. The two Recycle Bins are independent.</td>
+</tr>
+<tr>
+<td>Cannot restore — "You don't have permission"</td>
+<td>The file may be in a library owned by another team. Ask the site owner to restore it, or contact the Service Desk.</td>
+</tr>
+<tr>
+<td>File restored but still missing in OneDrive folder on device</td>
+<td>Give OneDrive sync a few minutes to pull the restored file back down. Click the OneDrive icon and check sync status.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>OneDrive Won't Sync — Fix Sync Issues (KB-0209)</li>
+<li>Request More OneDrive or SharePoint Storage (KB-0211)</li>
+<li>Recover a Deleted Email or Calendar Item (KB-0207)</li>
+<li>Your Mailbox Is Full — Clean Up and Archive (KB-0203)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

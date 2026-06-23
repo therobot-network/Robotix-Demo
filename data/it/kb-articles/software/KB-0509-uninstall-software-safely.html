@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uninstall Software Safely — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0509</span><span><b>Category:</b> Software</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-07-22</span><span><b>Tags:</b> uninstall, remove software, windows, macos, company portal, self service</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Uninstall Software Safely</h1>
+<h2>Summary</h2>
+<p>Removing software from a Robotix IT-managed device should be done through the correct channels to ensure device compliance is maintained, licensing is returned where applicable, and no leftover files cause future issues. This article covers how to uninstall IT-managed applications through <strong>Company Portal</strong> (Windows) and <strong>Self Service</strong> (Mac), as well as how to remove non-catalog software that may have been installed with temporary administrator rights.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Some applications cannot be uninstalled by end users — they are protected by Intune or Jamf policy because they are required for device security (e.g., CrowdStrike Falcon, Okta Verify, GlobalProtect). Attempts to remove these apps will fail silently or be reinstalled automatically. If you believe a protected app is causing a problem, contact the Service Desk rather than trying to remove it.</li>
+<li>Uninstalling Microsoft 365 applications (Word, Outlook, etc.) will remove access to your email and files in those apps. Only uninstall Microsoft 365 apps if instructed by the Service Desk or if you plan to reinstall immediately.</li>
+<li>Uninstalling an application does not automatically return a software license. For paid software (e.g., Adobe Acrobat Pro), notify the Service Desk after uninstalling so the license seat can be reassigned.</li>
+<li>You do not need local administrator rights to uninstall software that was installed via Company Portal or Self Service.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Windows — Uninstall via Company Portal (Recommended)</h3>
+<p>Company Portal is the preferred method for removing IT-managed applications because it ensures the device compliance record is updated correctly.</p>
+<ol>
+<li>Open <strong>Company Portal</strong> from the Start menu.</li>
+<li>Click <strong>Apps</strong> in the left navigation pane.</li>
+<li>Find the application you want to remove. You can filter by <strong>Installed Apps</strong> using the dropdown at the top of the app list.</li>
+<li>Click the application tile to open its detail page.</li>
+<li>Click <strong>Uninstall</strong>. Confirm when prompted. A progress indicator will appear; do not close Company Portal until the status changes to <strong>Not Installed</strong>.</li>
+</ol>
+<h3>Windows — Uninstall via Windows Settings (Non-Catalog Apps)</h3>
+<p>For applications not managed through Company Portal (e.g., installed with temporary admin rights):</p>
+<ol>
+<li>Click the <strong>Start</strong> menu and go to <strong>Settings</strong> &gt; <strong>Apps</strong> &gt; <strong>Installed apps</strong>.</li>
+<li>Scroll to or search for the application you want to remove.</li>
+<li>Click the three-dot menu (<code>···</code>) to the right of the app name and click <strong>Uninstall</strong>.</li>
+<li>Follow the uninstaller prompts to completion. Some applications require a restart to finish removal.</li>
+<li>After uninstalling, notify the Service Desk via https://help.robotix.com if the application was installed under a temporary admin grant, so the removal can be logged.</li>
+</ol>
+<h3>macOS — Uninstall via Self Service (Recommended)</h3>
+<p>Some IT-managed applications published in Self Service have a corresponding uninstall policy.</p>
+<ol>
+<li>Open <strong>Self Service</strong> from your Applications folder or Dock.</li>
+<li>Search for the application using the search bar.</li>
+<li>If an <strong>Uninstall</strong> button is visible alongside or in place of <strong>Install</strong>, click it. The application will be removed silently.</li>
+<li>Note: Not all catalog apps have a Self Service uninstall policy. If no <strong>Uninstall</strong> button appears, use the Finder method below.</li>
+</ol>
+<h3>macOS — Uninstall via Finder (Non-Catalog Apps and Most Mac Apps)</h3>
+<ol>
+<li>Open <strong>Finder</strong> and go to the <strong>Applications</strong> folder (click <strong>Applications</strong> in the Finder sidebar, or press <code>Command + Shift + A</code>).</li>
+<li>Locate the application you want to remove.</li>
+<li>Drag the application icon to the <strong>Trash</strong>, or right-click it and select <strong>Move to Trash</strong>.</li>
+<li>Empty the Trash: right-click the Trash icon in the Dock and select <strong>Empty Trash</strong>, or press <code>Command + Shift + Delete</code> in Finder.</li>
+<li>For thorough removal of associated preference files and caches, use the IT-approved app <strong>AppCleaner</strong> if it is available in Self Service. Do not use third-party "cleaner" apps not in the Self Service catalog.</li>
+</ol>
+<h3>Notify IT After Uninstalling Paid Software</h3>
+<ol>
+<li>Go to <strong>https://help.robotix.com</strong> and sign in.</li>
+<li>Click <strong>Service Catalog</strong> &gt; <strong>Software &amp; Licensing</strong> &gt; <strong>Release a Software License</strong>.</li>
+<li>Enter the application name, your device asset tag, and the date of uninstallation.</li>
+<li>Click <strong>Submit</strong>. The Service Desk will update the license inventory.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<p><strong>The Uninstall button is greyed out or missing in Company Portal.</strong>
+The application may be required by an IT policy and cannot be removed by end users. Contact the Service Desk to discuss why the application needs to be removed — IT can evaluate whether a policy exception is appropriate.</p>
+<p><strong>Windows Settings shows the app is uninstalled, but I can still see it in the Start menu.</strong>
+Restart your computer. The Start menu tile cache does not always update immediately after uninstallation. If the icon persists after a restart, right-click it and choose <strong>Unpin from Start</strong>. The underlying application has already been removed.</p>
+<p><strong>macOS: I dragged the app to Trash but it says "The item can't be moved to the Trash because it's open."</strong>
+Force quit the application first: press <code>Command + Option + Esc</code>, select the app, and click <strong>Force Quit</strong>. Then move it to Trash.</p>
+<p><strong>macOS: I uninstalled an app via Finder but its icon still appears in Launchpad.</strong>
+Click and hold the app icon in Launchpad until all icons start to wiggle, then click the <strong>X</strong> button on the icon to remove it from Launchpad. If no X appears, the app may have been reinstalled by a Jamf policy — contact the Service Desk.</p>
+<p><strong>I uninstalled a required application by mistake (e.g., CrowdStrike Falcon or GlobalProtect).</strong>
+Contact the Service Desk immediately. These applications protect your device and are required for network access. The Service Desk can push a reinstall remotely through Intune or Jamf, which typically takes 5–10 minutes.</p>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0500: Install Approved Software Using Company Portal or Self Service</li>
+<li>KB-0501: Request New Software or a Paid License</li>
+<li>KB-0506: Request Temporary Local Administrator Rights</li>
+<li>KB-0507: An Application Keeps Crashing or Won't Open</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

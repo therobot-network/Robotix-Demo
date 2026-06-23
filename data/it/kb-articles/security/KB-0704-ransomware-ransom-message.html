@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ransomware: What to Do If You See a Ransom Message — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0704</span><span><b>Category:</b> Security</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-02-28</span><span><b>Tags:</b> ransomware, malware, incident response, ransom, data recovery, crowdstrike</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Ransomware: What to Do If You See a Ransom Message</h1>
+<h2>Summary</h2>
+<p>If your screen shows a message demanding payment to unlock your files, you are likely experiencing a ransomware attack. Do not pay. Follow the steps in this article immediately — speed directly affects how much data can be recovered and how far the attack spreads.</p>
+<h2>Why This Matters</h2>
+<p>Ransomware encrypts files on your device and any network shares your device can reach, then demands payment for a decryption key. Robotix IT maintains secure backups and has an incident response plan — paying the ransom is not necessary and is not approved under any circumstances. Your most important job is to act within the first few minutes to limit the blast radius.</p>
+<h2>Before You Begin</h2>
+<p>Ransomware moves fast. Read through all the steps below once, then act immediately. Do not pause to research the ransomware name or try to find a free decryptor — that comes later, handled by the SOC.</p>
+<h2>Steps</h2>
+<h3>Step 1 — Do not pay the ransom</h3>
+<p>Robotix IT does not authorize ransomware payments. There is no scenario in which paying is the correct first step. Paying does not guarantee file recovery and directly funds criminal organizations.</p>
+<h3>Step 2 — Disconnect from the network immediately</h3>
+<p>This is the single most impactful thing you can do to limit spread:</p>
+<ol>
+<li><strong>Wi-Fi:</strong> Turn off Wi-Fi immediately from your taskbar (Windows) or menu bar (macOS).</li>
+<li><strong>Ethernet/dock:</strong> Unplug the network cable from your laptop or docking station.</li>
+<li><strong>Do not log out, shut down, or restart the device.</strong> The SOC needs the device in its current state for forensics. Exception: if the screen is locked by the ransom message and you cannot disconnect from the network in any other way, a forced power-off is acceptable as a last resort.</li>
+</ol>
+<h3>Step 3 — Call the SOC immediately — this is a P1 emergency</h3>
+<ol>
+<li>Call the Robotix Service Desk now: <strong>+1 (800) 555-7866</strong>. The service desk is staffed 24/7 for P1 incidents. Say: "I have a ransomware message on my screen."</li>
+<li>If you cannot call from your infected device, use your mobile phone or a colleague's computer.</li>
+<li>Do not use email from the infected machine.</li>
+</ol>
+<h3>Step 4 — Photograph the ransom message</h3>
+<p>Using your mobile phone, take a clear photo of:
+- The ransom message screen
+- Any Bitcoin/cryptocurrency wallet addresses shown
+- Any email addresses or website URLs in the message
+- The name of the ransomware variant if displayed (e.g., "LockBit," "ALPHV," "Akira")</p>
+<p>Send these photos to <code>soc@robotix.com</code> from your phone.</p>
+<h3>Step 5 — Notify nearby colleagues</h3>
+<p>If you are in an office, alert colleagues around you that there may be an active incident. Ask them to:</p>
+<ol>
+<li>Save any open work immediately.</li>
+<li>Disconnect their own devices from the network as a precaution if the SOC advises it.</li>
+<li>Do not open any shared drives until the SOC gives the all-clear.</li>
+</ol>
+<h3>Step 6 — Do not attempt self-remediation</h3>
+<ul>
+<li>Do not run CrowdStrike scans, Windows Defender, or any other tool yourself.</li>
+<li>Do not delete encrypted files.</li>
+<li>Do not attempt to restore from backup without SOC direction — backup systems may also be targeted.</li>
+<li>Do not reformat or reinstall the operating system.</li>
+</ul>
+<p>The SOC and the L2/L3 teams will handle all recovery steps.</p>
+<h3>Step 7 — Preserve your account and change passwords from a clean device</h3>
+<p>If ransomware is present, attackers may also have your credentials:</p>
+<ol>
+<li>From your phone or another unaffected device, change your Okta password at https://robotix.okta.com.</li>
+<li>Tell the SOC which applications you were logged into on the infected device.</li>
+</ol>
+<h2>Troubleshooting / Warning Signs</h2>
+<ul>
+<li><strong>Files have strange extensions or cannot be opened:</strong> Encryption may have already started even without a visible ransom note. Disconnect from the network and call the SOC immediately.</li>
+<li><strong>OneDrive or SharePoint is syncing a large number of renamed files:</strong> Ransomware can encrypt cloud-synced files. Pause OneDrive sync immediately (right-click the OneDrive icon in the taskbar and select <strong>Pause syncing</strong>) and call the SOC.</li>
+<li><strong>The ransom note says the attack is from a law enforcement agency:</strong> This is always a scam. No law enforcement agency encrypts your files and demands Bitcoin. Treat it as ransomware.</li>
+<li><strong>I think I have a ransom message but I'm not sure:</strong> If in doubt, call the SOC. It is always better to escalate a false alarm than to delay response on a real incident.</li>
+</ul>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0703: Report Suspected Malware or a Virus on Your Device</li>
+<li>KB-0701: What to Do If You Clicked a Suspicious Link or Attachment</li>
+<li>KB-0700: Report a Phishing Email with the Report Phishing Button</li>
+<li>KB-0709: Report a Lost Laptop or Possible Data Breach</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help — for security incidents, contact soc@robotix.com immediately.</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

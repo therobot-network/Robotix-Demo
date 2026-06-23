@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GlobalProtect VPN Won&#x27;t Connect — Troubleshooting — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0304</span><span><b>Category:</b> Network &amp; VPN</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-04-05</span><span><b>Tags:</b> vpn, globalprotect, palo-alto, troubleshooting, remote-access, error, connection</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>GlobalProtect VPN Won't Connect — Troubleshooting</h1>
+<h2>Summary</h2>
+<p>This article covers the most common reasons Palo Alto GlobalProtect fails to connect and provides step-by-step fixes for each scenario. Work through the sections below in order. If you are unable to resolve the issue after following these steps, contact the Robotix Service Desk with the error message and the GlobalProtect diagnostic log.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Note the exact error message GlobalProtect displays — this is the fastest way to identify the cause.</li>
+<li>Confirm whether the issue is happening on a specific network (e.g., only at home, only on hotel Wi-Fi) or on all networks.</li>
+<li>Have your Okta username (<code>firstname.lastname@robotix.com</code>) and password ready.</li>
+<li>Know the portal address: <code>vpn.robotix.com</code>.</li>
+</ul>
+<hr />
+<h2>Steps</h2>
+<h3>Step 1 — Verify you are not already on the corporate network</h3>
+<p>GlobalProtect will not connect if your device is already on the Robotix-Corp office Wi-Fi or wired network, because VPN is not needed on-site. This is by design.</p>
+<ul>
+<li>If you are at the office, disconnect GlobalProtect — you are already protected.</li>
+<li>If you are remote, proceed to the next step.</li>
+</ul>
+<h3>Step 2 — Check basic internet connectivity</h3>
+<p>GlobalProtect requires a working internet connection before it can reach the VPN gateway.</p>
+<ol>
+<li>Open a browser and try loading <strong>https://www.google.com</strong>.</li>
+<li>If the page does not load, troubleshoot your local internet first (restart your router/modem, or contact your ISP). See also KB-0309 (home network tips).</li>
+<li>Once you have a working internet connection, retry GlobalProtect.</li>
+</ol>
+<h3>Step 3 — Confirm the portal address is correct</h3>
+<ol>
+<li>Open GlobalProtect (click the globe icon in the system tray or menu bar).</li>
+<li>Verify the <strong>Portal</strong> field shows exactly: <code>vpn.robotix.com</code></li>
+<li>If it shows anything else, clear the field, type <code>vpn.robotix.com</code>, and click <strong>Connect</strong>.</li>
+</ol>
+<h3>Step 4 — Re-enter your Okta credentials</h3>
+<ol>
+<li>When the Okta browser sign-in page appears, enter your <strong>full Robotix IT email</strong> (<code>firstname.lastname@robotix.com</code>) and current Okta password.</li>
+<li>If you see "Invalid username or password," go to <strong>https://help.robotix.com</strong> &gt; <strong>Reset My Password</strong> before retrying.</li>
+</ol>
+<h3>Step 5 — Resolve MFA / Okta Verify issues</h3>
+<p>GlobalProtect requires MFA approval. If the Okta Verify push does not arrive:</p>
+<ol>
+<li>Open the <strong>Okta Verify</strong> app on your phone.</li>
+<li>Pull down to refresh the account.</li>
+<li>Instead of waiting for a push, tap the account to reveal the <strong>6-digit TOTP code</strong> and enter it in the Okta sign-in browser window.</li>
+<li>If Okta Verify shows an error or your account is missing, contact the Service Desk — your MFA enrollment may need to be reset.</li>
+</ol>
+<h3>Step 6 — Restart the GlobalProtect service</h3>
+<p><strong>Windows 11:</strong>
+1. Press <code>Win + R</code>, type <code>services.msc</code>, and press Enter.
+2. Scroll to <strong>PanGPS</strong> (Palo Alto GlobalProtect Service).
+3. Right-click &gt; <strong>Restart</strong>.
+4. Retry connecting GlobalProtect.</p>
+<p><strong>macOS:</strong>
+1. Open <strong>Terminal</strong> (Spotlight: <code>Cmd + Space</code>, type "Terminal").
+2. Run:
+   <code>sudo launchctl stop com.paloaltonetworks.gpe.pangpsd
+   sudo launchctl start com.paloaltonetworks.gpe.pangpsd</code>
+3. Enter your Mac password if prompted.
+4. Retry GlobalProtect.</p>
+<h3>Step 7 — Check for firewall or proxy interference</h3>
+<p>Some home routers, hotel networks, or third-party security software block VPN traffic.</p>
+<ul>
+<li><strong>Home router:</strong> Ensure UDP port 4501 (IPSec/NAT-T) and TCP port 443 are not blocked. Check your router's firewall settings or temporarily disable it for testing.</li>
+<li><strong>Third-party software:</strong> Temporarily disable any personal VPN, antivirus firewall, or network filtering software, then retry GlobalProtect.</li>
+<li><strong>Hotel/café networks:</strong> Some restrict VPN traffic. Ask the front desk if outbound VPN is allowed, or use your phone as a mobile hotspot.</li>
+</ul>
+<h3>Step 8 — Reinstall GlobalProtect</h3>
+<p>If none of the above steps work, reinstall the application:</p>
+<ul>
+<li><strong>Windows:</strong> Go to <strong>Settings</strong> &gt; <strong>Apps</strong> &gt; search for <strong>GlobalProtect</strong> &gt; <strong>Uninstall</strong>. Then reinstall from Company Portal (KB-0302, Option A).</li>
+<li><strong>macOS:</strong> Drag <strong>GlobalProtect</strong> from Applications to Trash, then reinstall via <strong>Jamf Self Service</strong> (KB-0303, Option A).</li>
+</ul>
+<h3>Step 9 — Collect diagnostic logs for the Service Desk</h3>
+<p><strong>Windows:</strong>
+1. Right-click the GlobalProtect icon in the system tray.
+2. Select <strong>Get Support</strong> or <strong>Collect Logs</strong>.
+3. A ZIP file is saved to your Desktop. Attach it to your Service Desk ticket.</p>
+<p><strong>macOS:</strong>
+1. Click the GlobalProtect icon in the menu bar.
+2. Click the settings gear &gt; <strong>Get Support</strong>.
+3. A <code>.tar.gz</code> file is saved to your Downloads folder. Attach it to your ticket.</p>
+<hr />
+<h2>Common Error Messages</h2>
+<table>
+<thead>
+<tr>
+<th>Error Message</th>
+<th>Meaning</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Could not connect to the server"</td>
+<td>Portal unreachable</td>
+<td>Check internet; confirm portal is <code>vpn.robotix.com</code></td>
+</tr>
+<tr>
+<td>"Authentication failed"</td>
+<td>Wrong Okta password</td>
+<td>Reset password at https://help.robotix.com</td>
+</tr>
+<tr>
+<td>"Pre-logon authentication failed"</td>
+<td>Machine certificate issue</td>
+<td>Contact Service Desk — L2 required</td>
+</tr>
+<tr>
+<td>"Gateway not responding"</td>
+<td>VPN gateway overloaded or down</td>
+<td>Wait 5 minutes and retry; check #it-help for outage notices</td>
+</tr>
+<tr>
+<td>"Connection timed out"</td>
+<td>Firewall/port blocking</td>
+<td>Try mobile hotspot; see Step 7 above</td>
+</tr>
+<tr>
+<td>"Unable to establish IPsec tunnel"</td>
+<td>UDP 4501 blocked</td>
+<td>See Step 7 — router or ISP blocking VPN traffic</td>
+</tr>
+<tr>
+<td>"Network error, please retry"</td>
+<td>Intermittent connectivity</td>
+<td>Retry; if persistent, restart the GlobalProtect service (Step 6)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0302 — Install and Connect GlobalProtect VPN on Windows</li>
+<li>KB-0303 — Install and Connect GlobalProtect VPN on Mac</li>
+<li>KB-0305 — You Can't Reach an Internal Site or Application</li>
+<li>KB-0309 — Set Up a Reliable Home Network for Remote Work</li>
+</ul>
+<hr />
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: <a href="https://help.robotix.com">https://help.robotix.com</a> · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

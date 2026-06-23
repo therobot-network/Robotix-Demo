@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a New or Replacement Laptop — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0400</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-09-10</span><span><b>Tags:</b> laptop, hardware, request, provisioning, dell latitude, macbook pro</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Request a New or Replacement Laptop</h1>
+<h2>Summary</h2>
+<p>This article explains how to submit a service request for a new laptop (for new hires or role changes) or a replacement laptop (for end-of-life devices, loss, or damage). Robotix IT provisions the Dell Latitude 7440 for Windows users and the MacBook Pro 14" (Apple silicon) for Mac users. All devices are configured with the standard software stack before delivery.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Confirm your need: new hire provisioning, hardware refresh (standard refresh cycle is 4 years), loss/theft, or damage.</li>
+<li>For <strong>new hires</strong>, the hiring manager must submit the request at least <strong>5 business days</strong> before the employee's start date to ensure the device is configured and ready.</li>
+<li>For <strong>lost or stolen devices</strong>, file a report with your manager and notify the Security Operations Center at soc@robotix.com before submitting a laptop request.</li>
+<li>Know your preferred platform (Windows or Mac) and any software requirements specific to your role — include these in the ticket.</li>
+</ul>
+<h2>Steps</h2>
+<ol>
+<li>Open the Robotix Service Desk portal at <strong>https://help.robotix.com</strong> and sign in with your Okta credentials.</li>
+<li>Click <strong>Request a Service</strong> and select <strong>Hardware &amp; Equipment &gt; Laptop Request</strong>.</li>
+<li>Fill in all required fields:
+   - <strong>Request type</strong>: New Hire Provisioning, Refresh/Replacement, Loss/Theft, or Damage.
+   - <strong>Preferred platform</strong>: Windows (Dell Latitude 7440) or Mac (MacBook Pro 14").
+   - <strong>Required by date</strong>: Enter the date the device is needed. Requests are fulfilled within 5 business days for standard orders; allow 10 business days for large batch orders.
+   - <strong>Shipping address or office location</strong>: For remote employees, provide a full shipping address. For office-based employees, select your office.
+   - <strong>Additional software</strong>: List any licensed applications required beyond the standard suite (e.g., Adobe Creative Cloud, AutoCAD). Requests for non-standard software are subject to IT approval.
+   - <strong>Cost center / manager approval</strong>: The ticket is automatically routed to your manager for approval. Ensure your reporting chain is correct in Workday before submitting.</li>
+<li>Attach any supporting documentation if applicable (e.g., police report for theft, manager authorization email).</li>
+<li>Click <strong>Submit</strong>. You will receive a confirmation email with a request ID (format: <code>REQ-######</code>).</li>
+<li>Track your request at any time by searching the request ID on the portal or replying to the confirmation email.</li>
+<li>When the device is ready, IT will contact you to arrange pickup (for office locations) or provide a tracking number (for remote shipments).</li>
+<li>On receipt, inspect the box for shipping damage before signing for it. If damage is found, note it with the carrier and open a new ticket immediately.</li>
+<li>Power on the laptop and follow the <strong>Robotix Laptop Setup Guide</strong> (KB-0012) to complete initial enrollment. Your asset tag (format: <code>SUM-LT-#####</code> for Windows or <code>SUM-MB-#####</code> for Mac) is on a label on the device base.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manager approval is stuck or hasn't been sent</td>
+<td>Confirm your manager's email in Workday is correct; ask your manager to check their inbox and junk folder. If still stuck after 1 business day, reply to the ticket asking IT to re-trigger approval.</td>
+</tr>
+<tr>
+<td>Portal won't let you submit — required field is greyed out</td>
+<td>Ensure your Okta session is active. Try a different browser or clear cache and cookies.</td>
+</tr>
+<tr>
+<td>No confirmation email received</td>
+<td>Check your junk/spam folder. If absent after 15 minutes, log in to the portal to verify the ticket was created.</td>
+</tr>
+<tr>
+<td>Device arrived with wrong configuration or missing software</td>
+<td>Reply to the original ticket with details; IT will schedule a remote remediation session or exchange.</td>
+</tr>
+<tr>
+<td>New hire start date is less than 5 business days away</td>
+<td>Contact the service desk by phone (+1 (800) 555-7866) or Slack (#it-help) immediately to escalate.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0408: Get a Temporary Loaner Laptop</li>
+<li>KB-0407: Request a Hardware Repair or Warranty Replacement (RMA)</li>
+<li>KB-0409: Return or Dispose of Old IT Equipment</li>
+<li>KB-0012: Robotix Laptop Setup and Enrollment Guide</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

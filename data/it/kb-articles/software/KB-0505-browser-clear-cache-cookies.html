@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Browser Problems — Clear Cache and Cookies — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0505</span><span><b>Category:</b> Software</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-08-19</span><span><b>Tags:</b> browser, cache, cookies, chrome, edge, safari, troubleshooting, web</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Browser Problems — Clear Cache and Cookies</h1>
+<h2>Summary</h2>
+<p>Clearing your browser's cache and cookies resolves a wide range of web-related issues, including pages that fail to load, login loops, outdated content, and broken layouts in internal tools like https://help.robotix.com. Robotix IT supports <strong>Microsoft Edge</strong> (default on Windows), <strong>Google Chrome</strong>, and <strong>Safari</strong> (macOS only). The steps below cover all three browsers.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Clearing cookies will sign you out of most websites and web apps, including Microsoft 365, Okta, Slack (web), and https://help.robotix.com. Have your Robotix IT credentials (<code>firstname.lastname@robotix.com</code>) and Okta Verify ready before you proceed.</li>
+<li>You do not need administrator rights to clear browser data.</li>
+<li>If you only want to test whether the cache is the issue, try opening the affected site in a <strong>private / incognito window</strong> first. If the site works there, cache or cookies are likely the cause.</li>
+<li>Clearing cache and cookies does not delete saved passwords in 1Password — those are stored in the 1Password extension, not the browser.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Microsoft Edge (Windows — Default Browser)</h3>
+<ol>
+<li>Open <strong>Microsoft Edge</strong>.</li>
+<li>Click the <strong>Settings and more</strong> icon (three horizontal dots <code>···</code>) in the top-right corner, or press <code>Ctrl + Shift + Delete</code>.</li>
+<li>Click <strong>Settings</strong> &gt; <strong>Privacy, search, and services</strong>.</li>
+<li>Under the <strong>Clear browsing data</strong> section, click <strong>Choose what to clear</strong>.</li>
+<li>Set the <strong>Time range</strong> to <strong>All time</strong>.</li>
+<li>Check the boxes for:
+   - <strong>Browsing history</strong> (optional, but recommended)
+   - <strong>Cookies and other site data</strong>
+   - <strong>Cached images and files</strong></li>
+<li>Click <strong>Clear now</strong>.</li>
+<li>Close and reopen Edge, then try the affected site again.</li>
+</ol>
+<h3>Google Chrome (Windows and macOS)</h3>
+<ol>
+<li>Open <strong>Google Chrome</strong>.</li>
+<li>Press <code>Ctrl + Shift + Delete</code> (Windows) or <code>Command + Shift + Delete</code> (Mac). The Clear browsing data dialog will open.</li>
+<li>Click the <strong>Advanced</strong> tab.</li>
+<li>Set the <strong>Time range</strong> to <strong>All time</strong>.</li>
+<li>Check the boxes for:
+   - <strong>Browsing history</strong> (optional)
+   - <strong>Cookies and other site data</strong>
+   - <strong>Cached images and files</strong></li>
+<li>Click <strong>Clear data</strong>.</li>
+<li>Restart Chrome and revisit the affected site.</li>
+</ol>
+<h3>Safari (macOS Only)</h3>
+<ol>
+<li>Open <strong>Safari</strong>.</li>
+<li>In the menu bar, click <strong>Safari</strong> &gt; <strong>Settings</strong> (macOS Sonoma/Sequoia) or <strong>Preferences</strong> (older versions).</li>
+<li>Click the <strong>Privacy</strong> tab.</li>
+<li>Click <strong>Manage Website Data…</strong>, then click <strong>Remove All</strong>. Confirm by clicking <strong>Remove Now</strong>.</li>
+<li>To also clear the cache, return to the menu bar and click <strong>Develop</strong> &gt; <strong>Empty Caches</strong>. (If you do not see the Develop menu, go to Safari Settings &gt; <strong>Advanced</strong> and check <strong>Show features for web developers</strong>.)</li>
+<li>Restart Safari and test the affected site.</li>
+</ol>
+<h3>Hard Refresh (Quick Fix — No Data Deleted)</h3>
+<p>Before clearing all cache and cookies, try a hard refresh to force the browser to reload the page from the server:
+- <strong>Windows (Edge / Chrome):</strong> Press <code>Ctrl + Shift + R</code> or <code>Ctrl + F5</code>.
+- <strong>macOS (Chrome / Safari):</strong> Press <code>Command + Shift + R</code>.</p>
+<h2>Troubleshooting</h2>
+<p><strong>Clearing cache did not fix the problem.</strong>
+If the issue persists after clearing cache and cookies, try a different browser. If the site works in Edge but not Chrome (or vice versa), the problem may be a browser extension. Try disabling extensions one by one (Edge: <code>edge://extensions/</code>; Chrome: <code>chrome://extensions/</code>) to identify the culprit.</p>
+<p><strong>I am stuck in a login loop on https://help.robotix.com or an Okta-protected app.</strong>
+Clear cookies specifically for <code>robotix.okta.com</code> and the affected site domain, then sign out of all Okta sessions at https://robotix.okta.com, close all browser windows, and sign in fresh.</p>
+<p><strong>The page looks broken after clearing cache (missing styles or images).</strong>
+Wait 30 seconds and press <code>Ctrl + Shift + R</code> (Windows) or <code>Command + Shift + R</code> (Mac) to force a full reload. Some pages take a moment to regenerate cached assets.</p>
+<p><strong>I accidentally cleared my saved passwords.</strong>
+Passwords are stored in <strong>1Password</strong>, not the browser. Open the <strong>1Password</strong> extension or desktop app to retrieve your credentials. If you were using the browser's built-in password manager, contact the Service Desk — browser-saved passwords are not backed up by IT.</p>
+<p><strong>The problem only occurs on one specific website, not others.</strong>
+The issue may be on the website's server side, not your browser. Check if colleagues can access the same site. If it is an external site, check the vendor's status page. If it is an internal tool, contact the Service Desk.</p>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0507: An Application Keeps Crashing or Won't Open</li>
+<li>KB-0502: Activate Microsoft 365 / Office</li>
+<li>KB-0504: Install and Set Up Slack</li>
+<li>KB-0503: Install and Set Up Zoom</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

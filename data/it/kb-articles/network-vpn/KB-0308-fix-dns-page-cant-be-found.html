@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fix DNS and &quot;Page Can&#x27;t Be Found&quot; Errors — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0308</span><span><b>Category:</b> Network &amp; VPN</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-05-20</span><span><b>Tags:</b> dns, page-not-found, name-resolution, troubleshooting, browser, network, error</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Fix DNS and "Page Can't Be Found" Errors</h1>
+<h2>Summary</h2>
+<p>"Page can't be reached," "ERR_NAME_NOT_RESOLVED," "DNS_PROBE_FINISHED_NXDOMAIN," or "Safari Can't Find the Server" errors usually mean your device cannot translate a website name (like <code>intranet.robotix.com</code>) into an IP address. This is a DNS (Domain Name System) issue. The most common causes are a stale DNS cache, incorrect DNS server settings, GlobalProtect VPN not being connected (for internal addresses), or a temporary ISP or office DNS outage. This article resolves the most common scenarios.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Confirm you have a working network connection. Try loading <strong>https://1.1.1.1</strong> in a browser. If that loads but named sites do not, the problem is definitely DNS.</li>
+<li>Note whether the broken site is a public site (e.g., google.com) or an internal Robotix IT site (e.g., <code>intranet.robotix.com</code>). The fixes differ slightly.</li>
+<li>For internal Robotix IT sites: confirm <strong>GlobalProtect VPN is connected</strong> if you are off the corporate network. DNS for internal names is only resolved through the VPN tunnel.</li>
+</ul>
+<hr />
+<h2>Steps</h2>
+<h3>Step 1 — Reload the page and clear the browser cache</h3>
+<p>Start with the simplest fixes:</p>
+<ol>
+<li>Press <strong>F5</strong> (Windows) or <strong>Cmd + R</strong> (Mac) to reload the page.</li>
+<li>If that does not work, do a hard reload: <strong>Ctrl + Shift + R</strong> (Windows) or <strong>Cmd + Shift + R</strong> (Mac).</li>
+<li>If still broken, clear the browser's DNS cache:
+   - <strong>Chrome / Edge:</strong> Open a new tab, go to <code>chrome://net-internals/#dns</code>, click <strong>Clear host cache</strong>, then go to <code>chrome://net-internals/#sockets</code> and click <strong>Flush socket pools</strong>.
+   - <strong>Safari (macOS):</strong> Go to <strong>Develop</strong> menu &gt; <strong>Empty Caches</strong> (enable the Develop menu in <strong>Safari Settings</strong> &gt; <strong>Advanced</strong> if it is not visible).</li>
+<li>Close and reopen the browser. Retry the page.</li>
+</ol>
+<h3>Step 2 — Flush the operating system DNS cache</h3>
+<p>The OS maintains its own DNS cache separate from the browser.</p>
+<p><strong>Windows 11:</strong>
+1. Right-click the <strong>Start</strong> button and select <strong>Terminal (Admin)</strong> or <strong>Command Prompt (Admin)</strong>.
+2. Run the following commands one at a time:
+   <code>ipconfig /flushdns
+   ipconfig /registerdns</code>
+3. You should see: "Successfully flushed the DNS Resolver Cache."
+4. Retry the page.</p>
+<p><strong>macOS (Sonoma / Sequoia):</strong>
+1. Open <strong>Terminal</strong> (Spotlight: <code>Cmd + Space</code> &gt; type "Terminal").
+2. Run:
+   <code>sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder</code>
+3. Enter your Mac's local password and press Return.
+4. Retry the page.</p>
+<h3>Step 3 — For internal Robotix IT sites — check GlobalProtect VPN</h3>
+<p>Robotix IT's internal DNS servers (which resolve <code>*.robotix.com</code> and other private hostnames) are only accessible when you are:
+- Connected to the office network (Robotix-Corp Wi-Fi or wired Ethernet), <strong>or</strong>
+- Connected via <strong>GlobalProtect VPN</strong>.</p>
+<ol>
+<li>Check the GlobalProtect icon in the system tray (Windows) or menu bar (Mac).</li>
+<li>If it is grey or shows "Disconnected," click it and select <strong>Connect</strong>.</li>
+<li>Approve the Okta Verify MFA push.</li>
+<li>Once GlobalProtect shows the green "Connected" state, retry the internal site.</li>
+<li>If GlobalProtect won't connect, see KB-0304.</li>
+</ol>
+<h3>Step 4 — Verify DNS server addresses (Windows)</h3>
+<p>Your device should be receiving DNS server addresses automatically from DHCP. If they have been changed manually, DNS may break.</p>
+<ol>
+<li>Open <strong>Settings</strong> &gt; <strong>Network &amp; internet</strong> &gt; <strong>Wi-Fi</strong> (or <strong>Ethernet</strong>) &gt; click your active connection &gt; <strong>Hardware properties</strong>.</li>
+<li>Under <strong>DNS server assignment</strong>, verify it shows <strong>Automatic (DHCP)</strong>. If it shows manual IPs that are not Robotix IT's DNS servers (<code>10.1.1.53</code>, <code>10.1.2.53</code>), click <strong>Edit</strong>.</li>
+<li>Set <strong>DNS settings</strong> to <strong>Automatic (DHCP)</strong> and save.</li>
+<li>Flush the DNS cache again (Step 2) and retry.</li>
+</ol>
+<h3>Step 5 — Verify DNS server addresses (macOS)</h3>
+<ol>
+<li>Open <strong>System Settings</strong> &gt; <strong>Network</strong>.</li>
+<li>Click your active connection (Wi-Fi or Ethernet) &gt; <strong>Details</strong>.</li>
+<li>Click the <strong>DNS</strong> tab.</li>
+<li>If you see any manually entered DNS servers that do not belong to Robotix IT (<code>10.1.1.53</code>, <code>10.1.2.53</code>, or <code>8.8.8.8</code> as a fallback), remove them (click the minus button) and save.</li>
+<li>If using DHCP, the DNS servers should be assigned automatically. Click <strong>Renew DHCP Lease</strong> on the <strong>TCP/IP</strong> tab.</li>
+<li>Retry after flushing the cache (Step 2).</li>
+</ol>
+<h3>Step 6 — Test DNS resolution manually</h3>
+<p>You can test whether your device can resolve a name and which DNS server it is querying.</p>
+<p><strong>Windows 11:</strong></p>
+<pre><code>nslookup google.com
+nslookup intranet.robotix.com
+</code></pre>
+<p>Look at the <strong>Server:</strong> line — it should show a Robotix IT DNS server (<code>10.1.1.53</code> or <code>10.1.2.53</code>) when on VPN or the office network, or your ISP/router's DNS when off-network for public names.</p>
+<p><strong>macOS:</strong></p>
+<pre><code>nslookup google.com
+nslookup intranet.robotix.com
+</code></pre>
+<p>Or using <code>dig</code>:</p>
+<pre><code>dig google.com
+dig intranet.robotix.com
+</code></pre>
+<p>If <code>nslookup</code> returns <code>NXDOMAIN</code> or <code>can't find</code>, the DNS record is not resolving — move to Step 7.</p>
+<h3>Step 7 — Restart your network adapter</h3>
+<p><strong>Windows 11:</strong>
+1. Go to <strong>Settings</strong> &gt; <strong>Network &amp; internet</strong> &gt; <strong>Advanced network settings</strong>.
+2. Click your active adapter (e.g., <strong>Wi-Fi</strong>) &gt; <strong>Disable</strong>.
+3. Wait 10 seconds, then click <strong>Enable</strong>.</p>
+<p><strong>macOS:</strong>
+1. Hold <strong>Option</strong> and click the <strong>Wi-Fi</strong> menu bar icon.
+2. Click <strong>Turn Wi-Fi Off</strong>, wait 10 seconds, then <strong>Turn Wi-Fi On</strong>.
+3. Reconnect to Robotix-Corp.</p>
+<h3>Step 8 — Try a known-good DNS server temporarily (public sites only)</h3>
+<p>If you are troubleshooting public internet access only (not internal sites) and nothing else works, you can temporarily configure a public DNS server to test.</p>
+<blockquote>
+<p><strong>Note:</strong> Do not use public DNS servers (e.g., 8.8.8.8) as a permanent fix for internal Robotix IT name resolution — this will not work for <code>*.robotix.com</code> addresses and may create security exceptions. Use this only to confirm whether the issue is your ISP's DNS.</p>
+</blockquote>
+<p><strong>Windows:</strong> Settings &gt; Network &gt; your adapter &gt; DNS assignment &gt; Manual &gt; IPv4 Primary: <code>8.8.8.8</code>, Secondary: <code>1.1.1.1</code>. Test, then revert to Automatic (DHCP).</p>
+<p><strong>macOS:</strong> System Settings &gt; Network &gt; adapter &gt; Details &gt; DNS &gt; add <code>8.8.8.8</code>. Test, then remove and revert.</p>
+<p>If public sites now resolve with an alternate DNS, your router or ISP's DNS is the issue — restart your home router or contact your ISP.</p>
+<hr />
+<h2>Common DNS Error Messages</h2>
+<table>
+<thead>
+<tr>
+<th>Browser Error</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ERR_NAME_NOT_RESOLVED</code> (Chrome/Edge)</td>
+<td>DNS query returned no result</td>
+</tr>
+<tr>
+<td><code>DNS_PROBE_FINISHED_NXDOMAIN</code> (Chrome)</td>
+<td>Hostname does not exist in DNS</td>
+</tr>
+<tr>
+<td><code>DNS_PROBE_FINISHED_NO_INTERNET</code> (Chrome)</td>
+<td>No DNS server reachable</td>
+</tr>
+<tr>
+<td>"Safari Can't Find the Server"</td>
+<td>macOS DNS resolution failed</td>
+</tr>
+<tr>
+<td>"Server Not Found" (Firefox)</td>
+<td>DNS failure or server offline</td>
+</tr>
+<tr>
+<td><code>SERVFAIL</code> in nslookup</td>
+<td>DNS server returned an error (server issue)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0304 — GlobalProtect VPN Won't Connect — Troubleshooting</li>
+<li>KB-0305 — You Can't Reach an Internal Site or Application</li>
+<li>KB-0307 — Wired / Ethernet Connection Isn't Working</li>
+<li>KB-0309 — Set Up a Reliable Home Network for Remote Work</li>
+</ul>
+<hr />
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: <a href="https://help.robotix.com">https://help.robotix.com</a> · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

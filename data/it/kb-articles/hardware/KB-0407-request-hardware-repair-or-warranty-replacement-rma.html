@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a Hardware Repair or Warranty Replacement (RMA) — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0407</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-12-09</span><span><b>Tags:</b> repair, rma, warranty, hardware, dell latitude, macbook pro, replacement, hardware fault</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Request a Hardware Repair or Warranty Replacement (RMA)</h1>
+<h2>Summary</h2>
+<p>This article explains how to submit a hardware repair request for a Robotix IT-issued device that has a confirmed defect or physical damage. IT handles RMA (Return Merchandise Authorization) coordination with Dell for Latitude laptops and Apple for MacBook Pros, as well as repairs for monitors, docks, keyboards, mice, and headsets. You do not need to contact Dell or Apple directly — Robotix IT manages all vendor escalations on your behalf.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Perform basic troubleshooting first. RMA requests submitted before basic troubleshooting may be redirected back for further diagnosis. Refer to the relevant article for your issue:</li>
+<li>Power issues: KB-0401 (won't power on), KB-0402 (battery)</li>
+<li>Display issues: KB-0403 (monitors/dock)</li>
+<li>Peripherals: KB-0404 (keyboard/mouse), KB-0405 (webcam), KB-0406 (headset)</li>
+<li>Have your <strong>asset tag</strong> ready. This is the white barcode label on the underside of the device: <code>SUM-LT-#####</code> (Dell Latitude), <code>SUM-MB-#####</code> (MacBook Pro), <code>SUM-MN-#####</code> (monitor).</li>
+<li>If the damage was caused by accidental damage (e.g., drop, liquid spill), IT will note this in the ticket. Accidental damage may be subject to manager approval for repair costs.</li>
+<li>Back up your data before submitting the device for repair. IT will attempt to preserve data, but cannot guarantee data retention if the device requires a logic board or SSD replacement. Use <strong>OneDrive</strong> (Windows) or <strong>OneDrive/SharePoint</strong> (macOS) to sync important files before handoff.</li>
+</ul>
+<h2>Steps</h2>
+<ol>
+<li>Open the Robotix Service Desk portal at <strong>https://help.robotix.com</strong> and sign in with your Okta credentials.</li>
+<li>Click <strong>Request a Service</strong> and select <strong>Hardware &amp; Equipment &gt; Hardware Repair / RMA Request</strong>.</li>
+<li>Complete all required fields:
+   - <strong>Asset tag</strong>: Enter the full <code>SUM-LT-#####</code> / <code>SUM-MB-#####</code> / <code>SUM-MN-#####</code> value.
+   - <strong>Device type</strong>: Laptop, Monitor, Dock, Keyboard, Mouse, or Headset.
+   - <strong>Issue description</strong>: Provide a specific description of the fault. Include what steps you have already tried, when the problem started, and any error codes or LED patterns observed. Vague descriptions (e.g., "it doesn't work") slow down diagnosis.
+   - <strong>Damage type</strong>: Defect (no physical damage) or Accidental Damage (drop, spill, crack, etc.).
+   - <strong>Impact on work</strong>: Describe how the issue affects your productivity. This determines ticket priority (P2–P4).</li>
+<li>Attach photos of any visible physical damage to the ticket. Photos can be taken on your phone and uploaded directly.</li>
+<li>Click <strong>Submit</strong>. You will receive a confirmation email with a ticket ID (format: <code>INC-######</code>).</li>
+<li>An IT technician will contact you within the SLA window to arrange one of the following:
+   - <strong>In-office repair</strong>: IT will schedule a time to collect and assess the device at your office location.
+   - <strong>Remote diagnosis</strong>: A technician will join remotely to run diagnostics before determining if a physical repair is needed.
+   - <strong>Advance replacement</strong>: For confirmed hardware defects under Dell or Apple warranty, IT may ship a replacement device before receiving the faulty one (subject to availability).</li>
+<li>When instructed to hand over the device:
+   - Remove any personal USB drives, privacy screens, or accessories from the device.
+   - Note any pre-existing cosmetic damage not related to the fault — inform the technician so it is documented.
+   - Receive a <strong>loaner laptop</strong> if your repair will take more than 1 business day (see KB-0408 for the loaner process).</li>
+<li>IT will notify you when the repaired or replacement device is ready. You will receive a new asset tag sticker if a replacement device is issued.</li>
+</ol>
+<h2>Repair and RMA Timelines</h2>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Warranty Scope</th>
+<th>Typical Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dell Latitude 7440</td>
+<td>Dell ProSupport (3 years from purchase)</td>
+<td>1–3 business days (next business day on-site for P2)</td>
+</tr>
+<tr>
+<td>MacBook Pro 14"</td>
+<td>AppleCare for Enterprise (3 years)</td>
+<td>3–5 business days (depot repair)</td>
+</tr>
+<tr>
+<td>Dell Monitor</td>
+<td>Dell 3-year advance exchange</td>
+<td>2–4 business days</td>
+</tr>
+<tr>
+<td>Dell WD19 Dock</td>
+<td>1-year manufacturer warranty</td>
+<td>3–5 business days</td>
+</tr>
+<tr>
+<td>Logitech Peripherals</td>
+<td>2-year manufacturer warranty</td>
+<td>Advance swap from IT stock; same or next business day</td>
+</tr>
+<tr>
+<td>Jabra / Logitech Headsets</td>
+<td>2-year manufacturer warranty</td>
+<td>Advance swap from IT stock; same or next business day</td>
+</tr>
+</tbody>
+</table>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ticket is urgent but SLA timeline is too long</td>
+<td>Contact the service desk by phone (+1 (800) 555-7866) to request P2 escalation with manager approval</td>
+</tr>
+<tr>
+<td>IT says device is out of warranty</td>
+<td>IT will provide a cost estimate and request manager approval before proceeding with a paid repair</td>
+</tr>
+<tr>
+<td>Device was lost or stolen, not damaged</td>
+<td>Do not submit a repair request — contact IT and your manager immediately, then see KB-0400 for a replacement request</td>
+</tr>
+<tr>
+<td>Data was not backed up before device was collected</td>
+<td>Notify the assigned technician immediately; data recovery may be possible but is not guaranteed</td>
+</tr>
+<tr>
+<td>Replacement device has wrong software or settings</td>
+<td>Reply to the original ticket — IT will remote-in to configure it to your standard setup</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0408: Get a Temporary Loaner Laptop</li>
+<li>KB-0400: Request a New or Replacement Laptop</li>
+<li>KB-0401: Laptop Won't Power On</li>
+<li>KB-0409: Return or Dispose of Old IT Equipment</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

@@ -1,68 +1,79 @@
-# Robotix Enterprise Synthetic Dataset
+# Robotix Technologies — Synthetic Enterprise Corpus
 
-A synthetic enterprise dataset for **Robotix**, a fictional robotics and automation
-manufacturer. It combines **structured data** (CSV/JSON), **internal documents**
-(Markdown), and **public-facing content** (HTML) across the major functions of a
-company — finance, HR & legal, product, and sales & marketing.
+A single-company synthetic dataset for **Robotix Technologies**, a fictional,
+**IT-led enterprise technology company** that also designs and builds robotics &
+automation products. The corpus spans every major department of one company —
+**IT** (the core), Product/Robotics, Finance, HR, Legal, Sales, and Marketing —
+as a realistic mix of internal documents and public-facing content.
 
-All data is 100% synthetic. No real people, companies, or PII.
+All data is 100% synthetic. No real people, companies, credentials, or PII.
 
-## Fictional Company: Robotix
+See [data/company-profile.md](data/company-profile.md) for the canonical company
+identity (names, domains, contacts, IT stack) that every document is written
+against.
 
-- **Industry**: Robotics & Automation
-- **Founded**: 1998
-- **Headquarters**: Bothell, Washington
-- **Employees**: 290
-- **Revenue**: $42M (2024)
-- **Tagline**: "Automate Your Future"
+## The Company
 
-**Product Lines:** Industrial Robots, Collaborative Robots (cobots), Mobile Robots
-(AGVs/AMRs), Components (sensors, grippers, vision systems), and Software (control
-systems, fleet management, AI platforms).
+| | |
+|---|---|
+| **Name** | Robotix Technologies |
+| **Primary focus** | Enterprise IT & Technology (IT-led) |
+| **Also** | Robotics & Automation products |
+| **Founded** | 1998 · **HQ:** Bothell, Washington |
+| **Size** | ~290 employees · ~$42M revenue (2024) |
+| **Domain / IT** | robotix.com · help.robotix.com · RobotixDesk · Okta · M365 · CrowdStrike · GlobalProtect |
+| **Tagline** | "Automate Your Future" |
 
-## What's Inside
-
-~200 files (~7.5 MB) across CSV, JSON, Markdown, and HTML, organized by business domain.
+## Structure — one folder per department
 
 ```
 data/
-├── metadata.json            # Company profile + dataset field schemas
-├── finance/                 # AR/AP aging, cash flow, compensation, debt,
-│                            #   expenses, invoices, orders, reports,
-│                            #   statements, vendors, memos
-├── hr-legal/                # Employees, headcount, attrition, diversity,
-│                            #   benefits, compensation, recruiting, training,
-│                            #   legal (compliance, contracts, litigation),
-│                            #   policies, memos
-├── product/                 # Bugs, features, feedback, releases, support,
-│                            #   user metrics, meetings, projects, memos
-├── sales-marketing/         # Leads, customers, campaigns, marketing
-│                            #   (engagement, lead scoring), sales (pipeline,
-│                            #   forecasts, quotas, quotes), memos
-└── public/                  # Public-facing content
-    ├── marketing-forms/
-    ├── product-guides/
-    └── product-specs/
+├── company-profile.md          # Canonical company identity (the source of truth)
+├── it/            ★ CORE       # Internal IT service desk: 78 KB articles, FAQs,
+│                               #   troubleshooting (HTML); policies, runbooks,
+│                               #   service catalog & SLAs, onboarding, escalation,
+│                               #   glossary, environment reference (PDF)
+├── product/                    # Robotics & Automation division: product catalog
+│                               #   & specs/user guides (HTML), releases, bugs,
+│                               #   features, feedback, support, meetings, projects
+├── finance/                    # P&L statements, budgets, AR/AP, cash flow, debt,
+│                               #   vendors, payroll & compensation accounting
+├── hr/                         # Employees, headcount, attrition, diversity,
+│                               #   recruiting, training, benefits, policies
+├── legal/                      # Contracts, compliance, IP, litigation, policies
+├── sales/                      # Pipeline, forecasts, quotas, quotes, customers,
+│                               #   lead tracking
+└── marketing/                  # Campaigns, engagement, lead scoring, NPS, forms
 ```
 
-Most structured tables ship as both CSV and JSON. Narrative content (memos,
-meeting notes, reports, policies) is Markdown, and public-facing material is HTML.
+## What's inside
 
-## File Types
+Document-first: information lives mostly in **Markdown** and **PDF** narrative
+reports and **HTML** web content, with only a handful of raw CSV registries.
 
 | Type | Count | Use |
 |------|-------|-----|
-| CSV  | 52    | Structured tables for analytics / DB import |
-| JSON | 53    | Same structured data, nested/typed form |
-| HTML | 56    | Public-facing pages (guides, specs, forms) |
-| MD   | 39    | Internal memos, meetings, reports, policies |
+| HTML | 149 | Public-facing & web content (IT KB articles, product specs/guides, forms) |
+| PDF  | 93  | Formal documents (IT policies/runbooks/catalog, financial & departmental reports) |
+| MD   | 49  | Internal reports, memos, meeting notes, statements, project briefs |
+| CSV  | 3   | Core machine-readable registries only: employees, products, customers |
 
-## Suggested Uses
+There are **no JSON files**. The bulk of the structured data that used to live in
+CSV/JSON has been rolled up into narrative Markdown **data-summary reports** (one
+or more per department, e.g. `*/reports/*-summary.md`) — each with figures
+computed from the underlying data — and rendered to PDF alongside. Only three
+core entity tables remain as CSV:
 
-- Knowledge base & RAG demos (index structured data + documents + web content)
-- Search and retrieval system testing
-- Analytics and BI demonstrations
-- Multi-source data integration testing
+- [data/hr/employees/employees.csv](data/hr/employees/employees.csv)
+- [data/product/specs/products.csv](data/product/specs/products.csv)
+- [data/sales/customers/customers.csv](data/sales/customers/customers.csv)
+
+## Suggested uses
+
+- Knowledge base & RAG demos over a single coherent company (IT-heavy)
+- Help desk / chatbot knowledge base seeding (the `it/` department)
+- Multi-department search, retrieval, and summarization testing
+- Enterprise document QA across formats (HTML + PDF + Markdown)
 
 ## License
 

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Understand Data Classification and Handling — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0708</span><span><b>Category:</b> Security</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-04-07</span><span><b>Tags:</b> data classification, data handling, confidential, restricted, internal, public, dlp, compliance</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>Understand Data Classification and Handling</h1>
+<h2>Summary</h2>
+<p>Robotix IT classifies company data into four tiers: <strong>Public</strong>, <strong>Internal</strong>, <strong>Confidential</strong>, and <strong>Restricted</strong>. Knowing which tier applies to the data you work with tells you how to store, share, and dispose of it properly. This article explains each tier and gives practical guidance for everyday situations.</p>
+<h2>Why This Matters</h2>
+<p>Mishandling data — sending a client contract to the wrong person, storing regulated data in an unencrypted location, or sharing credentials over Slack — can result in data breaches, compliance violations, and reputational damage. Data classification gives everyone a consistent, actionable framework for making the right call.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>If you are unsure which classification applies to specific data you work with, ask your manager or email <code>soc@robotix.com</code>.</li>
+<li>Classification applies to data in all forms: files, emails, verbal conversations, printed documents, instant messages, and screen shares.</li>
+<li>Always apply the classification of the <strong>most sensitive element</strong> when data of different tiers is combined (e.g., a report containing one Restricted field is itself Restricted).</li>
+</ul>
+<h2>The Four Data Classifications</h2>
+<h3>Public</h3>
+<p><strong>Definition:</strong> Information approved for unrestricted public distribution. Disclosure causes no harm.</p>
+<p><strong>Examples:</strong>
+- Published press releases and blog posts
+- Job postings
+- Product brochures or marketing materials already on the company website
+- General company information (address, phone number)</p>
+<p><strong>Handling requirements:</strong>
+- No restrictions on sharing or storage.
+- Do not label documents as Public unless they have been explicitly approved for public release by Marketing or Leadership.</p>
+<hr />
+<h3>Internal</h3>
+<p><strong>Definition:</strong> Information intended for use within Robotix IT. Disclosure to outsiders could cause minor embarrassment or competitive disadvantage but is not regulated.</p>
+<p><strong>Examples:</strong>
+- Internal procedures, policies, and how-to guides
+- Org charts and team rosters
+- Internal project plans and meeting notes
+- General IT system documentation</p>
+<p><strong>Handling requirements:</strong>
+- Share only with Robotix IT employees and authorized contractors.
+- Do not post in publicly accessible locations (public SharePoint, personal social media, public GitHub).
+- Store in approved locations: OneDrive, SharePoint, or Teams.
+- Dispose of printed copies in a recycling bin (not required to shred, but shredding is preferred).</p>
+<hr />
+<h3>Confidential</h3>
+<p><strong>Definition:</strong> Sensitive business or personal information. Unauthorized disclosure could harm individuals, clients, partners, or Robotix IT's competitive position.</p>
+<p><strong>Examples:</strong>
+- Client contracts, statements of work, and pricing
+- Employee performance reviews and compensation data
+- Financial reports not yet published
+- Vendor agreements and procurement data
+- Business strategies and M&amp;A discussions
+- Personal data covered by privacy regulations (names + contact info combined with HR data)</p>
+<p><strong>Handling requirements:</strong>
+- Share only with individuals who have a clear business need to know.
+- Do not email to personal addresses (including your own personal email).
+- Do not discuss in public places or on unencrypted calls.
+- Store on OneDrive or SharePoint in access-controlled folders. Do not store on personal cloud storage (Google Drive, Dropbox, personal iCloud).
+- Encrypt before emailing externally — use Microsoft 365 Message Encryption (Encrypt option in Outlook).
+- Shred or use secure disposal bins for printed copies.
+- Do not store locally on your laptop without encryption (OneDrive or BitLocker protects this on managed devices).</p>
+<hr />
+<h3>Restricted</h3>
+<p><strong>Definition:</strong> The highest protection tier. Includes regulated personal data, authentication credentials, and information whose exposure would cause significant legal, financial, or safety consequences.</p>
+<p><strong>Examples:</strong>
+- Social Security numbers, passport numbers, or government ID numbers
+- Payment card numbers (PCI-DSS scope)
+- Protected Health Information (HIPAA scope)
+- Authentication credentials, API keys, and private certificates
+- Active security investigations or incident details
+- Legally privileged communications</p>
+<p><strong>Handling requirements:</strong>
+- Access on a strict need-to-know basis, approved in writing by a manager and IT Security.
+- Never email Restricted data — use approved secure transfer methods only. Contact <code>soc@robotix.com</code> to arrange a secure transfer if needed.
+- Never copy to removable media (USB drives) without explicit SOC authorization.
+- Never share in Slack, Teams chat, or any messaging tool — even private channels.
+- Store only in designated, access-controlled, audited systems. Do not store in general SharePoint or OneDrive folders.
+- Printed copies must be physically secured and shredded immediately after use.
+- Disposal of systems containing Restricted data requires IT-managed secure wipe. Open a request at https://help.robotix.com.</p>
+<h2>Quick Reference: Approved Storage by Classification</h2>
+<table>
+<thead>
+<tr>
+<th>Classification</th>
+<th>OneDrive / SharePoint</th>
+<th>Teams Chat</th>
+<th>Email (Internal)</th>
+<th>Email (External)</th>
+<th>USB Drive</th>
+<th>Personal Cloud</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Public</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Internal</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Confidential</td>
+<td>Yes (access-controlled)</td>
+<td>No</td>
+<td>Yes</td>
+<td>Encrypted only</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Restricted</td>
+<td>Designated systems only</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2>Steps: What to Do If You Accidentally Expose Data</h2>
+<ol>
+<li>Stop the exposure immediately (delete the message, revoke sharing, close the tab).</li>
+<li>Document what was exposed, to whom, and when.</li>
+<li>Report immediately to <code>soc@robotix.com</code>. Data exposure incidents must be reported within one hour of discovery.</li>
+<li>Do not attempt to handle a potential data breach on your own or delay reporting to "assess the impact" first.</li>
+</ol>
+<h2>Troubleshooting / Common Questions</h2>
+<ul>
+<li><strong>I received a file from a colleague with no classification label — what do I treat it as?</strong> Treat it as Internal until you can confirm with the sender. Ask them to apply a classification label.</li>
+<li><strong>Can I work on Confidential documents in a coffee shop?</strong> Yes, but use a privacy screen, ensure GlobalProtect VPN is connected, and avoid discussing the contents aloud.</li>
+<li><strong>A client sent me data that looks like it contains SSNs — how do I handle it?</strong> Treat it as Restricted. Do not store it in your standard OneDrive folder. Contact <code>soc@robotix.com</code> for guidance on secure storage and handling.</li>
+<li><strong>I need to print a Confidential document for a meeting.</strong> Print using your Robotix IT managed printer (PaperCut), collect the pages immediately, and shred them after the meeting.</li>
+</ul>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0705: Create Strong Passwords and Use 1Password</li>
+<li>KB-0706: Safe Use of USB Drives and Removable Media</li>
+<li>KB-0709: Report a Lost Laptop or Possible Data Breach</li>
+<li>KB-0707: Secure Your Home Office and Wi-Fi</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help — for security incidents, contact soc@robotix.com immediately.</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

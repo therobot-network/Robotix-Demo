@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Schedule and Join a Teams Meeting — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0213</span><span><b>Category:</b> Email &amp; Microsoft 365</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-05-20</span><span><b>Tags:</b> teams, meetings, schedule, join, calendar, microsoft 365</span><span><b>Applies to:</b> Windows 11, macOS, Web, iOS, Android</span></div>
+<h1>Schedule and Join a Teams Meeting</h1>
+<h2>Summary</h2>
+<p>Microsoft Teams is the standard video conferencing and collaboration platform at Robotix Technologies. This article covers how to schedule a new Teams meeting from Outlook or the Teams app, how to join a meeting as an attendee, and key meeting features to know before your call.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You must have Microsoft Teams installed on your device. On Windows, it is available through Company Portal. On macOS, install it via Self Service (Jamf).</li>
+<li>Teams meetings can be scheduled from the <strong>Teams app</strong> or directly from <strong>Outlook Calendar</strong> — both methods create a standard Teams meeting link that attendees can join from any device.</li>
+<li>External guests (non-Robotix IT accounts) can join Teams meetings via a browser without installing Teams. They will enter a lobby and wait for a Robotix IT host to admit them.</li>
+<li>For audio and video setup, complete a test call first: open Teams &gt; <strong>Settings &gt; Devices &gt; Make a test call</strong>.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Schedule a Teams Meeting from Outlook</h3>
+<ol>
+<li>Open Outlook and go to your <strong>Calendar</strong> view.</li>
+<li>Click <strong>New Event</strong> (Windows) or <strong>New Meeting</strong> (macOS) in the Home tab, or double-click a time slot on the calendar.</li>
+<li>In the meeting compose window, click <strong>Teams Meeting</strong> in the ribbon (Windows) or <strong>Online Meeting &gt; Teams Meeting</strong> (macOS). A Teams meeting link and dial-in information are automatically added to the message body.</li>
+<li>Add attendees in the <strong>To:</strong> field (type names and select from the directory).</li>
+<li>Set the meeting <strong>Title</strong>, <strong>Date</strong>, <strong>Start time</strong>, and <strong>End time</strong>.</li>
+<li>Use the <strong>Scheduling Assistant</strong> tab to check attendee availability and avoid conflicts:
+   - Click <strong>Scheduling Assistant</strong> at the top of the compose window.
+   - A grid shows everyone's calendar. Green blocks = free, blue/dark = busy.
+   - Drag the blue selection bar to find a time when all attendees are available.</li>
+<li>Add an <strong>agenda or notes</strong> in the body below the Teams meeting link.</li>
+<li>Click <strong>Send</strong>.</li>
+</ol>
+<h3>Schedule a Teams Meeting from the Teams App</h3>
+<ol>
+<li>Open Microsoft Teams and click the <strong>Calendar</strong> icon in the left sidebar.</li>
+<li>Click <strong>New meeting</strong> in the top-right corner.</li>
+<li>Fill in:
+   - <strong>Title:</strong> Meeting subject
+   - <strong>Add required attendees:</strong> Type names or email addresses. Use <strong>Optional</strong> for people who don't need to attend.
+   - <strong>Date and time:</strong> Select start and end times.
+   - <strong>Time zone:</strong> Confirm your time zone is correct (important when scheduling cross-timezone meetings).
+   - <strong>Location:</strong> Leave blank for virtual-only, or add a conference room.
+   - <strong>Details:</strong> Paste your agenda.</li>
+<li>Click <strong>Send</strong>. A calendar invite is sent to all attendees with a Teams meeting link.</li>
+</ol>
+<h3>Schedule a Recurring Meeting</h3>
+<p>In the Teams app or Outlook:
+1. Under <strong>Repeat</strong>, select the recurrence pattern: <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong>, or <strong>Custom</strong>.
+2. Set an <strong>End date</strong> or number of occurrences (leave as "No end date" only for standing meetings you intend to maintain long-term).
+3. Click <strong>Send</strong>.</p>
+<h3>Add a Conference Room to Your Meeting</h3>
+<p>Robotix IT offices have conference rooms bookable through Microsoft 365.
+1. In the meeting compose window (Outlook or Teams), click <strong>Add a location</strong> or the <strong>Location</strong> field.
+2. Start typing the conference room name (e.g., "Robotix Denver - Aspen" or "Robotix NYC - Hudson").
+3. Select the room from the autocomplete list. Room availability is shown in the Scheduling Assistant.
+4. The room mailbox will accept or decline based on availability. You will receive a confirmation or conflict email.</p>
+<h3>Join a Teams Meeting</h3>
+<p><strong>From your Calendar (Outlook or Teams):</strong>
+1. Open the meeting on your calendar.
+2. Click <strong>Join Teams Meeting</strong> in the message body or event details.
+3. Teams opens and shows a pre-join screen. Select your audio and video devices, toggle your camera and microphone, and click <strong>Join now</strong>.</p>
+<p><strong>From the Teams App:</strong>
+1. Click the <strong>Calendar</strong> icon in Teams.
+2. Find the upcoming meeting and click <strong>Join</strong>. A Join button also appears in the meeting reminder that pops up 5 minutes before the meeting.</p>
+<p><strong>From a Meeting Link:</strong>
+1. Click the <strong>Click here to join the meeting</strong> link in the calendar invite email.
+2. Teams opens (or you are prompted to install it / join via browser).
+3. Set up audio/video on the pre-join screen and click <strong>Join now</strong>.</p>
+<p><strong>From a Mobile Device:</strong>
+1. Open the Outlook or Teams app on your iPhone or Android.
+2. Tap the meeting in your calendar.
+3. Tap <strong>Join</strong> (Teams app) or <strong>Join Teams Meeting</strong> (Outlook app).
+4. Select audio (phone mic/speaker or Bluetooth headset) and tap <strong>Join now</strong>.</p>
+<p><strong>Joining as a Guest (External User):</strong>
+1. Click the meeting link in the invitation email.
+2. Choose <strong>Join on the web instead</strong> to join without installing Teams.
+3. Enter your name and click <strong>Join now</strong>. You will enter the lobby — the meeting organizer must admit you.</p>
+<h3>Key In-Meeting Controls</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Windows/macOS</th>
+<th>Mobile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mute/unmute</td>
+<td>Click the microphone icon in the meeting toolbar</td>
+<td>Tap the microphone icon</td>
+</tr>
+<tr>
+<td>Turn camera on/off</td>
+<td>Click the camera icon</td>
+<td>Tap the camera icon</td>
+</tr>
+<tr>
+<td>Share screen</td>
+<td>Click the share content button (rectangle + arrow)</td>
+<td>Tap <strong>...</strong> &gt; Share</td>
+</tr>
+<tr>
+<td>Raise hand</td>
+<td>Click <strong>React &gt; Raise hand</strong></td>
+<td>Tap <strong>...</strong> &gt; Raise hand</td>
+</tr>
+<tr>
+<td>Chat</td>
+<td>Click the chat bubble icon</td>
+<td>Tap the chat bubble</td>
+</tr>
+<tr>
+<td>View participants</td>
+<td>Click the people icon</td>
+<td>Tap the people icon</td>
+</tr>
+<tr>
+<td>Record meeting</td>
+<td>Click <strong>...</strong> &gt; <strong>Start recording</strong> (organizer or presenter only)</td>
+<td>Same</td>
+</tr>
+<tr>
+<td>Leave meeting</td>
+<td>Click <strong>Leave</strong> (red phone icon)</td>
+<td>Tap the red phone icon</td>
+</tr>
+</tbody>
+</table>
+<h3>End a Meeting for All Participants</h3>
+<p>As the meeting organizer:
+1. Click the dropdown arrow next to <strong>Leave</strong>.
+2. Select <strong>End meeting</strong> (not just "Leave"). This disconnects all participants at once.</p>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Teams Meeting" button missing from Outlook ribbon</td>
+<td>The Teams add-in for Outlook may be disabled. Go to <strong>File &gt; Options &gt; Add-ins</strong>, set dropdown to "COM Add-ins," click Go, and check <strong>Microsoft Teams Meeting Add-in</strong>.</td>
+</tr>
+<tr>
+<td>Join button not appearing in calendar</td>
+<td>Confirm the meeting was created with a Teams link. Open the invite and look for the "Click here to join" link in the body.</td>
+</tr>
+<tr>
+<td>Cannot join — stuck in lobby indefinitely</td>
+<td>The organizer must admit you. If the meeting has ended, contact the organizer.</td>
+</tr>
+<tr>
+<td>No audio after joining on mobile</td>
+<td>Tap the microphone icon to check if muted; check phone volume; verify Teams has microphone permission in your phone's Settings app.</td>
+</tr>
+<tr>
+<td>Recording option not available</td>
+<td>Only organizers and presenters can record. Ask the organizer to change your role to Presenter.</td>
+</tr>
+<tr>
+<td>External attendees cannot join</td>
+<td>Confirm the meeting was not set to "Only people in my organization can join" — the organizer can change this in Meeting Options.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Fix Teams Audio, Video, or Screen-Share Problems (KB-0212)</li>
+<li>Share Your Calendar or Add a Delegate (KB-0206)</li>
+<li>Set Up Automatic Replies (Out of Office) (KB-0205)</li>
+<li>Set Up Outlook on Windows and Mac (KB-0200)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

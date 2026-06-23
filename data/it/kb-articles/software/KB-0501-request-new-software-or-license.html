@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request New Software or a Paid License — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0501</span><span><b>Category:</b> Software</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-01-08</span><span><b>Tags:</b> software, license, request, procurement, approval</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Request New Software or a Paid License</h1>
+<h2>Summary</h2>
+<p>If the software you need is not available in Company Portal (Windows) or Self Service (Mac), you can submit a software request through the Robotix Service Desk portal. All software installed on Robotix IT-managed devices must be reviewed and approved by IT before use, regardless of whether it is free or paid. This process typically takes 2–5 business days for standard requests.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Check Company Portal or Self Service first (see KB-0500). The application you need may already be approved and available for self-service install.</li>
+<li>If your request involves a paid license or subscription, obtain your manager's approval before submitting the request. IT will confirm approvals during the review process.</li>
+<li>Have the following information ready: the exact application name and version (if applicable), the vendor's website, the business reason for the request, and your cost center or budget code if the software has a cost.</li>
+<li>Requests for software that competes with existing approved tools (for example, a second video-conferencing platform when Zoom is already licensed) will require a stronger business justification and may take longer to evaluate.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Submit the Request</h3>
+<ol>
+<li>Open a browser and go to <strong>https://help.robotix.com</strong>.</li>
+<li>Sign in with your Robotix IT credentials (<code>firstname.lastname@robotix.com</code>) and complete the Okta MFA prompt.</li>
+<li>From the home page, click <strong>Service Catalog</strong>, then select <strong>Software &amp; Licensing</strong>.</li>
+<li>Click <strong>Request Software or License</strong>.</li>
+<li>Fill in the request form:
+   - <strong>Application Name:</strong> Enter the full name of the software (e.g., "Adobe Acrobat Pro DC").
+   - <strong>Vendor / Publisher:</strong> Enter the vendor name or website URL.
+   - <strong>Platform:</strong> Select Windows, macOS, or both.
+   - <strong>License Type:</strong> Select Free, One-time Purchase, or Subscription.
+   - <strong>Estimated Cost:</strong> Enter the annual or one-time cost if known. Enter $0 for free software.
+   - <strong>Business Justification:</strong> Describe why this software is needed and how it will be used. Specific use cases speed up approval.
+   - <strong>Number of Licenses Needed:</strong> Enter the count of users or seats required.
+   - <strong>Manager Approval:</strong> Enter your manager's name. An approval email will be sent to them automatically.</li>
+<li>Attach any supporting documentation, such as a vendor quote, a trial agreement, or a security whitepaper, using the <strong>Add Attachment</strong> button.</li>
+<li>Click <strong>Submit Request</strong>. You will receive a confirmation email with a ticket number in the format <code>REQ-######</code>.</li>
+</ol>
+<h3>What Happens Next</h3>
+<ul>
+<li>The Service Desk will acknowledge your request within one business day.</li>
+<li>IT will conduct a security and compatibility review. For paid software, Finance and your manager must approve the cost.</li>
+<li>If the software is approved, IT will add it to the appropriate catalog (Company Portal or Self Service) or deploy it directly to your device.</li>
+<li>You will be notified by email and Slack when the software is ready.</li>
+</ul>
+<h2>Troubleshooting</h2>
+<p><strong>I submitted a request but have not received a confirmation email.</strong>
+Check your Spam or Junk folder. If nothing appears within 30 minutes, log in to https://help.robotix.com and verify the request appears under <strong>My Requests</strong>.</p>
+<p><strong>My manager says they never received the approval email.</strong>
+Ask your manager to check their Spam folder. If the email is not there, open your ticket at https://help.robotix.com and add a comment asking the Service Desk to resend the approval notification.</p>
+<p><strong>My request was denied.</strong>
+The denial reason will be included in the notification email. Common reasons include security concerns, overlap with existing licensed tools, or missing budget approval. You may resubmit with additional justification or contact the Service Desk to discuss alternatives.</p>
+<p><strong>I need software urgently (within 24 hours).</strong>
+Submit the request as described above and set the <strong>Priority</strong> field to <strong>High</strong>. Include the business reason for urgency in the justification. Note that security reviews cannot be bypassed; same-day approvals are only possible for pre-vetted vendors already in the Robotix IT software library.</p>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0500: Install Approved Software Using Company Portal or Self Service</li>
+<li>KB-0502: Activate Microsoft 365 / Office</li>
+<li>KB-0506: Request Temporary Local Administrator Rights</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

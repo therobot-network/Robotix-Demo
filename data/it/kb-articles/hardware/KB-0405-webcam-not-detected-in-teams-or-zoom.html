@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Webcam Not Detected in Teams or Zoom — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0405</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-03-03</span><span><b>Tags:</b> webcam, camera, teams, zoom, video, hardware, troubleshooting, dell latitude, macbook pro</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Webcam Not Detected in Teams or Zoom</h1>
+<h2>Summary</h2>
+<p>This article helps you resolve situations where Microsoft Teams or Zoom cannot find your webcam — either the built-in camera on your Dell Latitude 7440 or MacBook Pro 14", or an external USB webcam. Most issues are caused by privacy settings blocking camera access, an incorrect camera being selected in the app, or the camera being held open by another application.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Know which camera you are trying to use: built-in (integrated), or an external USB camera connected to the dock.</li>
+<li>Close any other video call applications (Teams, Zoom, Google Meet, Camera app) before testing — only one application can use the camera at a time.</li>
+<li>If you are on a video call already, leave the meeting before troubleshooting, then rejoin to test.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Step 1 — Check Privacy Permissions</h3>
+<p><strong>Windows 11:</strong></p>
+<ol>
+<li>Go to <strong>Settings &gt; Privacy &amp; security &gt; Camera</strong>.</li>
+<li>Confirm <strong>Camera access</strong> is toggled <strong>On</strong> at the top.</li>
+<li>Scroll down and confirm both <strong>Microsoft Teams</strong> and <strong>Zoom</strong> are toggled <strong>On</strong> under "Let apps access your camera."</li>
+<li>If Teams or Zoom is not listed, scroll further to "Let desktop apps access your camera" and confirm that is also <strong>On</strong>.</li>
+</ol>
+<p><strong>macOS:</strong></p>
+<ol>
+<li>Go to <strong>Apple menu &gt; System Settings &gt; Privacy &amp; Security &gt; Camera</strong>.</li>
+<li>Confirm the toggle next to <strong>Microsoft Teams</strong> and <strong>Zoom</strong> is <strong>on</strong> (green).</li>
+<li>If you toggle it on for the first time, you will be prompted to quit and relaunch the application — do so.</li>
+</ol>
+<h3>Step 2 — Select the Correct Camera in the App</h3>
+<p><strong>Microsoft Teams:</strong></p>
+<ol start="5">
+<li>In Teams, click your <strong>profile picture &gt; Settings &gt; Devices</strong>.</li>
+<li>Under <strong>Camera</strong>, open the drop-down and select the correct camera:
+   - Built-in: <strong>Integrated Webcam</strong> (Windows) or <strong>FaceTime HD Camera</strong> (macOS).
+   - External USB: Look for the model name (e.g., <strong>Logitech HD Webcam</strong>).</li>
+<li>A live preview should appear below the drop-down. If the preview is black or blank, move to Step 3.</li>
+</ol>
+<p><strong>Zoom:</strong></p>
+<ol start="5">
+<li>In Zoom, click your <strong>profile picture &gt; Settings &gt; Video</strong>.</li>
+<li>Under <strong>Camera</strong>, open the drop-down and select the correct camera.</li>
+<li>A live preview should appear. If blank, continue to Step 3.</li>
+</ol>
+<h3>Step 3 — Rule Out Driver or Hardware Issues</h3>
+<p><strong>Windows 11:</strong></p>
+<ol start="8">
+<li>Open the <strong>Camera</strong> app (search for "Camera" in Start). If the built-in camera works in the Camera app but not in Teams/Zoom, the issue is app-specific — proceed to Step 4.</li>
+<li>If the Camera app also shows a blank image or error, open <strong>Device Manager</strong> (right-click Start &gt; Device Manager) and expand <strong>Cameras</strong> (or <strong>Imaging Devices</strong>).</li>
+<li>Right-click the camera device and select <strong>Disable device</strong>, wait 5 seconds, then <strong>Enable device</strong>.</li>
+<li>If there is a yellow warning icon on the camera device, right-click and select <strong>Update driver &gt; Search automatically for drivers</strong>.</li>
+<li>Restart the laptop and retest.</li>
+</ol>
+<p><strong>macOS:</strong></p>
+<ol start="8">
+<li>Open the <strong>FaceTime</strong> or <strong>Photo Booth</strong> app. If the camera works there but not in Teams/Zoom, the issue is app permissions — revisit Step 1.</li>
+<li>If the camera does not work in FaceTime/Photo Booth either, restart the Mac.</li>
+<li>If still not working after restart, the camera hardware may be faulty — submit a repair request (KB-0407).</li>
+</ol>
+<h3>Step 4 — Force Teams or Zoom to Release the Camera</h3>
+<ol start="13">
+<li>Fully quit Teams and Zoom (not just close the window):<ul>
+<li>Windows: Right-click the Teams icon in the system tray &gt; Quit. Close Zoom from the taskbar tray as well.</li>
+<li>macOS: Right-click Teams in the Dock &gt; Quit. Same for Zoom.</li>
+</ul>
+</li>
+<li>Wait 15 seconds, then reopen Teams or Zoom and test the camera again.</li>
+</ol>
+<h3>Step 5 — Check External USB Camera Connections</h3>
+<ol start="15">
+<li>If using a USB webcam connected through the Dell WD19 dock, unplug the camera's USB cable from the dock and plug it directly into a USB-A port on your laptop.</li>
+<li>Wait 10 seconds for Windows or macOS to recognize the device, then retest in Teams or Zoom.</li>
+<li>If the camera works when plugged directly into the laptop but not through the dock, the dock's USB port may need attention — try a different USB port on the dock or contact IT.</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"No camera found" error in Teams or Zoom</td>
+<td>Privacy permissions blocked</td>
+<td>Complete Step 1 above</td>
+</tr>
+<tr>
+<td>Camera preview is black</td>
+<td>Another app is using the camera</td>
+<td>Quit all video apps, wait 15 seconds, relaunch</td>
+</tr>
+<tr>
+<td>Camera works in Camera/FaceTime app but not Teams</td>
+<td>Teams privacy permission not granted</td>
+<td>System Settings/Privacy settings — enable camera for Teams</td>
+</tr>
+<tr>
+<td>Camera freezes mid-call</td>
+<td>USB bandwidth issue or outdated driver</td>
+<td>Disconnect non-essential USB devices from dock; update driver</td>
+</tr>
+<tr>
+<td>Camera shows but video quality is very poor</td>
+<td>Low bandwidth or wrong resolution setting</td>
+<td>In Teams Settings &gt; Devices, confirm HD video is enabled; check VPN and network connection</td>
+</tr>
+<tr>
+<td>MacBook camera not found after macOS update</td>
+<td>OS update reset camera permissions</td>
+<td>Re-grant camera access in System Settings &gt; Privacy &amp; Security &gt; Camera</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0406: Headset or Audio Isn't Working</li>
+<li>KB-0403: Set Up Dual Monitors and a Docking Station</li>
+<li>KB-0404: Keyboard or Mouse Isn't Working</li>
+<li>KB-0407: Request a Hardware Repair or Warranty Replacement (RMA)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

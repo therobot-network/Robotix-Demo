@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keep Your Computer Updated (Windows Update, Intune, Jamf) — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0508</span><span><b>Category:</b> Software</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-04-10</span><span><b>Tags:</b> updates, windows update, intune, jamf, patches, security, macos updates</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Keep Your Computer Updated (Windows Update, Intune, Jamf)</h1>
+<h2>Summary</h2>
+<p>Keeping your computer updated is one of the most important things you can do to protect Robotix IT's systems. Security patches close vulnerabilities that attackers exploit; app updates fix bugs and add features. On Robotix IT-managed devices, most updates are delivered automatically through <strong>Microsoft Intune</strong> (Windows) and <strong>Jamf Pro</strong> (macOS). This article explains how the update process works, how to check your current patch status, and how to manually trigger updates when needed.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You do not need administrator rights to receive or install updates pushed by Intune or Jamf — they install automatically with elevated privileges.</li>
+<li>Some updates require a device restart. Save all open work before initiating any update process.</li>
+<li>Critical security patches (rated by Microsoft or Apple as "Critical") are enforced with a mandatory restart deadline. You will see countdown notifications before the forced restart occurs — do not ignore them.</li>
+<li>If your device has not checked in with Intune or Jamf for more than 7 days (e.g., it was powered off), connect to GlobalProtect VPN and leave your device on and unlocked for 30–60 minutes to allow policies to sync.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Windows — Check Update Status in Company Portal</h3>
+<ol>
+<li>Open <strong>Company Portal</strong> from the Start menu.</li>
+<li>Click <strong>Devices</strong> in the left navigation pane and select your device.</li>
+<li>Review the compliance status. If it shows <strong>Not compliant</strong>, there are outstanding updates or policy requirements. Click <strong>Check Status</strong> to refresh.</li>
+<li>To manually trigger a policy sync, click <strong>Sync</strong> on the device detail page. This tells Intune to push any pending updates immediately.</li>
+</ol>
+<h3>Windows — Check and Install Windows Updates Manually</h3>
+<ol>
+<li>Click the <strong>Start</strong> menu and go to <strong>Settings</strong> (gear icon) &gt; <strong>Windows Update</strong>.</li>
+<li>Click <strong>Check for updates</strong>. Windows will contact Microsoft's update servers and display available updates.</li>
+<li>If updates are found, click <strong>Download &amp; install</strong>. Do not interrupt the download.</li>
+<li>When prompted, click <strong>Restart now</strong> or schedule a restart for a convenient time (use <strong>Schedule the restart</strong> to pick a time outside working hours).</li>
+<li>After the restart, return to <strong>Settings</strong> &gt; <strong>Windows Update</strong> and run <strong>Check for updates</strong> again to confirm all updates were applied successfully.</li>
+</ol>
+<h3>Windows — View Installed Updates</h3>
+<ol>
+<li>Go to <strong>Settings</strong> &gt; <strong>Windows Update</strong> &gt; <strong>Update history</strong>.</li>
+<li>Expand the <strong>Quality Updates</strong> and <strong>Security Updates</strong> sections to see recently installed patches, including their KB numbers and install dates.</li>
+</ol>
+<h3>macOS — Check Update Status via Self Service</h3>
+<ol>
+<li>Open <strong>Self Service</strong> from your Applications folder or Dock.</li>
+<li>Navigate to the <strong>Updates</strong> category. Any pending IT-managed updates (e.g., CrowdStrike Falcon, Zoom, Slack) will appear here with an <strong>Update</strong> or <strong>Install</strong> button.</li>
+<li>Click <strong>Update</strong> for each item shown and follow the on-screen prompts.</li>
+</ol>
+<h3>macOS — Install macOS System Updates</h3>
+<ol>
+<li>Click the <strong>Apple menu</strong> () &gt; <strong>System Settings</strong>.</li>
+<li>Click <strong>General</strong> &gt; <strong>Software Update</strong>.</li>
+<li>If updates are available, click <strong>Update Now</strong> or <strong>Upgrade Now</strong> (for a major macOS version upgrade — check with IT before upgrading to a new major version such as macOS Sequoia 15).</li>
+<li>Enter your macOS login password when prompted. The system will download and install updates, then restart.</li>
+<li>After the restart, return to <strong>System Settings</strong> &gt; <strong>General</strong> &gt; <strong>Software Update</strong> and confirm "Your Mac is up to date."</li>
+</ol>
+<h3>macOS — Trigger a Jamf Policy Check-In</h3>
+<p>If you suspect Jamf has pending policies waiting to deploy:
+1. Open <strong>Self Service</strong> &gt; <strong>Support</strong> section (if available) and click <strong>Sync Device Policies</strong>, or
+2. Ask the Service Desk to push a remote policy sync to your device — this is done in under 2 minutes from the Jamf console.</p>
+<h2>Troubleshooting</h2>
+<p><strong>Windows Update is stuck downloading at a certain percentage.</strong>
+Cancel the download by clicking <strong>Pause updates</strong>, wait 5 minutes, then click <strong>Resume updates</strong>. If it stalls again, restart your computer and try once more. If the issue persists after two attempts, contact the Service Desk with the KB number of the failing update.</p>
+<p><strong>I see a "Feature update to Windows 11, version 24H2" prompt — should I install it?</strong>
+Major feature updates are tested and approved by IT before being broadly deployed. If you see this prompt and have not received communication from IT about rolling out this update, do not install it manually — let Intune deploy it when the approved version is ready. Contact the Service Desk if you are unsure.</p>
+<p><strong>macOS Software Update says "An error occurred while checking for updates."</strong>
+Ensure you are connected to the internet or GlobalProtect VPN. If the error persists, go to <strong>Apple menu</strong> &gt; <strong>Restart</strong> and try again after the restart. This error can also occur when Apple's update servers are under high load — try again in an hour.</p>
+<p><strong>Company Portal shows my device is "Not compliant" even after installing all updates.</strong>
+Click <strong>Sync</strong> in Company Portal and wait 15 minutes for the compliance status to refresh. If it still shows non-compliant, contact the Service Desk — there may be a configuration policy issue rather than a missing update.</p>
+<p><strong>I keep getting restart prompts but cannot restart right now because I am in a critical project.</strong>
+Use <strong>Schedule the restart</strong> in Windows Update to defer the restart to after business hours (e.g., 11:00 PM tonight). On macOS, click <strong>Remind Me Later</strong> but do not defer more than 24 hours for security patches. Mandatory deadlines cannot be extended by end users — contact the Service Desk if you need an IT-approved deferral.</p>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0500: Install Approved Software Using Company Portal or Self Service</li>
+<li>KB-0507: An Application Keeps Crashing or Won't Open</li>
+<li>KB-0501: Request New Software or a Paid License</li>
+<li>KB-0509: Uninstall Software Safely</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

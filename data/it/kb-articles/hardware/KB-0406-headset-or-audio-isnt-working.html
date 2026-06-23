@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Headset or Audio Isn&#x27;t Working — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0406</span><span><b>Category:</b> Hardware</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-02-11</span><span><b>Tags:</b> headset, audio, jabra, logitech, microphone, speaker, teams, zoom, hardware, troubleshooting</span><span><b>Applies to:</b> Windows 11, macOS</span></div>
+<h1>Headset or Audio Isn't Working</h1>
+<h2>Summary</h2>
+<p>This article helps resolve issues with Jabra and Logitech headsets issued by Robotix IT, including no sound, microphone not detected, and poor call audio quality in Microsoft Teams and Zoom. It also covers the laptop's built-in speakers and microphone as fallback devices.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Identify your headset model (printed on the headset or on the box): common Robotix-issued models include the <strong>Jabra Evolve2 55</strong>, <strong>Jabra Engage 55</strong>, <strong>Logitech Zone Wireless</strong>, and <strong>Logitech H390</strong> (USB wired).</li>
+<li>Confirm how the headset is connected: USB-A cable, USB-C, Bluetooth, or wireless USB receiver (Jabra Link 380 or Logitech Bolt dongle).</li>
+<li>Muted hardware buttons on the headset itself are the most common cause of "no audio" calls — check the mute button on the headset arm or earcup before proceeding.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Step 1 — Check Physical Connections and Headset Controls</h3>
+<ol>
+<li><strong>Check headset mute.</strong> Most Jabra and Logitech headsets have a dedicated mute button (often with a red LED indicator when muted). Press it once to unmute.</li>
+<li><strong>Check headset volume.</strong> Press the volume-up button on the headset or scroll wheel and confirm you can hear a tone or click.</li>
+<li><strong>For wired USB headsets (e.g., Logitech H390):</strong> Unplug the USB connector, wait 5 seconds, and replug. Try a different USB port on the dock or directly on the laptop.</li>
+<li><strong>For wireless headsets with a USB dongle (e.g., Jabra Evolve2 55, Logitech Zone Wireless):</strong> Confirm the dongle is plugged into the dock or laptop. Power cycle the headset by turning it off and back on. Check the headset's charge level — some models will not connect if battery is below 10%.</li>
+</ol>
+<h3>Step 2 — Set the Headset as the Default Audio Device</h3>
+<p><strong>Windows 11:</strong></p>
+<ol start="5">
+<li>Click the <strong>speaker icon</strong> in the taskbar system tray. Click the <strong>arrow</strong> next to the volume slider to open the sound output selector.</li>
+<li>Select your headset (e.g., <strong>Jabra Evolve2 55</strong>) from the list.</li>
+<li>Click the <strong>microphone icon</strong> in the taskbar (or go to <strong>Settings &gt; System &gt; Sound</strong>) and under <strong>Input</strong>, select your headset microphone.</li>
+<li>Under <strong>Settings &gt; System &gt; Sound</strong>, scroll down to <strong>Advanced &gt; More sound settings</strong>. On the <strong>Playback</strong> tab, right-click your headset and select <strong>Set as Default Device</strong> and also <strong>Set as Default Communication Device</strong>.</li>
+<li>Do the same on the <strong>Recording</strong> tab for the headset microphone.</li>
+</ol>
+<p><strong>macOS:</strong></p>
+<ol start="5">
+<li>Go to <strong>Apple menu &gt; System Settings &gt; Sound</strong>.</li>
+<li>Under <strong>Output</strong>, select your headset.</li>
+<li>Under <strong>Input</strong>, select your headset microphone.</li>
+<li>Adjust the <strong>Input Volume</strong> slider to approximately 75% if the microphone level bar is not moving when you speak.</li>
+</ol>
+<h3>Step 3 — Set the Headset in Teams and Zoom</h3>
+<p><strong>Microsoft Teams:</strong></p>
+<ol start="9">
+<li>In Teams, click your <strong>profile picture &gt; Settings &gt; Devices</strong>.</li>
+<li>Under <strong>Audio devices</strong>, select your headset from the <strong>Speaker</strong> and <strong>Microphone</strong> drop-downs (e.g., "Jabra Evolve2 55" or "Logitech Zone Wireless").</li>
+<li>Click <strong>Make a test call</strong> to verify audio in both directions.</li>
+</ol>
+<p><strong>Zoom:</strong></p>
+<ol start="9">
+<li>In Zoom, click your <strong>profile picture &gt; Settings &gt; Audio</strong>.</li>
+<li>Under <strong>Speaker</strong>, select your headset from the drop-down. Click <strong>Test Speaker</strong> to play a tone.</li>
+<li>Under <strong>Microphone</strong>, select your headset microphone. Click <strong>Test Mic</strong> and speak — you should see the input level bar move.</li>
+<li>Ensure <strong>Automatically adjust microphone volume</strong> is checked if your mic sounds too quiet.</li>
+</ol>
+<h3>Step 4 — Update Headset Firmware / Software</h3>
+<ol start="13">
+<li><strong>Jabra headsets:</strong> Install <strong>Jabra Direct</strong> from the Company Portal (Windows) or Self Service (macOS). Open Jabra Direct, connect your headset, and click <strong>Update</strong> if a firmware update is available.</li>
+<li><strong>Logitech headsets:</strong> Install <strong>Logi Tune</strong> from the Company Portal or Self Service. Open Logi Tune, select your headset, and apply any available updates.</li>
+<li>After updating, restart the headset and retest.</li>
+</ol>
+<h3>Step 5 — Test with Built-in Speakers and Microphone</h3>
+<ol start="16">
+<li>As a fallback, switch audio to the laptop's built-in speaker and microphone using the steps in Step 2, selecting the built-in devices instead of the headset.</li>
+<li>If the built-in devices work but the headset does not, the headset may be faulty — submit a repair request (KB-0407).</li>
+</ol>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Others can't hear you</td>
+<td>Headset mic muted or wrong input device selected</td>
+<td>Unmute headset hardware mute button; confirm headset mic is set as input in OS and app settings</td>
+</tr>
+<tr>
+<td>You can't hear others</td>
+<td>Wrong output device or headset not connected</td>
+<td>Select headset as output device in OS sound settings and Teams/Zoom settings</td>
+</tr>
+<tr>
+<td>Audio works in Teams but not Zoom (or vice versa)</td>
+<td>App-level audio device setting not updated</td>
+<td>Set headset in both Teams Settings &gt; Devices and Zoom Settings &gt; Audio</td>
+</tr>
+<tr>
+<td>Headset microphone sounds echo-y for others</td>
+<td>Mic picking up speaker output</td>
+<td>Enable noise suppression in Teams (Settings &gt; Devices &gt; Noise suppression: High); in Zoom, enable background noise suppression</td>
+</tr>
+<tr>
+<td>Jabra headset not appearing in Jabra Direct</td>
+<td>Dongle not connected or firmware mismatch</td>
+<td>Replug the Jabra Link dongle; reinstall Jabra Direct</td>
+</tr>
+<tr>
+<td>Headset keeps disconnecting every few minutes</td>
+<td>USB power management (Windows)</td>
+<td>See KB-0404 Troubleshooting — disable USB selective suspend for the headset port</td>
+</tr>
+<tr>
+<td>No audio after docking/undocking</td>
+<td>Windows auto-switched to wrong output device</td>
+<td>Click speaker icon in taskbar and manually reselect headset</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0405: Webcam Not Detected in Teams or Zoom</li>
+<li>KB-0404: Keyboard or Mouse Isn't Working</li>
+<li>KB-0403: Set Up Dual Monitors and a Docking Station</li>
+<li>KB-0407: Request a Hardware Repair or Warranty Replacement (RMA)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

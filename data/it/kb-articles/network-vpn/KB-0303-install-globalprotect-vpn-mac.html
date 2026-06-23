@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Install and Connect GlobalProtect VPN on Mac — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0303</span><span><b>Category:</b> Network &amp; VPN</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-02-14</span><span><b>Tags:</b> vpn, globalprotect, palo-alto, macos, remote-access, install, jamf</span><span><b>Applies to:</b> macOS</span></div>
+<h1>Install and Connect GlobalProtect VPN on Mac</h1>
+<h2>Summary</h2>
+<p>Robotix IT uses <strong>Palo Alto GlobalProtect</strong> for remote access. When you are working outside the office — at home, a café, a client site, or any network other than Robotix-Corp — GlobalProtect creates an encrypted tunnel so your Mac can reach internal applications, file shares, and other corporate resources. This article covers installing and connecting GlobalProtect on macOS Sonoma (14) and Sequoia (15).</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You need an active Robotix IT account (<code>firstname.lastname@robotix.com</code>) with your current Okta password.</li>
+<li><strong>Okta Verify</strong> must be installed and enrolled on your iPhone or another device — you will need to approve an MFA push to complete sign-in.</li>
+<li>If your Mac was issued by Robotix IT, it is enrolled in <strong>Jamf Pro</strong>. GlobalProtect is likely already installed. Open <strong>Self Service</strong> (search with Spotlight: <code>Cmd + Space</code>, type "Self Service") and check before downloading manually.</li>
+<li>GlobalProtect requires <strong>Full Disk Access</strong> and a <strong>System Extension</strong> on macOS. The installer will prompt you to grant these. Have your Mac's local administrator credentials ready if your account is not a local admin — contact the Service Desk if you are unsure.</li>
+</ul>
+<hr />
+<h2>Steps</h2>
+<h3>Part 1 — Install GlobalProtect</h3>
+<p><strong>Option A: Install via Jamf Self Service (recommended for Robotix IT-issued Macs)</strong></p>
+<ol>
+<li>Open <strong>Finder</strong> &gt; <strong>Applications</strong> &gt; <strong>Self Service</strong>, or search for it with Spotlight.</li>
+<li>In Self Service, click the <strong>Browse</strong> tab and search for <strong>GlobalProtect</strong>.</li>
+<li>Click <strong>Install</strong> next to GlobalProtect.</li>
+<li>Self Service installs the app silently. It will appear in your Applications folder when done.</li>
+<li>Proceed to Part 2.</li>
+</ol>
+<p><strong>Option B: Download from the IT portal</strong></p>
+<ol>
+<li>Open Safari and go to <strong>https://help.robotix.com</strong>.</li>
+<li>Sign in with your Okta credentials.</li>
+<li>Go to <strong>Software Downloads</strong> &gt; <strong>VPN</strong> &gt; <strong>GlobalProtect — macOS</strong>.</li>
+<li>Download the <code>.pkg</code> installer.</li>
+<li>Double-click the <code>.pkg</code> file in your Downloads folder.</li>
+<li>Click <strong>Continue</strong> on the Introduction screen.</li>
+<li>Click <strong>Continue</strong> on the License screen, then <strong>Agree</strong>.</li>
+<li>Click <strong>Install</strong>. Enter your Mac's local administrator password if prompted.</li>
+<li>When macOS shows a <strong>System Extension Blocked</strong> notification, click <strong>Open System Settings</strong>.
+   - In <strong>System Settings</strong> &gt; <strong>Privacy &amp; Security</strong>, scroll down and click <strong>Allow</strong> next to the Palo Alto Networks message.</li>
+<li>Click <strong>Close</strong> in the installer when it finishes.</li>
+</ol>
+<p><strong>Grant Full Disk Access (if prompted)</strong></p>
+<ol>
+<li>Open <strong>System Settings</strong> &gt; <strong>Privacy &amp; Security</strong> &gt; <strong>Full Disk Access</strong>.</li>
+<li>Click the <strong>+</strong> button and add <strong>GlobalProtect</strong> from Applications.</li>
+<li>Toggle it on.</li>
+</ol>
+<h3>Part 2 — Connect for the First Time</h3>
+<ol>
+<li>Click the <strong>GlobalProtect icon</strong> in the menu bar (top-right — it looks like a globe). If you don't see it, open <strong>Finder</strong> &gt; <strong>Applications</strong> &gt; <strong>GlobalProtect</strong>.</li>
+<li>The GlobalProtect panel opens. The <strong>Portal Address</strong> field should read <code>vpn.robotix.com</code>. If it is blank, type <code>vpn.robotix.com</code>.</li>
+<li>Click <strong>Connect</strong>.</li>
+<li>Your default browser opens an Okta sign-in page. Enter your <strong>Robotix IT email</strong> and <strong>Okta password</strong>, then click <strong>Sign In</strong>.</li>
+<li>Approve the <strong>Okta Verify push notification</strong> on your phone.</li>
+<li>The browser window closes and GlobalProtect displays <strong>Connected</strong>. The globe icon in the menu bar turns green.</li>
+</ol>
+<h3>Part 3 — Disconnect</h3>
+<ol>
+<li>Click the <strong>GlobalProtect icon</strong> in the menu bar.</li>
+<li>Click <strong>Disconnect</strong>.</li>
+<li>The globe icon returns to its outline state (not filled/green).</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> GlobalProtect is set to reconnect automatically when your Mac wakes from sleep away from the office. You should not need to manually connect each time you open the lid.</p>
+</blockquote>
+<hr />
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GlobalProtect not in Applications or Self Service</td>
+<td>Mac not enrolled in Jamf</td>
+<td>Contact the Service Desk — your Mac may need enrollment</td>
+</tr>
+<tr>
+<td>System extension blocked, can't allow it</td>
+<td>MDM restriction in place</td>
+<td>This is usually auto-approved on Jamf-managed Macs; wait 5 minutes and retry, or contact the Service Desk</td>
+</tr>
+<tr>
+<td>Portal address field is blank</td>
+<td>Pre-config not yet applied</td>
+<td>Manually type <code>vpn.robotix.com</code> and press Return</td>
+</tr>
+<tr>
+<td>Browser sign-in page opens but spins</td>
+<td>Safari content blocker or network issue</td>
+<td>Try in a different browser; disable any content blockers on <code>vpn.robotix.com</code></td>
+</tr>
+<tr>
+<td>"Authentication failed"</td>
+<td>Incorrect Okta password</td>
+<td>Go to https://help.robotix.com and reset your password</td>
+</tr>
+<tr>
+<td>MFA push not arriving</td>
+<td>Phone not connected or Okta Verify needs refresh</td>
+<td>Open Okta Verify on your phone, pull to refresh; use the 6-digit TOTP code instead of push</td>
+</tr>
+<tr>
+<td>Connected but can't reach internal sites</td>
+<td>VPN tunnel up but DNS not resolving</td>
+<td>See KB-0308 (DNS) or KB-0305 (can't reach internal apps)</td>
+</tr>
+<tr>
+<td>Menu bar icon stays grey</td>
+<td>Connection not established</td>
+<td>Click the icon &gt; Reconnect; if it still fails, see KB-0304</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0302 — Install and Connect GlobalProtect VPN on Windows</li>
+<li>KB-0304 — GlobalProtect VPN Won't Connect — Troubleshooting</li>
+<li>KB-0305 — You Can't Reach an Internal Site or Application</li>
+<li>KB-0300 — Connect to the Robotix-Corp Corporate Wi-Fi</li>
+</ul>
+<hr />
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: <a href="https://help.robotix.com">https://help.robotix.com</a> · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

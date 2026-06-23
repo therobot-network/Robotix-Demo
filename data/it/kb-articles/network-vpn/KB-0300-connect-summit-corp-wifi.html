@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connect to the Robotix-Corp Corporate Wi-Fi — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0300</span><span><b>Category:</b> Network &amp; VPN</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-03-10</span><span><b>Tags:</b> wi-fi, wireless, robotix-corp, wpa2-enterprise, 802.1x, okta, network</span><span><b>Applies to:</b> Windows 11, macOS, iOS, Android</span></div>
+<h1>Connect to the Robotix-Corp Corporate Wi-Fi</h1>
+<h2>Summary</h2>
+<p>Robotix IT's corporate wireless network uses the SSID <strong>Robotix-Corp</strong>. It runs WPA2-Enterprise (802.1X) authentication, which means you sign in with your standard Okta credentials — the same username and password you use to log in to your computer and company applications. This article walks you through connecting on all supported platforms.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You must have an active Robotix IT user account (<code>firstname.lastname@robotix.com</code>).</li>
+<li>Your device must be enrolled in Microsoft Intune (Windows) or Jamf Pro (Mac/iOS). Unenrolled personal devices cannot authenticate to Robotix-Corp; use <strong>Robotix-Guest</strong> instead.</li>
+<li>Have your Okta credentials ready. If you do not know your password, reset it at <a href="https://help.robotix.com">https://help.robotix.com</a> before proceeding.</li>
+<li>Okta Verify must be installed on your phone or device for MFA prompts.</li>
+</ul>
+<hr />
+<h2>Steps</h2>
+<h3>Windows 11</h3>
+<ol>
+<li>Click the <strong>Wi-Fi icon</strong> in the system tray (bottom-right of the taskbar).</li>
+<li>In the network flyout, locate <strong>Robotix-Corp</strong> in the list of available networks and click it.</li>
+<li>Click <strong>Connect</strong>.</li>
+<li>In the authentication dialog, enter:
+   - <strong>Username:</strong> <code>firstname.lastname@robotix.com</code>
+   - <strong>Password:</strong> Your Okta password</li>
+<li>If prompted to verify the server certificate, confirm the certificate is issued to <code>radius.robotix.com</code> and click <strong>Connect</strong>.</li>
+<li>Approve the Okta Verify push notification on your phone.</li>
+<li>Windows will show <strong>Connected, secured</strong> under Robotix-Corp when the connection is established.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Check <strong>Connect automatically</strong> before clicking Connect so your laptop rejoins Robotix-Corp every time you enter the office.</p>
+</blockquote>
+<h3>macOS (Sonoma / Sequoia)</h3>
+<ol>
+<li>Click the <strong>Wi-Fi menu</strong> (top-right menu bar) and select <strong>Robotix-Corp</strong>.</li>
+<li>In the authentication sheet that appears, enter:
+   - <strong>Username:</strong> <code>firstname.lastname@robotix.com</code>
+   - <strong>Password:</strong> Your Okta password</li>
+<li>Click <strong>Join</strong>.</li>
+<li>If a certificate trust dialog appears, click <strong>Continue</strong> after confirming the certificate is issued to <code>radius.robotix.com</code>.</li>
+<li>Approve the Okta Verify push notification on your phone.</li>
+<li>A checkmark appears next to Robotix-Corp in the Wi-Fi menu when connected.</li>
+</ol>
+<h3>iOS (iPhone / iPad)</h3>
+<ol>
+<li>Open <strong>Settings</strong> &gt; <strong>Wi-Fi</strong>.</li>
+<li>Tap <strong>Robotix-Corp</strong> under available networks.</li>
+<li>Enter:
+   - <strong>Username:</strong> <code>firstname.lastname@robotix.com</code>
+   - <strong>Password:</strong> Your Okta password</li>
+<li>Tap <strong>Join</strong>.</li>
+<li>If a certificate prompt appears, tap <strong>Trust</strong>.</li>
+<li>Approve the Okta Verify push notification.</li>
+<li>A checkmark and Wi-Fi bars appear next to Robotix-Corp when connected.</li>
+</ol>
+<h3>Android</h3>
+<ol>
+<li>Open <strong>Settings</strong> &gt; <strong>Network &amp; internet</strong> &gt; <strong>Wi-Fi</strong>.</li>
+<li>Tap <strong>Robotix-Corp</strong>.</li>
+<li>Configure the following fields:
+   - <strong>EAP method:</strong> PEAP
+   - <strong>Phase 2 authentication:</strong> MSCHAPV2
+   - <strong>CA certificate:</strong> Use system certificates (or select <code>radius.robotix.com</code> if listed)
+   - <strong>Domain:</strong> <code>robotix.com</code>
+   - <strong>Identity:</strong> <code>firstname.lastname@robotix.com</code>
+   - <strong>Password:</strong> Your Okta password</li>
+<li>Tap <strong>Connect</strong>.</li>
+<li>Approve the Okta Verify push notification.</li>
+</ol>
+<hr />
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Likely Cause</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Authentication failed" or "Wrong password"</td>
+<td>Incorrect Okta credentials</td>
+<td>Reset your password at <a href="https://help.robotix.com">https://help.robotix.com</a></td>
+</tr>
+<tr>
+<td>Robotix-Corp not visible in the network list</td>
+<td>Too far from an access point, or AP issue</td>
+<td>Move closer to a Robotix IT wireless access point; contact the Service Desk if it still doesn't appear</td>
+</tr>
+<tr>
+<td>Stuck on "Connecting…" for more than 30 seconds</td>
+<td>MFA push not approved</td>
+<td>Check your phone for an Okta Verify push notification and tap <strong>Approve</strong></td>
+</tr>
+<tr>
+<td>Certificate warning or untrusted certificate</td>
+<td>Device clock is wrong, or wrong network</td>
+<td>Confirm date/time is correct; ensure you are connecting to Robotix-Corp, not a spoofed SSID</td>
+</tr>
+<tr>
+<td>Android shows "Connected" but no internet</td>
+<td>Wrong EAP / Phase 2 settings</td>
+<td>Re-enter the Android settings exactly as listed above; toggle Wi-Fi off and back on</td>
+</tr>
+<tr>
+<td>Mac repeatedly asks for credentials</td>
+<td>macOS keychain conflict</td>
+<td>Open <strong>Keychain Access</strong>, search for Robotix-Corp, delete any old entries, then reconnect</td>
+</tr>
+<tr>
+<td>Device is not enrolled in Intune/Jamf</td>
+<td>Personal or unenrolled device</td>
+<td>Use <strong>Robotix-Guest</strong> for internet access; contact the Service Desk to enroll your corporate device</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0301 — Connect to Robotix-Guest Wi-Fi (Visitors)</li>
+<li>KB-0302 — Install and Connect GlobalProtect VPN on Windows</li>
+<li>KB-0303 — Install and Connect GlobalProtect VPN on Mac</li>
+<li>KB-0308 — Fix DNS and "Page Can't Be Found" Errors</li>
+</ul>
+<hr />
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: <a href="https://help.robotix.com">https://help.robotix.com</a> · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

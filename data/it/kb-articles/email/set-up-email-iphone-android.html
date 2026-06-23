@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Set Up Robotix Email on Your iPhone or Android (Outlook Mobile) — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0201</span><span><b>Category:</b> Email &amp; Microsoft 365</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-11-03</span><span><b>Tags:</b> outlook, mobile, iphone, android, ios, email, setup</span><span><b>Applies to:</b> iOS, Android</span></div>
+<h1>Set Up Robotix Email on Your iPhone or Android (Outlook Mobile)</h1>
+<h2>Summary</h2>
+<p>Microsoft Outlook for iOS and Android is the supported mobile email client for Robotix Technologies. This article explains how to install and configure Outlook on your personal or company-issued mobile device so you can access your Robotix IT email, calendar, and contacts on the go. Your account authenticates through Okta SSO.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>Your mobile device must meet minimum OS requirements: iOS 16 or later, or Android 10 or later.</li>
+<li>If you are setting up a <strong>company-issued</strong> device, it may already be enrolled in Intune. Follow the Company Portal enrollment prompts before adding your email account.</li>
+<li>Have your Robotix IT credentials ready: <code>firstname.lastname@robotix.com</code> and your Okta password.</li>
+<li>Okta Verify must be installed on the same device (or another enrolled device) to approve MFA prompts.</li>
+<li>Personal devices: You may be prompted to allow Intune mobile device management (MDM) policies. This is required to access Robotix IT email and only enforces security policies (PIN, encryption); it does not give IT access to personal data.</li>
+</ul>
+<h2>Steps</h2>
+<h3>iPhone (iOS)</h3>
+<ol>
+<li>Open the <strong>App Store</strong> and search for <strong>Microsoft Outlook</strong>. Tap <strong>Get</strong> to download and install it (it's free).</li>
+<li>Open Outlook. Tap <strong>Add Account</strong> if this is a fresh install, or go to <strong>Settings (gear icon) &gt; Add Account &gt; Add Email Account</strong> if you already have another account in the app.</li>
+<li>Enter your Robotix IT email address (<code>firstname.lastname@robotix.com</code>) and tap <strong>Add Account</strong>.</li>
+<li>You will be redirected to the Okta sign-in page. Enter your Okta password and tap <strong>Sign In</strong>.</li>
+<li>Approve the Okta Verify push notification.</li>
+<li>If prompted to enroll your device in mobile device management, tap <strong>Enroll</strong> and follow the Company Portal prompts. This step is required for corporate email access.</li>
+<li>Grant Outlook permission to send you notifications when asked — this enables new mail alerts.</li>
+<li>Tap <strong>Maybe Later</strong> or <strong>Skip</strong> on the "Add another account" screen when your Robotix IT mailbox appears.</li>
+</ol>
+<h3>Android</h3>
+<ol>
+<li>Open the <strong>Google Play Store</strong> and search for <strong>Microsoft Outlook</strong>. Tap <strong>Install</strong>.</li>
+<li>Open Outlook and tap <strong>Get Started</strong>, then <strong>Add Account</strong>.</li>
+<li>Enter <code>firstname.lastname@robotix.com</code> and tap <strong>Continue</strong>.</li>
+<li>Outlook will open the Okta sign-in page. Enter your password and tap <strong>Sign In</strong>.</li>
+<li>Approve the Okta Verify push notification on your enrolled device.</li>
+<li>If prompted, install and open <strong>Microsoft Intune Company Portal</strong> from the Play Store to complete device enrollment. Follow the on-screen steps, then return to Outlook.</li>
+<li>Allow notification permissions when prompted.</li>
+<li>Your mailbox will begin syncing. Tap <strong>Calendar</strong> at the bottom to verify your Robotix IT calendar appears.</li>
+</ol>
+<h3>Configure Key Settings (Both Platforms)</h3>
+<ul>
+<li><strong>Notifications:</strong> Go to <strong>Settings &gt; Notifications</strong> within Outlook and enable alerts for your inbox.</li>
+<li><strong>Focused Inbox:</strong> Tap <strong>Settings &gt; Focused Inbox</strong> to toggle. Focused Inbox filters high-priority messages; disable it if you prefer a unified view.</li>
+<li><strong>Sync period:</strong> Under <strong>Settings &gt; your account</strong>, set <strong>Sync mail from</strong> to <strong>1 month</strong> or <strong>3 months</strong> based on preference.</li>
+</ul>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Your organization requires a device policy" error</td>
+<td>Install Company Portal and complete Intune enrollment, then reopen Outlook.</td>
+</tr>
+<tr>
+<td>MFA push not arriving</td>
+<td>Open Okta Verify and check your enrolled devices list; re-enroll if the device is missing.</td>
+</tr>
+<tr>
+<td>Email syncs but calendar is empty</td>
+<td>In Outlook Settings, tap your account and ensure <strong>Calendar</strong> sync is enabled.</td>
+</tr>
+<tr>
+<td>"Cannot connect to server" after correct login</td>
+<td>Toggle airplane mode off and on; check that mobile data or Wi-Fi is active.</td>
+</tr>
+<tr>
+<td>Outlook not receiving push notifications on iOS</td>
+<td>Go to iPhone <strong>Settings &gt; Notifications &gt; Outlook</strong> and ensure <strong>Allow Notifications</strong> is on.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Set Up Outlook on Windows and Mac (KB-0200)</li>
+<li>Set Up Automatic Replies (Out of Office) (KB-0205)</li>
+<li>Share Your Calendar or Add a Delegate (KB-0206)</li>
+<li>Fix Teams Audio, Video, or Screen-Share Problems (KB-0212)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

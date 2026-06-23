@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Computer Is Running Slowly — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> TS-05</span><span><b>Category:</b> Troubleshooting</span><span><b>Audience:</b> All</span><span><b>Last updated:</b> 2026-06-22</span><span><b>Tags:</b> troubleshooting, performance, slow, cpu, memory, disk, laptop, dell, macbook, crowdstrike, intune, jamf</span></div>
+<h1>My Computer Is Running Slowly</h1>
+<p>Use this guide to diagnose and improve performance on a Robotix IT-managed laptop (Dell Latitude 7440 or MacBook Pro 14") that is running slower than expected.</p>
+<hr />
+<h2>Start Here</h2>
+<p>Before diving in, characterize the slowness:</p>
+<ul>
+<li><strong>Is everything slow</strong> (startup, opening apps, typing) or <strong>only specific tasks</strong> (a particular app, video calls, large files)?</li>
+<li><strong>When did it start?</strong> Gradually over time, after a specific update, or suddenly today?</li>
+<li><strong>How old is the laptop?</strong> Check the asset tag — if it is approaching 4–5 years of service, hardware upgrades may be warranted.</li>
+<li><strong>Are system updates pending?</strong> Check Windows Update or macOS Software Update.</li>
+</ul>
+<p>Run a restart first if you have not done so today — many performance issues are resolved by a simple restart.</p>
+<hr />
+<h2>Step-by-Step Diagnostic Flow</h2>
+<h3>1. Have you restarted your laptop today?</h3>
+<p><strong>If no →</strong> Restart now using <strong>Start &gt; Power &gt; Restart</strong> (Windows) or <strong>Apple menu &gt; Restart</strong> (Mac). Do not simply close the lid (sleep mode) — a full restart clears memory, releases handles, and applies pending updates.</p>
+<p><strong>Did restarting improve performance significantly?</strong></p>
+<p><strong>If yes →</strong> You likely had a memory leak or accumulated background processes. Make a habit of restarting at least once per week. Monitor for recurrence.</p>
+<p><strong>If no →</strong> Proceed to Step 2.</p>
+<hr />
+<h3>2. Are system updates pending?</h3>
+<p>Pending updates (including driver updates) can cause background processing that slows the system significantly. Apply all updates before further troubleshooting.</p>
+<p><strong>Windows:</strong> Go to <strong>Settings &gt; Windows Update</strong> and click <strong>Check for updates</strong>. Install all available updates, then restart if prompted. Also check <strong>Company Portal</strong> for any pending Intune-managed software updates.</p>
+<p><strong>Mac:</strong> Go to <strong>System Settings &gt; General &gt; Software Update</strong>. Install all available updates. Also check <strong>Self Service</strong> for any pending Jamf-managed deployments.</p>
+<p><strong>Did installing updates and restarting resolve the slowness?</strong></p>
+<p><strong>If yes →</strong> A background update process was consuming resources. No further action needed.</p>
+<p><strong>If no →</strong> Proceed to Step 3.</p>
+<hr />
+<h3>3. Check CPU and memory usage.</h3>
+<p><strong>Windows:</strong> Press <strong>Ctrl + Shift + Esc</strong> to open Task Manager. Click the <strong>Performance</strong> tab to see overall CPU and memory usage. Then click <strong>Processes</strong> to see which applications or processes are at the top.</p>
+<p><strong>Mac:</strong> Open <strong>Activity Monitor</strong> (Applications &gt; Utilities &gt; Activity Monitor). Check the <strong>CPU</strong> and <strong>Memory</strong> tabs. Sort by <strong>% CPU</strong> or <strong>Memory</strong> to identify the top consumers.</p>
+<p><strong>Is a single process consuming more than 50% CPU or nearly all available RAM?</strong></p>
+<p><strong>If yes, a known application (Outlook, Teams, browser) →</strong> Proceed to Step 4.</p>
+<p><strong>If yes, an unfamiliar process name →</strong> This could indicate a security issue. Note the process name and contact the Service Desk — do not attempt to end the process yourself if you do not recognize it.</p>
+<p><strong>If no (CPU and memory look normal) →</strong> Proceed to Step 5.</p>
+<hr />
+<h3>4. Is a specific high-CPU application causing the slowness?</h3>
+<ul>
+<li><strong>Browser (Chrome/Edge):</strong> Too many open tabs are the most common cause of memory exhaustion. Close tabs you are not actively using, or use the browser's built-in "put tabs to sleep" feature. Consider installing uBlock Origin (approved extension — available in Company Portal) to reduce ad-related CPU load on web pages.</li>
+<li><strong>Microsoft Teams:</strong> Teams is known to be memory-intensive. Ensure it is up to date. Close extra Teams windows and disable hardware acceleration if on an older docking station (Teams settings &gt; General &gt; uncheck "Disable GPU hardware acceleration").</li>
+<li><strong>OneDrive sync:</strong> If OneDrive is actively syncing a large batch of files, it can spike CPU and disk I/O. Check the OneDrive icon in the taskbar for sync activity. Wait for it to complete.</li>
+</ul>
+<p><strong>Did addressing the high-CPU application improve performance?</strong></p>
+<p><strong>If yes →</strong> Monitor and manage resource-heavy apps proactively.</p>
+<p><strong>If no →</strong> Proceed to Step 5.</p>
+<hr />
+<h3>5. Check available disk space.</h3>
+<p>Low disk space severely degrades performance, especially on the Windows system drive.</p>
+<p><strong>Windows:</strong> Open <strong>File Explorer</strong>, right-click <strong>Local Disk (C:)</strong>, and select <strong>Properties</strong> to see free space. You should have at least <strong>10 GB</strong> free. If less: empty the Recycle Bin, run <strong>Disk Cleanup</strong> (search in Start menu), and move large personal files to <strong>OneDrive</strong> (1 TB available).</p>
+<p><strong>Mac:</strong> Go to <strong>Apple menu &gt; About This Mac &gt; Storage</strong>. You should have at least <strong>10 GB</strong> free. Remove large files or move them to OneDrive. Use the <strong>Manage</strong> button to see storage optimization recommendations.</p>
+<p><strong>Did freeing disk space improve performance?</strong></p>
+<p><strong>If yes →</strong> Establish a habit of storing files in OneDrive rather than locally.</p>
+<p><strong>If no →</strong> Proceed to Step 6.</p>
+<hr />
+<h3>6. Check whether CrowdStrike or Intune/Jamf is running a scan or policy update.</h3>
+<p>CrowdStrike Falcon, Intune, and Jamf occasionally run intensive background tasks (full disk scans, software deployments, policy re-applications) that can temporarily slow the system. These are typically scheduled during off-hours but may run during business hours after a delay.</p>
+<p><strong>Windows:</strong> Open Task Manager &gt; Processes and look for <code>csfalconservice.exe</code>, <code>intunemanagementextension.exe</code>, or <code>msiexec.exe</code> with high CPU/disk.</p>
+<p><strong>Mac:</strong> In Activity Monitor, look for <code>falcond</code>, <code>jamfagent</code>, or <code>softwareupdated</code> at the top of the list.</p>
+<p><strong>If one of these is at the top →</strong> Wait 15–30 minutes for the background task to complete. Do not force-quit these processes — they are security-critical. If the high usage lasts more than 2 hours, submit a ticket.</p>
+<p><strong>If none of these are responsible →</strong> Proceed to Step 7.</p>
+<hr />
+<h3>7. Run Windows built-in diagnostics (Windows only).</h3>
+<p>Search the Start menu for <strong>"Performance Monitor"</strong> or run <code>perfmon /report</code> in the Run dialog (Win + R). This generates a system diagnostic report. Also check <strong>Reliability Monitor</strong> (search Start menu) for a timeline of crashes, warnings, and errors that correlate with when the slowness started.</p>
+<p><strong>Did the report identify a specific cause?</strong> Note the finding and include it in your support ticket.</p>
+<p><strong>Mac:</strong> In <strong>Console</strong> (Applications &gt; Utilities), look for repeated kernel panics, disk I/O errors, or thermal throttling messages in the system log.</p>
+<hr />
+<h3>8. Is the laptop very hot to the touch, or is the fan running at full speed continuously?</h3>
+<p>Thermal throttling occurs when the CPU reduces its speed to prevent damage from overheating.</p>
+<p><strong>If yes →</strong>
+- Ensure the laptop vents are not obstructed (do not use on soft surfaces like beds or sofas).
+- Clean dust from the vents using compressed air if accessible.
+- Dell Latitude: use on a flat, hard surface or a cooling pad.
+- If overheating continues, submit a ticket — the thermal paste may need reapplication or the cooling system may be failing.</p>
+<p><strong>If no →</strong> Proceed to Step 9.</p>
+<hr />
+<h3>9. How old is this laptop, and has it ever had a hardware upgrade?</h3>
+<p>Robotix IT standard refresh cycle is <strong>4 years</strong>. If your laptop is approaching or past this age:</p>
+<ul>
+<li>Submit a <strong>Hardware Refresh Request</strong> via <a href="https://help.robotix.com">https://help.robotix.com</a> under <strong>Hardware &gt; Refresh Request</strong>.</li>
+<li>Include your asset tag, purchase date (the Service Desk can look this up), and a description of the performance issues.</li>
+</ul>
+<hr />
+<h2>Quick Checklist</h2>
+<p>Before calling the Service Desk, confirm you have tried:</p>
+<ul>
+<li>[ ] Restarted the laptop (full restart, not sleep/wake)</li>
+<li>[ ] Applied all pending Windows / macOS updates and restarted</li>
+<li>[ ] Checked Task Manager / Activity Monitor for high CPU or memory processes</li>
+<li>[ ] Addressed known resource-heavy apps (Teams, browser tabs, OneDrive sync)</li>
+<li>[ ] Verified at least 10 GB of free disk space on the system drive</li>
+<li>[ ] Waited for CrowdStrike / Intune / Jamf background tasks to complete</li>
+<li>[ ] Confirmed laptop is not overheating (hot vents, max fan speed)</li>
+<li>[ ] Checked laptop age against the 4-year refresh cycle</li>
+</ul>
+<hr />
+<h2>When to Contact the Service Desk</h2>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Laptop is completely unusable (near-zero responsiveness, blocking all work)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>Unknown process consuming high CPU/disk (possible security issue)</td>
+<td><strong>P2 – High</strong></td>
+</tr>
+<tr>
+<td>Gradual slowness over time, all self-service steps exhausted</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+<tr>
+<td>Laptop is past the 4-year refresh cycle</td>
+<td><strong>P4 – Low</strong> (Refresh Request)</td>
+</tr>
+<tr>
+<td>Slow only on specific tasks (e.g., video calls)</td>
+<td><strong>P3 – Medium</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Contact options:</strong>
+- Portal: <a href="https://help.robotix.com">https://help.robotix.com</a>
+- Email: <a href="mailto:servicedesk@robotix.com">servicedesk@robotix.com</a>
+- Phone: <strong>+1 (800) 555-7866</strong>
+- Slack: <strong>#it-help</strong></p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Open and Use a Shared Mailbox in Outlook — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0208</span><span><b>Category:</b> Email &amp; Microsoft 365</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2026-03-05</span><span><b>Tags:</b> outlook, shared mailbox, email, delegate, team inbox</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>Open and Use a Shared Mailbox in Outlook</h1>
+<h2>Summary</h2>
+<p>A shared mailbox allows a team to read and send email from a common address (e.g., support@robotix.com or helpdesk@robotix.com) without needing a shared password. Once your manager or the Service Desk grants you access, the shared mailbox appears in Outlook automatically or can be added manually. This article covers how to open, send from, and manage a shared mailbox.</p>
+<h2>Before You Begin</h2>
+<ul>
+<li>You must be granted access to the shared mailbox before you can open it. Access is provisioned by the Service Desk upon request from the mailbox owner or your manager. Submit a request at https://help.robotix.com.</li>
+<li>After access is granted, allow up to 30 minutes for the mailbox to appear automatically in Outlook.</li>
+<li>Shared mailboxes do not consume your personal mailbox storage quota.</li>
+<li>You need an active Robotix IT Microsoft 365 account and must be signed in to Outlook with your <code>firstname.lastname@robotix.com</code> credentials.</li>
+</ul>
+<h2>Steps</h2>
+<h3>Open a Shared Mailbox — Automatic (Outlook on Windows and macOS)</h3>
+<p>If you have been granted access, the shared mailbox will typically appear automatically in Outlook's left pane under your personal mailbox within 30 minutes.</p>
+<ol>
+<li>Close and reopen Outlook to trigger a sync.</li>
+<li>Look in the left pane for the shared mailbox listed below your personal folders (e.g., <strong>helpdesk@robotix.com</strong>).</li>
+<li>Expand it to see <strong>Inbox</strong>, <strong>Sent Items</strong>, <strong>Deleted Items</strong>, and other folders.</li>
+</ol>
+<h3>Add a Shared Mailbox Manually (Outlook on Windows)</h3>
+<p>If the mailbox does not appear automatically:
+1. Click <strong>File &gt; Account Settings &gt; Account Settings</strong>.
+2. Select your Robotix IT account and click <strong>Change</strong>.
+3. Click <strong>More Settings</strong>, then select the <strong>Advanced</strong> tab.
+4. Under <strong>Open these additional mailboxes</strong>, click <strong>Add</strong>.
+5. Type the shared mailbox email address (e.g., <code>helpdesk@robotix.com</code>) and click <strong>OK</strong>.
+6. Click <strong>OK</strong>, <strong>Next</strong>, and <strong>Finish</strong>. Restart Outlook — the shared mailbox will appear in your folder pane.</p>
+<h3>Add a Shared Mailbox Manually (Outlook on macOS)</h3>
+<ol>
+<li>Go to <strong>Tools &gt; Accounts</strong> in the menu bar.</li>
+<li>Select your Robotix IT account on the left.</li>
+<li>Click <strong>Advanced</strong> at the bottom.</li>
+<li>In the <strong>Delegates</strong> tab, under "Open these additional mailboxes," click <strong>+</strong> and search for the shared mailbox address.</li>
+<li>Click <strong>OK</strong> and close the Accounts window. The mailbox will appear in your sidebar.</li>
+</ol>
+<h3>Open a Shared Mailbox in Outlook on the Web</h3>
+<ol>
+<li>Go to https://outlook.office.com and sign in via Okta.</li>
+<li>Right-click <strong>Folders</strong> in the left pane and choose <strong>Add shared folder or mailbox</strong>.</li>
+<li>Type the shared mailbox email address and click <strong>Add</strong>.</li>
+<li>The shared mailbox appears under your folder list and is expanded on the next page load.</li>
+</ol>
+<h3>Send Email From a Shared Mailbox</h3>
+<p>When you send email from a shared mailbox, it should go out as the shared address (e.g., helpdesk@robotix.com), not your personal address.</p>
+<p><strong>Outlook on Windows:</strong>
+1. Open a new email (New Email or New Message).
+2. If the <strong>From</strong> field is not visible, click <strong>Options &gt; From</strong> to display it.
+3. Click <strong>From</strong> and select <strong>Other Email Address…</strong>
+4. Type the shared mailbox address and click <strong>OK</strong>. The From field now shows the shared address.
+5. Going forward, Outlook will remember this sender — just click the <strong>From</strong> dropdown and select the shared address.</p>
+<p><strong>Outlook on macOS:</strong>
+1. Open a new email.
+2. Click the <strong>From</strong> field dropdown (your email address appears there by default).
+3. Select the shared mailbox address from the list.</p>
+<p><strong>Outlook on the Web:</strong>
+1. Click <strong>New mail</strong>.
+2. Click <strong>...</strong> (More options) at the top of the compose window, then click <strong>Show From</strong>.
+3. Click in the From field, delete your address, and type the shared mailbox address, then select it.</p>
+<h3>Reply to Email in the Shared Mailbox</h3>
+<p>To reply from the shared address (not your personal address):
+1. Open the message from the <strong>shared mailbox Inbox</strong> (not from your personal Inbox).
+2. Click <strong>Reply</strong>. Outlook automatically uses the shared mailbox as the From address.
+3. If it still shows your personal address, use the From field dropdown to switch to the shared mailbox address.</p>
+<h3>Best Practices for Shared Mailboxes</h3>
+<ul>
+<li>Mark messages as <strong>Read</strong> after you or a teammate has handled them — it helps the whole team track what is outstanding.</li>
+<li>Use <strong>Categories</strong> (right-click &gt; Categorize) to flag who is handling a message.</li>
+<li>Never move items from the shared mailbox Inbox to your personal Inbox — keep everything within the shared mailbox folders.</li>
+<li>Check the shared mailbox's <strong>Sent Items</strong> to confirm all outgoing messages are recorded there (this depends on how the mailbox was configured — ask the Service Desk if Sent Items aren't saving).</li>
+</ul>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Symptom</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shared mailbox is not appearing after 30 minutes</td>
+<td>Confirm with the Service Desk that access was provisioned correctly, then add manually using the steps above.</td>
+</tr>
+<tr>
+<td>"You do not have permission to send on behalf of the specified user" error</td>
+<td>Your account may have "Send on Behalf" permissions only, not "Send As." Contact the Service Desk to request the correct permission.</td>
+</tr>
+<tr>
+<td>Sent Items from the shared mailbox don't appear in the shared Sent Items</td>
+<td>The Service Desk must enable "Store sent messages in the shared mailbox" — submit a request at https://help.robotix.com.</td>
+</tr>
+<tr>
+<td>Cannot see the shared mailbox on mobile (Outlook app)</td>
+<td>Shared mailboxes are not directly added on mobile but you can access them at https://outlook.office.com from a mobile browser, or ask the Service Desk about adding the mailbox as a separate account on your device.</td>
+</tr>
+</tbody>
+</table>
+<h2>Related Articles</h2>
+<ul>
+<li>Share Your Calendar or Add a Delegate (KB-0206)</li>
+<li>Set Up Outlook on Windows and Mac (KB-0200)</li>
+<li>Recover a Deleted Email or Calendar Item (KB-0207)</li>
+<li>Set Up Automatic Replies (Out of Office) (KB-0205)</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>

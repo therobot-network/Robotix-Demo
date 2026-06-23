@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>What to Do If You Clicked a Suspicious Link or Attachment — Robotix IT Service Desk</title>
+<style>
+:root{--accent:#1f6feb;--ink:#1c2128;--muted:#57606a;--line:#d0d7de;--bg:#f6f8fa}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+color:var(--ink);line-height:1.6;max-width:820px;margin:0 auto;padding:2.5rem 1.5rem 4rem}
+h1{font-size:1.9rem;line-height:1.25;margin:.2rem 0 1rem;border-bottom:2px solid var(--line);padding-bottom:.5rem}
+h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--line);padding-bottom:.3rem}
+h3{font-size:1.08rem;margin-top:1.4rem}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{background:var(--bg);padding:.15em .4em;border-radius:5px;font-size:.9em;
+font-family:"SF Mono",Menlo,Consolas,monospace}
+pre{background:var(--bg);padding:1rem;border-radius:8px;overflow:auto;border:1px solid var(--line)}
+pre code{background:none;padding:0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.94rem}
+th,td{border:1px solid var(--line);padding:.5rem .7rem;text-align:left;vertical-align:top}
+th{background:var(--bg)}
+blockquote{border-left:4px solid var(--accent);margin:1rem 0;padding:.2rem 1rem;color:var(--muted);background:var(--bg)}
+hr{border:none;border-top:1px solid var(--line);margin:2rem 0}
+.meta{background:var(--bg);border:1px solid var(--line);border-radius:10px;
+padding:.8rem 1.1rem;margin-bottom:1.8rem;font-size:.86rem;color:var(--muted);
+display:flex;flex-wrap:wrap;gap:.4rem 1.4rem}
+.meta b{color:var(--ink);font-weight:600}
+.footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);
+font-size:.82rem;color:var(--muted)}
+</style></head><body>
+<div class="meta"><span><b>ID:</b> KB-0701</span><span><b>Category:</b> Security</span><span><b>Audience:</b> End User</span><span><b>Last updated:</b> 2025-11-03</span><span><b>Tags:</b> phishing, malware, incident response, suspicious link, attachment, clicked</span><span><b>Applies to:</b> Windows 11, macOS, Web</span></div>
+<h1>What to Do If You Clicked a Suspicious Link or Attachment</h1>
+<h2>Summary</h2>
+<p>If you clicked a link or opened an attachment from a suspicious email, text, or website, act immediately. Fast action limits the damage. This article walks you through exactly what to do in the first 10 minutes.</p>
+<h2>Why This Matters</h2>
+<p>A single click can hand attackers your credentials, install keyloggers or ransomware, or give them remote access to your device — and through your device, to Robotix IT's network. Speed matters: the sooner the SOC is notified, the sooner they can contain the threat before it spreads.</p>
+<h2>Steps</h2>
+<h3>Step 1 — Stop and disconnect (within the first 2 minutes)</h3>
+<ol>
+<li><strong>Do not click anything else on the page or in the file.</strong> Close the browser tab or document immediately.</li>
+<li>If a page asked you to enter your Okta, Microsoft 365, or any other password and you typed it: note this — you will need to report it in Step 3.</li>
+<li><strong>Disconnect from the network:</strong>
+   - <strong>Wi-Fi:</strong> Click the Wi-Fi icon in your taskbar (Windows) or menu bar (macOS) and select <strong>Disconnect</strong> or turn Wi-Fi off.
+   - <strong>Wired:</strong> Unplug the Ethernet cable from your laptop or dock.
+   - Do <strong>not</strong> power off the device — this can destroy forensic evidence the SOC needs.</li>
+</ol>
+<h3>Step 2 — Contact the SOC immediately</h3>
+<ol>
+<li>From another device (your phone or a colleague's computer), call the Robotix Service Desk: <strong>+1 (800) 555-7866</strong> and say "I clicked a suspicious link on my work laptop."</li>
+<li>Or email <code>soc@robotix.com</code> from your personal email. Include:
+   - Your name and employee ID (SUM-#####)
+   - Your laptop asset tag (SUM-LT-##### label on the bottom of the device)
+   - The approximate time you clicked the link
+   - What happened after (page loaded, file opened, you entered a password, pop-up appeared, etc.)
+   - The URL or sender address if you can recall it</li>
+<li>The SOC is available 24/7 for security incidents.</li>
+</ol>
+<h3>Step 3 — Change passwords if you entered credentials</h3>
+<p>If you typed any password after clicking the link, change it immediately <strong>from a different, unaffected device</strong>:</p>
+<ol>
+<li>Go to https://robotix.okta.com from your phone or another computer.</li>
+<li>Sign in and navigate to your account settings to change your Okta password.</li>
+<li>If you reuse that password anywhere else (you should not — see KB-0705), change it on those sites too.</li>
+<li>Tell the SOC which accounts may be compromised when you contact them in Step 2.</li>
+</ol>
+<h3>Step 4 — Leave your device on and available for the SOC</h3>
+<ol>
+<li>Keep the device powered on and plugged in (but disconnected from the network).</li>
+<li>Do not attempt to run antivirus scans yourself — CrowdStrike Falcon is already monitoring the device, and the SOC will direct next steps.</li>
+<li>Do not wipe or factory-reset the device without SOC instruction.</li>
+<li>The SOC or a Desktop team member will contact you to perform remote triage or collect the device.</li>
+</ol>
+<h3>Step 5 — Document what happened</h3>
+<p>While your memory is fresh, write down:</p>
+<ul>
+<li>The email sender address and subject line (or the website URL)</li>
+<li>The time and date</li>
+<li>Exactly what you clicked (link text, button label, file name)</li>
+<li>What appeared on screen afterward</li>
+<li>Whether you entered any information</li>
+</ul>
+<p>This helps the SOC investigation and your incident report.</p>
+<h2>Troubleshooting / Warning Signs</h2>
+<ul>
+<li><strong>Pop-up says your computer is infected and asks you to call a number:</strong> This is a tech-support scam. Do not call the number. Close the browser tab (or force-quit the browser). Contact the SOC.</li>
+<li><strong>Screen locks with a ransom message:</strong> This may be ransomware. Do not pay. See KB-0704 immediately.</li>
+<li><strong>CrowdStrike Falcon shows an alert on screen:</strong> Follow the on-screen instructions and contact the SOC. Do not dismiss the alert.</li>
+<li><strong>Browser redirected to a Microsoft or Google login page:</strong> You may have entered credentials into a fake login. Treat this as a credential compromise — complete Step 3 immediately.</li>
+<li><strong>Nothing seemed to happen after clicking:</strong> That does not mean nothing occurred. Malware can install silently. Still contact the SOC.</li>
+</ul>
+<h2>Related Articles</h2>
+<ul>
+<li>KB-0700: Report a Phishing Email with the Report Phishing Button</li>
+<li>KB-0702: How to Recognize Phishing and Social Engineering</li>
+<li>KB-0703: Report Suspected Malware or a Virus on Your Device</li>
+<li>KB-0704: Ransomware: What to Do If You See a Ransom Message</li>
+</ul>
+<h2>Still Need Help?</h2>
+<p>Contact the Robotix Service Desk: https://help.robotix.com · servicedesk@robotix.com · +1 (800) 555-7866 · Slack #it-help — for security incidents, contact soc@robotix.com immediately.</p>
+<div class="footer">Robotix IT Service Desk · Synthetic knowledge base · This document is fictional sample data.</div>
+</body></html>
